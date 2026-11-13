@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Génère le site FestiGuide à partir de festivals.json."""
+"""Génère le site Proxynet à partir de festivals.json."""
 import hashlib, html, json, shutil, sys, unicodedata
 from pathlib import Path
 
 esc = lambda s: html.escape(str(s), quote=True)
-SITE = "FestiGuide"
+SITE = "Proxynet"
 UPDATED = "13 novembre 2026"
 BASE_URL = "https://lanfus.github.io/festiguide"
 EDITEUR = "Florent H."
@@ -62,11 +62,11 @@ def ics(f):
     from datetime import date, timedelta
     a, b = (date.fromisoformat(x) for x in f["iso"])
     e = lambda s: str(s).replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,")
-    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//FestiGuide//FR", "CALSCALE:GREGORIAN", "BEGIN:VEVENT",
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Proxynet//FR", "CALSCALE:GREGORIAN", "BEGIN:VEVENT",
              f"UID:{f['slug']}-{a:%Y%m%d}@lanfus.github.io", "DTSTAMP:20261113T000000Z",
              f"DTSTART;VALUE=DATE:{a:%Y%m%d}", f"DTEND;VALUE=DATE:{(b + timedelta(days=1)):%Y%m%d}",
              f"SUMMARY:{e(f['name'])}", f"LOCATION:{e(f.get('venue') or f.get('city') or '')}",
-             f"DESCRIPTION:{e('Fiche FestiGuide : ' + BASE_URL + '/' + f['slug'] + '.html')}",
+             f"DESCRIPTION:{e('Fiche Proxynet : ' + BASE_URL + '/' + f['slug'] + '.html')}",
              f"URL:{f.get('official') or BASE_URL + '/' + f['slug'] + '.html'}", "END:VEVENT", "END:VCALENDAR"]
     return "\r\n".join(lines) + "\r\n"
 

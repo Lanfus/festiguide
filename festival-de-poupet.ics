@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:festival-de-poupet-20270630@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270724
 SUMMARY:Festival de Poupet
 LOCATION:Saint-Malô-du-Bois
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-de-poupet.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/festival-de-poupet.html
 URL:https://www.festival-poupet.com/
 END:VEVENT
 END:VCALENDAR

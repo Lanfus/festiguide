@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:carnaval-de-chalon-20270226@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270308
 SUMMARY:Carnaval de Chalon-sur-Saône
 LOCATION:Centre de Chalon-sur-Saône
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/carnaval-de-chalon.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/carnaval-de-chalon.html
 URL:https://www.carnavaldechalon.com/
 END:VEVENT
 END:VCALENDAR

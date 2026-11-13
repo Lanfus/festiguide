@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:gentse-feesten-20270716@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270726
 SUMMARY:Gentse Feesten
 LOCATION:Centre-ville de Gand
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/gentse-feesten.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/gentse-feesten.html
 URL:https://visit.gent.be/en/calendar/ghent-festivities
 END:VEVENT
 END:VCALENDAR

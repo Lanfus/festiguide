@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:carnaval-de-granville-20270205@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270210
 SUMMARY:Carnaval de Granville
 LOCATION:Granville
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/carnaval-de-granville.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/carnaval-de-granville.html
 URL:https://www.carnaval-de-granville.fr/
 END:VEVENT
 END:VCALENDAR

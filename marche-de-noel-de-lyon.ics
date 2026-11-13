@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:marche-de-noel-de-lyon-20261120@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261225
 SUMMARY:Marché de Noël de Lyon
 LOCATION:Place Carnot\, Lyon
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/marche-de-noel-de-lyon.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/marche-de-noel-de-lyon.html
 URL:https://www.lyon.fr/actualite/commerce-et-economie/marche-de-noel-de-lyon
 END:VEVENT
 END:VCALENDAR

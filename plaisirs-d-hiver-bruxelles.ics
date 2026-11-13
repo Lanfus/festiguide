@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:plaisirs-d-hiver-bruxelles-20261127@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20270104
 SUMMARY:Plaisirs d'Hiver
 LOCATION:Centre de Bruxelles
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/plaisirs-d-hiver-bruxelles.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/plaisirs-d-hiver-bruxelles.html
 URL:https://winterpret.be/
 END:VEVENT
 END:VCALENDAR

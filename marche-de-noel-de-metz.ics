@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:marche-de-noel-de-metz-20261120@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261231
 SUMMARY:Marché de Noël de Metz
 LOCATION:Places du centre de Metz
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/marche-de-noel-de-metz.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/marche-de-noel-de-metz.html
 URL:https://noelametz.fr/
 END:VEVENT
 END:VCALENDAR

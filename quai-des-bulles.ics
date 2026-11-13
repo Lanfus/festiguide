@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:quai-des-bulles-20271029@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271101
 SUMMARY:Quai des Bulles
 LOCATION:Saint-Malo
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/quai-des-bulles.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/quai-des-bulles.html
 URL:http://festival.quaidesbulles.com/
 END:VEVENT
 END:VCALENDAR

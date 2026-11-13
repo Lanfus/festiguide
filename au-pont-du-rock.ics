@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:au-pont-du-rock-20270730@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270801
 SUMMARY:Au Pont du Rock
 LOCATION:Malestroit
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/au-pont-du-rock.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/au-pont-du-rock.html
 URL:https://www.festival-aupontdurock.com/
 END:VEVENT
 END:VCALENDAR

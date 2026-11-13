@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:jazz-a-juan-20270708@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270708
 DTEND;VALUE=DATE:20270719
 SUMMARY:Jazz à Juan
 LOCATION:Pinède Gould\, Juan-les-Pins
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/jazz-a-juan.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/jazz-a-juan.html
 URL:https://jazzajuan.com/en/
 END:VEVENT
 END:VCALENDAR

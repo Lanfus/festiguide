@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:bobital-20270625@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270628
 SUMMARY:Bobital L'Armor à Sons
 LOCATION:Bobital\, Côtes-d'Armor
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/bobital.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/bobital.html
 URL:https://bobital-festival.fr/
 END:VEVENT
 END:VCALENDAR

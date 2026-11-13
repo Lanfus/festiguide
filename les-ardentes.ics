@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:les-ardentes-20270701@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270705
 SUMMARY:Les Ardentes
 LOCATION:Site de Rocourt (Plaine de la Tonne)\, Liège
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/les-ardentes.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/les-ardentes.html
 URL:https://www.lesardentes.be
 END:VEVENT
 END:VCALENDAR

@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:cabaret-vert-20270819@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270819
 DTEND;VALUE=DATE:20270823
 SUMMARY:Le Cabaret Vert
 LOCATION:Square Bayard\, Charleville-Mézières (bords de la Meuse)
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/cabaret-vert.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/cabaret-vert.html
 URL:https://cabaretvert.com/
 END:VEVENT
 END:VCALENDAR

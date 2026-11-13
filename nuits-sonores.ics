@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FestiGuide//FR
+PRODID:-//Proxynet//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:nuits-sonores-20270505@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270510
 SUMMARY:Nuits sonores
 LOCATION:Les Grandes Locos (La Mulatière) pour les Days \; La Sucrière (Lyon) pour les Nuits
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/nuits-sonores.html
+DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/nuits-sonores.html
 URL:https://nuits-sonores.com/
 END:VEVENT
 END:VCALENDAR
