@@ -16,6 +16,10 @@ MOIS_ORDRE = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
               "août", "septembre", "octobre", "novembre", "décembre"]
 
 
+ABBR = {"janvier": "janv.", "février": "févr.", "avril": "avr.", "juillet": "juil.", "septembre": "sept.",
+        "octobre": "oct.", "novembre": "nov.", "décembre": "déc."}
+
+
 def norm(s):
     s = unicodedata.normalize("NFD", str(s))
     return "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
@@ -27,6 +31,40 @@ def tri_key(f):
     mois = f.get("mois") or []
     i = MOIS_ORDRE.index(mois[0]) if mois and mois[0] in MOIS_ORDRE else 99
     return (1, f"{i:02d}")
+
+
+def is_free(f):
+    """Entrée libre : seulement si le libellé de prix le dit (Cannes a price_from 0 mais reste sur accréditation)."""
+    return norm(f.get("price_label") or "").startswith(("gratuit", "entree libre"))
+
+
+def prix_num(f):
+    p = f.get("price_from")
+    if p is None or (p == 0 and not is_free(f)):
+        return None
+    return p
+
+
+def duree(f):
+    from datetime import date
+    if not f.get("iso"):
+        return None
+    a, b = (date.fromisoformat(x) for x in f["iso"])
+    return (b - a).days + 1
+
+
+def ics(f):
+    """Fichier agenda (.ics) généré pour les festivals aux dates confirmées. Aucun service tiers."""
+    from datetime import date, timedelta
+    a, b = (date.fromisoformat(x) for x in f["iso"])
+    e = lambda s: str(s).replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,")
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//FestiGuide//FR", "CALSCALE:GREGORIAN", "BEGIN:VEVENT",
+             f"UID:{f['slug']}-{a:%Y%m%d}@lanfus.github.io", "DTSTAMP:20261113T000000Z",
+             f"DTSTART;VALUE=DATE:{a:%Y%m%d}", f"DTEND;VALUE=DATE:{(b + timedelta(days=1)):%Y%m%d}",
+             f"SUMMARY:{e(f['name'])}", f"LOCATION:{e(f.get('venue') or f.get('city') or '')}",
+             f"DESCRIPTION:{e('Fiche FestiGuide : ' + BASE_URL + '/' + f['slug'] + '.html')}",
+             f"URL:{f.get('official') or BASE_URL + '/' + f['slug'] + '.html'}", "END:VEVENT", "END:VCALENDAR"]
+    return "\r\n".join(lines) + "\r\n"
 
 
 def make_title(f):
@@ -117,8 +155,12 @@ def build(fests):
         searchable = " ".join(filter(None, [f["name"], f.get("city"), f.get("region"), f.get("venue")]))
         badge = "ok" if f.get("status") == "Dates annoncées" else "warn"
         prix = f.get("price_label") or "Tarifs non publiés"
-        cards += f'''<article class="card" data-name="{esc(norm(searchable))}" data-mois="{esc(" ".join(f.get("mois") or []))}" data-region="{esc(f.get("region") or "")}" data-genres="{esc("|".join(f.get("genres") or []))}">
+        pn = prix_num(f)
+        cd = f'<span class="cd" data-start="{f["iso"][0]}" data-end="{f["iso"][1]}"></span>' if f.get("iso") else ""
+        free = '<span class="badge free">Gratuit</span>' if is_free(f) else ""
+        cards += f'''<article class="card" data-i="{len(cards.split("</article>")) - 1}" data-price="{"" if pn is None else pn}" data-free="{1 if is_free(f) else 0}" data-name="{esc(norm(searchable))}" data-mois="{esc(" ".join(f.get("mois") or []))}" data-region="{esc(f.get("region") or "")}" data-genres="{esc("|".join(f.get("genres") or []))}">
   <div class="card-top"><span class="pill">{esc(" / ".join(m.capitalize() for m in (f.get("mois") or ["Date à venir"])))}</span><span class="country">{esc(f.get("region") or f.get("country"))}</span></div>
+  <p class="cdline">{cd}{free}</p>
   <h3><a href="{f["slug"]}.html">{esc(f["name"])}</a></h3>
   <p class="meta">📍 {esc(f.get("city") or "")}</p>
   <p class="meta">📅 {esc(f.get("dates") or "À confirmer")} <span class="badge {badge}">{esc(f.get("status") or "")}</span></p>
@@ -127,6 +169,15 @@ def build(fests):
   <a class="btn" href="{f["slug"]}.html">Voir la fiche</a>
 </article>
 '''
+    mcount = {m: sum(1 for f in fests if m in (f.get("mois") or [])) for m in mois_dispo}
+    gcount = {}
+    for f in fests:
+        for g in (f.get("genres") or []):
+            gcount[g] = gcount.get(g, 0) + 1
+    top_g = sorted(gcount, key=lambda g: (-gcount[g], norm(g)))[:8]
+    months_html = "".join(f'<button type="button" class="mt" data-m="{m}"><span>{ABBR.get(m, m)}</span><b>{mcount[m]}</b></button>' for m in mois_dispo)
+    genres_html = "".join(f'<button type="button" class="gc" data-g="{esc(g)}">{esc(g)} <b>{gcount[g]}</b></button>' for g in top_g)
+    nb_free = sum(1 for f in fests if is_free(f))
     opt = lambda vals: "".join(f"<option>{esc(v)}</option>" for v in vals)
     nb_annonces = sum(1 for f in fests if f.get("status") == "Dates annoncées")
     idx = head(
@@ -137,12 +188,24 @@ def build(fests):
 <section class="hero"><div class="wrap">
 <h1>Les grands festivals, au même endroit</h1>
 <p>Dates, lieux, prix, artistes et plans : {len(fests)} festivals de France et de Belgique, dont {nb_annonces} aux dates déjà confirmées.</p>
+<ul class="stats">
+<li><b>{len(fests)}</b><span>festivals</span></li>
+<li><b>{nb_annonces}</b><span>dates confirmées</span></li>
+<li><b>{len(regions)}</b><span>régions</span></li>
+<li><b>{len(gcount)}</b><span>styles</span></li>
+</ul>
 </div></section>
 <section class="wrap filters" aria-label="Filtres">
 <input id="q" type="search" placeholder="Festival, ville ou région…" aria-label="Rechercher">
 <select id="mois" aria-label="Mois"><option value="">Tous les mois</option>{opt(mois_dispo)}</select>
 <select id="region" aria-label="Région"><option value="">Toutes les régions</option>{opt(regions)}</select>
 <select id="genre" aria-label="Genre"><option value="">Tous les genres</option>{opt(genres)}</select>
+<select id="budget" aria-label="Budget"><option value="">Tous les budgets</option><option value="free">Entrée libre</option><option value="30">Dès 30 € ou moins</option><option value="80">Dès 80 € ou moins</option></select>
+<select id="tri" aria-label="Trier"><option value="date">Tri : prochaine édition</option><option value="prix">Tri : prix croissant</option><option value="az">Tri : A → Z</option></select>
+</section>
+<section class="wrap quick" aria-label="Raccourcis">
+<div class="months" role="group" aria-label="Filtrer par mois">{months_html}</div>
+<div class="gchips" role="group" aria-label="Filtrer par style">{genres_html}</div>
 </section>
 <section class="wrap"><p id="count" class="count"></p>
 <div class="grid" id="grid">
@@ -192,11 +255,23 @@ def build(fests):
         q = html.escape((f.get("maps_q") or f.get("city") or "").replace(" ", "+"), quote=True)
         badge = "ok" if f.get("status") == "Dates annoncées" else "warn"
         official = f.get("official") or ""
+        dj = duree(f)
+        cdt = f'<span class="cd big" data-start="{f["iso"][0]}" data-end="{f["iso"][1]}"></span>' if f.get("iso") else "<b>À confirmer</b>"
+        tiles = f'''<ul class="tiles">
+<li><small>Départ</small>{cdt}</li>
+<li><small>Durée</small><b>{(str(dj) + (" jours" if dj > 1 else " jour")) if dj else "À confirmer"}</b></li>
+<li><small>Budget</small><b>{esc(f.get("price_label") or "Non publié")}</b></li>
+<li><small>Où</small><b>{esc(f.get("city") or "")}</b></li>
+</ul>
+<p class="actions">{('<a class="btn ghost" href="' + f["slug"] + '.ics" download>📅 Ajouter à mon agenda</a>') if f.get("iso") else ""}<button type="button" class="btn ghost share-btn" data-title="{esc(f["name"])}">🔗 Partager</button><span class="small share-msg" aria-live="polite"></span></p>'''
+        if f.get("iso"):
+            (OUT / f'{f["slug"]}.ics').write_text(ics(f), encoding="utf-8", newline="")
         lien_off = f'<a class="btn" href="{esc(official)}" target="_blank" rel="noopener">Site officiel et billetterie ↗</a>' if official else '<p class="small">Site officiel non renseigné.</p>'
         p += f'''<main class="wrap fiche">
 <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(f["name"])}</span></nav>
 <h1>{esc(f["name"])}</h1>
 <p class="lead">{esc(f.get("about") or "")}</p>
+{tiles}
 <div class="two">
 <section class="box"><h2>Prochaine édition</h2>
 <ul class="facts">
@@ -510,6 +585,31 @@ footer{background:#fff0e6;color:var(--muted);padding:22px 0;margin-top:30px;font
 .foot-nav a{color:var(--accent);text-decoration:none}
 .foot-nav a:hover{text-decoration:underline}
 .foot-copy{margin:0;font-size:.85rem}
+.stats{list-style:none;display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;margin:20px 0 0}
+.stats li{display:flex;flex-direction:column;line-height:1.1}
+.stats b{font-size:1.9rem;font-weight:800}
+.stats span{font-size:.82rem;opacity:.92;margin-top:3px}
+.quick{margin-top:14px}
+.months{display:grid;grid-template-columns:repeat(auto-fit,minmax(58px,1fr));gap:6px}
+.mt{display:flex;flex-direction:column;align-items:center;gap:2px;padding:7px 4px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);font:inherit;font-size:.82rem;cursor:pointer;text-transform:capitalize}
+.mt b{font-size:1rem;color:var(--accent)}
+.mt[aria-pressed=true]{background:linear-gradient(100deg,#c4304f,#c8501f);color:#fff;border-color:transparent}
+.mt[aria-pressed=true] b{color:#fff}
+.mt:disabled{opacity:.4;cursor:default}
+.gchips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.gc{padding:6px 12px;border:1px solid var(--line);border-radius:99px;background:#fff;color:var(--ink);font:inherit;font-size:.88rem;cursor:pointer}
+.gc b{color:var(--accent);margin-left:3px}
+.gc[aria-pressed=true]{background:#fff0e3;border-color:#f58a4e;color:#a3441a}
+.cdline{margin:6px 0 0;min-height:1.5em;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.cd:not(:empty){display:inline-block;background:#fff0e3;color:#a3441a;font-weight:700;font-size:.82rem;padding:3px 10px;border-radius:99px}
+.badge.free{background:#e3f6ea;color:#14663a}
+.tiles{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;padding:0;margin:18px 0 6px}
+.tiles li{background:#fff;border:1px solid var(--line);border-top:4px solid #f58a4e;border-radius:12px;padding:10px 14px;display:flex;flex-direction:column;gap:4px}
+.tiles small{color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+.tiles b,.cd.big:not(:empty){font-size:1.05rem;font-weight:700;color:var(--ink);background:none;padding:0;border-radius:0}
+.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 0}
+.btn.ghost{background:#fff;color:var(--accent)!important;border:1.5px solid var(--accent);cursor:pointer;font:inherit;font-weight:600;text-decoration:none}
+.btn.ghost:hover{background:#fff0e6}
 @media (max-width:560px){.hero{padding:38px 0 100px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 110px no-repeat,linear-gradient(160deg,#a8274a 0%,#d93d5f 62%,#f58a4e 100%)}.box{padding:16px}.filters input,.filters select{width:100%}.map-ph{padding:20px 14px}}
 '''
 
@@ -540,32 +640,77 @@ JS = r'''
   var mois = document.getElementById('mois');
   var region = document.getElementById('region');
   var genre = document.getElementById('genre');
+  var budget = document.getElementById('budget');
+  var tri = document.getElementById('tri');
+  var grid = document.getElementById('grid');
+  var mts = Array.prototype.slice.call(document.querySelectorAll('.mt'));
+  var gcs = Array.prototype.slice.call(document.querySelectorAll('.gc'));
   var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
   var count = document.getElementById('count');
   var empty = document.getElementById('empty');
   var reset = document.getElementById('reset');
   function norm(s) { return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
   function apply() {
-    var text = norm(q.value).trim(), m = mois.value, r = region.value, g = genre.value, n = 0;
+    var text = norm(q.value).trim(), m = mois.value, r = region.value, g = genre.value, b = budget.value, n = 0;
     cards.forEach(function (c) {
       var ok = (!text || c.dataset.name.indexOf(text) !== -1) &&
                (!m || c.dataset.mois.split(' ').indexOf(m) !== -1) &&
                (!r || c.dataset.region === r) &&
-               (!g || c.dataset.genres.split('|').indexOf(g) !== -1);
+               (!g || c.dataset.genres.split('|').indexOf(g) !== -1) &&
+               (!b || (b === 'free' ? c.dataset.free === '1' : (c.dataset.price !== '' && parseFloat(c.dataset.price) <= parseFloat(b))));
       c.hidden = !ok;
       if (ok) n++;
     });
+    mts.forEach(function (x) { x.setAttribute('aria-pressed', x.dataset.m === m ? 'true' : 'false'); });
+    gcs.forEach(function (x) { x.setAttribute('aria-pressed', x.dataset.g === g ? 'true' : 'false'); });
     count.textContent = n + (n > 1 ? ' festivals' : ' festival');
     empty.hidden = n !== 0;
   }
-  [q, mois, region, genre].forEach(function (el) {
+  function sortCards() {
+    var k = tri.value;
+    var list = cards.slice().sort(function (a, b) {
+      if (k === 'az') return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent, 'fr');
+      if (k === 'prix') {
+        var pa = a.dataset.price === '' ? 1e9 : parseFloat(a.dataset.price), pb = b.dataset.price === '' ? 1e9 : parseFloat(b.dataset.price);
+        if (pa !== pb) return pa - pb;
+      }
+      return a.dataset.i - b.dataset.i;
+    });
+    list.forEach(function (c) { grid.appendChild(c); });
+  }
+  tri.addEventListener('change', sortCards);
+  mts.forEach(function (x) { x.addEventListener('click', function () { mois.value = mois.value === x.dataset.m ? '' : x.dataset.m; apply(); }); });
+  gcs.forEach(function (x) { x.addEventListener('click', function () { genre.value = genre.value === x.dataset.g ? '' : x.dataset.g; apply(); }); });
+  [q, mois, region, genre, budget].forEach(function (el) {
     el.addEventListener('input', apply);
     el.addEventListener('change', apply);
   });
   if (reset) reset.addEventListener('click', function () {
-    q.value = ''; mois.value = ''; region.value = ''; genre.value = ''; apply();
+    q.value = ''; mois.value = ''; region.value = ''; genre.value = ''; budget.value = ''; apply();
   });
   apply();
+})();
+
+// Compte à rebours (calculé dans le navigateur, aucune donnée envoyée).
+(function () {
+  var day = 86400000, now = new Date(), today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  function d(s) { var p = s.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  Array.prototype.forEach.call(document.querySelectorAll('.cd[data-start]'), function (el) {
+    var a = d(el.dataset.start), b = d(el.dataset.end), n = Math.round((a - today) / day);
+    el.textContent = today > b ? '' : today >= a ? 'En cours' : n === 1 ? 'Demain' : 'Dans ' + n + ' jours';
+  });
+})();
+
+// Bouton Partager : partage natif si disponible, sinon copie du lien.
+(function () {
+  var b = document.querySelector('.share-btn');
+  if (!b) return;
+  b.addEventListener('click', function () {
+    var msg = document.querySelector('.share-msg'), url = location.href.split('#')[0];
+    if (navigator.share) { navigator.share({ title: b.dataset.title, url: url }).catch(function () {}); return; }
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(function () { msg.textContent = 'Lien copié.'; }, function () { msg.textContent = url; });
+    else msg.textContent = url;
+  });
 })();
 '''
 

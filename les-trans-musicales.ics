@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:les-trans-musicales-20261202@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261207
+SUMMARY:Les Trans Musicales de Rennes
+LOCATION:Rennes et Bruz (Parc des Expositions)\, plus salles du centre-ville
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/les-trans-musicales.html
+URL:https://www.lestrans.com
+END:VEVENT
+END:VCALENDAR

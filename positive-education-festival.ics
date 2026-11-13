@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:positive-education-festival-20270326@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270328
+SUMMARY:Positive Education Festival
+LOCATION:Cité du design\, 3 rue Javelin Pagnon\, 42000 Saint-Étienne
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/positive-education-festival.html
+URL:https://positiveeducation.fr
+END:VEVENT
+END:VCALENDAR

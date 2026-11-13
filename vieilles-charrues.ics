@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:vieilles-charrues-20270715@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270719
+SUMMARY:Les Vieilles Charrues
+LOCATION:Site de Kerampuilh\, Carhaix-Plouguer
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/vieilles-charrues.html
+URL:https://www.vieillescharrues.asso.fr
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:jazz-a-vienne-20270625@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270711
+SUMMARY:Jazz à Vienne
+LOCATION:Théâtre antique de Vienne\, avec le Jardin de Cybèle (scène gratuite) et Le Club
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/jazz-a-vienne.html
+URL:https://www.jazzavienne.com/
+END:VEVENT
+END:VCALENDAR

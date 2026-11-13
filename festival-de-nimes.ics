@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-de-nimes-20270615@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270718
+SUMMARY:Festival de Nîmes
+LOCATION:Arènes de Nîmes\, boulevard des Arènes\, 30000 Nîmes
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-de-nimes.html
+URL:https://www.festivaldenimes.com
+END:VEVENT
+END:VCALENDAR

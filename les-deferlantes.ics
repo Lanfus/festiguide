@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:les-deferlantes-20270709@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:Les Déferlantes Sud de France
+LOCATION:Jardins du Lydia\, 66420 Le Barcarès
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/les-deferlantes.html
+URL:https://www.festival-lesdeferlantes.com/
+END:VEVENT
+END:VCALENDAR

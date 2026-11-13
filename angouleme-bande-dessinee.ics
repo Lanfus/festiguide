@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:angouleme-bande-dessinee-20270128@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270201
+SUMMARY:Angoulême bande dessinée
+LOCATION:Toute la ville : plateau d'Angoulême (stands éditeurs)\, Théâtre d'Angoulême\, Cité internationale de la bande dessinée
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/angouleme-bande-dessinee.html
+URL:https://www.angouleme-bandedessinee.com/
+END:VEVENT
+END:VCALENDAR

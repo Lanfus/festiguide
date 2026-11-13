@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:eurockeennes-de-belfort-20270702@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270706
+SUMMARY:Les Eurockéennes de Belfort
+LOCATION:Presqu'île du Malsaucy
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/eurockeennes-de-belfort.html
+URL:https://www.eurockeennes.fr
+END:VEVENT
+END:VCALENDAR

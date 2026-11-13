@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-interceltique-de-lorient-20270730@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270809
+SUMMARY:Festival Interceltique de Lorient
+LOCATION:Lorient (Palais des Congrès\, Grand Théâtre\, rues et stade du Moustoir pour la Grande Parade)
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-interceltique-de-lorient.html
+URL:https://www.festival-interceltique.bzh
+END:VEVENT
+END:VCALENDAR

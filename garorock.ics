@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:garorock-20270625@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270628
+SUMMARY:Garorock
+LOCATION:Plaine de la Filhole\, Marmande
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/garorock.html
+URL:https://www.garorock.com
+END:VEVENT
+END:VCALENDAR

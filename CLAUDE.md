@@ -27,6 +27,7 @@ python3 src/build.py src/festivals.json .              # régénère les 47 page
 | `src/og-image.html`, `src/og-image.png` | image de partage 1200x630 : le PNG est copié à la racine par `build.py`. Pour la refaire, capturer le HTML en 1200x630 avec Playwright |
 | `*.html`, `style.css`, `script.js` | **générés**, publiés par GitHub Pages |
 | `sitemap.xml`, `robots.txt`, `favicon.svg`, `og-image.png`, `fond-hero.svg`, `motif.svg` | générés ou copiés par `build.py` (`fond-hero.svg` : décor de champ de festival du bandeau, `motif.svg` : motif de fond de page, dessinés par `scene_svg()` et `motif_svg()`) |
+| `<slug>.ics` (29 fichiers) | générés par `build.py` pour les festivals qui ont `iso` : bouton « Ajouter à mon agenda » des fiches. Ne pas les éditer ni les mettre dans le sitemap |
 | `mentions-legales.html`, `confidentialite.html`, `cookies.html` | générés par `build_legal()` dans `build.py` |
 
 ## Contrat de données (un festival)
@@ -54,6 +55,10 @@ Palette « coucher de soleil de scène » : rose-rouge adouci `#a8274a` / `#d93d
 ## SEO déjà en place
 
 Titres ≤ 60 caractères, descriptions 70–160, canonical, Open Graph + Twitter card avec `og-image.png`, favicon SVG, JSON-LD `BreadcrumbList` sur chaque fiche et `Festival` quand `iso` est renseigné, bloc « Autres festivals à découvrir » (4 liens par fiche, calculés par `related()` selon région, mois et genre), balise de vérification Google Search Console dans `head()` (ne pas la supprimer), sitemap soumis dans Search Console le 13 novembre 2026. Les liens vers `style.css` et `script.js` portent une empreinte (`?v=…`) calculée par `build.py` : sans elle, les navigateurs gardent l'ancien CSS en cache et les visiteurs ne voient pas les changements.
+
+## Fonctionnalités de l'accueil et des fiches (ajoutées le 13 nov. 2026 après étude de festt.io, festapp.io, festivalabroad.com et festivalenfrance.com)
+
+Ces sites ont des cartes pauvres (nom, dates, ville) et aucun n'affiche prix, accès, conseils ni statut des dates : c'est notre avantage, à garder. Ajouts : bandeau de chiffres, frise des 12 mois avec compteurs, pastilles des 8 styles les plus fréquents, filtre budget (`prix_num()` : Cannes a `price_from` 0 mais n'est pas gratuit, seul `is_free()` décide de « Gratuit »), tri (date, prix, A→Z), compte à rebours calculé dans le navigateur, et sur les fiches : tuiles « En bref », export `.ics`, bouton Partager. Tout vient de `festivals.json` : aucune donnée inventée, aucune ressource tierce, aucun cookie. Pas de favoris : ça demanderait du `localStorage` et une mise à jour de `cookies.html`. Idée suivante : pages de regroupement (par mois, région, style) pour le SEO, comme le fait festt.io.
 
 ## Vérifications avant de publier
 
