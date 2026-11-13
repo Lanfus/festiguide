@@ -35,6 +35,7 @@ def head(title, desc, canonical, extra=""):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="-dZV6mVuMr0xR11z0I5KrbklOmMtcFE7X_o8ikekrAo" />
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{esc(canonical)}">
