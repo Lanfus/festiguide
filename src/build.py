@@ -250,7 +250,7 @@ def build(fests):
         + urls + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
     (OUT / "favicon.svg").write_text(FAVICON, encoding="utf-8")
-    (OUT / "fond-hero.svg").write_text(crowd_svg(), encoding="utf-8")
+    (OUT / "fond-hero.svg").write_text(scene_svg(), encoding="utf-8")
     (OUT / "motif.svg").write_text(motif_svg(), encoding="utf-8")
     og = Path(__file__).parent / "og-image.png"  # image de partage : source dans og-image.html
     if og.exists() and og.resolve() != (OUT / "og-image.png").resolve():
@@ -569,97 +569,84 @@ JS = r'''
 })();
 '''
 
-def crowd_svg():
-    """Foule de silhouettes (dessin original, généré de façon déterministe).
-    Chaque personne a un corps, un cou, une tête avec coiffure, et des bras effilés dont les angles
-    sont tirés au hasard (coude plié, main ouverte avec doigts, poing ou doigt levé), sur trois plans."""
+def scene_svg():
+    """Décor du bandeau : champ de festival au coucher du soleil (dessin original, déterministe).
+    Collines en trois plans, chapiteaux à fanions, grande roue, guirlandes de fanions et d'ampoules."""
     import math, random
-    r = random.Random(41)
+    r = random.Random(5)
     W, H = 2400, 190
-    L1, L2 = 27, 24  # longueurs bras / avant-bras
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" preserveAspectRatio="xMidYMax slice">']
 
-    def poly(s, e, h, w=(9.4, 7.0, 5.0)):
-        """Bras effilé : polygone épaule -> coude -> poignet, plus un rond au coude."""
-        def nrm(a, b):
-            dx, dy = b[0] - a[0], b[1] - a[1]
-            d = math.hypot(dx, dy) or 1
-            return -dy / d, dx / d
-        n1, n2 = nrm(s, e), nrm(e, h)
-        nm = ((n1[0] + n2[0]) / 2, (n1[1] + n2[1]) / 2)
-        k = math.hypot(*nm) or 1
-        nm = (nm[0] / k, nm[1] / k)
-        pts = [(s, n1, w[0]), (e, nm, w[1]), (h, n2, w[2])]
-        left = [(p[0] + n[0] * ww / 2, p[1] + n[1] * ww / 2) for p, n, ww in pts]
-        right = [(p[0] - n[0] * ww / 2, p[1] - n[1] * ww / 2) for p, n, ww in reversed(pts)]
-        d = "M" + "L".join(f"{x:.1f} {y:.1f}" for x, y in left + right) + "Z"
-        return f'<path d="{d}"/><circle cx="{e[0]:.1f}" cy="{e[1]:.1f}" r="{w[1] / 2 + .9:.1f}"/>'
+    def hill(base, a1, w1, p1, a2, w2, p2):
+        return lambda x: base + a1 * math.sin(x / w1 + p1) + a2 * math.sin(x / w2 + p2)
 
-    defs = ['<path id="bd" d="M-25 112L-24.5 -34Q-23 -50 -12 -57L-5.5 -60L-6 -67L6 -67L5.5 -60L12 -57Q23 -50 24.5 -34L25 112Z"/>']
-    hands = {  # origine au poignet, doigts vers le haut
-        "o": '<ellipse cy="-5" rx="4.6" ry="5.2"/><path d="M-2.7 -8L-5.8 -13.8M-0.9 -9.4L-2 -16M1 -9.6L1.6 -16.4M2.9 -9L5 -14.8M-3.5 -3.4L-8.2 -7.6" fill="none" stroke-width="2.7"/>',
-        "f": '<ellipse cy="-5" rx="4.9" ry="5.3"/>',
-        "i": '<ellipse cy="-5" rx="4.5" ry="5"/><path d="M0.6 -8L0.8 -19" fill="none" stroke-width="2.6"/>',
-        "v": '<ellipse cy="-5" rx="4.5" ry="5"/><path d="M-1.4 -8L-4.6 -17M1.8 -8L4.8 -17" fill="none" stroke-width="2.5"/>',
-    }
-    hw = "oooooooffiv"
-    for k, v in hands.items():
-        defs.append(f'<g id="m{k}">{v}</g>')
-    heads = {
-        "h": '<ellipse rx="9.8" ry="12"/>',
-        "s": '<ellipse rx="11" ry="13" cy="-1"/>',
-        "l": '<ellipse rx="9.8" ry="12"/><path d="M-10.5 -5Q-12 -15 0 -15Q12 -15 10.5 -5L15 24Q8 29 0 21Q-8 29 -15 24Z"/>',
-        "q": '<ellipse rx="9.8" ry="12"/><path d="M7 -9Q23 -8 21 8Q19 18 14 13Q18 4 8 -1Z"/>',
-        "b": '<ellipse rx="9.8" ry="12"/><circle cy="-17" r="6"/>',
-        "c": '<ellipse rx="9.8" ry="12"/><path d="M-10.5 -3Q-10.5 -16 0 -16Q10.5 -16 10.5 -3Z"/><path d="M5 -6L21 -3L21 1L5 0Z"/>',
-        "a": '<circle cy="-3" r="15.5"/>',
-        "n": '<ellipse rx="10.2" ry="12.4"/><path d="M-10.8 -4Q-11 -17 0 -17Q11 -17 10.8 -4Z"/><circle cy="-19" r="3.4"/>',
-    }
-    hh = "hhhssllqbcana"
-    for k, v in heads.items():
-        defs.append(f'<g id="h{k}">{v}</g>')
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" preserveAspectRatio="xMidYMax slice">',
-           '<defs>' + "".join(defs) + '</defs>']
+    def fill_hill(f, color, op):
+        pts = "L".join(f"{x} {f(x):.1f}" for x in range(0, W + 1, 24))
+        return f'<path d="M0 {H}L{pts}L{W} {H}Z" fill="{color}" opacity="{op}"/>'
 
-    def arm(side, phones):
-        """Angles tirés au hasard : bras levé, coude plié ou geste à mi-hauteur."""
-        sh = (side * 17, -52)
-        k = r.random()
-        if k < .70:    # bras levé
-            t1, t2 = r.uniform(8, 48), 0
-            t2 = t1 + r.uniform(-42, 26) * (1 if r.random() < .5 else .6)
-        else:          # coude vers l'extérieur, avant-bras remonté
-            t1, t2 = r.uniform(55, 95), r.uniform(5, 50)
-        e = (sh[0] + side * L1 * math.sin(math.radians(t1)), sh[1] - L1 * math.cos(math.radians(t1)))
-        h = (e[0] + side * L2 * math.sin(math.radians(t2)), e[1] - L2 * math.cos(math.radians(t2)))
-        g = poly(sh, e, h)
-        ang = side * t2
-        hk = r.choice(hw)
-        g += f'<use href="#m{hk}" transform="translate({h[0]:.1f} {h[1]:.1f}) rotate({ang:.0f})"/>'
-        if hk in "fo" and r.random() < phones:
-            g += (f'<rect x="{h[0] - 5.5:.1f}" y="{h[1] - 17:.1f}" width="11" height="17" rx="2.2" fill="#ffeab0" stroke="none" '
-                  f'transform="rotate({ang:.0f} {h[0]:.1f} {h[1]:.1f})"/>')
-        return g
+    far = hill(112, 13, 150, 0.6, 7, 61, 2.0)
+    mid = hill(138, 11, 190, 2.2, 6, 73, 0.7)
+    near = hill(168, 8, 230, 4.0, 4, 90, 1.3)
 
-    def layer(color, alpha, n, sc, base, jit, phones):
-        g = [f'<g fill="{color}" stroke="{color}" stroke-linecap="round" stroke-linejoin="round" opacity="{alpha}">']
-        for i in range(n):
-            x = (i + 0.5) * W / n + r.uniform(-18, 18)
-            s = r.uniform(*sc)
-            y = base + r.uniform(-jit, jit) - (r.uniform(8, 18) if r.random() < .14 else 0)
-            flip = -1 if r.random() < .5 else 1
-            sx = r.uniform(.9, 1.1)
-            c = r.random()
-            arms = ("L" + "R") if c < .6 else (r.choice("LR") if c < .9 else "")
-            body = "".join(arm(-1 if a == "L" else 1, phones) for a in arms)
-            g.append(f'<g transform="translate({x:.0f} {y:.0f}) scale({flip * s * sx:.2f} {s:.2f}) rotate({r.uniform(-6, 6):.1f})">'
-                     f'<use href="#bd"/>{body}'
-                     f'<use href="#h{r.choice(hh)}" transform="translate(0 -78) rotate({r.uniform(-14, 14):.0f})"/></g>')
-        g.append('</g>')
-        return "".join(g)
+    out.append(fill_hill(far, "#d4506a", .30))
+    # guirlandes : poteaux et fanions
+    cols = ["#fcc65a", "#ffffff", "#f58a4e", "#ffd9a8", "#ffa3b1"]
+    poles = [60, 520, 940, 1380, 1800, 2250]
+    tops = [58, 50, 62, 52, 60, 54]
+    g = ['<g opacity=".8">']
+    for (x, y) in zip(poles, tops):
+        g.append(f'<path d="M{x} {y}V{far(x) + 10:.0f}" stroke="#a8325a" stroke-width="3" opacity=".6"/>')
+    for i in range(len(poles) - 1):
+        x0, y0, x1, y1 = poles[i], tops[i], poles[i + 1], tops[i + 1]
+        cx, cy = (x0 + x1) / 2, max(y0, y1) + 44
+        g.append(f'<path d="M{x0} {y0}Q{cx:.0f} {cy} {x1} {y1}" stroke="#fff" stroke-width="1.6" fill="none" opacity=".6"/>')
+        n = int((x1 - x0) / 24)
+        for k in range(1, n):
+            u = k / n
+            x = (1 - u) ** 2 * x0 + 2 * (1 - u) * u * cx + u ** 2 * x1
+            y = (1 - u) ** 2 * y0 + 2 * (1 - u) * u * cy + u ** 2 * y1
+            c = cols[(i * 7 + k) % len(cols)]
+            g.append(f'<path d="M{x - 6.5:.1f} {y:.1f}L{x + 6.5:.1f} {y:.1f}L{x:.1f} {y + 15:.1f}Z" fill="{c}"/>')
+            if k % 3 == 0:
+                g.append(f'<circle cx="{x + 12:.1f}" cy="{y + 3:.1f}" r="2.4" fill="#ffe9a8" opacity=".95"/>')
+    g.append('</g>')
+    out.append("".join(g))
 
-    out.append(layer("#a24560", .42, 64, (.70, .86), H - 74, 12, 0))
-    out.append(layer("#86304a", .62, 56, (.86, 1.02), H - 42, 11, 0))
-    out.append(layer("#5c1c31", .88, 50, (1.0, 1.22), H - 6, 12, .1))
+    out.append(fill_hill(mid, "#b03a5c", .45))
+    # chapiteaux sur la colline du milieu
+    tents = ['<g fill="#8f2f50" opacity=".72">']
+    x = 70
+    while x < W - 60:
+        w = r.randint(46, 84)
+        h = r.randint(30, 52)
+        if abs(x - 1610) < 110:  # laisse la place à la grande roue
+            x += 130
+            continue
+        yb = mid(x) + 5
+        wall = h * .42
+        tents.append(f'<path d="M{x - w / 2:.0f} {yb:.0f}V{yb - wall:.0f}L{x} {yb - h:.0f}L{x + w / 2:.0f} {yb - wall:.0f}V{yb:.0f}Z"/>')
+        tents.append(f'<path d="M{x} {yb - h:.0f}V{yb - h - 11:.0f}M{x} {yb - h - 11:.0f}l9 3.5l-9 3.5Z" stroke="#8f2f50" stroke-width="1.6"/>')
+        x += w + r.randint(60, 190)
+    tents.append('</g>')
+    out.append("".join(tents))
+
+    # grande roue
+    cx, cy, rad = 1610, 88, 50
+    wheel = [f'<g stroke="#8f2f50" fill="none" opacity=".6" stroke-width="2.4">',
+             f'<circle cx="{cx}" cy="{cy}" r="{rad}"/><circle cx="{cx}" cy="{cy}" r="{rad * .55:.0f}" stroke-width="1.4"/>']
+    for k in range(12):
+        a = math.radians(k * 30)
+        px, py = cx + rad * math.cos(a), cy + rad * math.sin(a)
+        wheel.append(f'<path d="M{cx} {cy}L{px:.1f} {py:.1f}" stroke-width="1.6"/>')
+    wheel.append(f'<path d="M{cx} {cy}L{cx - 30} {mid(cx - 30) + 6:.0f}M{cx} {cy}L{cx + 30} {mid(cx + 30) + 6:.0f}" stroke-width="3.4"/>')
+    wheel.append('</g><g fill="#8f2f50" opacity=".62">')
+    for k in range(12):
+        a = math.radians(k * 30 + 15)
+        wheel.append(f'<circle cx="{cx + rad * math.cos(a):.1f}" cy="{cy + rad * math.sin(a) + 3:.1f}" r="4.4"/>')
+    wheel.append('</g>')
+    out.append("".join(wheel))
+
+    out.append(fill_hill(near, "#7a2744", .6))
     out.append('</svg>')
     return "".join(out)
 
@@ -676,7 +663,7 @@ def motif_svg():
 
 
 # Empreintes ajoutées aux liens : le navigateur recharge le fichier dès qu'il change.
-FOND_V = hashlib.md5((crowd_svg() + motif_svg()).encode("utf-8")).hexdigest()[:8]
+FOND_V = hashlib.md5((scene_svg() + motif_svg()).encode("utf-8")).hexdigest()[:8]
 CSS = CSS.replace("@@FOND@@", FOND_V)
 CSS_V = hashlib.md5(CSS.strip().encode("utf-8")).hexdigest()[:8]
 JS_V = hashlib.md5(JS.strip().encode("utf-8")).hexdigest()[:8]

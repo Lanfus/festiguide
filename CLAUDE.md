@@ -26,7 +26,7 @@ python3 src/build.py src/festivals.json .              # régénère les 47 page
 | `src/check.py` | validation et fusion des données |
 | `src/og-image.html`, `src/og-image.png` | image de partage 1200x630 : le PNG est copié à la racine par `build.py`. Pour la refaire, capturer le HTML en 1200x630 avec Playwright |
 | `*.html`, `style.css`, `script.js` | **générés**, publiés par GitHub Pages |
-| `sitemap.xml`, `robots.txt`, `favicon.svg`, `og-image.png`, `fond-hero.svg`, `motif.svg` | générés ou copiés par `build.py` (`fond-hero.svg` : foule en silhouette du bandeau, `motif.svg` : motif de fond de page, tous deux dessinés par `crowd_svg()` et `motif_svg()`) |
+| `sitemap.xml`, `robots.txt`, `favicon.svg`, `og-image.png`, `fond-hero.svg`, `motif.svg` | générés ou copiés par `build.py` (`fond-hero.svg` : décor de champ de festival du bandeau, `motif.svg` : motif de fond de page, dessinés par `scene_svg()` et `motif_svg()`) |
 | `mentions-legales.html`, `confidentialite.html`, `cookies.html` | générés par `build_legal()` dans `build.py` |
 
 ## Contrat de données (un festival)
@@ -49,7 +49,7 @@ Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une val
 
 ## Identité visuelle
 
-Palette « coucher de soleil de scène » : rose-rouge adouci `#a8274a` / `#d93d5f`, orange `#f58a4e`, ambre `#fcc65a`, fond crème `#fff9f4`. Florent a demandé « un peu moins de contraste » : couleurs et foule volontairement douces, mais le texte blanc du bandeau doit rester à au moins 4,4:1 (le dégradé reste rouge sous le texte). Le violet a été retiré à la demande de Florent (trop fort) : ne pas le réintroduire. Le style reste clair (Florent ne voulait pas de noir). Les visuels sont dessinés en code, jamais copiés des festivals. La foule du bandeau (`crowd_svg()`) doit rester faite de vraies silhouettes (corps, cou, épaules, bras épais à coudes pliés, mains, coiffures variées, trois plans) : Florent a refusé une première version en bonshommes bâton qui faisait « IA ».
+Palette « coucher de soleil de scène » : rose-rouge adouci `#a8274a` / `#d93d5f`, orange `#f58a4e`, ambre `#fcc65a`, fond crème `#fff9f4`. Florent a demandé « un peu moins de contraste » : couleurs et foule volontairement douces, mais le texte blanc du bandeau doit rester à au moins 4,4:1 (le dégradé reste rouge sous le texte). Le violet a été retiré à la demande de Florent (trop fort) : ne pas le réintroduire. Le style reste clair (Florent ne voulait pas de noir). Les visuels sont dessinés en code, jamais copiés des festivals. Le bandeau n'a volontairement aucun personnage : Florent a refusé les silhouettes en bonshommes bâton (« ça fait IA ») et les photos/vecteurs de foule fournis n'étaient pas libres de droits. Le décor (`scene_svg()`) est un champ de festival au coucher du soleil : collines, chapiteaux à fanions, grande roue, guirlandes. Ne pas réintroduire de foule ni de photo sans licence claire.
 
 ## SEO déjà en place
 
