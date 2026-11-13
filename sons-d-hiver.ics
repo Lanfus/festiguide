@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:sons-d-hiver-20270115@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270207
 SUMMARY:Sons d'Hiver
 LOCATION:14 lieux d'Île-de-France
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/sons-d-hiver.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/sons-d-hiver.html
 URL:https://parisjetaime.com/eng/event/sons-d-hiver-festival-e1286
 END:VEVENT
 END:VCALENDAR

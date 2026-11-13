@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:carnaval-de-nice-20270209@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270301
 SUMMARY:Carnaval de Nice
 LOCATION:Place Masséna et Promenade des Anglais \; Village du Carnaval au square Leclerc
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/carnaval-de-nice.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/carnaval-de-nice.html
 URL:https://www.nicecarnaval.com
 END:VEVENT
 END:VCALENDAR

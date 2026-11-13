@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:festival-d-aix-en-provence-20270701@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270721
 SUMMARY:Festival d'Aix-en-Provence
 LOCATION:Théâtre de l'Archevêché\, Grand Théâtre de Provence\, Théâtre du Jeu de Paume (lieux 2026 \; lieux 2027 non publiés)
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/festival-d-aix-en-provence.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-d-aix-en-provence.html
 URL:https://www.festival-aix.com
 END:VEVENT
 END:VCALENDAR

@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:marche-de-noel-de-colmar-20261123@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261230
 SUMMARY:Marché de Noël de Colmar
 LOCATION:Centre de Colmar
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/marche-de-noel-de-colmar.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/marche-de-noel-de-colmar.html
 URL:https://www.noel-colmar.com/en/colmar-the-magic-of-christmas/practical
 END:VEVENT
 END:VCALENDAR

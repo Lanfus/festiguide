@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:rendez-vous-de-l-histoire-20271006@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20271006
 DTEND;VALUE=DATE:20271011
 SUMMARY:Rendez-vous de l'histoire
 LOCATION:Blois
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/rendez-vous-de-l-histoire.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/rendez-vous-de-l-histoire.html
 URL:https://rdv-histoire.com/
 END:VEVENT
 END:VCALENDAR

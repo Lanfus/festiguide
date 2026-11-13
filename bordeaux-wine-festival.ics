@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:bordeaux-wine-festival-20270707@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270707
 DTEND;VALUE=DATE:20270712
 SUMMARY:Bordeaux Fête le Vin
 LOCATION:Quais de Bordeaux
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/bordeaux-wine-festival.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/bordeaux-wine-festival.html
 URL:https://www.bordeaux-wine-festival.com/
 END:VEVENT
 END:VCALENDAR

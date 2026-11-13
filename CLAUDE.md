@@ -1,4 +1,4 @@
-# Proxynet (ex-FestiGuide) — notes pour Claude
+# FestiGuide — notes pour Claude
 
 Annuaire de 206 grands festivals et grands événements (France, plus une quarantaine en Belgique : Tomorrowland, Rock Werchter, Pukkelpop, Graspop, Gentse Feesten, Les Ardentes, Dour…). Site statique publié par GitHub Pages sur https://lanfus.github.io/festiguide/
 

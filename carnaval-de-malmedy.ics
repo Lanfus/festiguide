@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:carnaval-de-malmedy-20270206@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270210
 SUMMARY:Carnaval de Malmedy (Cwarmê)
 LOCATION:Centre de Malmedy
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/carnaval-de-malmedy.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/carnaval-de-malmedy.html
 URL:https://www.malmedy.be/
 END:VEVENT
 END:VCALENDAR

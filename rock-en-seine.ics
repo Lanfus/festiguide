@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:rock-en-seine-20280823@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20280823
 DTEND;VALUE=DATE:20280828
 SUMMARY:Rock en Seine
 LOCATION:Domaine national de Saint-Cloud
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/rock-en-seine.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/rock-en-seine.html
 URL:https://www.rockenseine.com
 END:VEVENT
 END:VCALENDAR

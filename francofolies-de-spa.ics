@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:francofolies-de-spa-20270716@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270719
 SUMMARY:Les Francofolies de Spa
 LOCATION:Spa
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/francofolies-de-spa.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/francofolies-de-spa.html
 URL:https://francofolies.be/
 END:VEVENT
 END:VCALENDAR

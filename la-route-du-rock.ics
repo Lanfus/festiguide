@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:la-route-du-rock-20270310@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270314
 SUMMARY:La Route du Rock
 LOCATION:Saint-Malo et Rennes
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/la-route-du-rock.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/la-route-du-rock.html
 URL:https://www.laroutedurock.com/
 END:VEVENT
 END:VCALENDAR

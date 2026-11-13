@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:fetes-de-bayonne-20270714@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270719
 SUMMARY:Fêtes de Bayonne
 LOCATION:Centre-ville de Bayonne
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/fetes-de-bayonne.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/fetes-de-bayonne.html
 URL:https://fetes.bayonne.fr/
 END:VEVENT
 END:VCALENDAR

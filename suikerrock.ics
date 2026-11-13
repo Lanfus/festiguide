@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:suikerrock-20270806@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270806
 DTEND;VALUE=DATE:20270809
 SUMMARY:Suikerrock
 LOCATION:Tirlemont
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/suikerrock.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/suikerrock.html
 URL:https://www.suikerrock.be/
 END:VEVENT
 END:VCALENDAR

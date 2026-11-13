@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:festival-de-cornouaille-20270722@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270722
 DTEND;VALUE=DATE:20270726
 SUMMARY:Festival de Cornouaille
 LOCATION:Centre historique de Quimper (Théâtre de Cornouaille\, Chapeau Rouge\, Jardin de l'Évêché)
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/festival-de-cornouaille.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-de-cornouaille.html
 URL:https://www.festival-cornouaille.bzh/
 END:VEVENT
 END:VCALENDAR

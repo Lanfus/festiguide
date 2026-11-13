@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:japan-expo-paris-20270708@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270708
 DTEND;VALUE=DATE:20270712
 SUMMARY:Japan Expo
 LOCATION:Paris Nord Villepinte
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/japan-expo-paris.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/japan-expo-paris.html
 URL:https://paris.japan-expo.com/fr
 END:VEVENT
 END:VCALENDAR

@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:printemps-de-bourges-20270420@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270426
 SUMMARY:Le Printemps de Bourges
 LOCATION:Le W et une quinzaine de lieux dans Bourges
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/printemps-de-bourges.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/printemps-de-bourges.html
 URL:https://www.printemps-bourges.com/
 END:VEVENT
 END:VCALENDAR

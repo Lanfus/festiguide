@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:feria-de-paques-arles-20270326@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270330
 SUMMARY:Féria de Pâques d'Arles
 LOCATION:Arènes d'Arles
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/feria-de-paques-arles.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/feria-de-paques-arles.html
 URL:https://provence-alpes-cotedazur.com/en/things-to-do/events/all-events/la-feria-de-paques-arles-en-4565560/
 END:VEVENT
 END:VCALENDAR

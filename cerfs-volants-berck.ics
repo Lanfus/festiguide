@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:cerfs-volants-berck-20270417@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270426
 SUMMARY:Rencontres internationales de cerfs-volants
 LOCATION:Plage de Berck-sur-Mer
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/cerfs-volants-berck.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/cerfs-volants-berck.html
 URL:https://www.cerf-volant-berck.com/
 END:VEVENT
 END:VCALENDAR

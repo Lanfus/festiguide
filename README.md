@@ -1,4 +1,4 @@
-# Proxynet
+# FestiGuide
 
 Annuaire des grands festivals de France (et quelques voisins) : dates, lieu, prix, programmation, plan et site officiel.
 

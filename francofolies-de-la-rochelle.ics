@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:francofolies-de-la-rochelle-20270710@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270715
 SUMMARY:Les Francofolies de La Rochelle
 LOCATION:Centre-ville de La Rochelle (scène Jean-Louis Foulquier\, esplanade Saint-Jean-d'Acre)
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/francofolies-de-la-rochelle.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/francofolies-de-la-rochelle.html
 URL:https://www.francofolies.fr
 END:VEVENT
 END:VCALENDAR

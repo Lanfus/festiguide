@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:village-de-noel-de-liege-20261127@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261231
 SUMMARY:Village de Noël de Liège
 LOCATION:Centre de Liège
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/village-de-noel-de-liege.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/village-de-noel-de-liege.html
 URL:https://www.villagedenoel.be/en
 END:VEVENT
 END:VCALENDAR

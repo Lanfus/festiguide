@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:braderie-de-lille-20270904@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270906
 SUMMARY:Braderie de Lille
 LOCATION:Centre-ville de Lille
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/braderie-de-lille.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/braderie-de-lille.html
 URL:https://www.braderie-de-lille.fr/
 END:VEVENT
 END:VCALENDAR

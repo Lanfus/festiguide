@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:tomorrowland-winter-20270320@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270328
 SUMMARY:Tomorrowland Winter
 LOCATION:Alpe d'Huez\, Isère
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/tomorrowland-winter.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/tomorrowland-winter.html
 URL:https://winter.tomorrowland.com/
 END:VEVENT
 END:VCALENDAR

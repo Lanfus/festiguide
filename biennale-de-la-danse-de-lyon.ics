@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:biennale-de-la-danse-de-lyon-20270906@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270906
 DTEND;VALUE=DATE:20270929
 SUMMARY:Biennale de la danse de Lyon
 LOCATION:Lyon et sa métropole
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/biennale-de-la-danse-de-lyon.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/biennale-de-la-danse-de-lyon.html
 URL:https://www.labiennaledelyon.com/en/danse
 END:VEVENT
 END:VCALENDAR

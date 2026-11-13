@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:jazz-middelheim-20270515@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270518
 SUMMARY:Jazz Middelheim
 LOCATION:Parc Den Brandt\, Anvers
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/jazz-middelheim.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/jazz-middelheim.html
 URL:https://www.jazzmiddelheim.eu/en/
 END:VEVENT
 END:VCALENDAR

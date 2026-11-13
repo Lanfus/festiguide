@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:fetes-de-gayant-20270711@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270712
 SUMMARY:Fêtes de Gayant
 LOCATION:Centre-ville de Douai
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/fetes-de-gayant.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/fetes-de-gayant.html
 URL:https://www.fetesdegayant.fr/
 END:VEVENT
 END:VCALENDAR

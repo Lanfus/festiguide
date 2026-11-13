@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Proxynet//FR
+PRODID:-//FestiGuide//FR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:musicalarue-20270730@lanfus.github.io
@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270802
 SUMMARY:Musicalarue
 LOCATION:Luxey\, Landes
-DESCRIPTION:Fiche Proxynet : https://lanfus.github.io/festiguide/musicalarue.html
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/musicalarue.html
 URL:https://www.musicalarue.com/le-festival/
 END:VEVENT
 END:VCALENDAR
