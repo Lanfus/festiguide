@@ -1,0 +1,3172 @@
+[
+ {
+  "region": "Île-de-France",
+  "venue": "Plaine de la Belle Étoile, Bois de Vincennes, Paris 12e",
+  "maps_q": "Plaine de la Belle Étoile Bois de Vincennes Paris",
+  "genres": [
+   "Pop",
+   "Électro",
+   "Rap",
+   "Écoresponsable"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "4 – 6 juin 2027",
+  "iso": [
+   "2027-06-04",
+   "2027-06-06"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "16e édition. Les premiers noms (dix) ont été dévoilés à l'automne 2026 : liste complète à reprendre depuis le site officiel.",
+  "price_from": 84.0,
+  "price_label": "dès 84 € / jour (tarif 2026)",
+  "prices": [
+   [
+    "Billet jour, plein tarif (2026)",
+    "84 €"
+   ],
+   [
+    "Tarif réduit (étudiants, demandeurs d'emploi…)",
+    "59 €"
+   ],
+   [
+    "Teens 12–17 ans",
+    "49 €"
+   ],
+   [
+    "Kids 5–11 ans",
+    "29 €"
+   ],
+   [
+    "Moins de 5 ans",
+    "Gratuit"
+   ],
+   [
+    "Pass 3 jours early bird (2026)",
+    "159 € (épuisé)"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026. Les tarifs 2027 ne sont pas encore publiés. Justificatif obligatoire pour les tarifs réduits.",
+  "last_label": "Édition 2026 (15e)",
+  "last_dates": "5 – 7 juin 2026",
+  "lineup": [
+   "Gorillaz",
+   "The xx",
+   "Theodora",
+   "Addison Rae",
+   "Charlotte Cardin",
+   "Little Simz",
+   "Charlotte de Witte",
+   "Dom Dolla"
+  ],
+  "lineup_note": "Extrait de l'affiche 2026. Première édition après le rachat du festival par AEG et Combat.",
+  "about": "Festival de musiques et d'écologie installé dans le Bois de Vincennes depuis 2011 : pop, électro, rap et rock sur trois jours, avec conférences, installations artistiques et restauration responsable. Plus de 100 000 festivaliers sur le week-end.",
+  "access": [
+   "Métro ligne 1 ou RER A jusqu'à Château de Vincennes",
+   "Accès en voiture déconseillé : le festival encourage vélo et transports",
+   "Stations Vélib' gardées à l'entrée"
+  ],
+  "tips": [
+   "Billets nominatifs pour les pass 2 et 3 jours",
+   "Pass Culture accepté",
+   "Achat conseillé sur le site officiel pour éviter les majorations de la revente"
+  ],
+  "official": "https://www.welovegreen.fr",
+  "sources": [
+   [
+    "Time Out : premiers noms 2027",
+    "https://www.timeout.fr/paris/actualites/we-love-green-2027-premiers-noms-101926"
+   ],
+   [
+    "Time Out : édition 2026",
+    "https://www.timeout.fr/paris/musique/we-love-green-paris"
+   ],
+   [
+    "Festival en France : tarifs 2026",
+    "https://festivalenfrance.com/festival/we-love-green"
+   ],
+   [
+    "Pixidia : guide 2026",
+    "https://pixidia.com/?p=44878"
+   ]
+  ],
+  "slug": "we-love-green",
+  "name": "We Love Green",
+  "city": "Paris (Bois de Vincennes)",
+  "country": "France"
+ },
+ {
+  "region": "Île-de-France",
+  "venue": "Hippodrome de Paris-Longchamp, 2 route des Tribunes, Paris 16e",
+  "maps_q": "Hippodrome de Paris-Longchamp",
+  "genres": [
+   "Rap",
+   "Pop",
+   "Électro",
+   "Solidaire"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "Juin 2027 (dates à confirmer)",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "L'édition 2026 a été annulée le 26 juin 2026 à cause de la canicule. Le festival a annoncé son retour en 2027.",
+  "price_from": 59.0,
+  "price_label": "dès 59 € / jour (tarif 2026)",
+  "prices": [
+   [
+    "Pass 1 jour (dès)",
+    "59 €"
+   ],
+   [
+    "Pass 3 jours (dès)",
+    "159 €"
+   ],
+   [
+    "Pass nuit",
+    "35 €"
+   ],
+   [
+    "Moins de 10 ans",
+    "Gratuit"
+   ]
+  ],
+  "prices_note": "Tarifs prévus pour 2026 (édition annulée). Certaines sources donnent des montants légèrement différents : vérifier sur le site officiel. Tarifs 2027 non publiés.",
+  "last_label": "Édition 2026 (annulée)",
+  "last_dates": "26 – 28 juin 2026",
+  "lineup": [
+   "Orelsan",
+   "GIMS",
+   "Bigflo & Oli",
+   "Zara Larsson",
+   "Major Lazer",
+   "Vald",
+   "Gazo",
+   "Nina Kraviz",
+   "Amelie Lens",
+   "Suzane",
+   "Guy2Bezbar"
+  ],
+  "lineup_note": "Noms qui étaient annoncés pour 2026 avant l'annulation. Ce n'est pas la programmation 2027.",
+  "about": "Festival organisé par l'association Solidarité Sida au profit de la lutte contre le VIH. Concerts de rap, pop et électro sur plusieurs scènes, avec un village associatif. Record de 260 467 festivaliers en 2024.",
+  "access": [
+   "Navettes gratuites RATP au départ de Porte Maillot (sortie n°3)",
+   "Taxis G7 à la sortie du festival"
+  ],
+  "tips": [
+   "En cas d'annulation, le remboursement se fait auprès de la billetterie d'achat",
+   "Pass Culture éligible",
+   "Limite de 4 pass par personne"
+  ],
+  "official": "https://www.solidays.org",
+  "sources": [
+   [
+    "Sortiraparis : annulation 2026",
+    "https://www.sortiraparis.com/en/what-to-see-in-paris/concerts-music-festival/articles/295216-solidays-cancels-2026-edition-forgoes-its-28th-edition"
+   ],
+   [
+    "Paris je t'aime : annulation et retour en 2027",
+    "https://parisjetaime.com/eng/event/festival-solidays-e030"
+   ],
+   [
+    "Time Out : line-up 2026",
+    "https://www.timeout.fr/paris/actualites/solidays-28-edition-nouveaux-noms-121125"
+   ],
+   [
+    "Pixidia : tarifs 2026",
+    "https://pixidia.com/?p=46091"
+   ]
+  ],
+  "slug": "solidays",
+  "name": "Solidays",
+  "city": "Paris (Hippodrome de Longchamp)",
+  "country": "France"
+ },
+ {
+  "region": "Wallonie",
+  "venue": "Site de Rocourt (Plaine de la Tonne), Liège",
+  "maps_q": "Plaine de la Tonne Rocourt Liège",
+  "genres": [
+   "Rap",
+   "Hip-hop",
+   "Électro"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "1 – 4 juillet 2027",
+  "iso": [
+   "2027-07-01",
+   "2027-07-04"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates relevées sur des sites spécialisés, à confirmer sur le site officiel. Programmation et tarifs 2027 pas encore publiés.",
+  "price_from": 105.0,
+  "price_label": "dès 105 € / jour (tarif 2025)",
+  "prices": [
+   [
+    "Pass 1 jour (2025)",
+    "105 €"
+   ],
+   [
+    "Pass 4 jours (2025)",
+    "292 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2025. Je n'ai pas retrouvé de grille fiable pour 2026. Tarifs 2027 non publiés.",
+  "last_label": "Édition 2026 (20e)",
+  "last_dates": "2 – 5 juillet 2026",
+  "lineup": [
+   "Bigflo & Oli",
+   "PLK",
+   "Josman",
+   "La Fouine",
+   "Bia",
+   "Nico Moreno"
+  ],
+  "lineup_note": "Extrait de l'affiche 2026 (117 artistes annoncés au total).",
+  "about": "Festival belge de rap, hip-hop et musiques urbaines, né en 2006 à Liège. Quatre jours de concerts du jeudi au dimanche, avec des sets électro tard dans la nuit. Environ 50 000 festivaliers par jour.",
+  "access": [
+   "Site de Rocourt, au nord de Liège",
+   "Gare de Liège-Guillemins puis navettes spéciales pendant le festival"
+  ],
+  "tips": [
+   "Billets nominatifs",
+   "Pass 2 jours épuisés dès mai en 2026 : acheter tôt"
+  ],
+  "official": "https://www.lesardentes.be",
+  "sources": [
+   [
+    "Technoairlines : dates 2027",
+    "https://www.technoairlines.com/festival/les-ardentes-liege-belgium-2027"
+   ],
+   [
+    "Info-lux : édition 2026",
+    "https://www.info-lux.com/festival-les-ardentes-liege-2026-programmation-billets-infos-pratiques/pays/belgique/wallonie/province-de-liege/liege/"
+   ],
+   [
+    "RA : tarifs 2025",
+    "https://ra.co/events/2207729"
+   ]
+  ],
+  "slug": "les-ardentes",
+  "name": "Les Ardentes",
+  "city": "Liège (Rocourt)",
+  "country": "Belgique"
+ },
+ {
+  "region": "Bretagne",
+  "venue": "Lorient (Palais des Congrès, Grand Théâtre, rues et stade du Moustoir pour la Grande Parade)",
+  "maps_q": "Palais des Congrès Lorient",
+  "genres": [
+   "Musiques celtiques",
+   "Folk",
+   "Fest-noz"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "30 juillet – 8 août 2027",
+  "iso": [
+   "2027-07-30",
+   "2027-08-08"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "56e édition, thème « Les femmes des Pays Celtes ». Premiers noms et ouverture de la billetterie prévus le jeudi 26 novembre 2026.",
+  "price_from": 5.0,
+  "price_label": "dès 5 € (tarif 2026)",
+  "prices": [
+   [
+    "Spectacles (selon l'événement, 2026)",
+    "5 € à 50 €"
+   ],
+   [
+    "Badge de soutien (2026)",
+    "10 €"
+   ],
+   [
+    "Supplément en achat au guichet",
+    "1,80 à 2 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026. Les tarifs 2027 seront connus à l'ouverture de la billetterie.",
+  "last_label": "Édition 2026 (55e)",
+  "last_dates": "31 juillet – 9 août 2026",
+  "lineup": [
+   "Yann Tiersen",
+   "Agnès Obel",
+   "Grande Parade des Nations Celtes (2 août)",
+   "Championnat National des Bagadoù",
+   "Nuits Interceltiques",
+   "Fest-noz quotidiens"
+  ],
+  "lineup_note": "Extrait de la programmation 2026, dont le thème était « La Cornouailles, au cœur de la Mer Celtique ».",
+  "about": "Le plus grand rassemblement de cultures celtiques au monde, depuis 1971. Dix jours de concerts, fest-noz, expositions et défilés, avec une nation ou région celte invitée d'honneur chaque année.",
+  "access": [
+   "Lorient (Morbihan), desservie par train",
+   "Billets au guichet des offices de tourisme du Pays de Lorient et au Palais des Congrès"
+  ],
+  "tips": [
+   "Billetterie 2027 ouverte à partir du 26 novembre 2026",
+   "Plateforme de revente officielle : TicketSwap"
+  ],
+  "official": "https://www.festival-interceltique.bzh",
+  "sources": [
+   [
+    "Tourisme Lorient Bretagne Sud : édition 2027",
+    "https://www.lorientbretagnesudtourisme.fr/fr/fiche/festival-interceltique-de-lorient-lorient_TFOYFESTIVALINTERCELTIQUEFESTIVALINTERCELTIQUEINGENIE/"
+   ],
+   [
+    "Festival en France : édition 2026",
+    "https://www.festivalenfrance.com/festival/festival-interceltique-de-lorient"
+   ],
+   [
+    "Onivapp : édition 2026",
+    "https://onivapp.com/blog/festival-interceltique-lorient-2026"
+   ]
+  ],
+  "slug": "festival-interceltique-de-lorient",
+  "name": "Festival Interceltique de Lorient",
+  "city": "Lorient (Morbihan)",
+  "country": "France"
+ },
+ {
+  "region": "Île-de-France",
+  "venue": "Base aérienne 217, rue des Fusillés-de-la-Résistance, 91220 Le Plessis-Pâté",
+  "maps_q": "Base aérienne 217 Le Plessis-Pâté",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Rap",
+   "Débats"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "Septembre 2027 (dates à confirmer)",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "La fête a lieu en général le deuxième week-end de septembre. Aucune date 2027 officielle retrouvée pour l'instant.",
+  "price_from": 55.0,
+  "price_label": "dès 55 € le pass 3 jours (tarif 2026)",
+  "prices": [
+   [
+    "Pass 3 jours (par paliers)",
+    "55 € puis 60 €, 65 €, 70 €"
+   ],
+   [
+    "Pass 3 jours enfant 0–11 ans",
+    "1 €"
+   ],
+   [
+    "Parking public (à réserver)",
+    "40 €"
+   ]
+  ],
+  "prices_note": "Tarifs 2026. Le billet est un bon de soutien au journal L'Humanité. Tarifs 2027 non publiés.",
+  "last_label": "Édition 2026 (91e)",
+  "last_dates": "11 – 13 septembre 2026",
+  "lineup": [
+   "Patti Smith",
+   "Soprano",
+   "Louane",
+   "Kery James",
+   "Kneecap",
+   "The Avener",
+   "Ogres de Barback & La Rue Kétanou",
+   "Saïan Supa Crew",
+   "Kalash"
+  ],
+  "lineup_note": "Extrait de l'affiche 2026 (une soixantaine d'artistes). Le festival propose aussi débats, Village du Livre et stands associatifs.",
+  "about": "Grand rendez-vous populaire, politique et musical créé en 1930 par le journal L'Humanité. Depuis 2022, il n'est plus à La Courneuve mais sur l'ancienne base aérienne 217, au Plessis-Pâté, en Essonne.",
+  "access": [
+   "RER C jusqu'à Brétigny-sur-Orge puis navettes gratuites",
+   "Parking vélo gratuit et gardé"
+  ],
+  "tips": [
+   "Pièce d'identité exigée pour justifier l'âge des enfants",
+   "Les mineurs doivent être accompagnés d'un adulte",
+   "Pass Culture accepté"
+  ],
+  "official": "https://fete.humanite.fr",
+  "sources": [
+   [
+    "Festival en France : édition 2026",
+    "https://www.festivalenfrance.com/festival/fete-de-lhumanite"
+   ],
+   [
+    "Onivapp : édition 2026",
+    "https://onivapp.com/blog/fete-de-l-humanite-2026"
+   ],
+   [
+    "Sortiraparis : programmation 2026",
+    "https://www.sortiraparis.com/scenes/concert-musique/articles/53568-fete-huma-festival-programmation"
+   ],
+   [
+    "Tourisme 93 : dates et horaires 2026",
+    "https://uk.tourisme93.com/humanite.html"
+   ]
+  ],
+  "slug": "fete-de-l-humanite",
+  "name": "Fête de l'Humanité",
+  "city": "Le Plessis-Pâté (Essonne)",
+  "country": "France"
+ },
+ {
+  "region": "Pays de la Loire",
+  "venue": "Hellfest Open Air, Clisson",
+  "maps_q": "Hellfest Open Air Clisson",
+  "genres": [
+   "Metal",
+   "Hard rock",
+   "Musiques extrêmes"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "17 – 20 juin 2027",
+  "iso": [
+   "2027-06-17",
+   "2027-06-20"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "20e édition, annoncée avec plus de 300 groupes et 10 scènes. Le pass 4 jours est épuisé et le pass 1 jour n'est pas encore en vente. Une revente officielle est ouverte sur tickets.hellfest.fr.",
+  "price_from": 389.0,
+  "price_label": "389 € le pass 4 jours (2027, épuisé)",
+  "prices": [
+   [
+    "Pass 4 jours 2027 (mis en vente en juillet 2026, épuisé)",
+    "389 €"
+   ],
+   [
+    "Frais de service sur le pass 4 jours",
+    "environ 10 €"
+   ],
+   [
+    "Pass 1 jour 2027",
+    "Pas encore annoncé"
+   ]
+  ],
+  "prices_note": "Seul le pass 4 jours a un tarif publié pour 2027. Pour une place, il faut passer par la revente officielle.",
+  "last_label": "Édition 2026",
+  "last_dates": "18 – 21 juin 2026",
+  "lineup": [
+   "Iron Maiden",
+   "Bring Me The Horizon",
+   "Limp Bizkit",
+   "Deep Purple",
+   "Alice Cooper",
+   "Megadeth",
+   "Sepultura"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026.",
+  "about": "Le grand festival français de metal et de musiques extrêmes, installé à Clisson près de Nantes. L'édition 2027 est la 20e, annoncée comme une édition anniversaire avec davantage de scènes.",
+  "access": [
+   "TER Nantes – Clisson, puis navettes entre la gare et le festival (3,50 € en 2026)",
+   "Parking Ouest avec navettes gratuites depuis Nantes, Angers ou Paris ; Parking Est à 15 min à pied depuis Cholet ou Bordeaux",
+   "Billet TER « Live » à 5 € depuis les gares des Pays de la Loire en 2026"
+  ],
+  "tips": [
+   "Les pass 4 jours sont épuisés : n'achète qu'en revente officielle, jamais au marché noir",
+   "Camping-car et van autorisés sur les parkings officiels, mais tentes, tonnelles et feux de camp y sont interdits",
+   "Les infos transport 2027 ne sont pas publiées : vérifier le site officiel au printemps"
+  ],
+  "official": "https://hellfest.fr",
+  "sources": [
+   [
+    "Hellfest : site officiel",
+    "https://www.hellfest.fr"
+   ],
+   [
+    "Sortiraparis : 10 scènes et 300 groupes pour la 20e édition",
+    "https://www.sortiraparis.com/en/getaways-from-paris/northwest/articles/347744-hellfest-2027-10-stages-and-300-bands-on-the-lineup-for-the-festival-s-20th-edition"
+   ],
+   [
+    "Forum Hellfest : parkings et transports",
+    "https://forum.hellfest.fr/t/parkings-transports/13319"
+   ]
+  ],
+  "slug": "hellfest",
+  "name": "Hellfest",
+  "city": "Clisson (Loire-Atlantique)",
+  "country": "France"
+ },
+ {
+  "region": "Bretagne",
+  "venue": "Site de Kerampuilh, Carhaix-Plouguer",
+  "maps_q": "Site de Kerampuilh Carhaix-Plouguer",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Musiques actuelles"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "15 – 18 juillet 2027",
+  "iso": [
+   "2027-07-15",
+   "2027-07-18"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "35e édition. Les billets du jeudi 15 juillet (Muse) sont déjà épuisés. Le reste de la billetterie, pass 3 et 4 jours compris, est annoncé « prochainement ».",
+  "price_from": 53.0,
+  "price_label": "dès 53 € le billet vendredi (annoncé)",
+  "prices": [
+   [
+    "Billet jeudi 15 juillet, tarif Presto (épuisé)",
+    "61 €"
+   ],
+   [
+    "Billet jeudi 15 juillet, tarif Regular (épuisé)",
+    "65 €"
+   ],
+   [
+    "Billet vendredi 16 juillet (annoncé « dès »)",
+    "53 €"
+   ],
+   [
+    "Pass 4 jours (référence 2026)",
+    "dès 196 €"
+   ],
+   [
+    "Pass 3 jours (référence 2026)",
+    "144 à 149 €"
+   ]
+  ],
+  "prices_note": "Le tarif de 53 € vient de la presse, pas de la billetterie officielle. Les pass sont donnés à titre de référence 2026.",
+  "last_label": "Édition 2026",
+  "last_dates": "",
+  "lineup": [
+   "Muse (jeudi 15 juillet)",
+   "Angèle (vendredi 16 juillet)"
+  ],
+  "lineup_note": "Seuls deux noms sont annoncés pour 2027. Le reste de l'affiche sera dévoilé plus tard.",
+  "about": "Festival 100 % associatif au cœur de la Bretagne, qui revendique des tarifs parmi les plus accessibles pour un événement de cette ampleur. Quatre jours de concerts à Carhaix.",
+  "access": [
+   "Gare de Carhaix à environ 10 min à pied du site, avec des trains supplémentaires pendant le festival",
+   "Lignes de bus finistériennes à prix réduit, mais pas de bus la nuit après les concerts",
+   "Navettes gratuites depuis les communes proches",
+   "Voiture déconseillée : covoiturage conseillé"
+  ],
+  "tips": [
+   "Le camping du festival est gratuit, avec réservation obligatoire à partir de juin 2027",
+   "Les billets PSH ont une billetterie dédiée, avec parking et camping réservés",
+   "Le jeudi est épuisé : surveiller l'ouverture des autres billets"
+  ],
+  "official": "https://www.vieillescharrues.asso.fr",
+  "sources": [
+   [
+    "Vieilles Charrues : site officiel",
+    "https://www.vieillescharrues.asso.fr"
+   ],
+   [
+    "Vieilles Charrues : billetterie",
+    "https://www.vieillescharrues.asso.fr/billetterie/"
+   ],
+   [
+    "Sortiraparis : dates de l'édition 2027",
+    "https://www.sortiraparis.com/en/getaways-from-paris/northwest/articles/50235-les-vieilles-charrues-here-are-the-dates-for-the-2027-edition"
+   ],
+   [
+    "JDS : accès et tarifs de référence",
+    "https://www.jds.fr/carhaix-plouguer/manifestations/festival/les-vieilles-charrues-264134_A"
+   ]
+  ],
+  "slug": "vieilles-charrues",
+  "name": "Les Vieilles Charrues",
+  "city": "Carhaix-Plouguer (Finistère)",
+  "country": "France"
+ },
+ {
+  "region": "Bourgogne-Franche-Comté",
+  "venue": "Presqu'île du Malsaucy",
+  "maps_q": "Presqu'île du Malsaucy Belfort",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Rap"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "2 – 5 juillet 2027",
+  "iso": [
+   "2027-07-02",
+   "2027-07-05"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "37e édition, dates annoncées le 6 octobre 2026. La billetterie est ouverte depuis le 9 octobre 2026 pour le billet du lundi 5 juillet et le forfait 4 jours.",
+  "price_from": 79.0,
+  "price_label": "dès 79 € le billet du lundi 5 juillet (2027)",
+  "prices": [
+   [
+    "Billet jour du lundi 5 juillet 2027",
+    "79 €"
+   ],
+   [
+    "Forfait 4 jours 2027 (offre limitée)",
+    "219 €"
+   ]
+  ],
+  "prices_note": "Camping en accès libre pour les détenteurs d'un billet équipés de leur matériel. Les autres billets jour ne sont pas encore en vente.",
+  "last_label": "Édition 2026",
+  "last_dates": "2 – 5 juillet 2026",
+  "lineup": [
+   "Muse (clôture, lundi 5 juillet)"
+  ],
+  "lineup_note": "Seul Muse est annoncé pour 2027. Pour mémoire, l'affiche 2026 comptait Pulp, The Offspring, Aya Nakamura, Orelsan et Ben Harper.",
+  "about": "Festival rock et musiques actuelles installé sur la presqu'île du Malsaucy, à environ 7 km de Belfort. Quatre jours de concerts, du vendredi au lundi.",
+  "access": [
+   "Navettes train gratuites entre la gare de Belfort-Ville et la gare de Bas-Évette, à quelques pas du site",
+   "Navette Optymo gratuite entre la gare de Belfort-Ville et le camping",
+   "Parking gratuit à l'aérodrome de Chaux avec navettes gratuites",
+   "Piste cyclable entre Belfort et le site, avec parc à vélos sécurisé gratuit"
+  ],
+  "tips": [
+   "Le forfait 4 jours est en offre limitée : acheter tôt",
+   "Les horaires de navettes 2027 ne sont pas publiés",
+   "Des tarifs TER réduits ont existé en 2026 : à vérifier pour 2027"
+  ],
+  "official": "https://www.eurockeennes.fr",
+  "sources": [
+   [
+    "Eurockéennes : site officiel",
+    "https://www.eurockeennes.fr"
+   ],
+   [
+    "Eurockéennes : prévente 2027",
+    "https://www.eurockeennes.fr/actualite/prevente-2027/"
+   ],
+   [
+    "Stéphane Larue : Muse en clôture",
+    "https://stephanelarue.com/eurockeennes-2027-muse-en-cloture-le-5-juillet-billetterie-ouverte/"
+   ]
+  ],
+  "slug": "eurockeennes-de-belfort",
+  "name": "Les Eurockéennes de Belfort",
+  "city": "Belfort (Territoire de Belfort)",
+  "country": "France"
+ },
+ {
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Centre-ville de La Rochelle (scène Jean-Louis Foulquier, esplanade Saint-Jean-d'Acre)",
+  "maps_q": "Esplanade Saint-Jean-d'Acre La Rochelle",
+  "genres": [
+   "Chanson francophone",
+   "Pop",
+   "Rap"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "10 – 14 juillet 2027",
+  "iso": [
+   "2027-07-10",
+   "2027-07-14"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Le site officiel annonce le retour du festival du 10 au 14 juillet 2027, avec une programmation « à venir ». Ni billetterie ni tarifs 2027 n'y figurent.",
+  "price_from": null,
+  "price_label": "Tarifs 2027 non publiés",
+  "prices": [
+   [
+    "Soirée Grande Scène (indicatif 2026)",
+    "environ 60 à 80 €"
+   ],
+   [
+    "Concert individuel (indicatif 2026)",
+    "35 à 60 €"
+   ],
+   [
+    "Pass 5 jours (indicatif 2026)",
+    "dès 150 €"
+   ]
+  ],
+  "prices_note": "Ces montants datent de 2026 et viennent d'un annuaire tiers, qui les présente de façon approximative. Aucun tarif 2027 publié. Des concerts sont gratuits sur plusieurs scènes extérieures.",
+  "last_label": "Édition 2026",
+  "last_dates": "10 – 14 juillet 2026",
+  "lineup": [
+   "Orelsan",
+   "Aya Nakamura",
+   "Gims",
+   "Louane",
+   "Mika",
+   "Zaz",
+   "Niska",
+   "Youssou Ndour",
+   "Gaël Faye",
+   "Julien Clerc",
+   "Feu! Chatterton",
+   "Raphaël"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026.",
+  "about": "Grand festival de chanson francophone qui investit le centre de La Rochelle chaque été. La scène Jean-Louis Foulquier accueille les grandes soirées, complétées par plusieurs salles de la ville.",
+  "access": [
+   "Gare SNCF de La Rochelle à environ 10 min à pied du Vieux-Port",
+   "Aéroport La Rochelle-Île de Ré à 8 km du centre",
+   "Parkings à proximité du centre et navettes spéciales pendant le festival"
+  ],
+  "tips": [
+   "Programmation et billetterie 2027 à venir : s'inscrire aux alertes du site officiel",
+   "Les concerts se répartissent entre la scène en plein air et plusieurs salles : vérifier le lieu avant d'acheter",
+   "Des concerts gratuits sont proposés sur des scènes extérieures"
+  ],
+  "official": "https://www.francofolies.fr",
+  "sources": [
+   [
+    "Francofolies : site officiel",
+    "https://www.francofolies.fr"
+   ],
+   [
+    "Festival en France : édition 2026",
+    "https://www.festivalenfrance.com/festival/les-francofolies-de-la-rochelle"
+   ]
+  ],
+  "slug": "francofolies-de-la-rochelle",
+  "name": "Les Francofolies de La Rochelle",
+  "city": "La Rochelle (Charente-Maritime)",
+  "country": "France"
+ },
+ {
+  "region": "Île-de-France",
+  "venue": "Domaine national de Saint-Cloud",
+  "maps_q": "Domaine national de Saint-Cloud",
+  "genres": [
+   "Rock",
+   "Indie",
+   "Pop"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "23 – 27 août 2028 (pas d'édition en 2027)",
+  "iso": [
+   "2028-08-23",
+   "2028-08-27"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Attention : pas d'édition en 2027. Le festival a annoncé début novembre 2026 une pause, à cause des travaux d'aménagement prévus aux abords du Domaine national de Saint-Cloud, qui compliqueraient l'accès au site. Rendez-vous du 23 au 27 août 2028. Les organisateurs étudient un « rendez-vous différent » en 2027, sans détail à ce jour.",
+  "price_from": 94.0,
+  "price_label": "dès 94 € / jour (tarif plein 2026)",
+  "prices": [
+   [
+    "Billet jour tarif Regular (2026)",
+    "94 à 99 € selon la date"
+   ],
+   [
+    "Forfait 2 jours (2026)",
+    "149 €"
+   ],
+   [
+    "Forfait 3 jours (2026)",
+    "199 €"
+   ],
+   [
+    "Forfait 4 jours (2026)",
+    "235 €"
+   ]
+  ],
+  "prices_note": "Aucun tarif 2028 publié. Les prix 2026 étaient dynamiques selon les jours, avec des tarifs réduits (64 à 74 €) et enfant (20 €).",
+  "last_label": "Édition 2026",
+  "last_dates": "26 – 30 août 2026",
+  "lineup": [
+   "The Cure",
+   "Nick Cave & The Bad Seeds",
+   "Deftones",
+   "Tyler, The Creator",
+   "Lorde",
+   "Turnstile",
+   "Franz Ferdinand",
+   "Interpol",
+   "Amyl & The Sniffers"
+  ],
+  "lineup_note": "Pas d'édition 2027, donc pas de programmation. Noms de l'édition 2026.",
+  "about": "Festival rock de fin d'été installé dans le Domaine national de Saint-Cloud, aux portes de Paris. L'édition 2026 a réuni environ 175 000 personnes sur cinq jours.",
+  "access": [
+   "Métro ligne 10, station Boulogne – Pont de Saint-Cloud",
+   "Tramway T2, station Parc de Saint-Cloud",
+   "Bus, arrêts Parc de Saint-Cloud ou Pont de Saint-Cloud"
+  ],
+  "tips": [
+   "Ne rien planifier en 2027 : le festival est en pause cette année-là",
+   "Les travaux autour du Domaine sont la raison de la pause : vérifier l'accès avant 2028",
+   "Surveiller le site officiel pour l'éventuel événement de remplacement en 2027"
+  ],
+  "official": "https://www.rockenseine.com",
+  "sources": [
+   [
+    "Rock en Seine : site officiel et communiqué",
+    "https://www.rockenseine.com"
+   ],
+   [
+    "Sortiraparis : pause en 2027, retour en 2028",
+    "https://www.sortiraparis.com/en/news/in-paris/articles/356036-rock-en-seine-canceled-in-2027-festival-set-to-return-to-the-domaine-national-de-saint-cloud-in-2028"
+   ],
+   [
+    "Rock en Seine : billetterie 2026",
+    "https://www.rockenseine.com/billetterie/"
+   ]
+  ],
+  "slug": "rock-en-seine",
+  "name": "Rock en Seine",
+  "city": "Saint-Cloud (Hauts-de-Seine)",
+  "country": "France"
+ },
+ {
+  "region": "Île-de-France",
+  "venue": "Hippodrome ParisLongchamp, 2 route des Tribunes, Paris 16e",
+  "maps_q": "Hippodrome ParisLongchamp Paris",
+  "genres": [
+   "Pop",
+   "Électro",
+   "Rock"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "Juillet 2027 (retour non confirmé)",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Pas d'édition en 2026 : l'annulation a été annoncée en octobre 2025 comme une pause d'un an, avec un retour promis en 2027 par Live Nation France. Mais aucune date ni affiche « Lollapalooza Paris 2027 » n'a été trouvée sur une source officielle. L'hippodrome annonce en revanche « Off Track », une série de concerts en plein air en juillet 2027 (Alex Warren le 13 juillet, Noah Kahan), que certains présentent comme son remplaçant. À vérifier avant de prévoir quoi que ce soit.",
+  "price_from": 89.0,
+  "price_label": "dès 89 € / jour (tarif 2025, dernière édition)",
+  "prices": [
+   [
+    "Billet jour Regular (2025)",
+    "89 à 99 €"
+   ],
+   [
+    "Billet jour Lolla+ (2025)",
+    "178 à 188 €"
+   ],
+   [
+    "Pass 3 jours (2025)",
+    "220 à 235 €"
+   ],
+   [
+    "Billet Lolla VIP (2025)",
+    "499 € (599 € le dimanche)"
+   ]
+  ],
+  "prices_note": "Tarifs 2025 donnés à titre de référence. Aucun tarif 2027 n'est publié, ni pour Lollapalooza ni pour Off Track.",
+  "last_label": "Édition 2025",
+  "last_dates": "18 – 20 juillet 2025",
+  "lineup": [
+   "Olivia Rodrigo",
+   "Justin Timberlake",
+   "Benson Boone",
+   "David Guetta",
+   "Raye",
+   "Alex Warren",
+   "Lola Young"
+  ],
+  "lineup_note": "Aucune programmation Lollapalooza 2027. Noms de l'édition 2025. Pour 2027, seules des dates Off Track sont annoncées sur le même site.",
+  "about": "Version parisienne du festival américain, organisée par Live Nation sur l'hippodrome ParisLongchamp. L'édition 2025 a réuni 160 000 entrées selon son directeur ; l'édition 2026 n'a pas eu lieu.",
+  "access": [
+   "Hippodrome ParisLongchamp, 2 route des Tribunes, Paris 16e",
+   "Aucune information d'accès 2027 publiée"
+  ],
+  "tips": [
+   "Ne te fie pas à des dates non officielles : le nom Lollapalooza n'apparaît plus pour 2027 dans les sources trouvées",
+   "Ne pas confondre avec les concerts Off Track de l'hippodrome, vendus par artiste",
+   "Vérifier le site officiel et la billetterie Live Nation avant d'acheter"
+  ],
+  "official": "https://www.lollaparis.com",
+  "sources": [
+   [
+    "Le Parisien : annulation 2026 et retour annoncé en 2027",
+    "https://www.leparisien.fr/culture-loisirs/musique/le-festival-lollapalooza-annule-en-2026-trop-de-contraintes-mais-on-reviendra-en-2027-assure-son-directeur-20-10-2025-KIT3P3W5PZGWJC4EI4SEODOGFI.php"
+   ],
+   [
+    "Esprit Festivalier : Off Track, qui remplace le Lollapalooza de Paris",
+    "https://esprit-festivalier.fr/le-premier-nom-de-off-track-est-10515/"
+   ],
+   [
+    "Sortiraparis : Alex Warren à ParisLongchamp le 13 juillet 2027",
+    "https://www.sortiraparis.com/en/what-to-see-in-paris/concerts-music-festival/articles/352819-alex-warren-to-perform-an-outdoor-concert-at-the-parislongchamp-racecourse-in-july-2027"
+   ]
+  ],
+  "slug": "lollapalooza-paris",
+  "name": "Lollapalooza Paris",
+  "city": "Paris (Hippodrome ParisLongchamp)",
+  "country": "France"
+ },
+ {
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Plaine de la Filhole, Marmande",
+  "maps_q": "Plaine de la Filhole Marmande",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Rap",
+   "Électro"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "25 – 27 juin 2027",
+  "iso": [
+   "2027-06-25",
+   "2027-06-27"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "31e édition. Billetterie ouverte depuis le 1er septembre 2026, avec des tarifs Early affichés sur le site officiel.",
+  "price_from": 84.0,
+  "price_label": "dès 84 € le pass 1 jour (2027)",
+  "prices": [
+   [
+    "Pass 1 jour (dimanche)",
+    "84 €"
+   ],
+   [
+    "Pass 2 jours, tarif Early (au lieu de 149 €)",
+    "134 €"
+   ],
+   [
+    "Pass 3 jours, tarif Early (au lieu de 220 €)",
+    "185 €"
+   ]
+  ],
+  "prices_note": "Les tarifs Early sont des offres de lancement qui montent ensuite. Le Pass Culture est accepté. Le prix du camping n'est pas publié.",
+  "last_label": "Édition 2026",
+  "last_dates": "25 – 28 juin 2026",
+  "lineup": [
+   "Placebo (vendredi 25)",
+   "Angèle (vendredi 25)",
+   "Vald x Vladimir Cauchemar x Todiefor (vendredi 25)",
+   "Theodora (samedi 26)",
+   "Kneecap (samedi 26)",
+   "David Guetta (clôture, dimanche 27)",
+   "Ino Casablanca (dimanche 27)"
+  ],
+  "lineup_note": "Premiers noms annoncés pour 2027 ; d'autres sont attendus.",
+  "about": "Festival pluridisciplinaire de Marmande, entre rock, pop, rap et électro, qui se tient sur la plaine de la Filhole. Il avait réuni environ 55 000 festivaliers en 2023.",
+  "access": [
+   "Gare SNCF de Marmande à environ 10 min à pied de la plaine de la Filhole",
+   "Trois parkings gratuits, les parkings 1 et 2 étant desservis par des navettes gratuites toutes les 20 à 30 min",
+   "Covoiturage encouragé, avec un espace dédié sur le site"
+  ],
+  "tips": [
+   "Paiement uniquement en cashless (Garocash) : créer son compte avant d'arriver, avec le numéro de billet",
+   "Forte affluence attendue le dimanche : arriver tôt",
+   "Prévoir crème solaire, gourde et batterie chargée"
+  ],
+  "official": "https://www.garorock.com",
+  "sources": [
+   [
+    "Garorock : site officiel",
+    "https://www.garorock.com"
+   ],
+   [
+    "Stéphane Larue : David Guetta en 2027, billets dès 84 €",
+    "https://stephanelarue.com/garorock-accueillera-david-guetta-en-2027-billets-des-84-euros/"
+   ],
+   [
+    "JDS : infos pratiques",
+    "https://www.jds.fr/marmande/actu/festival-garorock-a-marmande-les-infos-pratiques-pour-preparer-votre-venue-1616928_A"
+   ]
+  ],
+  "slug": "garorock",
+  "name": "Garorock",
+  "city": "Marmande (Lot-et-Garonne)",
+  "country": "France"
+ },
+ {
+  "region": "Normandie",
+  "venue": "Château de Beauregard, 14200 Hérouville-Saint-Clair",
+  "maps_q": "Château de Beauregard Hérouville-Saint-Clair",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Rap",
+   "Électro"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "30 juin – 4 juillet 2027",
+  "iso": [
+   "2027-06-30",
+   "2027-07-04"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "19e édition. Le mercredi 30 juin est une soirée « The Day Before », puis les concerts principaux se tiennent du 1er au 4 juillet. Une offre Fan limitée à 5 000 pass a été lancée en octobre 2026.",
+  "price_from": 74.0,
+  "price_label": "dès 74 € le pass 1 jour (2027)",
+  "prices": [
+   [
+    "Pass 1 jour",
+    "74 €"
+   ],
+   [
+    "Pass 1 jour + camping",
+    "84 €"
+   ],
+   [
+    "Pass 3 jours",
+    "179 €"
+   ],
+   [
+    "Pass 4 jours",
+    "224 €"
+   ],
+   [
+    "Pass 4 jours + camping",
+    "254 €"
+   ],
+   [
+    "Offre Fan 3 jours (5 000 pass, par paliers)",
+    "135 à 155 €"
+   ],
+   [
+    "Offre Fan 4 jours (5 000 pass, par paliers)",
+    "175 à 195 €"
+   ]
+  ],
+  "prices_note": "Tarifs 2027 relevés sur la billetterie officielle et confirmés par la presse locale. L'offre Fan monte de 10 € à chaque palier. Le prix du Day Before n'est pas publié.",
+  "last_label": "Édition 2026",
+  "last_dates": "",
+  "lineup": [
+   "Placebo (jeudi 1er)",
+   "Ninho (jeudi 1er)",
+   "Vianney (vendredi 2)",
+   "Dimitri Vegas (vendredi 2)",
+   "Adèle Castillon (vendredi 2)",
+   "Angèle (samedi 3)",
+   "Tiakola (samedi 3)",
+   "Royal Blood (samedi 3)",
+   "The Strokes (dimanche 4)",
+   "Suzane (dimanche 4)"
+  ],
+  "lineup_note": "Programmation 2027 partielle : d'autres artistes sont à venir.",
+  "about": "Festival normand qui se tient dans le parc du château de Beauregard, près de Caen. Il propose des pass de 1 à 4 jours, avec camping.",
+  "access": [
+   "Train jusqu'à la gare de Caen, puis tramway ou navette gratuite vers le site",
+   "Château de Beauregard, 14200 Hérouville-Saint-Clair"
+  ],
+  "tips": [
+   "Les pass multi-jours sont indivisibles : impossible de céder une journée à quelqu'un d'autre",
+   "Avec un pass 1 jour, toute sortie est définitive",
+   "Les pass 1, 3 et 4 jours sont disponibles sur l'appli Pass Culture"
+  ],
+  "official": "https://www.festivalbeauregard.com",
+  "sources": [
+   [
+    "Festival Beauregard : site officiel",
+    "https://www.festivalbeauregard.com"
+   ],
+   [
+    "Sortiraparis : dates et affiche 2027",
+    "https://www.sortiraparis.com/en/getaways-from-paris/northwest/articles/50324-beauregard-festival-2027-edition-dates-announced"
+   ],
+   [
+    "actu.fr : offre Fan, 5 000 pass",
+    "https://actu.fr/normandie/caen_14118/beauregard-2027-cest-votre-seule-chance-davoir-des-prix-reduits-pour-le-festival-5-000-pass-mis-en-vente-vendredi_64927996.html"
+   ]
+  ],
+  "slug": "festival-beauregard",
+  "name": "Festival Beauregard",
+  "city": "Hérouville-Saint-Clair (Calvados)",
+  "country": "France"
+ },
+ {
+  "region": "Normandie",
+  "venue": "Site du festival, Saint-Laurent-de-Cuves",
+  "maps_q": "Festival Papillons de Nuit Saint-Laurent-de-Cuves",
+  "genres": [
+   "Rap",
+   "Pop",
+   "Techno",
+   "Dancehall",
+   "Rock"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "14 – 16 mai 2027",
+  "iso": [
+   "2027-05-14",
+   "2027-05-16"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates confirmées par le site officiel : trois jours à Saint-Laurent-de-Cuves. Ni programmation ni tarifs 2027 publiés à ce jour.",
+  "price_from": 54.0,
+  "price_label": "dès 54 € / jour (tarif 2026)",
+  "prices": [
+   [
+    "Billet 1 jour (2026)",
+    "54 €"
+   ],
+   [
+    "Pass 2 jours (2026)",
+    "99 €"
+   ],
+   [
+    "Pass 3 jours, forfait régulier (2026)",
+    "138 €"
+   ],
+   [
+    "Pass 3 jours, billet combiné (2026)",
+    "162 €"
+   ]
+  ],
+  "prices_note": "Tarifs 2026 donnés à titre de référence. Le camping était offert avec tous les billets en 2026.",
+  "last_label": "Édition 2026",
+  "last_dates": "22 – 24 mai 2026",
+  "lineup": [
+   "PLK",
+   "Mika",
+   "Sean Paul",
+   "Amelie Lens",
+   "Matt Pokora",
+   "Vald x Vladimir Cauchemar x Todiefor",
+   "Skip the Use",
+   "Suzane",
+   "Helena",
+   "Biga*Ranx"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026.",
+  "about": "Festival normand qui se présente comme le plus petit village-festival de France, avec une affiche mêlant rap, pop, techno, dancehall et rock. Trois jours mi-mai.",
+  "access": [
+   "A84, sortie 38 depuis Caen ou sortie 36 depuis Rennes, puis direction Brécey",
+   "Navettes gratuites depuis Avranches, Villedieu-les-Poêles, Brécey, Mortain, Sourdeval, Saint-Hilaire-du-Harcouët et Isigny-le-Buat",
+   "Gares d'Avranches et de Villedieu-les-Poêles, à environ 20 min du site",
+   "Covoiturage via IKO, avec parking réservé près du camping"
+  ],
+  "tips": [
+   "Le camping tente et camping-car était gratuit pour les détenteurs de billet, sans réservation",
+   "Objets interdits en 2026 : sacs de plus de 24 L, enceintes, drones, bouteilles en verre de plus de 50 cl",
+   "Une billetterie dédiée PSH et PMR existe, avec parking réservé"
+  ],
+  "official": "https://papillonsdenuit.com",
+  "sources": [
+   [
+    "Papillons de Nuit : site officiel",
+    "https://papillonsdenuit.com"
+   ],
+   [
+    "JDS : accès, tarifs et affiche de référence",
+    "https://www.jds.fr/manifestations/festival/festival-papillons-de-nuit-trois-jours-de-musique-en-normandie-1419351_A"
+   ]
+  ],
+  "slug": "papillons-de-nuit",
+  "name": "Les Papillons de Nuit",
+  "city": "Saint-Laurent-de-Cuves (Manche)",
+  "country": "France"
+ },
+ {
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Esplanade du Lac, boulevard Barrier, 73100 Aix-les-Bains",
+  "maps_q": "Esplanade du Lac Aix-les-Bains",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Électro",
+   "Hip-hop"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "8 – 11 juillet 2027",
+  "iso": [
+   "2027-07-08",
+   "2027-07-11"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Édition des 25 ans. Les pass 4 jours et les billets du dimanche 11 juillet (David Guetta) sont épuisés. Des pass de 1 à 3 jours restent possibles, mais leurs tarifs 2027 ne sont pas publiés.",
+  "price_from": 79.0,
+  "price_label": "dès 79 € / jour (tarif 2026)",
+  "prices": [
+   [
+    "Pass 1 jour (2026)",
+    "79 €"
+   ],
+   [
+    "Pass 2 jours (2026)",
+    "149 €"
+   ],
+   [
+    "Pass 3 jours (2026)",
+    "189 €"
+   ],
+   [
+    "Pass 4 jours (2026)",
+    "219 € (199 € en pass confiance)"
+   ],
+   [
+    "Camping (billetterie officielle)",
+    "29 €"
+   ]
+  ],
+  "prices_note": "Les pass 2027 existent pour 1 à 4 jours, mais leurs prix n'ont pas pu être vérifiés : les montants ci-dessus sont ceux de 2026. Le camping à 29 € figure sur la billetterie officielle.",
+  "last_label": "Édition 2026",
+  "last_dates": "",
+  "lineup": [
+   "David Guetta (dimanche 11 juillet, complet)"
+  ],
+  "lineup_note": "Seul David Guetta est annoncé pour 2027, et sa date est déjà complète. La programmation complète est annoncée pour les prochains mois.",
+  "about": "Festival au bord du lac du Bourget, entre lac et montagne, qui mêle rock, pop, électro et hip-hop. L'édition 2027 fête les 25 ans du festival.",
+  "access": [
+   "Esplanade du Lac, boulevard Barrier, 73100 Aix-les-Bains",
+   "En train : 11 min depuis Chambéry, 40 min d'Annecy, 1h de Grenoble, 1h15 de Lyon, 3h20 de Paris",
+   "Navettes gratuites depuis les parkings relais ; détails annoncés au printemps 2027",
+   "Parking à vélos gardienné et gratuit près du festival"
+  ],
+  "tips": [
+   "Les places de parking autour du site saturent vite : privilégier train, navettes ou covoiturage",
+   "En 2026, le bus urbain ONDEA était gratuit pour les détenteurs d'un billet : à vérifier pour 2027",
+   "Les pass 4 jours étant épuisés, viser un pass de 1 à 3 jours ou la revente sécurisée"
+  ],
+  "official": "https://www.musilac.com",
+  "sources": [
+   [
+    "Musilac : site officiel",
+    "https://www.musilac.com"
+   ],
+   [
+    "Musilac : billetterie",
+    "https://www.musilac.com/billetterie"
+   ],
+   [
+    "JDS : tarifs 2026 de référence",
+    "https://www.jds.fr/chambery/manifestations/festival/festival-musilac-267069_A"
+   ]
+  ],
+  "slug": "musilac",
+  "name": "Musilac",
+  "city": "Aix-les-Bains (Savoie)",
+  "country": "France"
+ },
+ {
+  "region": "Grand Est",
+  "venue": "Square Bayard, Charleville-Mézières (bords de la Meuse)",
+  "maps_q": "Square Bayard Charleville-Mézières",
+  "genres": [
+   "Rap",
+   "Pop",
+   "Rock indé",
+   "Électro",
+   "Metal"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "19 – 22 août 2027",
+  "iso": [
+   "2027-08-19",
+   "2027-08-22"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "21e édition, dates affichées sur le site officiel. La programmation est partielle et la suite doit être annoncée. Les pass camping ne sont pas encore en vente.",
+  "price_from": 59.0,
+  "price_label": "dès 59 € (tarif Ardennais) ; 69 € le pass 1 jour (2027)",
+  "prices": [
+   [
+    "Pass 1 jour",
+    "69 € (75 € au tarif regular)"
+   ],
+   [
+    "Pass 2 jours",
+    "129 € (135 € au tarif regular)"
+   ],
+   [
+    "Pass 3 jours",
+    "179 € (189 € au tarif regular)"
+   ],
+   [
+    "Pass 4 jours",
+    "229 € (239 € au tarif regular)"
+   ],
+   [
+    "Tarif Ardennais",
+    "dès 59 €"
+   ],
+   [
+    "Pass Culture",
+    "dès 69 €"
+   ],
+   [
+    "Pass Enfant",
+    "3 € par jour, stocks limités"
+   ]
+  ],
+  "prices_note": "Tarifs 2027 relevés sur la billetterie officielle, hors frais de location. L'offre Fan 4 jours à 199 € est épuisée.",
+  "last_label": "Édition 2026 (20e)",
+  "last_dates": "20 – 23 août 2026",
+  "lineup": [
+   "Electric Callboy (jeudi 19)",
+   "Angèle (vendredi 20)",
+   "Lola Young (vendredi 20)",
+   "Fontaines D.C. (vendredi 20)",
+   "Pitbull (samedi 21)",
+   "Mosimann (samedi 21)",
+   "Tiakola (dimanche 22)",
+   "Orelsan (dimanche 22)"
+  ],
+  "lineup_note": "Premiers noms annoncés pour 2027. Le site officiel promet « la suite de la prog » prochainement.",
+  "about": "Festival ardennais installé en centre-ville de Charleville-Mézières, au bord de la Meuse. Il mélange rap, pop, rock et électro sur quatre jours.",
+  "access": [
+   "Square Bayard, 08000 Charleville-Mézières, en centre-ville au bord de la Meuse",
+   "Détails d'accès 2027 (train, navettes, parkings) pas encore publiés"
+  ],
+  "tips": [
+   "Les prix de lancement sont plus bas que le tarif regular : 229 € au lieu de 239 € pour le pass 4 jours",
+   "Des tarifs spécifiques existent : Ardennais dès 59 €, Pass Culture dès 69 €, Pass Enfant à 3 € par jour",
+   "Les pass camping sortiront plus tard : suivre la newsletter pour ne pas les manquer"
+  ],
+  "official": "https://cabaretvert.com/",
+  "sources": [
+   [
+    "Cabaret Vert : site officiel",
+    "https://cabaretvert.com/"
+   ],
+   [
+    "Info-lux : annonce de l'édition 2027",
+    "https://www.info-lux.com/orelsan-cabaret-vert-2027-charleville-mezieres/pays/france/grand-est/ardennes/charleville-mezieres-ardennes/"
+   ]
+  ],
+  "slug": "cabaret-vert",
+  "name": "Le Cabaret Vert",
+  "city": "Charleville-Mézières (Ardennes)",
+  "country": "France"
+ },
+ {
+  "region": "Hauts-de-France",
+  "venue": "La Citadelle d'Arras, 146 allée du Bastion de la Reine",
+  "maps_q": "Citadelle d'Arras",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Électro"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "2 – 4 juillet 2027",
+  "iso": [
+   "2027-07-02",
+   "2027-07-04"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates et lieu confirmés sur le site officiel. Attention : à la mi-novembre 2026, les billets du samedi et du dimanche ainsi que tous les pass 2 et 3 jours sont déjà épuisés. Seul le billet du vendredi reste disponible.",
+  "price_from": 79.0,
+  "price_label": "dès 79 € / jour (2027)",
+  "prices": [
+   [
+    "Billet 1 jour vendredi",
+    "79 € (disponible)"
+   ],
+   [
+    "Billet 1 jour samedi",
+    "79 € (épuisé)"
+   ],
+   [
+    "Billet 1 jour dimanche",
+    "89 € (épuisé)"
+   ],
+   [
+    "Pass 2 jours vendredi-samedi",
+    "140 € (épuisé)"
+   ],
+   [
+    "Pass 2 jours autres combinaisons",
+    "150 € (épuisé)"
+   ],
+   [
+    "Pass 3 jours",
+    "205 € (épuisé)"
+   ]
+  ],
+  "prices_note": "Grille relevée sur la billetterie officielle à la mi-novembre 2026. Une offre VIP et des packages transport plus hébergement existent, sans prix publié.",
+  "last_label": "Édition 2026",
+  "last_dates": "3 – 5 juillet 2026",
+  "lineup": [
+   "Muse (dimanche 4)",
+   "David Guetta (samedi 3)",
+   "Angèle (vendredi 2)",
+   "Sombr (vendredi 2)",
+   "Nothing But Thieves (dimanche 4)"
+  ],
+  "lineup_note": "Premiers noms annoncés pour 2027. D'autres artistes sont annoncés prochainement.",
+  "about": "Grand festival pop-rock et électro installé dans la citadelle Vauban d'Arras, sur trois scènes. L'édition 2027 se tient sur trois jours début juillet.",
+  "access": [
+   "La Citadelle, 146 allée du Bastion de la Reine, 62000 Arras",
+   "Packages transport plus hébergement via la plateforme partenaire du festival",
+   "Parking et plateformes PMR en nombre limité, accordés selon les places disponibles"
+  ],
+  "tips": [
+   "Toute sortie du festival est définitive, quel que soit le billet",
+   "Les pass 2 et 3 jours sont individuels et non cessibles : impossible de céder un jour",
+   "Les demandes d'accueil PMR et PSH sont traitées par ordre d'arrivée jusqu'au 29 juin 2027 : s'y prendre tôt"
+  ],
+  "official": "https://mainsquarefestival.fr/",
+  "sources": [
+   [
+    "Main Square Festival : site officiel",
+    "https://mainsquarefestival.fr/"
+   ],
+   [
+    "Main Square Festival : billetterie 2027",
+    "https://mainsquarefestival.fr/billetterie/"
+   ],
+   [
+    "Sortiraparis : Angèle rejoint l'affiche 2027",
+    "https://www.sortiraparis.com/en/getaways-from-paris/northeast/articles/50212-main-square-festival-2027-angele-joins-the-lineup"
+   ]
+  ],
+  "slug": "main-square-festival",
+  "name": "Main Square Festival",
+  "city": "Arras (Pas-de-Calais)",
+  "country": "France"
+ },
+ {
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Théâtre antique de Fourvière, Musée et théâtres romains de Lyon",
+  "maps_q": "Théâtre antique de Fourvière Lyon",
+  "genres": [
+   "Pluridisciplinaire",
+   "Pop-rock",
+   "Musiques du monde",
+   "Danse",
+   "Théâtre",
+   "Cirque"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "Juin – juillet 2027 (dates à confirmer)",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Les dates complètes de l'édition 2027 ne sont pas publiées. Seul Jean-Michel Jarre est annoncé, les 15 et 16 juillet 2027 au Grand théâtre, pour les 50 ans d'Oxygène. Une vente de Noël avec les premiers billets est annoncée le 18 novembre 2026 à midi. L'édition 2026 allait du 28 mai au 25 juillet.",
+  "price_from": null,
+  "price_label": "Tarifs non publiés",
+  "prices": [],
+  "prices_note": "Aucun tarif 2027 publié. Les premiers billets seront vendus lors de la vente de Noël du 18 novembre 2026.",
+  "last_label": "Édition 2026 (80e anniversaire)",
+  "last_dates": "28 mai – 25 juillet 2026",
+  "lineup": [
+   "Jean-Michel Jarre (15 et 16 juillet 2027)"
+  ],
+  "lineup_note": "Seul artiste annoncé pour 2027. D'autres noms sont dévoilés le 18 novembre 2026. Pour mémoire, l'édition 2026 affichait Massive Attack, Pulp, Jack White, Lorde, Little Simz, Vanessa Paradis et Wet Leg.",
+  "about": "Festival pluridisciplinaire (musique, danse, théâtre, cirque) installé dans le cadre antique des théâtres romains de Lyon. Il s'étend sur environ deux mois chaque été.",
+  "access": [
+   "Théâtre antique sur la colline de Fourvière, à Lyon",
+   "Détails d'accès (funiculaire, métro, parkings) à vérifier sur le site officiel"
+  ],
+  "tips": [
+   "Surveiller la vente de Noël du 18 novembre 2026 à midi : premiers billets et artistes en avant-première",
+   "En 2026, le programme complet est sorti le 10 mars et la billetterie a ouvert le 18 mars : prévoir une échéance comparable",
+   "S'inscrire à la newsletter du festival pour recevoir les annonces"
+  ],
+  "official": "https://www.nuitsdefourviere.com/",
+  "sources": [
+   [
+    "Les Nuits de Fourvière : site officiel",
+    "https://www.nuitsdefourviere.com/"
+   ],
+   [
+    "Les Nuits de Fourvière : Jean-Michel Jarre en 2027",
+    "https://www.nuitsdefourviere.com/2026/11/jean-michel-jarre-aux-nuits-les-15-et-16-juillet-2027"
+   ]
+  ],
+  "slug": "nuits-de-fourviere",
+  "name": "Les Nuits de Fourvière",
+  "city": "Lyon (Rhône)",
+  "country": "France"
+ },
+ {
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Théâtre antique de Vienne, avec le Jardin de Cybèle (scène gratuite) et Le Club",
+  "maps_q": "Théâtre antique de Vienne Isère",
+  "genres": [
+   "Jazz",
+   "Soul",
+   "Funk",
+   "Musiques du monde"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "25 juin – 10 juillet 2027",
+  "iso": [
+   "2027-06-25",
+   "2027-07-10"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "46e édition, dates affichées sur le site officiel. L'affiche 2027 est confiée à Sébastien Laudenbach, et un focus sur la Pologne est annoncé. Le festival propose aussi une saison hors-les-murs jusqu'en avril 2027.",
+  "price_from": 6.0,
+  "price_label": "dès 6 € (tarif 2026, selon la soirée)",
+  "prices": [
+   [
+    "Soirées (2026), selon la programmation",
+    "6 € à 40 €, jusqu'à 65 € pour les plus chères"
+   ],
+   [
+    "Scène du Jardin de Cybèle",
+    "Gratuit"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 ; les tarifs 2027 ne sont pas encore publiés.",
+  "last_label": "Édition 2026 (45e)",
+  "last_dates": "25 juin – 11 juillet 2026",
+  "lineup": [
+   "Marcus Miller",
+   "Angélique Kidjo",
+   "De La Soul",
+   "Jon Batiste",
+   "Samara Joy",
+   "Jeff Mills",
+   "Sun Ra Arkestra",
+   "Kokoroko",
+   "Beirut",
+   "Imany",
+   "Fatoumata Diawara",
+   "Erik Truffaz"
+  ],
+  "lineup_note": "Artistes de l'édition 2026 : la programmation 2027 n'est pas encore annoncée.",
+  "about": "Festival de jazz et de musiques apparentées, organisé chaque été dans le Théâtre antique de Vienne, à environ 30 km de Lyon. Une quinzaine de soirées de concerts et plusieurs scènes.",
+  "access": [
+   "Théâtre antique de Vienne (Isère), à environ 30 km de Lyon",
+   "Parking Saint-Marcel à proximité immédiate du théâtre ; parkings relais parfois mis en place en périphérie",
+   "Transports en commun conseillés pour éviter la recherche de stationnement"
+  ],
+  "tips": [
+   "Placement libre au Théâtre antique, sans numérotation : arriver tôt pour bien se placer",
+   "Les concerts ont lieu même sous la pluie, et le pique-nique ainsi que les gourdes sont autorisés",
+   "La scène du Jardin de Cybèle est gratuite, avec des concerts dès midi"
+  ],
+  "official": "https://www.jazzavienne.com/",
+  "sources": [
+   [
+    "Jazz à Vienne : site officiel",
+    "https://www.jazzavienne.com/en"
+   ],
+   [
+    "Jazz à Vienne : l'affiche 2027",
+    "https://www.jazzavienne.com/en/actualites/heading-2027-discover-artist-behind-next-editions-poster"
+   ],
+   [
+    "JDS : programme, tarifs et accès",
+    "https://www.jds.fr/lyon/manifestations/festival/festival-jazz-vienne-170520_A"
+   ]
+  ],
+  "slug": "jazz-a-vienne",
+  "name": "Jazz à Vienne",
+  "city": "Vienne (Isère)",
+  "country": "France"
+ },
+ {
+  "region": "Occitanie",
+  "venue": "Chapiteau de Marciac et L'Astrada, avec des concerts gratuits place de la mairie",
+  "maps_q": "Chapiteau Jazz in Marciac",
+  "genres": [
+   "Jazz",
+   "Blues",
+   "Soul",
+   "Musiques du monde"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "Juillet – août 2027 (dates à confirmer)",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "49e édition annoncée pour 2027 sur le site officiel, mais aucune date n'y figure encore. Pour mémoire, l'édition 2026 allait du 20 juillet au 5 août.",
+  "price_from": 38.0,
+  "price_label": "dès 38 € / soirée (Chapiteau, cat. 3, tarif 2026)",
+  "prices": [
+   [
+    "Soirée Chapiteau, catégorie 1 (2026)",
+    "58 à 70 € selon le concert"
+   ],
+   [
+    "Soirée Chapiteau, catégorie 2 (2026)",
+    "51 à 63 €"
+   ],
+   [
+    "Soirée Chapiteau, gradins (2026)",
+    "44 à 56 €"
+   ],
+   [
+    "Soirée Chapiteau, catégorie 3 (2026)",
+    "38 à 50 €"
+   ],
+   [
+    "Étudiants et demandeurs d'emploi, catégorie 2 (2026)",
+    "30 à 65 € selon le concert"
+   ],
+   [
+    "Enfants de moins de 12 ans (2026)",
+    "15 € en toute catégorie"
+   ],
+   [
+    "Abonnement complet Chapiteau (2026)",
+    "735 €"
+   ],
+   [
+    "Festival Bis, place de la mairie",
+    "Gratuit"
+   ]
+  ],
+  "prices_note": "Tarifs de la grille officielle 2026 ; les tarifs 2027 ne sont pas publiés. Des concerts à L'Astrada démarrent à 15 €.",
+  "last_label": "Édition 2026 (48e)",
+  "last_dates": "20 juillet – 5 août 2026",
+  "lineup": [
+   "Sting",
+   "Diana Krall",
+   "Pat Metheny",
+   "Cécile McLorin Salvant",
+   "Samara Joy",
+   "Marcus Miller",
+   "Ibrahim Maalouf",
+   "Kenny Barron",
+   "Richard Bona",
+   "Selah Sue",
+   "Thomas Dutronc",
+   "Asaf Avidan"
+  ],
+  "lineup_note": "Artistes de l'édition 2026 : la programmation 2027 n'est pas encore annoncée.",
+  "about": "Festival de jazz du Gers, organisé sous un grand chapiteau de plusieurs milliers de places au cœur d'une bastide gasconne. Il dure environ deux à trois semaines en été.",
+  "access": [
+   "Depuis Bordeaux ou Pau : A65, sortie 6 ou 8 ; depuis Tarbes : A64 sortie 12 puis D935 ; depuis Toulouse : N21 vers Auch puis D3",
+   "Bus lignes 961 (Tarbes – Marciac – Mont-de-Marsan) et 931 (Auch – Marciac), plus une navette Marciac – Tarbes pendant le festival",
+   "Gares les plus proches : Tarbes (40 km), Auch (47 km), Pau (66 km)"
+  ],
+  "tips": [
+   "Les places sont assises et numérotées sauf mention contraire : réserver tôt pour avoir une bonne place",
+   "Un covoiturage est organisé par le festival et plusieurs parkings numérotés entourent la bastide",
+   "Le Festival Bis propose des concerts gratuits en journée sur la place de l'Hôtel de ville"
+  ],
+  "official": "https://www.jazzinmarciac.com/",
+  "sources": [
+   [
+    "Jazz in Marciac : site officiel",
+    "https://jazzinmarciac.com/en"
+   ],
+   [
+    "Jazz in Marciac : grille tarifaire 2026 (PDF officiel)",
+    "https://jazzinmarciac.com/sites/default/files/2026-02/tarifs_public_2026_0.pdf"
+   ],
+   [
+    "JDS : dates, accès et programme",
+    "https://www.jds.fr/manifestations/festival/jazz-in-marciac-265192_A"
+   ]
+  ],
+  "slug": "jazz-in-marciac",
+  "name": "Jazz in Marciac",
+  "city": "Marciac (Gers)",
+  "country": "France"
+ },
+ {
+  "region": "Centre-Val de Loire",
+  "venue": "Le W et une quinzaine de lieux dans Bourges",
+  "maps_q": "Le W Bourges",
+  "genres": [
+   "Chanson",
+   "Pop",
+   "Rap",
+   "Musiques actuelles"
+  ],
+  "mois": [
+   "avril"
+  ],
+  "dates": "20 – 25 avril 2027",
+  "iso": [
+   "2027-04-20",
+   "2027-04-25"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "51e édition, dates affichées sur le site officiel. Les concerts du W se tiennent du 21 au 25 avril. Bourges sera Capitale européenne de la Culture en 2028.",
+  "price_from": 50.0,
+  "price_label": "dès 50 € / soirée (2027)",
+  "prices": [
+   [
+    "Soirée au W, du mercredi au samedi",
+    "dès 55 €"
+   ],
+   [
+    "Soirée au W, dimanche 25 avril",
+    "dès 50 €"
+   ],
+   [
+    "Pass W vendredi + samedi",
+    "103 €"
+   ],
+   [
+    "Pass W samedi + dimanche",
+    "99 €"
+   ]
+  ],
+  "prices_note": "Tarifs relevés sur la billetterie officielle à la mi-novembre 2026 : plusieurs paliers existent (la presse cite 55 € en early bird, 59 €, puis 89 € en premium).",
+  "last_label": "Édition 2026 (50e)",
+  "last_dates": "14 – 19 avril 2026",
+  "lineup": [
+   "Louane (22/04)",
+   "Tayc (25/04)",
+   "PLK (24/04)",
+   "Christophe Maé (21/04)",
+   "Kassav' (21/04)",
+   "Claudio Capéo (21/04)",
+   "Pomme (22/04)",
+   "Hoshi (22/04)",
+   "Jain (23/04)",
+   "Kungs (23/04)",
+   "Sniper (23/04)",
+   "Meryl (25/04)"
+  ],
+  "lineup_note": "Programmation 2027 du W annoncée par soirée. Les autres lieux de la ville ne sont pas encore détaillés.",
+  "about": "Festival de musiques actuelles qui investit toute la ville de Bourges, avec la grande scène du W et une quinzaine de salles. Il se tient chaque printemps et repère de nouveaux talents avec les iNOUïS.",
+  "access": [
+   "Concerts au W et dans une quinzaine de lieux de Bourges",
+   "Retrait ou achat possible au siège du festival, 22 rue Henri Sellier",
+   "Informations transport à vérifier sur le site officiel"
+  ],
+  "tips": [
+   "Les pass deux soirées (103 € ou 99 €) sont plus avantageux que deux billets à l'unité",
+   "Plusieurs points de vente existent : comparer pour éviter les frais élevés",
+   "Les billets à l'unité commencent à 50 ou 55 € : réserver tôt, les tarifs early bird sont limités"
+  ],
+  "official": "https://www.printemps-bourges.com/",
+  "sources": [
+   [
+    "Le Printemps de Bourges : site officiel",
+    "https://www.printemps-bourges.com/"
+   ],
+   [
+    "Le Printemps de Bourges : billetterie 2027",
+    "https://billetterie.printemps-bourges.com/fr/bourges"
+   ],
+   [
+    "Sortiraparis : premiers noms de l'édition 2027",
+    "https://www.sortiraparis.com/en/getaways-from-paris/northwest/articles/67700-printemps-de-bourges-2027-plk-tayc-louane-and-ino-casablanca-among-the-first-names-announced"
+   ]
+  ],
+  "slug": "printemps-de-bourges",
+  "name": "Le Printemps de Bourges",
+  "city": "Bourges (Cher)",
+  "country": "France"
+ },
+ {
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Les Grandes Locos (La Mulatière) pour les Days ; La Sucrière (Lyon) pour les Nuits",
+  "maps_q": "Les Grandes Locos La Mulatière",
+  "genres": [
+   "Électro",
+   "Techno",
+   "House",
+   "Expérimental"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "5 – 9 mai 2027",
+  "iso": [
+   "2027-05-05",
+   "2027-05-09"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "24e édition, dates affichées sur le site officiel avec une billetterie déjà ouverte. Les Days ont lieu du 5 au 8 mai aux Grandes Locos. L'identité visuelle 2027 a été publiée le 12 novembre 2026. Aucun artiste n'est encore annoncé.",
+  "price_from": 36.0,
+  "price_label": "Pass Days 2027 dès 140 € ; soirée dès 36 € (tarif 2026)",
+  "prices": [
+   [
+    "Pass Days 2027 (5 au 8 mai)",
+    "à partir de 140 €"
+   ],
+   [
+    "Billet Days (2026)",
+    "43 € (47 € dernière chance, 36 € réduit)"
+   ],
+   [
+    "Billet Nuits (2026)",
+    "36 € (39 € dernière chance, 30 € réduit)"
+   ],
+   [
+    "Billet Closing Day (2026)",
+    "44 € (49 € dernière chance)"
+   ],
+   [
+    "Pass Days (2026)",
+    "135 € plein tarif, 120 € early bird"
+   ],
+   [
+    "Pass Nuits (2026)",
+    "110 € plein tarif"
+   ]
+  ],
+  "prices_note": "Seul le Pass Days 2027 a un prix publié. Les prix unitaires sont ceux de l'édition 2026, à titre indicatif. Les tarifs réduits exigent un justificatif.",
+  "last_label": "Édition 2026 (23e)",
+  "last_dates": "13 – 17 mai 2026",
+  "lineup": [
+   "Carl Craig b2b Seth Troxler",
+   "Ben Klock",
+   "Four Tet",
+   "Amelie Lens",
+   "808 State",
+   "Acid Arab",
+   "HAAi",
+   "Rødhåd",
+   "James Holden",
+   "Ivan Smagghe",
+   "Roza Terenzi",
+   "rRoxymore"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé à la mi-novembre 2026. Noms de l'édition 2026, qui a réuni environ 98 000 personnes, tous sites complets.",
+  "about": "Festival et convention des cultures électroniques, réparti entre plusieurs lieux de Lyon et de La Mulatière. Il alterne Days en journée, Nuits en ville et une Closing Day.",
+  "access": [
+   "Les Grandes Locos, rue Gabriel Péri, 69350 La Mulatière, pour les Days et la Closing Day",
+   "La Sucrière à Lyon pour les Nuits",
+   "Desserte par le métro, le tramway et les bus de Lyon"
+  ],
+  "tips": [
+   "La billetterie des Days est ouverte sur Shotgun, qui permet de revendre son billet si besoin",
+   "En 2026, le tarif réduit exigeait un justificatif déposé sous 7 jours, faute de quoi la commande était annulée",
+   "Un billet accompagnateur gratuit existe pour les personnes en situation de handicap"
+  ],
+  "official": "https://nuits-sonores.com/",
+  "sources": [
+   [
+    "Nuits sonores : site officiel",
+    "https://nuits-sonores.com/"
+   ],
+   [
+    "Shotgun : Nuits Sonores Days 2027",
+    "https://shotgun.live/fr/festivals/nuits-sonores-days"
+   ],
+   [
+    "JDS : programme et tarifs de référence",
+    "https://www.jds.fr/lyon/manifestations/festival/nuits-sonores-a-lyon-170548_A"
+   ]
+  ],
+  "slug": "nuits-sonores",
+  "name": "Nuits sonores",
+  "city": "Lyon (Rhône)",
+  "country": "France"
+ },
+ {
+  "region": "Bretagne",
+  "venue": "Centre historique de Quimper (Théâtre de Cornouaille, Chapeau Rouge, Jardin de l'Évêché)",
+  "maps_q": "Théâtre de Cornouaille Quimper",
+  "genres": [
+   "Musiques bretonnes",
+   "Fest-noz",
+   "Musiques celtiques",
+   "Danse"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "22 – 25 juillet 2027",
+  "iso": [
+   "2027-07-22",
+   "2027-07-25"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Ce serait la 104e édition. Les dates viennent d'agendas touristiques mis à jour en novembre 2026, mais ne figurent pas encore sur le site officiel, qui présente toujours l'édition 2026. À revérifier avant de réserver.",
+  "price_from": 6.0,
+  "price_label": "dès 6 € (tarif 2026) ; beaucoup d'animations gratuites",
+  "prices": [
+   [
+    "Concert au Théâtre de Cornouaille (2026)",
+    "23 €"
+   ],
+   [
+    "Jazz Klub, Chapeau Rouge (2026)",
+    "10 à 23 € selon la soirée"
+   ],
+   [
+    "Défilé du dimanche (2026)",
+    "6 €"
+   ],
+   [
+    "Stages de danse (2026)",
+    "18 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 ; rien n'est publié pour 2027. Certaines sources décrivent le défilé comme gratuit : à vérifier. Beaucoup d'animations de rue sont gratuites.",
+  "last_label": "Édition 2026 (103e)",
+  "last_dates": "23 – 26 juillet 2026",
+  "lineup": [
+   "Keyvan Chemirani",
+   "Brieg Guerveno",
+   "Pêr Vari Kervarec",
+   "Carré Manchot",
+   "Alambig Elektrik",
+   "Heson",
+   "Ivarh",
+   "Muncai"
+  ],
+  "lineup_note": "Extraits de la programmation 2026 : la programmation 2027 n'est pas encore annoncée.",
+  "about": "Grand rendez-vous de la culture bretonne, créé en 1923, dans le centre historique de Quimper. Concerts, fest-noz, ateliers, élection de la Reine de Cornouaille et grand défilé du dimanche.",
+  "access": [
+   "Centre historique de Quimper : gare SNCF et gare routière à environ 15 min à pied",
+   "En 2026 : navettes QUB jusqu'à minuit du jeudi au samedi, et 4 parkings relais",
+   "Matériel d'accessibilité prêté par la Handibox et places PMR à certains sites"
+  ],
+  "tips": [
+   "Venir à pied, à vélo ou en transports en commun, comme le recommande le festival",
+   "Le samedi est la journée Kernekiz pour les enfants : ateliers, flashmob, défilé en costume",
+   "Préférer les parkings relais au centre-ville les jours de grande affluence"
+  ],
+  "official": "https://www.festival-cornouaille.bzh/",
+  "sources": [
+   [
+    "Festival de Cornouaille : site officiel",
+    "https://www.festival-cornouaille.bzh/"
+   ],
+   [
+    "Golfe du Morbihan : dates 22 au 25 juillet 2027",
+    "https://golfedumorbihan56.com/event/festival-de-cornouaille/"
+   ],
+   [
+    "Esprit Festivalier : infos pratiques",
+    "https://esprit-festivalier.fr/festival/festival-de-cornouaille/"
+   ]
+  ],
+  "slug": "festival-de-cornouaille",
+  "name": "Festival de Cornouaille",
+  "city": "Quimper (Finistère)",
+  "country": "France"
+ },
+ {
+  "region": "Occitanie",
+  "venue": "Jardins du Lydia, 66420 Le Barcarès",
+  "maps_q": "Jardins du Lydia Le Barcarès",
+  "genres": [
+   "Rap",
+   "Pop",
+   "Électro"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "9 – 11 juillet 2027",
+  "iso": [
+   "2027-07-09",
+   "2027-07-11"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Attention : le festival n'est plus à Argelès-sur-Mer. Après un passage par Céret, il est installé au Barcarès depuis 2023, aux Jardins du Lydia. Le site officiel présente l'édition 2027 comme les 20 ans du festival. Les premiers noms sont annoncés, la suite est à venir.",
+  "price_from": 59.89,
+  "price_label": "dès 59,89 € / jour (tarif Early 2026)",
+  "prices": [
+   [
+    "Pass 1 jour (2026)",
+    "68 € (59,89 € en tarif Early)"
+   ],
+   [
+    "Pass 3 jours Blind (2026)",
+    "142,10 €"
+   ],
+   [
+    "Pass 3 jours Early (2026)",
+    "157,33 €"
+   ],
+   [
+    "Pass 3 jours plein tarif (2026)",
+    "171,54 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026. La billetterie 2027 n'affiche pas de prix lisibles ; un pass 3 jours Early a ouvert en octobre 2026. Tarifs 2027 à confirmer.",
+  "last_label": "Édition 2026",
+  "last_dates": "11 – 13 juillet 2026",
+  "lineup": [
+   "Orelsan",
+   "Angèle",
+   "Ninho",
+   "Steve Aoki",
+   "Lost Frequencies",
+   "SDM",
+   "Mosimann",
+   "Triangle des Bermudes"
+  ],
+  "lineup_note": "« Premier arrivage » annoncé pour 2027 ; la suite est annoncée bientôt. Pour mémoire, 2026 réunissait Aya Nakamura, Gims, Damso, Martin Garrix et Armin van Buuren.",
+  "about": "Festival de rap, de pop et d'électro à deux pas de la Méditerranée, créé en 2007 dans les Pyrénées-Orientales. Il se déroule aujourd'hui aux Jardins du Lydia, au Barcarès.",
+  "access": [
+   "Jardins du Lydia, 66420 Le Barcarès",
+   "En voiture avec des parkings à proximité ; en train jusqu'à la gare la plus proche puis navette ; en bus depuis certaines villes voisines"
+  ],
+  "tips": [
+   "Les pass 3 jours sont moins chers en Blind ou Early : acheter avant l'annonce complète",
+   "Vérifier le lieu : le festival n'est plus à Argelès-sur-Mer mais au Barcarès",
+   "Consulter la FAQ du festival pour les consignes et l'accès"
+  ],
+  "official": "https://www.festival-lesdeferlantes.com/",
+  "sources": [
+   [
+    "Les Déferlantes : site officiel",
+    "https://www.festival-lesdeferlantes.com/"
+   ],
+   [
+    "Tribu de Nuit : dates 2027 et retour au Barcarès",
+    "https://www.tribudenuit.com/en/articles/les-deferlantes-2027-le-sud-se-prepare-a-une-nouvelle-vague-musicale/"
+   ],
+   [
+    "Sortiraparis : dates de l'édition 2027",
+    "https://www.sortiraparis.com/en/getaways-from-paris/southwest/articles/50320-les-deferlantes-sud-de-france-2027-edition-dates-unveiled"
+   ]
+  ],
+  "slug": "les-deferlantes",
+  "name": "Les Déferlantes Sud de France",
+  "city": "Le Barcarès (Pyrénées-Orientales)",
+  "country": "France"
+ },
+ {
+  "region": "Île-de-France",
+  "venue": "Hippodrome Paris-Vincennes",
+  "maps_q": "Hippodrome de Paris-Vincennes, 2 route de la Ferme, 75012 Paris",
+  "genres": [
+   "Techno",
+   "House",
+   "Ambient",
+   "Électro"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "Juillet 2027 (jours exacts à confirmer)",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Aucune date précise pour 2027 n'a été trouvée dans une source officielle. Un agenda tiers indique « juillet 2027 » pour la 16e édition à l'Hippodrome Paris-Vincennes, sans jours ni tarifs. À noter : la page « infos pratiques » du site officiel cite encore un ancien lieu (quai d'Austerlitz) alors que l'édition 2026 s'est tenue à Vincennes.",
+  "price_from": 44.0,
+  "price_label": "dès 44 € / soir (tarif 2026, early bird)",
+  "prices": [
+   [
+    "Pass vendredi (2026)",
+    "dès 44 €"
+   ],
+   [
+    "Pass samedi (2026)",
+    "dès 54 €"
+   ],
+   [
+    "Pass 2 jours (2026)",
+    "dès 89 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026, avec des vagues early bird. Aucun tarif 2027 publié. Billetterie via Shotgun.",
+  "last_label": "Édition 2026 (15e)",
+  "last_dates": "10 – 11 juillet 2026",
+  "lineup": [
+   "Robert Hood",
+   "Floating Points",
+   "Boys Noize b2b Salome",
+   "Channel Tres b2b Busy P",
+   "Dax J",
+   "Mathew Jonson",
+   "SebastiAn",
+   "Palms Trax",
+   "Young Marco",
+   "Flowdan + Benga",
+   "U.R.Trax",
+   "Sedef Adasï"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms issus de l'édition 2026, qui présentait 43 artistes sur 4 scènes.",
+  "about": "Festival électro parisien en plein air, installé à l'Hippodrome Paris-Vincennes depuis 2025. Il réunit techno, house et ambient, avec des têtes d'affiche internationales et la scène française.",
+  "access": [
+   "2 route de la Ferme, 75012 Paris (Bois de Vincennes)",
+   "RER A jusqu'à Joinville-le-Pont, environ 10 min à pied",
+   "Métro 1 jusqu'à Château de Vincennes, puis marche ou bus 112",
+   "Voiture déconseillée : stationnement limité"
+  ],
+  "tips": [
+   "Réserver tôt : les vagues les moins chères partent vite",
+   "Les horaires 2026 étaient annoncés comme approximatifs : vérifier sur le site officiel avant de partir",
+   "Télécharger son billet à l'avance, le réseau mobile est souvent saturé dans le Bois"
+  ],
+  "official": "https://peacocksociety.fr/",
+  "sources": [
+   [
+    "JDS : Peacock Society (agenda, juillet 2027)",
+    "https://www.jds.fr/paris/concerts/electro/peacock-society-festival-2026-1502528_A"
+   ],
+   [
+    "Sortiraparis : édition 2026 à Vincennes",
+    "https://www.sortiraparis.com/en/what-to-see-in-paris/concerts-music-festival/articles/61483-peacock-society-2026-at-the-hippodrome-paris-vincennes-busy-p-boys-noize-the-lineup"
+   ],
+   [
+    "Festival en France : tarifs 2026",
+    "https://www.festivalenfrance.com/festival/the-peacock-society"
+   ],
+   [
+    "Site officiel",
+    "https://peacocksociety.fr/?lang=en"
+   ]
+  ],
+  "slug": "peacock-society",
+  "name": "Peacock Society",
+  "city": "Paris (Paris)",
+  "country": "France"
+ },
+ {
+  "region": "Île-de-France",
+  "venue": "Parc des Expositions Paris Nord Villepinte",
+  "maps_q": "Parc des Expositions Paris Nord Villepinte",
+  "genres": [
+   "Techno",
+   "Hard music",
+   "Drum & bass",
+   "Trance"
+  ],
+  "mois": [],
+  "dates": "Dates 2027 à confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Aucune annonce pour une édition 2027. Les deux dernières éditions ont eu lieu à Villepinte : 26 – 27 septembre 2025, puis 30 – 31 octobre 2026 (13e édition, spéciale Halloween). Les dates varient beaucoup d'une année à l'autre, donc aucun mois n'est indiqué.",
+  "price_from": 43.9,
+  "price_label": "dès 43,90 € / soir (Super Early Bird 2026)",
+  "prices": [
+   [
+    "Super Early Bird, 1 soir (2026)",
+    "43,90 €"
+   ],
+   [
+    "Tarif Late, 1 jour, hors frais (2026)",
+    "61,90 €"
+   ],
+   [
+    "Tarif Late, 2 jours, hors frais (2026)",
+    "103,90 €"
+   ],
+   [
+    "Fourchette par soirée (2025)",
+    "40 – 80 €"
+   ]
+  ],
+  "prices_note": "Tarifs 2026 relevés sur deux sites tiers, qui ne détaillent pas tous les frais. Les prix montent à chaque palier. Aucun tarif 2027 publié.",
+  "last_label": "Édition 2026 (13e)",
+  "last_dates": "30 – 31 octobre 2026",
+  "lineup": [
+   "Pendulum (DJ set)",
+   "Vini Vici",
+   "The Bloody Beetroots",
+   "Dirtyphonics",
+   "Flux Pavilion",
+   "Don Diablo",
+   "Angerfist",
+   "Da Tweekaz",
+   "Todiefor",
+   "Hysta b2b Korsakoff",
+   "Mandragora",
+   "Novah"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026, qui annonçait plus de 60 artistes sur 6 scènes.",
+  "about": "Grand festival électro nocturne en salle au Parc des Expositions de Villepinte, sur deux nuits et plusieurs scènes. Il mêle techno, bass music, drum and bass, trance et hard music, avec mapping 3D et lasers.",
+  "access": [
+   "RER B, station Parc des Expositions",
+   "Bus 350 depuis Porte de la Chapelle (2026), et forfaits bus depuis plusieurs villes",
+   "Parking P3 à 20 € par 24 h en 2026, accès par l'A1 et l'A104",
+   "Horaires 2026 : 20h30 à 6h15 chaque nuit"
+  ],
+  "tips": [
+   "Réservé aux 18 ans et plus, pièce d'identité exigée à l'entrée",
+   "Vérifier les horaires du RER B avant de partir : en 2026, des travaux avançaient le dernier train du vendredi",
+   "Les horaires de passage sortent souvent le jour même ; des casiers sont réservables à l'avance"
+  ],
+  "official": "https://dreamnation.fr",
+  "sources": [
+   [
+    "Festival en France : édition 2026",
+    "https://www.festivalenfrance.com/festival/dream-nation-festival"
+   ],
+   [
+    "Sortiraparis : programme 2026 par scène",
+    "https://www.sortiraparis.com/en/where-to-party-in-paris/articles/74345-dream-nation-2026-in-paris-nord-the-full-lineup-by-day-and-by-stage"
+   ],
+   [
+    "Onivapp : billets et accès 2026",
+    "https://onivapp.com/blog/dream-nation-2026"
+   ],
+   [
+    "Shotgun : édition 2026",
+    "https://shotgun.live/fr/festivals/dream-nation-festival-2026"
+   ]
+  ],
+  "slug": "dream-nation",
+  "name": "Dream Nation",
+  "city": "Villepinte (Seine-Saint-Denis)",
+  "country": "France"
+ },
+ {
+  "region": "Île-de-France",
+  "venue": "Hippodrome Paris-Vincennes",
+  "maps_q": "Hippodrome de Paris-Vincennes, 2 route de la Ferme, 75012 Paris",
+  "genres": [
+   "Rap",
+   "Hip-hop",
+   "Cultures urbaines"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "Juillet 2027 (dates à confirmer)",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Les dates 2027 ne sont pas encore annoncées. Le mois de juillet est déduit de l'édition 2026 (3 – 5 juillet) et n'est pas confirmé. Pour mémoire, la première édition prévue en 2023 avait été annulée par arrêté préfectoral avant l'installation à Vincennes en 2024.",
+  "price_from": 64.0,
+  "price_label": "dès 64 € / jour (tarif 2026)",
+  "prices": [
+   [
+    "Pass 1 jour (2026)",
+    "dès 64 €"
+   ],
+   [
+    "Pass 2 jours (2026)",
+    "dès 109 €"
+   ],
+   [
+    "Pass 3 jours (2026)",
+    "dès 169 €"
+   ],
+   [
+    "Pass VIP 1 jour (2026)",
+    "139 €"
+   ]
+  ],
+  "prices_note": "Tarifs 2026 : prix croissants selon la date d'achat, certaines vagues étaient épuisées. Aucun tarif 2027 publié.",
+  "last_label": "Édition 2026",
+  "last_dates": "3 – 5 juillet 2026",
+  "lineup": [
+   "Niska",
+   "Skepta",
+   "Jorja Smith",
+   "Franglish",
+   "Elgrandetoto",
+   "Rema",
+   "Leto",
+   "RSKO",
+   "Kalash Criminel",
+   "Ronisia",
+   "Chily",
+   "Shallipopi"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026, qui annonçait plus de 90 artistes sur trois jours.",
+  "about": "Festival rap et hip-hop à l'Hippodrome Paris-Vincennes, sur trois jours. Il ajoute à la programmation un village lifestyle, une zone sport, des installations artistiques et un food court.",
+  "access": [
+   "RER A jusqu'à Joinville-le-Pont, environ 10 min à pied",
+   "Métro 1 jusqu'à Château de Vincennes, puis 20 à 25 min de marche, ou bus 112",
+   "Voiture fortement déconseillée : stationnement limité"
+  ],
+  "tips": [
+   "Paiement par bracelet cashless en 2026 : recharger son compte avant l'événement",
+   "Site très ensoleillé et sol sableux : casquette et chaussures fermées recommandées",
+   "Télécharger billet, plan et programme à l'avance, le réseau est instable"
+  ],
+  "official": "https://yardland.paris",
+  "sources": [
+   [
+    "Festival en France : Yardland",
+    "https://www.festivalenfrance.com/festival/yardland-festival"
+   ],
+   [
+    "Sortiraparis : line-up et conseils 2026",
+    "https://www.sortiraparis.com/en/what-to-see-in-paris/concerts-music-festival/articles/290423-yardland-2026-the-hip-hop-festival-in-vincennes-featuring-niska-franglish-and-leto-lineup-and-tips"
+   ],
+   [
+    "Onivapp : billets et accès 2026",
+    "https://onivapp.com/blog/yardland-festival-paris-2026"
+   ]
+  ],
+  "slug": "yardland-festival",
+  "name": "Yardland Festival",
+  "city": "Paris (Bois de Vincennes)",
+  "country": "France"
+ },
+ {
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Parc Borély, avenue du Parc Borély, 13008 Marseille",
+  "maps_q": "Parc Borély Marseille",
+  "genres": [
+   "Rap",
+   "Musiques urbaines",
+   "Électro"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "10 – 13 juin 2027",
+  "iso": [
+   "2027-06-10",
+   "2027-06-13"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "29e édition, qui passe à quatre jours avec une soirée d'ouverture le jeudi 10 juin. Dates issues de la presse locale (octobre 2026) ; la billetterie a ouvert le 15 octobre 2026. Le site officiel n'a pas pu être consulté directement.",
+  "price_from": 45.0,
+  "price_label": "dès 45 € (soirée d'ouverture, 1re phase 2027)",
+  "prices": [
+   [
+    "Soirée d'ouverture du jeudi 10 juin 2027, offre communauté",
+    "45 €"
+   ],
+   [
+    "Soirée d'ouverture du jeudi 10 juin 2027, tarif standard",
+    "56 €"
+   ],
+   [
+    "Pass 1 jour (2026)",
+    "39 – 60 €"
+   ],
+   [
+    "Pass dimanche (2026)",
+    "15 €"
+   ],
+   [
+    "Pass 2 jours (2026)",
+    "76 – 111 €"
+   ],
+   [
+    "VIP 1 jour (2026)",
+    "85 – 97 €"
+   ]
+  ],
+  "prices_note": "Les tarifs du jeudi concernent la première phase de vente 2027 ; les autres sont ceux de 2026, avec un tarif réduit à 39 € (RSA, demandeurs d'emploi, PSH). Les prix 2027 des autres jours ne sont pas connus.",
+  "last_label": "Édition 2026",
+  "last_dates": "12 – 14 juin 2026",
+  "lineup": [
+   "Orelsan (soirée d'ouverture du 10 juin 2027)"
+  ],
+  "lineup_note": "Seul Orelsan est annoncé pour 2027, en tête d'affiche de l'ouverture. Pour mémoire, 2026 affichait Niska, Disiz, Theodora, ElGrandeToto et La Rvfleuze.",
+  "about": "Festival marseillais mêlant rap, musiques urbaines et électro, installé au Parc Borély depuis quatre ans. Il passe à quatre jours pour sa 29e édition.",
+  "access": [
+   "Métro M2 jusqu'à Rond-Point du Prado, puis bus 19, 19B ou 83 jusqu'à l'arrêt Parc Borély",
+   "Navettes en 2026 depuis le centre de Marseille, Aix-en-Provence et Aubagne",
+   "Parking vélo et trottinette gratuit et surveillé"
+  ],
+  "tips": [
+   "Mineurs de 12 à 17 ans accompagnés d'un adulte (règle 2026)",
+   "Acheter sur la billetterie officielle",
+   "Des équipes de réduction des risques sont présentes sur place"
+  ],
+  "official": "https://marsatac.com",
+  "sources": [
+   [
+    "Made in Marseille : dates 2027 et Orelsan",
+    "https://madeinmarseille.net/actualite/212610-orelsan-concert-marsatac/"
+   ],
+   [
+    "Festival en France : tarifs et line-up 2026",
+    "https://festivalenfrance.com/festival/marsatac"
+   ],
+   [
+    "Marseille Tourisme : accès et conseils",
+    "https://www.marseille-tourisme.com/vivez-marseille-blog/le-blog-marseille-a-la-carte/festival-marsatac/"
+   ]
+  ],
+  "slug": "marsatac",
+  "name": "Marsatac",
+  "city": "Marseille (Bouches-du-Rhône)",
+  "country": "France"
+ },
+ {
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Cité du design, 3 rue Javelin Pagnon, 42000 Saint-Étienne",
+  "maps_q": "Cité du design Saint-Étienne",
+  "genres": [
+   "Techno",
+   "Électro"
+  ],
+  "mois": [
+   "mars"
+  ],
+  "dates": "26 – 27 mars 2027",
+  "iso": [
+   "2027-03-26",
+   "2027-03-27"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "L'édition prévue les 6 et 7 novembre 2026 a été reportée aux 26 et 27 mars 2027, l'organisateur invoquant des perturbations de transport. Le festival n'a donc pas eu lieu en novembre 2026. Une source évoque en plus une fin le dimanche matin, à vérifier.",
+  "price_from": 35.0,
+  "price_label": "35 € (billet de l'édition reportée)",
+  "prices": [
+   [
+    "Billet de l'édition reportée (2027)",
+    "35 €"
+   ],
+   [
+    "Édition 2025, soirée ou pass 3 nuits",
+    "19 – 51 €"
+   ]
+  ],
+  "prices_note": "Le tarif de 35 € vient de la billetterie Resident Advisor ; il était décrit ailleurs comme un pass 2 nuits pour la date initiale. Le report a pu modifier les paliers : vérifier avant d'acheter.",
+  "last_label": "Édition 2025 (9e)",
+  "last_dates": "Novembre 2025",
+  "lineup": [
+   "Machine Girl",
+   "A Guy Called Gerald",
+   "Eris Drew & Octo Octa",
+   "Mike Servito",
+   "Andy Stott",
+   "Jane Fitz & 69 DB",
+   "Surgeon & Nørbak"
+  ],
+  "lineup_note": "Ces noms avaient été annoncés pour la date initiale de novembre 2026 ; leur maintien en mars 2027 n'est pas confirmé. Le line-up complet devait être dévoilé début décembre.",
+  "about": "Festival techno et électro de Saint-Étienne, revenu à la Cité du design dans un format plus intime, sur trois scènes. Il avait rassemblé plus de 15 000 personnes en 2024.",
+  "access": [
+   "3 rue Javelin Pagnon, 42000 Saint-Étienne",
+   "Ouverture annoncée à 18h le vendredi et le samedi, à vérifier"
+  ],
+  "tips": [
+   "Réservé aux 18 ans et plus",
+   "La date a déjà été reportée une fois : vérifier l'annonce officielle avant de réserver transport et hébergement",
+   "Attendre le line-up complet si les noms comptent pour vous"
+  ],
+  "official": "https://positiveeducation.fr",
+  "sources": [
+   [
+    "Resident Advisor : édition reportée en mars 2027",
+    "https://ra.co/events/2486660"
+   ],
+   [
+    "Loire Tourisme : dates 26 – 27 mars 2027",
+    "https://loiretourisme.com/en/offers/festival-positive-education-saint-etienne-en-3352642"
+   ],
+   [
+    "Festival en France : Positive Education",
+    "https://www.festivalenfrance.com/festival/positive-education-festival"
+   ]
+  ],
+  "slug": "positive-education-festival",
+  "name": "Positive Education Festival",
+  "city": "Saint-Étienne (Loire)",
+  "country": "France"
+ },
+ {
+  "region": "Occitanie",
+  "venue": "Jardin Compans-Caffarelli (jardin japonais), boulevard Lascrosses, 31000 Toulouse",
+  "maps_q": "Jardin Compans-Caffarelli Toulouse",
+  "genres": [
+   "Électro",
+   "House",
+   "Hip-hop",
+   "Expérimental"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "Fin juin 2027 (dates à confirmer)",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Aucun jour précis annoncé pour 2027 : les fiches touristiques indiquent seulement « juin 2027 », sur quatre à cinq jours selon la source. L'édition 2026 s'est tenue du 25 au 28 juin au même jardin.",
+  "price_from": 0.0,
+  "price_label": "Entrée libre et gratuite (concerts, 2026)",
+  "prices": [
+   [
+    "Concerts au Jardin Compans-Caffarelli (2026)",
+    "Gratuit"
+   ]
+  ],
+  "prices_note": "Les concerts du jardin sont en entrée libre. Une source mentionne pourtant des tarifs de 19 à 76 €, ce qui contredit le reste de sa page : à vérifier auprès de l'organisateur pour d'éventuels événements payants. Restauration et buvette payantes sur place.",
+  "last_label": "Édition 2026",
+  "last_dates": "25 – 28 juin 2026",
+  "lineup": [
+   "Le Grand Couturier",
+   "FRANCE",
+   "Devon Rexi",
+   "KIM KHAN",
+   "Brokenchord",
+   "Florence Sinclair",
+   "Tracey",
+   "Yuri Umemoto",
+   "DJ Travella",
+   "La Rat"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026 : la programmation privilégie les artistes émergents plutôt que les grosses têtes d'affiche.",
+  "about": "Festival d'électro en plein air et gratuit, installé dans le jardin japonais de Toulouse. Sa programmation exigeante mais détendue mêle lives, DJ sets et un rendez-vous jeune public.",
+  "access": [
+   "Métro ligne B, station Compans-Caffarelli",
+   "Bus L1, L14, 45 ou 63",
+   "Environ 30 min à pied depuis la gare Toulouse-Matabiau"
+  ],
+  "tips": [
+   "Accès libre : arriver tôt en fin d'après-midi pour trouver sa place sur la pelouse",
+   "Le samedi s'ouvre par un concert pour enfants",
+   "Les horaires publiés en 2026 se limitaient au samedi : consulter le site officiel"
+  ],
+  "official": "https://les-siestes.com",
+  "sources": [
+   [
+    "Tourisme Occitanie : juin 2027, gratuit",
+    "https://www.tourisme-occitanie.com/les-siestes-electroniques/toulouse/fmaocci"
+   ],
+   [
+    "JDS Toulouse : programme 2026",
+    "https://www.jds.fr/toulouse/actu/programme-des-siestes-electroniques-2026-a-toulouse-artistes-et-concerts-au-jardin-compans-caffarelli-1590351_A"
+   ],
+   [
+    "Festival en France : Les Siestes Électroniques",
+    "https://www.festivalenfrance.com/festival/les-siestes-electroniques"
+   ]
+  ],
+  "slug": "les-siestes-electroniques",
+  "name": "Les Siestes Électroniques",
+  "city": "Toulouse (Haute-Garonne)",
+  "country": "France"
+ },
+ {
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Palais des Festivals et des Congrès, 1 boulevard de la Croisette, 06400 Cannes",
+  "maps_q": "Palais des Festivals et des Congrès Cannes",
+  "genres": [
+   "Cinéma"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "11 – 22 mai 2027 (80e édition)",
+  "iso": [
+   "2027-05-11",
+   "2027-05-22"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Le site officiel annonce la 80e édition du 11 au 22 mai 2027. La sélection officielle sera dévoilée en avril 2027. Attention : le festival n'est pas ouvert au grand public.",
+  "price_from": 0.0,
+  "price_label": "Réservé aux accrédités ; Cinéma de la Plage en accès libre",
+  "prices": [
+   [
+    "Séances officielles et sections parallèles",
+    "Billets gratuits, mais réservés aux accrédités (2026)"
+   ],
+   [
+    "Accréditation : contribution environnementale (2026)",
+    "24 € (remboursée si la demande est refusée)"
+   ],
+   [
+    "Cinéma de la Plage (séances en plein air)",
+    "Gratuit, dans la limite des places"
+   ]
+  ],
+  "prices_note": "La billetterie est limitée aux accrédités : professionnels, presse, cinéphiles, et le parcours « 3 Jours à Cannes » pour les 18-28 ans. Les conditions 2027 ne sont pas publiées ; ces informations viennent de 2026.",
+  "last_label": "Édition 2026 (79e)",
+  "last_dates": "12 – 23 mai 2026",
+  "lineup": [
+   "Fjord de Cristian Mungiu (Palme d'or 2026)",
+   "Minotaure d'Andreï Zviaguintsev (Grand Prix)",
+   "L'Aventure rêvée de Valeska Grisebach (Prix du jury)",
+   "Fatherland de Pawel Pawlikowski (mise en scène)",
+   "La Bola negra de Javier Calvo et Javier Ambrossi (mise en scène)",
+   "Soudain de Ryūsuke Hamaguchi (interprétation féminine)",
+   "Coward de Lukas Dhont (interprétation masculine)"
+  ],
+  "lineup_note": "Aucun film de la sélection 2027 n'est annoncé : elle sort en avril 2027. Ci-dessus, le palmarès de l'édition 2026, présidée par Park Chan-wook.",
+  "about": "Le grand rendez-vous mondial du cinéma, avec une compétition officielle jugée par un jury et des sections parallèles. Il accueille surtout des professionnels, des journalistes et des cinéphiles accrédités.",
+  "access": [
+   "Gare SNCF de Cannes à environ 5 min à pied du Palais",
+   "Aéroport Nice-Côte d'Azur à environ 27 km, avec navettes",
+   "Réseau de bus Palm Bus pour Cannes et les communes voisines",
+   "Badge obligatoire pour entrer dans les zones du Festival et du Marché du Film"
+  ],
+  "tips": [
+   "Sans accréditation, viser les séances gratuites du Cinéma de la Plage, à partir de 21h30 sur la plage Macé",
+   "Tenue de soirée exigée pour les projections de gala au Grand Théâtre Lumière, baskets refusées",
+   "Les cinéphiles non professionnels peuvent demander une accréditation : s'y prendre avant l'ouverture de la billetterie"
+  ],
+  "official": "https://www.festival-cannes.com",
+  "sources": [
+   [
+    "Screen Daily : dates de la 80e édition",
+    "https://www.screendaily.com/news/cannes-film-festival-confirms-2027-dates-for-80th-edition/5217448.article"
+   ],
+   [
+    "Festival de Cannes : FAQ accréditations et billetterie",
+    "https://www.festival-cannes.com/faq/"
+   ],
+   [
+    "Festival de Cannes : accès aux projections",
+    "https://www.festival-cannes.com/participer/votre-festival/acces-aux-projections/"
+   ]
+  ],
+  "slug": "festival-de-cannes",
+  "name": "Festival de Cannes",
+  "city": "Cannes (Alpes-Maritimes)",
+  "country": "France"
+ },
+ {
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Cour d'honneur du Palais des Papes et une quarantaine de lieux en ville",
+  "maps_q": "Cour d'honneur du Palais des Papes Avignon",
+  "genres": [
+   "Théâtre",
+   "Arts vivants",
+   "Performance"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "Juillet 2027 (dates à confirmer)",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Les dates 2027 ne sont pas encore annoncées. La presse locale évoque une édition anniversaire. Le mois de juillet correspond à la période habituelle (édition 2026 : 4 au 25 juillet), pas à une annonce officielle.",
+  "price_from": 10.0,
+  "price_label": "dès 10 € le spectacle (tarif réduit 2026)",
+  "prices": [
+   [
+    "Carte Festival individuelle (2026)",
+    "25 €"
+   ],
+   [
+    "Carte Festival demandeurs d'emploi",
+    "1 €"
+   ],
+   [
+    "Carte 3 clés (moins de 26 ans, étudiants, minima sociaux, PSH)",
+    "1 €"
+   ],
+   [
+    "Places à tarif réduit avec la Carte 3 clés",
+    "10 à 25 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 ; rien n'est publié pour 2027. Un agrégateur annonce des billets de 7 à 64 € selon les spectacles, information non recoupée avec le site officiel. Les cartes ne sont pas valables pour le Off.",
+  "last_label": "Édition 2026 (80e)",
+  "last_dates": "4 – 25 juillet 2026",
+  "lineup": [
+   "Maldoror (Julien Gosselin, spectacle d'ouverture)",
+   "Oiseau (Julie Deliquet, avec Isabelle Huppert)",
+   "Concert de Benjamin Clémentine",
+   "Le Pas du monde (Collectif XY)",
+   "Silence (Lucie Antunes et Mathilde Monnier)",
+   "Terces (Johann Le Guillerm)",
+   "L'Aube des questions (clôture)"
+  ],
+  "lineup_note": "Programmation 2027 non annoncée ; liste issue de l'édition 2026, qui comptait 47 spectacles dont 30 créations.",
+  "about": "Le Festival d'Avignon, dit « le In », est le grand rendez-vous du théâtre et des arts vivants, organisé autour de la Cour d'honneur du Palais des Papes. En 2026, il a proposé 47 spectacles et près de 300 événements.",
+  "access": [
+   "Gare TGV d'Avignon, navette vers le centre en environ 5 min ; Paris à 2h40",
+   "Gare Avignon Centre près des remparts, à pied de la place de l'Horloge",
+   "Centre historique traversable à pied en 20 min ; stationnement difficile en juillet"
+  ],
+  "tips": [
+   "Réserver l'hébergement dès l'annonce des dates : les hôtels intra-muros se remplissent en quelques semaines",
+   "En 2026, la billetterie ouvrait mi-avril, avec de nouvelles places chaque mercredi à 10h",
+   "Prévoir de l'eau et de bonnes chaussures : il fait souvent plus de 32 °C et le centre est pavé"
+  ],
+  "official": "https://festival-avignon.com",
+  "sources": [
+   [
+    "Festival d'Avignon : tarifs et cartes",
+    "https://festival-avignon.com/en/pricing-601"
+   ],
+   [
+    "L'Écho du mardi : programme 2026",
+    "https://www.echodumardi.com/culture-loisirs/le-festival-davignon-se-posera-en-80-questions-du-4-au-25-juillet-2026/?print=pdf"
+   ],
+   [
+    "Festival en France : dates 2027 non annoncées",
+    "https://www.festivalenfrance.com/festival/festival-davignon"
+   ]
+  ],
+  "slug": "festival-d-avignon",
+  "name": "Festival d'Avignon",
+  "city": "Avignon (Vaucluse)",
+  "country": "France"
+ },
+ {
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Toute la ville : plateau d'Angoulême (stands éditeurs), Théâtre d'Angoulême, Cité internationale de la bande dessinée",
+  "maps_q": "Cité internationale de la bande dessinée Angoulême",
+  "genres": [
+   "Bande dessinée",
+   "Manga",
+   "Expositions"
+  ],
+  "mois": [
+   "janvier"
+  ],
+  "dates": "28 – 31 janvier 2027",
+  "iso": [
+   "2027-01-28",
+   "2027-01-31"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "L'édition 2026 du FIBD a été annulée. En 2027, un nouvel événement, « Angoulême bande dessinée », est organisé par l'ADBDA avec le groupe Morgane ; le tribunal a rejeté en octobre 2026 les recours des anciens organisateurs. Journée professionnelle le 27 janvier. Les organisateurs reconnaissent un calendrier serré.",
+  "price_from": 15.0,
+  "price_label": "dès 15 € la journée (tarif réduit 2027)",
+  "prices": [
+   [
+    "Journée du jeudi 28 janvier",
+    "25 €"
+   ],
+   [
+    "Journée du vendredi 29 janvier",
+    "25 €"
+   ],
+   [
+    "Journée du samedi 30 janvier",
+    "30 €"
+   ],
+   [
+    "Journée du dimanche 31 janvier",
+    "23 €"
+   ],
+   [
+    "Tarif réduit à la journée (demandeurs d'emploi, étudiants, 12-17 ans, PSH)",
+    "15 €"
+   ],
+   [
+    "Moins de 6 ans et accompagnants PMR",
+    "Gratuit"
+   ]
+  ],
+  "prices_note": "Tarifs 2027 relevés dans la presse spécialisée ; la billetterie a ouvert le 3 novembre 2026. Des pass deux jours et une formule famille existent, sans prix publié. Le billet donne accès aux expositions et rencontres du jour choisi.",
+  "last_label": "Édition 2025 (52e)",
+  "last_dates": "29 janvier – 2 février 2025",
+  "lineup": [
+   "Programme 2027 en cours de publication",
+   "Prix annoncés en décembre 2026",
+   "Sélection officielle présentée à Paris",
+   "Journée professionnelle le 27 janvier"
+  ],
+  "lineup_note": "Le programme 2027 n'est pas complet : invités internationaux et temps forts manga restaient à annoncer au moment de la recherche.",
+  "about": "Le grand rendez-vous annuel de la bande dessinée, qui revient en 2027 sous le nom « Angoulême bande dessinée » après l'annulation de l'édition 2026. Au programme : expositions, rencontres, masterclasses, projections et remise de prix.",
+  "access": [
+   "Billetterie ouverte depuis le 3 novembre 2026 sur le site officiel",
+   "Journée professionnelle le mercredi 27 janvier 2027",
+   "Le dimanche 31 janvier est pensé pour les familles"
+  ],
+  "tips": [
+   "Le billet n'est valable qu'un seul jour : choisir sa journée d'après le programme",
+   "Prévoir des déplacements entre le plateau des éditeurs et les expositions réparties en ville",
+   "Les organisateurs interdisent l'intelligence artificielle dans les albums sélectionnés et chez les exposants"
+  ],
+  "official": "https://www.angouleme-bandedessinee.com/",
+  "sources": [
+   [
+    "Livres Hebdo : feu vert judiciaire pour 2027",
+    "https://www.livreshebdo.fr/article/nouveau-festival-dangouleme-le-feu-vert-judiciaire-rassure-les-editeurs-pour-ledition-2027"
+   ],
+   [
+    "Livres Hebdo : premières orientations du nouveau festival",
+    "https://www.livreshebdo.fr/article/angouleme-bande-dessinee-devoile-les-premieres-orientations-de-son-nouveau-festival"
+   ],
+   [
+    "Superpouvoir : lieux et tarifs 2027",
+    "https://www.superpouvoir.com/?p=211192"
+   ]
+  ],
+  "slug": "angouleme-bande-dessinee",
+  "name": "Angoulême bande dessinée",
+  "city": "Angoulême (Charente)",
+  "country": "France"
+ },
+ {
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Bonlieu, Cité internationale du cinéma d'animation et salles de la ville ; projections en plein air au Pâquier",
+  "maps_q": "Bonlieu Annecy",
+  "genres": [
+   "Cinéma d'animation",
+   "Marché professionnel"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "13 – 19 juin 2027",
+  "iso": [
+   "2027-06-13",
+   "2027-06-19"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates relevées sur la fiche de l'office de tourisme Haute-Savoie Mont-Blanc ; le visuel du site officiel n'était pas lisible. En 2026, le festival avait été décalé au 21-27 juin à cause du sommet du G7.",
+  "price_from": null,
+  "price_label": "Tarifs non publiés",
+  "prices": [
+   [
+    "Projections en plein air au Pâquier",
+    "Gratuit"
+   ],
+   [
+    "Pass 74 (habitants de Haute-Savoie, 2026)",
+    "Montant non publié"
+   ],
+   [
+    "Billets de séance à l'unité (2026)",
+    "Vendus en ligne ou 30 min avant la séance, montant non publié"
+   ]
+  ],
+  "prices_note": "Aucun tarif 2027 publié. En 2026, une contribution environnementale s'appliquait à toutes les accréditations. Catégories 2026 : Festival, Étudiants, Mifa, Acheteurs, Presse, Grand public, Pass 74, Scolaires.",
+  "last_label": "Édition 2026",
+  "last_dates": "21 – 27 juin 2026",
+  "lineup": [
+   "Alfonso Cuarón",
+   "Guillermo del Toro",
+   "Brad Bird",
+   "Nick Park",
+   "Michel Ocelot",
+   "Audrey Tautou",
+   "Ricky Gervais",
+   "S.S. Rajamouli"
+  ],
+  "lineup_note": "Programmation 2027 non annoncée. Ci-dessus, des invités de l'édition 2026, qui a réuni 19 100 accrédités et plus de 145 films en sélection.",
+  "about": "Le grand festival mondial du film d'animation, avec une sélection de films, des avant-premières et le Mifa, marché international de l'animation. Il mêle professionnels, étudiants et grand public.",
+  "access": [
+   "Accès en train jusqu'à Annecy",
+   "Services adaptés signalés pour les déficiences auditives, intellectuelles et visuelles, accès de plain-pied en fauteuil",
+   "Contact du festival : 04 50 10 09 00"
+  ],
+  "tips": [
+   "Les séances en plein air au Pâquier sont gratuites : la bonne option sans accréditation",
+   "Pour les salles, il faut un pass ou une accréditation : surveiller la catégorie Grand public ou le Pass 74",
+   "Les infos pratiques 2027 n'étaient pas encore publiées : vérifier le site officiel au printemps"
+  ],
+  "official": "https://www.annecyfestival.com",
+  "sources": [
+   [
+    "Haute-Savoie Mont-Blanc Tourisme : dates 13-19 juin 2027",
+    "https://hautesavoiemontblanc-tourisme.com/offres/festival-international-du-film-danimation-annecy-fr-5866239/"
+   ],
+   [
+    "Annecy Festival : bilan de l'édition 2026",
+    "https://www.annecyfestival.com/en/news/2026-edition-key-figures-and-highlights"
+   ],
+   [
+    "Cartoon Brew : décalage des dates 2026",
+    "https://www.cartoonbrew.com/festivals/annecy-shifts-2026-dates-to-avoid-g7-summit-248421.html"
+   ]
+  ],
+  "slug": "annecy-film-animation",
+  "name": "Festival international du film d'animation d'Annecy",
+  "city": "Annecy (Haute-Savoie)",
+  "country": "France"
+ },
+ {
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Tout Lyon : 27 œuvres sur 20 sites (Presqu'île, Fourvière, Vieux-Lyon, parc de la Tête d'Or…)",
+  "maps_q": "Place des Terreaux Lyon",
+  "genres": [
+   "Art lumineux",
+   "Installations",
+   "Fête populaire"
+  ],
+  "mois": [
+   "décembre"
+  ],
+  "dates": "5 – 8 décembre 2026 (27e édition)",
+  "iso": [
+   "2026-12-05",
+   "2026-12-08"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates confirmées par la Ville de Lyon. Horaires annoncés : 19h-23h les 5, 6 et 7 décembre, et 18h-22h le 8 décembre. Un avant-programme en arrondissement est prévu le jeudi 3 décembre.",
+  "price_from": 0.0,
+  "price_label": "Gratuit",
+  "prices": [
+   [
+    "Accès aux installations lumineuses",
+    "Gratuit"
+   ],
+   [
+    "Lumignons du Cœur (au profit de Vivre aux éclats)",
+    "2 € le lumignon"
+   ]
+  ],
+  "prices_note": "La Ville de Lyon présente l'événement comme gratuit et ouvert à tous. Seuls les lumignons solidaires sont payants, de façon facultative.",
+  "last_label": "Édition 2025",
+  "last_dates": "",
+  "lineup": [
+   "Level Up, place des Jacobins : arcade Pac-Man grandeur nature",
+   "Twist and Shine, Bellecour : une centaine de prismes lumineux",
+   "Echoes of Ice, quartier Grôlée : glacier en vidéo-projection",
+   "Le Carnaval des animaux, place des Terreaux",
+   "La Lumière de la vitesse, place Antonin-Poncet : les 45 ans du TGV",
+   "Sentinels, place Louis-Pradel : la montée des eaux",
+   "Projections sur la basilique de Fourvière (5 au 7 décembre)",
+   "Montée aux flambeaux le 8 décembre"
+  ],
+  "lineup_note": "Œuvres annoncées pour l'édition 2026, qui attend près de 2 millions de visiteurs. Programme complet sur le site officiel.",
+  "about": "Née de la tradition des lumignons aux fenêtres le 8 décembre, la Fête des Lumières est devenue un festival de plusieurs soirées depuis 1999. Elle transforme places, monuments et jardins de Lyon en parcours d'œuvres lumineuses.",
+  "access": [
+   "Centre-ville et Presqu'île largement piétons le soir, avec restrictions de circulation",
+   "Métro et tramway en horaires étendus, navettes depuis les parcs relais",
+   "Funiculaire depuis le Vieux-Lyon pour monter à Fourvière",
+   "Accessibilité signalée pour les handicaps auditif, moteur et visuel"
+  ],
+  "tips": [
+   "Le samedi soir est le plus fréquenté : venir vers 19h30 ou après 22h30 est plus confortable",
+   "Prendre les transports et acheter ses titres à l'avance, le stationnement sature vite",
+   "S'habiller chaudement et fixer un point de rendez-vous : le réseau mobile peut saturer"
+  ],
+  "official": "https://fetedeslumieres.lyon.fr",
+  "sources": [
+   [
+    "Ville de Lyon : Fête des Lumières 2026",
+    "https://www.lyon.fr/node/952681"
+   ],
+   [
+    "LyonMag : 27 œuvres et 2 millions de visiteurs attendus",
+    "https://www.lyonmag.com/article/154742/fete-des-lumieres-2026-a-lyon-27-oeuvres-pac-man-geant-ia-et-pres-de-2-millions-de-visiteurs-attendus"
+   ],
+   [
+    "France.fr : horaires et temps forts",
+    "https://www.france.fr/fr/evenement/fete-des-lumieres-lyon/"
+   ]
+  ],
+  "slug": "fete-des-lumieres-lyon",
+  "name": "Fête des Lumières",
+  "city": "Lyon (Rhône)",
+  "country": "France"
+ },
+ {
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Place Masséna et Promenade des Anglais ; Village du Carnaval au square Leclerc",
+  "maps_q": "Place Masséna Nice",
+  "genres": [
+   "Carnaval",
+   "Défilés",
+   "Batailles de fleurs"
+  ],
+  "mois": [
+   "février"
+  ],
+  "dates": "9 – 28 février 2027 (thème « Vive l'Amour »)",
+  "iso": [
+   "2027-02-09",
+   "2027-02-28"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates et thème publiés par l'office de tourisme Nice Côte d'Azur (fiche d'octobre 2026). Le thème 2027 est l'amour, avec une Reine désormais à égalité avec le Roi.",
+  "price_from": 7.0,
+  "price_label": "dès 7 € (zone piétonne, tarif 2026) ; Village du Carnaval gratuit",
+  "prices": [
+   [
+    "Tribune zone A, place Masséna : adulte / enfant 6-12 ans (2026)",
+    "28 € / 10 €"
+   ],
+   [
+    "Tribune zone B, Promenade des Anglais : adulte / enfant (2026)",
+    "23 € / 8 €"
+   ],
+   [
+    "Zone piétonne A, adulte (2026)",
+    "14 €"
+   ],
+   [
+    "Zone piétonne B, corso illuminé du samedi, adulte (2026)",
+    "7 €"
+   ],
+   [
+    "Pack 2 spectacles en tribune, hors samedis (2026)",
+    "45 €"
+   ],
+   [
+    "Village du Carnaval",
+    "Gratuit"
+   ]
+  ],
+  "prices_note": "Les tarifs 2027 ne sont pas communiqués : la fiche officielle indique « payant, tarifs non communiqués ». Les montants ci-dessus datent de 2026. En 2026, les personnes en déguisement intégral entraient gratuitement en zone piétonne, dans la limite des places.",
+  "last_label": "Édition 2026 (« Vive la Reine »)",
+  "last_dates": "18 jours de festivités, jusqu'au 1er mars 2026",
+  "lineup": [
+   "13 février : Carnavalina et corso illuminé d'ouverture",
+   "16 février : corso carnavalesque illuminé",
+   "17 février : bataille de fleurs",
+   "21 février : corso d'Aqui, de jour",
+   "27 février : corso de clôture"
+  ],
+  "lineup_note": "Temps forts 2027 d'après l'office de tourisme ; programme complet sur le site officiel. L'édition 2026 a réuni plus de 420 000 personnes.",
+  "about": "Premier carnaval de France à caractère international selon l'office de tourisme, c'est le grand événement hivernal de la Côte d'Azur. Il alterne corsos de chars, batailles de fleurs, Village du Carnaval et festivités de quartier.",
+  "access": [
+   "Cœur des festivités place Masséna, en centre-ville",
+   "Transports en commun et marche conseillés : la circulation est dense",
+   "Animaux non admis",
+   "Contact : 04 97 13 36 66"
+  ],
+  "tips": [
+   "Arriver environ deux heures avant un spectacle à cause des contrôles de sécurité",
+   "Voyager léger : en 2026, gros sacs, bouteilles en verre, masques rigides et pétards étaient interdits",
+   "Pour un budget serré, loger hors du centre et choisir la zone piétonne plutôt que les tribunes"
+  ],
+  "official": "https://www.nicecarnaval.com",
+  "sources": [
+   [
+    "Office de tourisme Nice Côte d'Azur : édition 2027",
+    "https://cotedazurfrance.fr/offres/carnaval-de-nice-2027-vive-lamour-nice-fr-3810291/"
+   ],
+   [
+    "Nice Premium : bilan 2026 et thème 2027",
+    "https://www.nice-premium.com/?p=331628"
+   ],
+   [
+    "Nicetrotter : dates, accès et conseils 2027",
+    "https://www.nicetrotter.fr/en/art-carnaval-de-nice-2027-dates-billets-acces-conseils-1021.html"
+   ]
+  ],
+  "slug": "carnaval-de-nice",
+  "name": "Carnaval de Nice",
+  "city": "Nice (Alpes-Maritimes)",
+  "country": "France"
+ },
+ {
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Théâtre de l'Archevêché, Grand Théâtre de Provence, Théâtre du Jeu de Paume (lieux 2026 ; lieux 2027 non publiés)",
+  "maps_q": "Théâtre de l'Archevêché Aix-en-Provence",
+  "genres": [
+   "Opéra",
+   "Musique classique",
+   "Musique contemporaine"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "1 – 20 juillet 2027",
+  "iso": [
+   "2027-07-01",
+   "2027-07-20"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Les dates apparaissent en bandeau sur le site officiel. La programmation 2027 est présentée le 4 décembre 2026, avec une réservation prioritaire pour les mécènes le même jour. Aucune date de vente publique n'est indiquée.",
+  "price_from": 8.0,
+  "price_label": "dès 8 € la place (tarif plein 2026)",
+  "prices": [
+   [
+    "Tarif plein, de la place la moins chère à la plus chère (2026)",
+    "8 à 312 €"
+   ],
+   [
+    "Abonnement à partir de 3 spectacles (2026)",
+    "Remise de 10 à 25 %"
+   ],
+   [
+    "Mécénat avec réservation prioritaire (2026)",
+    "À partir de 1 000 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 ; les prix 2027 ne sont pas publiés. Le programme « Aix en juin » est gratuit et destiné au public local.",
+  "last_label": "Édition 2026",
+  "last_dates": "2 – 21 juillet 2026",
+  "lineup": [
+   "Die Frau ohne Schatten (Strauss), direction Klaus Mäkelä",
+   "Die Zauberflöte (Mozart), mise en scène Clément Cogitore",
+   "Accabadora (Francesco Filidei), création",
+   "El Cimarrón (Hans Werner Henze)",
+   "Les Vêpres siciliennes (Verdi, en concert)",
+   "Le Château de Barbe-Bleue (Bartók, en concert)",
+   "Requiem de Mozart (Raphaël Pichon et Romeo Castellucci)"
+  ],
+  "lineup_note": "Programmation 2027 non annoncée, présentation prévue le 4 décembre. Liste issue de l'édition 2026, la première dirigée par Ted Huffman.",
+  "about": "Fondé en 1948, c'est un grand festival international d'art lyrique, tourné vers la création d'opéras et la musique contemporaine. Il propose aussi des concerts et le programme gratuit « Aix en juin ».",
+  "access": [
+   "Gare TGV d'Aix à quelques kilomètres du centre, reliée par la navette ligne 40",
+   "Aéroport Marseille Provence desservi par cars vers le centre d'Aix",
+   "Parkings-relais gardés avec navettes gratuites ; covoiturage via l'application Karos",
+   "Billetterie au Palais de l'ancien Archevêché"
+  ],
+  "tips": [
+   "Suivre l'annonce du programme du 4 décembre : en 2026, les abonnements ouvraient fin janvier et les places à l'unité début février",
+   "Loger dans la vieille ville évite les retours tardifs ; une navette de nuit vers Marseille existait en 2026",
+   "Penser aux parkings-relais, le centre étant très fréquenté en juillet"
+  ],
+  "official": "https://www.festival-aix.com",
+  "sources": [
+   [
+    "Festival d'Aix : page d'accueil et dates 2027",
+    "https://www.festival-aix.com/en/homepage-festival"
+   ],
+   [
+    "Provence-Alpes-Côte d'Azur : lieux et tarifs 2026",
+    "https://provence-alpes-cotedazur.com/que-faire/sortir/toutes-les-sorties/festival-daix-en-provence-aix-en-provence-fr-2891672/"
+   ],
+   [
+    "Festival d'Aix : votre séjour à Aix",
+    "https://festival-aix.com/en/information/your-stay-aix"
+   ]
+  ],
+  "slug": "festival-d-aix-en-provence",
+  "name": "Festival d'Aix-en-Provence",
+  "city": "Aix-en-Provence (Bouches-du-Rhône)",
+  "country": "France"
+ },
+ {
+  "region": "Occitanie",
+  "venue": "Arènes de Nîmes, boulevard des Arènes, 30000 Nîmes",
+  "maps_q": "Arènes de Nîmes",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Chanson"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "15 juin – 17 juillet 2027",
+  "iso": [
+   "2027-06-15",
+   "2027-07-17"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Les concerts annoncés s'étalent du 15 juin au 17 juillet 2027, mais la programmation n'est pas complète : d'autres artistes sont attendus et la période peut s'élargir. Les concerts se réservent à la date, pas au pass.",
+  "price_from": 46.0,
+  "price_label": "dès 46 € le concert (tarif plein 2027)",
+  "prices": [
+   [
+    "Fontaines D.C., 16 juin 2027",
+    "52,50 à 80 €"
+   ],
+   [
+    "Julien Clerc et Laurent Voulzy, 19 juin 2027",
+    "46 à 90 €"
+   ],
+   [
+    "Christophe Maé, 1er juillet 2027",
+    "46 à 84,50 €"
+   ],
+   [
+    "Toto et Christopher Cross, 17 juillet 2027",
+    "46 à 117,50 €"
+   ]
+  ],
+  "prices_note": "Tarifs relevés pour quatre concerts 2027 ; les autres dates n'ont pas été vérifiées. Pour mémoire, un agrégateur indique une fourchette d'environ 16 à 61 € pour 2026. Billetterie gérée par Adam Concerts.",
+  "last_label": "Édition 2026",
+  "last_dates": "",
+  "lineup": [
+   "Slash feat. Myles Kennedy (15 juin)",
+   "Fontaines D.C. (16 juin)",
+   "Julien Clerc et Laurent Voulzy (19 juin)",
+   "Queens of the Stone Age (23 juin)",
+   "Ninho (25 juin)",
+   "Christophe Maé (1er juillet)",
+   "Vianney (9 juillet)",
+   "Tokio Hotel + Kyo (11 juillet)",
+   "Scorpions (15 juillet)",
+   "Toto et Christopher Cross (17 juillet)"
+  ],
+  "lineup_note": "Artistes déjà annoncés pour 2027 : la programmation se complète encore. Pour mémoire, 2026 comprenait The Cure, Sting, Nick Cave, Lenny Kravitz et Jamiroquai.",
+  "about": "Chaque été, le Festival de Nîmes réunit des têtes d'affiche du rock, de la pop et de la chanson dans les Arènes de Nîmes, un amphithéâtre romain en plein air.",
+  "access": [
+   "Parking Q-Park Gare Feuchères à 10 min à pied, forfait soirée à 8 € les soirs de concert",
+   "Ligne T1 du réseau TANGO, jusqu'à une heure après la fin des concerts",
+   "Parkings-relais gratuits A54/Caissargues et Costières/Parnasse"
+  ],
+  "tips": [
+   "Réserver tôt pour les têtes d'affiche : les prix varient beaucoup selon l'artiste",
+   "Concerts en plein air : prévoir une tenue adaptée à la météo",
+   "Combiner voiture et parking-relais, ou bus T1, pour éviter la saturation du centre"
+  ],
+  "official": "https://www.festivaldenimes.com",
+  "sources": [
+   [
+    "Sortiraparis : premiers noms de l'édition 2027",
+    "https://www.sortiraparis.com/en/getaways-from-paris/southwest/articles/50325-festival-de-nimes-tokio-hotel-and-kyo-among-the-new-acts-announced-for-the-2027-lineup"
+   ],
+   [
+    "Festival App : Festival de Nîmes 2027",
+    "https://festapp.io/fr/festivals/festival-de-nimes/2027"
+   ],
+   [
+    "Gard Tourisme : tarifs et billetterie",
+    "https://www.tourismegard.com/fr/fiche/fete-et-manifestation/christophe-mae-festival-de-nimes-nimes_TFO8049655/"
+   ]
+  ],
+  "slug": "festival-de-nimes",
+  "name": "Festival de Nîmes",
+  "city": "Nîmes (Gard)",
+  "country": "France"
+ }
+]

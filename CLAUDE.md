@@ -1,0 +1,58 @@
+# FestiGuide — notes pour Claude
+
+Annuaire de 38 grands festivals (France, plus Les Ardentes en Belgique). Site statique publié par GitHub Pages sur https://lanfus.github.io/festiguide/
+
+Projet personnel de Florent H. (GitHub : Lanfus). Objectif : servir de preuve de compétences SEO / CRM pour sa recherche d'alternance en e-commerce. Donc le référencement et la qualité des données comptent plus que la sophistication technique.
+
+## Règle la plus importante
+
+**Les fichiers `.html` à la racine sont générés. Ne les modifie jamais à la main.**
+
+Toute correction de contenu (date, prix, artiste, nouveau festival) se fait dans `src/festivals.json`, puis on régénère. Une modification directe du HTML est écrasée à la régénération suivante.
+
+```bash
+python3 src/check.py src/festivals.json /tmp/ok.json   # valide les données
+python3 src/build.py src/festivals.json .              # régénère les 42 pages à la racine
+```
+
+`check.py` normalise les mois, vérifie les sources, rejette les dates ISO passées ou incohérentes et signale les doublons. `build.py` trie les festivals par date de prochaine édition, génère l'accueil, une fiche par festival, les trois pages légales, `sitemap.xml` et `robots.txt`.
+
+## Arborescence
+
+| Chemin | Rôle |
+|---|---|
+| `src/festivals.json` | **la source de vérité** : un objet par festival |
+| `src/build.py` | générateur (contient aussi le CSS et le JS, en bas du fichier) |
+| `src/check.py` | validation et fusion des données |
+| `*.html`, `style.css`, `script.js` | **générés**, publiés par GitHub Pages |
+| `sitemap.xml`, `robots.txt` | générés |
+| `mentions-legales.html`, `confidentialite.html`, `cookies.html` | générés par `build_legal()` dans `build.py` |
+
+## Contrat de données (un festival)
+
+Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une valeur par défaut dans `check.py`.
+
+- `iso` : `["AAAA-MM-JJ", "AAAA-MM-JJ"]` seulement si les dates de la prochaine édition sont confirmées par une source, sinon `null`. `check.py` force `status` à « Dates à confirmer » quand `iso` est absent, et l'inverse.
+- `status` : exactement « Dates annoncées » ou « Dates à confirmer ».
+- `mois` : minuscules accentuées (`"juin"`, `"août"`, `"décembre"`), sert aux filtres.
+- `prices` et `sources` : listes de paires `[libellé, valeur]`. Au moins une source en `http`, sinon le festival est signalé.
+- `prices_note` doit toujours dire de quelle édition viennent les tarifs.
+
+## Ce qu'il ne faut pas faire
+
+- **Ne jamais inventer** une date, un tarif ou un artiste. Si l'information n'est pas dans une source consultée, mettre `null` et l'expliquer dans `status_note` ou `prices_note`. C'est un site d'information : une fausse date fait rater un festival à quelqu'un.
+- **Ne pas recopier** les textes, affiches, photos ou plans de scènes des festivals : contenu dupliqué pour le SEO et risque juridique. On reformule, et pour les plans on renvoie au site officiel.
+- **Ne pas charger de ressource tierce automatiquement.** Les cartes Google Maps suivent le principe du double clic de la CNIL : `script.js` n'injecte l'iframe qu'après un clic sur « Afficher la carte ». Le site ne dépose donc aucun cookie et n'a pas besoin de bandeau de consentement. Si on ajoute un jour une mesure d'audience ou une newsletter, il faut un vrai bandeau **avant** tout dépôt de cookie, et mettre à jour `cookies.html` et `confidentialite.html`.
+- Ne pas ajouter de framework ni de dépendance : le site doit rester ouvrable en double-cliquant sur `index.html`.
+
+## Vérifications avant de publier
+
+1. Liens internes et balises équilibrées sur les 42 pages.
+2. `script.js` s'évalue sans erreur, `sitemap.xml` est un XML valide, chaque bloc JSON-LD parse.
+3. Avec Playwright : aucune requête externe et aucun cookie avant le clic sur la carte, filtres de l'accueil fonctionnels, pas de scroll horizontal à 390 px de large.
+
+## État au 13 novembre 2026
+
+28 festivals sur 38 ont des dates confirmées, les 10 autres sont marqués à confirmer. Cas particuliers déjà traités, à ne pas « corriger » par erreur : Rock en Seine ne se tient pas en 2027 (pause, retour en août 2028), Lollapalooza Paris n'est pas confirmé pour 2027, Solidays 2026 a été annulé pour canicule, Delta Festival et Download France ont été volontairement exclus car ils n'existent plus.
+
+À faire ensuite : brancher Google Search Console et soumettre le sitemap, puis ajouter un guide pratique des festivals écrit depuis l'expérience de Florent en sécurité événementielle (Solidays, We Love Green, Dream Nation…), qui est l'angle que les gros sites concurrents ne peuvent pas copier.
