@@ -2603,87 +2603,6 @@
  {
   "short": "",
   "region": "Provence-Alpes-Côte d'Azur",
-  "venue": "Palais des Festivals et des Congrès, 1 boulevard de la Croisette, 06400 Cannes",
-  "maps_q": "Palais des Festivals et des Congrès Cannes",
-  "genres": [
-   "Cinéma"
-  ],
-  "mois": [
-   "mai"
-  ],
-  "dates": "11 – 22 mai 2027 (80e édition)",
-  "iso": [
-   "2027-05-11",
-   "2027-05-22"
-  ],
-  "status": "Dates annoncées",
-  "status_note": "Le site officiel annonce la 80e édition du 11 au 22 mai 2027. La sélection officielle sera dévoilée en avril 2027. Attention : le festival n'est pas ouvert au grand public.",
-  "price_from": 0.0,
-  "price_label": "Réservé aux accrédités ; Cinéma de la Plage en accès libre",
-  "prices": [
-   [
-    "Séances officielles et sections parallèles",
-    "Billets gratuits, mais réservés aux accrédités (2026)"
-   ],
-   [
-    "Accréditation : contribution environnementale (2026)",
-    "24 € (remboursée si la demande est refusée)"
-   ],
-   [
-    "Cinéma de la Plage (séances en plein air)",
-    "Gratuit, dans la limite des places"
-   ]
-  ],
-  "prices_note": "La billetterie est limitée aux accrédités : professionnels, presse, cinéphiles, et le parcours « 3 Jours à Cannes » pour les 18-28 ans. Les conditions 2027 ne sont pas publiées ; ces informations viennent de 2026.",
-  "last_label": "Édition 2026 (79e)",
-  "last_dates": "12 – 23 mai 2026",
-  "lineup": [
-   "Fjord de Cristian Mungiu (Palme d'or 2026)",
-   "Minotaure d'Andreï Zviaguintsev (Grand Prix)",
-   "L'Aventure rêvée de Valeska Grisebach (Prix du jury)",
-   "Fatherland de Pawel Pawlikowski (mise en scène)",
-   "La Bola negra de Javier Calvo et Javier Ambrossi (mise en scène)",
-   "Soudain de Ryūsuke Hamaguchi (interprétation féminine)",
-   "Coward de Lukas Dhont (interprétation masculine)"
-  ],
-  "lineup_note": "Aucun film de la sélection 2027 n'est annoncé : elle sort en avril 2027. Ci-dessus, le palmarès de l'édition 2026, présidée par Park Chan-wook.",
-  "about": "Le grand rendez-vous mondial du cinéma, avec une compétition officielle jugée par un jury et des sections parallèles. Il accueille surtout des professionnels, des journalistes et des cinéphiles accrédités.",
-  "access": [
-   "Gare SNCF de Cannes à environ 5 min à pied du Palais",
-   "Aéroport Nice-Côte d'Azur à environ 27 km, avec navettes",
-   "Réseau de bus Palm Bus pour Cannes et les communes voisines",
-   "Badge obligatoire pour entrer dans les zones du Festival et du Marché du Film"
-  ],
-  "tips": [
-   "Sans accréditation, viser les séances gratuites du Cinéma de la Plage, à partir de 21h30 sur la plage Macé",
-   "Tenue de soirée exigée pour les projections de gala au Grand Théâtre Lumière, baskets refusées",
-   "Les cinéphiles non professionnels peuvent demander une accréditation : s'y prendre avant l'ouverture de la billetterie"
-  ],
-  "official": "https://www.festival-cannes.com",
-  "sources": [
-   [
-    "Screen Daily : dates de la 80e édition",
-    "https://www.screendaily.com/news/cannes-film-festival-confirms-2027-dates-for-80th-edition/5217448.article"
-   ],
-   [
-    "Festival de Cannes : FAQ accréditations et billetterie",
-    "https://www.festival-cannes.com/faq/"
-   ],
-   [
-    "Festival de Cannes : accès aux projections",
-    "https://www.festival-cannes.com/participer/votre-festival/acces-aux-projections/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-de-cannes",
-  "name": "Festival de Cannes",
-  "city": "Cannes (Alpes-Maritimes)",
-  "country": "France"
- },
- {
-  "short": "",
-  "region": "Provence-Alpes-Côte d'Azur",
   "venue": "Cour d'honneur du Palais des Papes et une quarantaine de lieux en ville",
   "maps_q": "Cour d'honneur du Palais des Papes Avignon",
   "genres": [
@@ -2853,88 +2772,6 @@
   "slug": "angouleme-bande-dessinee",
   "name": "Angoulême bande dessinée",
   "city": "Angoulême (Charente)",
-  "country": "France"
- },
- {
-  "short": "Festival d'Annecy",
-  "region": "Auvergne-Rhône-Alpes",
-  "venue": "Bonlieu, Cité internationale du cinéma d'animation et salles de la ville ; projections en plein air au Pâquier",
-  "maps_q": "Bonlieu Annecy",
-  "genres": [
-   "Cinéma d'animation",
-   "Marché professionnel"
-  ],
-  "mois": [
-   "juin"
-  ],
-  "dates": "13 – 19 juin 2027",
-  "iso": [
-   "2027-06-13",
-   "2027-06-19"
-  ],
-  "status": "Dates annoncées",
-  "status_note": "Dates relevées sur la fiche de l'office de tourisme Haute-Savoie Mont-Blanc ; le visuel du site officiel n'était pas lisible. En 2026, le festival avait été décalé au 21-27 juin à cause du sommet du G7.",
-  "price_from": null,
-  "price_label": "Tarifs non publiés",
-  "prices": [
-   [
-    "Projections en plein air au Pâquier",
-    "Gratuit"
-   ],
-   [
-    "Pass 74 (habitants de Haute-Savoie, 2026)",
-    "Montant non publié"
-   ],
-   [
-    "Billets de séance à l'unité (2026)",
-    "Vendus en ligne ou 30 min avant la séance, montant non publié"
-   ]
-  ],
-  "prices_note": "Aucun tarif 2027 publié. En 2026, une contribution environnementale s'appliquait à toutes les accréditations. Catégories 2026 : Festival, Étudiants, Mifa, Acheteurs, Presse, Grand public, Pass 74, Scolaires.",
-  "last_label": "Édition 2026",
-  "last_dates": "21 – 27 juin 2026",
-  "lineup": [
-   "Alfonso Cuarón",
-   "Guillermo del Toro",
-   "Brad Bird",
-   "Nick Park",
-   "Michel Ocelot",
-   "Audrey Tautou",
-   "Ricky Gervais",
-   "S.S. Rajamouli"
-  ],
-  "lineup_note": "Programmation 2027 non annoncée. Ci-dessus, des invités de l'édition 2026, qui a réuni 19 100 accrédités et plus de 145 films en sélection.",
-  "about": "Le grand festival mondial du film d'animation, avec une sélection de films, des avant-premières et le Mifa, marché international de l'animation. Il mêle professionnels, étudiants et grand public.",
-  "access": [
-   "Accès en train jusqu'à Annecy",
-   "Services adaptés signalés pour les déficiences auditives, intellectuelles et visuelles, accès de plain-pied en fauteuil",
-   "Contact du festival : 04 50 10 09 00"
-  ],
-  "tips": [
-   "Les séances en plein air au Pâquier sont gratuites : la bonne option sans accréditation",
-   "Pour les salles, il faut un pass ou une accréditation : surveiller la catégorie Grand public ou le Pass 74",
-   "Les infos pratiques 2027 n'étaient pas encore publiées : vérifier le site officiel au printemps"
-  ],
-  "official": "https://www.annecyfestival.com",
-  "sources": [
-   [
-    "Haute-Savoie Mont-Blanc Tourisme : dates 13-19 juin 2027",
-    "https://hautesavoiemontblanc-tourisme.com/offres/festival-international-du-film-danimation-annecy-fr-5866239/"
-   ],
-   [
-    "Annecy Festival : bilan de l'édition 2026",
-    "https://www.annecyfestival.com/en/news/2026-edition-key-figures-and-highlights"
-   ],
-   [
-    "Cartoon Brew : décalage des dates 2026",
-    "https://www.cartoonbrew.com/festivals/annecy-shifts-2026-dates-to-avoid-g7-summit-248421.html"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "annecy-film-animation",
-  "name": "Festival international du film d'animation d'Annecy",
-  "city": "Annecy (Haute-Savoie)",
   "country": "France"
  },
  {
@@ -4337,46 +4174,6 @@
  },
  {
   "short": "",
-  "region": "Auvergne-Rhône-Alpes",
-  "venue": "Lyon et agglomération",
-  "maps_q": "Lyon et agglomération Lyon",
-  "genres": [
-   "Cinéma"
-  ],
-  "mois": [
-   "octobre"
-  ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 10 au 18 octobre ; la suivante n'est pas annoncée.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival dédié au cinéma de patrimoine, à Lyon, fondé par l'Institut Lumière.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.festival-lumiere.org/en/",
-  "sources": [
-   [
-    "Site officiel",
-    "https://www.festival-lumiere.org/en/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-lumiere",
-  "name": "Festival Lumière",
-  "city": "Lyon",
-  "country": "France"
- },
- {
-  "short": "",
   "region": "Provence-Alpes-Côte d'Azur",
   "venue": "Arles",
   "maps_q": "Arles Arles",
@@ -4918,53 +4715,6 @@
   "slug": "cognac-blues-passions",
   "name": "Cognac Blues Passions",
   "city": "Cognac et Jarnac",
-  "country": "France"
- },
- {
-  "short": "Festival de Deauville",
-  "region": "Normandie",
-  "venue": "Deauville",
-  "maps_q": "Deauville Deauville",
-  "genres": [
-   "Cinéma"
-  ],
-  "mois": [
-   "septembre"
-  ],
-  "dates": "3 – 12 septembre 2027",
-  "iso": [
-   "2027-09-03",
-   "2027-09-12"
-  ],
-  "status": "Dates annoncées",
-  "status_note": "Dates 2027 annoncées par le festival sur son compte Instagram officiel.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival consacré au cinéma américain, à Deauville. 53e édition en 2027.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.festival-deauville.com/en/",
-  "sources": [
-   [
-    "Site officiel",
-    "https://www.festival-deauville.com/en/"
-   ],
-   [
-    "Instagram officiel (dates 2027)",
-    "https://www.instagram.com/festivaldedeauville/?hl=en"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-de-deauville",
-  "name": "Festival du cinéma américain de Deauville",
-  "city": "Deauville",
   "country": "France"
  },
  {
@@ -6021,127 +5771,6 @@
   "country": "Belgique"
  },
  {
-  "short": "Festival de Gérardmer",
-  "region": "Grand Est",
-  "venue": "Gérardmer",
-  "maps_q": "Gérardmer Gérardmer",
-  "genres": [
-   "Cinéma"
-  ],
-  "mois": [
-   "janvier"
-  ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le festival se tient en général la dernière semaine de janvier.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival consacré au cinéma fantastique, d'horreur et de science-fiction, à Gérardmer depuis 1994.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.festival-gerardmer.com/",
-  "sources": [
-   [
-    "Wikipédia",
-    "https://en.wikipedia.org/wiki/Festival_international_du_film_fantastique_de_G%C3%A9rardmer"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-de-gerardmer",
-  "name": "Festival international du film fantastique de Gérardmer",
-  "city": "Gérardmer",
-  "country": "France"
- },
- {
-  "short": "La Rochelle Cinéma",
-  "region": "Nouvelle-Aquitaine",
-  "venue": "La Rochelle",
-  "maps_q": "La Rochelle La Rochelle",
-  "genres": [
-   "Cinéma"
-  ],
-  "mois": [
-   "juin",
-   "juillet"
-  ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : la 54e édition s'est tenue du 26 juin au 4 juillet 2026 ; la suivante n'est pas annoncée.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival de cinéma de patrimoine et de création, organisé depuis 1973 en début d'été à La Rochelle.",
-  "access": [],
-  "tips": [],
-  "official": "https://festival-larochelle.org/en/",
-  "sources": [
-   [
-    "Site officiel",
-    "https://festival-larochelle.org/en/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-la-rochelle-cinema",
-  "name": "Festival La Rochelle Cinéma",
-  "city": "La Rochelle",
-  "country": "France"
- },
- {
-  "short": "",
-  "region": "Occitanie",
-  "venue": "Plusieurs lieux à Montpellier",
-  "maps_q": "Plusieurs lieux à Montpellier Montpellier",
-  "genres": [
-   "Cinéma"
-  ],
-  "mois": [
-   "octobre"
-  ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'office de tourisme annonce une prochaine édition en octobre 2027, sans dates précises.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival international du cinéma méditerranéen de Montpellier, fondé en 1979.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.montpellier-france.com/discover/festive/not-to-miss-events/the-cinemed/",
-  "sources": [
-   [
-    "Office de tourisme de Montpellier",
-    "https://www.montpellier-france.com/discover/festive/not-to-miss-events/the-cinemed/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "cinemed",
-  "name": "Cinemed",
-  "city": "Montpellier",
-  "country": "France"
- },
- {
   "short": "",
   "region": "Normandie",
   "venue": "Quais de la Seine, Rouen",
@@ -6230,271 +5859,6 @@
   "slug": "la-folle-journee-de-nantes",
   "name": "La Folle Journée de Nantes",
   "city": "Nantes",
-  "country": "France"
- },
- {
-  "short": "Festival d'Aurillac",
-  "region": "Auvergne-Rhône-Alpes",
-  "venue": "Centre-ville d'Aurillac",
-  "maps_q": "Centre-ville d'Aurillac Aurillac",
-  "genres": [
-   "Théâtre de rue",
-   "Arts de la rue"
-  ],
-  "mois": [
-   "août"
-  ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le site d'Éclat mentionne « du 18 au 21 août » en même temps que « date 2027 à confirmer ».",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Grand rendez-vous des arts de la rue, chaque été à Aurillac, dans le Cantal.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.aurillac.net/en/welcome/",
-  "sources": [
-   [
-    "Site Éclat (centre national des arts de la rue)",
-    "https://www.aurillac.net/en/welcome/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-d-aurillac",
-  "name": "Festival international de théâtre de rue d'Aurillac",
-  "city": "Aurillac",
-  "country": "France"
- },
- {
-  "short": "",
-  "region": "Bourgogne-Franche-Comté",
-  "venue": "Centre-ville de Chalon-sur-Saône",
-  "maps_q": "Centre-ville de Chalon-sur-Saône Chalon-sur-Saône",
-  "genres": [
-   "Théâtre de rue",
-   "Arts de la rue"
-  ],
-  "mois": [
-   "juillet"
-  ],
-  "dates": "22 – 25 juillet 2027",
-  "iso": [
-   "2027-07-22",
-   "2027-07-25"
-  ],
-  "status": "Dates annoncées",
-  "status_note": "Dates 2027 données par le site officiel : les 40 ans du festival.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival d'arts de la rue à Chalon-sur-Saône. 40e anniversaire en 2027.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.chalondanslarue.com/",
-  "sources": [
-   [
-    "Site officiel",
-    "https://www.chalondanslarue.com/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "chalon-dans-la-rue",
-  "name": "Chalon dans la rue",
-  "city": "Chalon-sur-Saône",
-  "country": "France"
- },
- {
-  "short": "Court métrage de Clermont",
-  "region": "Auvergne-Rhône-Alpes",
-  "venue": "Clermont-Ferrand",
-  "maps_q": "Clermont-Ferrand Clermont-Ferrand",
-  "genres": [
-   "Cinéma",
-   "Court métrage"
-  ],
-  "mois": [
-   "janvier",
-   "février"
-  ],
-  "dates": "29 janvier – 6 février 2027",
-  "iso": [
-   "2027-01-29",
-   "2027-02-06"
-  ],
-  "status": "Dates annoncées",
-  "status_note": "Dates 2027 données par le site officiel.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival international dédié au court métrage, à Clermont-Ferrand. 49e édition en 2027.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.lecourt-clermont.org/",
-  "sources": [
-   [
-    "Site officiel",
-    "https://www.lecourt-clermont.org/"
-   ],
-   [
-    "Facebook officiel",
-    "https://www.facebook.com/LeCourtClermont/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-du-court-metrage-de-clermont-ferrand",
-  "name": "Festival du court métrage de Clermont-Ferrand",
-  "city": "Clermont-Ferrand",
-  "country": "France"
- },
- {
-  "short": "Premiers Plans d'Angers",
-  "region": "Pays de la Loire",
-  "venue": "Angers",
-  "maps_q": "Angers Angers",
-  "genres": [
-   "Cinéma"
-  ],
-  "mois": [
-   "janvier"
-  ],
-  "dates": "23 – 31 janvier 2027",
-  "iso": [
-   "2027-01-23",
-   "2027-01-31"
-  ],
-  "status": "Dates annoncées",
-  "status_note": "Dates 2027 données par le site officiel.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival consacré aux premiers films et aux nouveaux talents du cinéma européen, à Angers. 39e édition en 2027.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.premiersplans.org/en",
-  "sources": [
-   [
-    "Site officiel",
-    "https://www.premiersplans.org/en"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "premiers-plans-angers",
-  "name": "Festival Premiers Plans d'Angers",
-  "city": "Angers",
-  "country": "France"
- },
- {
-  "short": "",
-  "region": "Auvergne-Rhône-Alpes",
-  "venue": "Lyon",
-  "maps_q": "Lyon Lyon",
-  "genres": [
-   "Littérature",
-   "Polar"
-  ],
-  "mois": [
-   "avril"
-  ],
-  "dates": "2 – 4 avril 2027",
-  "iso": [
-   "2027-04-02",
-   "2027-04-04"
-  ],
-  "status": "Dates annoncées",
-  "status_note": "Dates 2027 données par le site officiel ; programme complet attendu en mars 2027.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival du roman policier à Lyon, chaque printemps. 23e édition en 2027.",
-  "access": [],
-  "tips": [],
-  "official": "https://quaisdupolar.com/en/next-edition/",
-  "sources": [
-   [
-    "Site officiel",
-    "https://quaisdupolar.com/en/next-edition/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "quais-du-polar",
-  "name": "Quais du Polar",
-  "city": "Lyon",
-  "country": "France"
- },
- {
-  "short": "",
-  "region": "Bretagne",
-  "venue": "Saint-Malo",
-  "maps_q": "Saint-Malo Saint-Malo",
-  "genres": [
-   "Littérature",
-   "Cinéma"
-  ],
-  "mois": [
-   "mai"
-  ],
-  "dates": "15 – 17 mai 2027",
-  "iso": [
-   "2027-05-15",
-   "2027-05-17"
-  ],
-  "status": "Dates annoncées",
-  "status_note": "Dates 2027 données par le site officiel.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival international du livre et du film à Saint-Malo. 37e édition en 2027.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.etonnants-voyageurs.com/",
-  "sources": [
-   [
-    "Site officiel",
-    "https://www.etonnants-voyageurs.com/MERCI-30379.html"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "etonnants-voyageurs",
-  "name": "Étonnants Voyageurs",
-  "city": "Saint-Malo",
   "country": "France"
  },
  {
@@ -7200,94 +6564,6 @@
   "country": "France"
  },
  {
-  "short": "Film francophone d'Angoulême",
-  "region": "Nouvelle-Aquitaine",
-  "venue": "Angoulême",
-  "maps_q": "Angoulême Angoulême",
-  "genres": [
-   "Cinéma"
-  ],
-  "mois": [
-   "août"
-  ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 24 au 29 août ; l'édition 2027 n'est pas encore annoncée.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival de cinéma francophone à Angoulême, chaque fin d'été.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.angouleme-tourisme.com/en/agenda/les-festivals/festival-du-film-francophone/",
-  "sources": [
-   [
-    "Office de tourisme d'Angoulême",
-    "https://www.angouleme-tourisme.com/en/agenda/les-festivals/festival-du-film-francophone/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-du-film-francophone-d-angouleme",
-  "name": "Festival du film francophone d'Angoulême",
-  "city": "Angoulême",
-  "country": "France"
- },
- {
-  "short": "",
-  "region": "Normandie",
-  "venue": "Cabourg",
-  "maps_q": "Cabourg Cabourg",
-  "genres": [
-   "Cinéma",
-   "Cinéma romantique"
-  ],
-  "mois": [
-   "juin"
-  ],
-  "dates": "9 – 13 juin 2027",
-  "iso": [
-   "2027-06-09",
-   "2027-06-13"
-  ],
-  "status": "Dates annoncées",
-  "status_note": "Dates 2027 relevées chez l'office de tourisme Normandie-Cabourg Pays d'Auge.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival de cinéma consacré aux Journées romantiques, à Cabourg, dans le Calvados.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.festival-cabourg.com/",
-  "sources": [
-   [
-    "Site officiel",
-    "https://www.festival-cabourg.com/"
-   ],
-   [
-    "Office de tourisme",
-    "https://www.normandie-cabourg-paysdauge-tourisme.fr/en/temps-fort/festival-du-film-romantique-de-cabourg/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-du-film-romantique-de-cabourg",
-  "name": "Festival du film de Cabourg",
-  "city": "Cabourg",
-  "country": "France"
- },
- {
   "short": "",
   "region": "Île-de-France",
   "venue": "Paris",
@@ -7868,46 +7144,6 @@
   "country": "Belgique"
  },
  {
-  "short": "",
-  "region": "Nouvelle-Aquitaine",
-  "venue": "Cinéma Rex, Sarlat",
-  "maps_q": "Cinéma Rex, Sarlat Sarlat-la-Canéda",
-  "genres": [
-   "Cinéma"
-  ],
-  "mois": [
-   "novembre"
-  ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : un agenda culturel annonce novembre 2027 sans dates précises.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival de cinéma à Sarlat-la-Canéda, chaque début novembre.",
-  "access": [],
-  "tips": [],
-  "official": "https://www.lascaux-dordogne.com/en/agenda/festival-du-film-de-sarlat/",
-  "sources": [
-   [
-    "Office de tourisme (Lascaux Dordogne)",
-    "https://www.lascaux-dordogne.com/en/agenda/festival-du-film-de-sarlat/"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "festival-du-film-de-sarlat",
-  "name": "Festival du film de Sarlat",
-  "city": "Sarlat-la-Canéda",
-  "country": "France"
- },
- {
   "short": "Nuits de la Guitare",
   "region": "Corse",
   "venue": "Patrimonio, Haute-Corse",
@@ -7948,5 +7184,1246 @@
   "name": "Nuits de la Guitare de Patrimonio",
   "city": "Patrimonio",
   "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Vertheuil, Médoc",
+  "maps_q": "Vertheuil, Médoc Vertheuil",
+  "genres": [
+   "Reggae"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : un guide non officiel annonce la 30e édition en 2027, sans dates précises. Le site officiel n'a pas été retrouvé.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de reggae dans le Médoc, en Gironde.",
+  "access": [],
+  "tips": [],
+  "official": "https://events.europa.tips/reggae-sun-ska?lang=en",
+  "sources": [
+   [
+    "Guide (non officiel)",
+    "https://events.europa.tips/reggae-sun-ska?lang=en"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "reggae-sun-ska",
+  "name": "Reggae Sun Ska",
+  "city": "Vertheuil",
+  "country": "France"
+ },
+ {
+  "short": "MaMA Festival",
+  "region": "Île-de-France",
+  "venue": "Pigalle, Paris",
+  "maps_q": "Pigalle, Paris Paris",
+  "genres": [
+   "Musiques actuelles",
+   "Convention professionnelle"
+  ],
+  "mois": [
+   "octobre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 a eu lieu du 14 au 16 octobre.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de découvertes et convention professionnelle dans le quartier de Pigalle, avec environ 300 concerts.",
+  "access": [],
+  "tips": [],
+  "official": "https://mama-musicandconvention.com/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://mama-musicandconvention.com/en/"
+   ],
+   [
+    "Paris Je t'aime",
+    "https://parisjetaime.com/eng/event/mama-festival-e170"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "mama-festival",
+  "name": "MaMA Music & Convention",
+  "city": "Paris",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Bretagne",
+  "venue": "Rennes",
+  "maps_q": "Rennes Rennes",
+  "genres": [
+   "Arts de la rue",
+   "Spectacle vivant"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : un agenda de billetterie non officiel annonce du 30 juin au 3 juillet 2027.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival pluridisciplinaire dans les rues de Rennes.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.lestombeesdelanuit.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.lestombeesdelanuit.com/"
+   ],
+   [
+    "Billetterie Bandsintown (non officiel)",
+    "https://www.bandsintown.com/f/226445-les-tombees-de-la-nuit-2027"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "les-tombees-de-la-nuit",
+  "name": "Les Tombées de la Nuit",
+  "city": "Rennes",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Citadelle de Sisteron",
+  "maps_q": "Citadelle de Sisteron Sisteron",
+  "genres": [
+   "Spectacle vivant",
+   "Musique"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'agenda culturel du département annonce juillet et août 2027.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival d'été dans la citadelle de Sisteron, dans les Alpes-de-Haute-Provence.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.nuitsdelacitadelle.fr/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.nuitsdelacitadelle.fr/"
+   ],
+   [
+    "Agenda culturel 04",
+    "https://04.agendaculturel.fr/theatre-de-la-citadelle-sisteron"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "nuits-de-la-citadelle",
+  "name": "Nuits de la Citadelle",
+  "city": "Sisteron",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Grand Est",
+  "venue": "Strasbourg",
+  "maps_q": "Strasbourg Strasbourg",
+  "genres": [
+   "Jazz"
+  ],
+  "mois": [],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : le festival existe depuis plus de 35 ans ; la période de l'édition 2027 n'a pas été relevée.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de jazz de Strasbourg, avec une édition sœur à Berlin.",
+  "access": [],
+  "tips": [],
+  "official": "https://jazzdor.com/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://jazzdor.com/en/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "jazzdor",
+  "name": "Jazzdor Strasbourg-Berlin",
+  "city": "Strasbourg",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Angoulême",
+  "maps_q": "Angoulême Angoulême",
+  "genres": [
+   "Musiques du monde"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'office de tourisme annonce la prochaine édition en juin 2027, sans programme ni jours précis.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de musiques du monde à Angoulême.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.angouleme-tourisme.com/en/agenda/les-festivals/musiques-metisses/",
+  "sources": [
+   [
+    "Office de tourisme d'Angoulême",
+    "https://www.angouleme-tourisme.com/en/agenda/les-festivals/musiques-metisses/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "musiques-metisses",
+  "name": "Musiques Métisses",
+  "city": "Angoulême",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Vence, Alpes-Maritimes",
+  "maps_q": "Vence, Alpes-Maritimes Vence",
+  "genres": [
+   "Musiques du monde"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : la 30e édition est annoncée pour 2027, sans jours précis.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de musiques du monde, chaque juillet à Vence. 30e édition en 2027.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.nuitsdusud.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.nuitsdusud.com/"
+   ],
+   [
+    "Riviera Loisirs",
+    "https://www.rivieraloisirs.com/en/events/festival-nuits-du-sud-la-parenthese/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "nuits-du-sud",
+  "name": "Nuits du Sud",
+  "city": "Vence",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Île-de-France",
+  "venue": "Saint-Germain-des-Prés, Paris",
+  "maps_q": "Saint-Germain-des-Prés, Paris Paris",
+  "genres": [
+   "Jazz"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : le festival se tient chaque année en mai.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de jazz dans les lieux mythiques de Saint-Germain-des-Prés, chaque mois de mai.",
+  "access": [],
+  "tips": [],
+  "official": "https://festivaljazzsaintgermainparis.com/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://festivaljazzsaintgermainparis.com/en/"
+   ],
+   [
+    "Paris Je t'aime",
+    "https://parisjetaime.com/evenement/festival-jazz-a-saint-germain-des-pres-e058"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "jazz-a-saint-germain-des-pres",
+  "name": "Jazz à Saint-Germain-des-Prés",
+  "city": "Paris",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Île-de-France",
+  "venue": "Parc floral de Paris",
+  "maps_q": "Parc floral de Paris Paris",
+  "genres": [
+   "Jazz"
+  ],
+  "mois": [],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : aucune date 2027 relevée.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de jazz dans le cadre verdoyant du Parc floral de Paris.",
+  "access": [],
+  "tips": [],
+  "official": "https://festivalsduparcfloral.paris/programmation/paris-jazz-festival/",
+  "sources": [
+   [
+    "Festivals du Parc floral",
+    "https://festivalsduparcfloral.paris/programmation/paris-jazz-festival/"
+   ],
+   [
+    "Paris Je t'aime",
+    "https://parisjetaime.com/eng/event/paris-jazz-festival-e032"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "paris-jazz-festival",
+  "name": "Paris Jazz Festival",
+  "city": "Paris",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Théâtre antique d'Orange",
+  "maps_q": "Théâtre antique d'Orange Orange",
+  "genres": [
+   "Électro"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 s'est tenue du 14 au 16 août.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de musique électronique dans le Théâtre antique d'Orange.",
+  "access": [],
+  "tips": [],
+  "official": "https://positivfestival.fr/",
+  "sources": [
+   [
+    "Billetterie officielle",
+    "https://positivfestival.fr/billetterie-pef/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "positiv-festival",
+  "name": "Positiv Festival",
+  "city": "Orange",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Abbatiale Saint-Robert, La Chaise-Dieu",
+  "maps_q": "Abbatiale Saint-Robert, La Chaise-Dieu La Chaise-Dieu",
+  "genres": [
+   "Musique classique",
+   "Musique sacrée"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "17 – 29 août 2027",
+  "iso": [
+   "2027-08-17",
+   "2027-08-29"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates de la 61e édition relevées chez Haute-Loire Tourisme (17 au 29 août 2027). Le site du festival n'affichait pas encore ces dates dans l'extrait relevé.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de musique classique et sacrée dans l'abbatiale de La Chaise-Dieu, en Haute-Loire. 61e édition en 2027.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.chaise-dieu.com/en/",
+  "sources": [
+   [
+    "Tourisme Haute-Loire",
+    "https://www.myhauteloire.fr/en/party-diary/god-chair-music-festival/"
+   ],
+   [
+    "Site du festival",
+    "https://www.chaise-dieu.com/en/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "festival-de-la-chaise-dieu",
+  "name": "Festival de La Chaise-Dieu",
+  "city": "La Chaise-Dieu",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Grand Est",
+  "venue": "Colmar",
+  "maps_q": "Colmar Colmar",
+  "genres": [
+   "Musique classique"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 a débuté le 5 juillet.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de musique classique à Colmar, chaque début juillet.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.festival-colmar.com/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festival-colmar.com/en/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "festival-international-de-colmar",
+  "name": "Festival international de Colmar",
+  "city": "Colmar",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Île-de-France",
+  "venue": "Auvers-sur-Oise, Val-d'Oise",
+  "maps_q": "Auvers-sur-Oise, Val-d'Oise Auvers-sur-Oise",
+  "genres": [
+   "Musique classique"
+  ],
+  "mois": [],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 s'est étalée du 12 mars au 11 septembre.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de musique classique à Auvers-sur-Oise, près de Paris. 45e édition en 2026.",
+  "access": [],
+  "tips": [],
+  "official": "https://festival-auvers.com/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://festival-auvers.com/en/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "festival-d-auvers-sur-oise",
+  "name": "Festival d'Auvers-sur-Oise",
+  "city": "Auvers-sur-Oise",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Occitanie",
+  "venue": "Saint-Céré, Lot",
+  "maps_q": "Saint-Céré, Lot Saint-Céré",
+  "genres": [
+   "Opéra",
+   "Musique classique"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'office de tourisme annonce « fin juillet à début août 2027 », programme en cours.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival d'arts lyriques et d'opéra à Saint-Céré, dans le Lot.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.vallee-dordogne.com/agenda/festivals/festival-dopera-de-saint-cere",
+  "sources": [
+   [
+    "Vallée de la Dordogne tourisme",
+    "https://www.vallee-dordogne.com/agenda/festivals/festival-dopera-de-saint-cere"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "festival-de-saint-cere",
+  "name": "Festival de Saint-Céré",
+  "city": "Saint-Céré",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Wallonie",
+  "venue": "Centre de Namur",
+  "maps_q": "Centre de Namur Namur",
+  "genres": [
+   "Fête populaire",
+   "Traditions"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : VISITWallonia annonce septembre 2027 ; un agenda de billetterie cite d'autres dates : les sources se contredisent.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Fêtes populaires de Namur, en septembre.",
+  "access": [],
+  "tips": [],
+  "official": "https://visitwallonia.com/en-gb/content/les-fetes-de-wallonie-celebrations-namur",
+  "sources": [
+   [
+    "VISITWallonia",
+    "https://visitwallonia.com/en-gb/content/les-fetes-de-wallonie-celebrations-namur"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "fetes-de-wallonie",
+  "name": "Fêtes de Wallonie",
+  "city": "Namur",
+  "country": "Belgique"
+ },
+ {
+  "short": "Festival de Flandre Gand",
+  "region": "Flandre",
+  "venue": "Gand",
+  "maps_q": "Gand Gand",
+  "genres": [
+   "Musique classique",
+   "Spectacle vivant"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 a commencé le 10 septembre ; 2027 n'est pas annoncée.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de musique classique et de spectacle vivant à Gand.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.gentfestival.be/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.gentfestival.be/en/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "festival-van-vlaanderen-gent",
+  "name": "Festival van Vlaanderen Gand",
+  "city": "Gand",
+  "country": "Belgique"
+ },
+ {
+  "short": "",
+  "region": "Bretagne",
+  "venue": "Saint-Malo",
+  "maps_q": "Saint-Malo Saint-Malo",
+  "genres": [
+   "Bande dessinée"
+  ],
+  "mois": [
+   "octobre"
+  ],
+  "dates": "29 – 31 octobre 2027",
+  "iso": [
+   "2027-10-29",
+   "2027-10-31"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 données par le site officiel : 29, 30 et 31 octobre.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de bande dessinée et d'illustration créé en 1981, à Saint-Malo.",
+  "access": [],
+  "tips": [],
+  "official": "http://festival.quaidesbulles.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "http://festival.quaidesbulles.com/"
+   ],
+   [
+    "Office de tourisme de Saint-Malo",
+    "https://www.saint-malo-tourisme.com/vivre-comme-chez-nous/grands-evenements/quai-des-bulles/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "quai-des-bulles",
+  "name": "Quai des Bulles",
+  "city": "Saint-Malo",
+  "country": "France"
+ },
+ {
+  "short": "Journées du patrimoine",
+  "region": "National",
+  "venue": "Monuments et sites partout en France",
+  "maps_q": "Monuments et sites partout en France Toute la France",
+  "genres": [
+   "Patrimoine",
+   "Visites"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "18 – 19 septembre 2027",
+  "iso": [
+   "2027-09-18",
+   "2027-09-19"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates de la 44e édition données par le ministère de la Culture : samedi 18 et dimanche 19 septembre 2027.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Ouverture gratuite de monuments et de sites historiques dans toute la France. 44e édition en 2027.",
+  "access": [],
+  "tips": [],
+  "official": "https://journeesdupatrimoine.culture.gouv.fr/",
+  "sources": [
+   [
+    "Ministère de la Culture",
+    "https://journeesdupatrimoine.culture.gouv.fr/espace-organisateurs"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "journees-europeennes-du-patrimoine",
+  "name": "Journées européennes du patrimoine",
+  "city": "Toute la France",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Bretagne",
+  "venue": "Rues et jardins de La Gacilly, Morbihan",
+  "maps_q": "Rues et jardins de La Gacilly, Morbihan La Gacilly",
+  "genres": [
+   "Photographie",
+   "Expositions"
+  ],
+  "mois": [],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : aucune date 2027 relevée en Bretagne ; l'édition jumelle autrichienne est annoncée en 2027.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de photographie en plein air dans le village de La Gacilly.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.festivalphoto-lagacilly.com/en/la-gacilly-photo-festival",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festivalphoto-lagacilly.com/en/la-gacilly-photo-festival"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "festival-photo-la-gacilly",
+  "name": "Festival Photo La Gacilly",
+  "city": "La Gacilly",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Île-de-France",
+  "venue": "Grand Palais, Paris",
+  "maps_q": "Grand Palais, Paris Paris",
+  "genres": [
+   "Photographie",
+   "Foire d'art"
+  ],
+  "mois": [
+   "novembre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : la 29e édition s'est tenue du 12 au 15 novembre 2026.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Foire internationale de la photographie au Grand Palais.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.parisphoto.com/en-gb.html",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.parisphoto.com/en-gb/info/next-edition.html"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "paris-photo",
+  "name": "Paris Photo",
+  "city": "Paris",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Île-de-France",
+  "venue": "14 lieux d'Île-de-France",
+  "maps_q": "14 lieux d'Île-de-France Val-de-Marne",
+  "genres": [
+   "Jazz",
+   "Électro",
+   "Musiques actuelles"
+  ],
+  "mois": [
+   "janvier",
+   "février"
+  ],
+  "dates": "15 janvier – 6 février 2027",
+  "iso": [
+   "2027-01-15",
+   "2027-02-06"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 relevées chez l'office de tourisme de Paris (14 lieux en Île-de-France).",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de jazz et de musiques actuelles dans le Val-de-Marne et en Île-de-France.",
+  "access": [],
+  "tips": [],
+  "official": "https://parisjetaime.com/eng/event/sons-d-hiver-festival-e1286",
+  "sources": [
+   [
+    "Paris Je t'aime",
+    "https://parisjetaime.com/eng/event/sons-d-hiver-festival-e1286"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "sons-d-hiver",
+  "name": "Sons d'Hiver",
+  "city": "Val-de-Marne",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Occitanie",
+  "venue": "Domaine d'O, Montpellier",
+  "maps_q": "Domaine d'O, Montpellier Montpellier",
+  "genres": [
+   "Théâtre",
+   "Danse"
+  ],
+  "mois": [
+   "mai",
+   "juin"
+  ],
+  "dates": "29 mai – 20 juin 2027",
+  "iso": [
+   "2027-05-29",
+   "2027-06-20"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 données par l'office de tourisme de Montpellier.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Festival de théâtre et de spectacle vivant au Domaine d'O, à Montpellier.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.montpellier-tourisme.fr/decouvrir/festive/les-evenements-incontournables-a-montpellier/le-printemps-des-comediens/",
+  "sources": [
+   [
+    "Office de tourisme de Montpellier",
+    "https://www.montpellier-tourisme.fr/decouvrir/festive/les-evenements-incontournables-a-montpellier/le-printemps-des-comediens/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "printemps-des-comediens",
+  "name": "Printemps des Comédiens",
+  "city": "Montpellier",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Wallonie",
+  "venue": "Centre de Binche",
+  "maps_q": "Centre de Binche Binche",
+  "genres": [
+   "Carnaval",
+   "Traditions"
+  ],
+  "mois": [
+   "février"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : des guides non officiels annoncent du 7 au 9 février 2027.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Carnaval traditionnel de Binche, avec ses Gilles, classé au patrimoine immatériel de l'Unesco.",
+  "access": [],
+  "tips": [],
+  "official": "https://carnivalvibez.com/binche-carnival/",
+  "sources": [
+   [
+    "Guide (non officiel)",
+    "https://carnivalvibez.com/binche-carnival/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "carnaval-de-binche",
+  "name": "Carnaval de Binche",
+  "city": "Binche",
+  "country": "Belgique"
+ },
+ {
+  "short": "",
+  "region": "Flandre",
+  "venue": "Centre d'Alost",
+  "maps_q": "Centre d'Alost Alost",
+  "genres": [
+   "Carnaval",
+   "Traditions"
+  ],
+  "mois": [
+   "février"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : des guides non officiels annoncent du 7 au 9 février 2027.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Carnaval d'Alost (Aalst), l'un des plus anciens et des plus singuliers d'Europe.",
+  "access": [],
+  "tips": [],
+  "official": "https://events.europa.tips/aalst-carnaval?lang=en",
+  "sources": [
+   [
+    "Guide (non officiel)",
+    "https://events.europa.tips/aalst-carnaval?lang=en"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "carnaval-d-alost",
+  "name": "Carnaval d'Alost",
+  "city": "Alost",
+  "country": "Belgique"
+ },
+ {
+  "short": "Carnaval de Malmedy",
+  "region": "Wallonie",
+  "venue": "Centre de Malmedy",
+  "maps_q": "Centre de Malmedy Malmedy",
+  "genres": [
+   "Carnaval",
+   "Traditions"
+  ],
+  "mois": [
+   "février"
+  ],
+  "dates": "6 – 9 février 2027",
+  "iso": [
+   "2027-02-06",
+   "2027-02-09"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 relevées chez VISITWallonia (du samedi 6 au mardi 9 février).",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Carnaval traditionnel de Malmedy, en Wallonie.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.malmedy.be/",
+  "sources": [
+   [
+    "VISITWallonia",
+    "https://visitwallonia.com/en-gb/content/cwarme-malmedys-carnival"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "carnaval-de-malmedy",
+  "name": "Carnaval de Malmedy (Cwarmê)",
+  "city": "Malmedy",
+  "country": "Belgique"
+ },
+ {
+  "short": "",
+  "region": "Bretagne",
+  "venue": "Centre historique de Dinan",
+  "maps_q": "Centre historique de Dinan Dinan",
+  "genres": [
+   "Fête médiévale",
+   "Traditions"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : Tourisme Bretagne annonce juillet 2027 ; un agenda non officiel cite les 24 et 25 juillet.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Fête médiévale qui investit Dinan un week-end tous les deux ans. 26e édition en 2027.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.brittanytourism.com/matching-what-i-want/culture-and-heritage/brittanys-main-events/fete-des-remparts-ramparts-festival/",
+  "sources": [
+   [
+    "Tourisme Bretagne",
+    "https://www.brittanytourism.com/matching-what-i-want/culture-and-heritage/brittanys-main-events/fete-des-remparts-ramparts-festival/"
+   ],
+   [
+    "Agenda (non officiel)",
+    "https://www.jds.fr/dinan/manifestations/fetes/fete-des-remparts-de-dinan-264183_A"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "fete-des-remparts-de-dinan",
+  "name": "Fête des Remparts",
+  "city": "Dinan",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Île-de-France",
+  "venue": "Cité médiévale de Provins",
+  "maps_q": "Cité médiévale de Provins Provins",
+  "genres": [
+   "Fête médiévale",
+   "Traditions"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "29 – 30 mai 2027",
+  "iso": [
+   "2027-05-29",
+   "2027-05-30"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 données par l'office de tourisme et la page Facebook officielle.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Fête médiévale dans la cité classée à l'Unesco. 42e édition en 2027.",
+  "access": [],
+  "tips": [],
+  "official": "https://provins.net/en/provins-the-medieval-festival/",
+  "sources": [
+   [
+    "Office de tourisme de Provins",
+    "https://provins.net/en/provins-the-medieval-festival/"
+   ],
+   [
+    "Facebook officiel",
+    "https://www.facebook.com/Les.Medievales.de.Provins/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "medievales-de-provins",
+  "name": "Médiévales de Provins",
+  "city": "Provins",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Corse",
+  "venue": "Centre d'Ajaccio",
+  "maps_q": "Centre d'Ajaccio Ajaccio",
+  "genres": [
+   "Fête historique",
+   "Traditions"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'office de tourisme indique une tenue chaque année du 12 au 15 août ; 2027 n'est pas encore annoncée.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Fêtes historiques à Ajaccio, la ville natale de Napoléon.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.ajaccio-tourisme.com/en/napoleonic-days/",
+  "sources": [
+   [
+    "Office de tourisme d'Ajaccio",
+    "https://www.ajaccio-tourisme.com/en/napoleonic-days/"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "journees-napoleoniennes-ajaccio",
+  "name": "Journées napoléoniennes",
+  "city": "Ajaccio",
+  "country": "France"
+ },
+ {
+  "short": "",
+  "region": "Bruxelles",
+  "venue": "Grand-Place, Bruxelles",
+  "maps_q": "Grand-Place, Bruxelles Bruxelles",
+  "genres": [
+   "Fête historique",
+   "Traditions"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 s'est tenue les 1er et 3 juillet.",
+  "price_from": null,
+  "price_label": "Voir la billetterie officielle",
+  "prices": [],
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "",
+  "about": "Cortège historique sur la Grand-Place de Bruxelles.",
+  "access": [],
+  "tips": [],
+  "official": "https://ommegang.be/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://ommegang.be/en/"
+   ],
+   [
+    "Ville de Bruxelles",
+    "https://www.brussels.be/ommegang"
+   ]
+  ],
+  "visiteurs": null,
+  "visiteurs_note": "",
+  "slug": "ommegang-de-bruxelles",
+  "name": "Ommegang de Bruxelles",
+  "city": "Bruxelles",
+  "country": "Belgique"
  }
 ]
