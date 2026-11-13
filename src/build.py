@@ -570,33 +570,70 @@ JS = r'''
 '''
 
 def crowd_svg():
-    """Foule de silhouettes les bras levés (dessin original, généré de façon déterministe)."""
-    import random
-    r = random.Random(11)
-    W, H = 2400, 170
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" preserveAspectRatio="xMidYMax slice">']
+    """Foule de silhouettes (dessin original, généré de façon déterministe).
+    Chaque personne = corps + pose (bras épais, coudes pliés, mains) + coiffure, sur trois plans."""
+    import math, random
+    r = random.Random(23)
+    W, H = 2400, 190
+    S = (-17, -52), (17, -52)  # épaules (gauche, droite) dans le repère d'une personne
 
-    def layer(fill, alpha, n, hr, top, bottom, arms, phones):
-        g = [f'<g fill="{fill}" stroke="{fill}" opacity="{alpha}" stroke-linecap="round">']
+    def arm(s, e, h, w1=9.2, w2=7.4):
+        ang = math.degrees(math.atan2(h[1] - e[1], h[0] - e[0])) + 90
+        return (f'<path d="M{s[0]} {s[1]}L{e[0]} {e[1]}" fill="none" stroke-width="{w1}"/>'
+                f'<path d="M{e[0]} {e[1]}L{h[0]} {h[1]}" fill="none" stroke-width="{w2}"/>'
+                f'<ellipse cx="{h[0]}" cy="{h[1]}" rx="4.5" ry="5.8" transform="rotate({ang:.0f} {h[0]} {h[1]})" stroke="none"/>')
+
+    poses = {  # (coude, main) gauche puis droite
+        "v": ((-27, -72, -32, -98), (27, -72, 32, -98)),
+        "w": ((-36, -64, -30, -93), (36, -64, 30, -93)),
+        "r": ((-27, -33, -17, -26), (28, -73, 30, -100)),
+        "c": ((-26, -80, -3, -105), (26, -80, 3, -105)),
+        "l": ((-31, -38, -30, -17), (31, -38, 30, -17)),
+        "f": ((-30, -44, -27, -70), (31, -62, 26, -88)),
+        "o": ((-35, -57, -52, -66), (35, -57, 52, -66)),
+        "p": ((-26, -34, -17, -27), (27, -72, 26, -98)),
+    }
+    weights = {"v": 18, "w": 17, "r": 13, "c": 2, "l": 10, "f": 11, "o": 6, "p": 8}
+    defs = ['<path id="bd" d="M-25 110L-24.5 -34Q-23 -50 -12 -57L-5.5 -60L-6 -67L6 -67L5.5 -60L12 -57Q23 -50 24.5 -34L25 110Z"/>']
+    for k, (la, ra) in poses.items():
+        g = arm(S[0], la[:2], la[2:]) + arm(S[1], ra[:2], ra[2:])
+        defs.append(f'<g id="p{k}">{g}</g>')
+    heads = {
+        "h": '<ellipse rx="10" ry="12"/>',
+        "s": '<ellipse rx="11.4" ry="13.2" cy="-1"/>',
+        "l": '<ellipse rx="10" ry="12"/><path d="M-11 -5Q-12.5 -15 0 -15Q12.5 -15 11 -5L15.5 24Q8 29 0 21Q-8 29 -15.5 24Z"/>',
+        "q": '<ellipse rx="10" ry="12"/><path d="M7 -9Q23 -8 21 8Q19 18 14 13Q18 4 8 -1Z"/>',
+        "b": '<ellipse rx="10" ry="12"/><circle cy="-17" r="6"/>',
+        "c": '<ellipse rx="10" ry="12"/><path d="M-11 -3Q-11 -16 0 -16Q11 -16 11 -3Z"/><path d="M5 -6L21 -3L21 1L5 0Z"/>',
+        "a": '<circle cy="-3" r="16"/>',
+        "n": '<ellipse rx="10.5" ry="12.5"/><path d="M-11 -4Q-11.5 -17 0 -17Q11.5 -17 11 -4Z"/><circle cy="-19" r="3.4"/>',
+    }
+    hw = "hhhsslqbcana"
+    for k, v in heads.items():
+        defs.append(f'<g id="h{k}">{v}</g>')
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" preserveAspectRatio="xMidYMax slice">',
+           '<defs>' + "".join(defs) + '</defs>']
+
+    def layer(color, alpha, n, sc, base, phones):
+        g = [f'<g fill="{color}" stroke="{color}" stroke-linecap="round" stroke-linejoin="round" opacity="{alpha}">']
         for i in range(n):
-            x = int((i + 0.5) * W / n + r.randint(-14, 14))
-            rr = r.randint(hr[0], hr[1])
-            hy = r.randint(top, bottom)
-            g.append(f'<circle cx="{x}" cy="{hy}" r="{rr}" stroke="none"/>')
-            g.append(f'<ellipse cx="{x}" cy="{hy + rr + 26}" rx="{rr + 9}" ry="30" stroke="none"/>')
-            k = r.random()
-            if k < arms:
-                for s in (-1, 1) if r.random() < .7 else (r.choice((-1, 1)),):
-                    ex, ey = x + s * r.randint(16, 34), hy - r.randint(22, 52)
-                    g.append(f'<path d="M{x + s * (rr + 3)} {hy + rr + 14}L{ex} {ey}" fill="none" stroke-width="{max(5, rr // 2)}"/>')
-                    if r.random() < phones:
-                        g.append(f'<rect x="{ex - 4}" y="{ey - 11}" width="8" height="13" rx="2" fill="#fde68a" stroke="none"/>')
+            x = (i + 0.5) * W / n + r.uniform(-16, 16)
+            s = r.uniform(*sc)
+            y = base + r.uniform(-9, 9) - (r.uniform(8, 16) if r.random() < .12 else 0)
+            pk = r.choices(list(weights), list(weights.values()))[0]
+            flip = -1 if r.random() < .5 else 1
+            g.append(f'<g transform="translate({x:.0f} {y:.0f}) scale({flip * s:.2f} {s:.2f}) rotate({r.uniform(-7, 7):.1f})">'
+                     f'<use href="#bd"/><use href="#p{pk}"/>'
+                     f'<use href="#h{r.choice(hw)}" transform="translate(0 -78) rotate({r.uniform(-12, 12):.0f})"/>')
+            if pk == "p" and r.random() < phones:
+                g.append('<rect x="20.5" y="-116" width="11" height="17" rx="2.2" fill="#ffeab0" stroke="none"/>')
+            g.append('</g>')
         g.append('</g>')
         return "".join(g)
 
-    out.append(layer("#a24560", .42, 78, (9, 11), 78, 108, .45, 0))
-    out.append(layer("#6a2238", .8, 52, (13, 16), 108, 130, .5, .18))
-    out.append(f'<rect y="{H - 28}" width="{W}" height="28" fill="#6a2238"/>')
+    out.append(layer("#a24560", .42, 74, (.70, .84), H - 74, 0))
+    out.append(layer("#86304a", .62, 62, (.86, 1.0), H - 42, .0))
+    out.append(layer("#5c1c31", .86, 54, (1.04, 1.2), H - 6, .22))
     out.append('</svg>')
     return "".join(out)
 

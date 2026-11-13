@@ -49,7 +49,7 @@ Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une val
 
 ## Identité visuelle
 
-Palette « coucher de soleil de scène » : rose-rouge adouci `#a8274a` / `#d93d5f`, orange `#f58a4e`, ambre `#fcc65a`, fond crème `#fff9f4`. Florent a demandé « un peu moins de contraste » : couleurs et foule volontairement douces, mais le texte blanc du bandeau doit rester à au moins 4,4:1 (le dégradé reste rouge sous le texte). Le violet a été retiré à la demande de Florent (trop fort) : ne pas le réintroduire. Le style reste clair (Florent ne voulait pas de noir). Les visuels sont dessinés en code, jamais copiés des festivals.
+Palette « coucher de soleil de scène » : rose-rouge adouci `#a8274a` / `#d93d5f`, orange `#f58a4e`, ambre `#fcc65a`, fond crème `#fff9f4`. Florent a demandé « un peu moins de contraste » : couleurs et foule volontairement douces, mais le texte blanc du bandeau doit rester à au moins 4,4:1 (le dégradé reste rouge sous le texte). Le violet a été retiré à la demande de Florent (trop fort) : ne pas le réintroduire. Le style reste clair (Florent ne voulait pas de noir). Les visuels sont dessinés en code, jamais copiés des festivals. La foule du bandeau (`crowd_svg()`) doit rester faite de vraies silhouettes (corps, cou, épaules, bras épais à coudes pliés, mains, coiffures variées, trois plans) : Florent a refusé une première version en bonshommes bâton qui faisait « IA ».
 
 ## SEO déjà en place
 
