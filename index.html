@@ -3,29 +3,104 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FestiGuide : les gros festivals en France et en Belgique (dates, prix, line-up)</title>
-<meta name="description" content="Dates, lieux, prix, line-up et site officiel des plus gros festivals : We Love Green, Solidays, Les Ardentes, Interceltique de Lorient, Fête de l&#x27;Humanité.">
-<meta property="og:title" content="FestiGuide : les gros festivals en France et en Belgique (dates, prix, line-up)">
-<meta property="og:description" content="Dates, lieux, prix, line-up et site officiel des plus gros festivals : We Love Green, Solidays, Les Ardentes, Interceltique de Lorient, Fête de l&#x27;Humanité.">
+<title>FestiGuide : 38 grands festivals en France (dates, prix, line-up)</title>
+<meta name="description" content="Les 38 plus gros festivals de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Musique, cinéma, théâtre, BD.">
+<link rel="canonical" href="https://lanfus.github.io/festiguide/index.html">
+<meta property="og:title" content="FestiGuide : 38 grands festivals en France (dates, prix, line-up)">
+<meta property="og:description" content="Les 38 plus gros festivals de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Musique, cinéma, théâtre, BD.">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top"><div class="wrap"><a class="brand" href="index.html">🎪 FestiGuide</a><nav><a href="index.html">Tous les festivals</a></nav></div></header>
 <main>
 <section class="hero"><div class="wrap">
-<h1>Les gros festivals, au même endroit</h1>
-<p>Dates, lieux, prix, artistes et plans : tout ce qu'il faut pour préparer sa saison de festivals.</p>
+<h1>Les grands festivals, au même endroit</h1>
+<p>Dates, lieux, prix, artistes et plans : 38 festivals de France et de Belgique, dont 28 aux dates déjà confirmées.</p>
 </div></section>
 <section class="wrap filters" aria-label="Filtres">
-<input id="q" type="search" placeholder="Rechercher un festival ou une ville…" aria-label="Rechercher">
-<select id="mois" aria-label="Mois"><option value="">Tous les mois</option><option>juin</option><option>juillet</option><option>août</option><option>septembre</option></select>
-<select id="pays" aria-label="Pays"><option value="">Tous les pays</option><option>France</option><option>Belgique</option></select>
+<input id="q" type="search" placeholder="Rechercher un festival, une ville, une région…" aria-label="Rechercher">
+<select id="mois" aria-label="Mois"><option value="">Tous les mois</option><option>janvier</option><option>février</option><option>mars</option><option>avril</option><option>mai</option><option>juin</option><option>juillet</option><option>août</option><option>septembre</option><option>décembre</option></select>
+<select id="region" aria-label="Région"><option value="">Toutes les régions</option><option>Auvergne-Rhône-Alpes</option><option>Bourgogne-Franche-Comté</option><option>Bretagne</option><option>Centre-Val de Loire</option><option>Grand Est</option><option>Hauts-de-France</option><option>Île-de-France</option><option>Normandie</option><option>Nouvelle-Aquitaine</option><option>Occitanie</option><option>Pays de la Loire</option><option>Provence-Alpes-Côte d&#x27;Azur</option><option>Wallonie</option></select>
+<select id="genre" aria-label="Genre"><option value="">Tous les genres</option><option>Ambient</option><option>Art lumineux</option><option>Arts vivants</option><option>Bande dessinée</option><option>Batailles de fleurs</option><option>Blues</option><option>Carnaval</option><option>Chanson</option><option>Chanson francophone</option><option>Cinéma</option><option>Cinéma d&#x27;animation</option><option>Cirque</option><option>Cultures urbaines</option><option>Dancehall</option><option>Danse</option><option>Débats</option><option>Défilés</option><option>Drum &amp; bass</option><option>Écoresponsable</option><option>Électro</option><option>Expérimental</option><option>Expositions</option><option>Fest-noz</option><option>Fête populaire</option><option>Folk</option><option>Funk</option><option>Hard music</option><option>Hard rock</option><option>Hip-hop</option><option>House</option><option>Indie</option><option>Installations</option><option>Jazz</option><option>Manga</option><option>Marché professionnel</option><option>Metal</option><option>Musique classique</option><option>Musique contemporaine</option><option>Musiques actuelles</option><option>Musiques bretonnes</option><option>Musiques celtiques</option><option>Musiques du monde</option><option>Musiques extrêmes</option><option>Musiques urbaines</option><option>Opéra</option><option>Performance</option><option>Pluridisciplinaire</option><option>Pop</option><option>Pop-rock</option><option>Rap</option><option>Rock</option><option>Rock indé</option><option>Solidaire</option><option>Soul</option><option>Techno</option><option>Théâtre</option><option>Trance</option></select>
 </section>
 <section class="wrap"><p id="count" class="count"></p>
 <div class="grid" id="grid">
-<article class="card" data-name="We Love Green Paris (Bois de Vincennes)" data-mois="juin" data-pays="France">
-  <div class="card-top"><span class="pill">Juin</span><span class="country">France</span></div>
+<article class="card" data-name="fete des lumieres lyon (rhone) auvergne-rhone-alpes tout lyon : 27 œuvres sur 20 sites (presqu&#x27;ile, fourviere, vieux-lyon, parc de la tete d&#x27;or…)" data-mois="décembre" data-region="Auvergne-Rhône-Alpes" data-genres="Art lumineux|Installations|Fête populaire">
+  <div class="card-top"><span class="pill">Décembre</span><span class="country">Auvergne-Rhône-Alpes</span></div>
+  <h3><a href="fete-des-lumieres-lyon.html">Fête des Lumières</a></h3>
+  <p class="meta">📍 Lyon (Rhône)</p>
+  <p class="meta">📅 5 – 8 décembre 2026 (27e édition) <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Art lumineux</span><span class="tag">Installations</span><span class="tag">Fête populaire</span></p>
+  <p class="price">🎫 Gratuit</p>
+  <a class="btn" href="fete-des-lumieres-lyon.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="angouleme bande dessinee angouleme (charente) nouvelle-aquitaine toute la ville : plateau d&#x27;angouleme (stands editeurs), theatre d&#x27;angouleme, cite internationale de la bande dessinee" data-mois="janvier" data-region="Nouvelle-Aquitaine" data-genres="Bande dessinée|Manga|Expositions">
+  <div class="card-top"><span class="pill">Janvier</span><span class="country">Nouvelle-Aquitaine</span></div>
+  <h3><a href="angouleme-bande-dessinee.html">Angoulême bande dessinée</a></h3>
+  <p class="meta">📍 Angoulême (Charente)</p>
+  <p class="meta">📅 28 – 31 janvier 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Bande dessinée</span><span class="tag">Manga</span><span class="tag">Expositions</span></p>
+  <p class="price">🎫 dès 15 € la journée (tarif réduit 2027)</p>
+  <a class="btn" href="angouleme-bande-dessinee.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="carnaval de nice nice (alpes-maritimes) provence-alpes-cote d&#x27;azur place massena et promenade des anglais ; village du carnaval au square leclerc" data-mois="février" data-region="Provence-Alpes-Côte d&#x27;Azur" data-genres="Carnaval|Défilés|Batailles de fleurs">
+  <div class="card-top"><span class="pill">Février</span><span class="country">Provence-Alpes-Côte d&#x27;Azur</span></div>
+  <h3><a href="carnaval-de-nice.html">Carnaval de Nice</a></h3>
+  <p class="meta">📍 Nice (Alpes-Maritimes)</p>
+  <p class="meta">📅 9 – 28 février 2027 (thème « Vive l&#x27;Amour ») <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Carnaval</span><span class="tag">Défilés</span><span class="tag">Batailles de fleurs</span></p>
+  <p class="price">🎫 dès 7 € (zone piétonne, tarif 2026) ; Village du Carnaval gratuit</p>
+  <a class="btn" href="carnaval-de-nice.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="positive education festival saint-etienne (loire) auvergne-rhone-alpes cite du design, 3 rue javelin pagnon, 42000 saint-etienne" data-mois="mars" data-region="Auvergne-Rhône-Alpes" data-genres="Techno|Électro">
+  <div class="card-top"><span class="pill">Mars</span><span class="country">Auvergne-Rhône-Alpes</span></div>
+  <h3><a href="positive-education-festival.html">Positive Education Festival</a></h3>
+  <p class="meta">📍 Saint-Étienne (Loire)</p>
+  <p class="meta">📅 26 – 27 mars 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Techno</span><span class="tag">Électro</span></p>
+  <p class="price">🎫 35 € (billet de l&#x27;édition reportée)</p>
+  <a class="btn" href="positive-education-festival.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="le printemps de bourges bourges (cher) centre-val de loire le w et une quinzaine de lieux dans bourges" data-mois="avril" data-region="Centre-Val de Loire" data-genres="Chanson|Pop|Rap|Musiques actuelles">
+  <div class="card-top"><span class="pill">Avril</span><span class="country">Centre-Val de Loire</span></div>
+  <h3><a href="printemps-de-bourges.html">Le Printemps de Bourges</a></h3>
+  <p class="meta">📍 Bourges (Cher)</p>
+  <p class="meta">📅 20 – 25 avril 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Chanson</span><span class="tag">Pop</span><span class="tag">Rap</span><span class="tag">Musiques actuelles</span></p>
+  <p class="price">🎫 dès 50 € / soirée (2027)</p>
+  <a class="btn" href="printemps-de-bourges.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="nuits sonores lyon (rhone) auvergne-rhone-alpes les grandes locos (la mulatiere) pour les days ; la sucriere (lyon) pour les nuits" data-mois="mai" data-region="Auvergne-Rhône-Alpes" data-genres="Électro|Techno|House|Expérimental">
+  <div class="card-top"><span class="pill">Mai</span><span class="country">Auvergne-Rhône-Alpes</span></div>
+  <h3><a href="nuits-sonores.html">Nuits sonores</a></h3>
+  <p class="meta">📍 Lyon (Rhône)</p>
+  <p class="meta">📅 5 – 9 mai 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Électro</span><span class="tag">Techno</span><span class="tag">House</span><span class="tag">Expérimental</span></p>
+  <p class="price">🎫 Pass Days 2027 dès 140 € ; soirée dès 36 € (tarif 2026)</p>
+  <a class="btn" href="nuits-sonores.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="festival de cannes cannes (alpes-maritimes) provence-alpes-cote d&#x27;azur palais des festivals et des congres, 1 boulevard de la croisette, 06400 cannes" data-mois="mai" data-region="Provence-Alpes-Côte d&#x27;Azur" data-genres="Cinéma">
+  <div class="card-top"><span class="pill">Mai</span><span class="country">Provence-Alpes-Côte d&#x27;Azur</span></div>
+  <h3><a href="festival-de-cannes.html">Festival de Cannes</a></h3>
+  <p class="meta">📍 Cannes (Alpes-Maritimes)</p>
+  <p class="meta">📅 11 – 22 mai 2027 (80e édition) <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Cinéma</span></p>
+  <p class="price">🎫 Réservé aux accrédités ; Cinéma de la Plage en accès libre</p>
+  <a class="btn" href="festival-de-cannes.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="les papillons de nuit saint-laurent-de-cuves (manche) normandie site du festival, saint-laurent-de-cuves" data-mois="mai" data-region="Normandie" data-genres="Rap|Pop|Techno|Dancehall|Rock">
+  <div class="card-top"><span class="pill">Mai</span><span class="country">Normandie</span></div>
+  <h3><a href="papillons-de-nuit.html">Les Papillons de Nuit</a></h3>
+  <p class="meta">📍 Saint-Laurent-de-Cuves (Manche)</p>
+  <p class="meta">📅 14 – 16 mai 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rap</span><span class="tag">Pop</span><span class="tag">Techno</span><span class="tag">Dancehall</span></p>
+  <p class="price">🎫 dès 54 € / jour (tarif 2026)</p>
+  <a class="btn" href="papillons-de-nuit.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="we love green paris (bois de vincennes) ile-de-france plaine de la belle etoile, bois de vincennes, paris 12e" data-mois="juin" data-region="Île-de-France" data-genres="Pop|Électro|Rap|Écoresponsable">
+  <div class="card-top"><span class="pill">Juin</span><span class="country">Île-de-France</span></div>
   <h3><a href="we-love-green.html">We Love Green</a></h3>
   <p class="meta">📍 Paris (Bois de Vincennes)</p>
   <p class="meta">📅 4 – 6 juin 2027 <span class="badge ok">Dates annoncées</span></p>
@@ -33,17 +108,71 @@
   <p class="price">🎫 dès 84 € / jour (tarif 2026)</p>
   <a class="btn" href="we-love-green.html">Voir la fiche</a>
 </article>
-<article class="card" data-name="Solidays Paris (Hippodrome de Longchamp)" data-mois="juin" data-pays="France">
-  <div class="card-top"><span class="pill">Juin</span><span class="country">France</span></div>
-  <h3><a href="solidays.html">Solidays</a></h3>
-  <p class="meta">📍 Paris (Hippodrome de Longchamp)</p>
-  <p class="meta">📅 Juin 2027 (dates à confirmer) <span class="badge warn">Dates à confirmer</span></p>
-  <p class="tags"><span class="tag">Rap</span><span class="tag">Pop</span><span class="tag">Électro</span><span class="tag">Solidaire</span></p>
-  <p class="price">🎫 dès 59 € / jour (tarif 2026)</p>
-  <a class="btn" href="solidays.html">Voir la fiche</a>
+<article class="card" data-name="marsatac marseille (bouches-du-rhone) provence-alpes-cote d&#x27;azur parc borely, avenue du parc borely, 13008 marseille" data-mois="juin" data-region="Provence-Alpes-Côte d&#x27;Azur" data-genres="Rap|Musiques urbaines|Électro">
+  <div class="card-top"><span class="pill">Juin</span><span class="country">Provence-Alpes-Côte d&#x27;Azur</span></div>
+  <h3><a href="marsatac.html">Marsatac</a></h3>
+  <p class="meta">📍 Marseille (Bouches-du-Rhône)</p>
+  <p class="meta">📅 10 – 13 juin 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rap</span><span class="tag">Musiques urbaines</span><span class="tag">Électro</span></p>
+  <p class="price">🎫 dès 45 € (soirée d&#x27;ouverture, 1re phase 2027)</p>
+  <a class="btn" href="marsatac.html">Voir la fiche</a>
 </article>
-<article class="card" data-name="Les Ardentes Liège (Rocourt)" data-mois="juillet" data-pays="Belgique">
-  <div class="card-top"><span class="pill">Juillet</span><span class="country">Belgique</span></div>
+<article class="card" data-name="festival international du film d&#x27;animation d&#x27;annecy annecy (haute-savoie) auvergne-rhone-alpes bonlieu, cite internationale du cinema d&#x27;animation et salles de la ville ; projections en plein air au paquier" data-mois="juin" data-region="Auvergne-Rhône-Alpes" data-genres="Cinéma d&#x27;animation|Marché professionnel">
+  <div class="card-top"><span class="pill">Juin</span><span class="country">Auvergne-Rhône-Alpes</span></div>
+  <h3><a href="annecy-film-animation.html">Festival international du film d&#x27;animation d&#x27;Annecy</a></h3>
+  <p class="meta">📍 Annecy (Haute-Savoie)</p>
+  <p class="meta">📅 13 – 19 juin 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Cinéma d&#x27;animation</span><span class="tag">Marché professionnel</span></p>
+  <p class="price">🎫 Tarifs non publiés</p>
+  <a class="btn" href="annecy-film-animation.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="festival de nimes nimes (gard) occitanie arenes de nimes, boulevard des arenes, 30000 nimes" data-mois="juin juillet" data-region="Occitanie" data-genres="Rock|Pop|Chanson">
+  <div class="card-top"><span class="pill">Juin / Juillet</span><span class="country">Occitanie</span></div>
+  <h3><a href="festival-de-nimes.html">Festival de Nîmes</a></h3>
+  <p class="meta">📍 Nîmes (Gard)</p>
+  <p class="meta">📅 15 juin – 17 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rock</span><span class="tag">Pop</span><span class="tag">Chanson</span></p>
+  <p class="price">🎫 dès 46 € le concert (tarif plein 2027)</p>
+  <a class="btn" href="festival-de-nimes.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="hellfest clisson (loire-atlantique) pays de la loire hellfest open air, clisson" data-mois="juin" data-region="Pays de la Loire" data-genres="Metal|Hard rock|Musiques extrêmes">
+  <div class="card-top"><span class="pill">Juin</span><span class="country">Pays de la Loire</span></div>
+  <h3><a href="hellfest.html">Hellfest</a></h3>
+  <p class="meta">📍 Clisson (Loire-Atlantique)</p>
+  <p class="meta">📅 17 – 20 juin 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Metal</span><span class="tag">Hard rock</span><span class="tag">Musiques extrêmes</span></p>
+  <p class="price">🎫 389 € le pass 4 jours (2027, épuisé)</p>
+  <a class="btn" href="hellfest.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="garorock marmande (lot-et-garonne) nouvelle-aquitaine plaine de la filhole, marmande" data-mois="juin" data-region="Nouvelle-Aquitaine" data-genres="Rock|Pop|Rap|Électro">
+  <div class="card-top"><span class="pill">Juin</span><span class="country">Nouvelle-Aquitaine</span></div>
+  <h3><a href="garorock.html">Garorock</a></h3>
+  <p class="meta">📍 Marmande (Lot-et-Garonne)</p>
+  <p class="meta">📅 25 – 27 juin 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rock</span><span class="tag">Pop</span><span class="tag">Rap</span><span class="tag">Électro</span></p>
+  <p class="price">🎫 dès 84 € le pass 1 jour (2027)</p>
+  <a class="btn" href="garorock.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="jazz a vienne vienne (isere) auvergne-rhone-alpes theatre antique de vienne, avec le jardin de cybele (scene gratuite) et le club" data-mois="juin juillet" data-region="Auvergne-Rhône-Alpes" data-genres="Jazz|Soul|Funk|Musiques du monde">
+  <div class="card-top"><span class="pill">Juin / Juillet</span><span class="country">Auvergne-Rhône-Alpes</span></div>
+  <h3><a href="jazz-a-vienne.html">Jazz à Vienne</a></h3>
+  <p class="meta">📍 Vienne (Isère)</p>
+  <p class="meta">📅 25 juin – 10 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Jazz</span><span class="tag">Soul</span><span class="tag">Funk</span><span class="tag">Musiques du monde</span></p>
+  <p class="price">🎫 dès 6 € (tarif 2026, selon la soirée)</p>
+  <a class="btn" href="jazz-a-vienne.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="festival beauregard herouville-saint-clair (calvados) normandie chateau de beauregard, 14200 herouville-saint-clair" data-mois="juin juillet" data-region="Normandie" data-genres="Rock|Pop|Rap|Électro">
+  <div class="card-top"><span class="pill">Juin / Juillet</span><span class="country">Normandie</span></div>
+  <h3><a href="festival-beauregard.html">Festival Beauregard</a></h3>
+  <p class="meta">📍 Hérouville-Saint-Clair (Calvados)</p>
+  <p class="meta">📅 30 juin – 4 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rock</span><span class="tag">Pop</span><span class="tag">Rap</span><span class="tag">Électro</span></p>
+  <p class="price">🎫 dès 74 € le pass 1 jour (2027)</p>
+  <a class="btn" href="festival-beauregard.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="les ardentes liege (rocourt) wallonie site de rocourt (plaine de la tonne), liege" data-mois="juillet" data-region="Wallonie" data-genres="Rap|Hip-hop|Électro">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Wallonie</span></div>
   <h3><a href="les-ardentes.html">Les Ardentes</a></h3>
   <p class="meta">📍 Liège (Rocourt)</p>
   <p class="meta">📅 1 – 4 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
@@ -51,8 +180,80 @@
   <p class="price">🎫 dès 105 € / jour (tarif 2025)</p>
   <a class="btn" href="les-ardentes.html">Voir la fiche</a>
 </article>
-<article class="card" data-name="Festival Interceltique de Lorient Lorient (Morbihan)" data-mois="juillet août" data-pays="France">
-  <div class="card-top"><span class="pill">Juillet / Août</span><span class="country">France</span></div>
+<article class="card" data-name="festival d&#x27;aix-en-provence aix-en-provence (bouches-du-rhone) provence-alpes-cote d&#x27;azur theatre de l&#x27;archeveche, grand theatre de provence, theatre du jeu de paume (lieux 2026 ; lieux 2027 non publies)" data-mois="juillet" data-region="Provence-Alpes-Côte d&#x27;Azur" data-genres="Opéra|Musique classique|Musique contemporaine">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Provence-Alpes-Côte d&#x27;Azur</span></div>
+  <h3><a href="festival-d-aix-en-provence.html">Festival d&#x27;Aix-en-Provence</a></h3>
+  <p class="meta">📍 Aix-en-Provence (Bouches-du-Rhône)</p>
+  <p class="meta">📅 1 – 20 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Opéra</span><span class="tag">Musique classique</span><span class="tag">Musique contemporaine</span></p>
+  <p class="price">🎫 dès 8 € la place (tarif plein 2026)</p>
+  <a class="btn" href="festival-d-aix-en-provence.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="les eurockeennes de belfort belfort (territoire de belfort) bourgogne-franche-comte presqu&#x27;ile du malsaucy" data-mois="juillet" data-region="Bourgogne-Franche-Comté" data-genres="Rock|Pop|Rap">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Bourgogne-Franche-Comté</span></div>
+  <h3><a href="eurockeennes-de-belfort.html">Les Eurockéennes de Belfort</a></h3>
+  <p class="meta">📍 Belfort (Territoire de Belfort)</p>
+  <p class="meta">📅 2 – 5 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rock</span><span class="tag">Pop</span><span class="tag">Rap</span></p>
+  <p class="price">🎫 dès 79 € le billet du lundi 5 juillet (2027)</p>
+  <a class="btn" href="eurockeennes-de-belfort.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="main square festival arras (pas-de-calais) hauts-de-france la citadelle d&#x27;arras, 146 allee du bastion de la reine" data-mois="juillet" data-region="Hauts-de-France" data-genres="Pop|Rock|Électro">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Hauts-de-France</span></div>
+  <h3><a href="main-square-festival.html">Main Square Festival</a></h3>
+  <p class="meta">📍 Arras (Pas-de-Calais)</p>
+  <p class="meta">📅 2 – 4 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Pop</span><span class="tag">Rock</span><span class="tag">Électro</span></p>
+  <p class="price">🎫 dès 79 € / jour (2027)</p>
+  <a class="btn" href="main-square-festival.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="musilac aix-les-bains (savoie) auvergne-rhone-alpes esplanade du lac, boulevard barrier, 73100 aix-les-bains" data-mois="juillet" data-region="Auvergne-Rhône-Alpes" data-genres="Rock|Pop|Électro|Hip-hop">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Auvergne-Rhône-Alpes</span></div>
+  <h3><a href="musilac.html">Musilac</a></h3>
+  <p class="meta">📍 Aix-les-Bains (Savoie)</p>
+  <p class="meta">📅 8 – 11 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rock</span><span class="tag">Pop</span><span class="tag">Électro</span><span class="tag">Hip-hop</span></p>
+  <p class="price">🎫 dès 79 € / jour (tarif 2026)</p>
+  <a class="btn" href="musilac.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="les deferlantes sud de france le barcares (pyrenees-orientales) occitanie jardins du lydia, 66420 le barcares" data-mois="juillet" data-region="Occitanie" data-genres="Rap|Pop|Électro">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Occitanie</span></div>
+  <h3><a href="les-deferlantes.html">Les Déferlantes Sud de France</a></h3>
+  <p class="meta">📍 Le Barcarès (Pyrénées-Orientales)</p>
+  <p class="meta">📅 9 – 11 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rap</span><span class="tag">Pop</span><span class="tag">Électro</span></p>
+  <p class="price">🎫 dès 59,89 € / jour (tarif Early 2026)</p>
+  <a class="btn" href="les-deferlantes.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="les francofolies de la rochelle la rochelle (charente-maritime) nouvelle-aquitaine centre-ville de la rochelle (scene jean-louis foulquier, esplanade saint-jean-d&#x27;acre)" data-mois="juillet" data-region="Nouvelle-Aquitaine" data-genres="Chanson francophone|Pop|Rap">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Nouvelle-Aquitaine</span></div>
+  <h3><a href="francofolies-de-la-rochelle.html">Les Francofolies de La Rochelle</a></h3>
+  <p class="meta">📍 La Rochelle (Charente-Maritime)</p>
+  <p class="meta">📅 10 – 14 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Chanson francophone</span><span class="tag">Pop</span><span class="tag">Rap</span></p>
+  <p class="price">🎫 Tarifs 2027 non publiés</p>
+  <a class="btn" href="francofolies-de-la-rochelle.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="les vieilles charrues carhaix-plouguer (finistere) bretagne site de kerampuilh, carhaix-plouguer" data-mois="juillet" data-region="Bretagne" data-genres="Pop|Rock|Musiques actuelles">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Bretagne</span></div>
+  <h3><a href="vieilles-charrues.html">Les Vieilles Charrues</a></h3>
+  <p class="meta">📍 Carhaix-Plouguer (Finistère)</p>
+  <p class="meta">📅 15 – 18 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Pop</span><span class="tag">Rock</span><span class="tag">Musiques actuelles</span></p>
+  <p class="price">🎫 dès 53 € le billet vendredi (annoncé)</p>
+  <a class="btn" href="vieilles-charrues.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="festival de cornouaille quimper (finistere) bretagne centre historique de quimper (theatre de cornouaille, chapeau rouge, jardin de l&#x27;eveche)" data-mois="juillet" data-region="Bretagne" data-genres="Musiques bretonnes|Fest-noz|Musiques celtiques|Danse">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Bretagne</span></div>
+  <h3><a href="festival-de-cornouaille.html">Festival de Cornouaille</a></h3>
+  <p class="meta">📍 Quimper (Finistère)</p>
+  <p class="meta">📅 22 – 25 juillet 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Musiques bretonnes</span><span class="tag">Fest-noz</span><span class="tag">Musiques celtiques</span><span class="tag">Danse</span></p>
+  <p class="price">🎫 dès 6 € (tarif 2026) ; beaucoup d&#x27;animations gratuites</p>
+  <a class="btn" href="festival-de-cornouaille.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="festival interceltique de lorient lorient (morbihan) bretagne lorient (palais des congres, grand theatre, rues et stade du moustoir pour la grande parade)" data-mois="juillet août" data-region="Bretagne" data-genres="Musiques celtiques|Folk|Fest-noz">
+  <div class="card-top"><span class="pill">Juillet / Août</span><span class="country">Bretagne</span></div>
   <h3><a href="festival-interceltique-de-lorient.html">Festival Interceltique de Lorient</a></h3>
   <p class="meta">📍 Lorient (Morbihan)</p>
   <p class="meta">📅 30 juillet – 8 août 2027 <span class="badge ok">Dates annoncées</span></p>
@@ -60,8 +261,98 @@
   <p class="price">🎫 dès 5 € (tarif 2026)</p>
   <a class="btn" href="festival-interceltique-de-lorient.html">Voir la fiche</a>
 </article>
-<article class="card" data-name="Fête de l&#x27;Humanité Le Plessis-Pâté (Essonne)" data-mois="septembre" data-pays="France">
-  <div class="card-top"><span class="pill">Septembre</span><span class="country">France</span></div>
+<article class="card" data-name="le cabaret vert charleville-mezieres (ardennes) grand est square bayard, charleville-mezieres (bords de la meuse)" data-mois="août" data-region="Grand Est" data-genres="Rap|Pop|Rock indé|Électro|Metal">
+  <div class="card-top"><span class="pill">Août</span><span class="country">Grand Est</span></div>
+  <h3><a href="cabaret-vert.html">Le Cabaret Vert</a></h3>
+  <p class="meta">📍 Charleville-Mézières (Ardennes)</p>
+  <p class="meta">📅 19 – 22 août 2027 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rap</span><span class="tag">Pop</span><span class="tag">Rock indé</span><span class="tag">Électro</span></p>
+  <p class="price">🎫 dès 59 € (tarif Ardennais) ; 69 € le pass 1 jour (2027)</p>
+  <a class="btn" href="cabaret-vert.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="rock en seine saint-cloud (hauts-de-seine) ile-de-france domaine national de saint-cloud" data-mois="août" data-region="Île-de-France" data-genres="Rock|Indie|Pop">
+  <div class="card-top"><span class="pill">Août</span><span class="country">Île-de-France</span></div>
+  <h3><a href="rock-en-seine.html">Rock en Seine</a></h3>
+  <p class="meta">📍 Saint-Cloud (Hauts-de-Seine)</p>
+  <p class="meta">📅 23 – 27 août 2028 (pas d&#x27;édition en 2027) <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Rock</span><span class="tag">Indie</span><span class="tag">Pop</span></p>
+  <p class="price">🎫 dès 94 € / jour (tarif plein 2026)</p>
+  <a class="btn" href="rock-en-seine.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="solidays paris (hippodrome de longchamp) ile-de-france hippodrome de paris-longchamp, 2 route des tribunes, paris 16e" data-mois="juin" data-region="Île-de-France" data-genres="Rap|Pop|Électro|Solidaire">
+  <div class="card-top"><span class="pill">Juin</span><span class="country">Île-de-France</span></div>
+  <h3><a href="solidays.html">Solidays</a></h3>
+  <p class="meta">📍 Paris (Hippodrome de Longchamp)</p>
+  <p class="meta">📅 Juin 2027 (dates à confirmer) <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Rap</span><span class="tag">Pop</span><span class="tag">Électro</span><span class="tag">Solidaire</span></p>
+  <p class="price">🎫 dès 59 € / jour (tarif 2026)</p>
+  <a class="btn" href="solidays.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="les nuits de fourviere lyon (rhone) auvergne-rhone-alpes theatre antique de fourviere, musee et theatres romains de lyon" data-mois="juin juillet" data-region="Auvergne-Rhône-Alpes" data-genres="Pluridisciplinaire|Pop-rock|Musiques du monde|Danse|Théâtre|Cirque">
+  <div class="card-top"><span class="pill">Juin / Juillet</span><span class="country">Auvergne-Rhône-Alpes</span></div>
+  <h3><a href="nuits-de-fourviere.html">Les Nuits de Fourvière</a></h3>
+  <p class="meta">📍 Lyon (Rhône)</p>
+  <p class="meta">📅 Juin – juillet 2027 (dates à confirmer) <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Pluridisciplinaire</span><span class="tag">Pop-rock</span><span class="tag">Musiques du monde</span><span class="tag">Danse</span></p>
+  <p class="price">🎫 Tarifs non publiés</p>
+  <a class="btn" href="nuits-de-fourviere.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="les siestes electroniques toulouse (haute-garonne) occitanie jardin compans-caffarelli (jardin japonais), boulevard lascrosses, 31000 toulouse" data-mois="juin" data-region="Occitanie" data-genres="Électro|House|Hip-hop|Expérimental">
+  <div class="card-top"><span class="pill">Juin</span><span class="country">Occitanie</span></div>
+  <h3><a href="les-siestes-electroniques.html">Les Siestes Électroniques</a></h3>
+  <p class="meta">📍 Toulouse (Haute-Garonne)</p>
+  <p class="meta">📅 Fin juin 2027 (dates à confirmer) <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Électro</span><span class="tag">House</span><span class="tag">Hip-hop</span><span class="tag">Expérimental</span></p>
+  <p class="price">🎫 Entrée libre et gratuite (concerts, 2026)</p>
+  <a class="btn" href="les-siestes-electroniques.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="lollapalooza paris paris (hippodrome parislongchamp) ile-de-france hippodrome parislongchamp, 2 route des tribunes, paris 16e" data-mois="juillet" data-region="Île-de-France" data-genres="Pop|Électro|Rock">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Île-de-France</span></div>
+  <h3><a href="lollapalooza-paris.html">Lollapalooza Paris</a></h3>
+  <p class="meta">📍 Paris (Hippodrome ParisLongchamp)</p>
+  <p class="meta">📅 Juillet 2027 (retour non confirmé) <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Pop</span><span class="tag">Électro</span><span class="tag">Rock</span></p>
+  <p class="price">🎫 dès 89 € / jour (tarif 2025, dernière édition)</p>
+  <a class="btn" href="lollapalooza-paris.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="jazz in marciac marciac (gers) occitanie chapiteau de marciac et l&#x27;astrada, avec des concerts gratuits place de la mairie" data-mois="juillet août" data-region="Occitanie" data-genres="Jazz|Blues|Soul|Musiques du monde">
+  <div class="card-top"><span class="pill">Juillet / Août</span><span class="country">Occitanie</span></div>
+  <h3><a href="jazz-in-marciac.html">Jazz in Marciac</a></h3>
+  <p class="meta">📍 Marciac (Gers)</p>
+  <p class="meta">📅 Juillet – août 2027 (dates à confirmer) <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Jazz</span><span class="tag">Blues</span><span class="tag">Soul</span><span class="tag">Musiques du monde</span></p>
+  <p class="price">🎫 dès 38 € / soirée (Chapiteau, cat. 3, tarif 2026)</p>
+  <a class="btn" href="jazz-in-marciac.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="peacock society paris (paris) ile-de-france hippodrome paris-vincennes" data-mois="juillet" data-region="Île-de-France" data-genres="Techno|House|Ambient|Électro">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Île-de-France</span></div>
+  <h3><a href="peacock-society.html">Peacock Society</a></h3>
+  <p class="meta">📍 Paris (Paris)</p>
+  <p class="meta">📅 Juillet 2027 (jours exacts à confirmer) <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Techno</span><span class="tag">House</span><span class="tag">Ambient</span><span class="tag">Électro</span></p>
+  <p class="price">🎫 dès 44 € / soir (tarif 2026, early bird)</p>
+  <a class="btn" href="peacock-society.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="yardland festival paris (bois de vincennes) ile-de-france hippodrome paris-vincennes" data-mois="juillet" data-region="Île-de-France" data-genres="Rap|Hip-hop|Cultures urbaines">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Île-de-France</span></div>
+  <h3><a href="yardland-festival.html">Yardland Festival</a></h3>
+  <p class="meta">📍 Paris (Bois de Vincennes)</p>
+  <p class="meta">📅 Juillet 2027 (dates à confirmer) <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Rap</span><span class="tag">Hip-hop</span><span class="tag">Cultures urbaines</span></p>
+  <p class="price">🎫 dès 64 € / jour (tarif 2026)</p>
+  <a class="btn" href="yardland-festival.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="festival d&#x27;avignon avignon (vaucluse) provence-alpes-cote d&#x27;azur cour d&#x27;honneur du palais des papes et une quarantaine de lieux en ville" data-mois="juillet" data-region="Provence-Alpes-Côte d&#x27;Azur" data-genres="Théâtre|Arts vivants|Performance">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Provence-Alpes-Côte d&#x27;Azur</span></div>
+  <h3><a href="festival-d-avignon.html">Festival d&#x27;Avignon</a></h3>
+  <p class="meta">📍 Avignon (Vaucluse)</p>
+  <p class="meta">📅 Juillet 2027 (dates à confirmer) <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Théâtre</span><span class="tag">Arts vivants</span><span class="tag">Performance</span></p>
+  <p class="price">🎫 dès 10 € le spectacle (tarif réduit 2026)</p>
+  <a class="btn" href="festival-d-avignon.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="fete de l&#x27;humanite le plessis-pate (essonne) ile-de-france base aerienne 217, rue des fusilles-de-la-resistance, 91220 le plessis-pate" data-mois="septembre" data-region="Île-de-France" data-genres="Rock|Pop|Rap|Débats">
+  <div class="card-top"><span class="pill">Septembre</span><span class="country">Île-de-France</span></div>
   <h3><a href="fete-de-l-humanite.html">Fête de l&#x27;Humanité</a></h3>
   <p class="meta">📍 Le Plessis-Pâté (Essonne)</p>
   <p class="meta">📅 Septembre 2027 (dates à confirmer) <span class="badge warn">Dates à confirmer</span></p>
@@ -69,12 +360,22 @@
   <p class="price">🎫 dès 55 € le pass 3 jours (tarif 2026)</p>
   <a class="btn" href="fete-de-l-humanite.html">Voir la fiche</a>
 </article>
+<article class="card" data-name="dream nation villepinte (seine-saint-denis) ile-de-france parc des expositions paris nord villepinte" data-mois="" data-region="Île-de-France" data-genres="Techno|Hard music|Drum &amp; bass|Trance">
+  <div class="card-top"><span class="pill">Date à venir</span><span class="country">Île-de-France</span></div>
+  <h3><a href="dream-nation.html">Dream Nation</a></h3>
+  <p class="meta">📍 Villepinte (Seine-Saint-Denis)</p>
+  <p class="meta">📅 Dates 2027 à confirmer <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Techno</span><span class="tag">Hard music</span><span class="tag">Drum &amp; bass</span><span class="tag">Trance</span></p>
+  <p class="price">🎫 dès 43,90 € / soir (Super Early Bird 2026)</p>
+  <a class="btn" href="dream-nation.html">Voir la fiche</a>
+</article>
 </div>
-<p id="empty" class="empty" hidden>Aucun festival ne correspond à ta recherche.</p></section>
+<p id="empty" class="empty" hidden>Aucun festival ne correspond à ta recherche. <button type="button" id="reset" class="linkbtn">Tout afficher</button></p></section>
 <section class="wrap note"><h2>Comment lire ces infos</h2>
-<p>Les dates affichées sont celles de la <strong>prochaine édition</strong> quand elles sont annoncées. Les prix et les line-up sont ceux de la <strong>dernière édition connue</strong>, car les tarifs et affiches 2027 ne sont pas encore publiés. Chaque fiche indique ses sources.</p>
+<p>Les festivals sont classés par date de la <strong>prochaine édition</strong>. Quand les dates ne sont pas encore officielles, la fiche affiche le mois habituel et la mention « Dates à confirmer ».</p>
+<p>Les prix et les affiches sont souvent ceux de la <strong>dernière édition connue</strong>, car peu de festivals publient leurs tarifs un an à l'avance. Chaque fiche précise l'édition de référence et cite ses sources.</p>
 </section>
 </main>
-<footer><div class="wrap"><p>Informations rassemblées le 13 novembre 2026 depuis des sources publiques. Dates, prix et programmations peuvent changer : vérifie toujours sur le site officiel avant d'acheter. FestiGuide n'est affilié à aucun festival.</p></div></footer>
+<footer><div class="wrap"><p>Informations rassemblées le 13 novembre 2026 depuis des sources publiques, citées en bas de chaque fiche. Dates, prix et programmations changent souvent : vérifie toujours sur le site officiel avant d'acheter un billet. FestiGuide n'est affilié à aucun festival.</p></div></footer>
 <script src="script.js"></script>
 </body></html>
