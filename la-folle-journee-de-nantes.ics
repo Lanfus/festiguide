@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:la-folle-journee-de-nantes-20270127@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270201
+SUMMARY:La Folle Journée de Nantes
+LOCATION:Nantes
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/la-folle-journee-de-nantes.html
+URL:https://www.follejournee.fr/
+END:VEVENT
+END:VCALENDAR

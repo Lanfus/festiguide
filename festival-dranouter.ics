@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-dranouter-20270806@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270809
+SUMMARY:Festival Dranouter
+LOCATION:Dranouter\, Flandre-Occidentale
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-dranouter.html
+URL:http://www.festivaldranouter.be/
+END:VEVENT
+END:VCALENDAR

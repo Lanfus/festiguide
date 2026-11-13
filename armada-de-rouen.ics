@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:armada-de-rouen-20270617@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270628
+SUMMARY:Armada de Rouen
+LOCATION:Quais de la Seine\, Rouen
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/armada-de-rouen.html
+URL:https://www.armada.org/en/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:premiers-plans-angers-20270123@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270201
+SUMMARY:Festival Premiers Plans d'Angers
+LOCATION:Angers
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/premiers-plans-angers.html
+URL:https://www.premiersplans.org/en
+END:VEVENT
+END:VCALENDAR

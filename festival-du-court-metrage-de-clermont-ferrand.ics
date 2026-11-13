@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-du-court-metrage-de-clermont-ferrand-20270129@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270207
+SUMMARY:Festival du court métrage de Clermont-Ferrand
+LOCATION:Clermont-Ferrand
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-du-court-metrage-de-clermont-ferrand.html
+URL:https://www.lecourt-clermont.org/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:etonnants-voyageurs-20270515@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270518
+SUMMARY:Étonnants Voyageurs
+LOCATION:Saint-Malo
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/etonnants-voyageurs.html
+URL:https://www.etonnants-voyageurs.com/
+END:VEVENT
+END:VCALENDAR

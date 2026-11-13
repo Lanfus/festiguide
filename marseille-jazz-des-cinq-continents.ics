@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:marseille-jazz-des-cinq-continents-20270630@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270711
+SUMMARY:Marseille Jazz des cinq continents
+LOCATION:Vieille Charité et sites de Marseille
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/marseille-jazz-des-cinq-continents.html
+URL:https://www.marseillejazz.com/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-du-film-romantique-de-cabourg-20270609@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270614
+SUMMARY:Festival du film de Cabourg
+LOCATION:Cabourg
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-du-film-romantique-de-cabourg.html
+URL:https://www.festival-cabourg.com/
+END:VEVENT
+END:VCALENDAR

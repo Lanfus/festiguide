@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:astropolis-20270218@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270222
+SUMMARY:Astropolis
+LOCATION:Brest
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/astropolis.html
+URL:https://astropolis.org/
+END:VEVENT
+END:VCALENDAR

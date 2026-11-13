@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:panoramas-festival-20270414@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270418
+SUMMARY:Panoramas Festival
+LOCATION:Quartier de la Manu\, Morlaix
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/panoramas-festival.html
+URL:https://www.festivalpanoramas.com/
+END:VEVENT
+END:VCALENDAR

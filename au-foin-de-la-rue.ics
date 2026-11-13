@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:au-foin-de-la-rue-20270702@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270705
+SUMMARY:Au Foin de la Rue
+LOCATION:Saint-Denis-de-Gastines\, Mayenne
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/au-foin-de-la-rue.html
+URL:https://www.aufoindelarue.com/
+END:VEVENT
+END:VCALENDAR
