@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-de-deauville-20270903@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270913
+SUMMARY:Festival du cinéma américain de Deauville
+LOCATION:Deauville
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-de-deauville.html
+URL:https://www.festival-deauville.com/en/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:rendez-vous-de-l-erdre-20270823@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270830
+SUMMARY:Les Rendez-vous de l'Erdre
+LOCATION:Bords de l'Erdre\, Nantes
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/rendez-vous-de-l-erdre.html
+URL:https://www.rendezvouserdre.com/
+END:VEVENT
+END:VCALENDAR

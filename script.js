@@ -53,6 +53,7 @@
   function sortCards() {
     var k = tri.value;
     var list = cards.slice().sort(function (a, b) {
+      if (k === 'date') return a.dataset.d - b.dataset.d;
       if (k === 'az') return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent, 'fr');
       if (k === 'prix') {
         var pa = a.dataset.price === '' ? 1e9 : parseFloat(a.dataset.price), pb = b.dataset.price === '' ? 1e9 : parseFloat(b.dataset.price);

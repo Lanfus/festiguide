@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:calvi-on-the-rocks-20270701@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270705
+SUMMARY:Calvi on the Rocks
+LOCATION:Théâtre de Verdure\, Calvi
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/calvi-on-the-rocks.html
+URL:https://www.calviontherocks.com/
+END:VEVENT
+END:VCALENDAR

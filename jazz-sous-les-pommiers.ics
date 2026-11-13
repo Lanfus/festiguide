@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:jazz-sous-les-pommiers-20270501@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270509
+SUMMARY:Jazz sous les Pommiers
+LOCATION:Coutances
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/jazz-sous-les-pommiers.html
+URL:https://www.jazzsouslespommiers.com/
+END:VEVENT
+END:VCALENDAR

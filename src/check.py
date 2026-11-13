@@ -8,7 +8,7 @@ OPT = {"short": "", "region": None, "venue": None, "maps_q": None, "genres": [],
        "iso": None, "status": "Dates à confirmer", "status_note": "", "price_from": None,
        "price_label": "Tarifs non publiés", "prices": [], "prices_note": "", "last_label": "",
        "last_dates": "", "lineup": [], "lineup_note": "", "about": "", "access": [], "tips": [],
-       "official": "", "sources": []}
+       "official": "", "sources": [], "visiteurs": None, "visiteurs_note": ""}
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
         "septembre", "octobre", "novembre", "décembre"]
 MOIS_N = {unicodedata.normalize("NFD", m).encode("ascii", "ignore").decode(): m for m in MOIS}
@@ -77,6 +77,12 @@ def clean(f, problems):
         out["mois"] = [MOIS[int(out["iso"][0][5:7]) - 1]]
     if not out["mois"]:
         problems.append(f"{out['name']} : aucun mois")
+    try:
+        out["visiteurs"] = int(out["visiteurs"]) if out["visiteurs"] else None
+    except (TypeError, ValueError):
+        out["visiteurs"] = None
+    if out["visiteurs"] and not out["visiteurs_note"]:
+        problems.append(f"{out['name']} : visiteurs sans visiteurs_note (précisez l'édition et la source)")
     try:
         out["price_from"] = float(out["price_from"]) if out["price_from"] is not None else None
     except (TypeError, ValueError):

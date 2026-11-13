@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cognac-blues-passions-20270630@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270704
+SUMMARY:Cognac Blues Passions
+LOCATION:Cognac et Jarnac
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/cognac-blues-passions.html
+URL:https://www.bluespassions.com/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:europavox-20270625@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270628
+SUMMARY:Europavox
+LOCATION:Place du 1er Mai\, Clermont-Ferrand
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/europavox.html
+URL:https://www.europavoxfestivals.com/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1888 @@
+[
+ {
+  "slug": "rock-werchter",
+  "name": "Rock Werchter",
+  "city": "Werchter",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Festivalpark, Werchter",
+  "maps_q": "Festivalpark, Werchter Werchter",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Électro"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "1 – 4 juillet 2027",
+  "iso": [
+   "2027-07-01",
+   "2027-07-04"
+  ],
+  "about": "L'un des plus gros festivals de rock et de pop d'Europe, organisé à Werchter, entre Louvain et Malines. Quatre jours de concerts avec camping sur place.",
+  "official": "https://www.rockwerchter.be/en/",
+  "sources": [
+   [
+    "Site officiel (dates 2027)",
+    "https://www.rockwerchter.be/en/"
+   ],
+   [
+    "Billetterie officielle",
+    "https://www.rockwerchter.be/en/info/tickets"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel : du jeudi 1er au dimanche 4 juillet. Billetterie via Ticketmaster.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "graspop",
+  "name": "Graspop Metal Meeting",
+  "city": "Dessel",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Festivalpark Stenehei, Dessel",
+  "maps_q": "Festivalpark Stenehei, Dessel Dessel",
+  "genres": [
+   "Metal",
+   "Rock"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "17 – 20 juin 2027",
+  "iso": [
+   "2027-06-17",
+   "2027-06-20"
+  ],
+  "about": "Grand rendez-vous européen du metal, à Dessel en province d'Anvers, sur quatre jours.",
+  "official": "https://www.graspop.be/",
+  "sources": [
+   [
+    "Annonce des dates (Instagram officiel)",
+    "https://www.instagram.com/graspopmetalmeeting/?hl=en"
+   ],
+   [
+    "Billetterie (Live Nation)",
+    "https://www.livenation.be/event/graspop-metal-meeting-2027-dessel-tickets-edp1708307"
+   ]
+  ],
+  "status_note": "Mise en vente des billets annoncée par l'organisateur le samedi 14 novembre 2026 à 10 h via Ticketmaster.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "gentse-feesten",
+  "name": "Gentse Feesten",
+  "city": "Gand",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Centre-ville de Gand",
+  "maps_q": "Centre-ville de Gand Gand",
+  "genres": [
+   "Fête populaire",
+   "Musique",
+   "Théâtre"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "16 – 25 juillet 2027",
+  "iso": [
+   "2027-07-16",
+   "2027-07-25"
+  ],
+  "about": "Dix jours de fête dans les rues et sur les places du centre de Gand, avec concerts, spectacles de rue et fête foraine.",
+  "official": "https://visit.gent.be/en/calendar/ghent-festivities",
+  "sources": [
+   [
+    "Dates 2027 (Visit Gent)",
+    "https://visit.gent.be/en/calendar/ghent-festivities"
+   ],
+   [
+    "Fréquentation estimée (PredictHQ)",
+    "https://www.predicthq.com/major-events/top-events/gentse-feesten"
+   ]
+  ],
+  "status_note": "Dates 2027 données par l'office de tourisme de la ville.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "visiteurs": 1500000,
+  "visiteurs_note": "Estimation PredictHQ, pas un chiffre de la ville."
+ },
+ {
+  "slug": "fetes-de-bayonne",
+  "name": "Fêtes de Bayonne",
+  "city": "Bayonne",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Centre-ville de Bayonne",
+  "maps_q": "Centre-ville de Bayonne Bayonne",
+  "genres": [
+   "Fête populaire",
+   "Traditions"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "14 – 18 juillet 2027",
+  "iso": [
+   "2027-07-14",
+   "2027-07-18"
+  ],
+  "about": "Cinq jours et cinq nuits de fête en blanc et rouge dans les rues de Bayonne, avec bandas, défilés et animations.",
+  "official": "https://fetes.bayonne.fr/",
+  "sources": [
+   [
+    "Dates 2027 (Ville de Bayonne)",
+    "https://www.bayonne.fr/cest-a-bayonne/agenda/grands-rendez-vous/fetes-de-bayonne"
+   ],
+   [
+    "Office de tourisme",
+    "https://www.visitbayonne.com/vos-envies/que-faire-et-que-voir-a-bayonne/participer-a-un-grand-evenement/fetes-de-bayonne/"
+   ]
+  ],
+  "status_note": "Entre 650 000 et 750 000 festayres attendus selon la Ville. Sud Ouest note une baisse de fréquentation de 15 % en 2024 et 2025.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "visiteurs": 700000,
+  "visiteurs_note": "Milieu de la fourchette annoncée par la Ville (650 000 à 750 000 attendus)."
+ },
+ {
+  "slug": "carnaval-de-dunkerque",
+  "name": "Carnaval de Dunkerque",
+  "city": "Dunkerque",
+  "country": "France",
+  "region": "Hauts-de-France",
+  "venue": "Dunkerque et communes voisines",
+  "maps_q": "Dunkerque et communes voisines Dunkerque",
+  "genres": [
+   "Carnaval",
+   "Fête populaire"
+  ],
+  "mois": [
+   "janvier",
+   "février",
+   "mars",
+   "avril"
+  ],
+  "dates": "3 janvier – 17 avril 2027",
+  "iso": [
+   "2027-01-03",
+   "2027-04-17"
+  ],
+  "about": "Une saison de bals et de défilés (les bandes) qui s'étend de janvier à avril, avec un temps fort de trois jours autour de Mardi gras.",
+  "official": "https://www.dunkerque-tourisme.fr/decouvrir/top-10-des-evenements/le-carnaval-de-dunkerque/",
+  "sources": [
+   [
+    "Dates du carnaval 2027 (office de tourisme)",
+    "https://www.dunkerque-tourisme.fr/decouvrir/top-10-des-evenements/le-carnaval-de-dunkerque/les-dates-du-carnaval/"
+   ]
+  ],
+  "status_note": "Les dates sont celles de la saison complète. Les « Trois Joyeuses » tomberaient les 7, 8 et 9 février d'après un site non officiel : à vérifier auprès de l'office de tourisme.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "fete-du-citron",
+  "name": "Fête du Citron",
+  "city": "Menton",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Jardins Biovès, Menton",
+  "maps_q": "Jardins Biovès, Menton Menton",
+  "genres": [
+   "Fête populaire",
+   "Carnaval"
+  ],
+  "mois": [
+   "février"
+  ],
+  "dates": "13 – 28 février 2027",
+  "iso": [
+   "2027-02-13",
+   "2027-02-28"
+  ],
+  "about": "Corsos de chars décorés d'agrumes et expositions de sculptures en citrons et oranges à Menton. 93e édition en 2027, sur le thème « Douce France ».",
+  "official": "https://www.fete-du-citron.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.fete-du-citron.com/"
+   ],
+   [
+    "France.fr",
+    "https://www.france.fr/fr/evenement/fete-citron-menton-france/"
+   ]
+  ],
+  "status_note": "93e édition, thème « Douce France » d'après le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "jazz-a-juan",
+  "name": "Jazz à Juan",
+  "city": "Antibes (Juan-les-Pins)",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Pinède Gould, Juan-les-Pins",
+  "maps_q": "Pinède Gould, Juan-les-Pins Antibes (Juan-les-Pins)",
+  "genres": [
+   "Jazz",
+   "Soul"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "8 – 18 juillet 2027",
+  "iso": [
+   "2027-07-08",
+   "2027-07-18"
+  ],
+  "about": "Festival de jazz en bord de mer, dans la pinède Gould de Juan-les-Pins. 66e édition en 2027.",
+  "official": "https://jazzajuan.com/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://jazzajuan.com/en/"
+   ],
+   [
+    "Annonce des dates (Instagram officiel)",
+    "https://www.instagram.com/jazzajuan/?hl=en"
+   ]
+  ],
+  "status_note": "Dates 2027 annoncées par le festival sur son compte Instagram officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "la-route-du-rock",
+  "name": "La Route du Rock",
+  "city": "Saint-Malo",
+  "country": "France",
+  "region": "Bretagne",
+  "venue": "Saint-Malo et Rennes",
+  "maps_q": "Saint-Malo et Rennes Saint-Malo",
+  "genres": [
+   "Rock",
+   "Indie",
+   "Électro"
+  ],
+  "mois": [
+   "mars"
+  ],
+  "dates": "10 – 13 mars 2027",
+  "iso": [
+   "2027-03-10",
+   "2027-03-13"
+  ],
+  "about": "Festival de rock indépendant né à Saint-Malo, avec une édition d'été et une édition d'hiver.",
+  "official": "https://www.laroutedurock.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.laroutedurock.com/"
+   ]
+  ],
+  "status_note": "Les dates 10–13 mars 2027 sont celles de l'édition d'hiver (Saint-Malo et Rennes), affichées par le site officiel. L'édition d'été 2027 n'est pas encore annoncée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-du-bout-du-monde",
+  "name": "Festival du Bout du Monde",
+  "city": "Crozon",
+  "country": "France",
+  "region": "Bretagne",
+  "venue": "Prairie de Landaoudec, Crozon",
+  "maps_q": "Prairie de Landaoudec, Crozon Crozon",
+  "genres": [
+   "Musiques du monde",
+   "Pop",
+   "Électro"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "30 juillet – 1 août 2027",
+  "iso": [
+   "2027-07-30",
+   "2027-08-01"
+  ],
+  "about": "Festival en plein air sur la presqu'île de Crozon, dans le Finistère. 27e édition en 2027.",
+  "official": "https://www.festivalduboutdumonde.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festivalduboutdumonde.com/"
+   ],
+   [
+    "La Belle Bretagne",
+    "https://labellebretagne.bzh/en/festivals/finistere/festival-bout-du-monde"
+   ]
+  ],
+  "status_note": "Premiers artistes 2027 annoncés le vendredi 11 décembre 2026 à 11 h.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "tomorrowland-belgium",
+  "name": "Tomorrowland Belgium",
+  "city": "Boom",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "De Schorre, Boom",
+  "maps_q": "De Schorre, Boom Boom",
+  "genres": [
+   "Électro",
+   "House",
+   "Techno"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "L'un des plus gros festivals de musique électronique au monde, au domaine De Schorre à Boom, entre Anvers et Bruxelles.",
+  "official": "https://www.tomorrowland.com/",
+  "sources": [
+   [
+    "Page officielle Tomorrowland Belgium 2027",
+    "https://faq.tomorrowland.com/hc/en-us/articles/4402621418132-Where-and-when-will-Tomorrowland-Belgium-2027-take-place"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'organisateur annonce davantage d'informations sur l'édition 2027 « à la fin de l'année ». Le festival a lieu habituellement en juillet.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "pukkelpop",
+  "name": "Pukkelpop",
+  "city": "Hasselt",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Site du festival, Kempische Steenweg, Hasselt",
+  "maps_q": "Site du festival, Kempische Steenweg, Hasselt Hasselt",
+  "genres": [
+   "Rock",
+   "Indie",
+   "Électro",
+   "Hip-hop"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Grand festival belge de musiques actuelles, à Hasselt.",
+  "official": "https://www.pukkelpop.be/",
+  "sources": [
+   [
+    "Agrégateur : 19-22 août 2027 (non officiel)",
+    "https://festiplannr.com/festival/pukkelpop-2027"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : des sites agrégateurs annoncent du 19 au 22 août 2027, mais je n'ai pas pu le vérifier sur le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "electrobeach",
+  "name": "Electrobeach Music Festival",
+  "city": "Le Barcarès",
+  "country": "France",
+  "region": "Occitanie",
+  "venue": "Plage du Barcarès",
+  "maps_q": "Plage du Barcarès Le Barcarès",
+  "genres": [
+   "Électro",
+   "House"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique sur la plage du Barcarès, dans les Pyrénées-Orientales, organisé chaque été.",
+  "official": "https://www.electrobeach.com/",
+  "sources": [
+   [
+    "Wikipédia",
+    "https://en.wikipedia.org/wiki/Electrobeach_Music_Festival"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : une édition 2027 est annoncée mais aucune date officielle n'a été relevée. Le festival se tient habituellement mi-juillet.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "les-escales",
+  "name": "Les Escales",
+  "city": "Saint-Nazaire",
+  "country": "France",
+  "region": "Pays de la Loire",
+  "venue": "Centre-ville et port, Saint-Nazaire",
+  "maps_q": "Centre-ville et port, Saint-Nazaire Saint-Nazaire",
+  "genres": [
+   "Musiques du monde",
+   "Pop",
+   "Rock"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musiques du monde et de musiques actuelles dans le port et le centre de Saint-Nazaire, organisé depuis 1992.",
+  "official": "https://www.festival-les-escales.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festival-les-escales.com/"
+   ],
+   [
+    "Page Facebook du festival",
+    "https://www.facebook.com/festivallesescales/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : les sources relevées se contredisent (la page Facebook évoque un week-end fin juillet 2027, le site officiel affiche encore les dates 2026).",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "feria-de-nimes",
+  "name": "Feria de Pentecôte de Nîmes",
+  "city": "Nîmes",
+  "country": "France",
+  "region": "Occitanie",
+  "venue": "Centre-ville et arènes de Nîmes",
+  "maps_q": "Centre-ville et arènes de Nîmes Nîmes",
+  "genres": [
+   "Fête populaire",
+   "Traditions"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Fête taurine et hispanique qui prend tout le centre de Nîmes autour de la Pentecôte.",
+  "official": "https://www.nimes.fr/que-faire-a-nimes/evenements/feria-de-pentecote",
+  "sources": [
+   [
+    "Ville de Nîmes",
+    "https://www.nimes.fr/que-faire-a-nimes/evenements/feria-de-pentecote"
+   ],
+   [
+    "Bilan 2026 (Vivre Nîmes)",
+    "https://www.vivrenimes.fr/formats/articles/feria-de-pentecote-plus-dun-million-de-personnes-a-nimes"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : la Pentecôte tombe le 16 mai 2027 mais la Ville n'a pas encore publié son programme.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "visiteurs": 1100000,
+  "visiteurs_note": "Fréquentation estimée de l'édition 2026 (21–25 mai), d'après la presse locale."
+ },
+ {
+  "slug": "feria-de-dax",
+  "name": "Dax, la Feria !",
+  "city": "Dax",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Centre-ville et arènes de Dax",
+  "maps_q": "Centre-ville et arènes de Dax Dax",
+  "genres": [
+   "Fête populaire",
+   "Traditions"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Fêtes de Dax : cinq jours de fête et de corridas autour de la mi-août.",
+  "official": "https://www.daxlaferia.fr/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.daxlaferia.fr/"
+   ],
+   [
+    "Dates 2026 (Ville de Dax)",
+    "https://www.dax.fr/actualite/dax-la-feria-les-dates-2026-sont-connues/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 12 au 16 août ; les dates 2027 ne sont pas encore publiées.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "feria-de-beziers",
+  "name": "Féria de Béziers",
+  "city": "Béziers",
+  "country": "France",
+  "region": "Occitanie",
+  "venue": "Centre-ville et arènes de Béziers",
+  "maps_q": "Centre-ville et arènes de Béziers Béziers",
+  "genres": [
+   "Fête populaire",
+   "Traditions"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Cinq jours de fête dans les rues de Béziers, autour des arènes, à la mi-août.",
+  "official": "https://www.beziers-mediterranee.com/",
+  "sources": [
+   [
+    "Office de tourisme (programme)",
+    "https://www.beziers-mediterranee.uk/things-to-see-and-do/the-beziers-feria/the-feria-de-beziers-programme/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : les sites relevés donnent « 11 au 14 » ou « 11 au 15 août 2027 » : à vérifier.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-lumiere",
+  "name": "Festival Lumière",
+  "city": "Lyon",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Lyon et agglomération",
+  "maps_q": "Lyon et agglomération Lyon",
+  "genres": [
+   "Cinéma"
+  ],
+  "mois": [
+   "octobre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival dédié au cinéma de patrimoine, à Lyon, fondé par l'Institut Lumière.",
+  "official": "https://www.festival-lumiere.org/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festival-lumiere.org/en/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 10 au 18 octobre ; la suivante n'est pas annoncée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "rencontres-d-arles",
+  "name": "Rencontres d'Arles",
+  "city": "Arles",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Arles",
+  "maps_q": "Arles Arles",
+  "genres": [
+   "Photographie",
+   "Expositions"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Grand rendez-vous annuel de la photographie, chaque été à Arles depuis 1970.",
+  "official": "https://www.rencontres-arles.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.rencontres-arles.com/"
+   ]
+  ],
+  "status_note": "Le site officiel annonce une semaine d'ouverture du 5 au 11 juillet 2027 et des expositions à partir du 5 juillet ; la date de fin n'a pas pu être relevée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "pause-guitare",
+  "name": "Pause Guitare Sud de France",
+  "city": "Albi",
+  "country": "France",
+  "region": "Occitanie",
+  "venue": "Albi",
+  "maps_q": "Albi Albi",
+  "genres": [
+   "Chanson",
+   "Pop",
+   "Rock"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "7 – 11 juillet 2027",
+  "iso": [
+   "2027-07-07",
+   "2027-07-11"
+  ],
+  "about": "Festival de chanson et de musiques actuelles à Albi. 31e édition en 2027.",
+  "official": "https://www.pauseguitare.net/",
+  "sources": [
+   [
+    "Office de tourisme d'Albi",
+    "https://www.albi-tourisme.fr/en/agenda/festival-pause-guitare-sud-de-france-2027/"
+   ],
+   [
+    "Site officiel",
+    "https://www.pauseguitare.net/"
+   ]
+  ],
+  "status_note": "L'office de tourisme d'Albi donne les 7 au 11 juillet ; le site du festival affiche « du 6 au 11 juillet » (probablement une soirée d'ouverture).",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "europavox",
+  "name": "Europavox",
+  "city": "Clermont-Ferrand",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Place du 1er Mai, Clermont-Ferrand",
+  "maps_q": "Place du 1er Mai, Clermont-Ferrand Clermont-Ferrand",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Électro"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "25 – 27 juin 2027",
+  "iso": [
+   "2027-06-25",
+   "2027-06-27"
+  ],
+  "about": "Festival de musiques actuelles à Clermont-Ferrand. En 2027, un concert exceptionnel de Sting est prévu au stade Marcel-Michelin.",
+  "official": "https://www.europavoxfestivals.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.europavoxfestivals.com/"
+   ],
+   [
+    "Billetterie (concert Sting)",
+    "https://www.leclercbilletterie.com/en/manifestation/europavox-2027-sting-ticket/idmanif/675324"
+   ]
+  ],
+  "status_note": "Festival place du 1er Mai les 25, 26 et 27 juin 2027. Concert de Sting le mardi 13 juillet 2027 au stade Marcel-Michelin.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "lineup": [
+   "Sting"
+  ],
+  "lineup_note": "Seul nom annoncé relevé : Sting, le 13 juillet 2027 au stade Marcel-Michelin.",
+  "last_label": "Programmation 2027 (partielle)"
+ },
+ {
+  "slug": "jazz-sous-les-pommiers",
+  "name": "Jazz sous les Pommiers",
+  "city": "Coutances",
+  "country": "France",
+  "region": "Normandie",
+  "venue": "Coutances",
+  "maps_q": "Coutances Coutances",
+  "genres": [
+   "Jazz"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "1 – 8 mai 2027",
+  "iso": [
+   "2027-05-01",
+   "2027-05-08"
+  ],
+  "about": "Festival de jazz à Coutances, dans la Manche. 46e édition en 2027.",
+  "official": "https://www.jazzsouslespommiers.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.jazzsouslespommiers.com/"
+   ]
+  ],
+  "status_note": "",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "rendez-vous-de-l-erdre",
+  "name": "Les Rendez-vous de l'Erdre",
+  "city": "Nantes",
+  "country": "France",
+  "region": "Pays de la Loire",
+  "venue": "Bords de l'Erdre, Nantes",
+  "maps_q": "Bords de l'Erdre, Nantes Nantes",
+  "genres": [
+   "Jazz",
+   "Musiques actuelles"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "23 – 29 août 2027",
+  "iso": [
+   "2027-08-23",
+   "2027-08-29"
+  ],
+  "about": "Festival gratuit au bord de l'Erdre, à Nantes. 41e édition en 2027 (la 40e s'est terminée fin août 2026).",
+  "official": "https://www.rendezvouserdre.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.rendezvouserdre.com/"
+   ]
+  ],
+  "status_note": "Dates 2027 annoncées par le site officiel après la fin de la 40e édition.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "calvi-on-the-rocks",
+  "name": "Calvi on the Rocks",
+  "city": "Calvi",
+  "country": "France",
+  "region": "Corse",
+  "venue": "Théâtre de Verdure, Calvi",
+  "maps_q": "Théâtre de Verdure, Calvi Calvi",
+  "genres": [
+   "Électro",
+   "Pop",
+   "Rock"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "1 – 4 juillet 2027",
+  "iso": [
+   "2027-07-01",
+   "2027-07-04"
+  ],
+  "about": "Festival d'été à Calvi, en Haute-Corse.",
+  "official": "https://www.calviontherocks.com/",
+  "sources": [
+   [
+    "France.fr (dates 2027)",
+    "https://www.france.fr/en/event/calvi-on-the-rocks/"
+   ],
+   [
+    "Instagram officiel",
+    "https://www.instagram.com/calviontherocks/?hl=en"
+   ]
+  ],
+  "status_note": "Dates relevées sur France.fr. Le festival avait signalé en 2025 des travaux sur son site, le Théâtre de Verdure : vérifier la confirmation sur le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "au-pont-du-rock",
+  "name": "Au Pont du Rock",
+  "city": "Malestroit",
+  "country": "France",
+  "region": "Bretagne",
+  "venue": "Malestroit",
+  "maps_q": "Malestroit Malestroit",
+  "genres": [
+   "Rock",
+   "Indie",
+   "Électro",
+   "Hip-hop"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "30 – 31 juillet 2027",
+  "iso": [
+   "2027-07-30",
+   "2027-07-31"
+  ],
+  "about": "Festival indépendant de rock et de musiques actuelles à Malestroit, dans le Morbihan.",
+  "official": "https://www.festival-aupontdurock.com/",
+  "sources": [
+   [
+    "Instagram officiel",
+    "https://www.instagram.com/aupontdurock/?hl=en"
+   ]
+  ],
+  "status_note": "Dates annoncées par le festival sur son compte Instagram officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "nice-jazz-festival",
+  "name": "Nice Jazz Festival",
+  "city": "Nice",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Nice",
+  "maps_q": "Nice Nice",
+  "genres": [
+   "Jazz"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de jazz de Nice, organisé en juillet.",
+  "official": "https://www.nicejazzfest.fr/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.nicejazzfest.fr/en/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 23 au 25 juillet ; le site officiel annonce « rendez-vous en 2027 » sans dates.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "motocultor",
+  "name": "Motocultor Festival",
+  "city": "Saint-Nolff",
+  "country": "France",
+  "region": "Bretagne",
+  "venue": "Saint-Nolff",
+  "maps_q": "Saint-Nolff Saint-Nolff",
+  "genres": [
+   "Metal"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de metal en Bretagne, à Saint-Nolff, dans le Morbihan.",
+  "official": "https://www.motocultor-festival.com/",
+  "sources": [
+   [
+    "Agrégateur : 19-22 août 2027 (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/motocultor-festival-2027/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : des sites agrégateurs annoncent du 19 au 22 août 2027, non vérifié sur le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "fete-de-la-musique",
+  "name": "Fête de la Musique",
+  "city": "Partout en France",
+  "country": "France",
+  "region": null,
+  "venue": null,
+  "maps_q": "Partout en France",
+  "genres": [
+   "Fête populaire",
+   "Musique"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "21 juin 2027",
+  "iso": [
+   "2027-06-21",
+   "2027-06-21"
+  ],
+  "about": "Chaque 21 juin, des concerts partout en France, dans la rue comme dans les salles. Le ministère de la Culture publie les informations de l'édition à l'approche de la date.",
+  "official": "https://fetedelamusique.culture.gouv.fr/",
+  "sources": [
+   [
+    "Ministère de la Culture",
+    "https://fetedelamusique.culture.gouv.fr/"
+   ]
+  ],
+  "status_note": "Date fixe : le 21 juin. Les informations d'organisation 2027 ne sont pas encore publiées.",
+  "price_label": "Gratuit (principe de la fête)",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "lokerse-feesten",
+  "name": "Lokerse Feesten",
+  "city": "Lokeren",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Lokeren",
+  "maps_q": "Lokeren Lokeren",
+  "genres": [
+   "Pop",
+   "Rock"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "30 juillet – 8 août 2027",
+  "iso": [
+   "2027-07-30",
+   "2027-08-08"
+  ],
+  "about": "Dix jours de concerts à Lokeren, en Flandre-Orientale.",
+  "official": "https://www.lokersefeesten.be/",
+  "sources": [
+   [
+    "Billetterie (Live Nation)",
+    "https://www.livenation.com/event/intl_1704753/lokerse-feesten-2027"
+   ]
+  ],
+  "status_note": "Dates relevées chez le billetter Live Nation.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "lineup": [
+   "Bryan Adams"
+  ],
+  "lineup_note": "Premier nom annoncé relevé : Bryan Adams.",
+  "last_label": "Programmation 2027 (partielle)"
+ },
+ {
+  "slug": "cognac-blues-passions",
+  "name": "Cognac Blues Passions",
+  "city": "Cognac et Jarnac",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Cognac et Jarnac",
+  "maps_q": "Cognac et Jarnac Cognac et Jarnac",
+  "genres": [
+   "Blues",
+   "Soul",
+   "Rock"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "30 juin – 3 juillet 2027",
+  "iso": [
+   "2027-06-30",
+   "2027-07-03"
+  ],
+  "about": "Festival de blues et de musiques afro-américaines, à Cognac et à Jarnac, en Charente.",
+  "official": "https://www.bluespassions.com/",
+  "sources": [
+   [
+    "Facebook officiel",
+    "https://www.facebook.com/Cognac.Blues.Passions.festival/"
+   ],
+   [
+    "Office de tourisme",
+    "https://www.destination-cognac.com/en/event/cognac-blues-passions/"
+   ]
+  ],
+  "status_note": "Dates 2027 annoncées par le festival sur sa page Facebook officielle.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-de-deauville",
+  "name": "Festival du cinéma américain de Deauville",
+  "city": "Deauville",
+  "country": "France",
+  "region": "Normandie",
+  "venue": "Deauville",
+  "maps_q": "Deauville Deauville",
+  "genres": [
+   "Cinéma"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "3 – 12 septembre 2027",
+  "iso": [
+   "2027-09-03",
+   "2027-09-12"
+  ],
+  "about": "Festival consacré au cinéma américain, à Deauville. 53e édition en 2027.",
+  "official": "https://www.festival-deauville.com/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festival-deauville.com/en/"
+   ],
+   [
+    "Instagram officiel (dates 2027)",
+    "https://www.instagram.com/festivaldedeauville/?hl=en"
+   ]
+  ],
+  "status_note": "Dates 2027 annoncées par le festival sur son compte Instagram officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Festival de Deauville"
+ },
+ {
+  "slug": "couleur-cafe",
+  "name": "Couleur Café",
+  "city": "Bruxelles",
+  "country": "Belgique",
+  "region": "Bruxelles-Capitale",
+  "venue": "Parc d'Osseghem, Bruxelles",
+  "maps_q": "Parc d'Osseghem, Bruxelles Bruxelles",
+  "genres": [
+   "Musiques du monde",
+   "Reggae",
+   "Hip-hop"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musiques du monde au parc d'Osseghem, au pied de l'Atomium, à Bruxelles.",
+  "official": "https://www.couleurcafe.be/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.couleurcafe.be/en/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : un site agrégateur annonce du 25 au 27 juin 2027, non vérifié sur le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Couleur Café"
+ },
+ {
+  "slug": "fiesta-des-suds",
+  "name": "Fiesta des Suds",
+  "city": "Marseille",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Marseille",
+  "maps_q": "Marseille Marseille",
+  "genres": [
+   "Musiques du monde",
+   "Électro",
+   "Hip-hop"
+  ],
+  "mois": [
+   "octobre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musiques du monde et de musiques actuelles à Marseille, organisé en octobre.",
+  "official": "https://fiestadessuds.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://fiestadessuds.com/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 8 au 11 octobre ; la suivante n'est pas annoncée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "choregies-d-orange",
+  "name": "Chorégies d'Orange",
+  "city": "Orange",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Théâtre antique d'Orange",
+  "maps_q": "Théâtre antique d'Orange Orange",
+  "genres": [
+   "Opéra",
+   "Musique classique"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival d'opéra et de musique classique dans le Théâtre antique d'Orange, l'un des plus anciens de France.",
+  "official": "https://www.choregies.fr/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.choregies.fr/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le calendrier 2027 n'a pas été relevé. Le festival se tient en été.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "la-roque-d-antheron",
+  "name": "Festival de La Roque-d'Anthéron",
+  "city": "La Roque-d'Anthéron",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Parc du château de Florans",
+  "maps_q": "Parc du château de Florans La Roque-d'Anthéron",
+  "genres": [
+   "Musique classique",
+   "Piano"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival international de piano créé en 1981, en Provence.",
+  "official": "https://www.festival-piano.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festival-piano.com/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le calendrier 2027 n'a pas été relevé. Le festival se tient en été.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-d-automne-paris",
+  "name": "Festival d'Automne à Paris",
+  "city": "Paris",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Plusieurs lieux à Paris",
+  "maps_q": "Plusieurs lieux à Paris Paris",
+  "genres": [
+   "Théâtre",
+   "Danse",
+   "Arts vivants"
+  ],
+  "mois": [
+   "septembre",
+   "octobre",
+   "novembre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival pluridisciplinaire d'arts vivants (théâtre, danse, performance) dans des théâtres et lieux culturels de Paris et de sa région, de septembre à décembre.",
+  "official": "https://www.festival-automne.com/en",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festival-automne.com/en"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 est en cours (fin novembre) ; le programme 2027 n'est pas publié.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-de-marseille",
+  "name": "Festival de Marseille",
+  "city": "Marseille",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Plusieurs lieux à Marseille",
+  "maps_q": "Plusieurs lieux à Marseille Marseille",
+  "genres": [
+   "Danse",
+   "Théâtre",
+   "Musique"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de danse, de théâtre, de concerts et d'installations dans toute la ville de Marseille.",
+  "official": "https://www.festivaldemarseille.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festivaldemarseille.com/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le site officiel affiche « 14 juin – 8 juillet » sans que l'année soit lisible dans l'extrait relevé.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "paris-l-ete",
+  "name": "Festival Paris l'été",
+  "city": "Paris",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Plusieurs lieux à Paris",
+  "maps_q": "Plusieurs lieux à Paris Paris",
+  "genres": [
+   "Théâtre",
+   "Danse",
+   "Musique"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival d'été de spectacles vivants dans Paris et sa région.",
+  "official": "https://www.parislete.fr/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.parislete.fr/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le festival se tient d'ordinaire de mi-juillet à début août, mais les dates 2027 ne sont pas annoncées.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "francofolies-de-spa",
+  "name": "Les Francofolies de Spa",
+  "city": "Spa",
+  "country": "Belgique",
+  "region": "Wallonie",
+  "venue": "Spa",
+  "maps_q": "Spa Spa",
+  "genres": [
+   "Chanson",
+   "Pop",
+   "Rap"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "16 – 18 juillet 2027",
+  "iso": [
+   "2027-07-16",
+   "2027-07-18"
+  ],
+  "about": "Festival de chanson francophone et de musiques actuelles, à Spa.",
+  "official": "https://francofolies.be/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://francofolies.be/"
+   ]
+  ],
+  "status_note": "Dates 2027 annoncées par le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Francofolies de Spa"
+ },
+ {
+  "slug": "suikerrock",
+  "name": "Suikerrock",
+  "city": "Tirlemont (Tienen)",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Tirlemont",
+  "maps_q": "Tirlemont Tirlemont (Tienen)",
+  "genres": [
+   "Pop",
+   "Rock"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "6 – 8 août 2027",
+  "iso": [
+   "2027-08-06",
+   "2027-08-08"
+  ],
+  "about": "Festival de pop et de rock à Tirlemont, en Brabant flamand. 40e édition en 2027.",
+  "official": "https://www.suikerrock.be/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.suikerrock.be/"
+   ]
+  ],
+  "status_note": "Dates 2027 annoncées par le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "lineup": [
+   "Joost",
+   "Editors",
+   "Zwangere Guy",
+   "Clouseau",
+   "Suzan & Freek",
+   "The Kooks"
+  ],
+  "lineup_note": "Premiers noms annoncés par le festival pour 2027.",
+  "last_label": "Programmation 2027 (partielle)"
+ },
+ {
+  "slug": "festival-mondial-des-theatres-de-marionnettes",
+  "name": "Festival Mondial des Théâtres de Marionnettes",
+  "city": "Charleville-Mézières",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Charleville-Mézières",
+  "maps_q": "Charleville-Mézières Charleville-Mézières",
+  "genres": [
+   "Marionnettes",
+   "Théâtre"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "17 – 26 septembre 2027",
+  "iso": [
+   "2027-09-17",
+   "2027-09-26"
+  ],
+  "about": "Rendez-vous mondial de la marionnette, organisé tous les deux ans à Charleville-Mézières. 24e édition en 2027.",
+  "official": "https://marionnette.com/festivals-et-rdv/fmtm/fmtm-2027/",
+  "sources": [
+   [
+    "Pôle international de la marionnette",
+    "https://marionnette.com/festivals-et-rdv/fmtm/fmtm-2027/"
+   ]
+  ],
+  "status_note": "Dates 2027 annoncées par l'organisateur. Le festival est biennal.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Festival des Marionnettes"
+ },
+ {
+  "slug": "fetes-de-gayant",
+  "name": "Fêtes de Gayant",
+  "city": "Douai",
+  "country": "France",
+  "region": "Hauts-de-France",
+  "venue": "Centre-ville de Douai",
+  "maps_q": "Centre-ville de Douai Douai",
+  "genres": [
+   "Fête populaire",
+   "Traditions"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "11 juillet 2027",
+  "iso": [
+   "2027-07-11",
+   "2027-07-11"
+  ],
+  "about": "Fête traditionnelle de Douai autour de la famille de géants Gayant.",
+  "official": "https://www.fetesdegayant.fr/",
+  "sources": [
+   [
+    "Site officiel (Ville de Douai)",
+    "https://www.fetesdegayant.fr/se-retrouve-dimanche-11-juillet-2027"
+   ]
+  ],
+  "status_note": "La date retenue est celle du dimanche 11 juillet 2027 affichée par la Ville de Douai ; le programme complet des festivités n'a pas été relevé.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-de-poupet",
+  "name": "Festival de Poupet",
+  "city": "Saint-Malô-du-Bois",
+  "country": "France",
+  "region": "Pays de la Loire",
+  "venue": "Saint-Malô-du-Bois",
+  "maps_q": "Saint-Malô-du-Bois Saint-Malô-du-Bois",
+  "genres": [
+   "Chanson",
+   "Pop",
+   "Humour"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "30 juin – 23 juillet 2027",
+  "iso": [
+   "2027-06-30",
+   "2027-07-23"
+  ],
+  "about": "Festival de concerts et de spectacles en Vendée. 40 ans d'existence en 2027.",
+  "official": "https://www.festival-poupet.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festival-poupet.com/"
+   ],
+   [
+    "Vendée Bocage",
+    "https://www.vendeebocage.fr/temps-fort/festival-de-poupet/"
+   ]
+  ],
+  "status_note": "Du 30 juin au 23 juillet 2027, portes à 18 h d'après la communauté de communes.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "braderie-de-lille",
+  "name": "Braderie de Lille",
+  "city": "Lille",
+  "country": "France",
+  "region": "Hauts-de-France",
+  "venue": "Centre-ville de Lille",
+  "maps_q": "Centre-ville de Lille Lille",
+  "genres": [
+   "Fête populaire"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "4 – 5 septembre 2027",
+  "iso": [
+   "2027-09-04",
+   "2027-09-05"
+  ],
+  "about": "Grande brocante de rue qui prend tout le centre de Lille un week-end de début septembre, sans interruption du samedi matin au dimanche soir.",
+  "official": "https://www.braderie-de-lille.fr/",
+  "sources": [
+   [
+    "Dates 2027 (Ville de Lille)",
+    "https://www.lille.fr/Braderie-de-Lille/Actualites/(category)/197761"
+   ]
+  ],
+  "status_note": "Pas un festival au sens strict : un des plus gros événements populaires de France, repris ici pour sa taille.",
+  "price_label": "Accès libre",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "jazz-a-la-villette",
+  "name": "Jazz à la Villette",
+  "city": "Paris",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Parc de la Villette, Paris",
+  "maps_q": "Parc de la Villette, Paris Paris",
+  "genres": [
+   "Jazz",
+   "Hip-hop",
+   "Soul"
+  ],
+  "mois": [
+   "août",
+   "septembre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de jazz et de musiques afro-américaines au parc de la Villette, en fin d'été.",
+  "official": "https://jazzalavillette.com/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://jazzalavillette.com/en/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 28 août au 6 septembre ; les dates 2027 ne sont pas annoncées.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "mondial-air-ballons",
+  "name": "Grand Est Mondial Air Ballons",
+  "city": "Chambley-Bussières",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Aérodrome de Chambley",
+  "maps_q": "Aérodrome de Chambley Chambley-Bussières",
+  "genres": [
+   "Montgolfières",
+   "Fête populaire"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Rassemblement de montgolfières tous les deux ans sur l'aérodrome de Chambley, en Lorraine.",
+  "official": "https://www.pilatre-de-rozier.com/lmab/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.pilatre-de-rozier.com/lmab/en/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'événement est biennal ; aucune date 2027 n'a été relevée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Mondial Air Ballons"
+ },
+ {
+  "slug": "montpellier-danse",
+  "name": "Montpellier Danse",
+  "city": "Montpellier",
+  "country": "France",
+  "region": "Occitanie",
+  "venue": "Plusieurs lieux à Montpellier",
+  "maps_q": "Plusieurs lieux à Montpellier Montpellier",
+  "genres": [
+   "Danse"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de danse contemporaine : environ 24 jours et 125 événements en juin-juillet d'après l'office de tourisme.",
+  "official": "https://www.montpellier-france.com/discover/festive/not-to-miss-events/montpellier-danse-festival/",
+  "sources": [
+   [
+    "Office de tourisme de Montpellier",
+    "https://www.montpellier-france.com/discover/festive/not-to-miss-events/montpellier-danse-festival/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'office de tourisme annonce « juin-juillet 2027 » sans dates précises.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "les-nuits-secretes",
+  "name": "Les Nuits Secrètes",
+  "city": "Aulnoye-Aymeries",
+  "country": "France",
+  "region": "Hauts-de-France",
+  "venue": "Aulnoye-Aymeries",
+  "maps_q": "Aulnoye-Aymeries Aulnoye-Aymeries",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Électro"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de découvertes musicales à Aulnoye-Aymeries, dans le Nord.",
+  "official": "https://www.lesnuitssecretes.com/",
+  "sources": [
+   [
+    "Agrégateur : 23-25 juillet 2027 (non officiel)",
+    "https://www.raveparty.fr/en/festival/les-nuits-secretes"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : des sites agrégateurs annoncent du 23 au 25 juillet 2027, non vérifié sur le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-de-saint-denis",
+  "name": "Festival de Saint-Denis",
+  "city": "Saint-Denis",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Basilique de Saint-Denis",
+  "maps_q": "Basilique de Saint-Denis Saint-Denis",
+  "genres": [
+   "Musique classique"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique classique à la basilique de Saint-Denis et dans d'autres lieux de la ville.",
+  "official": "https://festival-saint-denis.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://festival-saint-denis.com/"
+   ]
+  ],
+  "status_note": "Le site officiel annonce un début le 3 juin 2027 ; la date de fin n'a pas été relevée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "gent-jazz",
+  "name": "Gent Jazz",
+  "city": "Gand",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Bijloke, Gand",
+  "maps_q": "Bijloke, Gand Gand",
+  "genres": [
+   "Jazz",
+   "Soul",
+   "Rock"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "1 – 17 juillet 2027",
+  "iso": [
+   "2027-07-01",
+   "2027-07-17"
+  ],
+  "about": "Festival de jazz et de musiques apparentées à Gand.",
+  "official": "https://www.gentjazz.com/en",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.gentjazz.com/en"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel. Premiers noms annoncés le 26 octobre 2026.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "lineup": [
+   "Thundercat",
+   "Gregory Porter",
+   "Robert Plant",
+   "Kamasi Washington",
+   "Tinariwen"
+  ],
+  "lineup_note": "Premiers noms annoncés par le festival pour 2027.",
+  "last_label": "Programmation 2027 (partielle)"
+ },
+ {
+  "slug": "les-nuits-botanique",
+  "name": "Les Nuits Botanique",
+  "city": "Bruxelles",
+  "country": "Belgique",
+  "region": "Bruxelles-Capitale",
+  "venue": "Le Botanique, Bruxelles",
+  "maps_q": "Le Botanique, Bruxelles Bruxelles",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Indie"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "15 – 30 mai 2027",
+  "iso": [
+   "2027-05-15",
+   "2027-05-30"
+  ],
+  "about": "Festival du Botanique, au cœur de Bruxelles, depuis 1988. 34e édition en 2027.",
+  "official": "https://www.lesnuits.be/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.lesnuits.be/"
+   ],
+   [
+    "Botanique",
+    "https://botanique.be/en/project/les-nuits-botanique"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le Botanique.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "lineup": [
+   "Maruja",
+   "Gang of Four"
+  ],
+  "lineup_note": "Premiers noms annoncés par le festival pour 2027.",
+  "last_label": "Programmation 2027 (partielle)"
+ },
+ {
+  "slug": "festival-mythos",
+  "name": "Festival Mythos",
+  "city": "Rennes",
+  "country": "France",
+  "region": "Bretagne",
+  "venue": "Rennes Métropole",
+  "maps_q": "Rennes Métropole Rennes",
+  "genres": [
+   "Arts de la parole",
+   "Chanson",
+   "Théâtre"
+  ],
+  "mois": [
+   "avril"
+  ],
+  "dates": "8 – 18 avril 2027",
+  "iso": [
+   "2027-04-08",
+   "2027-04-18"
+  ],
+  "about": "Festival des arts de la parole à Rennes et dans la métropole.",
+  "official": "https://www.festival-mythos.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festival-mythos.com/"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "rio-loco",
+  "name": "Rio Loco",
+  "city": "Toulouse",
+  "country": "France",
+  "region": "Occitanie",
+  "venue": "Prairie des Filtres, Toulouse",
+  "maps_q": "Prairie des Filtres, Toulouse Toulouse",
+  "genres": [
+   "Musiques du monde",
+   "Musiques actuelles"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musiques actuelles et du monde sur la Prairie des Filtres, à Toulouse.",
+  "official": "https://rio-loco.org/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://rio-loco.org/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le site officiel affiche « du 11 au 15 juin » et « du 10 au 14 juin » sans année lisible dans l'extrait relevé.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-radio-france-montpellier",
+  "name": "Festival Radio France Occitanie Montpellier",
+  "city": "Montpellier",
+  "country": "France",
+  "region": "Occitanie",
+  "venue": "Plusieurs lieux à Montpellier",
+  "maps_q": "Plusieurs lieux à Montpellier Montpellier",
+  "genres": [
+   "Musique classique",
+   "Jazz"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique classique et de jazz à Montpellier, organisé en juillet.",
+  "official": "https://www.montpellier-france.com/discover/festive/not-to-miss-events/festival-radio-france-occitanie-montpellier/",
+  "sources": [
+   [
+    "Office de tourisme de Montpellier",
+    "https://www.montpellier-france.com/discover/festive/not-to-miss-events/festival-radio-france-occitanie-montpellier/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'office de tourisme annonce une prochaine édition en juillet 2027, sans dates précises.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Festival Radio France Montpellier"
+ },
+ {
+  "slug": "cactus-festival",
+  "name": "Cactus Festival",
+  "city": "Bruges",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Minnewaterpark, Bruges",
+  "maps_q": "Minnewaterpark, Bruges Bruges",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Folk"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique en plein cœur de Bruges.",
+  "official": "https://www.cactusmusic.be/",
+  "sources": [
+   [
+    "Agrégateur : 9-11 juillet 2027 (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/cactus-festival-2027/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : des sites agrégateurs annoncent du 9 au 11 juillet 2027, non vérifié sur le site officiel.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-de-gerardmer",
+  "name": "Festival international du film fantastique de Gérardmer",
+  "city": "Gérardmer",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Gérardmer",
+  "maps_q": "Gérardmer Gérardmer",
+  "genres": [
+   "Cinéma"
+  ],
+  "mois": [
+   "janvier"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival consacré au cinéma fantastique, d'horreur et de science-fiction, à Gérardmer depuis 1994.",
+  "official": "https://www.festival-gerardmer.com/",
+  "sources": [
+   [
+    "Wikipédia",
+    "https://en.wikipedia.org/wiki/Festival_international_du_film_fantastique_de_G%C3%A9rardmer"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le festival se tient en général la dernière semaine de janvier.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Festival de Gérardmer"
+ },
+ {
+  "slug": "festival-la-rochelle-cinema",
+  "name": "Festival La Rochelle Cinéma",
+  "city": "La Rochelle",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "La Rochelle",
+  "maps_q": "La Rochelle La Rochelle",
+  "genres": [
+   "Cinéma"
+  ],
+  "mois": [
+   "juin",
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de cinéma de patrimoine et de création, organisé depuis 1973 en début d'été à La Rochelle.",
+  "official": "https://festival-larochelle.org/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://festival-larochelle.org/en/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : la 54e édition s'est tenue du 26 juin au 4 juillet 2026 ; la suivante n'est pas annoncée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "La Rochelle Cinéma"
+ },
+ {
+  "slug": "cinemed",
+  "name": "Cinemed",
+  "city": "Montpellier",
+  "country": "France",
+  "region": "Occitanie",
+  "venue": "Plusieurs lieux à Montpellier",
+  "maps_q": "Plusieurs lieux à Montpellier Montpellier",
+  "genres": [
+   "Cinéma"
+  ],
+  "mois": [
+   "octobre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival international du cinéma méditerranéen de Montpellier, fondé en 1979.",
+  "official": "https://www.montpellier-france.com/discover/festive/not-to-miss-events/the-cinemed/",
+  "sources": [
+   [
+    "Office de tourisme de Montpellier",
+    "https://www.montpellier-france.com/discover/festive/not-to-miss-events/the-cinemed/"
+   ]
+  ],
+  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'office de tourisme annonce une prochaine édition en octobre 2027, sans dates précises.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ }
+]

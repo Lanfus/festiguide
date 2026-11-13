@@ -45,6 +45,10 @@ def prix_num(f):
     return p
 
 
+def fmt_n(n):
+    return f"{int(n):,}".replace(",", "\u202f")
+
+
 def duree(f):
     from datetime import date
     if not f.get("iso"):
@@ -150,7 +154,9 @@ def build(fests):
 
     # ---------- page d'accueil ----------
     cards = ""
-    for f in fests:
+    date_pos = {f["slug"]: i for i, f in enumerate(fests)}
+    by_size = sorted(fests, key=lambda f: (-(f.get("visiteurs") or 0), date_pos[f["slug"]]))
+    for f in by_size:
         tags = "".join(f'<span class="tag">{esc(g)}</span>' for g in (f.get("genres") or [])[:4])
         searchable = " ".join(filter(None, [f["name"], f.get("city"), f.get("region"), f.get("venue")]))
         badge = "ok" if f.get("status") == "Dates annoncées" else "warn"
@@ -158,14 +164,15 @@ def build(fests):
         pn = prix_num(f)
         cd = f'<span class="cd" data-start="{f["iso"][0]}" data-end="{f["iso"][1]}"></span>' if f.get("iso") else ""
         free = '<span class="badge free">Gratuit</span>' if is_free(f) else ""
-        cards += f'''<article class="card" data-i="{len(cards.split("</article>")) - 1}" data-price="{"" if pn is None else pn}" data-free="{1 if is_free(f) else 0}" data-name="{esc(norm(searchable))}" data-mois="{esc(" ".join(f.get("mois") or []))}" data-region="{esc(f.get("region") or "")}" data-genres="{esc("|".join(f.get("genres") or []))}">
+        visit = f'<p class="meta">👥 environ {fmt_n(f["visiteurs"])} visiteurs</p>\n  ' if f.get("visiteurs") else ""
+        cards += f'''<article class="card" data-i="{len(cards.split("</article>")) - 1}" data-d="{date_pos[f["slug"]]}" data-visit="{f.get("visiteurs") or ""}" data-price="{"" if pn is None else pn}" data-free="{1 if is_free(f) else 0}" data-name="{esc(norm(searchable))}" data-mois="{esc(" ".join(f.get("mois") or []))}" data-region="{esc(f.get("region") or "")}" data-genres="{esc("|".join(f.get("genres") or []))}">
   <div class="card-top"><span class="pill">{esc(" / ".join(m.capitalize() for m in (f.get("mois") or ["Date à venir"])))}</span><span class="country">{esc(f.get("region") or f.get("country"))}</span></div>
   <p class="cdline">{cd}{free}</p>
   <h3><a href="{f["slug"]}.html">{esc(f["name"])}</a></h3>
   <p class="meta">📍 {esc(f.get("city") or "")}</p>
   <p class="meta">📅 {esc(f.get("dates") or "À confirmer")} <span class="badge {badge}">{esc(f.get("status") or "")}</span></p>
   <p class="tags">{tags}</p>
-  <p class="price">🎫 {esc(prix)}</p>
+  {visit}<p class="price">🎫 {esc(prix)}</p>
   <a class="btn" href="{f["slug"]}.html">Voir la fiche</a>
 </article>
 '''
@@ -187,7 +194,7 @@ def build(fests):
     idx += f'''<main>
 <section class="hero"><div class="wrap">
 <h1>Les grands festivals, au même endroit</h1>
-<p>Dates, lieux, prix, artistes et plans : {len(fests)} festivals de France et de Belgique, dont {nb_annonces} aux dates déjà confirmées.</p>
+<p>Dates, lieux, prix, artistes et plans : {len(fests)} festivals de France et de Belgique, dont {nb_annonces} aux dates déjà confirmées. Classés par fréquentation publiée, des plus gros aux plus petits.</p>
 <ul class="stats">
 <li><b>{len(fests)}</b><span>festivals</span></li>
 <li><b>{nb_annonces}</b><span>dates confirmées</span></li>
@@ -201,7 +208,7 @@ def build(fests):
 <select id="region" aria-label="Région"><option value="">Toutes les régions</option>{opt(regions)}</select>
 <select id="genre" aria-label="Genre"><option value="">Tous les genres</option>{opt(genres)}</select>
 <select id="budget" aria-label="Budget"><option value="">Tous les budgets</option><option value="free">Entrée libre</option><option value="30">Dès 30 € ou moins</option><option value="80">Dès 80 € ou moins</option></select>
-<select id="tri" aria-label="Trier"><option value="date">Tri : prochaine édition</option><option value="prix">Tri : prix croissant</option><option value="az">Tri : A → Z</option></select>
+<select id="tri" aria-label="Trier"><option value="gros">Tri : les plus gros d'abord</option><option value="date">Tri : prochaine édition</option><option value="prix">Tri : prix croissant</option><option value="az">Tri : A → Z</option></select>
 </section>
 <section class="wrap quick" aria-label="Raccourcis">
 <div class="months" role="group" aria-label="Filtrer par mois">{months_html}</div>
@@ -212,7 +219,7 @@ def build(fests):
 {cards}</div>
 <p id="empty" class="empty" hidden>Aucun festival ne correspond à ta recherche. <button type="button" id="reset" class="linkbtn">Tout afficher</button></p></section>
 <section class="wrap note"><h2>Comment lire ces infos</h2>
-<p>Les festivals sont classés par date de la <strong>prochaine édition</strong>. Quand les dates ne sont pas encore officielles, la fiche affiche le mois habituel et la mention « Dates à confirmer ».</p>
+<p>Par défaut, les festivals sont classés du plus gros au moins gros d'après la <strong>fréquentation publiée</strong> de leur dernière édition (chaque fiche cite le chiffre, l'édition et la source). Ceux dont aucun chiffre fiable n'a été trouvé sont placés après, par date. Le tri « prochaine édition » les classe par date. Quand les dates ne sont pas encore officielles, la fiche affiche le mois habituel et la mention « Dates à confirmer ».</p>
 <p>Les prix et les affiches sont souvent ceux de la <strong>dernière édition connue</strong>, car peu de festivals publient leurs tarifs un an à l'avance. Chaque fiche précise l'édition de référence et cite ses sources.</p>
 </section>
 </main>
@@ -262,7 +269,9 @@ def build(fests):
 <li><small>Durée</small><b>{(str(dj) + (" jours" if dj > 1 else " jour")) if dj else "À confirmer"}</b></li>
 <li><small>Budget</small><b>{esc(f.get("price_label") or "Non publié")}</b></li>
 <li><small>Où</small><b>{esc(f.get("city") or "")}</b></li>
+{('<li><small>Fréquentation</small><b>≈ ' + fmt_n(f["visiteurs"]) + '</b></li>') if f.get("visiteurs") else ""}
 </ul>
+{('<p class="small">Fréquentation : ' + esc(f.get("visiteurs_note") or "") + '</p>') if f.get("visiteurs") else ""}
 <p class="actions">{('<a class="btn ghost" href="' + f["slug"] + '.ics" download>📅 Ajouter à mon agenda</a>') if f.get("iso") else ""}<button type="button" class="btn ghost share-btn" data-title="{esc(f["name"])}">🔗 Partager</button><span class="small share-msg" aria-live="polite"></span></p>'''
         if f.get("iso"):
             (OUT / f'{f["slug"]}.ics').write_text(ics(f), encoding="utf-8", newline="")
@@ -669,6 +678,7 @@ JS = r'''
   function sortCards() {
     var k = tri.value;
     var list = cards.slice().sort(function (a, b) {
+      if (k === 'date') return a.dataset.d - b.dataset.d;
       if (k === 'az') return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent, 'fr');
       if (k === 'prix') {
         var pa = a.dataset.price === '' ? 1e9 : parseFloat(a.dataset.price), pb = b.dataset.price === '' ? 1e9 : parseFloat(b.dataset.price);

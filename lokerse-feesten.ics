@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:lokerse-feesten-20270730@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270809
+SUMMARY:Lokerse Feesten
+LOCATION:Lokeren
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/lokerse-feesten.html
+URL:https://www.lokersefeesten.be/
+END:VEVENT
+END:VCALENDAR

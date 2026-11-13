@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-mythos-20270408@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270419
+SUMMARY:Festival Mythos
+LOCATION:Rennes Métropole
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-mythos.html
+URL:https://www.festival-mythos.com/
+END:VEVENT
+END:VCALENDAR

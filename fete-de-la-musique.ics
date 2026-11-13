@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:fete-de-la-musique-20270621@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:Fête de la Musique
+LOCATION:Partout en France
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/fete-de-la-musique.html
+URL:https://fetedelamusique.culture.gouv.fr/
+END:VEVENT
+END:VCALENDAR
