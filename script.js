@@ -1,5 +1,26 @@
+// Cartes : rien n'est demandé à Google tant que le visiteur n'a pas cliqué.
+(function () {
+  var wrap = document.querySelector('.map-wrap');
+  if (!wrap) return;
+  var btn = wrap.querySelector('.map-btn');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var src = wrap.getAttribute('data-map-src');
+    if (!src) return;
+    var frame = document.createElement('iframe');
+    frame.className = 'map';
+    frame.setAttribute('title', wrap.getAttribute('data-map-title') || 'Carte');
+    frame.setAttribute('loading', 'lazy');
+    frame.setAttribute('referrerpolicy', 'no-referrer');
+    frame.setAttribute('src', src);
+    wrap.innerHTML = '';
+    wrap.appendChild(frame);
+  });
+})();
+
 (function () {
   var q = document.getElementById('q');
+  if (!q) return;
   var mois = document.getElementById('mois');
   var region = document.getElementById('region');
   var genre = document.getElementById('genre');
