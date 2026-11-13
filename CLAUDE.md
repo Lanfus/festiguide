@@ -1,6 +1,6 @@
 # FestiGuide — notes pour Claude
 
-Annuaire de 38 grands festivals (France, plus Les Ardentes en Belgique). Site statique publié par GitHub Pages sur https://lanfus.github.io/festiguide/
+Annuaire de 43 grands festivals (France, plus Les Ardentes et Dour en Belgique). Site statique publié par GitHub Pages sur https://lanfus.github.io/festiguide/
 
 Projet personnel de Florent H. (GitHub : Lanfus). Objectif : servir de preuve de compétences SEO / CRM pour sa recherche d'alternance en e-commerce. Donc le référencement et la qualité des données comptent plus que la sophistication technique.
 
@@ -12,7 +12,7 @@ Toute correction de contenu (date, prix, artiste, nouveau festival) se fait dans
 
 ```bash
 python3 src/check.py src/festivals.json /tmp/ok.json   # valide les données
-python3 src/build.py src/festivals.json .              # régénère les 42 pages à la racine
+python3 src/build.py src/festivals.json .              # régénère les 47 pages à la racine
 ```
 
 `check.py` normalise les mois, vérifie les sources, rejette les dates ISO passées ou incohérentes et signale les doublons. `build.py` trie les festivals par date de prochaine édition, génère l'accueil, une fiche par festival, les trois pages légales, `sitemap.xml` et `robots.txt`.
@@ -47,12 +47,12 @@ Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une val
 
 ## Vérifications avant de publier
 
-1. Liens internes et balises équilibrées sur les 42 pages.
+1. Liens internes et balises équilibrées sur les 47 pages.
 2. `script.js` s'évalue sans erreur, `sitemap.xml` est un XML valide, chaque bloc JSON-LD parse.
 3. Avec Playwright : aucune requête externe et aucun cookie avant le clic sur la carte, filtres de l'accueil fonctionnels, pas de scroll horizontal à 390 px de large.
 
 ## État au 13 novembre 2026
 
-28 festivals sur 38 ont des dates confirmées, les 10 autres sont marqués à confirmer. Cas particuliers déjà traités, à ne pas « corriger » par erreur : Rock en Seine ne se tient pas en 2027 (pause, retour en août 2028), Lollapalooza Paris n'est pas confirmé pour 2027, Solidays 2026 a été annulé pour canicule, Delta Festival et Download France ont été volontairement exclus car ils n'existent plus.
+29 festivals sur 43 ont des dates confirmées, les 14 autres sont marqués à confirmer. Cas particuliers déjà traités, à ne pas « corriger » par erreur : Rock en Seine ne se tient pas en 2027 (pause, retour en août 2028), Lollapalooza Paris n'est pas confirmé pour 2027, Solidays 2026 a été annulé pour canicule, Delta Festival et Download France ont été volontairement exclus car ils n'existent plus. Ajoutés le 13 novembre 2026 : Trans Musicales (2–6 déc. 2026), Dour, Art Rock, Terres du Son, Carcassonne. Pour les quatre derniers, les dates 2027 ne sont pas confirmées par une source officielle (Dour 7–11 juillet et Art Rock 14–16 mai circulent mais restent à vérifier) : ne pas passer `iso` tant qu'un communiqué officiel ne les confirme pas. Les sites officiels n'étaient pas consultables depuis la session de recherche.
 
 À faire ensuite : brancher Google Search Console et soumettre le sitemap, puis ajouter un guide pratique des festivals écrit depuis l'expérience de Florent en sécurité événementielle (Solidays, We Love Green, Dream Nation…), qui est l'angle que les gros sites concurrents ne peuvent pas copier.

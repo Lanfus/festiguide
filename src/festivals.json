@@ -3168,5 +3168,307 @@
   "name": "Festival de Nîmes",
   "city": "Nîmes (Gard)",
   "country": "France"
+ },
+ {
+  "region": "Bretagne",
+  "venue": "Rennes et Bruz (Parc des Expositions), plus salles du centre-ville",
+  "maps_q": "Parc Expo Rennes Aéroport Bruz",
+  "genres": [
+   "Musiques actuelles",
+   "Électro",
+   "Rock",
+   "Rap",
+   "Découvertes"
+  ],
+  "mois": [
+   "décembre"
+  ],
+  "dates": "2 – 6 décembre 2026",
+  "iso": [
+   "2026-12-02",
+   "2026-12-06"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates relevées sur la fiche du comité régional du tourisme de Bretagne. Le lieu exact des grands concerts n'y est pas précisé : l'édition 2025 se tenait entre le centre de Rennes et le Parc Expo à Bruz, à une dizaine de kilomètres.",
+  "price_from": null,
+  "price_label": "Tarifs publics 2026 non relevés",
+  "prices": [
+   [
+    "Accréditation pro, 1 jour (édition 2025)",
+    "41 à 53 €"
+   ],
+   [
+    "Accréditation pro, 3 jours (édition 2025)",
+    "124 €"
+   ],
+   [
+    "Soirée d'ouverture, Salle de la Cité (édition 2025)",
+    "14 €"
+   ],
+   [
+    "Concerts à L'Aire Libre (édition 2025)",
+    "12 €"
+   ]
+  ],
+  "prices_note": "Aucun tarif public 2026 n'a été trouvé. Les prix ci-dessus viennent du livret pro de l'édition 2025 : ce sont des accréditations professionnelles et des salles annexes, pas le prix des grandes soirées au Parc Expo. Les concerts du Liberté étaient en entrée libre en 2025. Consulter la billetterie officielle.",
+  "last_label": "Édition 2025",
+  "last_dates": "3 – 7 décembre 2025",
+  "lineup": [],
+  "lineup_note": "Programmation 2026 non relevée. Le festival se présente comme un défricheur de talents depuis 1979 : les artistes y passent souvent avant d'être connus.",
+  "about": "Rendez-vous de décembre à Rennes consacré à la découverte : le festival programme des artistes émergents des musiques actuelles, avec des concerts publics et un volet professionnel (rencontres, conférences-concerts).",
+  "access": [
+   "Parc Expo à Bruz, à une dizaine de kilomètres du centre de Rennes (édition 2025)",
+   "Consulter l'itinéraire et les navettes sur le site officiel pour l'édition 2026"
+  ],
+  "tips": [
+   "Décembre en Bretagne : prévoir des vêtements chauds, une partie des trajets se fait à pied entre les lieux",
+   "Vérifier quel lieu accueille quel concert avant de réserver : l'événement se répartit sur plusieurs salles"
+  ],
+  "official": "https://www.lestrans.com",
+  "sources": [
+   [
+    "Tourisme Bretagne : Les Trans Musicales",
+    "https://www.tourismebretagne.com/selon-mes-envies/culture-et-patrimoine/les-grands-evenements/les-trans-musicales/"
+   ],
+   [
+    "Les Trans : livret pro et médias, édition 2025",
+    "https://www.lestrans.com/wp-content/uploads/2025/11/trans2025-livret-pro-et-medias.pdf"
+   ]
+  ],
+  "slug": "les-trans-musicales",
+  "name": "Les Trans Musicales de Rennes",
+  "city": "Rennes (Ille-et-Vilaine)",
+  "country": "France"
+ },
+ {
+  "region": "Wallonie",
+  "venue": "Dour, province de Hainaut, près de la frontière française",
+  "maps_q": "Dour Festival, Dour, Belgique",
+  "genres": [
+   "Électro",
+   "Rap",
+   "Rock",
+   "Reggae",
+   "Musiques alternatives"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "Dates 2027 à confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Un site spécialisé (Techno Airlines) indique du 7 au 11 juillet 2027 et dit tenir ces dates du site officiel, mais je n'ai pas pu consulter dourfestival.eu ni trouver de communiqué daté. Elles sont donc à vérifier avant tout achat.",
+  "price_from": null,
+  "price_label": "Tarifs 2027 non publiés",
+  "prices": [],
+  "prices_note": "Aucun prix 2027 relevé. Les formules habituelles sont le pass cinq jours, le billet à la journée ou au week-end, le pass VIP et les formules avec camping. Une phase de prévente « Wave 0 » est annoncée, sans date vérifiée.",
+  "last_label": "Édition 2026",
+  "last_dates": "15 – 19 juillet 2026",
+  "lineup": [],
+  "lineup_note": "Aucun artiste 2027 annoncé à ma connaissance. La presse belge (DH) a rapporté 220 000 participants pour l'édition 2026.",
+  "about": "Grand festival belge de cinq jours dans le Hainaut, à une cinquantaine de kilomètres de Lille. Il mêle électro, rap, rock et musiques alternatives, avec un camping sur place.",
+  "access": [
+   "Aéroport le plus proche : Lille (LIL), à environ 52 km",
+   "Navettes depuis la gare de Quiévrain jusqu'au site (selon Techno Airlines, à confirmer sur le site officiel)"
+  ],
+  "tips": [
+   "Cinq jours en plein air : prévoir bouchons d'oreilles, eau et protection solaire",
+   "Surveiller la billetterie officielle : les premières vagues partent souvent bien avant l'été"
+  ],
+  "official": "https://www.dourfestival.eu",
+  "sources": [
+   [
+    "Techno Airlines : Dour Festival 2027",
+    "https://www.technoairlines.com/festival/dour-festival-dour-belgium-2027"
+   ],
+   [
+    "DH : bilan de l'édition 2026 (220 000 participants)",
+    "https://www.dhnet.be/dernieres-depeches/2026/07/20/le-dour-festival-a-accueilli-220000-participants-5BYEGTXRZRGOLLVQKKAIX7NATE/"
+   ],
+   [
+    "Visit Wallonia : Dour Festival",
+    "https://visitwallonia.com/en-gb/119/blog/wallonia-art-everywhere/dour-festival-one-of-the-most-varied-festivals-in-belgium/3250"
+   ]
+  ],
+  "slug": "dour-festival",
+  "name": "Dour Festival",
+  "city": "Dour (Hainaut)",
+  "country": "Belgique"
+ },
+ {
+  "region": "Bretagne",
+  "venue": "Centre-ville de Saint-Brieuc et La Passerelle",
+  "maps_q": "La Passerelle, Saint-Brieuc",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Électro",
+   "Hip-hop",
+   "Arts de la rue"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "Dates 2027 à confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Un agenda local (JDS) indique du 14 au 16 mai 2027, week-end de Pentecôte, mais précise que ces dates restent à confirmer par les organisateurs. Pas de communiqué officiel consulté.",
+  "price_from": null,
+  "price_label": "Tarifs 2027 non publiés",
+  "prices": [],
+  "prices_note": "Aucun tarif 2027 relevé. La billetterie se fait en ligne et sur place selon l'agenda consulté.",
+  "last_label": "Édition 2026",
+  "last_dates": "",
+  "lineup": [
+   "Disiz",
+   "The Kooks",
+   "Babyshambles",
+   "Véronique Sanson",
+   "Last Train",
+   "Gaëtan Roussel"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms issus de la couverture presse de l'édition 2026 (Sortiraparis). Un bilan relayé par info.fr évoque environ 81 000 festivaliers.",
+  "about": "Festival de centre-ville à Saint-Brieuc, autour du week-end de Pentecôte : grande scène en plein air, salle de La Passerelle pour des concerts plus intimistes, arts de la rue et village gourmand.",
+  "access": [
+   "Festival au cœur de la ville : privilégier les parkings publics et suivre le plan de circulation officiel"
+  ],
+  "tips": [
+   "Le week-end de Pentecôte, réserver l'hébergement tôt : la ville est très fréquentée",
+   "Les horaires des concerts sont publiés à l'approche de l'événement"
+  ],
+  "official": "https://artrock.org",
+  "sources": [
+   [
+    "JDS : Festival Art Rock 2027",
+    "https://www.jds.fr/saint-brieuc/manifestations/festival/festival-art-rock-2027-1598540_A"
+   ],
+   [
+    "Sortiraparis : programme Art Rock 2026",
+    "https://www.sortiraparis.com/en/getaways-from-paris/northwest/articles/50646-art-rock-festival-program"
+   ],
+   [
+    "info.fr : bilan d'Art Rock",
+    "https://info.fr/babyshambles-art-rock-saint-brieuc-concert-bilan/"
+   ]
+  ],
+  "slug": "art-rock",
+  "name": "Art Rock",
+  "city": "Saint-Brieuc (Côtes-d'Armor)",
+  "country": "France"
+ },
+ {
+  "region": "Centre-Val de Loire",
+  "venue": "Domaine de Candé, Monts",
+  "maps_q": "Domaine de Candé, Monts",
+  "genres": [
+   "Pop",
+   "Chanson",
+   "Rap",
+   "Électro"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "Dates 2027 à confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Aucune annonce d'édition 2027 trouvée. L'édition 2026 a eu lieu du 10 au 12 juillet au Domaine de Candé ; l'événement se tient en général en juillet.",
+  "price_from": null,
+  "price_label": "Tarifs non relevés",
+  "prices": [],
+  "prices_note": "Le communiqué de l'édition 2026 mentionne des pass 1, 2 et 3 jours à tarif normal ou réduit, sans donner les prix. Aucun tarif 2027 publié.",
+  "last_label": "Édition 2026",
+  "last_dates": "10 – 12 juillet 2026",
+  "lineup": [
+   "Julien Doré",
+   "Feu! Chatterton",
+   "Rilès",
+   "Ofenbach",
+   "Superbus",
+   "Suzane",
+   "Skip The Use",
+   "Georgio"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Extrait des 14 premiers noms de l'édition 2026 communiqués par l'organisation ; la programmation complète a été publiée en plusieurs vagues.",
+  "about": "Festival de trois jours dans le parc du Domaine de Candé, près de Tours, avec une programmation grand public qui croise chanson, pop, rap et électro.",
+  "access": [
+   "Domaine de Candé, à Monts, au sud de Tours : consulter les navettes et parkings sur le site officiel"
+  ],
+  "tips": [
+   "Les ventes de l'édition 2026 ont ouvert fin novembre 2025 : surveiller la même période pour 2027",
+   "Trois jours en extérieur en juillet : prévoir chapeau, eau et protections auditives"
+  ],
+  "official": "https://www.terresduson.com",
+  "sources": [
+   [
+    "Terres du Son : communiqué de presse n°2, édition 2026",
+    "https://www.terresduson.com/wp-content/uploads/2025/11/CP2_TDS2026_27_11_2025.pdf"
+   ],
+   [
+    "Sortiraparis : Terres du Son 2026, programme par jour",
+    "https://www.sortiraparis.com/en/getaways-from-paris/northwest/articles/50648-terres-du-son-2026-in-monts-here-s-the-daily-lineup"
+   ]
+  ],
+  "slug": "terres-du-son",
+  "name": "Terres du Son",
+  "city": "Monts (Indre-et-Loire)",
+  "country": "France"
+ },
+ {
+  "region": "Occitanie",
+  "venue": "Théâtre Jean-Deschamps, Cité de Carcassonne",
+  "maps_q": "Théâtre Jean Deschamps, Carcassonne",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Chanson",
+   "Rap",
+   "Musique classique"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "Dates 2027 à confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Aucune annonce d'édition 2027 trouvée. L'édition 2026 s'est tenue l'été, avec des concerts « IN » au Théâtre Jean-Deschamps et un festival « OFF » dans les rues de la Bastide en juillet. Les dates exactes de chaque soirée n'ont pas été relevées.",
+  "price_from": null,
+  "price_label": "Tarifs non relevés",
+  "prices": [],
+  "prices_note": "L'office de tourisme indique que certains concerts sont gratuits et d'autres payants, sans fournir de tarif. Aucun prix 2027 publié.",
+  "last_label": "Édition 2026",
+  "last_dates": "",
+  "lineup": [
+   "Chris Isaak",
+   "Christophe Maé",
+   "Tom Odell",
+   "Franz Ferdinand",
+   "Booba"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Têtes d'affiche de l'édition 2026. Pour mémoire, 2025 comptait notamment Robert Plant, Alanis Morissette, Judas Priest, Soprano et Jean-Louis Aubert.",
+  "about": "Festival d'été dans la Cité médiévale de Carcassonne : concerts de têtes d'affiche dans le théâtre en plein air Jean-Deschamps, soirées documentaires au Château comtal et festival « OFF » dans la ville basse.",
+  "access": [
+   "Concerts IN au Théâtre Jean-Deschamps, dans la Cité",
+   "Soirées documentaires au Château comtal, 1 rue Viollet-le-Duc"
+  ],
+  "tips": [
+   "Les soirées documentaires d'ouverture étaient gratuites en 2026, mais sur réservation",
+   "Le festival OFF propose des animations gratuites en ville tout l'été : pratique pour compléter une soirée"
+  ],
+  "official": "https://www.festivaldecarcassonne.fr",
+  "sources": [
+   [
+    "Office de tourisme de Carcassonne : Festival de Carcassonne",
+    "https://www.tourisme-carcassonne.fr/en/highligths/carcassonne-festival/"
+   ],
+   [
+    "Sortiraparis : Carcassonne 2026, Booba rejoint l'affiche",
+    "https://www.sortiraparis.com/en/getaways-from-paris/southwest/articles/50328-carcassonne-festival-2026-booba-joins-the-lineup"
+   ]
+  ],
+  "slug": "festival-de-carcassonne",
+  "name": "Festival de Carcassonne",
+  "city": "Carcassonne (Aude)",
+  "country": "France"
  }
 ]

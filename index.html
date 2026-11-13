@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FestiGuide : 38 grands festivals en France (dates, prix, line-up)</title>
-<meta name="description" content="Les 38 plus gros festivals de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Musique, cinéma, théâtre, BD.">
+<title>FestiGuide : 43 grands festivals en France (dates, prix, line-up)</title>
+<meta name="description" content="Les 43 plus gros festivals de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Musique, cinéma, théâtre, BD.">
 <link rel="canonical" href="https://lanfus.github.io/festiguide/index.html">
-<meta property="og:title" content="FestiGuide : 38 grands festivals en France (dates, prix, line-up)">
-<meta property="og:description" content="Les 38 plus gros festivals de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Musique, cinéma, théâtre, BD.">
+<meta property="og:title" content="FestiGuide : 43 grands festivals en France (dates, prix, line-up)">
+<meta property="og:description" content="Les 43 plus gros festivals de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Musique, cinéma, théâtre, BD.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <link rel="stylesheet" href="style.css">
@@ -17,16 +17,25 @@
 <main>
 <section class="hero"><div class="wrap">
 <h1>Les grands festivals, au même endroit</h1>
-<p>Dates, lieux, prix, artistes et plans : 38 festivals de France et de Belgique, dont 28 aux dates déjà confirmées.</p>
+<p>Dates, lieux, prix, artistes et plans : 43 festivals de France et de Belgique, dont 29 aux dates déjà confirmées.</p>
 </div></section>
 <section class="wrap filters" aria-label="Filtres">
 <input id="q" type="search" placeholder="Rechercher un festival, une ville, une région…" aria-label="Rechercher">
 <select id="mois" aria-label="Mois"><option value="">Tous les mois</option><option>janvier</option><option>février</option><option>mars</option><option>avril</option><option>mai</option><option>juin</option><option>juillet</option><option>août</option><option>septembre</option><option>décembre</option></select>
 <select id="region" aria-label="Région"><option value="">Toutes les régions</option><option>Auvergne-Rhône-Alpes</option><option>Bourgogne-Franche-Comté</option><option>Bretagne</option><option>Centre-Val de Loire</option><option>Grand Est</option><option>Hauts-de-France</option><option>Île-de-France</option><option>Normandie</option><option>Nouvelle-Aquitaine</option><option>Occitanie</option><option>Pays de la Loire</option><option>Provence-Alpes-Côte d&#x27;Azur</option><option>Wallonie</option></select>
-<select id="genre" aria-label="Genre"><option value="">Tous les genres</option><option>Ambient</option><option>Art lumineux</option><option>Arts vivants</option><option>Bande dessinée</option><option>Batailles de fleurs</option><option>Blues</option><option>Carnaval</option><option>Chanson</option><option>Chanson francophone</option><option>Cinéma</option><option>Cinéma d&#x27;animation</option><option>Cirque</option><option>Cultures urbaines</option><option>Dancehall</option><option>Danse</option><option>Débats</option><option>Défilés</option><option>Drum &amp; bass</option><option>Écoresponsable</option><option>Électro</option><option>Expérimental</option><option>Expositions</option><option>Fest-noz</option><option>Fête populaire</option><option>Folk</option><option>Funk</option><option>Hard music</option><option>Hard rock</option><option>Hip-hop</option><option>House</option><option>Indie</option><option>Installations</option><option>Jazz</option><option>Manga</option><option>Marché professionnel</option><option>Metal</option><option>Musique classique</option><option>Musique contemporaine</option><option>Musiques actuelles</option><option>Musiques bretonnes</option><option>Musiques celtiques</option><option>Musiques du monde</option><option>Musiques extrêmes</option><option>Musiques urbaines</option><option>Opéra</option><option>Performance</option><option>Pluridisciplinaire</option><option>Pop</option><option>Pop-rock</option><option>Rap</option><option>Rock</option><option>Rock indé</option><option>Solidaire</option><option>Soul</option><option>Techno</option><option>Théâtre</option><option>Trance</option></select>
+<select id="genre" aria-label="Genre"><option value="">Tous les genres</option><option>Ambient</option><option>Art lumineux</option><option>Arts de la rue</option><option>Arts vivants</option><option>Bande dessinée</option><option>Batailles de fleurs</option><option>Blues</option><option>Carnaval</option><option>Chanson</option><option>Chanson francophone</option><option>Cinéma</option><option>Cinéma d&#x27;animation</option><option>Cirque</option><option>Cultures urbaines</option><option>Dancehall</option><option>Danse</option><option>Débats</option><option>Découvertes</option><option>Défilés</option><option>Drum &amp; bass</option><option>Écoresponsable</option><option>Électro</option><option>Expérimental</option><option>Expositions</option><option>Fest-noz</option><option>Fête populaire</option><option>Folk</option><option>Funk</option><option>Hard music</option><option>Hard rock</option><option>Hip-hop</option><option>House</option><option>Indie</option><option>Installations</option><option>Jazz</option><option>Manga</option><option>Marché professionnel</option><option>Metal</option><option>Musique classique</option><option>Musique contemporaine</option><option>Musiques actuelles</option><option>Musiques alternatives</option><option>Musiques bretonnes</option><option>Musiques celtiques</option><option>Musiques du monde</option><option>Musiques extrêmes</option><option>Musiques urbaines</option><option>Opéra</option><option>Performance</option><option>Pluridisciplinaire</option><option>Pop</option><option>Pop-rock</option><option>Rap</option><option>Reggae</option><option>Rock</option><option>Rock indé</option><option>Solidaire</option><option>Soul</option><option>Techno</option><option>Théâtre</option><option>Trance</option></select>
 </section>
 <section class="wrap"><p id="count" class="count"></p>
 <div class="grid" id="grid">
+<article class="card" data-name="les trans musicales de rennes rennes (ille-et-vilaine) bretagne rennes et bruz (parc des expositions), plus salles du centre-ville" data-mois="décembre" data-region="Bretagne" data-genres="Musiques actuelles|Électro|Rock|Rap|Découvertes">
+  <div class="card-top"><span class="pill">Décembre</span><span class="country">Bretagne</span></div>
+  <h3><a href="les-trans-musicales.html">Les Trans Musicales de Rennes</a></h3>
+  <p class="meta">📍 Rennes (Ille-et-Vilaine)</p>
+  <p class="meta">📅 2 – 6 décembre 2026 <span class="badge ok">Dates annoncées</span></p>
+  <p class="tags"><span class="tag">Musiques actuelles</span><span class="tag">Électro</span><span class="tag">Rock</span><span class="tag">Rap</span></p>
+  <p class="price">🎫 Tarifs publics 2026 non relevés</p>
+  <a class="btn" href="les-trans-musicales.html">Voir la fiche</a>
+</article>
 <article class="card" data-name="fete des lumieres lyon (rhone) auvergne-rhone-alpes tout lyon : 27 œuvres sur 20 sites (presqu&#x27;ile, fourviere, vieux-lyon, parc de la tete d&#x27;or…)" data-mois="décembre" data-region="Auvergne-Rhône-Alpes" data-genres="Art lumineux|Installations|Fête populaire">
   <div class="card-top"><span class="pill">Décembre</span><span class="country">Auvergne-Rhône-Alpes</span></div>
   <h3><a href="fete-des-lumieres-lyon.html">Fête des Lumières</a></h3>
@@ -279,6 +288,15 @@
   <p class="price">🎫 dès 94 € / jour (tarif plein 2026)</p>
   <a class="btn" href="rock-en-seine.html">Voir la fiche</a>
 </article>
+<article class="card" data-name="art rock saint-brieuc (cotes-d&#x27;armor) bretagne centre-ville de saint-brieuc et la passerelle" data-mois="mai" data-region="Bretagne" data-genres="Rock|Pop|Électro|Hip-hop|Arts de la rue">
+  <div class="card-top"><span class="pill">Mai</span><span class="country">Bretagne</span></div>
+  <h3><a href="art-rock.html">Art Rock</a></h3>
+  <p class="meta">📍 Saint-Brieuc (Côtes-d&#x27;Armor)</p>
+  <p class="meta">📅 Dates 2027 à confirmer <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Rock</span><span class="tag">Pop</span><span class="tag">Électro</span><span class="tag">Hip-hop</span></p>
+  <p class="price">🎫 Tarifs 2027 non publiés</p>
+  <a class="btn" href="art-rock.html">Voir la fiche</a>
+</article>
 <article class="card" data-name="solidays paris (hippodrome de longchamp) ile-de-france hippodrome de paris-longchamp, 2 route des tribunes, paris 16e" data-mois="juin" data-region="Île-de-France" data-genres="Rap|Pop|Électro|Solidaire">
   <div class="card-top"><span class="pill">Juin</span><span class="country">Île-de-France</span></div>
   <h3><a href="solidays.html">Solidays</a></h3>
@@ -350,6 +368,33 @@
   <p class="tags"><span class="tag">Théâtre</span><span class="tag">Arts vivants</span><span class="tag">Performance</span></p>
   <p class="price">🎫 dès 10 € le spectacle (tarif réduit 2026)</p>
   <a class="btn" href="festival-d-avignon.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="dour festival dour (hainaut) wallonie dour, province de hainaut, pres de la frontiere francaise" data-mois="juillet" data-region="Wallonie" data-genres="Électro|Rap|Rock|Reggae|Musiques alternatives">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Wallonie</span></div>
+  <h3><a href="dour-festival.html">Dour Festival</a></h3>
+  <p class="meta">📍 Dour (Hainaut)</p>
+  <p class="meta">📅 Dates 2027 à confirmer <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Électro</span><span class="tag">Rap</span><span class="tag">Rock</span><span class="tag">Reggae</span></p>
+  <p class="price">🎫 Tarifs 2027 non publiés</p>
+  <a class="btn" href="dour-festival.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="terres du son monts (indre-et-loire) centre-val de loire domaine de cande, monts" data-mois="juillet" data-region="Centre-Val de Loire" data-genres="Pop|Chanson|Rap|Électro">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Centre-Val de Loire</span></div>
+  <h3><a href="terres-du-son.html">Terres du Son</a></h3>
+  <p class="meta">📍 Monts (Indre-et-Loire)</p>
+  <p class="meta">📅 Dates 2027 à confirmer <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Pop</span><span class="tag">Chanson</span><span class="tag">Rap</span><span class="tag">Électro</span></p>
+  <p class="price">🎫 Tarifs non relevés</p>
+  <a class="btn" href="terres-du-son.html">Voir la fiche</a>
+</article>
+<article class="card" data-name="festival de carcassonne carcassonne (aude) occitanie theatre jean-deschamps, cite de carcassonne" data-mois="juillet" data-region="Occitanie" data-genres="Pop|Rock|Chanson|Rap|Musique classique">
+  <div class="card-top"><span class="pill">Juillet</span><span class="country">Occitanie</span></div>
+  <h3><a href="festival-de-carcassonne.html">Festival de Carcassonne</a></h3>
+  <p class="meta">📍 Carcassonne (Aude)</p>
+  <p class="meta">📅 Dates 2027 à confirmer <span class="badge warn">Dates à confirmer</span></p>
+  <p class="tags"><span class="tag">Pop</span><span class="tag">Rock</span><span class="tag">Chanson</span><span class="tag">Rap</span></p>
+  <p class="price">🎫 Tarifs non relevés</p>
+  <a class="btn" href="festival-de-carcassonne.html">Voir la fiche</a>
 </article>
 <article class="card" data-name="fete de l&#x27;humanite le plessis-pate (essonne) ile-de-france base aerienne 217, rue des fusilles-de-la-resistance, 91220 le plessis-pate" data-mois="septembre" data-region="Île-de-France" data-genres="Rock|Pop|Rap|Débats">
   <div class="card-top"><span class="pill">Septembre</span><span class="country">Île-de-France</span></div>
