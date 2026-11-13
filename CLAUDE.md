@@ -24,8 +24,9 @@ python3 src/build.py src/festivals.json .              # régénère les 47 page
 | `src/festivals.json` | **la source de vérité** : un objet par festival |
 | `src/build.py` | générateur (contient aussi le CSS et le JS, en bas du fichier) |
 | `src/check.py` | validation et fusion des données |
+| `src/og-image.html`, `src/og-image.png` | image de partage 1200x630 : le PNG est copié à la racine par `build.py`. Pour la refaire, capturer le HTML en 1200x630 avec Playwright |
 | `*.html`, `style.css`, `script.js` | **générés**, publiés par GitHub Pages |
-| `sitemap.xml`, `robots.txt` | générés |
+| `sitemap.xml`, `robots.txt`, `favicon.svg`, `og-image.png` | générés ou copiés par `build.py` |
 | `mentions-legales.html`, `confidentialite.html`, `cookies.html` | générés par `build_legal()` dans `build.py` |
 
 ## Contrat de données (un festival)
@@ -34,6 +35,7 @@ Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une val
 
 - `iso` : `["AAAA-MM-JJ", "AAAA-MM-JJ"]` seulement si les dates de la prochaine édition sont confirmées par une source, sinon `null`. `check.py` force `status` à « Dates à confirmer » quand `iso` est absent, et l'inverse.
 - `status` : exactement « Dates annoncées » ou « Dates à confirmer ».
+- `short` (facultatif) : nom court utilisé dans le `<title>` quand le nom complet le ferait dépasser 60 caractères (ex. Annecy). `make_title()` choisit le gabarit le plus complet qui tient en 60 caractères.
 - `mois` : minuscules accentuées (`"juin"`, `"août"`, `"décembre"`), sert aux filtres.
 - `prices` et `sources` : listes de paires `[libellé, valeur]`. Au moins une source en `http`, sinon le festival est signalé.
 - `prices_note` doit toujours dire de quelle édition viennent les tarifs.
@@ -45,9 +47,13 @@ Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une val
 - **Ne pas charger de ressource tierce automatiquement.** Les cartes Google Maps suivent le principe du double clic de la CNIL : `script.js` n'injecte l'iframe qu'après un clic sur « Afficher la carte ». Le site ne dépose donc aucun cookie et n'a pas besoin de bandeau de consentement. Si on ajoute un jour une mesure d'audience ou une newsletter, il faut un vrai bandeau **avant** tout dépôt de cookie, et mettre à jour `cookies.html` et `confidentialite.html`.
 - Ne pas ajouter de framework ni de dépendance : le site doit rester ouvrable en double-cliquant sur `index.html`.
 
+## SEO déjà en place
+
+Titres ≤ 60 caractères, descriptions 70–160, canonical, Open Graph + Twitter card avec `og-image.png`, favicon SVG, JSON-LD `BreadcrumbList` sur chaque fiche et `Festival` quand `iso` est renseigné, bloc « Autres festivals à découvrir » (4 liens par fiche, calculés par `related()` selon région, mois et genre), balise de vérification Google Search Console dans `head()` (ne pas la supprimer), sitemap soumis dans Search Console le 13 novembre 2026.
+
 ## Vérifications avant de publier
 
-1. Liens internes et balises équilibrées sur les 47 pages.
+1. Liens internes et balises équilibrées sur les 47 pages, aucun titre de plus de 60 caractères.
 2. `script.js` s'évalue sans erreur, `sitemap.xml` est un XML valide, chaque bloc JSON-LD parse.
 3. Avec Playwright : aucune requête externe et aucun cookie avant le clic sur la carte, filtres de l'accueil fonctionnels, pas de scroll horizontal à 390 px de large.
 

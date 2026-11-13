@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Génère le site FestiGuide à partir de festivals.json."""
-import html, json, sys, unicodedata
+import html, json, shutil, sys, unicodedata
 from pathlib import Path
 
 esc = lambda s: html.escape(str(s), quote=True)
@@ -29,6 +29,39 @@ def tri_key(f):
     return (1, f"{i:02d}")
 
 
+def make_title(f):
+    """Titre de page de 60 caractères maximum (au-delà, Google le coupe)."""
+    n = f.get("short") or f["name"]
+    for t in (f"{n} : dates, prix, line-up et accès | {SITE}", f"{n} : dates, prix et line-up | {SITE}",
+              f"{n} : dates, prix, line-up", f"{n} : dates et prix"):
+        if len(t) <= 60:
+            return t
+    return f"{n} | {SITE}"
+
+
+def related(f, fests, n=4):
+    """Festivals proches par région, mois et genre, pour le maillage interne.
+    À score égal, on prend les voisins dans l'ordre chronologique pour varier les liens."""
+    pos = {g["slug"]: i for i, g in enumerate(fests)}
+
+    def score(g):
+        s = 3 if g.get("region") and g.get("region") == f.get("region") else 0
+        s += 2 if set(g.get("mois") or []) & set(f.get("mois") or []) else 0
+        return s + len(set(g.get("genres") or []) & set(f.get("genres") or []))
+
+    cands = [g for g in fests if g["slug"] != f["slug"]]
+    cands.sort(key=lambda g: (-score(g), (pos[g["slug"]] - pos[f["slug"]]) % len(fests)))
+    return cands[:n]
+
+
+FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d28d9"/><stop offset=".55" stop-color="#db2777"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs>
+<rect width="64" height="64" rx="14" fill="url(#g)"/>
+<path d="M32 10l5.5 16.5L54 32l-16.5 5.5L32 54l-5.5-16.5L10 32l16.5-5.5z" fill="#fff"/>
+</svg>
+"""
+
+
 def head(title, desc, canonical, extra=""):
     return f'''<!DOCTYPE html>
 <html lang="fr">
@@ -39,10 +72,18 @@ def head(title, desc, canonical, extra=""):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{esc(canonical)}">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="{SITE}">
+<meta property="og:url" content="{esc(canonical)}">
+<meta property="og:image" content="{BASE_URL}/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{SITE} : dates, lieux, prix et line-up des grands festivals">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="style.css">
 {extra}</head>
 <body>
@@ -89,7 +130,7 @@ def build(fests):
     opt = lambda vals: "".join(f"<option>{esc(v)}</option>" for v in vals)
     nb_annonces = sum(1 for f in fests if f.get("status") == "Dates annoncées")
     idx = head(
-        f"{SITE} : {len(fests)} grands festivals en France (dates, prix, line-up)",
+        f"{len(fests)} grands festivals en France : dates, prix | {SITE}",
         f"Les {len(fests)} plus gros festivals de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Musique, cinéma, théâtre, BD.",
         f"{BASE_URL}/index.html")
     idx += f'''<main>
@@ -119,7 +160,10 @@ def build(fests):
 
     # ---------- fiches ----------
     for f in fests:
-        ld = ""
+        crumb_ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE_URL}/index.html"},
+            {"@type": "ListItem", "position": 2, "name": f["name"], "item": f'{BASE_URL}/{f["slug"]}.html'}]}
+        ld = '<script type="application/ld+json">' + json.dumps(crumb_ld, ensure_ascii=False) + "</script>\n"
         if f.get("iso"):
             data = {"@context": "https://schema.org", "@type": "Festival", "name": f["name"],
                     "startDate": f["iso"][0], "endDate": f["iso"][1],
@@ -130,10 +174,12 @@ def build(fests):
                                              "addressRegion": f.get("region"),
                                              "addressCountry": "BE" if f.get("country") == "Belgique" else "FR"}},
                     "url": f.get("official")}
-            ld = '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + "</script>\n"
+            ld += '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + "</script>\n"
         desc = f'{f["name"]} : {f.get("dates")}, {f.get("city")}. Prix, programmation, accès et site officiel.'
-        p = head(f'{f["name"]} : dates, prix, line-up et accès | {SITE}', desc,
-                 f'{BASE_URL}/{f["slug"]}.html', ld)
+        p = head(make_title(f), desc, f'{BASE_URL}/{f["slug"]}.html', ld)
+        voisins = "".join(
+            f'<li><a href="{g["slug"]}.html">{esc(g["name"])}</a><span class="small">{esc(g.get("city") or "")} · {esc(g.get("dates") or "Dates à confirmer")}</span></li>'
+            for g in related(f, fests))
         prices = f.get("prices") or []
         rows = "".join(f"<tr><td>{esc(a)}</td><td>{esc(b)}</td></tr>" for a, b in prices) \
             or '<tr><td colspan="2">Tarifs pas encore publiés pour la prochaine édition.</td></tr>'
@@ -148,7 +194,7 @@ def build(fests):
         official = f.get("official") or ""
         lien_off = f'<a class="btn" href="{esc(official)}" target="_blank" rel="noopener">Site officiel et billetterie ↗</a>' if official else '<p class="small">Site officiel non renseigné.</p>'
         p += f'''<main class="wrap fiche">
-<p class="crumb"><a href="index.html">← Tous les festivals</a></p>
+<nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(f["name"])}</span></nav>
 <h1>{esc(f["name"])}</h1>
 <p class="lead">{esc(f.get("about") or "")}</p>
 <div class="two">
@@ -186,6 +232,7 @@ def build(fests):
 <section class="box"><h2>Y aller</h2><ul>{acc}</ul></section>
 <section class="box"><h2>À savoir</h2><ul>{tips}</ul></section>
 </div>
+<section class="box"><h2>Autres festivals à découvrir</h2><ul class="rel">{voisins}</ul></section>
 <section class="box"><h2>Sources</h2><ul class="src">{src}</ul><p class="small">Mis à jour le {UPDATED}.</p></section>
 </main>
 {foot()}<script src="script.js"></script>
@@ -202,6 +249,10 @@ def build(fests):
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + urls + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
+    (OUT / "favicon.svg").write_text(FAVICON, encoding="utf-8")
+    og = Path(__file__).parent / "og-image.png"  # image de partage : source dans og-image.html
+    if og.exists() and og.resolve() != (OUT / "og-image.png").resolve():
+        shutil.copy(og, OUT / "og-image.png")
     return fests
 
 
@@ -417,7 +468,12 @@ a{color:var(--accent)}
 .note{margin:36px auto}
 .note h2{font-size:1.15rem}
 .fiche{padding-top:22px;padding-bottom:30px}
-.crumb{margin:0 0 6px}
+.crumb{margin:0 0 6px;font-size:.92rem;color:var(--muted)}
+.rel{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.rel li{background:#faf6ff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.rel a{font-weight:600;text-decoration:none;color:var(--violet)}
+.rel a:hover{text-decoration:underline}
+.rel .small{display:block;margin-top:2px}
 .fiche h1{margin:0 0 8px;font-size:clamp(1.7rem,4vw,2.4rem);color:var(--violet)}
 .fiche h1::after{content:"";display:block;width:84px;height:5px;border-radius:99px;margin-top:10px;background:var(--stripe)}
 .lead{color:var(--muted);font-size:1.05rem;max-width:760px}

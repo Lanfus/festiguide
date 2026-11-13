@@ -4,7 +4,7 @@ import json, re, sys, unicodedata
 from pathlib import Path
 
 REQ = ["slug", "name", "city", "country"]
-OPT = {"region": None, "venue": None, "maps_q": None, "genres": [], "mois": [], "dates": "À confirmer",
+OPT = {"short": "", "region": None, "venue": None, "maps_q": None, "genres": [], "mois": [], "dates": "À confirmer",
        "iso": None, "status": "Dates à confirmer", "status_note": "", "price_from": None,
        "price_label": "Tarifs non publiés", "prices": [], "prices_note": "", "last_label": "",
        "last_dates": "", "lineup": [], "lineup_note": "", "about": "", "access": [], "tips": [],
