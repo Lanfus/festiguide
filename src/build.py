@@ -188,12 +188,12 @@ def build(fests):
     opt = lambda vals: "".join(f"<option>{esc(v)}</option>" for v in vals)
     nb_annonces = sum(1 for f in fests if f.get("status") == "Dates annoncées")
     idx = head(
-        f"{len(fests)} grands festivals en France : dates, prix | {SITE}",
-        f"Les {len(fests)} plus gros festivals de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Musique, cinéma, théâtre, BD.",
+        f"{len(fests)} festivals de musique : dates, prix | {SITE}",
+        f"Les {len(fests)} plus gros festivals de musique de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Rock, électro, rap, jazz, metal.",
         f"{BASE_URL}/index.html")
     idx += f'''<main>
 <section class="hero"><div class="wrap">
-<h1>Les grands festivals, au même endroit</h1>
+<h1>Les festivals de musique, au même endroit</h1>
 <p>Dates, lieux, prix, artistes et plans : {len(fests)} festivals de France et de Belgique, dont {nb_annonces} aux dates déjà confirmées. Classés par fréquentation publiée, des plus gros aux plus petits.</p>
 <ul class="stats">
 <li><b>{len(fests)}</b><span>festivals</span></li>
