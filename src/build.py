@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Génère le site FestiGuide à partir de festivals.json."""
-import html, json, shutil, sys, unicodedata
+import hashlib, html, json, shutil, sys, unicodedata
 from pathlib import Path
 
 esc = lambda s: html.escape(str(s), quote=True)
@@ -84,7 +84,7 @@ def head(title, desc, canonical, extra=""):
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{SITE} : dates, lieux, prix et line-up des grands festivals">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v={CSS_V}">
 {extra}</head>
 <body>
 <header class="top"><div class="wrap"><a class="brand" href="index.html">🎪 {SITE}</a><nav><a href="index.html">Tous les festivals</a></nav></div></header>
@@ -153,7 +153,7 @@ def build(fests):
 <p>Les prix et les affiches sont souvent ceux de la <strong>dernière édition connue</strong>, car peu de festivals publient leurs tarifs un an à l'avance. Chaque fiche précise l'édition de référence et cite ses sources.</p>
 </section>
 </main>
-{foot()}<script src="script.js"></script>
+{foot()}<script src="script.js?v={JS_V}"></script>
 </body></html>
 '''
     (OUT / "index.html").write_text(idx, encoding="utf-8")
@@ -235,7 +235,7 @@ def build(fests):
 <section class="box"><h2>Autres festivals à découvrir</h2><ul class="rel">{voisins}</ul></section>
 <section class="box"><h2>Sources</h2><ul class="src">{src}</ul><p class="small">Mis à jour le {UPDATED}.</p></section>
 </main>
-{foot()}<script src="script.js"></script>
+{foot()}<script src="script.js?v={JS_V}"></script>
 </body></html>
 '''
         (OUT / f'{f["slug"]}.html').write_text(p, encoding="utf-8")
@@ -566,6 +566,11 @@ JS = r'''
   apply();
 })();
 '''
+
+# Empreintes ajoutées aux liens : le navigateur recharge le fichier dès qu'il change.
+CSS_V = hashlib.md5(CSS.strip().encode("utf-8")).hexdigest()[:8]
+JS_V = hashlib.md5(JS.strip().encode("utf-8")).hexdigest()[:8]
+
 
 if __name__ == "__main__":
     data = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
