@@ -26,7 +26,7 @@ python3 src/build.py src/festivals.json .              # régénère les 47 page
 | `src/check.py` | validation et fusion des données |
 | `src/og-image.html`, `src/og-image.png` | image de partage 1200x630 : le PNG est copié à la racine par `build.py`. Pour la refaire, capturer le HTML en 1200x630 avec Playwright |
 | `*.html`, `style.css`, `script.js` | **générés**, publiés par GitHub Pages |
-| `sitemap.xml`, `robots.txt`, `favicon.svg`, `og-image.png` | générés ou copiés par `build.py` |
+| `sitemap.xml`, `robots.txt`, `favicon.svg`, `og-image.png`, `fond-hero.svg`, `motif.svg` | générés ou copiés par `build.py` (`fond-hero.svg` : foule en silhouette du bandeau, `motif.svg` : motif de fond de page, tous deux dessinés par `crowd_svg()` et `motif_svg()`) |
 | `mentions-legales.html`, `confidentialite.html`, `cookies.html` | générés par `build_legal()` dans `build.py` |
 
 ## Contrat de données (un festival)
@@ -46,6 +46,10 @@ Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une val
 - **Ne pas recopier** les textes, affiches, photos ou plans de scènes des festivals : contenu dupliqué pour le SEO et risque juridique. On reformule, et pour les plans on renvoie au site officiel.
 - **Ne pas charger de ressource tierce automatiquement.** Les cartes Google Maps suivent le principe du double clic de la CNIL : `script.js` n'injecte l'iframe qu'après un clic sur « Afficher la carte ». Le site ne dépose donc aucun cookie et n'a pas besoin de bandeau de consentement. Si on ajoute un jour une mesure d'audience ou une newsletter, il faut un vrai bandeau **avant** tout dépôt de cookie, et mettre à jour `cookies.html` et `confidentialite.html`.
 - Ne pas ajouter de framework ni de dépendance : le site doit rester ouvrable en double-cliquant sur `index.html`.
+
+## Identité visuelle
+
+Palette « coucher de soleil de scène » : rose-rouge `#9f1239` / `#e11d48`, orange `#f97316`, ambre `#fbbf24`, fond crème `#fff9f4`. Le violet a été retiré à la demande de Florent (trop fort) : ne pas le réintroduire. Le style reste clair (Florent ne voulait pas de noir). Les visuels sont dessinés en code, jamais copiés des festivals.
 
 ## SEO déjà en place
 

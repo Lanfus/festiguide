@@ -55,7 +55,7 @@ def related(f, fests, n=4):
 
 
 FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d28d9"/><stop offset=".55" stop-color="#db2777"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9f1239"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs>
 <rect width="64" height="64" rx="14" fill="url(#g)"/>
 <path d="M32 10l5.5 16.5L54 32l-16.5 5.5L32 54l-5.5-16.5L10 32l16.5-5.5z" fill="#fff"/>
 </svg>
@@ -250,6 +250,8 @@ def build(fests):
         + urls + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
     (OUT / "favicon.svg").write_text(FAVICON, encoding="utf-8")
+    (OUT / "fond-hero.svg").write_text(crowd_svg(), encoding="utf-8")
+    (OUT / "motif.svg").write_text(motif_svg(), encoding="utf-8")
     og = Path(__file__).parent / "og-image.png"  # image de partage : source dans og-image.html
     if og.exists() and og.resolve() != (OUT / "og-image.png").resolve():
         shutil.copy(og, OUT / "og-image.png")
@@ -421,35 +423,35 @@ def build_legal(nb):
 
 
 CSS = r'''
-:root{--bg:#ffffff;--card:#fff;--ink:#1c1f2e;--muted:#5b6075;--accent:#6c4cf1;--accent2:#ff5a7a;--line:#ece6f7;--ok:#127a4a;--warn:#a15c00;--violet:#5b21b6;--pink:#db2777;--orange:#f97316;--stripe:linear-gradient(90deg,#7c3aed,#db2777 50%,#f97316)}
+:root{--bg:#ffffff;--card:#fff;--ink:#1c1f2e;--muted:#5b6075;--accent:#be123c;--accent2:#ff5a7a;--line:#f1e2d9;--ok:#127a4a;--warn:#a15c00;--brand:#9f1239;--pink:#e11d48;--orange:#f97316;--stripe:linear-gradient(90deg,#e11d48,#f97316 55%,#fbbf24)}
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:#fff9f4;line-height:1.55;position:relative}
-body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(60% 45% at 8% 6%,rgba(219,39,119,.10),transparent 70%),radial-gradient(55% 45% at 95% 20%,rgba(124,58,237,.11),transparent 70%),radial-gradient(60% 50% at 70% 100%,rgba(249,115,22,.10),transparent 70%)}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url(motif.svg?v=@@FOND@@),radial-gradient(60% 45% at 8% 6%,rgba(225,29,72,.09),transparent 70%),radial-gradient(55% 45% at 95% 20%,rgba(251,191,36,.16),transparent 70%),radial-gradient(60% 50% at 70% 100%,rgba(249,115,22,.10),transparent 70%)}
 .wrap{max-width:1100px;margin:0 auto;padding:0 18px}
 a{color:var(--accent)}
 .top{background:rgba(255,255,255,.92);color:var(--ink);border-bottom:1px solid var(--line);border-top:5px solid transparent;border-image:var(--stripe) 1 0 0 0}
 .top .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
-.brand{color:var(--violet);text-decoration:none;font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
+.brand{color:var(--brand);text-decoration:none;font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
 .top nav a{color:var(--muted);text-decoration:none;font-size:.95rem}
 .top nav a:hover{color:var(--accent)}
-.hero{position:relative;overflow:hidden;color:#fff;padding:64px 0 62px;background:linear-gradient(120deg,#4c1d95 0%,#7c3aed 28%,#db2777 62%,#f97316 100%)}
+.hero{position:relative;overflow:hidden;color:#fff;padding:64px 0 150px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 170px no-repeat,linear-gradient(120deg,#9f1239 0%,#e11d48 45%,#f97316 80%,#fbbf24 100%)}
 .hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:conic-gradient(from 168deg at 22% -25%,transparent 0 5deg,rgba(255,255,255,.20) 5deg 9deg,transparent 9deg 19deg,rgba(255,255,255,.14) 19deg 22deg,transparent 22deg 360deg),conic-gradient(from 188deg at 78% -25%,transparent 0 6deg,rgba(255,255,255,.18) 6deg 10deg,transparent 10deg 21deg,rgba(255,255,255,.12) 21deg 24deg,transparent 24deg 360deg)}
 .hero::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;background-image:radial-gradient(circle,rgba(255,255,255,.75) 0 2px,transparent 3px),radial-gradient(circle,rgba(255,224,102,.8) 0 3px,transparent 4px),radial-gradient(circle,rgba(255,255,255,.55) 0 1.5px,transparent 2.5px);background-size:150px 130px,230px 190px,90px 110px;background-position:20px 30px,90px 70px,50px 10px}
 .hero .wrap{position:relative;z-index:1}
-.hero h1{margin:0 0 10px;font-size:clamp(1.9rem,4.4vw,2.9rem);max-width:640px;text-shadow:0 2px 14px rgba(40,10,90,.35)}
-.hero p{margin:0;color:rgba(255,255,255,.95);font-size:1.08rem;max-width:620px;text-shadow:0 1px 8px rgba(40,10,90,.3)}
+.hero h1{margin:0 0 10px;font-size:clamp(1.9rem,4.4vw,2.9rem);max-width:640px;text-shadow:0 2px 14px rgba(90,10,20,.45)}
+.hero p{margin:0;color:rgba(255,255,255,.95);font-size:1.08rem;max-width:620px;text-shadow:0 1px 8px rgba(90,10,20,.4)}
 .filters{display:flex;gap:10px;flex-wrap:wrap;margin-top:-22px;position:relative}
 .filters input,.filters select{padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-size:1rem;background:#fff;box-shadow:0 2px 8px rgba(20,20,60,.06);max-width:100%}
 .filters input{flex:1;min-width:220px}
 .count{color:var(--muted);margin:18px 0 8px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
-.card{position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 18px 18px;display:flex;flex-direction:column;gap:6px;box-shadow:0 2px 10px rgba(60,20,90,.06);transition:transform .18s ease,box-shadow .18s ease}
+.card{position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 18px 18px;display:flex;flex-direction:column;gap:6px;box-shadow:0 2px 10px rgba(120,40,20,.07);transition:transform .18s ease,box-shadow .18s ease}
 .card::before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:var(--stripe)}
-.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(91,33,182,.16)}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(159,18,57,.18)}
 @media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
 .card[hidden]{display:none}
 .card-top{display:flex;justify-content:space-between;gap:8px;font-size:.82rem}
-.pill{background:#efeaff;color:var(--accent);padding:2px 10px;border-radius:99px;font-weight:600}
+.pill{background:#ffe4e9;color:var(--accent);padding:2px 10px;border-radius:99px;font-weight:600}
 .country{color:var(--muted);text-align:right}
 .card h3{margin:4px 0 2px;font-size:1.2rem}
 .card h3 a{color:var(--ink);text-decoration:none}
@@ -458,8 +460,8 @@ a{color:var(--accent)}
 .tags{margin:4px 0}
 .tag{display:inline-block;background:#f1f2f8;color:#3b3f55;font-size:.78rem;padding:2px 9px;border-radius:99px;margin:0 4px 4px 0}
 .price{margin:2px 0 8px;font-weight:600}
-.btn{display:inline-block;margin-top:auto;background:linear-gradient(100deg,#6d28d9,#db2777);color:#fff!important;text-decoration:none;padding:10px 16px;border-radius:10px;font-weight:600;text-align:center}
-.btn:hover{background:linear-gradient(100deg,#5b21b6,#be185d)}
+.btn{display:inline-block;margin-top:auto;background:linear-gradient(100deg,#be123c,#c2410c);color:#fff!important;text-decoration:none;padding:10px 16px;border-radius:10px;font-weight:600;text-align:center}
+.btn:hover{background:linear-gradient(100deg,#9f1239,#9a3412)}
 .linkbtn{background:none;border:0;color:var(--accent);font:inherit;cursor:pointer;text-decoration:underline}
 .badge{font-size:.72rem;padding:2px 8px;border-radius:99px;font-weight:600;margin-left:4px;white-space:nowrap}
 .badge.ok{background:#e3f6ec;color:var(--ok)}
@@ -470,11 +472,11 @@ a{color:var(--accent)}
 .fiche{padding-top:22px;padding-bottom:30px}
 .crumb{margin:0 0 6px;font-size:.92rem;color:var(--muted)}
 .rel{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
-.rel li{background:#faf6ff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
-.rel a{font-weight:600;text-decoration:none;color:var(--violet)}
+.rel li{background:#fff6f0;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.rel a{font-weight:600;text-decoration:none;color:var(--brand)}
 .rel a:hover{text-decoration:underline}
 .rel .small{display:block;margin-top:2px}
-.fiche h1{margin:0 0 8px;font-size:clamp(1.7rem,4vw,2.4rem);color:var(--violet)}
+.fiche h1{margin:0 0 8px;font-size:clamp(1.7rem,4vw,2.4rem);color:var(--brand)}
 .fiche h1::after{content:"";display:block;width:84px;height:5px;border-radius:99px;margin-top:10px;background:var(--stripe)}
 .lead{color:var(--muted);font-size:1.05rem;max-width:760px}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:16px 0}
@@ -488,10 +490,10 @@ a{color:var(--accent)}
 .prices td{padding:8px 0;border-bottom:1px solid var(--line);vertical-align:top}
 .prices td:last-child{text-align:right;font-weight:600;padding-left:12px}
 .prices td[colspan]{text-align:left;font-weight:400;color:var(--muted)}
-.chip{display:inline-block;background:#efeaff;color:#3a2a9e;padding:5px 12px;border-radius:99px;margin:0 6px 8px 0;font-size:.92rem;font-weight:500}
+.chip{display:inline-block;background:#ffeadb;color:#9a3412;padding:5px 12px;border-radius:99px;margin:0 6px 8px 0;font-size:.92rem;font-weight:500}
 .map{width:100%;height:340px;border:0;border-radius:10px;background:#e8eaf2;display:block}
 .map-wrap{width:100%}
-.map-ph{background:#f5f3fb;border:1px dashed #c9c2e8;border-radius:10px;padding:26px 20px;text-align:center}
+.map-ph{background:#fff4ee;border:1px dashed #f3c9b8;border-radius:10px;padding:26px 20px;text-align:center}
 .map-ph-title{margin:0 0 8px;font-weight:700;font-size:1rem}
 .map-ph .small{max-width:560px;margin:0 auto 14px}
 .map-ph .btn{margin:0 auto 14px;display:inline-block;cursor:pointer;border:0;font-size:1rem;font-family:inherit}
@@ -503,12 +505,12 @@ a{color:var(--accent)}
 .legal .facts li{padding:8px 0}
 .legal code{background:#f1f2f8;padding:1px 6px;border-radius:5px;font-size:.9em}
 .legal .upd{margin:18px 0 0;text-align:center}
-footer{background:#f6efff;color:var(--muted);padding:22px 0;margin-top:30px;font-size:.88rem;border-top:5px solid transparent;border-image:var(--stripe) 1 0 0 0}
+footer{background:#fff0e6;color:var(--muted);padding:22px 0;margin-top:30px;font-size:.88rem;border-top:5px solid transparent;border-image:var(--stripe) 1 0 0 0}
 .foot-nav{margin:14px 0 8px;display:flex;flex-wrap:wrap;gap:6px 18px}
 .foot-nav a{color:var(--accent);text-decoration:none}
 .foot-nav a:hover{text-decoration:underline}
 .foot-copy{margin:0;font-size:.85rem}
-@media (max-width:560px){.hero{padding:38px 0 34px}.box{padding:16px}.filters input,.filters select{width:100%}.map-ph{padding:20px 14px}}
+@media (max-width:560px){.hero{padding:38px 0 100px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 110px no-repeat,linear-gradient(160deg,#9f1239 0%,#e11d48 62%,#f97316 100%)}.box{padding:16px}.filters input,.filters select{width:100%}.map-ph{padding:20px 14px}}
 '''
 
 JS = r'''
@@ -567,7 +569,52 @@ JS = r'''
 })();
 '''
 
+def crowd_svg():
+    """Foule de silhouettes les bras levés (dessin original, généré de façon déterministe)."""
+    import random
+    r = random.Random(11)
+    W, H = 2400, 170
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" preserveAspectRatio="xMidYMax slice">']
+
+    def layer(fill, alpha, n, hr, top, bottom, arms, phones):
+        g = [f'<g fill="{fill}" stroke="{fill}" opacity="{alpha}" stroke-linecap="round">']
+        for i in range(n):
+            x = int((i + 0.5) * W / n + r.randint(-14, 14))
+            rr = r.randint(hr[0], hr[1])
+            hy = r.randint(top, bottom)
+            g.append(f'<circle cx="{x}" cy="{hy}" r="{rr}" stroke="none"/>')
+            g.append(f'<ellipse cx="{x}" cy="{hy + rr + 26}" rx="{rr + 9}" ry="30" stroke="none"/>')
+            k = r.random()
+            if k < arms:
+                for s in (-1, 1) if r.random() < .7 else (r.choice((-1, 1)),):
+                    ex, ey = x + s * r.randint(16, 34), hy - r.randint(22, 52)
+                    g.append(f'<path d="M{x + s * (rr + 3)} {hy + rr + 14}L{ex} {ey}" fill="none" stroke-width="{max(5, rr // 2)}"/>')
+                    if r.random() < phones:
+                        g.append(f'<rect x="{ex - 4}" y="{ey - 11}" width="8" height="13" rx="2" fill="#fde68a" stroke="none"/>')
+        g.append('</g>')
+        return "".join(g)
+
+    out.append(layer("#7f1d3a", .55, 78, (9, 11), 78, 108, .45, 0))
+    out.append(layer("#3b0a1c", .92, 52, (13, 16), 108, 130, .5, .18))
+    out.append(f'<rect y="{H - 28}" width="{W}" height="28" fill="#3b0a1c"/>')
+    out.append('</svg>')
+    return "".join(out)
+
+
+def motif_svg():
+    """Motif discret (étoiles, ronds, notes) répété en fond de page."""
+    star = lambda cx, cy, s, c, o: (f'<path d="M{cx} {cy - s}l{s * .28:.1f} {s * .72:.1f} {s * .72:.1f} {s * .28:.1f}-{s * .72:.1f} {s * .28:.1f}-{s * .28:.1f} {s * .72:.1f}-{s * .28:.1f}-{s * .72:.1f}-{s * .72:.1f}-{s * .28:.1f} {s * .72:.1f}-{s * .28:.1f}z" fill="{c}" opacity="{o}"/>')
+    note = lambda x, y, c, o: (f'<g fill="{c}" stroke="{c}" opacity="{o}"><ellipse cx="{x}" cy="{y}" rx="6" ry="4.5" stroke="none" transform="rotate(-20 {x} {y})"/><path d="M{x + 5} {y - 1}V{y - 22}l9 4" fill="none" stroke-width="2.2" stroke-linecap="round"/></g>')
+    return ('<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260">'
+            + star(40, 44, 14, "#e11d48", .07) + star(190, 120, 10, "#f97316", .09) + star(100, 210, 12, "#fbbf24", .16)
+            + '<circle cx="150" cy="40" r="6" fill="#f97316" opacity=".08"/><circle cx="30" cy="150" r="4" fill="#e11d48" opacity=".08"/><circle cx="225" cy="225" r="7" fill="#fbbf24" opacity=".14"/>'
+            + note(210, 50, "#e11d48", .07) + note(60, 120, "#f97316", .08) + note(170, 200, "#e11d48", .06)
+            + '</svg>')
+
+
 # Empreintes ajoutées aux liens : le navigateur recharge le fichier dès qu'il change.
+FOND_V = hashlib.md5((crowd_svg() + motif_svg()).encode("utf-8")).hexdigest()[:8]
+CSS = CSS.replace("@@FOND@@", FOND_V)
 CSS_V = hashlib.md5(CSS.strip().encode("utf-8")).hexdigest()[:8]
 JS_V = hashlib.md5(JS.strip().encode("utf-8")).hexdigest()[:8]
 
