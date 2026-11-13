@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nancy-jazz-pulsations-20271002@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271017
+SUMMARY:Nancy Jazz Pulsations
+LOCATION:Nancy et sa région
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/nancy-jazz-pulsations.html
+URL:https://nancyjazzpulsations.com/
+END:VEVENT
+END:VCALENDAR

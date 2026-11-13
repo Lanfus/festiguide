@@ -1,0 +1,468 @@
+[
+ {
+  "slug": "rise-festival",
+  "name": "Rise Festival",
+  "city": "Les 2 Alpes",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Les 2 Alpes",
+  "maps_q": "Les 2 Alpes Les 2 Alpes",
+  "genres": [
+   "Électro",
+   "Festival en montagne"
+  ],
+  "mois": [
+   "décembre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique en station, aux 2 Alpes.",
+  "official": "https://www.musicfestivalwizard.com/festivals/rise-festival-2026/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/rise-festival-2026/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 5 au 12 décembre 2026. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "snowattack",
+  "name": "Snowattack",
+  "city": "Les Deux Alpes",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Les Deux Alpes",
+  "maps_q": "Les Deux Alpes Les Deux Alpes",
+  "genres": [
+   "Électro",
+   "Festival en montagne"
+  ],
+  "mois": [
+   "janvier"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique à la montagne, aux Deux Alpes.",
+  "official": "https://www.musicfestivalwizard.com/festivals/snowattack-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/snowattack-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 16 au 23 janvier 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "snowboxx",
+  "name": "Snowboxx",
+  "city": "Avoriaz",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Avoriaz",
+  "maps_q": "Avoriaz Avoriaz",
+  "genres": [
+   "Drum & bass",
+   "Électro",
+   "Festival en montagne"
+  ],
+  "mois": [
+   "mars"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique à Avoriaz.",
+  "official": "https://www.musicfestivalwizard.com/festivals/snowboxx-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/snowboxx-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 13 au 20 mars 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "rock-the-pistes",
+  "name": "Rock the Pistes",
+  "city": "Châtel",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Châtel",
+  "maps_q": "Châtel Châtel",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Festival en montagne"
+  ],
+  "mois": [
+   "mars"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de concerts en station, à Châtel.",
+  "official": "https://www.musicfestivalwizard.com/festivals/rock-the-pistes-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/rock-the-pistes-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 14 au 21 mars 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "chamonix-unlimited",
+  "name": "Chamonix Unlimited Festival",
+  "city": "Chamonix",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Chamonix",
+  "maps_q": "Chamonix Chamonix",
+  "genres": [
+   "Électro",
+   "Festival en montagne"
+  ],
+  "mois": [
+   "mars"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique à Chamonix.",
+  "official": "https://www.musicfestivalwizard.com/festivals/chamonix-unlimited-festival-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/chamonix-unlimited-festival-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 25 au 29 mars 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Chamonix Unlimited"
+ },
+ {
+  "slug": "festival-le-bon-air",
+  "name": "Festival Le Bon Air",
+  "city": "Marseille",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Marseille",
+  "maps_q": "Marseille Marseille",
+  "genres": [
+   "Techno",
+   "Électro"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique à Marseille.",
+  "official": "https://www.musicfestivalwizard.com/festivals/festival-le-bon-air-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/festival-le-bon-air-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 14 au 16 mai 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Le Bon Air"
+ },
+ {
+  "slug": "marvellous-island",
+  "name": "Marvellous Island Festival",
+  "city": "Paris",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Paris",
+  "maps_q": "Paris Paris",
+  "genres": [
+   "Électro"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique à Paris.",
+  "official": "https://www.musicfestivalwizard.com/festivals/marvellous-island-festival-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/marvellous-island-festival-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 15 et 16 mai 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Marvellous Island"
+ },
+ {
+  "slug": "le-jardin-du-michel",
+  "name": "Le Jardin du Michel",
+  "city": "Nancy",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Nancy",
+  "maps_q": "Nancy Nancy",
+  "genres": [
+   "Électro",
+   "Pop"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musiques actuelles à Nancy.",
+  "official": "https://www.musicfestivalwizard.com/festivals/le-jardin-du-michel-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/le-jardin-du-michel-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 28 au 30 mai 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "rampage",
+  "name": "Rampage",
+  "city": "Anvers",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Anvers",
+  "maps_q": "Anvers Anvers",
+  "genres": [
+   "Drum & bass",
+   "Bass"
+  ],
+  "mois": [
+   "mars"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de drum and bass en salle, à Anvers.",
+  "official": "https://www.musicfestivalwizard.com/festivals/rampage-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/rampage-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 5 et 6 mars 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "horst-music-festival",
+  "name": "Horst Music Festival",
+  "city": "Bruxelles",
+  "country": "Belgique",
+  "region": "Bruxelles",
+  "venue": "Bruxelles",
+  "maps_q": "Bruxelles Bruxelles",
+  "genres": [
+   "Techno",
+   "Électro"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de techno et de musique électronique à Bruxelles.",
+  "official": "https://www.musicfestivalwizard.com/festivals/horst-music-festival-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/horst-music-festival-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 6 au 8 mai 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "werchter-boutique",
+  "name": "Werchter Boutique",
+  "city": "Werchter",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Werchter",
+  "maps_q": "Werchter Werchter",
+  "genres": [
+   "Pop",
+   "Rock"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Journée de concerts sur le site de Rock Werchter.",
+  "official": "https://www.musicfestivalwizard.com/festivals/werchter-boutique-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/werchter-boutique-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 27 juin 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "paradise-city",
+  "name": "Paradise City",
+  "city": "Perk",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Château de Perk, Steenokkerzeel",
+  "maps_q": "Château de Perk, Steenokkerzeel Perk",
+  "genres": [
+   "Électro",
+   "Indie"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique dans un cadre de château.",
+  "official": "https://www.musicfestivalwizard.com/festivals/paradise-city-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/paradise-city-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 2 au 4 juillet 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "rampage-open-air",
+  "name": "Rampage Open Air",
+  "city": "Lommel",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Lommel",
+  "maps_q": "Lommel Lommel",
+  "genres": [
+   "Drum & bass",
+   "Dubstep"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Version estivale du festival de drum and bass.",
+  "official": "https://www.musicfestivalwizard.com/festivals/rampage-open-air-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/rampage-open-air-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 1er au 4 juillet 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "ostend-beach-festival",
+  "name": "Ostend Beach Festival",
+  "city": "Ostende",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Plage d'Ostende",
+  "maps_q": "Plage d'Ostende Ostende",
+  "genres": [
+   "Électro"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique sur la plage d'Ostende.",
+  "official": "https://www.musicfestivalwizard.com/festivals/ostend-beach-festival-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/ostend-beach-festival-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 9 au 11 juillet 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "brakrock",
+  "name": "BrakRock",
+  "city": "Duffel",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Duffel",
+  "maps_q": "Duffel Duffel",
+  "genres": [
+   "Punk",
+   "Rock"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de punk et de rock à Duffel.",
+  "official": "https://www.musicfestivalwizard.com/festivals/brakrock-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/brakrock-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 6 et 7 août 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "wecandance",
+  "name": "WeCanDance",
+  "city": "Zeebrugge",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Plage de Zeebrugge",
+  "maps_q": "Plage de Zeebrugge Zeebrugge",
+  "genres": [
+   "Électro"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musique électronique sur la plage de Zeebrugge.",
+  "official": "https://www.musicfestivalwizard.com/festivals/wecandance-2027/",
+  "sources": [
+   [
+    "Fiche Music Festival Wizard (non officiel)",
+    "https://www.musicfestivalwizard.com/festivals/wecandance-2027/"
+   ]
+  ],
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 14 et 15 août 2027. À vérifier sur le site de l'organisateur.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ }
+]

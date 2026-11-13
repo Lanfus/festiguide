@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:alcatraz-festival-20270805@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270809
+SUMMARY:Alcatraz
+LOCATION:Courtrai (Kortrijk)
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/alcatraz-festival.html
+URL:https://www.alcatraz.be/en/index
+END:VEVENT
+END:VCALENDAR

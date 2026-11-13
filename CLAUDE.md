@@ -1,6 +1,6 @@
 # FestiGuide — notes pour Claude
 
-Annuaire de 100 grands festivals et grands événements (France, plus une quinzaine en Belgique : Tomorrowland, Rock Werchter, Pukkelpop, Graspop, Gentse Feesten, Les Ardentes, Dour…). Site statique publié par GitHub Pages sur https://lanfus.github.io/festiguide/
+Annuaire de 206 grands festivals et grands événements (France, plus une quarantaine en Belgique : Tomorrowland, Rock Werchter, Pukkelpop, Graspop, Gentse Feesten, Les Ardentes, Dour…). Site statique publié par GitHub Pages sur https://lanfus.github.io/festiguide/
 
 Projet personnel de Florent H. (GitHub : Lanfus). Objectif : servir de preuve de compétences SEO / CRM pour sa recherche d'alternance en e-commerce. Donc le référencement et la qualité des données comptent plus que la sophistication technique.
 
@@ -12,7 +12,7 @@ Toute correction de contenu (date, prix, artiste, nouveau festival) se fait dans
 
 ```bash
 python3 src/check.py src/festivals.json /tmp/ok.json   # valide les données
-python3 src/build.py src/festivals.json .              # régénère les 104 pages à la racine
+python3 src/build.py src/festivals.json .              # régénère les 210 pages à la racine
 ```
 
 `check.py` normalise les mois, vérifie les sources, rejette les dates ISO passées ou incohérentes et signale les doublons. `build.py` trie les festivals par date de prochaine édition, génère l'accueil, une fiche par festival, les trois pages légales, `sitemap.xml` et `robots.txt`.
@@ -27,7 +27,7 @@ python3 src/build.py src/festivals.json .              # régénère les 104 pag
 | `src/og-image.html`, `src/og-image.png` | image de partage 1200x630 : le PNG est copié à la racine par `build.py`. Pour la refaire, capturer le HTML en 1200x630 avec Playwright |
 | `*.html`, `style.css`, `script.js` | **générés**, publiés par GitHub Pages |
 | `sitemap.xml`, `robots.txt`, `favicon.svg`, `og-image.png`, `fond-hero.svg`, `motif.svg` | générés ou copiés par `build.py` (`fond-hero.svg` : décor de champ de festival du bandeau, `motif.svg` : motif de fond de page, dessinés par `scene_svg()` et `motif_svg()`) |
-| `<slug>.ics` (57 fichiers) | générés par `build.py` pour les festivals qui ont `iso` : bouton « Ajouter à mon agenda » des fiches. Ne pas les éditer ni les mettre dans le sitemap |
+| `<slug>.ics` (98 fichiers) | générés par `build.py` pour les festivals qui ont `iso` : bouton « Ajouter à mon agenda » des fiches. Ne pas les éditer ni les mettre dans le sitemap |
 | `mentions-legales.html`, `confidentialite.html`, `cookies.html` | générés par `build_legal()` dans `build.py` |
 
 ## Contrat de données (un festival)
@@ -70,12 +70,22 @@ Les fiches ajoutées ont peu de prix, d'accès et de conseils (`prices`, `access
 
 ## Vérifications avant de publier
 
-1. Liens internes et balises équilibrées sur les 104 pages, aucun titre de plus de 60 caractères.
+1. Liens internes et balises équilibrées sur les 210 pages, aucun titre de plus de 60 caractères.
 2. `script.js` s'évalue sans erreur, `sitemap.xml` est un XML valide, chaque bloc JSON-LD parse.
 3. Avec Playwright : aucune requête externe et aucun cookie avant le clic sur la carte, filtres de l'accueil fonctionnels, pas de scroll horizontal à 390 px de large.
 
 ## État au 13 novembre 2026
 
-57 festivals sur 100 ont des dates confirmées, les 43 autres sont marqués à confirmer (chiffres avant l'ajout de masse : 29 sur 43). Cas particuliers déjà traités, à ne pas « corriger » par erreur : Rock en Seine ne se tient pas en 2027 (pause, retour en août 2028), Lollapalooza Paris n'est pas confirmé pour 2027, Solidays 2026 a été annulé pour canicule, Delta Festival et Download France ont été volontairement exclus car ils n'existent plus. Ajoutés le 13 novembre 2026 : Trans Musicales (2–6 déc. 2026), Dour, Art Rock, Terres du Son, Carcassonne. Pour les quatre derniers, les dates 2027 ne sont pas confirmées par une source officielle (Dour 7–11 juillet et Art Rock 14–16 mai circulent mais restent à vérifier) : ne pas passer `iso` tant qu'un communiqué officiel ne les confirme pas. Les sites officiels n'étaient pas consultables depuis la session de recherche.
+98 festivals sur 206 ont des dates confirmées, les 108 autres sont marqués à confirmer. Cas particuliers déjà traités, à ne pas « corriger » par erreur : Rock en Seine ne se tient pas en 2027 (pause, retour en août 2028), Lollapalooza Paris n'est pas confirmé pour 2027, Solidays 2026 a été annulé pour canicule, Delta Festival et Download France ont été volontairement exclus car ils n'existent plus. Ajoutés le 13 novembre 2026 : Trans Musicales (2–6 déc. 2026), Dour, Art Rock, Terres du Son, Carcassonne. Pour les quatre derniers, les dates 2027 ne sont pas confirmées par une source officielle (Dour 7–11 juillet et Art Rock 14–16 mai circulent mais restent à vérifier) : ne pas passer `iso` tant qu'un communiqué officiel ne les confirme pas. Les sites officiels n'étaient pas consultables depuis la session de recherche.
 
 À faire ensuite : brancher Google Search Console et soumettre le sitemap, puis ajouter un guide pratique des festivals écrit depuis l'expérience de Florent en sécurité événementielle (Solidays, We Love Green, Dream Nation…), qui est l'angle que les gros sites concurrents ne peuvent pas copier.
+
+## Périmètre et extension du 13 novembre 2026 (100 → 206 festivals)
+
+**Périmètre décidé par Florent : pas de cinéma, pas d'arts de la rue, pas de livres.** Retirés du site le 13 novembre (16 fiches) : Cannes, Annecy, Lumière, Deauville, Gérardmer, La Rochelle cinéma, Cinemed, Clermont-Ferrand court métrage, Premiers Plans, Étonnants Voyageurs, Quais du Polar, Aurillac, Chalon dans la rue, ainsi que trois fiches de cinéma ajoutées puis retirées dans la foulée (Angoulême francophone, Cabourg, Sarlat). Ne pas les rajouter. La bande dessinée (Angoulême BD, Quai des Bulles) a été gardée : à retirer aussi si Florent la considère comme du livre. Les pages supprimées renvoient désormais une 404 : à signaler dans Search Console et à re-soumettre le sitemap.
+
+Sources des ajouts : sites officiels, offices de tourisme, villes, billetteries. Les 16 fiches issues de l'agrégateur Music Festival Wizard (Rise, Snowattack, Snowboxx, Rock the Pistes, Chamonix Unlimited, Le Bon Air, Marvellous Island, Le Jardin du Michel, Rampage, Rampage Open Air, Horst, Werchter Boutique, Paradise City, Ostend Beach, BrakRock, WeCanDance) sont toutes « à confirmer » et citent cet agrégateur comme source non officielle. Exclus faute de source : Weather Festival (plus d'activité depuis 2016), Chorus (annulé définitivement), Rock in Évreux, Rockomotives (édition 2026 seulement), Bars en Trans, Garance Reggae (annulé en 2026), Sylak, Woodstower, I Love Techno, Mimos, Viva Cité. Lot de marchés de Noël (Strasbourg, Colmar, Metz, Mulhouse, Lyon, Bruxelles, Liège) : dates de l'édition 2026 en cours, officielles ; elles passeront en 2026 dans la frise des mois.
+
+À re-vérifier sur les sites officiels dès que possible (dates absentes, contradictoires ou non officielles) : Escale à Sète (site : 2028 ; Facebook : avril 2027), BIFFF retiré, Fêtes de Wallonie (sources contradictoires), Madeleine de Mont-de-Marsan (règle déduite, pas de communiqué), La Chaise-Dieu (dates relevées chez Haute-Loire Tourisme seulement), Biennale de la danse de Lyon (un agenda donne d'autres dates), Fête des Remparts de Dinan, Foire aux Vins d'Alsace, Nuit Blanche (office de tourisme seulement).
+
+Fiches encore pauvres : presque aucune des 106 fiches ajoutées n'a de prix, d'accès ni de conseils ; c'est le chantier suivant et ce qui distingue le site des concurrents.

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:salon-de-l-agriculture-20270227@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270308
+SUMMARY:Salon international de l'agriculture
+LOCATION:Paris Expo Porte de Versailles
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/salon-de-l-agriculture.html
+URL:https://www.salon-agriculture.com/en
+END:VEVENT
+END:VCALENDAR

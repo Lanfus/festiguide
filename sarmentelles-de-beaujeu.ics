@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:sarmentelles-de-beaujeu-20261118@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261120
+SUMMARY:Sarmentelles de Beaujeu
+LOCATION:Beaujeu\, Rhône
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/sarmentelles-de-beaujeu.html
+URL:https://sarmentelles.fr/?version=EN
+END:VEVENT
+END:VCALENDAR

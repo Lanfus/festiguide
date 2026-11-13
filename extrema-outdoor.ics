@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:extrema-outdoor-20270514@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270517
+SUMMARY:Extrema Outdoor
+LOCATION:De Plas\, Houthalen-Helchteren
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/extrema-outdoor.html
+URL:https://www.instagram.com/extrema.be/
+END:VEVENT
+END:VCALENDAR

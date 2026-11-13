@@ -1,0 +1,539 @@
+[
+ {
+  "slug": "marche-de-noel-de-colmar",
+  "name": "Marché de Noël de Colmar",
+  "city": "Colmar",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Centre de Colmar",
+  "maps_q": "Centre de Colmar Colmar",
+  "genres": [
+   "Marché de Noël",
+   "Fête populaire"
+  ],
+  "mois": [
+   "novembre",
+   "décembre"
+  ],
+  "dates": "23 novembre – 29 décembre 2026",
+  "iso": [
+   "2026-11-23",
+   "2026-12-29"
+  ],
+  "about": "Marchés de Noël dans le centre historique de Colmar.",
+  "official": "https://www.noel-colmar.com/en/colmar-the-magic-of-christmas/practical",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.noel-colmar.com/en/colmar-the-magic-of-christmas/practical"
+   ]
+  ],
+  "status_note": "Dates de la prochaine édition données par le site officiel : du 23 novembre au 29 décembre 2026.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Marché de Noël Colmar"
+ },
+ {
+  "slug": "marche-de-noel-de-metz",
+  "name": "Marché de Noël de Metz",
+  "city": "Metz",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Places du centre de Metz",
+  "maps_q": "Places du centre de Metz Metz",
+  "genres": [
+   "Marché de Noël",
+   "Fête populaire"
+  ],
+  "mois": [
+   "novembre",
+   "décembre"
+  ],
+  "dates": "20 novembre – 30 décembre 2026",
+  "iso": [
+   "2026-11-20",
+   "2026-12-30"
+  ],
+  "about": "Marché de Noël réparti sur plusieurs places du centre de Metz.",
+  "official": "https://noelametz.fr/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://noelametz.fr/"
+   ]
+  ],
+  "status_note": "Dates de la prochaine édition données par le site officiel : du 20 novembre au 30 décembre 2026.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Marché de Noël Metz"
+ },
+ {
+  "slug": "marche-de-noel-de-mulhouse",
+  "name": "Marché de Noël de Mulhouse",
+  "city": "Mulhouse",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Centre de Mulhouse",
+  "maps_q": "Centre de Mulhouse Mulhouse",
+  "genres": [
+   "Marché de Noël",
+   "Fête populaire"
+  ],
+  "mois": [
+   "novembre",
+   "décembre"
+  ],
+  "dates": "20 novembre – 27 décembre 2026",
+  "iso": [
+   "2026-11-20",
+   "2026-12-27"
+  ],
+  "about": "Marché de Noël du cœur de Mulhouse.",
+  "official": "https://www.tourisme-mulhouse.com/en/experiences/mulhouse-christmas-market/",
+  "sources": [
+   [
+    "Office de tourisme de Mulhouse",
+    "https://www.tourisme-mulhouse.com/en/experiences/mulhouse-christmas-market/"
+   ]
+  ],
+  "status_note": "Dates de la prochaine édition données par l'office de tourisme : du 20 novembre au 27 décembre 2026 (fermé le 25).",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Marché de Noël Mulhouse"
+ },
+ {
+  "slug": "marche-de-noel-de-lyon",
+  "name": "Marché de Noël de Lyon",
+  "city": "Lyon",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Place Carnot, Lyon",
+  "maps_q": "Place Carnot, Lyon Lyon",
+  "genres": [
+   "Marché de Noël",
+   "Fête populaire"
+  ],
+  "mois": [
+   "novembre",
+   "décembre"
+  ],
+  "dates": "20 novembre – 24 décembre 2026",
+  "iso": [
+   "2026-11-20",
+   "2026-12-24"
+  ],
+  "about": "Marché de Noël traditionnel de la place Carnot, à Lyon.",
+  "official": "https://www.lyon.fr/actualite/commerce-et-economie/marche-de-noel-de-lyon",
+  "sources": [
+   [
+    "Ville de Lyon",
+    "https://www.lyon.fr/actualite/commerce-et-economie/marche-de-noel-de-lyon"
+   ]
+  ],
+  "status_note": "Dates de la prochaine édition données par la Ville de Lyon : du 20 novembre au 24 décembre 2026.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Marché de Noël Lyon"
+ },
+ {
+  "slug": "plaisirs-d-hiver-bruxelles",
+  "name": "Plaisirs d'Hiver",
+  "city": "Bruxelles",
+  "country": "Belgique",
+  "region": "Bruxelles",
+  "venue": "Centre de Bruxelles",
+  "maps_q": "Centre de Bruxelles Bruxelles",
+  "genres": [
+   "Marché de Noël",
+   "Fête populaire"
+  ],
+  "mois": [
+   "novembre",
+   "décembre",
+   "janvier"
+  ],
+  "dates": "27 novembre 2026 – 3 janvier 2027",
+  "iso": [
+   "2026-11-27",
+   "2027-01-03"
+  ],
+  "about": "Marché de Noël, grand sapin et animations dans le centre de Bruxelles. 25e édition.",
+  "official": "https://winterpret.be/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://winterpret.be/"
+   ],
+   [
+    "Ville de Bruxelles",
+    "https://www.brussels.be/winter-wonders"
+   ]
+  ],
+  "status_note": "Dates de la 25e édition données par le site officiel : du 27 novembre 2026 au 3 janvier 2027.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "village-de-noel-de-liege",
+  "name": "Village de Noël de Liège",
+  "city": "Liège",
+  "country": "Belgique",
+  "region": "Wallonie",
+  "venue": "Centre de Liège",
+  "maps_q": "Centre de Liège Liège",
+  "genres": [
+   "Marché de Noël",
+   "Fête populaire"
+  ],
+  "mois": [
+   "novembre",
+   "décembre"
+  ],
+  "dates": "27 novembre – 30 décembre 2026",
+  "iso": [
+   "2026-11-27",
+   "2026-12-30"
+  ],
+  "about": "Chalets d'artisans, grande roue et piste de luge dans le centre de Liège.",
+  "official": "https://www.villagedenoel.be/en",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.villagedenoel.be/en"
+   ],
+   [
+    "Office de tourisme de Liège",
+    "https://www.visitezliege.be/en/offre/le-village-de-noel"
+   ]
+  ],
+  "status_note": "Le site officiel donne du 27 novembre au 30 décembre 2026 ; la patinoire reste ouverte jusqu'au 2 janvier. L'office de tourisme cite une fin au 3 janvier 2027.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "japan-expo-paris",
+  "name": "Japan Expo",
+  "city": "Villepinte",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Paris Nord Villepinte",
+  "maps_q": "Paris Nord Villepinte Villepinte",
+  "genres": [
+   "Culture japonaise",
+   "Manga",
+   "Convention"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "8 – 11 juillet 2027",
+  "iso": [
+   "2027-07-08",
+   "2027-07-11"
+  ],
+  "about": "Convention consacrée à la culture japonaise : manga, anime, musique et jeux.",
+  "official": "https://paris.japan-expo.com/fr",
+  "sources": [
+   [
+    "Site officiel",
+    "https://paris.japan-expo.com/fr"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel : du 8 au 11 juillet.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "paris-games-week",
+  "name": "Paris Games Week",
+  "city": "Paris",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Paris Expo Porte de Versailles",
+  "maps_q": "Paris Expo Porte de Versailles Paris",
+  "genres": [
+   "Jeu vidéo",
+   "Convention"
+  ],
+  "mois": [
+   "octobre",
+   "novembre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Salon grand public du jeu vidéo.",
+  "official": "https://www.parisgamesweek.com/en",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.parisgamesweek.com/en"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : la 15e édition s'est tenue du 22 au 25 octobre 2026.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "salon-de-l-agriculture",
+  "name": "Salon international de l'agriculture",
+  "city": "Paris",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Paris Expo Porte de Versailles",
+  "maps_q": "Paris Expo Porte de Versailles Paris",
+  "genres": [
+   "Agriculture",
+   "Gastronomie",
+   "Salon"
+  ],
+  "mois": [
+   "février",
+   "mars"
+  ],
+  "dates": "27 février – 7 mars 2027",
+  "iso": [
+   "2027-02-27",
+   "2027-03-07"
+  ],
+  "about": "Grand salon de l'agriculture et de la gastronomie, à la porte de Versailles.",
+  "official": "https://www.salon-agriculture.com/en",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.salon-agriculture.com/en"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel : du 27 février au 7 mars.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Salon de l'agriculture"
+ },
+ {
+  "slug": "fete-des-vendanges-de-montmartre",
+  "name": "Fête des Vendanges de Montmartre",
+  "city": "Paris",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Montmartre, Paris 18e",
+  "maps_q": "Montmartre, Paris 18e Paris",
+  "genres": [
+   "Fête populaire",
+   "Gastronomie"
+  ],
+  "mois": [
+   "octobre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Cinq jours de fête dans tout l'arrondissement : concerts, spectacles et gastronomie.",
+  "official": "https://fetedesvendangesdemontmartre.com/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://fetedesvendangesdemontmartre.com/en/"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 s'est tenue du 7 au 11 octobre.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "nancy-jazz-pulsations",
+  "name": "Nancy Jazz Pulsations",
+  "city": "Nancy",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Nancy et sa région",
+  "maps_q": "Nancy et sa région Nancy",
+  "genres": [
+   "Jazz",
+   "Blues",
+   "Musiques actuelles"
+  ],
+  "mois": [
+   "octobre"
+  ],
+  "dates": "2 – 16 octobre 2027",
+  "iso": [
+   "2027-10-02",
+   "2027-10-16"
+  ],
+  "about": "Festival de jazz à Nancy et dans sa région, chaque octobre.",
+  "official": "https://nancyjazzpulsations.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://nancyjazzpulsations.com/"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le titre du site officiel : du 2 au 16 octobre.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "biennale-de-la-danse-de-lyon",
+  "name": "Biennale de la danse de Lyon",
+  "city": "Lyon",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Lyon et sa métropole",
+  "maps_q": "Lyon et sa métropole Lyon",
+  "genres": [
+   "Danse"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "6 – 28 septembre 2027",
+  "iso": [
+   "2027-09-06",
+   "2027-09-28"
+  ],
+  "about": "Biennale de danse à Lyon et dans la région, avec un défilé en ouverture.",
+  "official": "https://www.labiennaledelyon.com/en/danse",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.labiennaledelyon.com/en/danse"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel (6 au 28 septembre à Lyon et dans la métropole, jusqu'au 17 octobre dans la région). Un agenda non officiel cite d'autres dates.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Biennale de la danse"
+ },
+ {
+  "slug": "festival-international-des-jardins-de-chaumont",
+  "name": "Festival international des jardins de Chaumont-sur-Loire",
+  "city": "Chaumont-sur-Loire",
+  "country": "France",
+  "region": "Centre-Val de Loire",
+  "venue": "Domaine de Chaumont-sur-Loire",
+  "maps_q": "Domaine de Chaumont-sur-Loire Chaumont-sur-Loire",
+  "genres": [
+   "Jardins",
+   "Arts"
+  ],
+  "mois": [
+   "avril"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de jardins contemporains dans le domaine de Chaumont-sur-Loire.",
+  "official": "https://www.france.fr/en/event/chaumont-sur-loire-international-garden-festival/",
+  "sources": [
+   [
+    "France.fr",
+    "https://www.france.fr/en/event/chaumont-sur-loire-international-garden-festival/"
+   ],
+   [
+    "Tourisme Sud Val de Loire",
+    "https://www.sudvaldeloire.co.uk/offers/festival-international-des-jardins-chaumont-sur-loire-en-2691415/"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : un office de tourisme indique une ouverture le 23 avril 2027 ; la date de fin n'a pas été relevée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Jardins de Chaumont"
+ },
+ {
+  "slug": "bordeaux-wine-festival",
+  "name": "Bordeaux Fête le Vin",
+  "city": "Bordeaux",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Quais de Bordeaux",
+  "maps_q": "Quais de Bordeaux Bordeaux",
+  "genres": [
+   "Vin",
+   "Gastronomie",
+   "Fête populaire"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "7 – 11 juillet 2027",
+  "iso": [
+   "2027-07-07",
+   "2027-07-11"
+  ],
+  "about": "Grande fête du vin sur les quais de Bordeaux, en même temps que les Tall Ships Races.",
+  "official": "https://www.bordeaux-wine-festival.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.bordeaux-wine-festival.com/"
+   ],
+   [
+    "Office de tourisme",
+    "https://www.bordeaux-tourism.co.uk/agenda/bordeaux-wine-festival"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel et l'office de tourisme : du 7 au 11 juillet.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "foire-aux-vins-d-alsace",
+  "name": "Foire aux Vins d'Alsace",
+  "city": "Colmar",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Parc des expositions de Colmar",
+  "maps_q": "Parc des expositions de Colmar Colmar",
+  "genres": [
+   "Vin",
+   "Gastronomie",
+   "Concerts"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Foire gastronomique et festival à Colmar, chaque début août.",
+  "official": "https://www.foire-colmar.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.foire-colmar.com/"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : la 77e édition s'est tenue du 31 juillet au 9 août 2026 ; un relais radio non officiel cite du 30 juillet au 8 août 2027.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "sarmentelles-de-beaujeu",
+  "name": "Sarmentelles de Beaujeu",
+  "city": "Beaujeu",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Beaujeu, Rhône",
+  "maps_q": "Beaujeu, Rhône Beaujeu",
+  "genres": [
+   "Vin",
+   "Fête populaire"
+  ],
+  "mois": [
+   "novembre"
+  ],
+  "dates": "18 – 19 novembre 2026",
+  "iso": [
+   "2026-11-18",
+   "2026-11-19"
+  ],
+  "about": "Fête du Beaujolais nouveau à Beaujeu : dégustation, défilé aux flambeaux et grande fête.",
+  "official": "https://sarmentelles.fr/?version=EN",
+  "sources": [
+   [
+    "Site officiel",
+    "https://sarmentelles.fr/?version=EN"
+   ]
+  ],
+  "status_note": "Dates de la prochaine édition données par le site officiel : dégustation le mercredi 18 novembre, défilé et fête le jeudi 19 novembre 2026.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ }
+]

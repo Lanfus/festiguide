@@ -1,0 +1,632 @@
+[
+ {
+  "slug": "les-3-elephants",
+  "name": "Les 3 Éléphants",
+  "city": "Laval",
+  "country": "France",
+  "region": "Pays de la Loire",
+  "venue": "Centre-ville de Laval",
+  "maps_q": "Centre-ville de Laval Laval",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Musiques actuelles"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musiques actuelles dans le centre-ville de Laval, en Mayenne.",
+  "official": "https://www.festivalenfrance.com/en/festival/les-3-elephants",
+  "sources": [
+   [
+    "Fiche festivalenfrance (non officiel)",
+    "https://www.festivalenfrance.com/en/festival/les-3-elephants"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 s'est tenue du 21 au 25 mai ; 2027 n'est pas annoncée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "la-magnifique-society",
+  "name": "La Magnifique Society",
+  "city": "Reims",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Reims",
+  "maps_q": "Reims Reims",
+  "genres": [
+   "Électro",
+   "Pop",
+   "Rap"
+  ],
+  "mois": [
+   "janvier"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de musiques actuelles à Reims, qui se tient en janvier.",
+  "official": "https://51.agendaculturel.fr/festival/la-magnifique-society.html",
+  "sources": [
+   [
+    "Agenda culturel 51",
+    "https://51.agendaculturel.fr/festival/la-magnifique-society.html"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : un agenda culturel annonce une nouvelle édition en janvier 2027, sans jours précis.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "musicalarue",
+  "name": "Musicalarue",
+  "city": "Luxey",
+  "country": "France",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Luxey, Landes",
+  "maps_q": "Luxey, Landes Luxey",
+  "genres": [
+   "Musiques actuelles",
+   "Chanson",
+   "Rock"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "30 juillet – 1er août 2027",
+  "iso": [
+   "2027-07-30",
+   "2027-08-01"
+  ],
+  "about": "Festival de village dans les Landes, à Luxey. 37e édition en 2027.",
+  "official": "https://www.musicalarue.com/le-festival/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.musicalarue.com/le-festival/"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel (37e édition).",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-du-chant-de-marin",
+  "name": "Festival du Chant de Marin",
+  "city": "Paimpol",
+  "country": "France",
+  "region": "Bretagne",
+  "venue": "Port de Paimpol",
+  "maps_q": "Port de Paimpol Paimpol",
+  "genres": [
+   "Chants de marins",
+   "Musiques du monde"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "6 – 8 août 2027",
+  "iso": [
+   "2027-08-06",
+   "2027-08-08"
+  ],
+  "about": "Festival de chants de marins à Paimpol. 17e édition en 2027, sur le thème « de la mer Noire à la Baltique ».",
+  "official": "https://www.paimpol-festival.bzh/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.paimpol-festival.bzh/actualite/rendez-vous-les-6-7-et-8-aout-2027/"
+   ],
+   [
+    "Facebook officiel",
+    "https://www.facebook.com/paimpolfestival/"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site et la page Facebook officiels.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "festival-des-filets-bleus",
+  "name": "Festival des Filets Bleus",
+  "city": "Concarneau",
+  "country": "France",
+  "region": "Bretagne",
+  "venue": "Centre et quais de Concarneau",
+  "maps_q": "Centre et quais de Concarneau Concarneau",
+  "genres": [
+   "Traditions bretonnes",
+   "Musiques celtiques"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Fête de la culture bretonne à Concarneau, avec parade et concerts.",
+  "official": "https://www.festivaldesfiletsbleus.bzh/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.festivaldesfiletsbleus.bzh/"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 s'est tenue du 12 au 16 août ; 2027 est annoncée sans dates.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "alcatraz-festival",
+  "name": "Alcatraz",
+  "city": "Courtrai",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Courtrai (Kortrijk)",
+  "maps_q": "Courtrai (Kortrijk) Courtrai",
+  "genres": [
+   "Metal",
+   "Hard rock"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "5 – 8 août 2027",
+  "iso": [
+   "2027-08-05",
+   "2027-08-08"
+  ],
+  "about": "Festival de metal à Courtrai.",
+  "official": "https://www.alcatraz.be/en/index",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.alcatraz.be/en/index"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel : du 5 au 8 août.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "extrema-outdoor",
+  "name": "Extrema Outdoor",
+  "city": "Houthalen-Helchteren",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "De Plas, Houthalen-Helchteren",
+  "maps_q": "De Plas, Houthalen-Helchteren Houthalen-Helchteren",
+  "genres": [
+   "Techno",
+   "Hard music"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "14 – 16 mai 2027",
+  "iso": [
+   "2027-05-14",
+   "2027-05-16"
+  ],
+  "about": "Festival de musique électronique en plein air, au week-end de l'Ascension.",
+  "official": "https://www.instagram.com/extrema.be/",
+  "sources": [
+   [
+    "Instagram officiel",
+    "https://www.instagram.com/extrema.be/"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le compte Instagram officiel : du 14 au 16 mai.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "techno-parade-paris",
+  "name": "Techno Parade",
+  "city": "Paris",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Rues de Paris",
+  "maps_q": "Rues de Paris Paris",
+  "genres": [
+   "Techno",
+   "Électro",
+   "Défilé"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Défilé gratuit de musique électronique dans les rues de Paris.",
+  "official": "https://parisjetaime.com/eng/event/techno-parade-e006",
+  "sources": [
+   [
+    "Paris Je t'aime",
+    "https://parisjetaime.com/eng/event/techno-parade-e006"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 a eu lieu le 19 septembre ; 2027 n'est pas annoncée.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "ronquieres-festival",
+  "name": "Ronquières Festival",
+  "city": "Ronquières",
+  "country": "Belgique",
+  "region": "Wallonie",
+  "venue": "Ronquières, Hainaut",
+  "maps_q": "Ronquières, Hainaut Ronquières",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Électro"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "6 – 8 août 2027",
+  "iso": [
+   "2027-08-06",
+   "2027-08-08"
+  ],
+  "about": "Festival en Hainaut, sur le site de Ronquières.",
+  "official": "https://ronquieresfestival.be/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://ronquieresfestival.be/"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel : du 6 au 8 août.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "jazz-middelheim",
+  "name": "Jazz Middelheim",
+  "city": "Anvers",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Parc Den Brandt, Anvers",
+  "maps_q": "Parc Den Brandt, Anvers Anvers",
+  "genres": [
+   "Jazz"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "15 – 17 mai 2027",
+  "iso": [
+   "2027-05-15",
+   "2027-05-17"
+  ],
+  "about": "Festival de jazz à Anvers, dans le parc Den Brandt.",
+  "official": "https://www.jazzmiddelheim.eu/en/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.jazzmiddelheim.eu/en/"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel : du 15 au 17 mai.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "marktrock",
+  "name": "Marktrock",
+  "city": "Louvain",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Centre de Louvain",
+  "maps_q": "Centre de Louvain Louvain",
+  "genres": [
+   "Rock",
+   "Pop"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival gratuit en plein centre de Louvain, vers le 15 août.",
+  "official": "https://en.wikipedia.org/wiki/Marktrock",
+  "sources": [
+   [
+    "Wikipédia",
+    "https://en.wikipedia.org/wiki/Marktrock"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : le festival se tient chaque année autour du 15 août (source : Wikipédia).",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "gaume-jazz-festival",
+  "name": "Gaume Jazz Festival",
+  "city": "Rossignol",
+  "country": "Belgique",
+  "region": "Wallonie",
+  "venue": "Rossignol, Gaume",
+  "maps_q": "Rossignol, Gaume Rossignol",
+  "genres": [
+   "Jazz"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de jazz dans le village de Rossignol, en Gaume.",
+  "official": "https://visitwallonia.com/en-gb/content/gaume-jazz-festival-rossignol",
+  "sources": [
+   [
+    "VISITWallonia",
+    "https://visitwallonia.com/en-gb/content/gaume-jazz-festival-rossignol"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : VISITWallonia annonce août 2027, sans jours confirmés.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "brosella",
+  "name": "Brosella",
+  "city": "Bruxelles",
+  "country": "Belgique",
+  "region": "Bruxelles",
+  "venue": "Parc d'Osseghem, Bruxelles",
+  "maps_q": "Parc d'Osseghem, Bruxelles Bruxelles",
+  "genres": [
+   "Jazz",
+   "Folk"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Festival de jazz et de musiques du monde dans le parc d'Osseghem.",
+  "official": "https://www.brosellafestival.be/en/brosella/homepage",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.brosellafestival.be/en/brosella/homepage"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'édition 2026 s'est tenue du 3 au 5 juillet.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "ducasse-d-ath",
+  "name": "Ducasse d'Ath",
+  "city": "Ath",
+  "country": "Belgique",
+  "region": "Wallonie",
+  "venue": "Centre d'Ath",
+  "maps_q": "Centre d'Ath Ath",
+  "genres": [
+   "Fête populaire",
+   "Géants"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Fête des géants à Ath, en août.",
+  "official": "https://traditrip.com/en/events/ducasse-dath-belgium",
+  "sources": [
+   [
+    "Guide (non officiel)",
+    "https://traditrip.com/en/events/ducasse-dath-belgium"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : des guides non officiels annoncent la fête à partir du 20 août 2027.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "ducasse-de-mons",
+  "name": "Doudou de Mons",
+  "city": "Mons",
+  "country": "Belgique",
+  "region": "Wallonie",
+  "venue": "Grand-Place de Mons",
+  "maps_q": "Grand-Place de Mons Mons",
+  "genres": [
+   "Fête populaire",
+   "Traditions"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Ducasse de Mons, avec le Car d'Or et le combat de Lumeçon, classée à l'Unesco.",
+  "official": "https://visitwallonia.com/en-gb/content/doudou-car-dor-procession-lumecon-battle-and-sainte-waudru-ducasse",
+  "sources": [
+   [
+    "VISITWallonia",
+    "https://visitwallonia.com/en-gb/content/doudou-car-dor-procession-lumecon-battle-and-sainte-waudru-ducasse"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : VISITWallonia annonce mai 2027, sans jours précis.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "carnaval-de-paris",
+  "name": "Carnaval de Paris",
+  "city": "Paris",
+  "country": "France",
+  "region": "Île-de-France",
+  "venue": "Paris",
+  "maps_q": "Paris Paris",
+  "genres": [
+   "Carnaval",
+   "Défilé"
+  ],
+  "mois": [
+   "mars"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "about": "Défilé costumé du Carnaval de Paris, avec la Promenade du Bœuf gras.",
+  "official": "https://parisjetaime.com/eng/event/paris-carnival-e107",
+  "sources": [
+   [
+    "Paris Je t'aime",
+    "https://parisjetaime.com/eng/event/paris-carnival-e107"
+   ]
+  ],
+  "status_note": "Dates 2027 non confirmées par une source officielle : l'office de tourisme de Paris annonce mars 2027.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "carnaval-de-bailleul",
+  "name": "Carnaval de Bailleul",
+  "city": "Bailleul",
+  "country": "France",
+  "region": "Hauts-de-France",
+  "venue": "Centre de Bailleul",
+  "maps_q": "Centre de Bailleul Bailleul",
+  "genres": [
+   "Carnaval",
+   "Traditions"
+  ],
+  "mois": [
+   "février"
+  ],
+  "dates": "5 – 9 février 2027",
+  "iso": [
+   "2027-02-05",
+   "2027-02-09"
+  ],
+  "about": "Carnaval du Nord autour du géant Gargantua.",
+  "official": "https://carnaval-de-bailleul.fr/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://carnaval-de-bailleul.fr/"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site officiel : du 5 au 9 février.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "carnaval-de-chalon",
+  "name": "Carnaval de Chalon-sur-Saône",
+  "city": "Chalon-sur-Saône",
+  "country": "France",
+  "region": "Bourgogne-Franche-Comté",
+  "venue": "Centre de Chalon-sur-Saône",
+  "maps_q": "Centre de Chalon-sur-Saône Chalon-sur-Saône",
+  "genres": [
+   "Carnaval",
+   "Défilé"
+  ],
+  "mois": [
+   "février",
+   "mars"
+  ],
+  "dates": "26 février – 7 mars 2027",
+  "iso": [
+   "2027-02-26",
+   "2027-03-07"
+  ],
+  "about": "Carnaval de Chalon-sur-Saône : 120 ans du défilé en 2027.",
+  "official": "https://www.carnavaldechalon.com/",
+  "sources": [
+   [
+    "Site officiel",
+    "https://www.carnavaldechalon.com/"
+   ],
+   [
+    "Facebook officiel",
+    "https://www.facebook.com/carnavaldechalonsursaone/"
+   ]
+  ],
+  "status_note": "Dates 2027 données par le site et la page Facebook officiels.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle."
+ },
+ {
+  "slug": "feria-de-paques-arles",
+  "name": "Féria de Pâques d'Arles",
+  "city": "Arles",
+  "country": "France",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "venue": "Arènes d'Arles",
+  "maps_q": "Arènes d'Arles Arles",
+  "genres": [
+   "Féria",
+   "Traditions"
+  ],
+  "mois": [
+   "mars"
+  ],
+  "dates": "26 – 29 mars 2027",
+  "iso": [
+   "2027-03-26",
+   "2027-03-29"
+  ],
+  "about": "Féria de Pâques dans les arènes d'Arles.",
+  "official": "https://provence-alpes-cotedazur.com/en/things-to-do/events/all-events/la-feria-de-paques-arles-en-4565560/",
+  "sources": [
+   [
+    "Tourisme Provence-Alpes-Côte d'Azur",
+    "https://provence-alpes-cotedazur.com/en/things-to-do/events/all-events/la-feria-de-paques-arles-en-4565560/"
+   ]
+  ],
+  "status_note": "Dates 2027 relevées chez le comité régional du tourisme (du 26 au 29 mars).",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Féria de Pâques d'Arles"
+ },
+ {
+  "slug": "marche-de-noel-de-strasbourg",
+  "name": "Marché de Noël de Strasbourg",
+  "city": "Strasbourg",
+  "country": "France",
+  "region": "Grand Est",
+  "venue": "Centre de Strasbourg",
+  "maps_q": "Centre de Strasbourg Strasbourg",
+  "genres": [
+   "Marché de Noël",
+   "Fête populaire"
+  ],
+  "mois": [
+   "novembre",
+   "décembre"
+  ],
+  "dates": "27 novembre – 24 décembre 2026",
+  "iso": [
+   "2026-11-27",
+   "2026-12-24"
+  ],
+  "about": "Le plus ancien marché de Noël de France, dans le centre de Strasbourg.",
+  "official": "https://noel.strasbourg.eu/en/",
+  "sources": [
+   [
+    "Ville de Strasbourg",
+    "https://noel.strasbourg.eu/en/"
+   ],
+   [
+    "Office de tourisme",
+    "https://www.visitstrasbourg.fr/en/discover/the-capital-of-christmas/"
+   ]
+  ],
+  "status_note": "Dates de la prochaine édition données par la Ville de Strasbourg : du 27 novembre au 24 décembre 2026.",
+  "price_label": "Voir la billetterie officielle",
+  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "short": "Marché de Noël Strasbourg"
+ }
+]
