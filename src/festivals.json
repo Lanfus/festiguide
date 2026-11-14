@@ -5519,46 +5519,6 @@
   "country": "France"
  },
  {
-  "short": "",
-  "region": "Nouvelle-Aquitaine",
-  "venue": "Vertheuil, Médoc",
-  "maps_q": "Vertheuil, Médoc Vertheuil",
-  "genres": [
-   "Reggae"
-  ],
-  "mois": [
-   "août"
-  ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 non confirmées par une source officielle : un guide non officiel annonce la 30e édition en 2027, sans dates précises. Le site officiel n'a pas été retrouvé.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
-  "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
-  "about": "Festival de reggae dans le Médoc, en Gironde.",
-  "access": [],
-  "tips": [],
-  "official": "https://events.europa.tips/reggae-sun-ska?lang=en",
-  "sources": [
-   [
-    "Guide (non officiel)",
-    "https://events.europa.tips/reggae-sun-ska?lang=en"
-   ]
-  ],
-  "visiteurs": null,
-  "visiteurs_note": "",
-  "slug": "reggae-sun-ska",
-  "name": "Reggae Sun Ska",
-  "city": "Vertheuil",
-  "country": "France"
- },
- {
   "short": "MaMA Festival",
   "region": "Île-de-France",
   "venue": "Pigalle, Paris",
