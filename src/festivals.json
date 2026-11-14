@@ -4559,10 +4559,13 @@
   "mois": [
    "juin"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le site officiel affiche « du 11 au 15 juin » et « du 10 au 14 juin » sans année lisible dans l'extrait relevé.",
+  "dates": "9 – 13 juin 2027",
+  "iso": [
+   "2027-06-09",
+   "2027-06-13"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates de la prochaine édition annoncées par la Ville de Toulouse (mise à jour du 14/11/2026). Programmation pas encore publiée.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -4576,6 +4579,10 @@
   "tips": [],
   "official": "https://rio-loco.org/",
   "sources": [
+   [
+    "Ville de Toulouse : Rio Loco",
+    "https://metropole.toulouse.fr/actualites/rio-loco"
+   ],
    [
     "Site officiel",
     "https://rio-loco.org/"
