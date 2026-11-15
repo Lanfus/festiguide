@@ -2920,10 +2920,13 @@
   "mois": [
    "mai"
   ],
-  "dates": "Dates 2027 à confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Un agenda local (JDS) indique du 14 au 16 mai 2027, week-end de Pentecôte, mais précise que ces dates restent à confirmer par les organisateurs. Pas de communiqué officiel consulté.",
+  "dates": "14 – 16 mai 2027",
+  "iso": [
+   "2027-05-14",
+   "2027-05-16"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates de la 44e édition annoncées sur le site officiel du festival (14, 15 et 16 mai 2027, Saint-Brieuc).",
   "price_from": null,
   "price_label": "Tarifs 2027 non publiés",
   "prices": [],
@@ -2949,6 +2952,10 @@
   ],
   "official": "https://artrock.org",
   "sources": [
+   [
+    "Art Rock : site officiel (44e édition, 14-16 mai 2027)",
+    "https://artrock.org"
+   ],
    [
     "JDS : Festival Art Rock 2027",
     "https://www.jds.fr/saint-brieuc/manifestations/festival/festival-art-rock-2027-1598540_A"

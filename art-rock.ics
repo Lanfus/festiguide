@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:art-rock-20270514@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270517
+SUMMARY:Art Rock
+LOCATION:Centre-ville de Saint-Brieuc et La Passerelle
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/art-rock.html
+URL:https://artrock.org
+END:VEVENT
+END:VCALENDAR
