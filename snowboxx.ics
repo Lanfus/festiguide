@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:snowboxx-20270313@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270321
+SUMMARY:Snowboxx
+LOCATION:Avoriaz
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/snowboxx.html
+URL:https://www.snowboxx.com
+END:VEVENT
+END:VCALENDAR

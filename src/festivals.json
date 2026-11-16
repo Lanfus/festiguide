@@ -6776,10 +6776,13 @@
   "mois": [
    "mars"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 13 au 20 mars 2027. À vérifier sur le site de l'organisateur.",
+  "dates": "13 – 20 mars 2027",
+  "iso": [
+   "2027-03-13",
+   "2027-03-20"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 confirmées par l'Office de tourisme d'Avoriaz (via Haute-Savoie Mont-Blanc Tourisme) : 13 au 20 mars 2027.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -6791,8 +6794,12 @@
   "about": "Festival de musique électronique à Avoriaz.",
   "access": [],
   "tips": [],
-  "official": "https://www.musicfestivalwizard.com/festivals/snowboxx-2027/",
+  "official": "https://www.snowboxx.com",
   "sources": [
+   [
+    "Office de tourisme d'Avoriaz (Haute-Savoie Mont-Blanc Tourisme)",
+    "https://hautesavoiemontblanc-tourisme.com/en/offers/snowboxx-avoriaz-en-5959924/"
+   ],
    [
     "Fiche Music Festival Wizard (non officiel)",
     "https://www.musicfestivalwizard.com/festivals/snowboxx-2027/"
@@ -6821,7 +6828,7 @@
   "dates": "À confirmer",
   "iso": null,
   "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 14 au 21 mars 2027. À vérifier sur le site de l'organisateur.",
+  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 14 au 21 mars 2027. À vérifier sur le site de l'organisateur. Mise à jour 16/11 : les offices de tourisme donnent 14–21 mars 2027 (Châtel) et 14–20 mars 2027 (Morzine) : sources contradictoires, à vérifier sur le site de l'organisateur.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -6859,10 +6866,13 @@
   "mois": [
    "mars"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 25 au 29 mars 2027. À vérifier sur le site de l'organisateur.",
+  "dates": "25 – 29 mars 2027",
+  "iso": [
+   "2027-03-25",
+   "2027-03-29"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 confirmées par l'Office de tourisme de Chamonix-Mont-Blanc (jeudi 25 au lundi 29 mars 2027).",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -6874,8 +6884,12 @@
   "about": "Festival de musique électronique à Chamonix.",
   "access": [],
   "tips": [],
-  "official": "https://www.musicfestivalwizard.com/festivals/chamonix-unlimited-festival-2027/",
+  "official": "https://unlimited-festival.com",
   "sources": [
+   [
+    "Office de tourisme de Chamonix-Mont-Blanc",
+    "https://en.chamonix.com/events/highlights/chamonix-unlimited-festival-2027"
+   ],
    [
     "Fiche Music Festival Wizard (non officiel)",
     "https://www.musicfestivalwizard.com/festivals/chamonix-unlimited-festival-2027/"

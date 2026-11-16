@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:chamonix-unlimited-20270325@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270330
+SUMMARY:Chamonix Unlimited Festival
+LOCATION:Chamonix
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/chamonix-unlimited.html
+URL:https://unlimited-festival.com
+END:VEVENT
+END:VCALENDAR
