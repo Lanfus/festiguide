@@ -5,11 +5,11 @@ from pathlib import Path
 
 esc = lambda s: html.escape(str(s), quote=True)
 SITE = "FestiGuide"
-UPDATED = "13 novembre 2026"
+UPDATED = "17 novembre 2026"
 BASE_URL = "https://lanfus.github.io/festiguide"
 EDITEUR = "Florent H."
 CONTACT = "contact.festiguide@gmail.com"
-LEGAL_PAGES = ["mentions-legales.html", "confidentialite.html", "cookies.html"]
+LEGAL_PAGES = ["mentions-legales.html", "conditions-utilisation.html", "confidentialite.html", "cookies.html"]
 OUT = Path(sys.argv[2] if len(sys.argv) > 2 else ".")
 
 MOIS_ORDRE = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
@@ -129,7 +129,8 @@ def head(title, desc, canonical, extra=""):
 <link rel="stylesheet" href="style.css?v={CSS_V}">
 {extra}</head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="index.html">🎪 {SITE}</a><nav><a href="index.html">Tous les festivals</a></nav></div></header>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top"><div class="wrap"><a class="brand" href="index.html"><span aria-hidden="true">🎪</span> {SITE}</a><nav><a href="index.html">Tous les festivals</a></nav></div></header>
 '''
 
 
@@ -137,7 +138,7 @@ def foot():
     return f'''<footer><div class="wrap">
 <p>Informations rassemblées le {UPDATED} depuis des sources publiques, citées en bas de chaque fiche. Dates, prix et programmations changent souvent : vérifiez toujours sur le site officiel avant d'acheter un billet. {SITE} n'est affilié à aucun festival et ne vend aucun billet.</p>
 <nav class="foot-nav" aria-label="Informations légales">
-<a href="index.html">Accueil</a><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><a href="cookies.html">Cookies</a>
+<a href="index.html">Accueil</a><a href="mentions-legales.html">Mentions légales</a><a href="conditions-utilisation.html">Conditions d'utilisation</a><a href="confidentialite.html">Confidentialité</a><a href="cookies.html">Cookies</a>
 </nav>
 <p class="foot-copy">© 2026 {SITE} — Éditeur : {EDITEUR}</p>
 </div></footer>
@@ -190,8 +191,9 @@ def build(fests):
     idx = head(
         f"{len(fests)} festivals de musique : dates, prix | {SITE}",
         f"Les {len(fests)} plus gros festivals de musique de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Rock, électro, rap, jazz, metal.",
-        f"{BASE_URL}/index.html")
-    idx += f'''<main>
+        f"{BASE_URL}/index.html",
+        extra='<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": BASE_URL + "/", "inLanguage": "fr-FR", "description": "Annuaire gratuit de festivals de musique en France et en Belgique."}, ensure_ascii=False) + "</script>\n")
+    idx += f'''<main id="contenu">
 <section class="hero"><div class="wrap">
 <h1>Les festivals de musique, au même endroit</h1>
 <p>Dates, lieux, prix, artistes et plans : {len(fests)} festivals de France et de Belgique, dont {nb_annonces} aux dates déjà confirmées. Classés par fréquentation publiée, des plus gros aux plus petits.</p>
@@ -272,11 +274,11 @@ def build(fests):
 {('<li><small>Fréquentation</small><b>≈ ' + fmt_n(f["visiteurs"]) + '</b></li>') if f.get("visiteurs") else ""}
 </ul>
 {('<p class="small">Fréquentation : ' + esc(f.get("visiteurs_note") or "") + '</p>') if f.get("visiteurs") else ""}
-<p class="actions">{('<a class="btn ghost" href="' + f["slug"] + '.ics" download>📅 Ajouter à mon agenda</a>') if f.get("iso") else ""}<button type="button" class="btn ghost share-btn" data-title="{esc(f["name"])}">🔗 Partager</button><span class="small share-msg" aria-live="polite"></span></p>'''
+<p class="actions">{('<a class="btn ghost" href="' + f["slug"] + '.ics" download><span aria-hidden="true">📅</span> Ajouter à mon agenda</a>') if f.get("iso") else ""}<button type="button" class="btn ghost share-btn" data-title="{esc(f["name"])}"><span aria-hidden="true">🔗</span> Partager</button><span class="small share-msg" aria-live="polite"></span></p>'''
         if f.get("iso"):
             (OUT / f'{f["slug"]}.ics').write_text(ics(f), encoding="utf-8", newline="")
         lien_off = f'<a class="btn" href="{esc(official)}" target="_blank" rel="noopener">Site officiel et billetterie ↗</a>' if official else '<p class="small">Site officiel non renseigné.</p>'
-        p += f'''<main class="wrap fiche">
+        p += f'''<main id="contenu" class="wrap fiche">
 <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(f["name"])}</span></nav>
 <h1>{esc(f["name"])}</h1>
 <p class="lead">{esc(f.get("about") or "")}</p>
@@ -304,7 +306,7 @@ def build(fests):
 <section class="box"><h2>Plan et localisation</h2>
 <div class="map-wrap" data-map-src="https://www.google.com/maps?q={q}&amp;output=embed" data-map-title="Carte : {esc(f["name"])}">
   <div class="map-ph">
-    <p class="map-ph-title">🗺️ Carte non chargée</p>
+    <p class="map-ph-title"><span aria-hidden="true">🗺️</span> Carte non chargée</p>
     <p class="small">Cette carte est fournie par Google Maps. En l'affichant, vous autorisez Google à recevoir votre adresse IP et à déposer des cookies sur votre appareil. Rien n'est envoyé à Google tant que vous ne cliquez pas.</p>
     <button type="button" class="btn map-btn">Afficher la carte</button>
     <p class="small">Vous pouvez aussi <a href="https://www.google.com/maps/search/?api=1&amp;query={q}" target="_blank" rel="noopener">ouvrir le lieu dans Google Maps ↗</a> — ou lire notre <a href="cookies.html">politique de cookies</a>.</p>
@@ -333,6 +335,23 @@ def build(fests):
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + urls + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8")
+    llms = f"""# {SITE}
+
+> Annuaire gratuit de {len(fests)} festivals de musique en France et en Belgique : dates, lieu, prix, line-up, accès et site officiel. Chaque fiche cite ses sources. Aucun billet n'est vendu ici : les achats se font sur les billetteries officielles.
+
+Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncées ») que si une source officielle la confirme ; sinon la fiche indique « Dates à confirmer ». Données indicatives, à vérifier sur le site officiel du festival.
+
+## Pages principales
+- [Tous les festivals]({BASE_URL}/index.html): liste complète, filtres par mois, région, style et budget
+- [Plan du site (sitemap)]({BASE_URL}/sitemap.xml): une page par festival, au format {BASE_URL}/<slug>.html
+- [Conditions d'utilisation]({BASE_URL}/conditions-utilisation.html)
+- [Mentions légales]({BASE_URL}/mentions-legales.html)
+- [Politique de confidentialité]({BASE_URL}/confidentialite.html)
+- [Politique de cookies]({BASE_URL}/cookies.html)
+
+## Festivals
+""" + "".join(f"- [{f['name']}]({BASE_URL}/{f['slug']}.html): {f.get('city','')}, {f.get('dates') or 'Dates à confirmer'}\n" for f in fests)
+    (OUT / "llms.txt").write_text(llms, encoding="utf-8")
     (OUT / "favicon.svg").write_text(FAVICON, encoding="utf-8")
     (OUT / "fond-hero.svg").write_text(scene_svg(), encoding="utf-8")
     (OUT / "motif.svg").write_text(motif_svg(), encoding="utf-8")
@@ -344,7 +363,7 @@ def build(fests):
 
 def legal_page(slug, title, desc, body):
     p = head(f"{title} | {SITE}", desc, f"{BASE_URL}/{slug}")
-    p += f'''<main class="wrap legal">
+    p += f'''<main id="contenu" class="wrap legal">
 <p class="crumb"><a href="index.html">← Retour au site</a></p>
 <h1>{esc(title)}</h1>
 {body}
@@ -358,7 +377,7 @@ def legal_page(slug, title, desc, body):
 def build_legal(nb):
     # ---------- mentions légales ----------
     legal_page("mentions-legales.html", "Mentions légales",
-               f"Mentions légales de {SITE} : éditeur, hébergeur, contact et conditions d'utilisation.", f'''
+               f"Mentions légales de {SITE} : éditeur, hébergeur, contact, propriété intellectuelle et droit applicable.", f'''
 <section class="box"><h2>Éditeur du site</h2>
 <ul class="facts">
 <li><strong>Éditeur :</strong> {EDITEUR}, particulier</li>
@@ -366,7 +385,7 @@ def build_legal(nb):
 <li><strong>Contact :</strong> <a href="mailto:{CONTACT}">{CONTACT}</a></li>
 <li><strong>Directeur de la publication :</strong> {EDITEUR}</li>
 </ul>
-<p class="small">Conformément à la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), l'éditeur non professionnel d'un site peut ne pas publier son adresse postale, à condition de l'avoir communiquée à son hébergeur. Celle-ci est tenue à la disposition des autorités judiciaires.</p>
+<p class="small">Conformément à l'article 6, III, 2 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), l'éditeur non professionnel d'un site peut ne pas publier son adresse postale, à condition d'avoir communiqué ses éléments d'identification à son hébergeur. Ils ne sont communicables que sur réquisition de l'autorité judiciaire.</p>
 </section>
 
 <section class="box"><h2>Hébergeur</h2>
@@ -399,7 +418,64 @@ def build_legal(nb):
 </section>
 
 <section class="box"><h2>Droit applicable</h2>
-<p>Le présent site est soumis au droit français. En cas de litige, et après tentative de recherche d'une solution amiable, les tribunaux français sont seuls compétents.</p>
+<p>Le présent site est soumis au droit français. En cas de litige, une solution amiable est recherchée en priorité. À défaut, et sous réserve des règles impératives de protection du consommateur, les tribunaux français sont compétents.</p>
+<p>Les conditions d'usage du site figurent dans les <a href="conditions-utilisation.html">conditions d'utilisation</a>.</p>
+</section>
+''')
+
+    # ---------- conditions d'utilisation ----------
+    legal_page("conditions-utilisation.html", "Conditions d'utilisation",
+               f"Conditions d'utilisation de {SITE} : accès gratuit, informations indicatives, classement des festivals, usage autorisé, droit applicable.", f'''
+<section class="box"><h2>En résumé</h2>
+<ul class="facts">
+<li>{SITE} est un <strong>annuaire d'information gratuit</strong>, sans compte, sans paiement et sans vente de billets</li>
+<li>Les informations sont <strong>indicatives</strong> : vérifiez toujours sur le site officiel du festival</li>
+<li>Aucun placement payant : le classement ne dépend d'aucune rémunération</li>
+<li>Vous pouvez citer le site avec un lien ; l'extraction en masse de la base n'est pas autorisée</li>
+</ul>
+</section>
+
+<section class="box"><h2>Objet et acceptation</h2>
+<p>Les présentes conditions encadrent l'usage du site {SITE}, édité par {EDITEUR} (voir les <a href="mentions-legales.html">mentions légales</a>). En consultant le site, vous les acceptez. Elles peuvent évoluer : la version en ligne, datée en bas de page, est celle qui s'applique.</p>
+</section>
+
+<section class="box"><h2>Un service d'information, pas une boutique</h2>
+<p>{SITE} présente les dates, lieux, tarifs et programmations de {nb} festivals de musique de France et de Belgique. Le site <strong>ne vend aucun billet, aucun hébergement, aucun transport</strong>, ne perçoit aucune commission et ne vous demande aucun paiement.</p>
+<p>Aucun contrat de vente n'étant conclu avec l'éditeur, il n'existe ni conditions générales de vente, ni délai de rétractation, ni procédure de remboursement sur {SITE}. Un achat de billet se fait sur la billetterie officielle du festival, et ce sont ses propres conditions (annulation, report, remboursement) qui s'appliquent.</p>
+</section>
+
+<section class="box"><h2>Accès au site</h2>
+<p>Le site est accessible gratuitement, sans inscription, à tout moment, sauf interruption pour maintenance ou cas de force majeure. Les frais de connexion restent à votre charge. L'éditeur peut modifier ou retirer une page sans préavis.</p>
+</section>
+
+<section class="box"><h2>Exactitude des informations</h2>
+<p>Les informations proviennent de sources publiques citées au bas de chaque fiche. Une date n'est marquée « Dates annoncées » que lorsqu'une source officielle la confirme ; sinon la fiche indique « Dates à confirmer ». Malgré ce soin, des erreurs ou des changements postérieurs à la publication restent possibles : les informations sont fournies <strong>à titre indicatif, sans garantie</strong>. Vérifiez sur le site officiel avant d'acheter un billet, de réserver ou de vous déplacer.</p>
+<p>Vous repérez une erreur, ou vous êtes organisateur et souhaitez une correction ou un retrait ? Écrivez à <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
+</section>
+
+<section class="box"><h2>Classement et critères</h2>
+<p>Par défaut, la page d'accueil classe les festivals par fréquentation publiée de la dernière édition, du plus gros au plus petit, lorsqu'un chiffre sourcé existe ; les autres sont classés par date de prochaine édition. Vous pouvez aussi trier par date, par prix ou par ordre alphabétique. <strong>Aucun festival ne paie pour apparaître ou monter dans le classement</strong>, et les liens vers les sites officiels ne sont pas des liens d'affiliation. Si cela changeait, la mention serait ajoutée clairement sur les pages concernées.</p>
+</section>
+
+<section class="box"><h2>Usage autorisé</h2>
+<ul class="facts">
+<li>Consultation, impression et partage de liens pour un usage personnel : autorisés</li>
+<li>Citation courte avec un lien vers la page d'origine : autorisée</li>
+<li>Indexation par les moteurs de recherche et consultation par des assistants ou agents d'IA agissant pour un utilisateur, dans le respect du fichier <a href="robots.txt">robots.txt</a> : autorisées</li>
+<li>Extraction systématique ou reproduction substantielle de la base, ou usage qui perturbe le fonctionnement du site : interdits sans accord écrit</li>
+</ul>
+</section>
+
+<section class="box"><h2>Propriété intellectuelle et liens</h2>
+<p>Voir les <a href="mentions-legales.html">mentions légales</a> : les noms et marques des festivals appartiennent à leurs titulaires, et le site contient des liens vers des sites tiers dont l'éditeur ne contrôle pas le contenu.</p>
+</section>
+
+<section class="box"><h2>Données personnelles et cookies</h2>
+<p>Le site ne dépose aucun cookie et ne collecte aucune donnée personnelle par lui-même. Détails dans la <a href="confidentialite.html">politique de confidentialité</a> et la <a href="cookies.html">politique de cookies</a>.</p>
+</section>
+
+<section class="box"><h2>Droit applicable</h2>
+<p>Les présentes conditions sont soumises au droit français. En cas de litige, une solution amiable est recherchée en priorité ; à défaut, et sous réserve des règles impératives de protection du consommateur, les tribunaux français sont compétents.</p>
 </section>
 ''')
 
@@ -408,11 +484,11 @@ def build_legal(nb):
                f"Comment {SITE} traite vos données personnelles : aucune collecte directe, pas de compte, pas de publicité, pas de revente.", f'''
 <section class="box"><h2>En résumé</h2>
 <ul class="facts">
-<li>✅ <strong>Aucun formulaire, aucun compte, aucune newsletter</strong> sur ce site</li>
-<li>✅ <strong>Aucun cookie</strong> déposé par le site lui-même</li>
-<li>✅ <strong>Aucune publicité</strong>, aucun traceur publicitaire, aucun revendeur de données</li>
-<li>✅ <strong>Aucune donnée vendue, louée ou transmise</strong> à des fins commerciales</li>
-<li>⚠️ Deux exceptions détaillées ci-dessous : les <strong>journaux de l'hébergeur</strong> et les <strong>cartes Google Maps</strong>, qui ne se chargent qu'à votre demande</li>
+<li><span aria-hidden="true">✅</span> <strong>Aucun formulaire, aucun compte, aucune newsletter</strong> sur ce site</li>
+<li><span aria-hidden="true">✅</span> <strong>Aucun cookie</strong> déposé par le site lui-même</li>
+<li><span aria-hidden="true">✅</span> <strong>Aucune publicité</strong>, aucun traceur publicitaire, aucun revendeur de données</li>
+<li><span aria-hidden="true">✅</span> <strong>Aucune donnée vendue, louée ou transmise</strong> à des fins commerciales</li>
+<li><span aria-hidden="true">⚠️</span> Trois situations détaillées ci-dessous : les <strong>journaux de l'hébergeur</strong>, les <strong>cartes Google Maps</strong> (qui ne se chargent qu'à votre demande) et le <strong>courriel</strong> que vous choisiriez d'envoyer</li>
 </ul>
 </section>
 
@@ -430,7 +506,7 @@ def build_legal(nb):
 <li><strong>Finalité :</strong> fournir le service, assurer la sécurité du serveur et prévenir les abus</li>
 <li><strong>Base légale :</strong> intérêt légitime de l'hébergeur (article 6.1.f du RGPD)</li>
 <li><strong>Destinataire :</strong> GitHub, Inc., en sa qualité d'hébergeur</li>
-<li><strong>Transfert hors Union européenne :</strong> oui, vers les États-Unis, encadré par les clauses contractuelles types et le cadre de protection des données UE–États-Unis</li>
+<li><strong>Transfert hors Union européenne :</strong> oui, vers les États-Unis, encadré notamment par des clauses contractuelles types, selon la déclaration de confidentialité de GitHub</li>
 </ul>
 <p class="small">L'éditeur n'a pas accès à ces journaux et ne peut pas les exploiter. Pour en savoir plus : <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">déclaration de confidentialité de GitHub ↗</a>.</p>
 </section>
@@ -451,6 +527,16 @@ def build_legal(nb):
 <p>Aucun outil de mesure d'audience de type Google Analytics n'est installé. Si cela devait changer, cette page serait mise à jour et un bandeau de consentement serait mis en place <strong>avant</strong> tout dépôt de cookie.</p>
 </section>
 
+<section class="box"><h2>Si vous écrivez à l'éditeur</h2>
+<p>L'adresse de contact est la seule porte d'entrée de données personnelles. Si vous envoyez un courriel, l'éditeur reçoit votre adresse électronique, votre message et les informations techniques que votre messagerie y joint.</p>
+<ul class="facts">
+<li><strong>Finalité :</strong> répondre à votre message (signalement d'une erreur, demande d'exercice de vos droits, question)</li>
+<li><strong>Base légale :</strong> intérêt légitime à répondre aux personnes qui le contactent (article 6.1.f du RGPD)</li>
+<li><strong>Destinataire :</strong> l'éditeur seul, via son service de messagerie (Gmail, Google Ireland Limited et Google LLC)</li>
+<li><strong>Conservation :</strong> le temps de traiter votre demande, puis suppression</li>
+</ul>
+</section>
+
 <section class="box"><h2>Durée de conservation</h2>
 <p>L'éditeur ne conserve aucune donnée personnelle. Les journaux de l'hébergeur sont conservés selon la politique de GitHub. Un courriel que vous envoyez à l'adresse de contact est conservé le temps nécessaire au traitement de votre demande, puis supprimé.</p>
 </section>
@@ -458,7 +544,7 @@ def build_legal(nb):
 <section class="box"><h2>Vos droits</h2>
 <p>Le RGPD vous donne un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité sur vos données personnelles.</p>
 <p>Pour les exercer, écrivez à <a href="mailto:{CONTACT}">{CONTACT}</a>. L'éditeur ne détenant aucune donnée vous concernant, une demande portant sur les journaux de connexion doit être adressée à GitHub, et une demande portant sur les cartes à Google.</p>
-<p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez saisir la <strong>CNIL</strong> : <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener">cnil.fr/fr/plaintes ↗</a>, ou 3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07.</p>
+<p>Vous pouvez aussi définir des directives relatives au sort de vos données après votre décès (loi Informatique et Libertés, article 85). Si vous estimez que vos droits ne sont pas respectés, vous pouvez saisir la <strong>CNIL</strong> : <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener">cnil.fr/fr/plaintes ↗</a>, ou 3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07.</p>
 </section>
 
 <section class="box"><h2>Mineurs</h2>
@@ -511,6 +597,9 @@ CSS = r'''
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:#fff9f4;line-height:1.55;position:relative}
 body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url(motif.svg?v=@@FOND@@),radial-gradient(60% 45% at 8% 6%,rgba(225,29,72,.09),transparent 70%),radial-gradient(55% 45% at 95% 20%,rgba(251,191,36,.16),transparent 70%),radial-gradient(60% 50% at 70% 100%,rgba(249,115,22,.10),transparent 70%)}
+.skip{position:absolute;left:-9999px;top:8px;z-index:100;background:#fff;color:#7a1630;padding:10px 16px;border-radius:8px;font-weight:700}
+.skip:focus{left:8px;outline:3px solid #7a1630}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #7a1630;outline-offset:2px}
 .wrap{max-width:1100px;margin:0 auto;padding:0 18px}
 a{color:var(--accent)}
 .top{background:rgba(255,255,255,.92);color:var(--ink);border-bottom:1px solid var(--line);border-top:5px solid transparent;border-image:var(--stripe) 1 0 0 0}
@@ -518,12 +607,12 @@ a{color:var(--accent)}
 .brand{color:var(--brand);text-decoration:none;font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
 .top nav a{color:var(--muted);text-decoration:none;font-size:.95rem}
 .top nav a:hover{color:var(--accent)}
-.hero{position:relative;overflow:hidden;color:#fff;padding:64px 0 150px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 170px no-repeat,linear-gradient(120deg,#a8274a 0%,#d93d5f 58%,#f58a4e 90%,#fcc65a 100%)}
-.hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:conic-gradient(from 168deg at 22% -25%,transparent 0 5deg,rgba(255,255,255,.14) 5deg 9deg,transparent 9deg 19deg,rgba(255,255,255,.10) 19deg 22deg,transparent 22deg 360deg),conic-gradient(from 188deg at 78% -25%,transparent 0 6deg,rgba(255,255,255,.13) 6deg 10deg,transparent 10deg 21deg,rgba(255,255,255,.09) 21deg 24deg,transparent 24deg 360deg)}
-.hero::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.38;background-image:radial-gradient(circle,rgba(255,255,255,.75) 0 2px,transparent 3px),radial-gradient(circle,rgba(255,224,102,.8) 0 3px,transparent 4px),radial-gradient(circle,rgba(255,255,255,.55) 0 1.5px,transparent 2.5px);background-size:150px 130px,230px 190px,90px 110px;background-position:20px 30px,90px 70px,50px 10px}
+.hero{position:relative;overflow:hidden;color:#fff;padding:64px 0 150px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 170px no-repeat,linear-gradient(120deg,#a8274a 0%,#b82d4f 55%,#d9503f 80%,#f58a4e 94%,#fcc65a 100%)}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:conic-gradient(from 168deg at 22% -25%,transparent 0 5deg,rgba(255,255,255,.06) 5deg 9deg,transparent 9deg 19deg,rgba(255,255,255,.04) 19deg 22deg,transparent 22deg 360deg),conic-gradient(from 188deg at 78% -25%,transparent 0 6deg,rgba(255,255,255,.06) 6deg 10deg,transparent 10deg 21deg,rgba(255,255,255,.04) 21deg 24deg,transparent 24deg 360deg)}
+.hero::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;background-image:radial-gradient(circle,rgba(255,255,255,.75) 0 2px,transparent 3px),radial-gradient(circle,rgba(255,224,102,.8) 0 3px,transparent 4px),radial-gradient(circle,rgba(255,255,255,.55) 0 1.5px,transparent 2.5px);background-size:150px 130px,230px 190px,90px 110px;background-position:20px 30px,90px 70px,50px 10px}
 .hero .wrap{position:relative;z-index:1}
 .hero h1{margin:0 0 10px;font-size:clamp(1.9rem,4.4vw,2.9rem);max-width:640px;text-shadow:0 2px 14px rgba(110,25,40,.32)}
-.hero p{margin:0;color:rgba(255,255,255,.95);font-size:1.08rem;max-width:620px;text-shadow:0 1px 8px rgba(110,25,40,.28)}
+.hero p{margin:0;color:#fff;font-size:1.08rem;max-width:620px;text-shadow:0 1px 8px rgba(110,25,40,.28)}
 .filters{display:flex;gap:10px;flex-wrap:wrap;margin-top:-22px;position:relative}
 .filters input,.filters select{padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-size:1rem;background:#fff;box-shadow:0 2px 8px rgba(20,20,60,.06);max-width:100%}
 .filters input{flex:1;min-width:220px}
@@ -597,7 +686,7 @@ footer{background:#fff0e6;color:var(--muted);padding:22px 0;margin-top:30px;font
 .stats{list-style:none;display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;margin:20px 0 0}
 .stats li{display:flex;flex-direction:column;line-height:1.1}
 .stats b{font-size:1.9rem;font-weight:800}
-.stats span{font-size:.82rem;opacity:.92;margin-top:3px}
+.stats span{font-size:.82rem;margin-top:3px}
 .quick{margin-top:14px}
 .months{display:grid;grid-template-columns:repeat(auto-fit,minmax(58px,1fr));gap:6px}
 .mt{display:flex;flex-direction:column;align-items:center;gap:2px;padding:7px 4px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);font:inherit;font-size:.82rem;cursor:pointer;text-transform:capitalize}
@@ -619,7 +708,7 @@ footer{background:#fff0e6;color:var(--muted);padding:22px 0;margin-top:30px;font
 .actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 0}
 .btn.ghost{background:#fff;color:var(--accent)!important;border:1.5px solid var(--accent);cursor:pointer;font:inherit;font-weight:600;text-decoration:none}
 .btn.ghost:hover{background:#fff0e6}
-@media (max-width:560px){.hero{padding:38px 0 100px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 110px no-repeat,linear-gradient(160deg,#a8274a 0%,#d93d5f 62%,#f58a4e 100%)}.box{padding:16px}.filters input,.filters select{width:100%}.map-ph{padding:20px 14px}}
+@media (max-width:560px){.hero{padding:38px 0 100px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 110px no-repeat,linear-gradient(160deg,#a8274a 0%,#b82d4f 72%,#e0603f 100%)}.box{padding:16px}.filters input,.filters select{width:100%}.map-ph{padding:20px 14px}}
 '''
 
 JS = r'''

@@ -12,7 +12,7 @@ Toute correction de contenu (date, prix, artiste, nouveau festival) se fait dans
 
 ```bash
 python3 src/check.py src/festivals.json /tmp/ok.json   # valide les données
-python3 src/build.py src/festivals.json .              # régénère les 138 pages à la racine
+python3 src/build.py src/festivals.json .              # régénère les 139 pages à la racine
 ```
 
 `check.py` normalise les mois, vérifie les sources, rejette les dates ISO passées ou incohérentes et signale les doublons. `build.py` trie les festivals par date de prochaine édition, génère l'accueil, une fiche par festival, les trois pages légales, `sitemap.xml` et `robots.txt`.
@@ -28,7 +28,8 @@ python3 src/build.py src/festivals.json .              # régénère les 138 pag
 | `*.html`, `style.css`, `script.js` | **générés**, publiés par GitHub Pages |
 | `sitemap.xml`, `robots.txt`, `favicon.svg`, `og-image.png`, `fond-hero.svg`, `motif.svg` | générés ou copiés par `build.py` (`fond-hero.svg` : décor de champ de festival du bandeau, `motif.svg` : motif de fond de page, dessinés par `scene_svg()` et `motif_svg()`) |
 | `<slug>.ics` (61 fichiers) | générés par `build.py` pour les festivals qui ont `iso` : bouton « Ajouter à mon agenda » des fiches. Ne pas les éditer ni les mettre dans le sitemap |
-| `mentions-legales.html`, `confidentialite.html`, `cookies.html` | générés par `build_legal()` dans `build.py` |
+| `mentions-legales.html`, `conditions-utilisation.html`, `confidentialite.html`, `cookies.html` | générés par `build_legal()` dans `build.py` (pas de CGV ni page de remboursement : le site ne vend rien, à créer si de la vente ou de l'affiliation apparaît) |
+| `llms.txt` | généré par `build.py` : résumé du site et liste des fiches pour les assistants IA |
 
 ## Contrat de données (un festival)
 
@@ -51,7 +52,7 @@ Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une val
 
 ## Identité visuelle
 
-Palette « coucher de soleil de scène » : rose-rouge adouci `#a8274a` / `#d93d5f`, orange `#f58a4e`, ambre `#fcc65a`, fond crème `#fff9f4`. Florent a demandé « un peu moins de contraste » : couleurs et foule volontairement douces, mais le texte blanc du bandeau doit rester à au moins 4,4:1 (le dégradé reste rouge sous le texte). Le violet a été retiré à la demande de Florent (trop fort) : ne pas le réintroduire. Le style reste clair (Florent ne voulait pas de noir). Les visuels sont dessinés en code, jamais copiés des festivals. Le bandeau n'a volontairement aucun personnage : Florent a refusé les silhouettes en bonshommes bâton (« ça fait IA ») et les photos/vecteurs de foule fournis n'étaient pas libres de droits. Le décor (`scene_svg()`) est un champ de festival au coucher du soleil : collines, chapiteaux à fanions, grande roue, guirlandes. Ne pas réintroduire de foule ni de photo sans licence claire.
+Palette « coucher de soleil de scène » : rose-rouge adouci `#a8274a` / `#d93d5f`, orange `#f58a4e`, ambre `#fcc65a`, fond crème `#fff9f4`. Florent a demandé « un peu moins de contraste » : couleurs et foule volontairement douces, mais le texte blanc du bandeau doit rester à au moins 4,5:1 (mesuré le 17/11/2026 sur les pixels réels, rayons et paillettes compris : pire cas 4,66:1 ; ne pas réaugmenter l'opacité des rayons/paillettes ni rapprocher l'orange du texte sans re-mesurer) (le dégradé reste rouge sous le texte). Le violet a été retiré à la demande de Florent (trop fort) : ne pas le réintroduire. Le style reste clair (Florent ne voulait pas de noir). Les visuels sont dessinés en code, jamais copiés des festivals. Le bandeau n'a volontairement aucun personnage : Florent a refusé les silhouettes en bonshommes bâton (« ça fait IA ») et les photos/vecteurs de foule fournis n'étaient pas libres de droits. Le décor (`scene_svg()`) est un champ de festival au coucher du soleil : collines, chapiteaux à fanions, grande roue, guirlandes. Ne pas réintroduire de foule ni de photo sans licence claire.
 
 ## SEO déjà en place
 
@@ -99,3 +100,8 @@ Florent veut un annuaire de festivals uniquement. Retirés (51 fiches) : carnava
 Cible décidée par Florent : des jeunes qui cherchent vite un festival de musique. Retirés (20) : théâtre, danse, BD, photo, géographie, jardins et fêtes de ville (Avignon, Angoulême BD, Quai des Bulles, Rencontres d'Arles, Visa pour l'image, La Gacilly, Fête des Lumières, Festival d'Automne, Paris l'été, Festival de Marseille, Montpellier Danse, Biennale de la danse de Lyon, Marionnettes, Mythos, Festival d'Anjou, Mois Molière, Printemps des Comédiens, Festival international de géographie, Jardins de Chaumont, Gentse Feesten). Ne pas les rajouter : tout nouveau festival doit être un festival de musique. Gardés : classique, opéra et baroque (c'est de la musique ; à retirer si Florent veut cibler les jeunes), Nuits de Fourvière et Nuits de la Citadelle (concerts et spectacles). Titre et description de l'accueil mis à jour dans `build.py`.
 
 Reggae Sun Ska retiré le 14/11/2026 : aucune source officielle (seul un guide non officiel), ne pas le remettre sans site officiel. MaMA gardé (site officiel présent).
+
+
+## Audit légal et accessibilité du 17 novembre 2026
+
+Constat : aucun cookie, aucun stockage local, aucune requête externe avant clic (Playwright) ; aucun formulaire ni compte ; aucune `<img>` (visuels en CSS/SVG, emojis décoratifs en `aria-hidden`). Ajouts : page `conditions-utilisation.html`, lien d'évitement « Aller au contenu », focus visible, `llms.txt`, JSON-LD `WebSite` sur l'accueil. Corrigé : contraste du bandeau (3 à 3,4:1 avant), mention « cadre UE–États-Unis » retirée de `confidentialite.html` (non vérifiée pour GitHub : seules les clauses contractuelles types sont sourcées), clause de compétence des tribunaux réservée aux règles impératives de protection du consommateur (lectorat belge). Points à décider par Florent : mentions légales sans adresse postale (régime LCEN art. 6-III-2 : suppose que ses éléments d'identité ont été donnés à GitHub) ; si le site devient une activité professionnelle, ajouter l'adresse. Cette analyse n'est pas un avis juridique.
