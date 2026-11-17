@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:snowattack-20270116@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270124
+SUMMARY:Snowattack
+LOCATION:Les Deux Alpes
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/snowattack.html
+URL:https://www.musicfestivalwizard.com/festivals/snowattack-2027/
+END:VEVENT
+END:VCALENDAR

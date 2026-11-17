@@ -6693,10 +6693,13 @@
   "mois": [
    "décembre"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 5 au 12 décembre 2026. À vérifier sur le site de l'organisateur.",
+  "dates": "5 – 12 décembre 2026",
+  "iso": [
+   "2026-12-05",
+   "2026-12-12"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates confirmées par l'Office de tourisme des 2 Alpes (du 5 au 12 décembre 2026, 12e édition).",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -6710,6 +6713,10 @@
   "tips": [],
   "official": "https://www.musicfestivalwizard.com/festivals/rise-festival-2026/",
   "sources": [
+   [
+    "Office de tourisme des 2 Alpes",
+    "https://www.les2alpes.com/winter/offers/rise-festival-les-deux-alpes-en-winter-3409488"
+   ],
    [
     "Fiche Music Festival Wizard (non officiel)",
     "https://www.musicfestivalwizard.com/festivals/rise-festival-2026/"
@@ -6734,10 +6741,13 @@
   "mois": [
    "janvier"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 16 au 23 janvier 2027. À vérifier sur le site de l'organisateur.",
+  "dates": "16 – 23 janvier 2027",
+  "iso": [
+   "2027-01-16",
+   "2027-01-23"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 confirmées par l'Office de tourisme des 2 Alpes (du 16 au 23 janvier 2027).",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -6751,6 +6761,10 @@
   "tips": [],
   "official": "https://www.musicfestivalwizard.com/festivals/snowattack-2027/",
   "sources": [
+   [
+    "Office de tourisme des 2 Alpes",
+    "https://www.les2alpes.com/winter/offers/snowattack-les-deux-alpes-en-winter-3418811"
+   ],
    [
     "Fiche Music Festival Wizard (non officiel)",
     "https://www.musicfestivalwizard.com/festivals/snowattack-2027/"
@@ -6954,10 +6968,13 @@
   "mois": [
    "mai"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 15 et 16 mai 2027. À vérifier sur le site de l'organisateur.",
+  "dates": "15 – 16 mai 2027",
+  "iso": [
+   "2027-05-15",
+   "2027-05-16"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 confirmées par l'Office de tourisme de Paris (samedi 15 et dimanche 16 mai 2027, plage de Torcy).",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -6971,6 +6988,10 @@
   "tips": [],
   "official": "https://www.musicfestivalwizard.com/festivals/marvellous-island-festival-2027/",
   "sources": [
+   [
+    "Paris Je t'aime (office de tourisme de Paris)",
+    "https://parisjetaime.com/eng/event/marvellous-island-festival-e1310"
+   ],
    [
     "Fiche Music Festival Wizard (non officiel)",
     "https://www.musicfestivalwizard.com/festivals/marvellous-island-festival-2027/"
