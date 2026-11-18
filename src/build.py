@@ -440,6 +440,7 @@ def build(fests):
 <section class="hero"><div class="wrap">
 <h1>Trouve ton festival de musique en France et en Belgique</h1>
 <p>{len(fests)} festivals de France et de Belgique avec leurs dates, leur prix, leur line-up et comment y aller. {nb_annonces} ont déjà leurs dates confirmées par une source officielle, les autres sont marqués « à confirmer ».</p>
+{newsletter_form(None, top_g)}
 </div></section>
 <section class="wrap filters" aria-label="Filtres">
 <input id="q" type="search" placeholder="Festival, ville ou région" aria-label="Rechercher">
@@ -457,7 +458,6 @@ def build(fests):
 <div class="grid" id="grid">
 {cards}</div>
 <p id="empty" class="empty" hidden>Aucun festival ne correspond à ta recherche. <button type="button" id="reset" class="linkbtn">Tout afficher</button></p></section>
-<div class="wrap">{newsletter_form(None, top_g)}</div>
 <section class="wrap note guide-teaser"><h2>Avant d'y aller</h2>
 <p>Faux billets en revente, chaleur, bruit, fouilles à l'entrée : le <a href="guide-securite-festival.html">guide sécurité festival</a> rassemble les règles officielles et les bons réflexes, sources à l'appui.</p></section>
 <section class="wrap note explore"><h2>Explorer par mois, style ou lieu</h2>
@@ -525,6 +525,7 @@ def build(fests):
 <h1>{esc(f["name"])}</h1>
 <p class="lead">{esc(f.get("about") or "")}</p>
 {tiles}
+{newsletter_form(f)}
 <div class="two">
 <section class="box"><h2>Prochaine édition</h2>
 <ul class="facts">
@@ -561,7 +562,6 @@ def build(fests):
 <section class="box"><h2>À savoir</h2><ul>{tips}</ul>
 <p class="small">Billets, chaleur, bruit, fouilles : lire le <a href="guide-securite-festival.html">guide sécurité festival</a>.</p></section>
 </div>
-{newsletter_form(f)}
 <section class="box"><h2>Autres festivals à découvrir</h2><ul class="rel">{voisins}</ul>
 {voir_aussi(f, defs)}</section>
 <section class="box"><h2>Sources</h2><ul class="src">{src}</ul><p class="small">Mis à jour le {UPDATED}.</p></section>
@@ -1054,6 +1054,14 @@ a{color:var(--accent)}
 .nl-ok input{margin-top:3px;width:18px;height:18px;flex:none}
 .nl .btn{border:0;cursor:pointer;font:inherit;font-weight:600;height:46px}
 .nl-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.fiche .nl{margin-top:28px}
+.hero .nl{margin:30px 0 0;padding:20px 22px;max-width:820px;border:2px solid var(--pop);border-radius:6px;background:rgba(43,14,38,.45);box-shadow:none;color:#fff}
+.hero .nl h2{font-size:1.45rem;color:#fff}
+.hero .nl .small,.hero .nl-l,.hero .nl-ok{color:#fff}
+.hero .nl-ok a{color:#fff}
+.hero .nl .btn{background:var(--pop);color:var(--plum)!important;font-weight:700}
+.hero .nl .btn:hover{background:#7af0c4}
+.hero .nl .btn:focus-visible,.hero .nl input:focus-visible,.hero .nl select:focus-visible{outline-color:#fff}
 /* guide */
 .toc ol{display:flex;flex-wrap:wrap;gap:4px 22px;margin:24px 0 0;padding:12px 0;list-style:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line);counter-reset:t}
 .toc li{counter-increment:t}
