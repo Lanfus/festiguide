@@ -96,6 +96,168 @@ def related(f, fests, n=4):
     return cands[:n]
 
 
+# ---------- pages de regroupement (mois, style, région) ----------
+MIN_MOIS, MIN_REGION, MIN_GENRE = 3, 5, 5
+GENRE_PAGES = {
+    "Électro": ("festivals-electro", "Festivals électro"),
+    "Pop": ("festivals-pop", "Festivals pop"),
+    "Rock": ("festivals-rock", "Festivals rock"),
+    "Rap": ("festivals-rap", "Festivals rap"),
+    "Jazz": ("festivals-jazz", "Festivals de jazz"),
+    "Musique classique": ("festivals-musique-classique", "Festivals de musique classique"),
+    "Musiques du monde": ("festivals-musiques-du-monde", "Festivals de musiques du monde"),
+    "Techno": ("festivals-techno", "Festivals techno"),
+    "Hip-hop": ("festivals-hip-hop", "Festivals hip-hop"),
+    "Musiques actuelles": ("festivals-musiques-actuelles", "Festivals de musiques actuelles"),
+    "Chanson": ("festivals-chanson", "Festivals de chanson"),
+    "Indie": ("festivals-indie", "Festivals indie"),
+    "Soul": ("festivals-soul", "Festivals soul"),
+    "Festival en montagne": ("festivals-musique-en-montagne", "Festivals de musique en montagne"),
+    "Metal": ("festivals-metal", "Festivals metal"),
+    "House": ("festivals-house", "Festivals house"),
+}
+REGION_PREP = {"Grand Est": "dans le Grand Est", "Pays de la Loire": "dans les Pays de la Loire",
+               "Bruxelles-Capitale": "à Bruxelles"}
+
+
+def slugify(s):
+    import re
+    return re.sub(r"[^a-z0-9]+", "-", norm(s)).strip("-")
+
+
+def group_defs(fests):
+    """Pages de listes (par mois, style, région, pays), uniquement quand elles ont assez de festivals pour ne pas être creuses."""
+    defs = []
+    for m in MOIS_ORDRE:
+        lst = [f for f in fests if m in (f.get("mois") or [])]
+        if len(lst) >= MIN_MOIS:
+            defs.append({"slug": f"festivals-musique-{slugify(m)}", "h1": f"Festivals de musique en {m}",
+                         "kind": "mois", "label": m.capitalize(), "list": lst, "ou": f"en {m}"})
+    counts = {}
+    for f in fests:
+        for g in (f.get("genres") or []):
+            counts[g] = counts.get(g, 0) + 1
+    for g, (slug, h1) in GENRE_PAGES.items():
+        lst = [f for f in fests if g in (f.get("genres") or [])]
+        if len(lst) >= MIN_GENRE:
+            defs.append({"slug": slug, "h1": h1, "kind": "style", "label": h1.replace("Festivals de ", "").replace("Festivals ", "").capitalize(),
+                         "list": lst, "ou": f"dans le style « {g} »"})
+    lst = [f for f in fests if f.get("country") == "Belgique"]
+    if len(lst) >= MIN_REGION:
+        defs.append({"slug": "festivals-musique-belgique", "h1": "Festivals de musique en Belgique", "kind": "lieu",
+                     "label": "Belgique", "list": lst, "ou": "en Belgique"})
+    for r in sorted({f.get("region") for f in fests if f.get("region")}, key=norm):
+        lst = [f for f in fests if f.get("region") == r]
+        if len(lst) >= MIN_REGION:
+            ou = REGION_PREP.get(r, f"en {r}")
+            defs.append({"slug": f"festivals-musique-{slugify(r)}", "h1": f"Festivals de musique {ou}", "kind": "lieu",
+                         "label": r, "list": lst, "ou": ou})
+    return defs
+
+
+def group_title(h1):
+    for t in (f"{h1} : dates, prix | {SITE}", f"{h1} | {SITE}", h1):
+        if len(t) <= 60:
+            return t
+    return h1[:60]
+
+
+def nav_groups(defs, current=None):
+    blocs = [("mois", "Par mois"), ("style", "Par style"), ("lieu", "Par lieu")]
+    out = ""
+    for kind, titre in blocs:
+        items = [d for d in defs if d["kind"] == kind]
+        if not items:
+            continue
+        lis = "".join(
+            (f'<li><span class="cur">{esc(d["label"])} <b>{len(d["list"])}</b></span></li>' if d["slug"] == current
+             else f'<li><a href="{d["slug"]}.html">{esc(d["label"])} <b>{len(d["list"])}</b></a></li>') for d in items)
+        out += f'<h3>{titre}</h3><ul class="chips-nav">{lis}</ul>\n'
+    return out
+
+
+def voir_aussi(f, defs):
+    by_slug = {d["slug"]: d for d in defs}
+    want = []
+    for m in (f.get("mois") or [])[:1]:
+        want.append(f"festivals-musique-{slugify(m)}")
+    n = 0
+    for g in (f.get("genres") or []):
+        if g in GENRE_PAGES and GENRE_PAGES[g][0] in by_slug and n < 2:
+            want.append(GENRE_PAGES[g][0])
+            n += 1
+    if f.get("region"):
+        want.append(f"festivals-musique-{slugify(f['region'])}")
+    if f.get("country") == "Belgique":
+        want.append("festivals-musique-belgique")
+    seen, links = set(), []
+    for s in want:
+        if s in by_slug and s not in seen:
+            seen.add(s)
+            links.append(f'<a href="{s}.html">{esc(by_slug[s]["h1"])}</a>')
+    return ("<p class=\"small see\">Voir aussi : " + " · ".join(links) + "</p>") if links else ""
+
+
+def group_page(d, defs, fests):
+    lst = sorted(d["list"], key=lambda f: (-(f.get("visiteurs") or 0), tri_key(f)))
+    n = len(lst)
+    conf = [f for f in lst if f.get("status") == "Dates annoncées"]
+    gros = [f for f in lst if f.get("visiteurs")][:3]
+    prix = [(prix_num(f), f) for f in lst if prix_num(f) is not None]
+    free = [f for f in lst if is_free(f)]
+    p1 = f"{n} festivals de musique sont référencés {d['ou']} sur {SITE}, dont {len(conf)} aux dates de la prochaine édition déjà confirmées par une source officielle."
+    if gros:
+        p1 += " Les plus gros d'après la fréquentation publiée de leur dernière édition : " + ", ".join(
+            f"{g['name']} (environ {fmt_n(g['visiteurs'])} visiteurs)" for g in gros) + "."
+    bits = []
+    if prix:
+        pm, fm = min(prix, key=lambda x: x[0])
+        bits.append(f"Le ticket d'entrée le plus bas relevé : {fm.get('price_label') or str(pm) + ' €'}, au {fm['name']}, d'après la dernière grille tarifaire publiée.")
+    if free:
+        bits.append(f"{len(free)} festival{'s' if len(free) > 1 else ''} à entrée libre.")
+    if d["kind"] != "mois":
+        cnt = {}
+        for f in lst:
+            for m in (f.get("mois") or []):
+                cnt[m] = cnt.get(m, 0) + 1
+        if cnt:
+            top = max(MOIS_ORDRE, key=lambda m: cnt.get(m, 0))
+            bits.append(f"Le mois le plus chargé est {top} ({cnt[top]} festivals).")
+    p2 = " ".join(bits)
+    rows = ""
+    for f in lst:
+        badge = "ok" if f.get("status") == "Dates annoncées" else "warn"
+        tags = "".join(f'<span class="tag">{esc(g)}</span>' for g in (f.get("genres") or [])[:3])
+        visit = f' · 👥 environ {fmt_n(f["visiteurs"])} visiteurs' if f.get("visiteurs") else ""
+        rows += (f'<li class="gl"><a class="gl-name" href="{f["slug"]}.html">{esc(f["name"])}</a>'
+                 f'<span class="gl-meta">📍 {esc(f.get("city") or "")}{(", " + esc(f["region"])) if f.get("region") else ""} · 📅 {esc(f.get("dates") or "À confirmer")}{visit}</span>'
+                 f'<span class="gl-meta"><span class="badge {badge}">{esc(f.get("status") or "")}</span> 🎫 {esc(f.get("price_label") or "Tarifs non publiés")}</span>'
+                 f'<span class="tags">{tags}</span></li>\n')
+    desc = f"{n} festivals de musique {d['ou']} : dates, lieu, prix et line-up. {len(conf)} aux dates confirmées, classés des plus gros aux plus petits."
+    desc = desc if len(desc) <= 160 else desc[:157] + "…"
+    url = f"{BASE_URL}/{d['slug']}.html"
+    ld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE_URL}/index.html"},
+        {"@type": "ListItem", "position": 2, "name": d["h1"], "item": url}]}, ensure_ascii=False) + "</script>\n"
+    ld += '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "ItemList", "name": d["h1"],
+        "numberOfItems": n, "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": f["name"], "url": f'{BASE_URL}/{f["slug"]}.html'} for i, f in enumerate(lst)]}, ensure_ascii=False) + "</script>\n"
+    page = head(group_title(d["h1"]), desc, url, ld)
+    page += f'''<main id="contenu" class="wrap fiche groupe">
+<nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(d["h1"])}</span></nav>
+<h1>{esc(d["h1"])}</h1>
+<p class="lead">{esc(p1)}</p>
+{('<p>' + esc(p2) + '</p>') if p2 else ""}
+<ul class="glist">
+{rows}</ul>
+<section class="box explore"><h2>Explorer d'autres festivals</h2>
+{nav_groups(defs, d["slug"])}<p><a href="index.html">Voir tous les festivals, avec filtres par budget et tri</a></p></section>
+<p class="small">Les dates marquées « à confirmer » n'ont pas encore été annoncées par une source officielle : vérifiez toujours sur le site du festival avant d'acheter un billet.</p>
+</main>
+{foot()}</body></html>
+'''
+    return page
+
+
 FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b0304f"/><stop offset=".55" stop-color="#e8506a"/><stop offset="1" stop-color="#f58a4e"/></linearGradient></defs>
 <rect width="64" height="64" rx="14" fill="url(#g)"/>
@@ -148,6 +310,7 @@ def foot():
 def build(fests):
     OUT.mkdir(parents=True, exist_ok=True)
     fests = sorted(fests, key=tri_key)
+    defs = group_defs(fests)
 
     mois_dispo = [m for m in MOIS_ORDRE if any(m in (f.get("mois") or []) for f in fests)]
     regions = sorted({f.get("region") for f in fests if f.get("region")}, key=norm)
@@ -220,6 +383,8 @@ def build(fests):
 <div class="grid" id="grid">
 {cards}</div>
 <p id="empty" class="empty" hidden>Aucun festival ne correspond à ta recherche. <button type="button" id="reset" class="linkbtn">Tout afficher</button></p></section>
+<section class="wrap note explore"><h2>Explorer par mois, style ou lieu</h2>
+{nav_groups(defs)}</section>
 <section class="wrap note"><h2>Comment lire ces infos</h2>
 <p>Par défaut, les festivals sont classés du plus gros au moins gros d'après la <strong>fréquentation publiée</strong> de leur dernière édition (chaque fiche cite le chiffre, l'édition et la source). Ceux dont aucun chiffre fiable n'a été trouvé sont placés après, par date. Le tri « prochaine édition » les classe par date. Quand les dates ne sont pas encore officielles, la fiche affiche le mois habituel et la mention « Dates à confirmer ».</p>
 <p>Les prix et les affiches sont souvent ceux de la <strong>dernière édition connue</strong>, car peu de festivals publient leurs tarifs un an à l'avance. Chaque fiche précise l'édition de référence et cite ses sources.</p>
@@ -318,7 +483,8 @@ def build(fests):
 <section class="box"><h2>Y aller</h2><ul>{acc}</ul></section>
 <section class="box"><h2>À savoir</h2><ul>{tips}</ul></section>
 </div>
-<section class="box"><h2>Autres festivals à découvrir</h2><ul class="rel">{voisins}</ul></section>
+<section class="box"><h2>Autres festivals à découvrir</h2><ul class="rel">{voisins}</ul>
+{voir_aussi(f, defs)}</section>
 <section class="box"><h2>Sources</h2><ul class="src">{src}</ul><p class="small">Mis à jour le {UPDATED}.</p></section>
 </main>
 {foot()}<script src="script.js?v={JS_V}"></script>
@@ -326,11 +492,14 @@ def build(fests):
 '''
         (OUT / f'{f["slug"]}.html').write_text(p, encoding="utf-8")
 
+    for d in defs:
+        (OUT / f'{d["slug"]}.html').write_text(group_page(d, defs, fests), encoding="utf-8")
+
     build_legal(len(fests))
 
     # ---------- sitemap + robots ----------
     urls = "".join(f"  <url><loc>{BASE_URL}/{s}</loc></url>\n"
-                   for s in ["index.html"] + [f'{f["slug"]}.html' for f in fests] + LEGAL_PAGES)
+                   for s in ["index.html"] + [f'{d["slug"]}.html' for d in defs] + [f'{f["slug"]}.html' for f in fests] + LEGAL_PAGES)
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + urls + "</urlset>\n", encoding="utf-8")
@@ -349,6 +518,8 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Politique de confidentialité]({BASE_URL}/confidentialite.html)
 - [Politique de cookies]({BASE_URL}/cookies.html)
 
+## Listes par mois, style et lieu
+""" + "".join(f"- [{d['h1']}]({BASE_URL}/{d['slug']}.html): {len(d['list'])} festivals\n" for d in defs) + """
 ## Festivals
 """ + "".join(f"- [{f['name']}]({BASE_URL}/{f['slug']}.html): {f.get('city','')}, {f.get('dates') or 'Dates à confirmer'}\n" for f in fests)
     (OUT / "llms.txt").write_text(llms, encoding="utf-8")
@@ -645,6 +816,18 @@ a{color:var(--accent)}
 .fiche{padding-top:22px;padding-bottom:30px}
 .crumb{margin:0 0 6px;font-size:.92rem;color:var(--muted)}
 .rel{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.chips-nav{list-style:none;padding:0;margin:0 0 14px;display:flex;flex-wrap:wrap;gap:8px}
+.chips-nav a,.chips-nav .cur{display:inline-block;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--brand);text-decoration:none;font-weight:600;font-size:.92rem}
+.chips-nav a:hover{background:#fff6f0}
+.chips-nav .cur{background:var(--brand);color:#fff;border-color:var(--brand)}
+.chips-nav b{font-weight:600;opacity:.75;margin-left:2px}
+.explore h3{margin:14px 0 8px;font-size:1rem}
+.glist{list-style:none;padding:0;margin:18px 0;display:grid;gap:10px}
+.gl{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;gap:4px}
+.gl-name{font-weight:700;font-size:1.05rem;color:var(--brand);text-decoration:none}
+.gl-name:hover{text-decoration:underline}
+.gl-meta{font-size:.92rem;color:var(--muted)}
+.see{margin-top:12px}
 .rel li{background:#fff6f0;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
 .rel a{font-weight:600;text-decoration:none;color:var(--brand)}
 .rel a:hover{text-decoration:underline}

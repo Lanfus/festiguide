@@ -12,6 +12,43 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Politique de confidentialité](https://lanfus.github.io/festiguide/confidentialite.html)
 - [Politique de cookies](https://lanfus.github.io/festiguide/cookies.html)
 
+## Listes par mois, style et lieu
+- [Festivals de musique en janvier](https://lanfus.github.io/festiguide/festivals-musique-janvier.html): 4 festivals
+- [Festivals de musique en mars](https://lanfus.github.io/festiguide/festivals-musique-mars.html): 7 festivals
+- [Festivals de musique en mai](https://lanfus.github.io/festiguide/festivals-musique-mai.html): 13 festivals
+- [Festivals de musique en juin](https://lanfus.github.io/festiguide/festivals-musique-juin.html): 23 festivals
+- [Festivals de musique en juillet](https://lanfus.github.io/festiguide/festivals-musique-juillet.html): 59 festivals
+- [Festivals de musique en août](https://lanfus.github.io/festiguide/festivals-musique-aout.html): 32 festivals
+- [Festivals de musique en septembre](https://lanfus.github.io/festiguide/festivals-musique-septembre.html): 4 festivals
+- [Festivals de musique en octobre](https://lanfus.github.io/festiguide/festivals-musique-octobre.html): 3 festivals
+- [Festivals électro](https://lanfus.github.io/festiguide/festivals-electro.html): 52 festivals
+- [Festivals pop](https://lanfus.github.io/festiguide/festivals-pop.html): 46 festivals
+- [Festivals rock](https://lanfus.github.io/festiguide/festivals-rock.html): 44 festivals
+- [Festivals rap](https://lanfus.github.io/festiguide/festivals-rap.html): 21 festivals
+- [Festivals de jazz](https://lanfus.github.io/festiguide/festivals-jazz.html): 18 festivals
+- [Festivals de musique classique](https://lanfus.github.io/festiguide/festivals-musique-classique.html): 15 festivals
+- [Festivals de musiques du monde](https://lanfus.github.io/festiguide/festivals-musiques-du-monde.html): 14 festivals
+- [Festivals techno](https://lanfus.github.io/festiguide/festivals-techno.html): 11 festivals
+- [Festivals hip-hop](https://lanfus.github.io/festiguide/festivals-hip-hop.html): 10 festivals
+- [Festivals de musiques actuelles](https://lanfus.github.io/festiguide/festivals-musiques-actuelles.html): 10 festivals
+- [Festivals de chanson](https://lanfus.github.io/festiguide/festivals-chanson.html): 8 festivals
+- [Festivals indie](https://lanfus.github.io/festiguide/festivals-indie.html): 6 festivals
+- [Festivals soul](https://lanfus.github.io/festiguide/festivals-soul.html): 6 festivals
+- [Festivals de musique en montagne](https://lanfus.github.io/festiguide/festivals-musique-en-montagne.html): 6 festivals
+- [Festivals metal](https://lanfus.github.io/festiguide/festivals-metal.html): 5 festivals
+- [Festivals house](https://lanfus.github.io/festiguide/festivals-house.html): 5 festivals
+- [Festivals de musique en Belgique](https://lanfus.github.io/festiguide/festivals-musique-belgique.html): 32 festivals
+- [Festivals de musique en Auvergne-Rhône-Alpes](https://lanfus.github.io/festiguide/festivals-musique-auvergne-rhone-alpes.html): 16 festivals
+- [Festivals de musique en Bretagne](https://lanfus.github.io/festiguide/festivals-musique-bretagne.html): 15 festivals
+- [Festivals de musique en Flandre](https://lanfus.github.io/festiguide/festivals-musique-flandre.html): 22 festivals
+- [Festivals de musique dans le Grand Est](https://lanfus.github.io/festiguide/festivals-musique-grand-est.html): 6 festivals
+- [Festivals de musique en Île-de-France](https://lanfus.github.io/festiguide/festivals-musique-ile-de-france.html): 16 festivals
+- [Festivals de musique en Nouvelle-Aquitaine](https://lanfus.github.io/festiguide/festivals-musique-nouvelle-aquitaine.html): 5 festivals
+- [Festivals de musique en Occitanie](https://lanfus.github.io/festiguide/festivals-musique-occitanie.html): 12 festivals
+- [Festivals de musique dans les Pays de la Loire](https://lanfus.github.io/festiguide/festivals-musique-pays-de-la-loire.html): 7 festivals
+- [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lanfus.github.io/festiguide/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
+- [Festivals de musique en Wallonie](https://lanfus.github.io/festiguide/festivals-musique-wallonie.html): 6 festivals
+
 ## Festivals
 - [Les Trans Musicales de Rennes](https://lanfus.github.io/festiguide/les-trans-musicales.html): Rennes (Ille-et-Vilaine), 2 – 6 décembre 2026
 - [Rise Festival](https://lanfus.github.io/festiguide/rise-festival.html): Les 2 Alpes, 5 – 12 décembre 2026

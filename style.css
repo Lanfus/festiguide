@@ -50,6 +50,18 @@ a{color:var(--accent)}
 .fiche{padding-top:22px;padding-bottom:30px}
 .crumb{margin:0 0 6px;font-size:.92rem;color:var(--muted)}
 .rel{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.chips-nav{list-style:none;padding:0;margin:0 0 14px;display:flex;flex-wrap:wrap;gap:8px}
+.chips-nav a,.chips-nav .cur{display:inline-block;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--brand);text-decoration:none;font-weight:600;font-size:.92rem}
+.chips-nav a:hover{background:#fff6f0}
+.chips-nav .cur{background:var(--brand);color:#fff;border-color:var(--brand)}
+.chips-nav b{font-weight:600;opacity:.75;margin-left:2px}
+.explore h3{margin:14px 0 8px;font-size:1rem}
+.glist{list-style:none;padding:0;margin:18px 0;display:grid;gap:10px}
+.gl{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;gap:4px}
+.gl-name{font-weight:700;font-size:1.05rem;color:var(--brand);text-decoration:none}
+.gl-name:hover{text-decoration:underline}
+.gl-meta{font-size:.92rem;color:var(--muted)}
+.see{margin-top:12px}
 .rel li{background:#fff6f0;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
 .rel a{font-weight:600;text-decoration:none;color:var(--brand)}
 .rel a:hover{text-decoration:underline}
