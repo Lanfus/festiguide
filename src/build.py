@@ -30,7 +30,7 @@ CONTACT = "contact.festiguide@gmail.com"
 # (ex. "festiguide" pour https://festiguide.goatcounter.com).
 GOATCOUNTER = "lanfus"
 # Newsletter Brevo : l'adresse « action » du formulaire Brevo (…sibforms.com/serve/…), voir README.
-NEWSLETTER_ACTION = ""
+NEWSLETTER_ACTION = "https://f9bc5982.sibforms.com/serve/MUIFAN7XhHdaCARXq_hbErklvqlHojt6KVsEGk9pAfHIdxAeHpZuvTdeJl3twijdmE8ry9LNXFVB0R_ibEULP-AJvoT9WSxcF1dJWmc8LVv0Z0dcp7_zinNWfSWmOuyPFlN5MQGgweDZI_Z4sJKoPU9nrzo5jQbeixDYv9KmRWjIiDtukogwtEaohiL2dX0SBPNkVy3PpOc0daQ1_A=="
 # Témoignage personnel affiché en tête du guide sécurité (expérience terrain). Vide = bloc masqué.
 GUIDE_TEMOIGNAGE = ""
 
@@ -380,6 +380,7 @@ def newsletter_form(f=None, genres=()):
 {extra}
 <input type="text" name="email_address_check" value="" class="nl-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 <input type="hidden" name="locale" value="fr">
+<input type="hidden" name="html_type" value="simple">
 <input type="hidden" name="SOURCE" value="{esc(ctx)}">
 <label class="nl-ok"><input type="checkbox" name="OPT_IN" value="1" required><span>J'ai 15 ans ou plus et j'accepte de recevoir les alertes {SITE} par e-mail. Je peux me désinscrire à tout moment. Détails dans la <a href="confidentialite.html">politique de confidentialité</a>.</span></label>
 <button type="submit" class="btn">S'inscrire</button>
@@ -575,6 +576,8 @@ def build(fests):
 
     build_legal(len(fests))
     build_guide(fests)
+    if NEWSLETTER_ACTION:
+        build_inscription()
     shutil.copy(Path(__file__).parent / "goatcounter.js", OUT / "goatcounter.js")
 
     # ---------- sitemap + robots ----------
@@ -721,6 +724,31 @@ def build_guide(fests):
 {foot()}</body></html>
 '''
     (OUT / GUIDE_SLUG).write_text(p, encoding="utf-8")
+
+
+def build_inscription():
+    """Pages de retour de Brevo (à renseigner dans Brevo › formulaire › Paramètres) : après l'envoi, puis après le clic de confirmation.
+    Hors sitemap et en noindex : elles n'ont d'intérêt que dans le parcours d'inscription."""
+    pages = [
+        ("inscription-envoyee.html", "Vérifie ta boîte mail",
+         "Inscription presque terminée : clique sur le lien de confirmation reçu par e-mail.",
+         "<p class=\"lead\">Il reste une étape : tu viens de recevoir un e-mail de confirmation. Clique sur le lien qu'il contient pour activer l'alerte.</p>"
+         "<p>Rien reçu d'ici quelques minutes ? Regarde dans les courriers indésirables ou l'onglet Promotions. Sans clic de confirmation, aucune alerte ne te sera envoyée et ton adresse n'est pas ajoutée à la liste.</p>"),
+        ("inscription-confirmee.html", "C'est confirmé",
+         "Inscription à l'alerte FestiGuide confirmée.",
+         "<p class=\"lead\">Ton inscription est confirmée. Tu recevras un e-mail quand il y a du nouveau : dates confirmées, line-up, billetterie.</p>"
+         "<p>Pas de pub, et chaque e-mail contient un lien de désinscription. Détails dans la <a href=\"confidentialite.html\">politique de confidentialité</a>.</p>"),
+    ]
+    for slug, title, desc, body in pages:
+        p = head(f"{title} | {SITE}", desc, f"{BASE_URL}/{slug}", '<meta name="robots" content="noindex">\n')
+        p += f'''<main id="contenu" class="wrap legal">
+<h1>{esc(title)}</h1>
+{body}
+<p><a class="btn" href="index.html">Voir les festivals</a> <a href="{GUIDE_SLUG}">Lire le guide sécurité</a></p>
+</main>
+{foot()}</body></html>
+'''
+        (OUT / slug).write_text(p, encoding="utf-8")
 
 
 def legal_page(slug, title, desc, body):

@@ -48,7 +48,7 @@ Les prix et les programmations affichés sont ceux de la dernière édition conn
 
 Le site ne dépose aucun cookie. Les cartes Google Maps ne se chargent qu'après un clic explicite du visiteur, selon le principe du double clic recommandé par la CNIL : tant que personne ne clique, aucune requête n'est envoyée à Google.
 
-La mesure d'audience (GoatCounter, sans cookie) et l'alerte e-mail (Brevo) sont **prêtes mais désactivées** : elles ne s'affichent et ne chargent rien tant que leurs identifiants sont vides en haut de `src/build.py`. Les pages `confidentialite.html`, `cookies.html` et `conditions-utilisation.html` s'adaptent toutes seules à ce qui est activé.
+La mesure d'audience (GoatCounter, sans cookie) et l'alerte e-mail (Brevo, double opt-in) sont **activées**. Chacune se coupe en vidant son identifiant en haut de `src/build.py` : elle ne s'affiche et ne charge alors plus rien. L'alerte ne charge aucun script Brevo : le formulaire n'envoie l'adresse qu'au clic sur « S'inscrire », puis Brevo renvoie vers `inscription-envoyee.html` et, après confirmation, vers `inscription-confirmee.html`. Les pages `confidentialite.html`, `cookies.html` et `conditions-utilisation.html` s'adaptent toutes seules à ce qui est activé.
 
 ## Activer la mesure d'audience (GoatCounter)
 
