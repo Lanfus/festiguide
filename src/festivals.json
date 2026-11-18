@@ -6258,17 +6258,47 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates 2027 données par le site officiel et la billetterie.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 185.0,
+  "price_label": "dès 185 € le week-end (2027)",
+  "prices": [
+   [
+    "Ticket week-end",
+    "185 € (au lieu de 192 €)"
+   ],
+   [
+    "Ticket week-end enfant (2 à 13 ans)",
+    "17 €"
+   ],
+   [
+    "Camping",
+    "29 € (au lieu de 33 €) ; enfant 7 €"
+   ],
+   [
+    "Emplacement mobilhome ou caravane",
+    "17 € par véhicule, plus un ticket camping par personne"
+   ],
+   [
+    "Parking",
+    "14 € (au lieu de 16 €)"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027 affichés sur la page billetterie officielle (prévente early bird). L'édition 2026 était complète en prévente, pour la 3e année de suite.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival folk, roots et musiques du monde dans le village de Dranouter, en Flandre-Occidentale.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Village de Dranouter, commune de Heuvelland (Flandre-Occidentale), près de la frontière française",
+   "Parking payant à réserver avec les billets"
+  ],
+  "tips": [
+   "Festival souvent complet en prévente : acheter tôt, les prix montent après l'early bird",
+   "Paiement cashless avec des « bongs » : 1 bong = 1 €",
+   "Nouveau en 2027 : un camping à part pour les groupes avec mobilhome ou caravane ; le camping calme est réservé aux tentes",
+   "Le jeudi (journée d'ouverture) est gratuit avec un ticket week-end",
+   "Revente seulement sur la plateforme Resale officielle ; prévoir une preuve d'âge (Kids-ID) pour les enfants"
+  ],
   "official": "http://www.festivaldranouter.be/",
   "sources": [
    [
@@ -6278,6 +6308,10 @@
    [
     "Billetterie Eventim",
     "https://www.eventim.be/en/artist/festival-dranouter/"
+   ],
+   [
+    "Festival Dranouter : tickets 2027",
+    "http://www.festivaldranouter.be/nl/tickets"
    ]
   ],
   "visiteurs": null,
@@ -6285,7 +6319,13 @@
   "slug": "festival-dranouter",
   "name": "Festival Dranouter",
   "city": "Dranouter (Heuvelland)",
-  "country": "Belgique"
+  "country": "Belgique",
+  "liens": [
+   [
+    "Billetterie et questions sur les tickets (en néerlandais)",
+    "http://www.festivaldranouter.be/nl/praktisch/ticketvragen"
+   ]
+  ]
  },
  {
   "short": "",
@@ -7370,22 +7410,59 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates 2027 données par le site officiel : du 5 au 8 août.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 59.0,
+  "price_label": "dès 59 € la journée (2027)",
+  "prices": [
+   [
+    "Jeudi 5 août",
+    "59 € (VIP 109 €)"
+   ],
+   [
+    "Vendredi, samedi ou dimanche",
+    "99 € la journée (VIP 195 €)"
+   ],
+   [
+    "Combi 4 jours",
+    "265 € (vague 3 ; vagues précédentes épuisées), VIP 475 €"
+   ],
+   [
+    "Camping",
+    "25,50 € par personne, obligatoire pour chaque campeur"
+   ],
+   [
+    "Emplacement camping-car",
+    "109 € + 25,50 € par personne (épuisé)"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027 relevés sur la billetterie officielle (Weeztix) : frais de service et de paiement inclus.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de metal à Courtrai.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Site de la Lange Munte, Bad Godesberglaan 22, 8500 Courtrai (Kortrijk)",
+   "Camping Graveyard à distance de marche du site, avec une entrée séparée"
+  ],
+  "tips": [
+   "Camping ouvert du jeudi 5 août (9 h) au lundi 9 août (midi) ; douches et toilettes gratuites, plus de douches à partir de 2027",
+   "Hébergements sur place (tentes équipées, lodges) à l'Eagle Plaza, de 21,25 à 100 € par personne et par nuit, ticket camping en plus",
+   "Billets journée valables seulement le jour choisi",
+   "Cartes cadeaux en vente, mais non utilisables pendant le festival"
+  ],
   "official": "https://www.alcatraz.be/en/index",
   "sources": [
    [
     "Site officiel",
     "https://www.alcatraz.be/en/index"
+   ],
+   [
+    "Alcatraz : billetterie officielle 2027",
+    "https://shop.weeztix.com/a22e0ce7-7657-4601-addc-13d7d0cac701"
+   ],
+   [
+    "Alcatraz : camping",
+    "https://www.alcatraz.be/en/camping"
    ]
   ],
   "visiteurs": null,
@@ -7393,7 +7470,13 @@
   "slug": "alcatraz-festival",
   "name": "Alcatraz",
   "city": "Courtrai",
-  "country": "Belgique"
+  "country": "Belgique",
+  "liens": [
+   [
+    "Camping et hébergements",
+    "https://www.alcatraz.be/en/camping"
+   ]
+  ]
  },
  {
   "short": "",
@@ -7462,19 +7545,34 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non publiés (billetterie fermée en novembre 2026). En 2026 : pass et tickets jour, ticket camping en plus du pass (1 ticket par personne, pas par tente), tickets kids pour les moins de 10 ans, gratuit pour les moins de 2 ans, paiement possible en 3 fois.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival en Hainaut, sur le site de Ronquières.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Site du Plan incliné de Ronquières, commune de Braine-le-Comte (Hainaut)",
+   "Pas de camping-cars, ni sur les parkings ni au camping"
+  ],
+  "tips": [
+   "En 2026, portes ouvertes à 16 h le vendredi et à 14 h le samedi et le dimanche",
+   "Paiement cashless avec un bracelet : recharge par Bancontact Pay (comptes belges), aux caisses ou aux bornes en carte bancaire, ou par l'appli ; solde remboursable jusqu'au 31 août",
+   "Autorisés : 1 bouteille d'eau de 1,5 L pleine et scellée, une gourde vide de 50 cl, crème solaire de moins de 250 ml, snacks dans un sachet transparent",
+   "Interdits : sacs de plus de 25 L, parapluies, appareils reflex, poussettes, canettes et verre",
+   "Revente seulement sur la plateforme officielle, entre 90 et 100 % du prix d'achat",
+   "Moins de 16 ans sans adulte : autorisation parentale et copie de la carte d'identité des parents",
+   "Casiers à réserver à l'avance ; objets perdus à l'office du tourisme de Braine-le-Comte"
+  ],
   "official": "https://ronquieresfestival.be/",
   "sources": [
    [
     "Site officiel",
     "https://ronquieresfestival.be/"
+   ],
+   [
+    "Ronquières Festival : FAQ (édition 2026)",
+    "https://ronquieresfestival.be/infos/f-a-q/"
    ]
   ],
   "visiteurs": null,
@@ -7482,7 +7580,13 @@
   "slug": "ronquieres-festival",
   "name": "Ronquières Festival",
   "city": "Ronquières",
-  "country": "Belgique"
+  "country": "Belgique",
+  "liens": [
+   [
+    "FAQ",
+    "https://ronquieresfestival.be/infos/f-a-q/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -7505,19 +7609,33 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non relevés. En 2026, billets vendus par vagues (Early Bird, Regular, Final Wave) de plus en plus chères ; enfants gratuits jusqu'à 3 ans, 25 € jusqu'à 12 ans ; billets aussi en vente sur place sauf journée complète.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de jazz à Anvers, dans le parc Den Brandt.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Parc Den Brandt, Anvers : tram 6 (P+R Olympiade) ou tram 2 (Olympiade), bus 17, 18, 21 et 33",
+   "Pas de parking du festival ; environ 2 500 places vélo dans le parc (entrées Acacialaan et Kastanjelaan)",
+   "Dépose taxi et « kiss & ride » au début de l'Eglantierlaan"
+  ],
+  "tips": [
+   "Nourriture et boissons extérieures interdites ; gourde vide autorisée pour la remplir d'eau sur place",
+   "Paiement cashless avec le bracelet, rechargeable par Bancontact Pay ou aux caisses ; pas de retrait d'argent sur place",
+   "Gobelets consignés 1,50 € ; casiers payants près de l'entrée",
+   "Revente uniquement via la page Ticketswap officielle",
+   "Chemins pavés vers les scènes et toilettes accessibles ; places de parking PMR sur demande à l'avance"
+  ],
   "official": "https://www.jazzmiddelheim.eu/en/",
   "sources": [
    [
     "Site officiel",
     "https://www.jazzmiddelheim.eu/en/"
+   ],
+   [
+    "Jazz Middelheim : FAQ (édition 2026)",
+    "https://www.jazzmiddelheim.eu/en/faq"
    ]
   ],
   "visiteurs": null,
@@ -7525,7 +7643,13 @@
   "slug": "jazz-middelheim",
   "name": "Jazz Middelheim",
   "city": "Anvers",
-  "country": "Belgique"
+  "country": "Belgique",
+  "liens": [
+   [
+    "FAQ (en anglais)",
+    "https://www.jazzmiddelheim.eu/en/faq"
+   ]
+  ]
  },
  {
   "short": "",
