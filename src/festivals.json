@@ -5615,22 +5615,57 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates 2027 données par le site officiel. Le thème 2027, « Galaxies Beethoven », est cité par un guide touristique.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 2.0,
+  "price_label": "de 2 à 39 € le concert (2027)",
+  "prices": [
+   [
+    "Concert",
+    "de 2 à 39 € selon le concert ; un billet par concert, même gratuit"
+   ],
+   [
+    "Tarif réduit",
+    "50 % du plein tarif : moins de 30 ans, demandeurs d'emploi, minima sociaux, carte mobilité inclusion"
+   ],
+   [
+    "Tarif Tribu",
+    "50 % pour 1 ou 2 adultes avec 2 à 6 enfants (en ligne et aux guichets du festival)"
+   ],
+   [
+    "Carte Blanche (Ville de Nantes)",
+    "6 € le concert"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027 publiés sur la page billetterie officielle. Billetterie ouverte le samedi 5 décembre 2026 à 9 h.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de musique classique à Nantes. 33e édition en 2027.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Concerts à la Cité des Congrès de Nantes, plus quelques salles en ville (Conservatoire, Théâtre Graslin)",
+   "Transports adaptés pour les personnes à mobilité réduite : Titi Floris (02 40 76 38 44) et Proxicab (02 40 50 10 20)"
+  ],
+  "tips": [
+   "Billetterie ouverte le samedi 5 décembre 2026 à 9 h : les concerts les plus demandés partent vite",
+   "En guichet : Espaces Culturels E.Leclerc Atlantis (Saint-Herblain) et Paridis (Nantes), du 5 décembre au 31 janvier",
+   "Tout le monde, bébés compris, doit avoir un billet daté du jour",
+   "Places numérotées seulement à la salle Orphée, à l'Auditorium du Conservatoire et au Théâtre Graslin ; ailleurs, placement libre",
+   "Places en fauteuil roulant à réserver uniquement auprès du service accessibilité (02 51 88 21 50) ; place gratuite pour l'accompagnant si la carte le mentionne",
+   "Revente sur Reelax Tickets ; éviter Le Bon Coin, Marketplace et Viagogo"
+  ],
   "official": "https://www.follejournee.fr/",
   "sources": [
    [
     "Site officiel",
     "https://www.follejournee.fr/"
+   ],
+   [
+    "La Folle Journée : billetterie 2027",
+    "https://www.follejournee.fr/fr/infos-pratiques/reservations"
+   ],
+   [
+    "La Folle Journée : accessibilité",
+    "https://www.follejournee.fr/fr/page/accessibilite"
    ]
   ],
   "visiteurs": null,
@@ -5638,7 +5673,25 @@
   "slug": "la-folle-journee-de-nantes",
   "name": "La Folle Journée de Nantes",
   "city": "Nantes",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Billetterie et tarifs",
+    "https://www.follejournee.fr/fr/infos-pratiques/reservations"
+   ],
+   [
+    "Accessibilité",
+    "https://www.follejournee.fr/fr/page/accessibilite"
+   ],
+   [
+    "Où dormir",
+    "https://www.follejournee.fr/fr/infos-pratiques/hebergement"
+   ],
+   [
+    "Venir avec des enfants",
+    "https://www.follejournee.fr/fr/page/venir-avec-des-enfants"
+   ]
+  ]
  },
  {
   "short": "",
@@ -6348,15 +6401,36 @@
   "status_note": "Dates 2027 données par la billetterie et la page Facebook officielles. Concerts de la Vieille Charité les 1er et 2 juillet : 40 € plein tarif, 35 € tarif réduit, 15 € tarif jeune (billetterie officielle).",
   "price_from": null,
   "price_label": "De 15 € à 40 € la soirée à la Vieille Charité",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices": [
+   [
+    "PASS 3 jours",
+    "110 € : 3 soirées au choix"
+   ],
+   [
+    "PASS ALL JAZZ",
+    "250 € : tous les concerts (hors soirées du Jazz Club 222)"
+   ],
+   [
+    "Tarif réduit",
+    "étudiants européens, RSA, demandeurs d'emploi, AAH, carte mobilité inclusion, familles nombreuses, Marseille City Pass"
+   ]
+  ],
+  "prices_note": "Prix des pass relevés dans la FAQ officielle en novembre 2026, hors frais de service : ils peuvent encore être ceux de l'édition 2026. Prix des billets à l'unité sur la billetterie officielle.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de jazz à Marseille, à la Vieille Charité et dans plusieurs lieux de la ville.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Plusieurs lieux de concert dans Marseille : adresses, horaires et accès sur la page « Lieux » du festival"
+  ],
+  "tips": [
+   "Pas de billetterie sur place : achat en ligne ou en points de vente uniquement",
+   "Billets ni repris ni échangés ; billet sur smartphone accepté",
+   "Portes ouvertes 1 h avant le début des concerts ; toute sortie est définitive",
+   "Consigne gratuite pour sièges, parapluies, casques moto et appareils photo pro ; pas de distributeur de billets sur les sites",
+   "Emplacements PMR avec places assises, à réserver sans surcoût au 04 95 09 32 57"
+  ],
   "official": "https://www.marseillejazz.com/",
   "sources": [
    [
@@ -6366,6 +6440,10 @@
    [
     "Facebook officiel",
     "https://www.facebook.com/MarseilleJazz/"
+   ],
+   [
+    "Marseille Jazz des cinq continents : FAQ",
+    "https://www.marseillejazz.com/faq/"
    ]
   ],
   "visiteurs": null,
@@ -6373,7 +6451,25 @@
   "slug": "marseille-jazz-des-cinq-continents",
   "name": "Marseille Jazz des cinq continents",
   "city": "Marseille",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Lieux et accès",
+    "https://www.marseillejazz.com/infos/lieux/"
+   ],
+   [
+    "FAQ",
+    "https://www.marseillejazz.com/faq/"
+   ],
+   [
+    "Handi-accueil",
+    "https://www.marseillejazz.com/handi-accueil/"
+   ],
+   [
+    "Covoiturage",
+    "https://www.marseillejazz.com/infos/covoiturage/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -6397,14 +6493,24 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Prix 2027 non relevés. Le site officiel vend un Ticket Festival qui inclut le forfait de ski, des packages avec hébergement, avec hébergement et transport, et des formules hospitality.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Version hivernale de Tomorrowland : une semaine de musique électronique à la montagne, à l'Alpe d'Huez.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Train jusqu'à la gare de Grenoble, puis environ 90 minutes de bus ou de taxi jusqu'à l'Alpe d'Huez",
+   "Packages avec transport (avion, train ou autocar) vendus par le festival",
+   "Pas de parking dédié au festival : garer la voiture à l'hébergement ou dans un parking couvert de la station",
+   "Remontées vers les villages voisins (Oz, Vaujany, Huez…) en journée seulement, dernier départ entre 16 h 30 et 17 h 50"
+  ],
+  "tips": [
+   "Scènes sur les pistes et dans la station, accessibles aussi aux non-skieurs (les scènes en montagne sont accessibles à pied)",
+   "La MainStage est couverte et chauffée",
+   "Le bracelet sert à la fois de billet, de forfait de ski et de moyen de paiement",
+   "Tolérance zéro sur les drogues : exclusion sans remboursement"
+  ],
   "official": "https://winter.tomorrowland.com/",
   "sources": [
    [
@@ -6414,6 +6520,18 @@
    [
     "Instagram officiel",
     "https://www.instagram.com/tomorrowlandwinter/"
+   ],
+   [
+    "Tomorrowland Winter : tickets 2027",
+    "https://winter.tomorrowland.com/fr/tickets/"
+   ],
+   [
+    "Tomorrowland Winter : comment y aller",
+    "https://winter.tomorrowland.com/fr/info-pratiques/comment-y-aller"
+   ],
+   [
+    "Tomorrowland Winter : au festival",
+    "https://winter.tomorrowland.com/fr/info-pratiques/au-festival"
    ]
   ],
   "visiteurs": null,
@@ -6421,7 +6539,29 @@
   "slug": "tomorrowland-winter",
   "name": "Tomorrowland Winter",
   "city": "L'Alpe d'Huez",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Comment y aller",
+    "https://winter.tomorrowland.com/fr/info-pratiques/comment-y-aller"
+   ],
+   [
+    "Au festival : services et règles",
+    "https://winter.tomorrowland.com/fr/info-pratiques/au-festival"
+   ],
+   [
+    "Horaires d'ouverture",
+    "https://winter.tomorrowland.com/fr/info-pratiques/horaires-d-ouverture"
+   ],
+   [
+    "Accessibilité",
+    "https://winter.tomorrowland.com/fr/info-pratiques/accessibilite"
+   ],
+   [
+    "FAQ",
+    "https://faq.tomorrowlandwinter.com/hc/fr"
+   ]
+  ]
  },
  {
   "short": "",
@@ -7246,21 +7386,55 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates 2027 données par le site officiel (37e édition).",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 55.0,
+  "price_label": "55 € la soirée (2026)",
+  "prices": [
+   [
+    "Soirée (prévente 2026)",
+    "55 € hors frais de location"
+   ],
+   [
+    "Pass 2 jours et 3 jours (2026)",
+    "épuisés en prévente, pas de vente sur place"
+   ],
+   [
+    "Enfants de moins de 10 ans",
+    "gratuit, billet exonéré à retirer aux guichets avec une pièce d'identité"
+   ],
+   [
+    "Camping des festivaliers",
+    "compris dans le billet"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 (page officielle) : ceux de 2027 ne sont pas encore publiés. Les pass 2 et 3 jours partent en prévente, sans vente sur place.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de village dans les Landes, à Luxey. 37e édition en 2027.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Train jusqu'à Morcenx ou Langon (40 km), Mont-de-Marsan (50 km) ou Bordeaux (85 km)",
+   "Navette Mont-de-Marsan – Luxey avec le Bus des Férias, sur réservation obligatoire (édition 2026)",
+   "Covoiturage via le groupe Facebook officiel ou Mobicoop ; parking vélo près du guichet principal (antivol obligatoire)",
+   "Parkings balisés, éclairés et surveillés à l'entrée du village"
+  ],
+  "tips": [
+   "Pas de distributeur de billets à Luxey : le plus proche est à Sore (11 km)",
+   "Buvettes en carte bancaire ou carte cashless prépayée ; gobelet consigné 2 €",
+   "Camping de Lesbarres inclus, ouvert dès la veille du festival ; douches et toilettes sèches",
+   "Feu et camping sauvage interdits à cause du risque de feux de forêt ; animaux interdits",
+   "Mineurs non accompagnés refusés ; festival déconseillé aux moins de 3 ans",
+   "Revente officielle via Festik, Ticketmaster ou See Tickets selon le lieu d'achat",
+   "Billet accompagnateur gratuit avec la carte mobilité inclusion « besoin d'accompagnement » ou « cécité »"
+  ],
   "official": "https://www.musicalarue.com/le-festival/",
   "sources": [
    [
     "Site officiel",
+    "https://www.musicalarue.com/le-festival/"
+   ],
+   [
+    "Musicalarue : infos pratiques (édition 2026)",
     "https://www.musicalarue.com/le-festival/"
    ]
   ],
@@ -7269,7 +7443,25 @@
   "slug": "musicalarue",
   "name": "Musicalarue",
   "city": "Luxey",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Plan du site (édition 2026)",
+    "https://www.musicalarue.com/wp-content/uploads/2026/07/Plan-de-travail-1-50-copie-scaled.jpg"
+   ],
+   [
+    "Plan du site « spécial fraîcheur » (édition 2026)",
+    "https://www.musicalarue.com/wp-content/uploads/2026/07/CANICULE-PMRPlan-de-travail-1-80-scaled.jpg"
+   ],
+   [
+    "Infos pratiques",
+    "https://www.musicalarue.com/le-festival/#infos-pratiques"
+   ],
+   [
+    "Guide d'accès PMR/PSH (2026)",
+    "https://files.heeds.eu/130/2024-10-01-ELSA-ELEMENTS-COMM-guide-accessibilite-2026v3-20260716-121620.pdf"
+   ]
+  ]
  },
  {
   "short": "",
@@ -7937,14 +8129,22 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Forfaits 2027 (séjour, hébergement, forfait de ski et festival) vendus sur la billetterie officielle, avec un acompte de 75 £ seulement à la réservation ; prix détaillés non relevés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de musique électronique à Avoriaz.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Navettes depuis l'aéroport de Genève (départ du terminal 1), à réserver avec le forfait",
+   "Avoriaz est une station piétonne : pas de voitures, mais des « snow taxis » et des calèches (dès 15 €) pour rejoindre l'hébergement"
+  ],
+  "tips": [
+   "Prévoir un passeport valide (pièce d'identité demandée pour retirer bracelet et forfait de ski) et une assurance couvrant les sports d'hiver",
+   "Bars du festival en cashless avec le bracelet ; prévoir une carte de crédit pour la caution de l'hébergement (150 à 250 € par personne en 2026)",
+   "L'appli Snowboxx donne les horaires de passage et le plan du festival",
+   "Une adresse e-mail différente par personne de la réservation, sinon les e-billets n'arrivent pas"
+  ],
   "official": "https://www.snowboxx.com",
   "sources": [
    [
@@ -7954,6 +8154,10 @@
    [
     "Fiche Music Festival Wizard (non officiel)",
     "https://www.musicfestivalwizard.com/festivals/snowboxx-2027/"
+   ],
+   [
+    "Snowboxx : infos essentielles (édition 2026)",
+    "https://www.snowboxx.com/essential-info"
    ]
   ],
   "visiteurs": null,
@@ -7961,7 +8165,21 @@
   "slug": "snowboxx",
   "name": "Snowboxx",
   "city": "Avoriaz",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Plan des pistes d'Avoriaz",
+    "https://backoffice.avoriaz.com/wp-content/uploads/2024/02/PLAN_PISTE_AVORIAZ_2024-2025_90x140_V5-1.pdf"
+   ],
+   [
+    "Infos essentielles (en anglais)",
+    "https://www.snowboxx.com/essential-info"
+   ],
+   [
+    "FAQ (en anglais)",
+    "https://www.snowboxx.com/faq"
+   ]
+  ]
  },
  {
   "short": "",
