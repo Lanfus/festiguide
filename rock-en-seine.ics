@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20280823
 DTEND;VALUE=DATE:20280828
 SUMMARY:Rock en Seine
 LOCATION:Domaine national de Saint-Cloud
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/rock-en-seine.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/rock-en-seine.html
 URL:https://www.rockenseine.com
 END:VEVENT
 END:VCALENDAR

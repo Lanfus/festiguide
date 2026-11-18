@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270806
 DTEND;VALUE=DATE:20270809
 SUMMARY:Ronquières Festival
 LOCATION:Ronquières\, Hainaut
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/ronquieres-festival.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/ronquieres-festival.html
 URL:https://ronquieresfestival.be/
 END:VEVENT
 END:VCALENDAR

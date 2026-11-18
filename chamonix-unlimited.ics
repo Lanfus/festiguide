@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270330
 SUMMARY:Chamonix Unlimited Festival
 LOCATION:Chamonix
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/chamonix-unlimited.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/chamonix-unlimited.html
 URL:https://unlimited-festival.com
 END:VEVENT
 END:VCALENDAR

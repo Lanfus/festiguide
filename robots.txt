@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lanfus.github.io/festiguide/sitemap.xml
+Sitemap: https://lefestiguide.fr/sitemap.xml

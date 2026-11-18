@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270621
 SUMMARY:Hellfest
 LOCATION:Hellfest Open Air\, Clisson
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/hellfest.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/hellfest.html
 URL:https://hellfest.fr
 END:VEVENT
 END:VCALENDAR

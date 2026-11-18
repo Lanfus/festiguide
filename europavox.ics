@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270628
 SUMMARY:Europavox
 LOCATION:Place du 1er Mai\, Clermont-Ferrand
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/europavox.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/europavox.html
 URL:https://www.europavoxfestivals.com/
 END:VEVENT
 END:VCALENDAR

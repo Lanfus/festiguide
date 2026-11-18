@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270805
 DTEND;VALUE=DATE:20270809
 SUMMARY:Alcatraz
 LOCATION:Courtrai (Kortrijk)
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/alcatraz-festival.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/alcatraz-festival.html
 URL:https://www.alcatraz.be/en/index
 END:VEVENT
 END:VCALENDAR

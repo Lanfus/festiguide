@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270621
 DTEND;VALUE=DATE:20270622
 SUMMARY:Fête de la Musique
 LOCATION:Partout en France
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/fete-de-la-musique.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/fete-de-la-musique.html
 URL:https://fetedelamusique.culture.gouv.fr/
 END:VEVENT
 END:VCALENDAR

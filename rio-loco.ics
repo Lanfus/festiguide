@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270609
 DTEND;VALUE=DATE:20270614
 SUMMARY:Rio Loco
 LOCATION:Prairie des Filtres\, Toulouse
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/rio-loco.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/rio-loco.html
 URL:https://rio-loco.org/
 END:VEVENT
 END:VCALENDAR

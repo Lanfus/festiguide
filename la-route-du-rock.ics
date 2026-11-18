@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270314
 SUMMARY:La Route du Rock
 LOCATION:Saint-Malo et Rennes
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/la-route-du-rock.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/la-route-du-rock.html
 URL:https://www.laroutedurock.com/
 END:VEVENT
 END:VCALENDAR

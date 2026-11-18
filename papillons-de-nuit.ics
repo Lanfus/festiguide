@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270514
 DTEND;VALUE=DATE:20270517
 SUMMARY:Les Papillons de Nuit
 LOCATION:Site du festival\, Saint-Laurent-de-Cuves
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/papillons-de-nuit.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/papillons-de-nuit.html
 URL:https://papillonsdenuit.com
 END:VEVENT
 END:VCALENDAR

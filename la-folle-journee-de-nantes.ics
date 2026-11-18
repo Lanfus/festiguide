@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270201
 SUMMARY:La Folle Journée de Nantes
 LOCATION:Nantes
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/la-folle-journee-de-nantes.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/la-folle-journee-de-nantes.html
 URL:https://www.follejournee.fr/
 END:VEVENT
 END:VCALENDAR

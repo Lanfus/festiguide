@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270809
 SUMMARY:Lokerse Feesten
 LOCATION:Lokeren
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/lokerse-feesten.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/lokerse-feesten.html
 URL:https://www.lokersefeesten.be/
 END:VEVENT
 END:VCALENDAR

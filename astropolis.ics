@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270222
 SUMMARY:Astropolis
 LOCATION:Brest
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/astropolis.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/astropolis.html
 URL:https://astropolis.org/
 END:VEVENT
 END:VCALENDAR

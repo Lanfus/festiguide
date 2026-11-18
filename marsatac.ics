@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270614
 SUMMARY:Marsatac
 LOCATION:Parc Borély\, avenue du Parc Borély\, 13008 Marseille
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/marsatac.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/marsatac.html
 URL:https://marsatac.com
 END:VEVENT
 END:VCALENDAR

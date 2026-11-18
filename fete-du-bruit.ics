@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270806
 DTEND;VALUE=DATE:20270809
 SUMMARY:Fête du Bruit
 LOCATION:Landerneau
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/fete-du-bruit.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/fete-du-bruit.html
 URL:https://www.facebook.com/FeteDuBruitOfficiel/
 END:VEVENT
 END:VCALENDAR

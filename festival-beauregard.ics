@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270705
 SUMMARY:Festival Beauregard
 LOCATION:Château de Beauregard\, 14200 Hérouville-Saint-Clair
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-beauregard.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/festival-beauregard.html
 URL:https://www.festivalbeauregard.com
 END:VEVENT
 END:VCALENDAR

@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270321
 SUMMARY:Snowboxx
 LOCATION:Avoriaz
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/snowboxx.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/snowboxx.html
 URL:https://www.snowboxx.com
 END:VEVENT
 END:VCALENDAR

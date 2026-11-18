@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270531
 SUMMARY:Les Nuits Botanique
 LOCATION:Le Botanique\, Bruxelles
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/les-nuits-botanique.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/les-nuits-botanique.html
 URL:https://www.lesnuits.be/
 END:VEVENT
 END:VCALENDAR

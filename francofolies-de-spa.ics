@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270716
 DTEND;VALUE=DATE:20270719
 SUMMARY:Les Francofolies de Spa
 LOCATION:Spa
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/francofolies-de-spa.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/francofolies-de-spa.html
 URL:https://francofolies.be/
 END:VEVENT
 END:VCALENDAR

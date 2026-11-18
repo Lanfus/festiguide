@@ -5,204 +5,204 @@
 Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncées ») que si une source officielle la confirme ; sinon la fiche indique « Dates à confirmer ». Données indicatives, à vérifier sur le site officiel du festival.
 
 ## Pages principales
-- [Tous les festivals](https://lanfus.github.io/festiguide/index.html): liste complète, filtres par mois, région, style et budget
-- [Guide sécurité festival](https://lanfus.github.io/festiguide/guide-securite-festival.html): billets et revente, fouilles, bruit, chaleur, secours, avec sources officielles
-- [Plan du site (sitemap)](https://lanfus.github.io/festiguide/sitemap.xml): une page par festival, au format https://lanfus.github.io/festiguide/<slug>.html
-- [Conditions d'utilisation](https://lanfus.github.io/festiguide/conditions-utilisation.html)
-- [Mentions légales](https://lanfus.github.io/festiguide/mentions-legales.html)
-- [Politique de confidentialité](https://lanfus.github.io/festiguide/confidentialite.html)
-- [Politique de cookies](https://lanfus.github.io/festiguide/cookies.html)
+- [Tous les festivals](https://lefestiguide.fr/index.html): liste complète, filtres par mois, région, style et budget
+- [Guide sécurité festival](https://lefestiguide.fr/guide-securite-festival.html): billets et revente, fouilles, bruit, chaleur, secours, avec sources officielles
+- [Plan du site (sitemap)](https://lefestiguide.fr/sitemap.xml): une page par festival, au format https://lefestiguide.fr/<slug>.html
+- [Conditions d'utilisation](https://lefestiguide.fr/conditions-utilisation.html)
+- [Mentions légales](https://lefestiguide.fr/mentions-legales.html)
+- [Politique de confidentialité](https://lefestiguide.fr/confidentialite.html)
+- [Politique de cookies](https://lefestiguide.fr/cookies.html)
 
 ## Listes par mois, style et lieu
-- [Festivals de musique en janvier](https://lanfus.github.io/festiguide/festivals-musique-janvier.html): 4 festivals
-- [Festivals de musique en mars](https://lanfus.github.io/festiguide/festivals-musique-mars.html): 7 festivals
-- [Festivals de musique en mai](https://lanfus.github.io/festiguide/festivals-musique-mai.html): 13 festivals
-- [Festivals de musique en juin](https://lanfus.github.io/festiguide/festivals-musique-juin.html): 23 festivals
-- [Festivals de musique en juillet](https://lanfus.github.io/festiguide/festivals-musique-juillet.html): 59 festivals
-- [Festivals de musique en août](https://lanfus.github.io/festiguide/festivals-musique-aout.html): 32 festivals
-- [Festivals de musique en septembre](https://lanfus.github.io/festiguide/festivals-musique-septembre.html): 4 festivals
-- [Festivals de musique en octobre](https://lanfus.github.io/festiguide/festivals-musique-octobre.html): 3 festivals
-- [Festivals électro](https://lanfus.github.io/festiguide/festivals-electro.html): 52 festivals
-- [Festivals pop](https://lanfus.github.io/festiguide/festivals-pop.html): 46 festivals
-- [Festivals rock](https://lanfus.github.io/festiguide/festivals-rock.html): 44 festivals
-- [Festivals rap](https://lanfus.github.io/festiguide/festivals-rap.html): 21 festivals
-- [Festivals de jazz](https://lanfus.github.io/festiguide/festivals-jazz.html): 18 festivals
-- [Festivals de musique classique](https://lanfus.github.io/festiguide/festivals-musique-classique.html): 15 festivals
-- [Festivals de musiques du monde](https://lanfus.github.io/festiguide/festivals-musiques-du-monde.html): 14 festivals
-- [Festivals techno](https://lanfus.github.io/festiguide/festivals-techno.html): 11 festivals
-- [Festivals hip-hop](https://lanfus.github.io/festiguide/festivals-hip-hop.html): 10 festivals
-- [Festivals de musiques actuelles](https://lanfus.github.io/festiguide/festivals-musiques-actuelles.html): 10 festivals
-- [Festivals de chanson](https://lanfus.github.io/festiguide/festivals-chanson.html): 8 festivals
-- [Festivals indie](https://lanfus.github.io/festiguide/festivals-indie.html): 6 festivals
-- [Festivals soul](https://lanfus.github.io/festiguide/festivals-soul.html): 6 festivals
-- [Festivals de musique en montagne](https://lanfus.github.io/festiguide/festivals-musique-en-montagne.html): 6 festivals
-- [Festivals metal](https://lanfus.github.io/festiguide/festivals-metal.html): 5 festivals
-- [Festivals house](https://lanfus.github.io/festiguide/festivals-house.html): 5 festivals
-- [Festivals de musique en Belgique](https://lanfus.github.io/festiguide/festivals-musique-belgique.html): 32 festivals
-- [Festivals de musique en Auvergne-Rhône-Alpes](https://lanfus.github.io/festiguide/festivals-musique-auvergne-rhone-alpes.html): 16 festivals
-- [Festivals de musique en Bretagne](https://lanfus.github.io/festiguide/festivals-musique-bretagne.html): 15 festivals
-- [Festivals de musique en Flandre](https://lanfus.github.io/festiguide/festivals-musique-flandre.html): 22 festivals
-- [Festivals de musique dans le Grand Est](https://lanfus.github.io/festiguide/festivals-musique-grand-est.html): 6 festivals
-- [Festivals de musique en Île-de-France](https://lanfus.github.io/festiguide/festivals-musique-ile-de-france.html): 16 festivals
-- [Festivals de musique en Nouvelle-Aquitaine](https://lanfus.github.io/festiguide/festivals-musique-nouvelle-aquitaine.html): 5 festivals
-- [Festivals de musique en Occitanie](https://lanfus.github.io/festiguide/festivals-musique-occitanie.html): 12 festivals
-- [Festivals de musique dans les Pays de la Loire](https://lanfus.github.io/festiguide/festivals-musique-pays-de-la-loire.html): 7 festivals
-- [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lanfus.github.io/festiguide/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
-- [Festivals de musique en Wallonie](https://lanfus.github.io/festiguide/festivals-musique-wallonie.html): 6 festivals
-- [Festivals pas chers : billet à 50 € ou moins](https://lanfus.github.io/festiguide/festivals-pas-chers.html): 13 festivals
-- [Festivals en mars en Auvergne-Rhône-Alpes](https://lanfus.github.io/festiguide/festivals-mars-auvergne-rhone-alpes.html): 5 festivals
-- [Festivals en juillet en Bretagne](https://lanfus.github.io/festiguide/festivals-juillet-bretagne.html): 6 festivals
-- [Festivals en juillet en Flandre](https://lanfus.github.io/festiguide/festivals-juillet-flandre.html): 9 festivals
-- [Festivals en juillet en Occitanie](https://lanfus.github.io/festiguide/festivals-juillet-occitanie.html): 9 festivals
-- [Festivals en juillet en Provence-Alpes-Côte d'Azur](https://lanfus.github.io/festiguide/festivals-juillet-provence-alpes-cote-d-azur.html): 9 festivals
-- [Festivals en août en Bretagne](https://lanfus.github.io/festiguide/festivals-aout-bretagne.html): 6 festivals
-- [Festivals en août en Flandre](https://lanfus.github.io/festiguide/festivals-aout-flandre.html): 8 festivals
-- [Festivals électro en juin](https://lanfus.github.io/festiguide/festivals-electro-juin.html): 8 festivals
-- [Festivals pop en juin](https://lanfus.github.io/festiguide/festivals-pop-juin.html): 10 festivals
-- [Festivals rock en juin](https://lanfus.github.io/festiguide/festivals-rock-juin.html): 9 festivals
-- [Festivals électro en juillet](https://lanfus.github.io/festiguide/festivals-electro-juillet.html): 20 festivals
-- [Festivals pop en juillet](https://lanfus.github.io/festiguide/festivals-pop-juillet.html): 25 festivals
-- [Festivals rock en juillet](https://lanfus.github.io/festiguide/festivals-rock-juillet.html): 24 festivals
-- [Festivals rap en juillet](https://lanfus.github.io/festiguide/festivals-rap-juillet.html): 10 festivals
-- [Festivals de jazz en juillet](https://lanfus.github.io/festiguide/festivals-jazz-juillet.html): 8 festivals
-- [Festivals de musique classique en juillet](https://lanfus.github.io/festiguide/festivals-musique-classique-juillet.html): 8 festivals
-- [Festivals de musiques du monde en juillet](https://lanfus.github.io/festiguide/festivals-musiques-du-monde-juillet.html): 8 festivals
-- [Festivals électro en août](https://lanfus.github.io/festiguide/festivals-electro-aout.html): 9 festivals
-- [Festivals pop en août](https://lanfus.github.io/festiguide/festivals-pop-aout.html): 8 festivals
-- [Festivals rock en août](https://lanfus.github.io/festiguide/festivals-rock-aout.html): 9 festivals
+- [Festivals de musique en janvier](https://lefestiguide.fr/festivals-musique-janvier.html): 4 festivals
+- [Festivals de musique en mars](https://lefestiguide.fr/festivals-musique-mars.html): 7 festivals
+- [Festivals de musique en mai](https://lefestiguide.fr/festivals-musique-mai.html): 13 festivals
+- [Festivals de musique en juin](https://lefestiguide.fr/festivals-musique-juin.html): 23 festivals
+- [Festivals de musique en juillet](https://lefestiguide.fr/festivals-musique-juillet.html): 59 festivals
+- [Festivals de musique en août](https://lefestiguide.fr/festivals-musique-aout.html): 32 festivals
+- [Festivals de musique en septembre](https://lefestiguide.fr/festivals-musique-septembre.html): 4 festivals
+- [Festivals de musique en octobre](https://lefestiguide.fr/festivals-musique-octobre.html): 3 festivals
+- [Festivals électro](https://lefestiguide.fr/festivals-electro.html): 52 festivals
+- [Festivals pop](https://lefestiguide.fr/festivals-pop.html): 46 festivals
+- [Festivals rock](https://lefestiguide.fr/festivals-rock.html): 44 festivals
+- [Festivals rap](https://lefestiguide.fr/festivals-rap.html): 21 festivals
+- [Festivals de jazz](https://lefestiguide.fr/festivals-jazz.html): 18 festivals
+- [Festivals de musique classique](https://lefestiguide.fr/festivals-musique-classique.html): 15 festivals
+- [Festivals de musiques du monde](https://lefestiguide.fr/festivals-musiques-du-monde.html): 14 festivals
+- [Festivals techno](https://lefestiguide.fr/festivals-techno.html): 11 festivals
+- [Festivals hip-hop](https://lefestiguide.fr/festivals-hip-hop.html): 10 festivals
+- [Festivals de musiques actuelles](https://lefestiguide.fr/festivals-musiques-actuelles.html): 10 festivals
+- [Festivals de chanson](https://lefestiguide.fr/festivals-chanson.html): 8 festivals
+- [Festivals indie](https://lefestiguide.fr/festivals-indie.html): 6 festivals
+- [Festivals soul](https://lefestiguide.fr/festivals-soul.html): 6 festivals
+- [Festivals de musique en montagne](https://lefestiguide.fr/festivals-musique-en-montagne.html): 6 festivals
+- [Festivals metal](https://lefestiguide.fr/festivals-metal.html): 5 festivals
+- [Festivals house](https://lefestiguide.fr/festivals-house.html): 5 festivals
+- [Festivals de musique en Belgique](https://lefestiguide.fr/festivals-musique-belgique.html): 32 festivals
+- [Festivals de musique en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-musique-auvergne-rhone-alpes.html): 16 festivals
+- [Festivals de musique en Bretagne](https://lefestiguide.fr/festivals-musique-bretagne.html): 15 festivals
+- [Festivals de musique en Flandre](https://lefestiguide.fr/festivals-musique-flandre.html): 22 festivals
+- [Festivals de musique dans le Grand Est](https://lefestiguide.fr/festivals-musique-grand-est.html): 6 festivals
+- [Festivals de musique en Île-de-France](https://lefestiguide.fr/festivals-musique-ile-de-france.html): 16 festivals
+- [Festivals de musique en Nouvelle-Aquitaine](https://lefestiguide.fr/festivals-musique-nouvelle-aquitaine.html): 5 festivals
+- [Festivals de musique en Occitanie](https://lefestiguide.fr/festivals-musique-occitanie.html): 12 festivals
+- [Festivals de musique dans les Pays de la Loire](https://lefestiguide.fr/festivals-musique-pays-de-la-loire.html): 7 festivals
+- [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lefestiguide.fr/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
+- [Festivals de musique en Wallonie](https://lefestiguide.fr/festivals-musique-wallonie.html): 6 festivals
+- [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 13 festivals
+- [Festivals en mars en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-mars-auvergne-rhone-alpes.html): 5 festivals
+- [Festivals en juillet en Bretagne](https://lefestiguide.fr/festivals-juillet-bretagne.html): 6 festivals
+- [Festivals en juillet en Flandre](https://lefestiguide.fr/festivals-juillet-flandre.html): 9 festivals
+- [Festivals en juillet en Occitanie](https://lefestiguide.fr/festivals-juillet-occitanie.html): 9 festivals
+- [Festivals en juillet en Provence-Alpes-Côte d'Azur](https://lefestiguide.fr/festivals-juillet-provence-alpes-cote-d-azur.html): 9 festivals
+- [Festivals en août en Bretagne](https://lefestiguide.fr/festivals-aout-bretagne.html): 6 festivals
+- [Festivals en août en Flandre](https://lefestiguide.fr/festivals-aout-flandre.html): 8 festivals
+- [Festivals électro en juin](https://lefestiguide.fr/festivals-electro-juin.html): 8 festivals
+- [Festivals pop en juin](https://lefestiguide.fr/festivals-pop-juin.html): 10 festivals
+- [Festivals rock en juin](https://lefestiguide.fr/festivals-rock-juin.html): 9 festivals
+- [Festivals électro en juillet](https://lefestiguide.fr/festivals-electro-juillet.html): 20 festivals
+- [Festivals pop en juillet](https://lefestiguide.fr/festivals-pop-juillet.html): 25 festivals
+- [Festivals rock en juillet](https://lefestiguide.fr/festivals-rock-juillet.html): 24 festivals
+- [Festivals rap en juillet](https://lefestiguide.fr/festivals-rap-juillet.html): 10 festivals
+- [Festivals de jazz en juillet](https://lefestiguide.fr/festivals-jazz-juillet.html): 8 festivals
+- [Festivals de musique classique en juillet](https://lefestiguide.fr/festivals-musique-classique-juillet.html): 8 festivals
+- [Festivals de musiques du monde en juillet](https://lefestiguide.fr/festivals-musiques-du-monde-juillet.html): 8 festivals
+- [Festivals électro en août](https://lefestiguide.fr/festivals-electro-aout.html): 9 festivals
+- [Festivals pop en août](https://lefestiguide.fr/festivals-pop-aout.html): 8 festivals
+- [Festivals rock en août](https://lefestiguide.fr/festivals-rock-aout.html): 9 festivals
 
 ## Festivals
-- [Les Trans Musicales de Rennes](https://lanfus.github.io/festiguide/les-trans-musicales.html): Rennes (Ille-et-Vilaine), 2 – 6 décembre 2026
-- [Rise Festival](https://lanfus.github.io/festiguide/rise-festival.html): Les 2 Alpes, 5 – 12 décembre 2026
-- [Sons d'Hiver](https://lanfus.github.io/festiguide/sons-d-hiver.html): Val-de-Marne, 15 janvier – 6 février 2027
-- [Snowattack](https://lanfus.github.io/festiguide/snowattack.html): Les Deux Alpes, 16 – 23 janvier 2027
-- [La Folle Journée de Nantes](https://lanfus.github.io/festiguide/la-folle-journee-de-nantes.html): Nantes, 27 – 31 janvier 2027
-- [Astropolis](https://lanfus.github.io/festiguide/astropolis.html): Brest, 18 – 21 février 2027 (édition d'hiver) · 2 – 4 juillet 2027 (édition d'été)
-- [La Route du Rock](https://lanfus.github.io/festiguide/la-route-du-rock.html): Saint-Malo, 10 – 13 mars 2027
-- [Snowboxx](https://lanfus.github.io/festiguide/snowboxx.html): Avoriaz, 13 – 20 mars 2027
-- [Tomorrowland Winter](https://lanfus.github.io/festiguide/tomorrowland-winter.html): L'Alpe d'Huez, 20 – 27 mars 2027
-- [Chamonix Unlimited Festival](https://lanfus.github.io/festiguide/chamonix-unlimited.html): Chamonix, 25 – 29 mars 2027
-- [Positive Education Festival](https://lanfus.github.io/festiguide/positive-education-festival.html): Saint-Étienne (Loire), 26 – 27 mars 2027
-- [Panoramas Festival](https://lanfus.github.io/festiguide/panoramas-festival.html): Morlaix, 14 – 17 avril 2027
-- [Le Printemps de Bourges](https://lanfus.github.io/festiguide/printemps-de-bourges.html): Bourges (Cher), 20 – 25 avril 2027
-- [Jazz sous les Pommiers](https://lanfus.github.io/festiguide/jazz-sous-les-pommiers.html): Coutances, 1 – 8 mai 2027
-- [Nuits sonores](https://lanfus.github.io/festiguide/nuits-sonores.html): Lyon (Rhône), 5 – 9 mai 2027
-- [Les Papillons de Nuit](https://lanfus.github.io/festiguide/papillons-de-nuit.html): Saint-Laurent-de-Cuves (Manche), 14 – 16 mai 2027
-- [Art Rock](https://lanfus.github.io/festiguide/art-rock.html): Saint-Brieuc (Côtes-d'Armor), 14 – 16 mai 2027
-- [Extrema Outdoor](https://lanfus.github.io/festiguide/extrema-outdoor.html): Houthalen-Helchteren, 14 – 16 mai 2027
-- [Festival Le Bon Air](https://lanfus.github.io/festiguide/festival-le-bon-air.html): Marseille, 14 – 16 mai 2027
-- [Les Nuits Botanique](https://lanfus.github.io/festiguide/les-nuits-botanique.html): Bruxelles, 15 – 30 mai 2027
-- [Jazz Middelheim](https://lanfus.github.io/festiguide/jazz-middelheim.html): Anvers, 15 – 17 mai 2027
-- [Marvellous Island Festival](https://lanfus.github.io/festiguide/marvellous-island.html): Paris, 15 – 16 mai 2027
-- [We Love Green](https://lanfus.github.io/festiguide/we-love-green.html): Paris (Bois de Vincennes), 4 – 6 juin 2027
-- [Rio Loco](https://lanfus.github.io/festiguide/rio-loco.html): Toulouse, 9 – 13 juin 2027
-- [Marsatac](https://lanfus.github.io/festiguide/marsatac.html): Marseille (Bouches-du-Rhône), 10 – 13 juin 2027
-- [Festival de Nîmes](https://lanfus.github.io/festiguide/festival-de-nimes.html): Nîmes (Gard), 15 juin – 17 juillet 2027
-- [Hellfest](https://lanfus.github.io/festiguide/hellfest.html): Clisson (Loire-Atlantique), 17 – 20 juin 2027
-- [Graspop Metal Meeting](https://lanfus.github.io/festiguide/graspop.html): Dessel, 17 – 20 juin 2027
-- [Fête de la Musique](https://lanfus.github.io/festiguide/fete-de-la-musique.html): Partout en France, 21 juin 2027
-- [Garorock](https://lanfus.github.io/festiguide/garorock.html): Marmande (Lot-et-Garonne), 25 – 27 juin 2027
-- [Jazz à Vienne](https://lanfus.github.io/festiguide/jazz-a-vienne.html): Vienne (Isère), 25 juin – 10 juillet 2027
-- [Europavox](https://lanfus.github.io/festiguide/europavox.html): Clermont-Ferrand, 25 – 27 juin 2027
-- [Bobital L'Armor à Sons](https://lanfus.github.io/festiguide/bobital.html): Bobital, 25 – 27 juin 2027
-- [Festival Beauregard](https://lanfus.github.io/festiguide/festival-beauregard.html): Hérouville-Saint-Clair (Calvados), 30 juin – 4 juillet 2027
-- [Cognac Blues Passions](https://lanfus.github.io/festiguide/cognac-blues-passions.html): Cognac et Jarnac, 30 juin – 3 juillet 2027
-- [Festival de Poupet](https://lanfus.github.io/festiguide/festival-de-poupet.html): Saint-Malô-du-Bois, 30 juin – 23 juillet 2027
-- [Marseille Jazz des cinq continents](https://lanfus.github.io/festiguide/marseille-jazz-des-cinq-continents.html): Marseille, 30 juin – 10 juillet 2027
-- [Les Ardentes](https://lanfus.github.io/festiguide/les-ardentes.html): Liège (Rocourt), 1 – 4 juillet 2027
-- [Festival d'Aix-en-Provence](https://lanfus.github.io/festiguide/festival-d-aix-en-provence.html): Aix-en-Provence (Bouches-du-Rhône), 1 – 20 juillet 2027
-- [Rock Werchter](https://lanfus.github.io/festiguide/rock-werchter.html): Werchter, 1 – 4 juillet 2027
-- [Calvi on the Rocks](https://lanfus.github.io/festiguide/calvi-on-the-rocks.html): Calvi, 1 – 4 juillet 2027
-- [Gent Jazz](https://lanfus.github.io/festiguide/gent-jazz.html): Gand, 1 – 17 juillet 2027
-- [Les Eurockéennes de Belfort](https://lanfus.github.io/festiguide/eurockeennes-de-belfort.html): Belfort (Territoire de Belfort), 2 – 5 juillet 2027
-- [Main Square Festival](https://lanfus.github.io/festiguide/main-square-festival.html): Arras (Pas-de-Calais), 2 – 4 juillet 2027
-- [Au Foin de la Rue](https://lanfus.github.io/festiguide/au-foin-de-la-rue.html): Saint-Denis-de-Gastines, 2 – 4 juillet 2027
-- [Pause Guitare Sud de France](https://lanfus.github.io/festiguide/pause-guitare.html): Albi, 7 – 11 juillet 2027
-- [Musilac](https://lanfus.github.io/festiguide/musilac.html): Aix-les-Bains (Savoie), 8 – 11 juillet 2027
-- [Jazz à Juan](https://lanfus.github.io/festiguide/jazz-a-juan.html): Antibes (Juan-les-Pins), 8 – 18 juillet 2027
-- [Les Déferlantes Sud de France](https://lanfus.github.io/festiguide/les-deferlantes.html): Le Barcarès (Pyrénées-Orientales), 9 – 11 juillet 2027
-- [Les Francofolies de La Rochelle](https://lanfus.github.io/festiguide/francofolies-de-la-rochelle.html): La Rochelle (Charente-Maritime), 10 – 14 juillet 2027
-- [Les Vieilles Charrues](https://lanfus.github.io/festiguide/vieilles-charrues.html): Carhaix-Plouguer (Finistère), 15 – 18 juillet 2027
-- [Les Francofolies de Spa](https://lanfus.github.io/festiguide/francofolies-de-spa.html): Spa, 16 – 18 juillet 2027
-- [Festival de Cornouaille](https://lanfus.github.io/festiguide/festival-de-cornouaille.html): Quimper (Finistère), 22 – 25 juillet 2027
-- [Festival Interceltique de Lorient](https://lanfus.github.io/festiguide/festival-interceltique-de-lorient.html): Lorient (Morbihan), 30 juillet – 8 août 2027
-- [Festival du Bout du Monde](https://lanfus.github.io/festiguide/festival-du-bout-du-monde.html): Crozon, 30 juillet – 1 août 2027
-- [Au Pont du Rock](https://lanfus.github.io/festiguide/au-pont-du-rock.html): Malestroit, 30 – 31 juillet 2027
-- [Lokerse Feesten](https://lanfus.github.io/festiguide/lokerse-feesten.html): Lokeren, 30 juillet – 8 août 2027
-- [Musicalarue](https://lanfus.github.io/festiguide/musicalarue.html): Luxey, 30 juillet – 1er août 2027
-- [Alcatraz](https://lanfus.github.io/festiguide/alcatraz-festival.html): Courtrai, 5 – 8 août 2027
-- [Suikerrock](https://lanfus.github.io/festiguide/suikerrock.html): Tirlemont (Tienen), 6 – 8 août 2027
-- [Fête du Bruit](https://lanfus.github.io/festiguide/fete-du-bruit.html): Landerneau, 6 – 8 août 2027
-- [Festival Dranouter](https://lanfus.github.io/festiguide/festival-dranouter.html): Dranouter (Heuvelland), 6 – 8 août 2027
-- [Festival du Chant de Marin](https://lanfus.github.io/festiguide/festival-du-chant-de-marin.html): Paimpol, 6 – 8 août 2027
-- [Ronquières Festival](https://lanfus.github.io/festiguide/ronquieres-festival.html): Ronquières, 6 – 8 août 2027
-- [Festival de La Chaise-Dieu](https://lanfus.github.io/festiguide/festival-de-la-chaise-dieu.html): La Chaise-Dieu, 17 – 29 août 2027
-- [Le Cabaret Vert](https://lanfus.github.io/festiguide/cabaret-vert.html): Charleville-Mézières (Ardennes), 19 – 22 août 2027
-- [Pukkelpop](https://lanfus.github.io/festiguide/pukkelpop.html): Hasselt, 19 – 22 août 2027
-- [Les Rendez-vous de l'Erdre](https://lanfus.github.io/festiguide/rendez-vous-de-l-erdre.html): Nantes, 23 – 29 août 2027
-- [Nancy Jazz Pulsations](https://lanfus.github.io/festiguide/nancy-jazz-pulsations.html): Nancy, 2 – 16 octobre 2027
-- [Rock en Seine](https://lanfus.github.io/festiguide/rock-en-seine.html): Saint-Cloud (Hauts-de-Seine), 23 – 27 août 2028 (pas d'édition en 2027)
-- [La Magnifique Society](https://lanfus.github.io/festiguide/la-magnifique-society.html): Reims, À confirmer
-- [Rock the Pistes](https://lanfus.github.io/festiguide/rock-the-pistes.html): Châtel, À confirmer
-- [Rampage](https://lanfus.github.io/festiguide/rampage.html): Anvers, À confirmer
-- [Jazz à Saint-Germain-des-Prés](https://lanfus.github.io/festiguide/jazz-a-saint-germain-des-pres.html): Paris, À confirmer
-- [Les 3 Éléphants](https://lanfus.github.io/festiguide/les-3-elephants.html): Laval, À confirmer
-- [Le Jardin du Michel](https://lanfus.github.io/festiguide/le-jardin-du-michel.html): Nancy, À confirmer
-- [Horst Music Festival](https://lanfus.github.io/festiguide/horst-music-festival.html): Bruxelles, À confirmer
-- [Solidays](https://lanfus.github.io/festiguide/solidays.html): Paris (Hippodrome de Longchamp), Juin 2027 (dates à confirmer)
-- [Les Nuits de Fourvière](https://lanfus.github.io/festiguide/nuits-de-fourviere.html): Lyon (Rhône), Juin – juillet 2027 (dates à confirmer)
-- [Les Siestes Électroniques](https://lanfus.github.io/festiguide/les-siestes-electroniques.html): Toulouse (Haute-Garonne), Fin juin 2027 (dates à confirmer)
-- [Couleur Café](https://lanfus.github.io/festiguide/couleur-cafe.html): Bruxelles, À confirmer
-- [Festival de Saint-Denis](https://lanfus.github.io/festiguide/festival-de-saint-denis.html): Saint-Denis, À confirmer
-- [Aluna Festival](https://lanfus.github.io/festiguide/aluna-festival.html): Ruoms, À confirmer
-- [Musiques Métisses](https://lanfus.github.io/festiguide/musiques-metisses.html): Angoulême, À confirmer
-- [Werchter Boutique](https://lanfus.github.io/festiguide/werchter-boutique.html): Werchter, À confirmer
-- [Lollapalooza Paris](https://lanfus.github.io/festiguide/lollapalooza-paris.html): Paris (Hippodrome ParisLongchamp), Juillet 2027 (retour non confirmé)
-- [Jazz in Marciac](https://lanfus.github.io/festiguide/jazz-in-marciac.html): Marciac (Gers), Juillet – août 2027 (dates à confirmer)
-- [Peacock Society](https://lanfus.github.io/festiguide/peacock-society.html): Paris (Paris), Juillet 2027 (jours exacts à confirmer)
-- [Yardland Festival](https://lanfus.github.io/festiguide/yardland-festival.html): Paris (Bois de Vincennes), Juillet 2027 (dates à confirmer)
-- [Dour Festival](https://lanfus.github.io/festiguide/dour-festival.html): Dour (Hainaut), Dates 2027 à confirmer
-- [Terres du Son](https://lanfus.github.io/festiguide/terres-du-son.html): Monts (Indre-et-Loire), Dates 2027 à confirmer
-- [Festival de Carcassonne](https://lanfus.github.io/festiguide/festival-de-carcassonne.html): Carcassonne (Aude), Dates 2027 à confirmer
-- [Tomorrowland Belgium](https://lanfus.github.io/festiguide/tomorrowland-belgium.html): Boom, À confirmer
-- [Electrobeach Music Festival](https://lanfus.github.io/festiguide/electrobeach.html): Le Barcarès, À confirmer
-- [Les Escales](https://lanfus.github.io/festiguide/les-escales.html): Saint-Nazaire, À confirmer
-- [Nice Jazz Festival](https://lanfus.github.io/festiguide/nice-jazz-festival.html): Nice, À confirmer
-- [Chorégies d'Orange](https://lanfus.github.io/festiguide/choregies-d-orange.html): Orange, À confirmer
-- [Festival de La Roque-d'Anthéron](https://lanfus.github.io/festiguide/la-roque-d-antheron.html): La Roque-d'Anthéron, À confirmer
-- [Les Nuits Secrètes](https://lanfus.github.io/festiguide/les-nuits-secretes.html): Aulnoye-Aymeries, À confirmer
-- [Festival Radio France Occitanie Montpellier](https://lanfus.github.io/festiguide/festival-radio-france-montpellier.html): Montpellier, À confirmer
-- [Cactus Festival](https://lanfus.github.io/festiguide/cactus-festival.html): Bruges, À confirmer
-- [Les Suds, à Arles](https://lanfus.github.io/festiguide/les-suds-a-arles.html): Arles, À confirmer
-- [Esperanzah!](https://lanfus.github.io/festiguide/esperanzah.html): Floreffe, À confirmer
-- [Festival Pablo Casals](https://lanfus.github.io/festiguide/festival-pablo-casals.html): Prades, À confirmer
-- [Rock Zottegem](https://lanfus.github.io/festiguide/rock-zottegem.html): Zottegem, À confirmer
-- [Nuits de la Guitare de Patrimonio](https://lanfus.github.io/festiguide/nuits-de-la-guitare-de-patrimonio.html): Patrimonio, À confirmer
-- [Nuits de la Citadelle](https://lanfus.github.io/festiguide/nuits-de-la-citadelle.html): Sisteron, À confirmer
-- [Nuits du Sud](https://lanfus.github.io/festiguide/nuits-du-sud.html): Vence, À confirmer
-- [Festival international de Colmar](https://lanfus.github.io/festiguide/festival-international-de-colmar.html): Colmar, À confirmer
-- [Festival de Saint-Céré](https://lanfus.github.io/festiguide/festival-de-saint-cere.html): Saint-Céré, À confirmer
-- [Brosella](https://lanfus.github.io/festiguide/brosella.html): Bruxelles, À confirmer
-- [Paradise City](https://lanfus.github.io/festiguide/paradise-city.html): Perk, À confirmer
-- [Rampage Open Air](https://lanfus.github.io/festiguide/rampage-open-air.html): Lommel, À confirmer
-- [Ostend Beach Festival](https://lanfus.github.io/festiguide/ostend-beach-festival.html): Ostende, À confirmer
-- [Motocultor Festival](https://lanfus.github.io/festiguide/motocultor.html): Saint-Nolff, À confirmer
-- [Jazz à la Villette](https://lanfus.github.io/festiguide/jazz-a-la-villette.html): Paris, À confirmer
-- [Family Piknik](https://lanfus.github.io/festiguide/family-piknik.html): Montpellier, À confirmer
-- [Les Plages Électroniques](https://lanfus.github.io/festiguide/les-plages-electroniques.html): Cannes, À confirmer
-- [Festival Berlioz](https://lanfus.github.io/festiguide/festival-berlioz.html): La Côte-Saint-André, À confirmer
-- [Positiv Festival](https://lanfus.github.io/festiguide/positiv-festival.html): Orange, À confirmer
-- [Festival des Filets Bleus](https://lanfus.github.io/festiguide/festival-des-filets-bleus.html): Concarneau, À confirmer
-- [Marktrock](https://lanfus.github.io/festiguide/marktrock.html): Louvain, À confirmer
-- [Gaume Jazz Festival](https://lanfus.github.io/festiguide/gaume-jazz-festival.html): Rossignol, À confirmer
-- [BrakRock](https://lanfus.github.io/festiguide/brakrock.html): Duffel, À confirmer
-- [WeCanDance](https://lanfus.github.io/festiguide/wecandance.html): Zeebrugge, À confirmer
-- [Fête de l'Humanité](https://lanfus.github.io/festiguide/fete-de-l-humanite.html): Le Plessis-Pâté (Essonne), Septembre 2027 (dates à confirmer)
-- [Festival d'Ambronay](https://lanfus.github.io/festiguide/festival-d-ambronay.html): Ambronay, À confirmer
-- [Festival van Vlaanderen Gand](https://lanfus.github.io/festiguide/festival-van-vlaanderen-gent.html): Gand, À confirmer
-- [Fiesta des Suds](https://lanfus.github.io/festiguide/fiesta-des-suds.html): Marseille, À confirmer
-- [MaMA Music & Convention](https://lanfus.github.io/festiguide/mama-festival.html): Paris, À confirmer
-- [Dream Nation](https://lanfus.github.io/festiguide/dream-nation.html): Villepinte (Seine-Saint-Denis), Dates 2027 à confirmer
-- [Jazzdor Strasbourg-Berlin](https://lanfus.github.io/festiguide/jazzdor.html): Strasbourg, À confirmer
-- [Paris Jazz Festival](https://lanfus.github.io/festiguide/paris-jazz-festival.html): Paris, À confirmer
-- [Festival d'Auvers-sur-Oise](https://lanfus.github.io/festiguide/festival-d-auvers-sur-oise.html): Auvers-sur-Oise, À confirmer
+- [Les Trans Musicales de Rennes](https://lefestiguide.fr/les-trans-musicales.html): Rennes (Ille-et-Vilaine), 2 – 6 décembre 2026
+- [Rise Festival](https://lefestiguide.fr/rise-festival.html): Les 2 Alpes, 5 – 12 décembre 2026
+- [Sons d'Hiver](https://lefestiguide.fr/sons-d-hiver.html): Val-de-Marne, 15 janvier – 6 février 2027
+- [Snowattack](https://lefestiguide.fr/snowattack.html): Les Deux Alpes, 16 – 23 janvier 2027
+- [La Folle Journée de Nantes](https://lefestiguide.fr/la-folle-journee-de-nantes.html): Nantes, 27 – 31 janvier 2027
+- [Astropolis](https://lefestiguide.fr/astropolis.html): Brest, 18 – 21 février 2027 (édition d'hiver) · 2 – 4 juillet 2027 (édition d'été)
+- [La Route du Rock](https://lefestiguide.fr/la-route-du-rock.html): Saint-Malo, 10 – 13 mars 2027
+- [Snowboxx](https://lefestiguide.fr/snowboxx.html): Avoriaz, 13 – 20 mars 2027
+- [Tomorrowland Winter](https://lefestiguide.fr/tomorrowland-winter.html): L'Alpe d'Huez, 20 – 27 mars 2027
+- [Chamonix Unlimited Festival](https://lefestiguide.fr/chamonix-unlimited.html): Chamonix, 25 – 29 mars 2027
+- [Positive Education Festival](https://lefestiguide.fr/positive-education-festival.html): Saint-Étienne (Loire), 26 – 27 mars 2027
+- [Panoramas Festival](https://lefestiguide.fr/panoramas-festival.html): Morlaix, 14 – 17 avril 2027
+- [Le Printemps de Bourges](https://lefestiguide.fr/printemps-de-bourges.html): Bourges (Cher), 20 – 25 avril 2027
+- [Jazz sous les Pommiers](https://lefestiguide.fr/jazz-sous-les-pommiers.html): Coutances, 1 – 8 mai 2027
+- [Nuits sonores](https://lefestiguide.fr/nuits-sonores.html): Lyon (Rhône), 5 – 9 mai 2027
+- [Les Papillons de Nuit](https://lefestiguide.fr/papillons-de-nuit.html): Saint-Laurent-de-Cuves (Manche), 14 – 16 mai 2027
+- [Art Rock](https://lefestiguide.fr/art-rock.html): Saint-Brieuc (Côtes-d'Armor), 14 – 16 mai 2027
+- [Extrema Outdoor](https://lefestiguide.fr/extrema-outdoor.html): Houthalen-Helchteren, 14 – 16 mai 2027
+- [Festival Le Bon Air](https://lefestiguide.fr/festival-le-bon-air.html): Marseille, 14 – 16 mai 2027
+- [Les Nuits Botanique](https://lefestiguide.fr/les-nuits-botanique.html): Bruxelles, 15 – 30 mai 2027
+- [Jazz Middelheim](https://lefestiguide.fr/jazz-middelheim.html): Anvers, 15 – 17 mai 2027
+- [Marvellous Island Festival](https://lefestiguide.fr/marvellous-island.html): Paris, 15 – 16 mai 2027
+- [We Love Green](https://lefestiguide.fr/we-love-green.html): Paris (Bois de Vincennes), 4 – 6 juin 2027
+- [Rio Loco](https://lefestiguide.fr/rio-loco.html): Toulouse, 9 – 13 juin 2027
+- [Marsatac](https://lefestiguide.fr/marsatac.html): Marseille (Bouches-du-Rhône), 10 – 13 juin 2027
+- [Festival de Nîmes](https://lefestiguide.fr/festival-de-nimes.html): Nîmes (Gard), 15 juin – 17 juillet 2027
+- [Hellfest](https://lefestiguide.fr/hellfest.html): Clisson (Loire-Atlantique), 17 – 20 juin 2027
+- [Graspop Metal Meeting](https://lefestiguide.fr/graspop.html): Dessel, 17 – 20 juin 2027
+- [Fête de la Musique](https://lefestiguide.fr/fete-de-la-musique.html): Partout en France, 21 juin 2027
+- [Garorock](https://lefestiguide.fr/garorock.html): Marmande (Lot-et-Garonne), 25 – 27 juin 2027
+- [Jazz à Vienne](https://lefestiguide.fr/jazz-a-vienne.html): Vienne (Isère), 25 juin – 10 juillet 2027
+- [Europavox](https://lefestiguide.fr/europavox.html): Clermont-Ferrand, 25 – 27 juin 2027
+- [Bobital L'Armor à Sons](https://lefestiguide.fr/bobital.html): Bobital, 25 – 27 juin 2027
+- [Festival Beauregard](https://lefestiguide.fr/festival-beauregard.html): Hérouville-Saint-Clair (Calvados), 30 juin – 4 juillet 2027
+- [Cognac Blues Passions](https://lefestiguide.fr/cognac-blues-passions.html): Cognac et Jarnac, 30 juin – 3 juillet 2027
+- [Festival de Poupet](https://lefestiguide.fr/festival-de-poupet.html): Saint-Malô-du-Bois, 30 juin – 23 juillet 2027
+- [Marseille Jazz des cinq continents](https://lefestiguide.fr/marseille-jazz-des-cinq-continents.html): Marseille, 30 juin – 10 juillet 2027
+- [Les Ardentes](https://lefestiguide.fr/les-ardentes.html): Liège (Rocourt), 1 – 4 juillet 2027
+- [Festival d'Aix-en-Provence](https://lefestiguide.fr/festival-d-aix-en-provence.html): Aix-en-Provence (Bouches-du-Rhône), 1 – 20 juillet 2027
+- [Rock Werchter](https://lefestiguide.fr/rock-werchter.html): Werchter, 1 – 4 juillet 2027
+- [Calvi on the Rocks](https://lefestiguide.fr/calvi-on-the-rocks.html): Calvi, 1 – 4 juillet 2027
+- [Gent Jazz](https://lefestiguide.fr/gent-jazz.html): Gand, 1 – 17 juillet 2027
+- [Les Eurockéennes de Belfort](https://lefestiguide.fr/eurockeennes-de-belfort.html): Belfort (Territoire de Belfort), 2 – 5 juillet 2027
+- [Main Square Festival](https://lefestiguide.fr/main-square-festival.html): Arras (Pas-de-Calais), 2 – 4 juillet 2027
+- [Au Foin de la Rue](https://lefestiguide.fr/au-foin-de-la-rue.html): Saint-Denis-de-Gastines, 2 – 4 juillet 2027
+- [Pause Guitare Sud de France](https://lefestiguide.fr/pause-guitare.html): Albi, 7 – 11 juillet 2027
+- [Musilac](https://lefestiguide.fr/musilac.html): Aix-les-Bains (Savoie), 8 – 11 juillet 2027
+- [Jazz à Juan](https://lefestiguide.fr/jazz-a-juan.html): Antibes (Juan-les-Pins), 8 – 18 juillet 2027
+- [Les Déferlantes Sud de France](https://lefestiguide.fr/les-deferlantes.html): Le Barcarès (Pyrénées-Orientales), 9 – 11 juillet 2027
+- [Les Francofolies de La Rochelle](https://lefestiguide.fr/francofolies-de-la-rochelle.html): La Rochelle (Charente-Maritime), 10 – 14 juillet 2027
+- [Les Vieilles Charrues](https://lefestiguide.fr/vieilles-charrues.html): Carhaix-Plouguer (Finistère), 15 – 18 juillet 2027
+- [Les Francofolies de Spa](https://lefestiguide.fr/francofolies-de-spa.html): Spa, 16 – 18 juillet 2027
+- [Festival de Cornouaille](https://lefestiguide.fr/festival-de-cornouaille.html): Quimper (Finistère), 22 – 25 juillet 2027
+- [Festival Interceltique de Lorient](https://lefestiguide.fr/festival-interceltique-de-lorient.html): Lorient (Morbihan), 30 juillet – 8 août 2027
+- [Festival du Bout du Monde](https://lefestiguide.fr/festival-du-bout-du-monde.html): Crozon, 30 juillet – 1 août 2027
+- [Au Pont du Rock](https://lefestiguide.fr/au-pont-du-rock.html): Malestroit, 30 – 31 juillet 2027
+- [Lokerse Feesten](https://lefestiguide.fr/lokerse-feesten.html): Lokeren, 30 juillet – 8 août 2027
+- [Musicalarue](https://lefestiguide.fr/musicalarue.html): Luxey, 30 juillet – 1er août 2027
+- [Alcatraz](https://lefestiguide.fr/alcatraz-festival.html): Courtrai, 5 – 8 août 2027
+- [Suikerrock](https://lefestiguide.fr/suikerrock.html): Tirlemont (Tienen), 6 – 8 août 2027
+- [Fête du Bruit](https://lefestiguide.fr/fete-du-bruit.html): Landerneau, 6 – 8 août 2027
+- [Festival Dranouter](https://lefestiguide.fr/festival-dranouter.html): Dranouter (Heuvelland), 6 – 8 août 2027
+- [Festival du Chant de Marin](https://lefestiguide.fr/festival-du-chant-de-marin.html): Paimpol, 6 – 8 août 2027
+- [Ronquières Festival](https://lefestiguide.fr/ronquieres-festival.html): Ronquières, 6 – 8 août 2027
+- [Festival de La Chaise-Dieu](https://lefestiguide.fr/festival-de-la-chaise-dieu.html): La Chaise-Dieu, 17 – 29 août 2027
+- [Le Cabaret Vert](https://lefestiguide.fr/cabaret-vert.html): Charleville-Mézières (Ardennes), 19 – 22 août 2027
+- [Pukkelpop](https://lefestiguide.fr/pukkelpop.html): Hasselt, 19 – 22 août 2027
+- [Les Rendez-vous de l'Erdre](https://lefestiguide.fr/rendez-vous-de-l-erdre.html): Nantes, 23 – 29 août 2027
+- [Nancy Jazz Pulsations](https://lefestiguide.fr/nancy-jazz-pulsations.html): Nancy, 2 – 16 octobre 2027
+- [Rock en Seine](https://lefestiguide.fr/rock-en-seine.html): Saint-Cloud (Hauts-de-Seine), 23 – 27 août 2028 (pas d'édition en 2027)
+- [La Magnifique Society](https://lefestiguide.fr/la-magnifique-society.html): Reims, À confirmer
+- [Rock the Pistes](https://lefestiguide.fr/rock-the-pistes.html): Châtel, À confirmer
+- [Rampage](https://lefestiguide.fr/rampage.html): Anvers, À confirmer
+- [Jazz à Saint-Germain-des-Prés](https://lefestiguide.fr/jazz-a-saint-germain-des-pres.html): Paris, À confirmer
+- [Les 3 Éléphants](https://lefestiguide.fr/les-3-elephants.html): Laval, À confirmer
+- [Le Jardin du Michel](https://lefestiguide.fr/le-jardin-du-michel.html): Nancy, À confirmer
+- [Horst Music Festival](https://lefestiguide.fr/horst-music-festival.html): Bruxelles, À confirmer
+- [Solidays](https://lefestiguide.fr/solidays.html): Paris (Hippodrome de Longchamp), Juin 2027 (dates à confirmer)
+- [Les Nuits de Fourvière](https://lefestiguide.fr/nuits-de-fourviere.html): Lyon (Rhône), Juin – juillet 2027 (dates à confirmer)
+- [Les Siestes Électroniques](https://lefestiguide.fr/les-siestes-electroniques.html): Toulouse (Haute-Garonne), Fin juin 2027 (dates à confirmer)
+- [Couleur Café](https://lefestiguide.fr/couleur-cafe.html): Bruxelles, À confirmer
+- [Festival de Saint-Denis](https://lefestiguide.fr/festival-de-saint-denis.html): Saint-Denis, À confirmer
+- [Aluna Festival](https://lefestiguide.fr/aluna-festival.html): Ruoms, À confirmer
+- [Musiques Métisses](https://lefestiguide.fr/musiques-metisses.html): Angoulême, À confirmer
+- [Werchter Boutique](https://lefestiguide.fr/werchter-boutique.html): Werchter, À confirmer
+- [Lollapalooza Paris](https://lefestiguide.fr/lollapalooza-paris.html): Paris (Hippodrome ParisLongchamp), Juillet 2027 (retour non confirmé)
+- [Jazz in Marciac](https://lefestiguide.fr/jazz-in-marciac.html): Marciac (Gers), Juillet – août 2027 (dates à confirmer)
+- [Peacock Society](https://lefestiguide.fr/peacock-society.html): Paris (Paris), Juillet 2027 (jours exacts à confirmer)
+- [Yardland Festival](https://lefestiguide.fr/yardland-festival.html): Paris (Bois de Vincennes), Juillet 2027 (dates à confirmer)
+- [Dour Festival](https://lefestiguide.fr/dour-festival.html): Dour (Hainaut), Dates 2027 à confirmer
+- [Terres du Son](https://lefestiguide.fr/terres-du-son.html): Monts (Indre-et-Loire), Dates 2027 à confirmer
+- [Festival de Carcassonne](https://lefestiguide.fr/festival-de-carcassonne.html): Carcassonne (Aude), Dates 2027 à confirmer
+- [Tomorrowland Belgium](https://lefestiguide.fr/tomorrowland-belgium.html): Boom, À confirmer
+- [Electrobeach Music Festival](https://lefestiguide.fr/electrobeach.html): Le Barcarès, À confirmer
+- [Les Escales](https://lefestiguide.fr/les-escales.html): Saint-Nazaire, À confirmer
+- [Nice Jazz Festival](https://lefestiguide.fr/nice-jazz-festival.html): Nice, À confirmer
+- [Chorégies d'Orange](https://lefestiguide.fr/choregies-d-orange.html): Orange, À confirmer
+- [Festival de La Roque-d'Anthéron](https://lefestiguide.fr/la-roque-d-antheron.html): La Roque-d'Anthéron, À confirmer
+- [Les Nuits Secrètes](https://lefestiguide.fr/les-nuits-secretes.html): Aulnoye-Aymeries, À confirmer
+- [Festival Radio France Occitanie Montpellier](https://lefestiguide.fr/festival-radio-france-montpellier.html): Montpellier, À confirmer
+- [Cactus Festival](https://lefestiguide.fr/cactus-festival.html): Bruges, À confirmer
+- [Les Suds, à Arles](https://lefestiguide.fr/les-suds-a-arles.html): Arles, À confirmer
+- [Esperanzah!](https://lefestiguide.fr/esperanzah.html): Floreffe, À confirmer
+- [Festival Pablo Casals](https://lefestiguide.fr/festival-pablo-casals.html): Prades, À confirmer
+- [Rock Zottegem](https://lefestiguide.fr/rock-zottegem.html): Zottegem, À confirmer
+- [Nuits de la Guitare de Patrimonio](https://lefestiguide.fr/nuits-de-la-guitare-de-patrimonio.html): Patrimonio, À confirmer
+- [Nuits de la Citadelle](https://lefestiguide.fr/nuits-de-la-citadelle.html): Sisteron, À confirmer
+- [Nuits du Sud](https://lefestiguide.fr/nuits-du-sud.html): Vence, À confirmer
+- [Festival international de Colmar](https://lefestiguide.fr/festival-international-de-colmar.html): Colmar, À confirmer
+- [Festival de Saint-Céré](https://lefestiguide.fr/festival-de-saint-cere.html): Saint-Céré, À confirmer
+- [Brosella](https://lefestiguide.fr/brosella.html): Bruxelles, À confirmer
+- [Paradise City](https://lefestiguide.fr/paradise-city.html): Perk, À confirmer
+- [Rampage Open Air](https://lefestiguide.fr/rampage-open-air.html): Lommel, À confirmer
+- [Ostend Beach Festival](https://lefestiguide.fr/ostend-beach-festival.html): Ostende, À confirmer
+- [Motocultor Festival](https://lefestiguide.fr/motocultor.html): Saint-Nolff, À confirmer
+- [Jazz à la Villette](https://lefestiguide.fr/jazz-a-la-villette.html): Paris, À confirmer
+- [Family Piknik](https://lefestiguide.fr/family-piknik.html): Montpellier, À confirmer
+- [Les Plages Électroniques](https://lefestiguide.fr/les-plages-electroniques.html): Cannes, À confirmer
+- [Festival Berlioz](https://lefestiguide.fr/festival-berlioz.html): La Côte-Saint-André, À confirmer
+- [Positiv Festival](https://lefestiguide.fr/positiv-festival.html): Orange, À confirmer
+- [Festival des Filets Bleus](https://lefestiguide.fr/festival-des-filets-bleus.html): Concarneau, À confirmer
+- [Marktrock](https://lefestiguide.fr/marktrock.html): Louvain, À confirmer
+- [Gaume Jazz Festival](https://lefestiguide.fr/gaume-jazz-festival.html): Rossignol, À confirmer
+- [BrakRock](https://lefestiguide.fr/brakrock.html): Duffel, À confirmer
+- [WeCanDance](https://lefestiguide.fr/wecandance.html): Zeebrugge, À confirmer
+- [Fête de l'Humanité](https://lefestiguide.fr/fete-de-l-humanite.html): Le Plessis-Pâté (Essonne), Septembre 2027 (dates à confirmer)
+- [Festival d'Ambronay](https://lefestiguide.fr/festival-d-ambronay.html): Ambronay, À confirmer
+- [Festival van Vlaanderen Gand](https://lefestiguide.fr/festival-van-vlaanderen-gent.html): Gand, À confirmer
+- [Fiesta des Suds](https://lefestiguide.fr/fiesta-des-suds.html): Marseille, À confirmer
+- [MaMA Music & Convention](https://lefestiguide.fr/mama-festival.html): Paris, À confirmer
+- [Dream Nation](https://lefestiguide.fr/dream-nation.html): Villepinte (Seine-Saint-Denis), Dates 2027 à confirmer
+- [Jazzdor Strasbourg-Berlin](https://lefestiguide.fr/jazzdor.html): Strasbourg, À confirmer
+- [Paris Jazz Festival](https://lefestiguide.fr/paris-jazz-festival.html): Paris, À confirmer
+- [Festival d'Auvers-sur-Oise](https://lefestiguide.fr/festival-d-auvers-sur-oise.html): Auvers-sur-Oise, À confirmer

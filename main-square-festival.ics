@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270705
 SUMMARY:Main Square Festival
 LOCATION:La Citadelle d'Arras\, 146 allée du Bastion de la Reine
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/main-square-festival.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/main-square-festival.html
 URL:https://mainsquarefestival.fr/
 END:VEVENT
 END:VCALENDAR

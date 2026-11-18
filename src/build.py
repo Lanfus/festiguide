@@ -25,7 +25,7 @@ UPDATED = "17 novembre 2026"
 # Nom de domaine personnel (ex. "lefestiguide.fr"). Vide = le site reste sur lanfus.github.io/festiguide.
 # Ne le remplir qu'APRÈS avoir réglé les DNS chez le registrar (voir README › Passer sur un vrai nom de domaine) :
 # build.py écrit alors le fichier CNAME et GitHub redirige l'ancienne adresse vers la nouvelle.
-DOMAINE = ""
+DOMAINE = "lefestiguide.fr"
 BASE_URL = f"https://{DOMAINE}" if DOMAINE else "https://lanfus.github.io/festiguide"
 EDITEUR = "Florent H."
 CONTACT = "contact.festiguide@gmail.com"

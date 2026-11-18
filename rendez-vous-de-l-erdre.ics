@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20270823
 DTEND;VALUE=DATE:20270830
 SUMMARY:Les Rendez-vous de l'Erdre
 LOCATION:Bords de l'Erdre\, Nantes
-DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/rendez-vous-de-l-erdre.html
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/rendez-vous-de-l-erdre.html
 URL:https://www.rendezvouserdre.com/
 END:VEVENT
 END:VCALENDAR
