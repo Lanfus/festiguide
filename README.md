@@ -31,6 +31,16 @@ Site statique en HTML, CSS et JavaScript, sans dépendance ni framework. Les pag
 
 Pour voir le site en local, ouvre `index.html` dans un navigateur. Aucune installation nécessaire.
 
+## Pages d'intention (SEO)
+
+En plus des listes par mois, style et lieu, `group_defs()` génère des pages qui collent aux recherches réelles, seulement quand elles contiennent assez de festivals pour ne pas être creuses :
+
+- `festivals-pas-chers.html` : billet à 50 € ou moins (au moins 8 festivals, triés par prix)
+- `festivals-<mois>-<région>.html` : par exemple « Festivals en juillet en Bretagne » (au moins 5)
+- `festivals-<style>-<mois>.html` pour juin, juillet et août : par exemple « Festivals rock en juillet » (au moins 8)
+
+Les seuils sont en tête de `build.py` (`MIN_BUDGET`, `BUDGET_MAX`, `MIN_COMBO_REGION`, `MIN_COMBO_GENRE`). Chaque fiche renvoie vers deux de ces pages au plus. Suivre leurs impressions dans Search Console › Performances › Pages.
+
 ## Mettre à jour une fiche
 
 ⚠️ **Les fichiers `.html` sont générés : ne les modifie pas à la main**, ils seraient écrasés à la prochaine génération.

@@ -49,6 +49,27 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique dans les Pays de la Loire](https://lanfus.github.io/festiguide/festivals-musique-pays-de-la-loire.html): 7 festivals
 - [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lanfus.github.io/festiguide/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
 - [Festivals de musique en Wallonie](https://lanfus.github.io/festiguide/festivals-musique-wallonie.html): 6 festivals
+- [Festivals pas chers : billet à 50 € ou moins](https://lanfus.github.io/festiguide/festivals-pas-chers.html): 13 festivals
+- [Festivals en mars en Auvergne-Rhône-Alpes](https://lanfus.github.io/festiguide/festivals-mars-auvergne-rhone-alpes.html): 5 festivals
+- [Festivals en juillet en Bretagne](https://lanfus.github.io/festiguide/festivals-juillet-bretagne.html): 6 festivals
+- [Festivals en juillet en Flandre](https://lanfus.github.io/festiguide/festivals-juillet-flandre.html): 9 festivals
+- [Festivals en juillet en Occitanie](https://lanfus.github.io/festiguide/festivals-juillet-occitanie.html): 9 festivals
+- [Festivals en juillet en Provence-Alpes-Côte d'Azur](https://lanfus.github.io/festiguide/festivals-juillet-provence-alpes-cote-d-azur.html): 9 festivals
+- [Festivals en août en Bretagne](https://lanfus.github.io/festiguide/festivals-aout-bretagne.html): 6 festivals
+- [Festivals en août en Flandre](https://lanfus.github.io/festiguide/festivals-aout-flandre.html): 8 festivals
+- [Festivals électro en juin](https://lanfus.github.io/festiguide/festivals-electro-juin.html): 8 festivals
+- [Festivals pop en juin](https://lanfus.github.io/festiguide/festivals-pop-juin.html): 10 festivals
+- [Festivals rock en juin](https://lanfus.github.io/festiguide/festivals-rock-juin.html): 9 festivals
+- [Festivals électro en juillet](https://lanfus.github.io/festiguide/festivals-electro-juillet.html): 20 festivals
+- [Festivals pop en juillet](https://lanfus.github.io/festiguide/festivals-pop-juillet.html): 25 festivals
+- [Festivals rock en juillet](https://lanfus.github.io/festiguide/festivals-rock-juillet.html): 24 festivals
+- [Festivals rap en juillet](https://lanfus.github.io/festiguide/festivals-rap-juillet.html): 10 festivals
+- [Festivals de jazz en juillet](https://lanfus.github.io/festiguide/festivals-jazz-juillet.html): 8 festivals
+- [Festivals de musique classique en juillet](https://lanfus.github.io/festiguide/festivals-musique-classique-juillet.html): 8 festivals
+- [Festivals de musiques du monde en juillet](https://lanfus.github.io/festiguide/festivals-musiques-du-monde-juillet.html): 8 festivals
+- [Festivals électro en août](https://lanfus.github.io/festiguide/festivals-electro-aout.html): 9 festivals
+- [Festivals pop en août](https://lanfus.github.io/festiguide/festivals-pop-aout.html): 8 festivals
+- [Festivals rock en août](https://lanfus.github.io/festiguide/festivals-rock-aout.html): 9 festivals
 
 ## Festivals
 - [Les Trans Musicales de Rennes](https://lanfus.github.io/festiguide/les-trans-musicales.html): Rennes (Ille-et-Vilaine), 2 – 6 décembre 2026

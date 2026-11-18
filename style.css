@@ -164,7 +164,8 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.2em;t
 .rel .small{display:block;margin-top:2px}
 .see{margin-top:16px}
 /* pages de listes */
-.glist{list-style:none;padding:0;margin:32px 0 0;border-top:2px solid var(--ink);box-shadow:inset 48px 0 0 -42px var(--accent)}
+.glist{list-style:none;padding:0;margin:32px 0 0;border-top:2px solid var(--ink);position:relative}
+.glist::before{content:"";position:absolute;left:0;top:-4px;width:48px;height:6px;background:var(--accent)}
 .gl{padding:16px 0;border-bottom:1px solid var(--line);display:grid;gap:3px}
 .gl-name{font-family:var(--display);font-weight:800;font-size:1.7rem;line-height:1;text-transform:uppercase;color:var(--ink);text-decoration:none}
 .gl-meta{font-size:.92rem;color:var(--muted)}

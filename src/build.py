@@ -146,6 +146,8 @@ def related(f, fests, n=4):
 
 # ---------- pages de regroupement (mois, style, région) ----------
 MIN_MOIS, MIN_REGION, MIN_GENRE = 3, 5, 5
+MIN_BUDGET, BUDGET_MAX = 8, 50
+MIN_COMBO_REGION, MIN_COMBO_GENRE = 5, 8
 GENRE_PAGES = {
     "Électro": ("festivals-electro", "Festivals électro"),
     "Pop": ("festivals-pop", "Festivals pop"),
@@ -200,6 +202,26 @@ def group_defs(fests):
             ou = REGION_PREP.get(r, f"en {r}")
             defs.append({"slug": f"festivals-musique-{slugify(r)}", "h1": f"Festivals de musique {ou}", "kind": "lieu",
                          "label": r, "list": lst, "ou": ou})
+    # Pages d'intention : ce que les gens tapent vraiment (« festival pas cher », « festival juillet Bretagne », « festival rock juillet »).
+    # Seuils plus hauts que les autres listes pour ne jamais publier de page creuse.
+    lst = [f for f in fests if prix_num(f) is not None and prix_num(f) <= BUDGET_MAX]
+    if len(lst) >= MIN_BUDGET:
+        defs.append({"slug": "festivals-pas-chers", "h1": f"Festivals pas chers : billet à {BUDGET_MAX} € ou moins", "kind": "budget",
+                     "label": f"{BUDGET_MAX} € ou moins", "list": lst, "ou": f"avec un billet d'entrée à {BUDGET_MAX} € ou moins", "tri": "prix"})
+    for m in MOIS_ORDRE:
+        for r in sorted({f.get("region") for f in fests if f.get("region")}, key=norm):
+            lst = [f for f in fests if m in (f.get("mois") or []) and f.get("region") == r]
+            if len(lst) >= MIN_COMBO_REGION:
+                ou = f"en {m} " + REGION_PREP.get(r, f"en {r}")
+                defs.append({"slug": f"festivals-{slugify(m)}-{slugify(r)}", "h1": f"Festivals {ou}", "kind": "combo",
+                             "label": f"{m.capitalize()} · {r}", "list": lst, "ou": ou})
+    for m in ("juin", "juillet", "août"):
+        for g, (slug, h1) in GENRE_PAGES.items():
+            lst = [f for f in fests if m in (f.get("mois") or []) and g in (f.get("genres") or [])]
+            if len(lst) >= MIN_COMBO_GENRE:
+                defs.append({"slug": f"{slug}-{slugify(m)}", "h1": f"{h1} en {m}", "kind": "combo",
+                             "label": f"{h1.replace('Festivals de ', '').replace('Festivals ', '').capitalize()} · {m}",
+                             "list": lst, "ou": f"dans le style « {g} » en {m}"})
     return defs
 
 
@@ -211,7 +233,7 @@ def group_title(h1):
 
 
 def nav_groups(defs, current=None):
-    blocs = [("mois", "Par mois"), ("style", "Par style"), ("lieu", "Par lieu")]
+    blocs = [("mois", "Par mois"), ("style", "Par style"), ("lieu", "Par lieu"), ("budget", "Par budget"), ("combo", "Par mois et région ou style")]
     out = ""
     for kind, titre in blocs:
         items = [d for d in defs if d["kind"] == kind]
@@ -238,6 +260,8 @@ def voir_aussi(f, defs):
         want.append(f"festivals-musique-{slugify(f['region'])}")
     if f.get("country") == "Belgique":
         want.append("festivals-musique-belgique")
+    # Pages d'intention qui contiennent ce festival (maillage interne vers les nouvelles pages), deux au plus
+    want += [d["slug"] for d in defs if d["kind"] in ("budget", "combo") and f in d["list"]][:2]
     seen, links = set(), []
     for s in want:
         if s in by_slug and s not in seen:
@@ -247,10 +271,13 @@ def voir_aussi(f, defs):
 
 
 def group_page(d, defs, fests):
-    lst = sorted(d["list"], key=lambda f: (-(f.get("visiteurs") or 0), tri_key(f)))
+    if d.get("tri") == "prix":
+        lst = sorted(d["list"], key=lambda f: (prix_num(f), tri_key(f)))
+    else:
+        lst = sorted(d["list"], key=lambda f: (-(f.get("visiteurs") or 0), tri_key(f)))
     n = len(lst)
     conf = [f for f in lst if f.get("status") == "Dates annoncées"]
-    gros = [f for f in lst if f.get("visiteurs")][:3]
+    gros = sorted([f for f in lst if f.get("visiteurs")], key=lambda f: -f["visiteurs"])[:3]
     prix = [(prix_num(f), f) for f in lst if prix_num(f) is not None]
     free = [f for f in lst if is_free(f)]
     p1 = f"{n} festivals de musique sont référencés {d['ou']} sur {SITE}, dont {len(conf)} aux dates de la prochaine édition déjà confirmées par une source officielle."
@@ -260,10 +287,10 @@ def group_page(d, defs, fests):
     bits = []
     if prix:
         pm, fm = min(prix, key=lambda x: x[0])
-        bits.append(f"Le ticket d'entrée le plus bas relevé : {fm.get('price_label') or str(pm) + ' €'}, au {fm['name']}, d'après la dernière grille tarifaire publiée.")
+        bits.append(f"Le ticket d'entrée le plus bas relevé : {fm['name']}, {fm.get('price_label') or str(pm) + ' €'}, d'après la dernière grille tarifaire publiée.")
     if free:
         bits.append(f"{len(free)} festival{'s' if len(free) > 1 else ''} à entrée libre.")
-    if d["kind"] != "mois":
+    if d["kind"] in ("style", "lieu", "budget"):
         cnt = {}
         for f in lst:
             for m in (f.get("mois") or []):
@@ -1193,7 +1220,8 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.2em;t
 .rel .small{display:block;margin-top:2px}
 .see{margin-top:16px}
 /* pages de listes */
-.glist{list-style:none;padding:0;margin:32px 0 0;border-top:2px solid var(--ink);box-shadow:inset 48px 0 0 -42px var(--accent)}
+.glist{list-style:none;padding:0;margin:32px 0 0;border-top:2px solid var(--ink);position:relative}
+.glist::before{content:"";position:absolute;left:0;top:-4px;width:48px;height:6px;background:var(--accent)}
 .gl{padding:16px 0;border-bottom:1px solid var(--line);display:grid;gap:3px}
 .gl-name{font-family:var(--display);font-weight:800;font-size:1.7rem;line-height:1;text-transform:uppercase;color:var(--ink);text-decoration:none}
 .gl-meta{font-size:.92rem;color:var(--muted)}
