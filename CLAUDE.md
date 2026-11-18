@@ -58,6 +58,16 @@ Palette « coucher de soleil de scène » : rose-rouge adouci `#a8274a` / `#d93d
 
 Demandée par Florent, avec la méthode du skill unslop (heydamir/unslop, CC BY 4.0, lue mais non installée). Direction : fond papier crème `#fbf8f4`, encre `#2b2623`, un seul accent `#b0304f` (boutons, liens, mois actif), le décor du bandeau reste le seul élément riche. Changé dans `build.py` : plus de dégradés sauf le bandeau, plus de bande orange/ambre sur les cartes, pas d'ombres ni de survol qui bouge, graisses 400-600 (plus de 800), plus de capitales espacées, rayons 6/8/12 (plus de pastilles rondes partout), chiffres tabulaires, emoji remplacés par des icônes SVG en trait fin via `ic()` (une seule taille et une seule épaisseur), fond de page sans halos ni `motif.svg` (le fichier est encore généré mais n'est plus référencé). H1 de l'accueil : « Trouve ton festival de musique en France et en Belgique ». Contraste du texte blanc du bandeau re-mesuré le 18/11 sur les pixels réels, de 320 à 1600 px : pire cas 4,95:1. Ne pas remettre d'emoji ni de dégradé hors bandeau.
 
+## Direction « programme de festival imprimé » (18 novembre 2026, 2e passe)
+
+Suite de la refonte : la structure faisait encore gabarit (grille de cartes identiques à gros bouton, rangée de chiffres clés, boîtes blanches partout). Changé dans `build.py` :
+- Police d'affiche **Big Shoulders Display** (OFL, licence dans `fonts/OFL.txt`), auto-hébergée dans `fonts/big-shoulders-display.woff2` : aucune requête tierce. Utilisée en capitales pour le logo, les H1, les titres de section, les noms de festivals et le line-up ; le texte courant reste en police système.
+- Accueil : plus de cartes ni de bouton « Voir la fiche ». Chaque festival est une ligne de programme (`.card` gardé pour le JS) : colonne de dates (`date_block()` : jours en gros si `iso`, sinon mois habituel grisé + « à confirmer »), nom, lieu, styles, puis prix/visiteurs/compte à rebours à droite. Toute la ligne est cliquable (lien étiré sur le `h3`). Rangée de chiffres du bandeau retirée (les chiffres sont dans la phrase).
+- Mois en bandeau calendrier, styles en onglets texte soulignés, liens « Explorer » en texte souligné.
+- Fiches : sections séparées par un filet épais au lieu de boîtes, tuiles « En bref » en bande à séparateurs, **line-up typographié comme une affiche** (`.lineup` / `.act`), trait décoratif sous le H1 retiré.
+- Mobile : filtres deux par ligne, liste en deux colonnes (dates + contenu).
+Ne pas remettre de grille de cartes à bouton ni de rangée de statistiques.
+
 ## SEO déjà en place
 
 Titres ≤ 60 caractères, descriptions 70–160, canonical, Open Graph + Twitter card avec `og-image.png`, favicon SVG, JSON-LD `BreadcrumbList` sur chaque fiche et `Festival` quand `iso` est renseigné, bloc « Autres festivals à découvrir » (4 liens par fiche, calculés par `related()` selon région, mois et genre), balise de vérification Google Search Console dans `head()` (ne pas la supprimer), sitemap soumis dans Search Console le 13 novembre 2026. Les liens vers `style.css` et `script.js` portent une empreinte (`?v=…`) calculée par `build.py` : sans elle, les navigateurs gardent l'ancien CSS en cache et les visiteurs ne voient pas les changements.
