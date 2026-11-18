@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Génère le site FestiGuide à partir de festivals.json."""
-import hashlib, html, json, shutil, sys, unicodedata
+import hashlib, html, json, re, shutil, sys, unicodedata
+from collections import Counter
 from pathlib import Path
 
 esc = lambda s: html.escape(str(s), quote=True)
@@ -123,14 +124,40 @@ def ics(f):
     return "\r\n".join(lines) + "\r\n"
 
 
+def annee_cible(fests):
+    """Année la plus fréquente parmi les dates confirmées (None s'il n'y en a aucune) : jamais devinée."""
+    annees = Counter(f["iso"][0][:4] for f in fests if f.get("iso"))
+    return annees.most_common(1)[0][0] if annees else None
+
+
 def make_title(f):
-    """Titre de page de 60 caractères maximum (au-delà, Google le coupe)."""
+    """Titre de page de 60 caractères maximum (au-delà, Google le coupe).
+    L'année n'apparaît que si les dates sont confirmées (« hellfest 2027 » est ce que les gens cherchent)."""
     n = f.get("short") or f["name"]
-    for t in (f"{n} : dates, prix, line-up et accès | {SITE}", f"{n} : dates, prix et line-up | {SITE}",
-              f"{n} : dates, prix, line-up", f"{n} : dates et prix"):
-        if len(t) <= 60:
-            return t
+    an = f["iso"][0][:4] if f.get("iso") else None
+    noms = [f"{n} {an}", n] if an and an not in n else [n]
+    for nom in noms:
+        for t in (f"{nom} : dates, prix, line-up et accès | {SITE}", f"{nom} : dates, prix et line-up | {SITE}",
+                  f"{nom} : dates, prix, line-up", f"{nom} : dates et prix"):
+            if len(t) <= 60:
+                return t
     return f"{n} | {SITE}"
+
+
+def make_desc(f):
+    """Meta description de 160 caractères maximum, écrite uniquement avec les données de la fiche."""
+    if f.get("iso"):
+        desc = f'{f["name"]} : {f.get("dates")}, {f.get("city")}.'
+    else:
+        desc = f'{f["name"]}, {f.get("city")} : prochaines dates à confirmer.'
+    infos = [mot for champ, mot in (("prices", "prix"), ("lineup", "line-up"), ("access", "accès"), ("tips", "conseils")) if f.get(champ)]
+    infos = (", ".join(infos) + " et site officiel").capitalize() if infos else "Sources et site officiel"
+    genres = ", ".join((f.get("genres") or [])[:2])
+    morceaux = [re.split(r"(?<=[.!?])\s", (f.get("about") or "").strip())[0], f"{infos}.", f"Style : {genres}." if genres else ""]
+    for m in morceaux:
+        if m and len(desc) + 1 + len(m) <= 160:
+            desc += " " + m
+    return desc
 
 
 def related(f, fests, n=4):
@@ -229,11 +256,14 @@ def group_defs(fests):
     return defs
 
 
-def group_title(h1):
-    for t in (f"{h1} : dates, prix | {SITE}", f"{h1} | {SITE}", h1):
-        if len(t) <= 60:
-            return t
-    return h1[:60]
+def group_title(h1, an=None):
+    """Titre d'une page de liste : avec l'année des dates confirmées quand elle tient en 60 caractères."""
+    noms = [f"{h1} {an}", h1] if an else [h1]
+    for nom in noms:
+        for t in (f"{nom} : dates, prix | {SITE}", f"{nom} | {SITE}"):
+            if len(t) <= 60:
+                return t
+    return h1 if len(h1) <= 60 else h1[:60]
 
 
 def nav_groups(defs, current=None):
@@ -316,11 +346,11 @@ def group_page(d, defs, fests):
     desc = desc if len(desc) <= 160 else desc[:157] + "…"
     url = f"{BASE_URL}/{d['slug']}.html"
     ld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE_URL}/index.html"},
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE_URL}/"},
         {"@type": "ListItem", "position": 2, "name": d["h1"], "item": url}]}, ensure_ascii=False) + "</script>\n"
     ld += '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "ItemList", "name": d["h1"],
         "numberOfItems": n, "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": f["name"], "url": f'{BASE_URL}/{f["slug"]}.html'} for i, f in enumerate(lst)]}, ensure_ascii=False) + "</script>\n"
-    page = head(group_title(d["h1"]), desc, url, ld)
+    page = head(group_title(d["h1"], annee_cible(d["list"])), desc, url, ld)
     page += f'''<main id="contenu" class="wrap fiche groupe">
 <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(d["h1"])}</span></nav>
 <h1>{esc(d["h1"])}</h1>
@@ -465,9 +495,9 @@ def build(fests):
     opt = lambda vals: "".join(f"<option>{esc(v)}</option>" for v in vals)
     nb_annonces = sum(1 for f in fests if f.get("status") == "Dates annoncées")
     idx = head(
-        f"{len(fests)} festivals de musique : dates, prix | {SITE}",
+        f"Festivals de musique {annee_cible(fests)} : dates et prix | {SITE}" if annee_cible(fests) else f"{len(fests)} festivals de musique : dates, prix | {SITE}",
         f"Les {len(fests)} plus gros festivals de musique de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Rock, électro, rap, jazz, metal.",
-        f"{BASE_URL}/index.html",
+        f"{BASE_URL}/",
         extra='<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": BASE_URL + "/", "inLanguage": "fr-FR", "description": "Annuaire gratuit de festivals de musique en France et en Belgique."}, ensure_ascii=False) + "</script>\n")
     idx += f'''<main id="contenu">
 <section class="hero"><div class="wrap">
@@ -508,11 +538,12 @@ def build(fests):
     # ---------- fiches ----------
     for f in fests:
         crumb_ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE_URL}/index.html"},
+            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE_URL}/"},
             {"@type": "ListItem", "position": 2, "name": f["name"], "item": f'{BASE_URL}/{f["slug"]}.html'}]}
         ld = '<script type="application/ld+json">' + json.dumps(crumb_ld, ensure_ascii=False) + "</script>\n"
+        desc = make_desc(f)
         if f.get("iso"):
-            data = {"@context": "https://schema.org", "@type": "Festival", "name": f["name"],
+            data = {"@context": "https://schema.org", "@type": "Festival", "name": f["name"], "description": desc,
                     "startDate": f["iso"][0], "endDate": f["iso"][1],
                     "eventStatus": "https://schema.org/EventScheduled",
                     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
@@ -522,7 +553,6 @@ def build(fests):
                                              "addressCountry": "BE" if f.get("country") == "Belgique" else "FR"}},
                     "url": f.get("official")}
             ld += '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + "</script>\n"
-        desc = f'{f["name"]} : {f.get("dates")}, {f.get("city")}. Prix, programmation, accès et site officiel.'
         p = head(make_title(f), desc, f'{BASE_URL}/{f["slug"]}.html', ld)
         voisins = "".join(
             f'<li><a href="{g["slug"]}.html">{esc(g["name"])}</a><span class="small">{esc(g.get("city") or "")} · {esc(g.get("dates") or "Dates à confirmer")}</span></li>'
@@ -622,7 +652,7 @@ def build(fests):
 
     # ---------- sitemap + robots ----------
     urls = "".join(f"  <url><loc>{BASE_URL}/{s}</loc></url>\n"
-                   for s in ["index.html", GUIDE_SLUG] + [f'{d["slug"]}.html' for d in defs] + [f'{f["slug"]}.html' for f in fests] + LEGAL_PAGES)
+                   for s in ["", GUIDE_SLUG] + [f'{d["slug"]}.html' for d in defs] + [f'{f["slug"]}.html' for f in fests] + LEGAL_PAGES)
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + urls + "</urlset>\n", encoding="utf-8")
@@ -634,7 +664,7 @@ def build(fests):
 Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncées ») que si une source officielle la confirme ; sinon la fiche indique « Dates à confirmer ». Données indicatives, à vérifier sur le site officiel du festival.
 
 ## Pages principales
-- [Tous les festivals]({BASE_URL}/index.html): liste complète, filtres par mois, région, style et budget
+- [Tous les festivals]({BASE_URL}/): liste complète, filtres par mois, région, style et budget
 - [Guide sécurité festival]({BASE_URL}/{GUIDE_SLUG}): billets et revente, fouilles, bruit, chaleur, secours, avec sources officielles
 - [Plan du site (sitemap)]({BASE_URL}/sitemap.xml): une page par festival, au format {BASE_URL}/<slug>.html
 - [Conditions d'utilisation]({BASE_URL}/conditions-utilisation.html)
@@ -683,7 +713,7 @@ def build_guide(fests):
     title = "Sécurité en festival : billets, bruit, chaleur | " + SITE
     desc = "Éviter les faux billets, passer les fouilles, protéger ses oreilles, tenir sous la chaleur : les règles officielles et les bons réflexes avant un festival."
     ld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE_URL}/index.html"},
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE_URL}/"},
         {"@type": "ListItem", "position": 2, "name": "Guide sécurité festival", "item": url}]}, ensure_ascii=False) + "</script>\n"
     ld += '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "Article", "headline": "Guide sécurité festival",
         "description": desc, "inLanguage": "fr-FR", "author": {"@type": "Person", "name": EDITEUR}, "publisher": {"@type": "Organization", "name": SITE},
