@@ -5077,7 +5077,7 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non publiés : la billetterie officielle n'était pas encore ouverte en novembre 2026.",
   "last_label": "Programmation 2027 (partielle)",
   "last_dates": "",
   "lineup": [
@@ -5090,13 +5090,23 @@
   ],
   "lineup_note": "Premiers noms annoncés par le festival pour 2027.",
   "about": "Festival de pop et de rock à Tirlemont, en Brabant flamand. 40e édition en 2027.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Bietenplein de la raffinerie de sucre de Tirlemont (Tienen), au bout de la Bietenweg"
+  ],
+  "tips": [
+   "Paiement uniquement avec les « Cubes », la monnaie du festival, sur une carte cashless rechargeable à la caisse (carte, appli de paiement ou espèces), par QR code ou dans l'appli",
+   "Gobelets réutilisables avec consigne, remboursée via le système Cubes",
+   "L'appli Suikerrock donne le programme et les infos de dernière minute pendant le festival"
+  ],
   "official": "https://www.suikerrock.be/",
   "sources": [
    [
     "Site officiel",
     "https://www.suikerrock.be/"
+   ],
+   [
+    "Suikerrock : FAQ 2027",
+    "https://www.suikerrock.be/nl/info/faq"
    ]
   ],
   "visiteurs": null,
@@ -5104,7 +5114,17 @@
   "slug": "suikerrock",
   "name": "Suikerrock",
   "city": "Tirlemont (Tienen)",
-  "country": "Belgique"
+  "country": "Belgique",
+  "liens": [
+   [
+    "FAQ (en néerlandais)",
+    "https://www.suikerrock.be/nl/info/faq"
+   ],
+   [
+    "Infos pratiques (en néerlandais)",
+    "https://www.suikerrock.be/nl/info"
+   ]
+  ]
  },
  {
   "short": "",
@@ -6749,17 +6769,43 @@
   "iso": null,
   "status": "Dates à confirmer",
   "status_note": "Dates 2027 non confirmées par une source officielle : l'agenda culturel du département annonce juillet et août 2027.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 20.0,
+  "price_label": "de 20 à 80 € la place (2026)",
+  "prices": [
+   [
+    "Théâtre de la Citadelle (2026)",
+    "35 à 55 € selon la série"
+   ],
+   [
+    "Cloître Saint-Dominique (2026)",
+    "20 à 80 € selon le concert et la série"
+   ],
+   [
+    "Abonnement",
+    "-10 % dès 4 spectacles, -20 % dès 5 (hors Carré Or)"
+   ],
+   [
+    "Tarif réduit",
+    "-25 % pour les moins de 20 ans, étudiants de moins de 25 ans et demandeurs d'emploi (contingent limité)"
+   ]
+  ],
+  "prices_note": "Prix des places de l'édition 2026 publiés sur le site officiel, plus 1 € de frais par billet en ligne. Tarifs 2027 non publiés (billetterie 2026 ouverte le 12 mai).",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival d'été dans la citadelle de Sisteron, dans les Alpes-de-Haute-Provence.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Route : A51 depuis Aix-en-Provence, Route Napoléon (RN 85) ou RN 75 depuis Grenoble",
+   "Train : TGV jusqu'à Aix-en-Provence, puis correspondance ; aéroport de Marseille-Marignane à 1 h",
+   "Navette gratuite pour les personnes à mobilité réduite vers le Théâtre de la Citadelle et le Cloître Saint-Dominique, sur réservation"
+  ],
+  "tips": [
+   "Le Théâtre de la Citadelle n'est pas accessible en fauteuil roulant : réserver auprès de la billetterie (04 92 61 06 00)",
+   "Buvette ouverte dès 20 h avant les spectacles (boissons seulement)",
+   "Billets ni repris ni échangés, remboursés seulement si l'organisateur annule",
+   "Hébergement : office de tourisme Sisteron Buëch, 04 92 61 36 50"
+  ],
   "official": "https://www.nuitsdelacitadelle.fr/",
   "sources": [
    [
@@ -6769,6 +6815,14 @@
    [
     "Agenda culturel 04",
     "https://04.agendaculturel.fr/theatre-de-la-citadelle-sisteron"
+   ],
+   [
+    "Nuits de la Citadelle : tarifs 2026",
+    "https://www.nuitsdelacitadelle.fr/tarifs-et-reservations/"
+   ],
+   [
+    "Nuits de la Citadelle : infos pratiques",
+    "https://www.nuitsdelacitadelle.fr/informations-pratiques/"
    ]
   ],
   "visiteurs": null,
@@ -6776,7 +6830,17 @@
   "slug": "nuits-de-la-citadelle",
   "name": "Nuits de la Citadelle",
   "city": "Sisteron",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Tarifs, réservations et plans des salles",
+    "https://www.nuitsdelacitadelle.fr/tarifs-et-reservations/"
+   ],
+   [
+    "Informations pratiques",
+    "https://www.nuitsdelacitadelle.fr/informations-pratiques/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -7092,19 +7156,35 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non publiés. En 2026, le festival proposait des concerts « prestige » le soir, des concerts à 18 h et des concerts « Jeunes Talents » à 12 h 30 : tarifs par concert sur la billetterie officielle.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de musique classique à Colmar, chaque début juillet.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Théâtre municipal (3 rue des Unterlinden) : A35 sortie « Colmar Centre », parking Rapp à 5 minutes à pied ; bus A, B, C, D ou F arrêt Théâtre (8 minutes depuis la gare)",
+   "Église Saint-Matthieu (3 Grand Rue) : parkings Jeanne-d'Arc, Montagne Verte ou Saint-Josse ; bus A ou B arrêt Vauban",
+   "Koïfhus (29 Grand Rue) : navette Cœur de Ville arrêt Koïfhus, du lundi au samedi de 9 h à 19 h",
+   "Depuis la gare : 15 à 18 minutes à pied, ou Vélo Fluo en libre-service"
+  ],
+  "tips": [
+   "Les dimanches et le 14 juillet, la navette Cœur de Ville ne circule pas et les bus ont des horaires réduits",
+   "Concerts à 12 h 30 (jeunes talents) et à 18 h, en plus des grandes soirées : de quoi assister à plusieurs concerts dans la journée"
+  ],
   "official": "https://www.festival-colmar.com/en/",
   "sources": [
    [
     "Site officiel",
     "https://www.festival-colmar.com/en/"
+   ],
+   [
+    "Festival international de Colmar : accès",
+    "https://www.festival-colmar.com/fr/le-festival/comment-acceder-au-festival"
+   ],
+   [
+    "Festival international de Colmar : programme 2026",
+    "https://www.festival-colmar.com/fr/billetterie"
    ]
   ],
   "visiteurs": null,
@@ -7112,7 +7192,17 @@
   "slug": "festival-international-de-colmar",
   "name": "Festival international de Colmar",
   "city": "Colmar",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Comment accéder au festival",
+    "https://www.festival-colmar.com/fr/le-festival/comment-acceder-au-festival"
+   ],
+   [
+    "Billetterie et programme",
+    "https://www.festival-colmar.com/fr/billetterie"
+   ]
+  ]
  },
  {
   "short": "",
