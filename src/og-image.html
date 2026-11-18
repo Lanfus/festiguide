@@ -1,21 +1,36 @@
 <!doctype html>
 <html lang="fr"><head><meta charset="utf-8">
-<!-- Source de l'image de partage og-image.png (1200x630).
-     Pour la régénérer : capture de cette page en 1200x630 avec Playwright, enregistrée dans src/og-image.png. -->
+<!-- Source de l'image de partage og-image.png (1200x630), palette vin du site.
+     Pour la régénérer : servir le dépôt (python -m http.server), ouvrir /src/og-image.html et faire une capture 1200x630
+     (par exemple msedge --headless --screenshot=src/og-image.png --window-size=1200,630 <url>). -->
 <style>
+@font-face{font-family:"Big Shoulders";src:url(../fonts/big-shoulders-display.woff2) format("woff2");font-weight:100 900}
 *{box-sizing:border-box;margin:0}
-body{width:1200px;height:630px;overflow:hidden;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"DejaVu Sans",sans-serif;color:#fff;
-background:linear-gradient(120deg,#a8274a 0%,#d93d5f 58%,#f58a4e 90%,#fcc65a 100%);position:relative}
-.beams{position:absolute;inset:0;background:conic-gradient(from 168deg at 22% -25%,transparent 0 5deg,rgba(255,255,255,.16) 5deg 9deg,transparent 9deg 19deg,rgba(255,255,255,.15) 19deg 22deg,transparent 22deg 360deg),conic-gradient(from 188deg at 78% -25%,transparent 0 6deg,rgba(255,255,255,.15) 6deg 10deg,transparent 10deg 21deg,rgba(255,255,255,.13) 21deg 24deg,transparent 24deg 360deg)}
-.dots{position:absolute;inset:0;opacity:.6;background-image:radial-gradient(circle,rgba(255,255,255,.8) 0 3px,transparent 4px),radial-gradient(circle,rgba(255,224,102,.9) 0 5px,transparent 6px),radial-gradient(circle,rgba(255,255,255,.6) 0 2px,transparent 3px);background-size:210px 180px,330px 270px,120px 150px;background-position:30px 40px,130px 100px,70px 20px}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#fff;position:relative;
+background:linear-gradient(120deg,#7b1e3a 0%,#6a1c3e 45%,#4a1d42 100%)}
+.lights{position:absolute;left:0;right:0;top:0;height:120px}
 .box{position:relative;padding:150px 90px 0}
-.tag{display:inline-block;background:rgba(255,255,255,.2);border:2px solid rgba(255,255,255,.55);border-radius:99px;padding:8px 22px;font-size:28px;font-weight:600;letter-spacing:.02em}
-h1{font-size:150px;line-height:1;margin-top:26px;font-weight:800;letter-spacing:-.03em;text-shadow:0 4px 24px rgba(110,25,40,.32)}
-p{font-size:42px;margin-top:26px;max-width:900px;line-height:1.25;text-shadow:0 2px 12px rgba(110,25,40,.28)}
-.bar{position:absolute;left:0;right:0;bottom:0;height:16px;background:linear-gradient(90deg,#e8506a,#f58a4e 55%,#fcc65a)}
+.tag{font-size:28px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#3ee6a8}
+h1{font-family:"Big Shoulders","Arial Narrow",Impact,sans-serif;font-weight:800;text-transform:uppercase;font-size:196px;line-height:.86;margin-top:20px;letter-spacing:.005em}
+h1 span{color:#f3c6d6}
+.rule{width:150px;height:10px;background:#3ee6a8;margin-top:30px}
+p{font-size:40px;margin-top:28px;max-width:960px;line-height:1.2}
+.foot{position:absolute;left:0;right:0;bottom:0;height:18px;background:#3ee6a8}
 </style></head>
-<body><div class="beams"></div><div class="dots"></div>
-<div class="box"><span class="tag">France &amp; Belgique</span>
-<h1>FestiGuide</h1>
-<p>Dates, lieux, prix et line-up des grands festivals</p></div>
-<div class="bar"></div></body></html>
+<body>
+<svg class="lights" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+<path d="M0 18 Q300 92 600 30 T1200 26" stroke="#f3c6d6" stroke-width="2" fill="none" opacity=".55"/>
+<g fill="#3ee6a8"><path d="M40 27l14 0-7 20z"/><path d="M160 47l14 2-8 19z"/><path d="M300 57l14 0-7 20z"/><path d="M440 50l14-2-6 19z"/></g>
+<g fill="#ffffff" opacity=".85"><path d="M100 37l14 1-7 20z"/><path d="M230 54l14 1-7 20z"/><path d="M370 56l14-1-7 20z"/><path d="M510 40l14-3-5 20z"/></g>
+<g fill="#f3c6d6"><path d="M650 28l14 0-7 20z"/><path d="M790 34l14 2-8 19z"/><path d="M930 33l14-1-7 20z"/><path d="M1070 26l14 0-7 20z"/></g>
+<g fill="#3ee6a8"><path d="M720 30l14 1-7 20z"/><path d="M860 35l14 0-7 20z"/><path d="M1000 30l14-1-7 20z"/><path d="M1140 25l14 0-7 20z"/></g>
+</svg>
+<div class="box">
+<div class="tag">France &amp; Belgique · 134 festivals</div>
+<h1>Festi<span>Guide</span></h1>
+<div class="rule"></div>
+<p>Dates, lieux, prix et line-up des grands festivals</p>
+</div>
+<div class="foot"></div>
+</body></html>
