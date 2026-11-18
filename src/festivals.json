@@ -97,7 +97,21 @@
   "slug": "we-love-green",
   "name": "We Love Green",
   "city": "Paris (Bois de Vincennes)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Plan du site (édition 2026)",
+    "https://medias.welovegreen.fr/www4/uploads/2026/05/WLG26_PLAN_RS-1-819x1024.ce88474de995c02de687.webp"
+   ],
+   [
+    "Infos pratiques",
+    "https://www.welovegreen.fr/infos-pratiques/"
+   ],
+   [
+    "FAQ",
+    "https://www.welovegreen.fr/faq/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -188,7 +202,13 @@
   "slug": "solidays",
   "name": "Solidays",
   "city": "Paris (Hippodrome de Longchamp)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Accessibilité",
+    "https://www.solidays.org/festival/accessible-a-tous/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -343,7 +363,29 @@
   "slug": "festival-interceltique-de-lorient",
   "name": "Festival Interceltique de Lorient",
   "city": "Lorient (Morbihan)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Plan des lieux (édition 2026)",
+    "https://www.festival-interceltique.bzh/tous-les-lieux-plan/"
+   ],
+   [
+    "Plan d'accessibilité, Handiplan (2026)",
+    "https://www.festival-interceltique.bzh/wp-content/uploads/2026/07/WEB-100.jpg"
+   ],
+   [
+    "Venir et circuler",
+    "https://www.festival-interceltique.bzh/venir-et-circuler/"
+   ],
+   [
+    "FAQ",
+    "https://www.festival-interceltique.bzh/faq/"
+   ],
+   [
+    "Accessibilité",
+    "https://www.festival-interceltique.bzh/accessibilite/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -428,7 +470,21 @@
   "slug": "fete-de-l-humanite",
   "name": "Fête de l'Humanité",
   "city": "Le Plessis-Pâté (Essonne)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Infos pratiques",
+    "https://fete.humanite.fr/blog/infos-pratiques/"
+   ],
+   [
+    "Venir à la Fête",
+    "https://fete.humanite.fr/blog/venir/"
+   ],
+   [
+    "Accessibilité",
+    "https://fete.humanite.fr/blog/accessibilite/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -510,7 +566,17 @@
   "slug": "hellfest",
   "name": "Hellfest",
   "city": "Clisson (Loire-Atlantique)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "FAQ et infos pratiques",
+    "https://hellfest.fr/infos-pratiques"
+   ],
+   [
+    "Accessibilité",
+    "https://hellfest.fr/accessibilite"
+   ]
+  ]
  },
  {
   "short": "",
@@ -600,7 +666,21 @@
   "slug": "vieilles-charrues",
   "name": "Les Vieilles Charrues",
   "city": "Carhaix-Plouguer (Finistère)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Plan d'accès (édition 2026)",
+    "https://www.vieillescharrues.asso.fr/wp-content/uploads/2026/06/Plan_acces-2026_fd-1-scaled.png"
+   ],
+   [
+    "Infos pratiques",
+    "https://www.vieillescharrues.asso.fr/infos-pratiques/"
+   ],
+   [
+    "Application mobile officielle",
+    "https://app.fragolabs.com/3fd1b991-e5c9-4571-a62e-dea4a0c28081"
+   ]
+  ]
  },
  {
   "short": "",
@@ -673,7 +753,25 @@
   "slug": "eurockeennes-de-belfort",
   "name": "Les Eurockéennes de Belfort",
   "city": "Belfort (Territoire de Belfort)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Plan du site (édition 2025)",
+    "https://www.eurockeennes.fr/wp-content/uploads/2025/06/plan-du-site.jpg"
+   ],
+   [
+    "Plan du camping (édition 2025)",
+    "https://www.eurockeennes.fr/wp-content/uploads/2025/06/plan-camping-web.jpg"
+   ],
+   [
+    "FAQ",
+    "https://www.eurockeennes.fr/faq/"
+   ],
+   [
+    "Accessibilité",
+    "https://www.eurockeennes.fr/accessibilite/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -756,7 +854,21 @@
   "slug": "francofolies-de-la-rochelle",
   "name": "Les Francofolies de La Rochelle",
   "city": "La Rochelle (Charente-Maritime)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Infos pratiques",
+    "https://www.francofolies.fr/infos-pratiques/"
+   ],
+   [
+    "FAQ",
+    "https://www.francofolies.fr/infos-pratiques/faq/"
+   ],
+   [
+    "Accessibilité",
+    "https://www.francofolies.fr/accessibilite-psh/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -1111,7 +1223,13 @@
   "slug": "festival-beauregard",
   "name": "Festival Beauregard",
   "city": "Hérouville-Saint-Clair (Calvados)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Infos pratiques",
+    "https://www.festivalbeauregard.com/infos-pratiques"
+   ]
+  ]
  },
  {
   "short": "",
@@ -1285,7 +1403,25 @@
   "slug": "musilac",
   "name": "Musilac",
   "city": "Aix-les-Bains (Savoie)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Venir au festival",
+    "https://www.musilac.com/infos/venir-au-festival"
+   ],
+   [
+    "Camping",
+    "https://www.musilac.com/infos/camping"
+   ],
+   [
+    "Le village",
+    "https://www.musilac.com/infos/le-village"
+   ],
+   [
+    "Accessibilité",
+    "https://www.musilac.com/accessibilite"
+   ]
+  ]
  },
  {
   "short": "",
@@ -1381,7 +1517,25 @@
   "slug": "cabaret-vert",
   "name": "Le Cabaret Vert",
   "city": "Charleville-Mézières (Ardennes)",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Venir",
+    "https://cabaretvert.com/infos-pratiques/venir/"
+   ],
+   [
+    "Dormir",
+    "https://cabaretvert.com/infos-pratiques/dormir/"
+   ],
+   [
+    "Carte restauration (édition 2026)",
+    "https://cabaretvert.com/wp-content/uploads/2026/08/carte-restauration-1.pdf"
+   ],
+   [
+    "Accessibilité",
+    "https://cabaretvert.com/accessibilite/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -2966,7 +3120,17 @@
   "slug": "dour-festival",
   "name": "Dour Festival",
   "city": "Dour (Hainaut)",
-  "country": "Belgique"
+  "country": "Belgique",
+  "liens": [
+   [
+    "Plan des parkings (édition 2026)",
+    "https://www.dourfestival.eu/wp-content/uploads/2026/06/26_plans_parkings.webp"
+   ],
+   [
+    "FAQ",
+    "https://www.dourfestival.eu/faq/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -3310,7 +3474,17 @@
   "slug": "rock-werchter",
   "name": "Rock Werchter",
   "city": "Werchter",
-  "country": "Belgique"
+  "country": "Belgique",
+  "liens": [
+   [
+    "Infos pratiques (en anglais)",
+    "https://www.rockwerchter.be/en/info"
+   ],
+   [
+    "Camping",
+    "https://www.rockwerchter.be/en/info/camping"
+   ]
+  ]
  },
  {
   "short": "",
@@ -3399,7 +3573,17 @@
   "slug": "graspop",
   "name": "Graspop Metal Meeting",
   "city": "Dessel",
-  "country": "Belgique"
+  "country": "Belgique",
+  "liens": [
+   [
+    "Infos pratiques",
+    "https://www.graspop.be/fr/info"
+   ],
+   [
+    "Personnes à mobilité réduite",
+    "https://www.graspop.be/fr/info/inter"
+   ]
+  ]
  },
  {
   "short": "",
@@ -3747,7 +3931,17 @@
   "slug": "pukkelpop",
   "name": "Pukkelpop",
   "city": "Hasselt",
-  "country": "Belgique"
+  "country": "Belgique",
+  "liens": [
+   [
+    "Infos pratiques",
+    "https://www.pukkelpop.be/fr/info"
+   ],
+   [
+    "Questions fréquentes",
+    "https://www.pukkelpop.be/fr/info/questions-frequentes"
+   ]
+  ]
  },
  {
   "short": "",

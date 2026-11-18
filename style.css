@@ -163,6 +163,8 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.2em;t
 .act+.act::before{content:"·";margin:0 .35em;color:var(--pop-d);font-weight:400}
 .map{width:100%;height:340px;border:0;border-radius:6px;background:#ebe6df;display:block}
 .map-wrap{width:100%}
+.plan-links{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 6px}
+h3.utiles{font-size:1rem;font-weight:600;margin:20px 0 6px}
 .map-ph{background:#fff;border:1px dashed var(--line-d);border-radius:6px;padding:28px 20px;text-align:center}
 .map-ph-title{margin:0 0 8px;font-weight:600;font-size:1rem}
 .map-ph .small{max-width:560px;margin:0 auto 16px}

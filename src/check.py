@@ -8,7 +8,7 @@ OPT = {"short": "", "region": None, "venue": None, "maps_q": None, "genres": [],
        "iso": None, "status": "Dates à confirmer", "status_note": "", "price_from": None,
        "price_label": "Tarifs non publiés", "prices": [], "prices_note": "", "last_label": "",
        "last_dates": "", "lineup": [], "lineup_note": "", "about": "", "access": [], "tips": [],
-       "official": "", "sources": [], "visiteurs": None, "visiteurs_note": ""}
+       "official": "", "sources": [], "liens": [], "visiteurs": None, "visiteurs_note": ""}
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
         "septembre", "octobre", "novembre", "décembre"]
 MOIS_N = {unicodedata.normalize("NFD", m).encode("ascii", "ignore").decode(): m for m in MOIS}
@@ -39,7 +39,7 @@ def clean(f, problems):
             problems.append(f"{out['name']} : mois non reconnu -> {m!r}")
     out["mois"] = m2
     # paires [libellé, valeur]
-    for k in ("prices", "sources"):
+    for k in ("prices", "sources", "liens"):
         pairs = []
         for item in (out.get(k) or []):
             if isinstance(item, (list, tuple)) and len(item) == 2 and all(item):
@@ -52,6 +52,8 @@ def clean(f, problems):
                 problems.append(f"{out['name']} : {k} mal formé -> {item!r}")
         out[k] = pairs
     out["sources"] = [[t, u] for t, u in out["sources"] if u.startswith("http")]
+    # liens utiles du festival (plan du site, FAQ, appli...) : [libellé, url officielle]
+    out["liens"] = [[t, u] for t, u in out["liens"] if u.startswith("http")]
     if not out["sources"]:
         problems.append(f"{out['name']} : aucune source valide")
     if out.get("official") and not str(out["official"]).startswith("http"):

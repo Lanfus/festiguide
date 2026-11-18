@@ -583,6 +583,16 @@ def build(fests):
         acc = "".join(f"<li>{esc(a)}</li>" for a in (f.get("access") or [])) or "<li>Voir le site officiel.</li>"
         tips = "".join(f"<li>{esc(a)}</li>" for a in (f.get("tips") or [])) or "<li>Rien de particulier à signaler.</li>"
         src = "".join(f'<li><a href="{esc(u)}" target="_blank" rel="noopener">{esc(t)}</a></li>' for t, u in (f.get("sources") or []))
+        # Liens utiles : les plans officiels vont dans « Plan et localisation » (lien, jamais recopiés), le reste dans « Y aller »
+        liens = f.get("liens") or []
+        plans = [(t, u) for t, u in liens if norm(t).startswith("plan")]
+        autres = [(t, u) for t, u in liens if not norm(t).startswith("plan")]
+        plan_html = ('<p class="plan-links">' + "".join(
+            f'<a class="btn ghost" href="{esc(u)}" target="_blank" rel="noopener" data-goatcounter-click="plan-{f["slug"]}">{ic("map")}{esc(t)} ↗</a>'
+            for t, u in plans) + '</p><p class="small">Plan publié par le festival, sur son site officiel : il peut changer d\'une édition à l\'autre.</p>') if plans \
+            else '<p class="small">Le festival n\'a pas encore publié de plan du site : il paraît en général quelques semaines avant l\'édition, sur le site officiel.</p>'
+        utiles = ('<h3 class="utiles">Pages utiles du festival</h3><ul class="src">' + "".join(
+            f'<li><a href="{esc(u)}" target="_blank" rel="noopener">{esc(t)} ↗</a></li>' for t, u in autres) + '</ul>') if autres else ""
         gen = "".join(f'<span class="tag">{esc(g)}</span>' for g in (f.get("genres") or []))
         q = html.escape((f.get("maps_q") or f.get("city") or "").replace(" ", "+"), quote=True)
         badge = "ok" if f.get("status") == "Dates annoncées" else "warn"
@@ -641,10 +651,10 @@ def build(fests):
     <p class="small">Vous pouvez aussi <a href="https://www.google.com/maps/search/?api=1&amp;query={q}" target="_blank" rel="noopener">ouvrir le lieu dans Google Maps ↗</a> — ou lire notre <a href="cookies.html">politique de cookies</a>.</p>
   </div>
 </div>
-<p class="small">Le plan détaillé des scènes est publié chaque année par le festival : consultez le site officiel.</p>
+{plan_html}
 </section>
 <div class="two">
-<section class="box"><h2>Y aller</h2><ul>{acc}</ul></section>
+<section class="box"><h2>Y aller</h2><ul>{acc}</ul>{utiles}</section>
 <section class="box"><h2>À savoir</h2><ul>{tips}</ul>
 <p class="small">Billets, chaleur, bruit, fouilles : lire le <a href="guide-securite-festival.html">guide sécurité festival</a>.</p></section>
 </div>
@@ -1316,6 +1326,8 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.2em;t
 .act+.act::before{content:"·";margin:0 .35em;color:var(--pop-d);font-weight:400}
 .map{width:100%;height:340px;border:0;border-radius:6px;background:#ebe6df;display:block}
 .map-wrap{width:100%}
+.plan-links{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 6px}
+h3.utiles{font-size:1rem;font-weight:600;margin:20px 0 6px}
 .map-ph{background:#fff;border:1px dashed var(--line-d);border-radius:6px;padding:28px 20px;text-align:center}
 .map-ph-title{margin:0 0 8px;font-weight:600;font-size:1rem}
 .map-ph .small{max-width:560px;margin:0 auto 16px}
