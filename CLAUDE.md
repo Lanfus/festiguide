@@ -56,7 +56,7 @@ Palette « vin » (demandée par Florent le 18/11/2026, remplace l'ancienne pale
 
 ## Nom de domaine (préparé le 18 novembre 2026)
 
-Interrupteur `DOMAINE` en haut de `build.py` : vide = `lanfus.github.io/festiguide` ; rempli = `BASE_URL` passe sur `https://<domaine>` et `build.py` écrit `CNAME` (le supprime si on revide). Ne jamais le remplir avant que les DNS pointent vers GitHub Pages (procédure complète dans le README). `build.py` génère aussi `404.html` (avec `<base>` vers la racine, noindex) et `.nojekyll`. Les `UID` des `.ics` gardent `@lanfus.github.io` exprès : les changer créerait des doublons dans les agendas déjà importés.
+**En ligne sur `https://lefestiguide.fr` depuis le 18/11/2026** (`DOMAINE = "lefestiguide.fr"`, domaine OVH vérifié sur GitHub, HTTPS forcé, `lanfus.github.io/festiguide/*` redirige en 301). Formulaire Brevo et e-mail #7 pointent déjà vers le domaine. Interrupteur `DOMAINE` en haut de `build.py` : vide = `lanfus.github.io/festiguide` ; rempli = `BASE_URL` passe sur `https://<domaine>` et `build.py` écrit `CNAME` (le supprime si on revide). Ne jamais le remplir avant que les DNS pointent vers GitHub Pages (procédure complète dans le README). `build.py` génère aussi `404.html` (avec `<base>` vers la racine, noindex) et `.nojekyll`. Les `UID` des `.ics` gardent `@lanfus.github.io` exprès : les changer créerait des doublons dans les agendas déjà importés.
 
 ## Effet visuel du bandeau (18 novembre 2026)
 
