@@ -2,7 +2,7 @@
 
 Annuaire des grands festivals de France (et quelques voisins) : dates, lieu, prix, programmation, plan et site officiel.
 
-👉 **[Voir le site](https://lanfus.github.io/festiguide/)**
+👉 **[Voir le site](https://lefestiguide.fr/)**
 
 ## Contenu
 
@@ -82,7 +82,9 @@ Ensuite : une liste segmentée par festival (`FESTIVAL`) et par style (`STYLE`),
 
 ## Passer sur un vrai nom de domaine
 
-Tout est prêt dans le code : il suffit de remplir `DOMAINE` en haut de `src/build.py`. L'hébergement reste GitHub Pages, gratuit. Seul le domaine se paie (environ 7 à 15 € par an). Libres au 18/11/2026 : `lefestiguide.fr`, `monfestiguide.fr`, `festi-guide.fr`, `festiguide.info` (`festiguide.fr` et `.com` sont pris).
+**Fait le 18/11/2026** : `lefestiguide.fr`, acheté chez OVH (commande 263797904, renouvellement manuel, e-mail Zimbra Starter inclus), vérifié sur GitHub, `DOMAINE = "lefestiguide.fr"`. Dans la zone OVH, les enregistrements `MX` et `SPF` d'OVH sont gardés pour l'e-mail, et le `TXT _github-pages-challenge-Lanfus` doit rester. La procédure ci-dessous sert de référence ou pour refaire la même chose ailleurs.
+
+L'hébergement reste GitHub Pages, gratuit. Seul le domaine se paie (environ 7 à 15 € par an).
 
 **Ordre à respecter**, sinon le site est coupé le temps que les DNS se propagent :
 
