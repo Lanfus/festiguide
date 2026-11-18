@@ -6,6 +6,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 
 ## Pages principales
 - [Tous les festivals](https://lanfus.github.io/festiguide/index.html): liste complète, filtres par mois, région, style et budget
+- [Guide sécurité festival](https://lanfus.github.io/festiguide/guide-securite-festival.html): billets et revente, fouilles, bruit, chaleur, secours, avec sources officielles
 - [Plan du site (sitemap)](https://lanfus.github.io/festiguide/sitemap.xml): une page par festival, au format https://lanfus.github.io/festiguide/<slug>.html
 - [Conditions d'utilisation](https://lanfus.github.io/festiguide/conditions-utilisation.html)
 - [Mentions légales](https://lanfus.github.io/festiguide/mentions-legales.html)

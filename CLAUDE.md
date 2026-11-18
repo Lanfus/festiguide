@@ -68,6 +68,15 @@ Suite de la refonte : la structure faisait encore gabarit (grille de cartes iden
 - Mobile : filtres deux par ligne, liste en deux colonnes (dates + contenu).
 Ne pas remettre de grille de cartes à bouton ni de rangée de statistiques.
 
+## Mesure, alerte e-mail et guide (18 novembre 2026, 3e passe)
+
+Demandé par Florent pour prouver des compétences SEO / CRM chiffrées.
+- **Interrupteurs en haut de `build.py`** : `GOATCOUNTER`, `NEWSLETTER_ACTION`, `GUIDE_TEMOIGNAGE`. Vides = rien n'est chargé ni affiché. État au 18/11 : GoatCounter activé (`lanfus`, tableau de bord https://lanfus.goatcounter.com) ; Brevo et témoignage encore vides (Florent doit créer son compte Brevo et écrire son témoignage). Procédure d'activation dans le README.
+- **GoatCounter** (sans cookie) : script auto-hébergé `src/goatcounter.js` (ISC) copié à la racine par `build.py` ; seul le comptage part vers `<code>.goatcounter.com`. C'est l'unique exception assumée à « aucune ressource tierce » : une mesure d'audience envoie forcément ses données à un service. Événements suivis par `data-goatcounter-click` : `billetterie-<slug>`, `agenda-<slug>`, `partage-<slug>`, `newsletter-<page>`.
+- **Alerte e-mail Brevo** : `newsletter_form()`, formulaire HTML simple posté à Brevo seulement au clic (aucun script Brevo, pas de reCAPTCHA chargé), case de consentement obligatoire (15 ans et plus), double opt-in à activer côté Brevo, attributs `FESTIVAL`, `STYLE`, `SOURCE`. Affiché sur l'accueil et sur chaque fiche.
+- **Pages légales conditionnelles** : `build_legal()` adapte confidentialité, cookies et conditions d'utilisation selon les interrupteurs. Ne jamais activer un outil sans régénérer ces pages.
+- **Guide** `guide-securite-festival.html` (`build_guide()`) : billets/revente (art. 313-6-2 Code pénal), fouilles, bruit (décret 2017-1244 : 102 dB(A)/15 min, protections auditives gratuites), chaleur (recommandations canicule du ministère de la Santé, Santé publique France), secours (15, 112, Drogues Info Service 0 800 23 13 13). Sources dans `GUIDE_SOURCES`, exemples tirés de `festivals.json`. Le témoignage terrain de Florent (sécurité événementielle) est l'angle E-E-A-T : à écrire par lui, jamais inventé. Lié depuis l'en-tête, le pied de page, l'accueil et le bloc « À savoir » des fiches ; présent dans le sitemap et `llms.txt`.
+
 ## SEO déjà en place
 
 Titres ≤ 60 caractères, descriptions 70–160, canonical, Open Graph + Twitter card avec `og-image.png`, favicon SVG, JSON-LD `BreadcrumbList` sur chaque fiche et `Festival` quand `iso` est renseigné, bloc « Autres festivals à découvrir » (4 liens par fiche, calculés par `related()` selon région, mois et genre), balise de vérification Google Search Console dans `head()` (ne pas la supprimer), sitemap soumis dans Search Console le 13 novembre 2026. Les liens vers `style.css` et `script.js` portent une empreinte (`?v=…`) calculée par `build.py` : sans elle, les navigateurs gardent l'ancien CSS en cache et les visiteurs ne voient pas les changements.

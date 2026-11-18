@@ -46,7 +46,40 @@ Les prix et les programmations affichés sont ceux de la dernière édition conn
 
 ## Vie privée
 
-Le site ne dépose aucun cookie et n'utilise aucun outil de mesure d'audience. Les cartes Google Maps ne se chargent qu'après un clic explicite du visiteur, selon le principe du double clic recommandé par la CNIL : tant que personne ne clique, aucune requête n'est envoyée à Google.
+Le site ne dépose aucun cookie. Les cartes Google Maps ne se chargent qu'après un clic explicite du visiteur, selon le principe du double clic recommandé par la CNIL : tant que personne ne clique, aucune requête n'est envoyée à Google.
+
+La mesure d'audience (GoatCounter, sans cookie) et l'alerte e-mail (Brevo) sont **prêtes mais désactivées** : elles ne s'affichent et ne chargent rien tant que leurs identifiants sont vides en haut de `src/build.py`. Les pages `confidentialite.html`, `cookies.html` et `conditions-utilisation.html` s'adaptent toutes seules à ce qui est activé.
+
+## Activer la mesure d'audience (GoatCounter)
+
+1. Crée un compte gratuit sur [goatcounter.com](https://www.goatcounter.com) et choisis un code, par exemple `festiguide` (ton tableau de bord sera `https://festiguide.goatcounter.com`).
+2. Dans `src/build.py`, mets ce code : `GOATCOUNTER = "festiguide"`.
+3. Régénère et publie. Le script est hébergé sur le site (`goatcounter.js`), seul le comptage part vers GoatCounter.
+4. Pour ne pas compter tes propres visites : ouvre une fois `https://lanfus.github.io/festiguide/#toggle-goatcounter` dans chacun de tes navigateurs.
+
+Ce qui est mesuré : pages vues, provenance, appareil, pays, et les clics sur **Site officiel et billetterie** (`billetterie-<festival>`), **Ajouter à mon agenda**, **Partager** et **S'inscrire** (`newsletter-<page>`). Le taux « clics billetterie / vues de la fiche » est ton indicateur de conversion.
+
+## Activer l'alerte e-mail (Brevo)
+
+1. Crée un compte gratuit sur [brevo.com](https://www.brevo.com).
+2. **Contacts › Paramètres › Attributs** : crée trois attributs texte, `FESTIVAL`, `STYLE` et `SOURCE`.
+3. **Contacts › Formulaires** : crée un formulaire d'inscription avec le champ e-mail, les trois attributs et la case de consentement. Active la **confirmation par double opt-in**.
+4. Dans le partage du formulaire, prends le **code HTML** et copie l'adresse `action="https://….sibforms.com/serve/…"`.
+5. Dans `src/build.py`, colle-la : `NEWSLETTER_ACTION = "https://….sibforms.com/serve/…"`. Régénère et publie.
+6. Teste avec ta propre adresse depuis l'accueil et depuis une fiche, puis vérifie dans Brevo que le contact arrive avec `FESTIVAL` ou `STYLE` rempli. Si Brevo refuse l'envoi, c'est qu'un champ du site manque dans le formulaire Brevo.
+
+Ensuite : une liste segmentée par festival (`FESTIVAL`) et par style (`STYLE`), et une campagne envoyée à un segment quand des dates passent à « confirmées » dans `festivals.json`.
+
+## Tableau de bord (à tenir chaque semaine)
+
+| Indicateur | Où le lire |
+|---|---|
+| Impressions, clics, position moyenne, top requêtes | Google Search Console › Performances |
+| Visiteurs, pages vues, top fiches, provenance | GoatCounter |
+| Clics billetterie par fiche (conversion) | GoatCounter › événements `billetterie-*` |
+| Inscrits, taux de confirmation, taux d'ouverture et de clic | Brevo |
+
+Garde une capture datée chaque mois : c'est la preuve chiffrée du projet.
 
 ## Remarque
 

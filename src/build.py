@@ -25,6 +25,15 @@ UPDATED = "17 novembre 2026"
 BASE_URL = "https://lanfus.github.io/festiguide"
 EDITEUR = "Florent H."
 CONTACT = "contact.festiguide@gmail.com"
+# ---------- à remplir par Florent (vide = fonctionnalité désactivée, rien n'est chargé ni affiché) ----------
+# Mesure d'audience GoatCounter, sans cookie : le code choisi à l'inscription sur goatcounter.com
+# (ex. "festiguide" pour https://festiguide.goatcounter.com).
+GOATCOUNTER = "lanfus"
+# Newsletter Brevo : l'adresse « action » du formulaire Brevo (…sibforms.com/serve/…), voir README.
+NEWSLETTER_ACTION = ""
+# Témoignage personnel affiché en tête du guide sécurité (expérience terrain). Vide = bloc masqué.
+GUIDE_TEMOIGNAGE = ""
+
 LEGAL_PAGES = ["mentions-legales.html", "conditions-utilisation.html", "confidentialite.html", "cookies.html"]
 OUT = Path(sys.argv[2] if len(sys.argv) > 2 else ".")
 
@@ -332,7 +341,7 @@ def head(title, desc, canonical, extra=""):
 {extra}</head>
 <body>
 <a class="skip" href="#contenu">Aller au contenu</a>
-<header class="top"><div class="wrap"><a class="brand" href="index.html">Festi<span>Guide</span></a><nav><a href="index.html">Tous les festivals</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="index.html">Festi<span>Guide</span></a><nav><a href="index.html">Festivals</a><a href="guide-securite-festival.html">Guide sécurité</a></nav></div></header>
 '''
 
 
@@ -340,10 +349,42 @@ def foot():
     return f'''<footer><div class="wrap">
 <p>Informations rassemblées le {UPDATED} depuis des sources publiques, citées en bas de chaque fiche. Dates, prix et programmations changent souvent : vérifiez toujours sur le site officiel avant d'acheter un billet. {SITE} n'est affilié à aucun festival et ne vend aucun billet.</p>
 <nav class="foot-nav" aria-label="Informations légales">
-<a href="index.html">Accueil</a><a href="mentions-legales.html">Mentions légales</a><a href="conditions-utilisation.html">Conditions d'utilisation</a><a href="confidentialite.html">Confidentialité</a><a href="cookies.html">Cookies</a>
+<a href="index.html">Accueil</a><a href="guide-securite-festival.html">Guide sécurité</a><a href="mentions-legales.html">Mentions légales</a><a href="conditions-utilisation.html">Conditions d'utilisation</a><a href="confidentialite.html">Confidentialité</a><a href="cookies.html">Cookies</a>
 </nav>
 <p class="foot-copy">© 2026 {SITE} — Éditeur : {EDITEUR}</p>
 </div></footer>
+''' + (f'<script data-goatcounter="https://{GOATCOUNTER}.goatcounter.com/count" async src="goatcounter.js"></script>\n' if GOATCOUNTER else "")
+
+
+def newsletter_form(f=None, genres=()):
+    """Formulaire d'alerte Brevo, en HTML simple : aucun script tiers, rien n'est envoyé avant le clic sur « S'inscrire ».
+    Brevo envoie ensuite un e-mail de confirmation (double opt-in, à activer dans Brevo)."""
+    if not NEWSLETTER_ACTION:
+        return ""
+    if f:
+        titre = (f"Préviens-moi quand les dates de {f['name']} sont confirmées" if not f.get("iso")
+                 else f"Reçois les nouvelles de {f['name']} : line-up, billetterie, infos pratiques")
+        extra = f'<input type="hidden" name="FESTIVAL" value="{esc(f["slug"])}">'
+        ctx = f"fiche-{f['slug']}"
+    else:
+        titre = "Alerte festivals : un e-mail quand de nouvelles dates sont confirmées"
+        opts = "".join(f"<option>{esc(g)}</option>" for g in genres)
+        extra = (f'<label class="nl-l">Ton style préféré (facultatif)<select name="STYLE"><option value="">Tous les styles</option>{opts}</select></label>'
+                 if genres else "")
+        ctx = "accueil"
+    return f'''<section class="nl" aria-labelledby="nl-t-{ctx}">
+<h2 id="nl-t-{ctx}">{esc(titre)}</h2>
+<p class="small">Un e-mail seulement quand il y a du nouveau. Pas de pub, désinscription en un clic.</p>
+<form method="POST" action="{esc(NEWSLETTER_ACTION)}" data-goatcounter-click="newsletter-{esc(ctx)}">
+<label class="nl-l">Ton e-mail<input type="email" name="EMAIL" required autocomplete="email" placeholder="toi@exemple.fr"></label>
+{extra}
+<input type="text" name="email_address_check" value="" class="nl-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<input type="hidden" name="locale" value="fr">
+<input type="hidden" name="SOURCE" value="{esc(ctx)}">
+<label class="nl-ok"><input type="checkbox" name="OPT_IN" value="1" required><span>J'ai 15 ans ou plus et j'accepte de recevoir les alertes {SITE} par e-mail. Je peux me désinscrire à tout moment. Détails dans la <a href="confidentialite.html">politique de confidentialité</a>.</span></label>
+<button type="submit" class="btn">S'inscrire</button>
+</form>
+</section>
 '''
 
 
@@ -415,6 +456,9 @@ def build(fests):
 <div class="grid" id="grid">
 {cards}</div>
 <p id="empty" class="empty" hidden>Aucun festival ne correspond à ta recherche. <button type="button" id="reset" class="linkbtn">Tout afficher</button></p></section>
+<div class="wrap">{newsletter_form(None, top_g)}</div>
+<section class="wrap note guide-teaser"><h2>Avant d'y aller</h2>
+<p>Faux billets en revente, chaleur, bruit, fouilles à l'entrée : le <a href="guide-securite-festival.html">guide sécurité festival</a> rassemble les règles officielles et les bons réflexes, sources à l'appui.</p></section>
 <section class="wrap note explore"><h2>Explorer par mois, style ou lieu</h2>
 {nav_groups(defs)}</section>
 <section class="wrap note"><h2>Comment lire ces infos</h2>
@@ -471,10 +515,10 @@ def build(fests):
 {('<li><small>Fréquentation</small><b>≈ ' + fmt_n(f["visiteurs"]) + '</b></li>') if f.get("visiteurs") else ""}
 </ul>
 {('<p class="small">Fréquentation : ' + esc(f.get("visiteurs_note") or "") + '</p>') if f.get("visiteurs") else ""}
-<p class="actions">{('<a class="btn ghost" href="' + f["slug"] + '.ics" download>' + ic("cal") + 'Ajouter à mon agenda</a>') if f.get("iso") else ""}<button type="button" class="btn ghost share-btn" data-title="{esc(f["name"])}">{ic("share")}Partager</button><span class="small share-msg" aria-live="polite"></span></p>'''
+<p class="actions">{('<a class="btn ghost" href="' + f["slug"] + '.ics" download data-goatcounter-click="agenda-' + f["slug"] + '">' + ic("cal") + 'Ajouter à mon agenda</a>') if f.get("iso") else ""}<button type="button" class="btn ghost share-btn" data-title="{esc(f["name"])}" data-goatcounter-click="partage-{f["slug"]}">{ic("share")}Partager</button><span class="small share-msg" aria-live="polite"></span></p>'''
         if f.get("iso"):
             (OUT / f'{f["slug"]}.ics').write_text(ics(f), encoding="utf-8", newline="")
-        lien_off = f'<a class="btn" href="{esc(official)}" target="_blank" rel="noopener">Site officiel et billetterie ↗</a>' if official else '<p class="small">Site officiel non renseigné.</p>'
+        lien_off = f'<a class="btn" href="{esc(official)}" target="_blank" rel="noopener" data-goatcounter-click="billetterie-{f["slug"]}" data-goatcounter-title="Billetterie {esc(f["name"])}">Site officiel et billetterie ↗</a>' if official else '<p class="small">Site officiel non renseigné.</p>'
         p += f'''<main id="contenu" class="wrap fiche">
 <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(f["name"])}</span></nav>
 <h1>{esc(f["name"])}</h1>
@@ -513,8 +557,10 @@ def build(fests):
 </section>
 <div class="two">
 <section class="box"><h2>Y aller</h2><ul>{acc}</ul></section>
-<section class="box"><h2>À savoir</h2><ul>{tips}</ul></section>
+<section class="box"><h2>À savoir</h2><ul>{tips}</ul>
+<p class="small">Billets, chaleur, bruit, fouilles : lire le <a href="guide-securite-festival.html">guide sécurité festival</a>.</p></section>
 </div>
+{newsletter_form(f)}
 <section class="box"><h2>Autres festivals à découvrir</h2><ul class="rel">{voisins}</ul>
 {voir_aussi(f, defs)}</section>
 <section class="box"><h2>Sources</h2><ul class="src">{src}</ul><p class="small">Mis à jour le {UPDATED}.</p></section>
@@ -528,10 +574,12 @@ def build(fests):
         (OUT / f'{d["slug"]}.html').write_text(group_page(d, defs, fests), encoding="utf-8")
 
     build_legal(len(fests))
+    build_guide(fests)
+    shutil.copy(Path(__file__).parent / "goatcounter.js", OUT / "goatcounter.js")
 
     # ---------- sitemap + robots ----------
     urls = "".join(f"  <url><loc>{BASE_URL}/{s}</loc></url>\n"
-                   for s in ["index.html"] + [f'{d["slug"]}.html' for d in defs] + [f'{f["slug"]}.html' for f in fests] + LEGAL_PAGES)
+                   for s in ["index.html", GUIDE_SLUG] + [f'{d["slug"]}.html' for d in defs] + [f'{f["slug"]}.html' for f in fests] + LEGAL_PAGES)
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + urls + "</urlset>\n", encoding="utf-8")
@@ -544,6 +592,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 
 ## Pages principales
 - [Tous les festivals]({BASE_URL}/index.html): liste complète, filtres par mois, région, style et budget
+- [Guide sécurité festival]({BASE_URL}/{GUIDE_SLUG}): billets et revente, fouilles, bruit, chaleur, secours, avec sources officielles
 - [Plan du site (sitemap)]({BASE_URL}/sitemap.xml): une page par festival, au format {BASE_URL}/<slug>.html
 - [Conditions d'utilisation]({BASE_URL}/conditions-utilisation.html)
 - [Mentions légales]({BASE_URL}/mentions-legales.html)
@@ -564,6 +613,116 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
     return fests
 
 
+GUIDE_SLUG = "guide-securite-festival.html"
+GUIDE_SOURCES = [
+    ("Code pénal, article 313-6-2 (revente de billets) — Légifrance", "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025492294"),
+    ("Décret n° 2017-1244 du 7 août 2017 relatif aux sons amplifiés — Légifrance", "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035388481"),
+    ("Les recommandations « canicule » — ministère de la Santé", "https://sante.gouv.fr/IMG/pdf/Les_recommandations_canicule_.pdf"),
+    ("Les fortes chaleurs nous concernent tous — Santé publique France", "https://www.santepubliquefrance.fr/les-actualites/les-fortes-chaleurs-nous-concernent-tous-adoptons-les-bons-reflexes"),
+    ("Drogues Info Service — drogues.gouv.fr", "https://www.drogues.gouv.fr/drogues-info-service-informer-dialoguer-et-offrir-une-aide-personnalisee"),
+]
+
+
+def build_guide(fests):
+    """Guide pratique : uniquement des règles sourcées (liste GUIDE_SOURCES) et des réflexes de bon sens.
+    Les exemples de festivals viennent de festivals.json, rien n'est inventé."""
+    revente = [f for f in fests if any("revente" in norm(t) for t in (f.get("tips") or []) + [a for a, _ in (f.get("prices") or [])])]
+    canicule = [f for f in fests if "canicule" in norm(f.get("status_note") or "")]
+    lien = lambda f: f'<a href="{f["slug"]}.html">{esc(f["name"])}</a>'
+    ex_revente = (f'<p>Sur {SITE}, {len(revente)} fiches signalent une revente officielle : '
+                  + ", ".join(lien(f) for f in revente) + ". Pour les autres, cherche « revente » dans la FAQ du site officiel.</p>") if revente else ""
+    ex_chaleur = "".join(f'<p>Ce n\'est pas théorique : {lien(f)} — {esc(f["status_note"])}</p>' for f in canicule[:1])
+    temoin = (f'<blockquote class="temoin"><p>{esc(GUIDE_TEMOIGNAGE)}</p><footer>— {EDITEUR}, sécurité événementielle en festival</footer></blockquote>'
+              if GUIDE_TEMOIGNAGE else "")
+    src = "".join(f'<li><a href="{esc(u)}" target="_blank" rel="noopener">{esc(t)} ↗</a></li>' for t, u in GUIDE_SOURCES)
+    url = f"{BASE_URL}/{GUIDE_SLUG}"
+    title = "Sécurité en festival : billets, bruit, chaleur | " + SITE
+    desc = "Éviter les faux billets, passer les fouilles, protéger ses oreilles, tenir sous la chaleur : les règles officielles et les bons réflexes avant un festival."
+    ld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE_URL}/index.html"},
+        {"@type": "ListItem", "position": 2, "name": "Guide sécurité festival", "item": url}]}, ensure_ascii=False) + "</script>\n"
+    ld += '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "Article", "headline": "Guide sécurité festival",
+        "description": desc, "inLanguage": "fr-FR", "author": {"@type": "Person", "name": EDITEUR}, "publisher": {"@type": "Organization", "name": SITE},
+        "mainEntityOfPage": url}, ensure_ascii=False) + "</script>\n"
+    p = head(title, desc, url, ld)
+    p += f'''<main id="contenu" class="wrap fiche guide">
+<nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>Guide sécurité festival</span></nav>
+<h1>Guide sécurité festival</h1>
+<p class="lead">Acheter un billet sans se faire avoir, passer l'entrée sans perdre une heure, tenir plusieurs jours au soleil et devant les enceintes. Chaque règle citée renvoie à sa source officielle, en bas de page.</p>
+{temoin}
+<nav class="toc" aria-label="Sommaire"><ol>
+<li><a href="#billets">Billets</a></li><li><a href="#entree">Entrée et fouilles</a></li><li><a href="#bruit">Bruit</a></li>
+<li><a href="#chaleur">Chaleur</a></li><li><a href="#secours">Malaise, alcool, drogues</a></li><li><a href="#sac">Le sac</a></li>
+</ol></nav>
+
+<section class="box" id="billets"><h2>1. Billets : seulement l'officiel</h2>
+<p>Achète sur la billetterie officielle du festival ou sur sa plateforme de revente officielle. Chaque fiche {SITE} renvoie vers le site officiel, jamais vers un revendeur.</p>
+<p><strong>Ce que dit la loi :</strong> en France, revendre des billets de spectacle de manière habituelle sans l'autorisation de l'organisateur est puni de 15 000 € d'amende (article 313-6-2 du Code pénal). Un billet acheté sur un site de revente non autorisé n'a donc aucune garantie d'être valable.</p>
+<ul class="facts">
+<li><strong>Signal d'alerte :</strong> le vendeur demande un virement, un coupon ou un paiement « entre proches », sans protection acheteur.</li>
+<li><strong>Signal d'alerte :</strong> un prix bien plus bas que le tarif officiel, ou une pression pour payer tout de suite.</li>
+<li><strong>Signal d'alerte :</strong> un billet envoyé en capture d'écran. Un e-billet se copie en deux secondes : s'il a été vendu plusieurs fois, seule la première personne scannée entre.</li>
+</ul>
+{ex_revente}
+</section>
+
+<section class="box" id="entree"><h2>2. Entrée et fouilles</h2>
+<p>Palpation et fouille des sacs sont la règle à l'entrée des grands festivals. Aux heures d'ouverture et avant les têtes d'affiche, la file peut être longue : arrive tôt.</p>
+<ul class="facts">
+<li>La liste des objets interdits change d'un festival à l'autre (contenants, gourdes, chaises, parapluies, batteries…) : lis la FAQ du site officiel avant de faire ton sac. Ce qui est refusé à l'entrée ne t'est pas toujours rendu.</li>
+<li>Un petit sac se contrôle plus vite qu'un gros.</li>
+<li>Garde ton billet et ta pièce d'identité à portée de main : certains festivals vérifient l'identité (billets nominatifs, âge).</li>
+</ul>
+</section>
+
+<section class="box" id="bruit"><h2>3. Bruit : protège tes oreilles</h2>
+<p>En France, le décret du 7 août 2017 limite le son à 102 décibels (dB(A)) en moyenne sur 15 minutes partout où le public a accès, et oblige l'organisateur à <strong>mettre gratuitement des protections auditives</strong> à la disposition du public. Demande-les à l'accueil ou aux stands d'information.</p>
+<ul class="facts">
+<li>Ne reste pas collé aux enceintes et fais des pauses au calme.</li>
+<li>Des sifflements dans les oreilles qui durent encore le lendemain sont un signal à prendre au sérieux : parles-en à un médecin.</li>
+</ul>
+</section>
+
+<section class="box" id="chaleur"><h2>4. Chaleur : boire avant d'avoir soif</h2>
+<p>Le ministère de la Santé recommande, en cas de fortes chaleurs, de <strong>boire régulièrement sans attendre d'avoir soif</strong>, d'éviter l'alcool, qui favorise la déshydratation, et de se protéger la tête du soleil.</p>
+{ex_chaleur}
+<ul class="facts">
+<li>Repère les points d'eau et les zones d'ombre en arrivant.</li>
+<li>Casquette, crème solaire, vêtements clairs et amples.</li>
+<li>Mange vraiment : un repas solide aide l'organisme à tenir.</li>
+</ul>
+</section>
+
+<section class="box" id="secours"><h2>5. Malaise, alcool, drogues</h2>
+<ul class="facts">
+<li>Repère les postes de secours sur le plan du festival dès ton arrivée.</li>
+<li>Un ami ne va pas bien ? Ne le laisse pas seul : préviens les secouristes ou l'équipe de sécurité la plus proche.</li>
+<li>Urgence : <strong>15</strong> (SAMU) ou <strong>112</strong> (numéro d'urgence européen, aussi en Belgique).</li>
+<li>Questions sur l'alcool ou les drogues : <strong>Drogues Info Service, 0 800 23 13 13</strong>, gratuit et anonyme, 7 jours sur 7 de 8 h à 2 h.</li>
+<li>Ne laisse pas ton verre sans surveillance.</li>
+</ul>
+</section>
+
+<section class="box" id="sac"><h2>6. Le sac du festivalier</h2>
+<ul class="facts">
+<li>Billet et pièce d'identité</li>
+<li>Bouchons d'oreilles (ou ceux distribués sur place)</li>
+<li>Casquette, crème solaire, coupe-vent</li>
+<li>Téléphone chargé, et une batterie si le festival l'autorise</li>
+<li>Un moyen de paiement accepté sur place : beaucoup de festivals fonctionnent sans espèces, vérifie sur le site officiel</li>
+<li>Un point de rendez-vous fixé à l'avance avec tes amis : le réseau mobile sature souvent</li>
+</ul>
+</section>
+
+<section class="box"><h2>Sources</h2><ul class="src">{src}</ul>
+<p class="small">Les règles citées sont celles du droit français. En Belgique, les règles sur le son et la revente sont différentes : vérifie sur le site officiel du festival. Ce guide est informatif et ne remplace pas les consignes des organisateurs ni un avis médical. Mis à jour le {UPDATED}.</p></section>
+<p><a href="index.html">Trouver un festival</a></p>
+</main>
+{foot()}</body></html>
+'''
+    (OUT / GUIDE_SLUG).write_text(p, encoding="utf-8")
+
+
 def legal_page(slug, title, desc, body):
     p = head(f"{title} | {SITE}", desc, f"{BASE_URL}/{slug}")
     p += f'''<main id="contenu" class="wrap legal">
@@ -578,6 +737,49 @@ def legal_page(slug, title, desc, body):
 
 
 def build_legal(nb):
+    # Textes qui dépendent des outils activés en haut du fichier (GOATCOUNTER, NEWSLETTER_ACTION).
+    gc_privacy = "https://www.goatcounter.com/help/privacy"
+    resume_collecte = (f'<li>{ic("check")}<strong>Aucun compte, aucun formulaire</strong> sur ce site</li>' if not NEWSLETTER_ACTION else
+                       f'<li>{ic("check")}<strong>Aucun compte.</strong> Un seul formulaire : l\'alerte e-mail, facultative, envoyée à Brevo seulement si vous cliquez sur « S\'inscrire »</li>')
+    collecte = ("<p><strong>Rien.</strong> {SITE} est un site statique : il n'y a ni base de données, ni formulaire, ni espace membre"
+                + ("" if GOATCOUNTER else ", ni outil de mesure d'audience")
+                + ". Vous pouvez consulter l'intégralité du site sans transmettre la moindre donnée personnelle à l'éditeur.</p>").replace("{SITE}", SITE)
+    if NEWSLETTER_ACTION:
+        collecte = (f"<p>{SITE} est un site statique, sans base de données ni espace membre. Vous pouvez consulter tout le site sans transmettre de donnée personnelle. "
+                    "La seule exception est l'alerte e-mail, si vous choisissez de vous y inscrire (voir ci-dessous).</p>")
+    audience = ('''<p>Le site est déclaré auprès de la <strong>Google Search Console</strong>, un outil qui indique à l'éditeur quelles requêtes de recherche mènent au site. Cet outil ne dépose aucun cookie sur votre appareil, n'ajoute aucun script à la page et ne fournit que des statistiques agrégées et anonymes. Il ne permet pas d'identifier un visiteur.</p>''')
+    if GOATCOUNTER:
+        audience += f'''<p>Le site utilise aussi <strong>GoatCounter</strong>, un outil de statistiques de fréquentation <strong>sans cookie</strong>. À chaque page vue, il reçoit la page consultée, la page de provenance, le type de navigateur et d'écran, et le pays déduit de l'adresse IP. D'après sa documentation, GoatCounter ne conserve pas l'adresse IP et n'utilise aucun identifiant persistant permettant de suivre un visiteur d'un site à l'autre. Il compte aussi les clics sur quelques boutons (billetterie, agenda, partage, inscription) pour savoir quelles fiches sont utiles.</p>
+<ul class="facts">
+<li><strong>Finalité :</strong> statistiques agrégées de fréquentation, pour améliorer le site</li>
+<li><strong>Base légale :</strong> intérêt légitime de l'éditeur (article 6.1.f du RGPD) ; outil sans cookie, configuré pour se limiter à la mesure d'audience</li>
+<li><strong>Destinataire :</strong> GoatCounter, en sous-traitant ; le script est hébergé sur {SITE} lui-même</li>
+</ul>
+<p class="small">Détails : <a href="{gc_privacy}" target="_blank" rel="noopener">politique de confidentialité de GoatCounter ↗</a>.</p>'''
+    else:
+        audience += "<p>Aucun outil de mesure d'audience de type Google Analytics n'est installé. Si cela devait changer, cette page serait mise à jour avant la mise en ligne.</p>"
+    newsletter = ""
+    if NEWSLETTER_ACTION:
+        newsletter = f'''<section class="box"><h2>Alerte e-mail (newsletter)</h2>
+<p>Si vous vous inscrivez à l'alerte e-mail, votre adresse électronique est envoyée à <strong>Brevo</strong>, le service d'envoi utilisé par l'éditeur, avec, si vous les indiquez, le festival ou le style qui vous intéresse et la page d'inscription. Brevo vous envoie d'abord un e-mail de confirmation : sans clic de votre part, vous ne recevez rien.</p>
+<ul class="facts">
+<li><strong>Finalité :</strong> vous prévenir quand des dates, une programmation ou une billetterie sont annoncées</li>
+<li><strong>Base légale :</strong> votre consentement (article 6.1.a du RGPD), donné par la case à cocher et confirmé par e-mail</li>
+<li><strong>Destinataire :</strong> l'éditeur et Brevo (Sendinblue SAS), en sous-traitant</li>
+<li><strong>Conservation :</strong> jusqu'à votre désinscription ; une adresse sans aucune ouverture pendant 3 ans est supprimée</li>
+<li><strong>Retrait :</strong> lien de désinscription en bas de chaque e-mail, ou demande à <a href="mailto:{CONTACT}">{CONTACT}</a></li>
+</ul>
+<p class="small">Aucune adresse n'est vendue, louée ni utilisée pour de la publicité.</p>
+</section>
+'''
+    cu_donnees = ("Le site ne dépose aucun cookie et ne collecte aucune donnée personnelle par lui-même."
+                  if not (NEWSLETTER_ACTION or GOATCOUNTER) else
+                  "Le site ne dépose aucun cookie. " + ("Il mesure sa fréquentation sans cookie avec GoatCounter. " if GOATCOUNTER else "")
+                  + ("La seule donnée personnelle collectée est l'adresse e-mail des personnes qui s'inscrivent à l'alerte. " if NEWSLETTER_ACTION else ""))
+    cookies_gc = (f'''<section class="box"><h2>Statistiques sans cookie</h2>
+<p>Le site mesure sa fréquentation avec GoatCounter, qui fonctionne <strong>sans cookie</strong>. Le script lit seulement un réglage local réservé à l'éditeur (pour exclure ses propres visites) et n'écrit rien sur votre appareil. Détails dans la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+</section>
+''' if GOATCOUNTER else "")
     # ---------- mentions légales ----------
     legal_page("mentions-legales.html", "Mentions légales",
                f"Mentions légales de {SITE} : éditeur, hébergeur, contact, propriété intellectuelle et droit applicable.", f'''
@@ -674,7 +876,7 @@ def build_legal(nb):
 </section>
 
 <section class="box"><h2>Données personnelles et cookies</h2>
-<p>Le site ne dépose aucun cookie et ne collecte aucune donnée personnelle par lui-même. Détails dans la <a href="confidentialite.html">politique de confidentialité</a> et la <a href="cookies.html">politique de cookies</a>.</p>
+<p>{cu_donnees} Détails dans la <a href="confidentialite.html">politique de confidentialité</a> et la <a href="cookies.html">politique de cookies</a>.</p>
 </section>
 
 <section class="box"><h2>Droit applicable</h2>
@@ -687,11 +889,11 @@ def build_legal(nb):
                f"Comment {SITE} traite vos données personnelles : aucune collecte directe, pas de compte, pas de publicité, pas de revente.", f'''
 <section class="box"><h2>En résumé</h2>
 <ul class="facts">
-<li>{ic("check")}<strong>Aucun formulaire, aucun compte, aucune newsletter</strong> sur ce site</li>
+{resume_collecte}
 <li>{ic("check")}<strong>Aucun cookie</strong> déposé par le site lui-même</li>
 <li>{ic("check")}<strong>Aucune publicité</strong>, aucun traceur publicitaire, aucun revendeur de données</li>
 <li>{ic("check")}<strong>Aucune donnée vendue, louée ou transmise</strong> à des fins commerciales</li>
-<li>{ic("alert")}Trois situations détaillées ci-dessous : les <strong>journaux de l'hébergeur</strong>, les <strong>cartes Google Maps</strong> (qui ne se chargent qu'à votre demande) et le <strong>courriel</strong> que vous choisiriez d'envoyer</li>
+<li>{ic("alert")}{"Trois autres situations" if NEWSLETTER_ACTION else "Trois situations"} détaillées ci-dessous : les <strong>journaux de l'hébergeur</strong>, les <strong>cartes Google Maps</strong> (qui ne se chargent qu'à votre demande) et le <strong>courriel</strong> que vous choisiriez d'envoyer</li>
 </ul>
 </section>
 
@@ -700,8 +902,9 @@ def build_legal(nb):
 </section>
 
 <section class="box"><h2>Ce que le site collecte lui-même</h2>
-<p><strong>Rien.</strong> {SITE} est un site statique : il n'y a ni base de données, ni formulaire, ni espace membre, ni outil de mesure d'audience. Vous pouvez consulter l'intégralité du site sans transmettre la moindre donnée personnelle à l'éditeur.</p>
+{collecte}
 </section>
+{newsletter}
 
 <section class="box"><h2>Journaux de connexion de l'hébergeur</h2>
 <p>Le site est hébergé par <strong>GitHub Pages</strong> (GitHub, Inc., États-Unis). Comme tout serveur web, GitHub enregistre techniquement les requêtes qu'il reçoit : adresse IP, date et heure, page demandée, navigateur utilisé.</p>
@@ -726,8 +929,7 @@ def build_legal(nb):
 </section>
 
 <section class="box"><h2>Mesure d'audience</h2>
-<p>Le site est déclaré auprès de la <strong>Google Search Console</strong>, un outil qui indique à l'éditeur quelles requêtes de recherche mènent au site. Cet outil ne dépose aucun cookie sur votre appareil, n'ajoute aucun script à la page et ne fournit que des statistiques agrégées et anonymes. Il ne permet pas d'identifier un visiteur.</p>
-<p>Aucun outil de mesure d'audience de type Google Analytics n'est installé. Si cela devait changer, cette page serait mise à jour et un bandeau de consentement serait mis en place <strong>avant</strong> tout dépôt de cookie.</p>
+{audience}
 </section>
 
 <section class="box"><h2>Si vous écrivez à l'éditeur</h2>
@@ -741,17 +943,17 @@ def build_legal(nb):
 </section>
 
 <section class="box"><h2>Durée de conservation</h2>
-<p>L'éditeur ne conserve aucune donnée personnelle. Les journaux de l'hébergeur sont conservés selon la politique de GitHub. Un courriel que vous envoyez à l'adresse de contact est conservé le temps nécessaire au traitement de votre demande, puis supprimé.</p>
+<p>{"Les adresses inscrites à l'alerte e-mail sont conservées jusqu'à la désinscription (voir ci-dessus). En dehors de cela, l'éditeur" if NEWSLETTER_ACTION else "L'éditeur"} ne conserve aucune donnée personnelle. Les journaux de l'hébergeur sont conservés selon la politique de GitHub. Un courriel que vous envoyez à l'adresse de contact est conservé le temps nécessaire au traitement de votre demande, puis supprimé.</p>
 </section>
 
 <section class="box"><h2>Vos droits</h2>
 <p>Le RGPD vous donne un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité sur vos données personnelles.</p>
-<p>Pour les exercer, écrivez à <a href="mailto:{CONTACT}">{CONTACT}</a>. L'éditeur ne détenant aucune donnée vous concernant, une demande portant sur les journaux de connexion doit être adressée à GitHub, et une demande portant sur les cartes à Google.</p>
+<p>Pour les exercer, écrivez à <a href="mailto:{CONTACT}">{CONTACT}</a>. {"Pour l'alerte e-mail, l'éditeur traite votre demande avec Brevo. " if NEWSLETTER_ACTION else "L'éditeur ne détenant aucune donnée vous concernant, "}une demande portant sur les journaux de connexion doit être adressée à GitHub, et une demande portant sur les cartes à Google.</p>
 <p>Vous pouvez aussi définir des directives relatives au sort de vos données après votre décès (loi Informatique et Libertés, article 85). Si vous estimez que vos droits ne sont pas respectés, vous pouvez saisir la <strong>CNIL</strong> : <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener">cnil.fr/fr/plaintes ↗</a>, ou 3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07.</p>
 </section>
 
 <section class="box"><h2>Mineurs</h2>
-<p>Le site est accessible à tous et ne collecte aucune donnée, y compris auprès des mineurs. Les festivals cités appliquent leurs propres règles d'âge, indiquées sur leurs sites officiels.</p>
+<p>Le site est accessible à tous{". L'alerte e-mail est réservée aux personnes de 15 ans et plus, âge à partir duquel un mineur peut consentir seul en France (loi Informatique et Libertés, article 45)" if NEWSLETTER_ACTION else " et ne collecte aucune donnée, y compris auprès des mineurs"}. Les festivals cités appliquent leurs propres règles d'âge, indiquées sur leurs sites officiels.</p>
 </section>
 ''')
 
@@ -774,7 +976,7 @@ def build_legal(nb):
 <p class="small">Durée de vie et finalité des cookies Google : <a href="https://policies.google.com/technologies/cookies?hl=fr" target="_blank" rel="noopener">règles de Google relatives aux cookies ↗</a>.</p>
 </section>
 
-<section class="box"><h2>Liens vers des sites tiers</h2>
+{cookies_gc}<section class="box"><h2>Liens vers des sites tiers</h2>
 <p>Les liens vers les sites officiels des festivals, leurs billetteries et les sources citées mènent vers des sites qui ont leurs propres pratiques en matière de cookies. Dès que vous quittez {SITE}, c'est la politique du site visité qui s'applique.</p>
 </section>
 
@@ -790,7 +992,7 @@ def build_legal(nb):
 </section>
 
 <section class="box"><h2>Si cela change</h2>
-<p>Si un outil de mesure d'audience ou une inscription à une newsletter était ajouté au site, cette page serait mise à jour et un véritable bandeau de consentement serait mis en place <strong>avant</strong> tout dépôt de cookie, avec un refus aussi simple que l'acceptation.</p>
+<p>Si un outil déposant des cookies (publicité, mesure d'audience avec cookies…) était ajouté au site, cette page serait mise à jour et un véritable bandeau de consentement serait mis en place <strong>avant</strong> tout dépôt de cookie, avec un refus aussi simple que l'acceptation.</p>
 </section>
 ''')
 
@@ -812,7 +1014,29 @@ a{color:var(--accent)}
 .top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
 .brand{font-family:var(--display);font-weight:800;font-size:1.75rem;line-height:1;text-transform:uppercase;letter-spacing:.01em;color:var(--brand);text-decoration:none}
 .brand span{color:var(--ink)}
+.top nav{display:flex;gap:20px}
 .top nav a{color:var(--muted);text-decoration:none;font-size:.95rem}
+/* alerte e-mail */
+.nl{margin:48px 0 0;padding:20px;border:2px solid var(--ink);border-radius:6px;background:#fff}
+.nl h2{margin:0 0 4px;font-family:var(--display);font-weight:800;font-size:1.6rem;line-height:1.05;text-transform:uppercase;letter-spacing:.01em}
+.nl form{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-top:12px}
+.nl-l{display:flex;flex-direction:column;gap:4px;font-size:.88rem;color:var(--muted);flex:1 1 220px}
+.nl-l input,.nl-l select{height:46px;padding:0 12px;border:1px solid var(--line-d);border-radius:6px;font:inherit;font-size:1rem;color:var(--ink);background:#fff}
+.nl-ok{flex:1 1 100%;font-size:.86rem;color:var(--muted);display:flex;gap:8px;align-items:flex-start}
+.nl-ok input{margin-top:3px;width:18px;height:18px;flex:none}
+.nl .btn{border:0;cursor:pointer;font:inherit;font-weight:600;height:46px}
+.nl-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+/* guide */
+.toc ol{display:flex;flex-wrap:wrap;gap:4px 22px;margin:24px 0 0;padding:12px 0;list-style:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line);counter-reset:t}
+.toc li{counter-increment:t}
+.toc li::before{content:counter(t) ". ";color:var(--accent);font-family:var(--display);font-weight:800}
+.toc a{color:var(--ink);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.guide .box p,.guide .facts{max-width:760px}
+.guide .box{scroll-margin-top:16px}
+.temoin{margin:24px 0 0;padding:4px 0 4px 20px;border-left:4px solid var(--accent);font-size:1.1rem;max-width:760px}
+.temoin p{margin:0 0 8px}
+.temoin footer{font-size:.9rem;color:var(--muted)}
 .top nav a:hover{color:var(--accent)}
 /* bandeau */
 .hero{position:relative;overflow:hidden;color:#fff;padding:56px 0 160px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 170px no-repeat,linear-gradient(120deg,#a8274a 0%,#b82d4f 62%,#d9503f 88%,#f58a4e 100%)}
