@@ -638,6 +638,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
     (OUT / "favicon.svg").write_text(FAVICON, encoding="utf-8")
     (OUT / "fond-hero.svg").write_text(scene_svg(), encoding="utf-8")
     (OUT / "motif.svg").write_text(motif_svg(), encoding="utf-8")
+    (OUT / "trame.svg").write_text(trame_svg(), encoding="utf-8")
     og = Path(__file__).parent / "og-image.png"  # image de partage : source dans og-image.html
     if og.exists() and og.resolve() != (OUT / "og-image.png").resolve():
         shutil.copy(og, OUT / "og-image.png")
@@ -1106,6 +1107,7 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.2em;t
 /* bandeau */
 .hero{position:relative;overflow:hidden;color:#fff;padding:56px 0 160px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 170px no-repeat,linear-gradient(120deg,#7b1e3a 0%,#6a1c3e 45%,#4a1d42 100%)}
 .hero .wrap{position:relative;z-index:1}
+.hero::before{content:"";position:absolute;right:-140px;top:-170px;width:620px;height:620px;background:url(trame.svg?v=@@FOND@@) center/contain no-repeat;opacity:.32;pointer-events:none}
 .hero h1{text-wrap:balance;margin:0 0 18px;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(2.7rem,7.2vw,5.2rem);line-height:.9;letter-spacing:.005em;max-width:860px}
 .hero h1::after{content:"";display:block;width:88px;height:6px;margin-top:18px;background:var(--pop)}
 .hero p{margin:0;color:#fff;font-size:1.08rem;max-width:580px;text-wrap:pretty}
@@ -1262,6 +1264,7 @@ a:hover{text-decoration-thickness:2px}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card,.btn,.mt,.gc,a{transition:none}.hero .wrap>*{animation:none}}
 @media (max-width:640px){
 .hero{padding:40px 0 108px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 110px no-repeat,linear-gradient(160deg,#7b1e3a 0%,#5f1c40 60%,#4a1d42 100%)}
+.hero::before{width:340px;height:340px;right:-130px;top:-120px;opacity:.28}
 .filters input{flex:1 1 100%;min-width:0}
 .filters select{flex:1 1 calc(50% - 4px);min-width:0;height:44px;padding:0 10px;font-size:16px}
 .card{grid-template-columns:76px minmax(0,1fr);gap:4px 16px;align-items:start;padding:16px 0}
@@ -1462,6 +1465,30 @@ def scene_svg():
     return "".join(out)
 
 
+def trame_svg():
+    """Soleil en trame de points (halftone) du bandeau, comme une affiche sérigraphiée.
+    Grille décalée ; le rayon de chaque point suit la lumière, forte au centre, nulle au bord."""
+    import math
+    S, cell = 640, 14
+    c = S / 2
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {S} {S}"><g fill="#f3a0b8">']
+    for j in range(S // cell + 1):
+        y = j * cell
+        off = cell / 2 if j % 2 else 0
+        for i in range(S // cell + 1):
+            x = i * cell + off
+            d = math.hypot(x - c, y - c) / c
+            if d >= 1:
+                continue
+            light = (1 - d) ** 0.85
+            rad = light * cell * 0.5
+            if rad < 0.7:
+                continue
+            out.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{rad:.1f}"/>')
+    out.append("</g></svg>")
+    return "".join(out)
+
+
 def motif_svg():
     """Motif discret (étoiles, ronds, notes) répété en fond de page."""
     star = lambda cx, cy, s, c, o: (f'<path d="M{cx} {cy - s}l{s * .28:.1f} {s * .72:.1f} {s * .72:.1f} {s * .28:.1f}-{s * .72:.1f} {s * .28:.1f}-{s * .28:.1f} {s * .72:.1f}-{s * .28:.1f}-{s * .72:.1f}-{s * .72:.1f}-{s * .28:.1f} {s * .72:.1f}-{s * .28:.1f}z" fill="{c}" opacity="{o}"/>')
@@ -1474,7 +1501,7 @@ def motif_svg():
 
 
 # Empreintes ajoutées aux liens : le navigateur recharge le fichier dès qu'il change.
-FOND_V = hashlib.md5((scene_svg() + motif_svg()).encode("utf-8")).hexdigest()[:8]
+FOND_V = hashlib.md5((scene_svg() + motif_svg() + trame_svg()).encode("utf-8")).hexdigest()[:8]
 CSS = CSS.replace("@@FOND@@", FOND_V)
 CSS_V = hashlib.md5(CSS.strip().encode("utf-8")).hexdigest()[:8]
 JS_V = hashlib.md5(JS.strip().encode("utf-8")).hexdigest()[:8]
