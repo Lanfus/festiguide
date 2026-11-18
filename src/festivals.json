@@ -6062,22 +6062,64 @@
   "iso": null,
   "status": "Dates à confirmer",
   "status_note": "Dates 2027 pas encore confirmées par l'organisateur : la 31e édition s'est tenue du 13 au 19 juillet 2026.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 11.0,
+  "price_label": "dès 11 € le concert (2026)",
+  "prices": [
+   [
+    "Soirées Suds au Théâtre antique (2026)",
+    "40 € plein, 30 € réduit en prévente ; 42 € sur place"
+   ],
+   [
+    "Moments précieux (2026)",
+    "25 € plein, 18 € réduit en prévente"
+   ],
+   [
+    "Nuits Suds et Bal précieux (2026)",
+    "16 € plein, 11 € réduit en prévente"
+   ],
+   [
+    "Pass soirée (2026)",
+    "45 à 65 € selon la combinaison"
+   ],
+   [
+    "Pass Théâtre antique 14 – 17 juillet (2026)",
+    "100 € ; 120 € avec les Nuits Suds"
+   ],
+   [
+    "Enfants de moins de 12 ans",
+    "gratuit, billet à réserver en ligne"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 hors frais de location, publiés sur le site officiel ; plusieurs pass étaient complets. Tarifs 2027 non publiés. Tarif réduit : étudiants, 12 – 18 ans, RSA, ASS, AAH, demandeurs d'emploi.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de musiques du monde à Arles. Une édition d'hiver existe aussi, de novembre 2026 à mars 2027.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Voiture : A54 sortie Arles centre (depuis Paris par A7/A9, depuis l'Italie par A7, depuis l'Espagne par A9) ; 3 500 places payantes en centre-ville",
+   "Covoiturage proposé sur la billetterie du festival",
+   "Vélos-taxis électriques Taco & Co entre les scènes (06 50 29 60 00) et location de vélos"
+  ],
+  "tips": [
+   "Billets aussi à la librairie Actes Sud et à l'office de tourisme d'Arles, ou sur place 30 minutes à 1 h avant les concerts selon les places",
+   "Le carré réservé au Théâtre antique garde la place assise jusqu'à l'entracte",
+   "Pass Culture, e-PASS JEUNE et carte CJeune de Provence acceptés",
+   "Accompagnateur gratuit pour les personnes en situation de handicap, sur demande à billetterie@suds-arles.com"
+  ],
   "official": "https://www.suds-arles.com/",
   "sources": [
    [
     "Site officiel",
     "https://www.suds-arles.com/"
+   ],
+   [
+    "Les Suds, à Arles : tarifs (édition 2026)",
+    "https://www.suds-arles.com/festival/accessibilite-tarifs/"
+   ],
+   [
+    "Les Suds, à Arles : infos pratiques",
+    "https://www.suds-arles.com/festival/infos-pratiques"
    ]
   ],
   "visiteurs": null,
@@ -6085,7 +6127,21 @@
   "slug": "les-suds-a-arles",
   "name": "Les Suds, à Arles",
   "city": "Arles",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Tarifs et points de vente",
+    "https://www.suds-arles.com/festival/accessibilite-tarifs/"
+   ],
+   [
+    "Infos pratiques et séjour à Arles",
+    "https://www.suds-arles.com/festival/infos-pratiques"
+   ],
+   [
+    "Accessibilité",
+    "https://www.suds-arles.com/festival-2/accessibilite-2/"
+   ]
+  ]
  },
  {
   "short": "",
@@ -6682,22 +6738,48 @@
   "iso": null,
   "status": "Dates à confirmer",
   "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 20 au 27 juillet.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 37.0,
+  "price_label": "dès 37 € la soirée (2026)",
+  "prices": [
+   [
+    "Soirée (2026)",
+    "37 à 45 € selon le soir ; soirée d'ouverture 40 € ou 70 € en carré or"
+   ],
+   [
+    "10 – 15 ans",
+    "25 €"
+   ],
+   [
+    "Abonnements (2026)",
+    "4 soirées 135 €, 5 soirées 150 €, 6 soirées 165 €, 7 soirées 180 €, 8 soirées 195 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 (20 – 27 juillet) publiés sur le site officiel ; ceux de 2027 ne sont pas encore connus.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de guitare au pied du Cap Corse, à Patrimonio.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Patrimonio, entre Bastia (16 km, 20 minutes) et Saint-Florent (6 km) ; parkings aménagés sur la route de Saint-Florent",
+   "Avion : aéroport de Bastia-Poretta à 20 minutes environ, vols depuis Paris-Orly, Marseille, Nice et Lyon",
+   "Bateau : Corsica Ferries depuis Toulon et Nice (réduction partenaire en 2026)"
+  ],
+  "tips": [
+   "Ouverture des portes à 20 h",
+   "Réserver tôt la voiture de location et la traversée, surtout avec un véhicule",
+   "Points de vente physiques à Patrimonio, Bastia, Ajaccio, L'Île-Rousse et Saint-Florent",
+   "Campings proches : U Sole Marinu (04 95 37 12 20) et d'Olzo (04 95 37 03 34)"
+  ],
   "official": "https://www.festival-guitare-patrimonio.com/",
   "sources": [
    [
     "Site officiel",
     "https://www.festival-guitare-patrimonio.com/"
+   ],
+   [
+    "Nuits de la Guitare de Patrimonio : infos pratiques (édition 2026)",
+    "https://www.festival-guitare-patrimonio.com/informations.php"
    ]
   ],
   "visiteurs": null,
@@ -6705,7 +6787,13 @@
   "slug": "nuits-de-la-guitare-de-patrimonio",
   "name": "Nuits de la Guitare de Patrimonio",
   "city": "Patrimonio",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Infos pratiques, accès et hébergement",
+    "https://www.festival-guitare-patrimonio.com/informations.php"
+   ]
+  ]
  },
  {
   "short": "MaMA Festival",
@@ -6938,14 +7026,25 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non publiés. Billets vendus sur le site officiel (0,85 € de frais par billet), sans frais à l'Espace Culturel E.Leclerc de Vence, et aux guichets du festival les soirs de concert (19 h 30 – 22 h 30).",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de musiques du monde, chaque juillet à Vence. 30e édition en 2027.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Concerts en plein air place du Grand Jardin, au centre de Vence",
+   "Voiture : A8 sortie 47 (Villeneuve-Loubet / Cagnes-sur-Mer) depuis Marseille ou Aix, sortie 48 depuis Nice et l'Italie",
+   "Bus ligne 9 Nice – Vence, dernier départ à 0 h 45 en 2026 ; gare la plus proche : Cagnes-sur-Mer, puis bus ou covoiturage",
+   "Parkings Marc-Chagall, piscine, Toreille et Grand Jardin à 2 € la soirée dès 20 h ; navette depuis le parking Sainte-Anne certains soirs (2026)"
+  ],
+  "tips": [
+   "Portes ouvertes de 19 h à 0 h 30 ; paiement en espèces ou carte sur place",
+   "Pas de camping du festival (centre-ville) : hébergements sur le site de l'office de tourisme de Vence",
+   "Fontaine d'eau potable au milieu de la place ; vestiaire pour les objets interdits",
+   "Revente des billets achetés sur le site officiel via Reelax",
+   "Plateforme PMR, toilettes adaptées et dépose-minute sur demande au 04 93 58 40 17"
+  ],
   "official": "https://www.nuitsdusud.com/",
   "sources": [
    [
@@ -6955,6 +7054,10 @@
    [
     "Riviera Loisirs",
     "https://www.rivieraloisirs.com/en/events/festival-nuits-du-sud-la-parenthese/"
+   ],
+   [
+    "Nuits du Sud : FAQ (édition 2026)",
+    "https://www.nuitsdusud.com/faq/"
    ]
   ],
   "visiteurs": null,
@@ -6962,7 +7065,25 @@
   "slug": "nuits-du-sud",
   "name": "Nuits du Sud",
   "city": "Vence",
-  "country": "France"
+  "country": "France",
+  "liens": [
+   [
+    "Plan du stationnement (édition 2026)",
+    "https://www.nuitsdusud.com/storage/2026/07/PLAN-STATIONNEMENT-2.pdf"
+   ],
+   [
+    "Plan des places PMR à Vence",
+    "https://www.nuitsdusud.com/storage/2025/06/positionnement_des_places_pmr_sur_la_commune.pdf"
+   ],
+   [
+    "FAQ et infos pratiques",
+    "https://www.nuitsdusud.com/faq/"
+   ],
+   [
+    "Fiche accueil PMR (2026)",
+    "https://www.nuitsdusud.com/storage/2026/06/FICHE-PMR-ACCUEIL.pdf"
+   ]
+  ]
  },
  {
   "short": "",
