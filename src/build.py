@@ -307,9 +307,9 @@ def group_page(d, defs, fests):
 
 
 FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b0304f"/><stop offset=".55" stop-color="#e8506a"/><stop offset="1" stop-color="#f58a4e"/></linearGradient></defs>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7b1e3a"/><stop offset=".55" stop-color="#5f1c40"/><stop offset="1" stop-color="#4a1d42"/></linearGradient></defs>
 <rect width="64" height="64" rx="14" fill="url(#g)"/>
-<path d="M32 10l5.5 16.5L54 32l-16.5 5.5L32 54l-5.5-16.5L10 32l16.5-5.5z" fill="#fff"/>
+<path d="M32 10l5.5 16.5L54 32l-16.5 5.5L32 54l-5.5-16.5L10 32l16.5-5.5z" fill="#3ee6a8"/>
 </svg>
 """
 
@@ -1027,12 +1027,12 @@ def build_legal(nb):
 
 CSS = r'''
 @font-face{font-family:"Big Shoulders";src:url(fonts/big-shoulders-display.woff2) format("woff2");font-weight:100 900;font-display:swap}
-:root{--bg:#fbf8f4;--card:#fff;--ink:#2b2623;--muted:#675e57;--accent:#b0304f;--accent-d:#8f2540;--line:#e8e0d7;--line-d:#cfc3b8;--ok:#127a4a;--warn:#8a5200;--brand:#a8274a;--display:"Big Shoulders","Arial Narrow",Impact,sans-serif}
+:root{--bg:#fbf8f4;--card:#fff;--ink:#2b2623;--muted:#675e57;--accent:#7b1e3a;--accent-d:#4a1d42;--plum:#4a1d42;--pop:#3ee6a8;--pop-d:#0a6b4a;--line:#e8e0d7;--line-d:#cfc3b8;--ok:#127a4a;--warn:#8a5200;--brand:#7b1e3a;--display:"Big Shoulders","Arial Narrow",Impact,sans-serif}
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;font-variant-numeric:tabular-nums}
-.skip{position:absolute;left:-9999px;top:8px;z-index:100;background:#fff;color:#7a1630;padding:8px 16px;border-radius:6px;font-weight:600}
-.skip:focus{left:8px;outline:3px solid #7a1630}
-a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #7a1630;outline-offset:2px}
+.skip{position:absolute;left:-9999px;top:8px;z-index:100;background:#fff;color:var(--accent);padding:8px 16px;border-radius:6px;font-weight:600}
+.skip:focus{left:8px;outline:3px solid var(--pop-d)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--pop-d);outline-offset:2px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
 a{color:var(--accent)}
 .i{width:16px;height:16px;flex:none;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;vertical-align:-3px;margin-right:8px;color:var(--muted)}
@@ -1041,11 +1041,11 @@ a{color:var(--accent)}
 .top{background:var(--bg);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
 .brand{font-family:var(--display);font-weight:800;font-size:1.75rem;line-height:1;text-transform:uppercase;letter-spacing:.01em;color:var(--brand);text-decoration:none}
-.brand span{color:var(--ink)}
+.brand span{color:var(--plum)}
 .top nav{display:flex;gap:20px}
 .top nav a{color:var(--muted);text-decoration:none;font-size:.95rem}
 /* alerte e-mail */
-.nl{margin:48px 0 0;padding:20px;border:2px solid var(--ink);border-radius:6px;background:#fff}
+.nl{margin:48px 0 0;padding:20px;border:2px solid var(--plum);border-radius:6px;background:#fff;box-shadow:6px 6px 0 var(--pop)}
 .nl h2{margin:0 0 4px;font-family:var(--display);font-weight:800;font-size:1.6rem;line-height:1.05;text-transform:uppercase;letter-spacing:.01em}
 .nl form{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-top:12px}
 .nl-l{display:flex;flex-direction:column;gap:4px;font-size:.88rem;color:var(--muted);flex:1 1 220px}
@@ -1057,7 +1057,7 @@ a{color:var(--accent)}
 /* guide */
 .toc ol{display:flex;flex-wrap:wrap;gap:4px 22px;margin:24px 0 0;padding:12px 0;list-style:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line);counter-reset:t}
 .toc li{counter-increment:t}
-.toc li::before{content:counter(t) ". ";color:var(--accent);font-family:var(--display);font-weight:800}
+.toc li::before{content:counter(t) ". ";color:var(--plum);font-family:var(--display);font-weight:800}
 .toc a{color:var(--ink);text-decoration:none}
 .toc a:hover{color:var(--accent)}
 .guide .box p,.guide .facts{max-width:760px}
@@ -1067,9 +1067,10 @@ a{color:var(--accent)}
 .temoin footer{font-size:.9rem;color:var(--muted)}
 .top nav a:hover{color:var(--accent)}
 /* bandeau */
-.hero{position:relative;overflow:hidden;color:#fff;padding:56px 0 160px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 170px no-repeat,linear-gradient(120deg,#a8274a 0%,#b82d4f 62%,#d9503f 88%,#f58a4e 100%)}
+.hero{position:relative;overflow:hidden;color:#fff;padding:56px 0 160px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 170px no-repeat,linear-gradient(120deg,#7b1e3a 0%,#6a1c3e 45%,#4a1d42 100%)}
 .hero .wrap{position:relative;z-index:1}
 .hero h1{margin:0 0 18px;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(2.7rem,7.2vw,5.2rem);line-height:.9;letter-spacing:.005em;max-width:860px}
+.hero h1::after{content:"";display:block;width:88px;height:6px;margin-top:18px;background:var(--pop)}
 .hero p{margin:0;color:#fff;font-size:1.08rem;max-width:580px}
 /* filtres */
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:-26px;position:relative}
@@ -1082,15 +1083,16 @@ a{color:var(--accent)}
 .mt b{order:1;font-family:var(--display);font-size:1.6rem;font-weight:700;line-height:1;color:var(--ink)}
 .mt span{order:2;font-size:.78rem;color:var(--muted);text-transform:capitalize;margin-top:2px}
 .mt:hover:not(:disabled){background:#f6f1eb}
-.mt[aria-pressed=true]{background:var(--accent)}
-.mt[aria-pressed=true] b,.mt[aria-pressed=true] span{color:#fff}
+.mt[aria-pressed=true],.mt[aria-pressed=true]:hover:not(:disabled){background:var(--plum)}
+.mt[aria-pressed=true] b{color:var(--pop)}
+.mt[aria-pressed=true] span{color:#fff}
 .mt:disabled{opacity:.4;cursor:default}
 .gchips{display:flex;flex-wrap:wrap;gap:0 20px;margin-top:10px}
 .gc{background:none;border:0;border-bottom:2px solid transparent;padding:8px 0 6px;color:var(--ink);font:inherit;font-size:.95rem;cursor:pointer}
 .gc:hover{border-bottom-color:var(--line-d)}
 .gc b{color:var(--muted);font-weight:400;font-size:.82em;margin-left:3px}
-.gc[aria-pressed=true]{color:var(--accent);border-bottom-color:var(--accent)}
-.gc[aria-pressed=true] b{color:var(--accent)}
+.gc[aria-pressed=true]{color:var(--plum);border-bottom-color:var(--pop)}
+.gc[aria-pressed=true] b{color:var(--plum)}
 /* liste façon programme */
 .count{margin:40px 0 0;padding-bottom:10px;border-bottom:2px solid var(--ink);font-family:var(--display);font-weight:800;font-size:1.5rem;line-height:1;text-transform:uppercase;letter-spacing:.01em}
 .grid{display:block}
@@ -1112,7 +1114,7 @@ a{color:var(--accent)}
 .aside .price{font-weight:600;line-height:1.35}
 .vis{color:var(--muted);font-size:.84rem}
 .free{color:var(--ok);font-weight:600;font-size:.84rem}
-.cd:not(:empty){color:var(--accent);font-weight:600;font-size:.84rem}
+.cd:not(:empty){color:var(--pop-d);font-weight:600;font-size:.84rem}
 .meta{margin:0;color:var(--muted);font-size:.94rem}
 .price{margin:0}
 .tags{margin:4px 0}
@@ -1121,7 +1123,7 @@ a{color:var(--accent)}
 .btn{display:inline-block;background:var(--accent);color:#fff!important;text-decoration:none;padding:11px 18px;border-radius:6px;font-weight:600;text-align:center;transition:background-color .15s ease}
 .btn:hover{background:var(--accent-d)}
 .btn.ghost{background:transparent;color:var(--accent)!important;border:1px solid var(--accent);cursor:pointer;font:inherit;font-weight:600}
-.btn.ghost:hover{background:#f6eeee}
+.btn.ghost:hover{background:#f4ecf1}
 .linkbtn{background:none;border:0;color:var(--accent);font:inherit;cursor:pointer;text-decoration:underline}
 .badge{font-size:.76rem;padding:1px 6px;border-radius:4px;font-weight:500;margin-left:4px;white-space:nowrap}
 .badge.ok{background:#e6f2ec;color:var(--ok)}
@@ -1136,7 +1138,7 @@ a{color:var(--accent)}
 .chips-nav{list-style:none;padding:0;margin:0 0 16px;display:flex;flex-wrap:wrap;gap:0 22px}
 .chips-nav a,.chips-nav .cur{display:inline-block;padding:7px 0 5px;color:var(--ink);text-decoration:none;font-size:.95rem;border-bottom:1px solid var(--line-d)}
 .chips-nav a:hover{color:var(--accent);border-bottom-color:var(--accent)}
-.chips-nav .cur{color:var(--accent);border-bottom:2px solid var(--accent)}
+.chips-nav .cur{color:var(--plum);border-bottom:2px solid var(--pop)}
 .chips-nav b{font-weight:400;color:var(--muted);font-size:.85em;margin-left:3px}
 /* fiches */
 .fiche{padding-top:28px;padding-bottom:32px}
@@ -1159,7 +1161,7 @@ a{color:var(--accent)}
 .prices td:last-child{text-align:right;font-weight:600;padding-left:12px}
 .prices td[colspan]{text-align:left;font-weight:400;color:var(--muted)}
 .lineup{margin:4px 0 14px;font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,3.4vw,2.1rem);line-height:1.15;text-transform:uppercase;letter-spacing:.01em;color:var(--ink)}
-.act+.act::before{content:"·";margin:0 .35em;color:var(--accent);font-weight:400}
+.act+.act::before{content:"·";margin:0 .35em;color:var(--pop-d);font-weight:400}
 .map{width:100%;height:340px;border:0;border-radius:6px;background:#ebe6df;display:block}
 .map-wrap{width:100%}
 .map-ph{background:#fff;border:1px dashed var(--line-d);border-radius:6px;padding:28px 20px;text-align:center}
@@ -1198,7 +1200,7 @@ footer p{max-width:760px}
 .foot-copy{margin:0;font-size:.85rem}
 @media (prefers-reduced-motion:reduce){.card,.btn,.mt{transition:none}}
 @media (max-width:640px){
-.hero{padding:40px 0 108px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 110px no-repeat,linear-gradient(160deg,#a8274a 0%,#b82d4f 72%,#e0603f 100%)}
+.hero{padding:40px 0 108px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 110px no-repeat,linear-gradient(160deg,#7b1e3a 0%,#5f1c40 60%,#4a1d42 100%)}
 .filters input{flex:1 1 100%;min-width:0}
 .filters select{flex:1 1 calc(50% - 4px);min-width:0;height:44px;padding:0 10px;font-size:.92rem}
 .card{grid-template-columns:68px minmax(0,1fr);gap:4px 14px;align-items:start;padding:16px 0}
@@ -1331,14 +1333,14 @@ def scene_svg():
     mid = hill(138, 11, 190, 2.2, 6, 73, 0.7)
     near = hill(168, 8, 230, 4.0, 4, 90, 1.3)
 
-    out.append(fill_hill(far, "#d4506a", .30))
+    out.append(fill_hill(far, "#9a3a66", .30))
     # guirlandes : poteaux et fanions
-    cols = ["#fcc65a", "#ffffff", "#f58a4e", "#ffd9a8", "#ffa3b1"]
+    cols = ["#3ee6a8", "#ffffff", "#b6f5dc", "#f3c6d6", "#3ee6a8"]
     poles = [60, 520, 940, 1380, 1800, 2250]
     tops = [58, 50, 62, 52, 60, 54]
     g = ['<g opacity=".8">']
     for (x, y) in zip(poles, tops):
-        g.append(f'<path d="M{x} {y}V{far(x) + 10:.0f}" stroke="#a8325a" stroke-width="3" opacity=".6"/>')
+        g.append(f'<path d="M{x} {y}V{far(x) + 10:.0f}" stroke="#8a3a6a" stroke-width="3" opacity=".6"/>')
     for i in range(len(poles) - 1):
         x0, y0, x1, y1 = poles[i], tops[i], poles[i + 1], tops[i + 1]
         cx, cy = (x0 + x1) / 2, max(y0, y1) + 44
@@ -1351,13 +1353,13 @@ def scene_svg():
             c = cols[(i * 7 + k) % len(cols)]
             g.append(f'<path d="M{x - 6.5:.1f} {y:.1f}L{x + 6.5:.1f} {y:.1f}L{x:.1f} {y + 15:.1f}Z" fill="{c}"/>')
             if k % 3 == 0:
-                g.append(f'<circle cx="{x + 12:.1f}" cy="{y + 3:.1f}" r="2.4" fill="#ffe9a8" opacity=".95"/>')
+                g.append(f'<circle cx="{x + 12:.1f}" cy="{y + 3:.1f}" r="2.4" fill="#c8ffe9" opacity=".95"/>')
     g.append('</g>')
     out.append("".join(g))
 
-    out.append(fill_hill(mid, "#b03a5c", .45))
+    out.append(fill_hill(mid, "#6e2350", .45))
     # chapiteaux sur la colline du milieu
-    tents = ['<g fill="#8f2f50" opacity=".72">']
+    tents = ['<g fill="#5a1f4a" opacity=".72">']
     x = 70
     while x < W - 60:
         w = r.randint(46, 84)
@@ -1368,28 +1370,28 @@ def scene_svg():
         yb = mid(x) + 5
         wall = h * .42
         tents.append(f'<path d="M{x - w / 2:.0f} {yb:.0f}V{yb - wall:.0f}L{x} {yb - h:.0f}L{x + w / 2:.0f} {yb - wall:.0f}V{yb:.0f}Z"/>')
-        tents.append(f'<path d="M{x} {yb - h:.0f}V{yb - h - 11:.0f}M{x} {yb - h - 11:.0f}l9 3.5l-9 3.5Z" stroke="#8f2f50" stroke-width="1.6"/>')
+        tents.append(f'<path d="M{x} {yb - h:.0f}V{yb - h - 11:.0f}M{x} {yb - h - 11:.0f}l9 3.5l-9 3.5Z" stroke="#5a1f4a" stroke-width="1.6"/>')
         x += w + r.randint(60, 190)
     tents.append('</g>')
     out.append("".join(tents))
 
     # grande roue
     cx, cy, rad = 1610, 88, 50
-    wheel = [f'<g stroke="#8f2f50" fill="none" opacity=".6" stroke-width="2.4">',
+    wheel = [f'<g stroke="#5a1f4a" fill="none" opacity=".6" stroke-width="2.4">',
              f'<circle cx="{cx}" cy="{cy}" r="{rad}"/><circle cx="{cx}" cy="{cy}" r="{rad * .55:.0f}" stroke-width="1.4"/>']
     for k in range(12):
         a = math.radians(k * 30)
         px, py = cx + rad * math.cos(a), cy + rad * math.sin(a)
         wheel.append(f'<path d="M{cx} {cy}L{px:.1f} {py:.1f}" stroke-width="1.6"/>')
     wheel.append(f'<path d="M{cx} {cy}L{cx - 30} {mid(cx - 30) + 6:.0f}M{cx} {cy}L{cx + 30} {mid(cx + 30) + 6:.0f}" stroke-width="3.4"/>')
-    wheel.append('</g><g fill="#8f2f50" opacity=".62">')
+    wheel.append('</g><g fill="#5a1f4a" opacity=".62">')
     for k in range(12):
         a = math.radians(k * 30 + 15)
         wheel.append(f'<circle cx="{cx + rad * math.cos(a):.1f}" cy="{cy + rad * math.sin(a) + 3:.1f}" r="4.4"/>')
     wheel.append('</g>')
     out.append("".join(wheel))
 
-    out.append(fill_hill(near, "#7a2744", .6))
+    out.append(fill_hill(near, "#3d1636", .6))
     out.append('</svg>')
     return "".join(out)
 
@@ -1399,9 +1401,9 @@ def motif_svg():
     star = lambda cx, cy, s, c, o: (f'<path d="M{cx} {cy - s}l{s * .28:.1f} {s * .72:.1f} {s * .72:.1f} {s * .28:.1f}-{s * .72:.1f} {s * .28:.1f}-{s * .28:.1f} {s * .72:.1f}-{s * .28:.1f}-{s * .72:.1f}-{s * .72:.1f}-{s * .28:.1f} {s * .72:.1f}-{s * .28:.1f}z" fill="{c}" opacity="{o}"/>')
     note = lambda x, y, c, o: (f'<g fill="{c}" stroke="{c}" opacity="{o}"><ellipse cx="{x}" cy="{y}" rx="6" ry="4.5" stroke="none" transform="rotate(-20 {x} {y})"/><path d="M{x + 5} {y - 1}V{y - 22}l9 4" fill="none" stroke-width="2.2" stroke-linecap="round"/></g>')
     return ('<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260">'
-            + star(40, 44, 14, "#e11d48", .07) + star(190, 120, 10, "#f97316", .09) + star(100, 210, 12, "#fbbf24", .16)
-            + '<circle cx="150" cy="40" r="6" fill="#f97316" opacity=".08"/><circle cx="30" cy="150" r="4" fill="#e11d48" opacity=".08"/><circle cx="225" cy="225" r="7" fill="#fbbf24" opacity=".14"/>'
-            + note(210, 50, "#e11d48", .07) + note(60, 120, "#f97316", .08) + note(170, 200, "#e11d48", .06)
+            + star(40, 44, 14, "#7b1e3a", .07) + star(190, 120, 10, "#4a1d42", .09) + star(100, 210, 12, "#0a6b4a", .16)
+            + '<circle cx="150" cy="40" r="6" fill="#4a1d42" opacity=".08"/><circle cx="30" cy="150" r="4" fill="#7b1e3a" opacity=".08"/><circle cx="225" cy="225" r="7" fill="#0a6b4a" opacity=".14"/>'
+            + note(210, 50, "#7b1e3a", .07) + note(60, 120, "#4a1d42", .08) + note(170, 200, "#7b1e3a", .06)
             + '</svg>')
 
 
