@@ -5,7 +5,7 @@
 Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncées ») que si une source officielle la confirme ; sinon la fiche indique « Dates à confirmer ». Données indicatives, à vérifier sur le site officiel du festival.
 
 ## Pages principales
-- [Tous les festivals](https://lefestiguide.fr/index.html): liste complète, filtres par mois, région, style et budget
+- [Tous les festivals](https://lefestiguide.fr/): liste complète, filtres par mois, région, style et budget
 - [Guide sécurité festival](https://lefestiguide.fr/guide-securite-festival.html): billets et revente, fouilles, bruit, chaleur, secours, avec sources officielles
 - [Plan du site (sitemap)](https://lefestiguide.fr/sitemap.xml): une page par festival, au format https://lefestiguide.fr/<slug>.html
 - [Conditions d'utilisation](https://lefestiguide.fr/conditions-utilisation.html)
