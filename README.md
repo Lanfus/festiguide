@@ -41,6 +41,15 @@ En plus des listes par mois, style et lieu, `group_defs()` génère des pages qu
 
 Les seuils sont en tête de `build.py` (`MIN_BUDGET`, `BUDGET_MAX`, `MIN_COMBO_REGION`, `MIN_COMBO_GENRE`). Chaque fiche renvoie vers deux de ces pages au plus. Suivre leurs impressions dans Search Console › Performances › Pages.
 
+## Affiches
+
+Chaque fiche montre l'affiche ou le visuel officiel du festival, ou un encart « Affiche non disponible ».
+
+- Images : `src/affiches/<slug>.webp` (640 × 900 px maximum, WebP qualité 80), copiées dans `affiches/` à la génération.
+- Registre : `src/affiches.json`, avec pour chaque slug les dimensions (`w`, `h`) et l'URL d'origine (`source`).
+- Règles : seulement une affiche ou un visuel publié par le festival (site, presse, réseaux officiels), jamais une photo de foule ni une affiche de fan. Crédit « Visuel officiel © festival » sous l'image, retrait sous 72 h sur demande (mentions légales).
+- Pour ajouter une affiche : déposer le `.webp` dans `src/affiches/`, ajouter son entrée dans `src/affiches.json`, régénérer.
+
 ## Mettre à jour une fiche
 
 ⚠️ **Les fichiers `.html` sont générés : ne les modifie pas à la main**, ils seraient écrasés à la prochaine génération.

@@ -14,6 +14,7 @@ ICONS = {
     "check": '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
     "alert": '<path d="M12 4 2.5 20h19z"/><path d="M12 10v4.5M12 17.5v.01"/>',
     "share": '<path d="M12 15V4M8 8l4-4 4 4M5 13v6h14v-6"/>',
+    "image": '<rect x="4" y="3" width="16" height="18" rx="1.5"/><circle cx="9.5" cy="8.5" r="1.8"/><path d="M4 17l5-5 4 4 2.5-2.5L20 18"/>',
 }
 
 
@@ -40,6 +41,23 @@ GUIDE_TEMOIGNAGE = ""
 
 LEGAL_PAGES = ["mentions-legales.html", "conditions-utilisation.html", "confidentialite.html", "cookies.html"]
 OUT = Path(sys.argv[2] if len(sys.argv) > 2 else ".")
+# Affiches et visuels officiels : src/affiches/<slug>.webp + src/affiches.json (dimensions et source).
+# Une fiche sans entrée affiche l'encart « Affiche non disponible ».
+AFFICHES_DIR = Path(__file__).parent / "affiches"
+_aff = Path(__file__).parent / "affiches.json"
+AFFICHES = json.loads(_aff.read_text(encoding="utf-8")) if _aff.exists() else {}
+
+
+def affiche_html(f):
+    a = AFFICHES.get(f["slug"])
+    if a and (AFFICHES_DIR / f'{f["slug"]}.webp').exists():
+        v = hashlib.md5((AFFICHES_DIR / f'{f["slug"]}.webp').read_bytes()).hexdigest()[:6]
+        return (f'<figure class="affiche"><img src="affiches/{f["slug"]}.webp?v={v}" width="{a["w"]}" height="{a["h"]}" '
+                f'alt="Affiche officielle de {esc(f["name"])}" loading="eager" decoding="async">'
+                f'<figcaption>Visuel officiel © {esc(f["name"])}</figcaption></figure>')
+    return (f'<figure class="affiche vide" aria-label="Affiche non disponible"><div class="aff-ph">{ic("image")}'
+            f'<b>Affiche non disponible</b><span>{esc(f["name"])}</span></div>'
+            f'<figcaption>Le visuel officiel sera ajouté dès sa publication</figcaption></figure>')
 
 MOIS_ORDRE = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
               "août", "septembre", "octobre", "novembre", "décembre"]
@@ -554,9 +572,14 @@ def build(fests):
         lien_off = f'<a class="btn" href="{esc(official)}" target="_blank" rel="noopener" data-goatcounter-click="billetterie-{f["slug"]}" data-goatcounter-title="Billetterie {esc(f["name"])}">Site officiel et billetterie ↗</a>' if official else '<p class="small">Site officiel non renseigné.</p>'
         p += f'''<main id="contenu" class="wrap fiche">
 <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(f["name"])}</span></nav>
+<div class="fiche-top">
 <h1>{esc(f["name"])}</h1>
+{affiche_html(f)}
+<div class="fiche-intro">
 <p class="lead">{esc(f.get("about") or "")}</p>
 {tiles}
+</div>
+</div>
 {newsletter_form(f)}
 <div class="two">
 <section class="box"><h2>Prochaine édition</h2>
@@ -618,6 +641,16 @@ def build(fests):
     elif (OUT / "CNAME").exists():
         (OUT / "CNAME").unlink()
     shutil.copy(Path(__file__).parent / "goatcounter.js", OUT / "goatcounter.js")
+    # Affiches : copie miroir de src/affiches vers <sortie>/affiches (les fichiers retirés disparaissent aussi).
+    dest = OUT / "affiches"
+    dest.mkdir(exist_ok=True)
+    garder = {p.name for p in AFFICHES_DIR.glob("*.webp")} if AFFICHES_DIR.exists() else set()
+    for p in dest.glob("*.webp"):
+        if p.name not in garder:
+            p.unlink()
+    for n in garder:
+        if (AFFICHES_DIR / n).resolve() != (dest / n).resolve():
+            shutil.copy(AFFICHES_DIR / n, dest / n)
 
     # ---------- sitemap + robots ----------
     urls = "".join(f"  <url><loc>{BASE_URL}/{s}</loc></url>\n"
@@ -903,7 +936,8 @@ def build_legal(nb):
 
 <section class="box"><h2>Propriété intellectuelle</h2>
 <p>Les textes rédigés pour ce site, sa mise en page et son code sont la propriété de l'éditeur. Ils peuvent être cités avec un lien vers la page d'origine.</p>
-<p>Les noms, marques et logos des festivals appartiennent à leurs titulaires respectifs et ne sont mentionnés qu'à des fins d'information. Aucun visuel, affiche ou plan officiel de festival n'est reproduit sur ce site.</p>
+<p>Les noms, marques et logos des festivals appartiennent à leurs titulaires respectifs et ne sont mentionnés qu'à des fins d'information.</p>
+<p>Les affiches et visuels officiels présentés sur les fiches restent la propriété exclusive des festivals et de leurs auteurs. Ils sont reproduits en format réduit, avec mention du festival, dans le seul but d'illustrer l'information sur l'événement. Tout ayant droit qui souhaite le retrait ou le remplacement d'un visuel peut écrire à <a href="mailto:{CONTACT}">{CONTACT}</a> : il sera retiré sous 72 heures.</p>
 </section>
 
 <section class="box"><h2>Liens externes</h2>
@@ -1218,6 +1252,16 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.2em;t
 .crumb{margin:0 0 12px;font-size:.92rem;color:var(--muted)}
 .fiche h1{text-wrap:balance;margin:0 0 18px;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(2.7rem,7.5vw,5rem);line-height:.9;letter-spacing:.005em;color:var(--ink);max-width:900px}
 .lead{color:#4a423c;font-size:1.1rem;max-width:720px;margin:0 0 8px}
+.fiche-top{display:grid;grid-template-columns:minmax(0,1fr) 260px;grid-template-areas:"titre affiche" "intro affiche";column-gap:40px;align-items:start}
+.fiche-top h1{grid-area:titre}
+.fiche-intro{grid-area:intro;min-width:0}
+.affiche{grid-area:affiche;margin:0;align-self:start}
+.affiche img{display:block;width:100%;height:auto;border-radius:6px;border:1px solid var(--line);box-shadow:0 10px 24px -14px rgba(43,38,35,.45);background:#fff}
+.affiche figcaption{margin-top:8px;font-size:.78rem;color:var(--muted);line-height:1.35}
+.aff-ph{aspect-ratio:2/3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:20px;text-align:center;border-radius:6px;border:1px dashed var(--line-d);color:var(--muted);background:repeating-linear-gradient(135deg,#f5efe8 0 10px,#fbf8f4 10px 20px)}
+.aff-ph .i{width:34px;height:34px;opacity:.7}
+.aff-ph b{font-family:var(--display);font-size:1.35rem;font-weight:700;text-transform:uppercase;line-height:1;color:var(--ink)}
+.aff-ph span{font-size:.85rem}
 .tiles{position:relative;list-style:none;display:flex;flex-wrap:wrap;padding:0 8px;margin:32px 0 10px;background:#fff;border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:6px}
 .tiles::before,.tiles::after{content:"";position:absolute;top:50%;width:18px;height:18px;margin-top:-9px;border-radius:50%;background:var(--bg);border:1px solid var(--line)}
 .tiles::before{left:-10px}
@@ -1293,6 +1337,10 @@ footer p{max-width:760px}
 a:hover{text-decoration-thickness:2px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card,.btn,.mt,.gc,a{transition:none}.hero .wrap>*{animation:none}}
+@media (max-width:820px){
+.fiche-top{grid-template-columns:minmax(0,1fr);grid-template-areas:"titre" "affiche" "intro"}
+.affiche{width:min(240px,64%);margin:0 0 18px}
+}
 @media (max-width:640px){
 .hero{padding:40px 0 108px;background:url(fond-hero.svg?v=@@FOND@@) center bottom/auto 110px no-repeat,linear-gradient(160deg,#7b1e3a 0%,#5f1c40 60%,#4a1d42 100%)}
 .hero::before{width:340px;height:340px;right:-130px;top:-120px;opacity:.28}
