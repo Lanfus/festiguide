@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:dour-festival-20270707@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270712
+SUMMARY:Dour Festival
+LOCATION:Dour\, province de Hainaut\, près de la frontière française
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/dour-festival.html
+URL:https://www.dourfestival.eu
+END:VEVENT
+END:VCALENDAR

@@ -49,7 +49,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique dans les Pays de la Loire](https://lefestiguide.fr/festivals-musique-pays-de-la-loire.html): 7 festivals
 - [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lefestiguide.fr/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
 - [Festivals de musique en Wallonie](https://lefestiguide.fr/festivals-musique-wallonie.html): 6 festivals
-- [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 13 festivals
+- [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 19 festivals
 - [Festivals en mars en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-mars-auvergne-rhone-alpes.html): 5 festivals
 - [Festivals en juillet en Bretagne](https://lefestiguide.fr/festivals-juillet-bretagne.html): 6 festivals
 - [Festivals en juillet en Flandre](https://lefestiguide.fr/festivals-juillet-flandre.html): 9 festivals
@@ -117,6 +117,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Eurockéennes de Belfort](https://lefestiguide.fr/eurockeennes-de-belfort.html): Belfort (Territoire de Belfort), 2 – 5 juillet 2027
 - [Main Square Festival](https://lefestiguide.fr/main-square-festival.html): Arras (Pas-de-Calais), 2 – 4 juillet 2027
 - [Au Foin de la Rue](https://lefestiguide.fr/au-foin-de-la-rue.html): Saint-Denis-de-Gastines, 2 – 4 juillet 2027
+- [Dour Festival](https://lefestiguide.fr/dour-festival.html): Dour (Hainaut), 7 – 11 juillet 2027
 - [Pause Guitare Sud de France](https://lefestiguide.fr/pause-guitare.html): Albi, 7 – 11 juillet 2027
 - [Musilac](https://lefestiguide.fr/musilac.html): Aix-les-Bains (Savoie), 8 – 11 juillet 2027
 - [Jazz à Juan](https://lefestiguide.fr/jazz-a-juan.html): Antibes (Juan-les-Pins), 8 – 18 juillet 2027
@@ -161,7 +162,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Jazz in Marciac](https://lefestiguide.fr/jazz-in-marciac.html): Marciac (Gers), Juillet – août 2027 (dates à confirmer)
 - [Peacock Society](https://lefestiguide.fr/peacock-society.html): Paris (Paris), Juillet 2027 (jours exacts à confirmer)
 - [Yardland Festival](https://lefestiguide.fr/yardland-festival.html): Paris (Bois de Vincennes), Juillet 2027 (dates à confirmer)
-- [Dour Festival](https://lefestiguide.fr/dour-festival.html): Dour (Hainaut), Dates 2027 à confirmer
 - [Terres du Son](https://lefestiguide.fr/terres-du-son.html): Monts (Indre-et-Loire), Dates 2027 à confirmer
 - [Festival de Carcassonne](https://lefestiguide.fr/festival-de-carcassonne.html): Carcassonne (Aude), Dates 2027 à confirmer
 - [Tomorrowland Belgium](https://lefestiguide.fr/tomorrowland-belgium.html): Boom, À confirmer

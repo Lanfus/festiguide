@@ -1496,10 +1496,31 @@
   "iso": null,
   "status": "Dates à confirmer",
   "status_note": "Les dates complètes de l'édition 2027 ne sont pas publiées. Seul Jean-Michel Jarre est annoncé, les 15 et 16 juillet 2027 au Grand théâtre, pour les 50 ans d'Oxygène. Une vente de Noël avec les premiers billets est annoncée le 18 novembre 2026 à midi. L'édition 2026 allait du 28 mai au 25 juillet.",
-  "price_from": null,
-  "price_label": "Tarifs non publiés",
-  "prices": [],
-  "prices_note": "Aucun tarif 2027 publié. Les premiers billets seront vendus lors de la vente de Noël du 18 novembre 2026.",
+  "price_from": 6.0,
+  "price_label": "de 6 à 75 € selon le spectacle",
+  "prices": [
+   [
+    "Tarif plein, selon le spectacle",
+    "de 6 € à 75 €"
+   ],
+   [
+    "Moins de 28 ans (sélection de spectacles)",
+    "15 à 30 % de réduction"
+   ],
+   [
+    "Moins de 16 ans (spectacles en famille)",
+    "30 à 50 % de réduction"
+   ],
+   [
+    "Demandeurs d'emploi",
+    "15 à 30 % de réduction"
+   ],
+   [
+    "Tarif solidarité et tarif handicap",
+    "30 à 50 % de réduction"
+   ]
+  ],
+  "prices_note": "Grille tarifaire publiée sur le site officiel (édition 2026) ; la programmation et les prix 2027 ne sont pas encore annoncés.",
   "last_label": "Édition 2026 (80e anniversaire)",
   "last_dates": "28 mai – 25 juillet 2026",
   "lineup": [
@@ -1514,7 +1535,9 @@
   "tips": [
    "Surveiller la vente de Noël du 18 novembre 2026 à midi : premiers billets et artistes en avant-première",
    "En 2026, le programme complet est sorti le 10 mars et la billetterie a ouvert le 18 mars : prévoir une échéance comparable",
-   "S'inscrire à la newsletter du festival pour recevoir les annonces"
+   "S'inscrire à la newsletter du festival pour recevoir les annonces",
+   "Dans les théâtres romains, le placement est libre et non numéroté : arriver tôt pour être bien assis",
+   "Réductions jeunes et demandeurs d'emploi sur justificatif, à présenter à l'entrée"
   ],
   "official": "https://www.nuitsdefourviere.com/",
   "sources": [
@@ -1525,6 +1548,10 @@
    [
     "Les Nuits de Fourvière : Jean-Michel Jarre en 2027",
     "https://www.nuitsdefourviere.com/2026/11/jean-michel-jarre-aux-nuits-les-15-et-16-juillet-2027"
+   ],
+   [
+    "Nuits de Fourvière : réservation et tarifs",
+    "https://www.nuitsdefourviere.com/infos-pratiques/reservation-et-tarifs"
    ]
   ],
   "visiteurs": null,
@@ -2862,26 +2889,58 @@
   "mois": [
    "juillet"
   ],
-  "dates": "Dates 2027 à confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Un site spécialisé (Techno Airlines) indique du 7 au 11 juillet 2027 et dit tenir ces dates du site officiel, mais je n'ai pas pu consulter dourfestival.eu ni trouver de communiqué daté. Elles sont donc à vérifier avant tout achat.",
+  "dates": "7 – 11 juillet 2027",
+  "iso": [
+   "2027-07-07",
+   "2027-07-11"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 publiées sur le site officiel. Pass et line-up pas encore annoncés.",
   "price_from": null,
   "price_label": "Tarifs 2027 non publiés",
-  "prices": [],
-  "prices_note": "Aucun prix 2027 relevé. Les formules habituelles sont le pass cinq jours, le billet à la journée ou au week-end, le pass VIP et les formules avec camping. Une phase de prévente « Wave 0 » est annoncée, sans date vérifiée.",
+  "prices": [
+   [
+    "Pass festival : formules « Doureuuuh » avec camping inclus (1 jour, week-end, 5 jours, VIP)",
+    "Tarifs 2027 pas encore publiés"
+   ],
+   [
+    "Dour Camper Van (2026), véhicule + 1 personne",
+    "200 €"
+   ],
+   [
+    "Dour Camper Van (2026), par personne en plus",
+    "90 €"
+   ],
+   [
+    "Parking Sud (2026)",
+    "25 €"
+   ],
+   [
+    "Parkings Easy et Nord (2026)",
+    "45 €"
+   ],
+   [
+    "Recharge cashless en prévente (vouchers)",
+    "17,50 €, 35 €, 70 € ou 105 €"
+   ]
+  ],
+  "prices_note": "Depuis 2026, les pass incluent le camping (hausse de la TVA belge sur les nuitées). Tarifs relevés dans la FAQ officielle de l'édition 2026 ; ceux de 2027 ne sont pas publiés.",
   "last_label": "Édition 2026",
   "last_dates": "15 – 19 juillet 2026",
   "lineup": [],
   "lineup_note": "Aucun artiste 2027 annoncé à ma connaissance. La presse belge (DH) a rapporté 220 000 participants pour l'édition 2026.",
   "about": "Grand festival belge de cinq jours dans le Hainaut, à une cinquantaine de kilomètres de Lille. Il mêle électro, rap, rock et musiques alternatives, avec un camping sur place.",
   "access": [
-   "Aéroport le plus proche : Lille (LIL), à environ 52 km",
-   "Navettes depuis la gare de Quiévrain jusqu'au site (selon Techno Airlines, à confirmer sur le site officiel)"
+   "Train SNCB jusqu'à la gare de Quiévrain (réduction de 40 % avec le code du festival), puis navettes gratuites vers le site et les campings",
+   "Event-Shuttle le vendredi et le samedi depuis Anderlecht, Berchem, Hal, Vilvorde, Malines et Nivelles",
+   "Cars Ontours depuis Lille et Paris ; FlixBus jusqu'à Mons puis train jusqu'à Quiévrain",
+   "Parkings payants sur réservation, en quantité limitée (25 à 55 € en 2026)"
   ],
   "tips": [
-   "Cinq jours en plein air : prévoir bouchons d'oreilles, eau et protection solaire",
-   "Surveiller la billetterie officielle : les premières vagues partent souvent bien avant l'été"
+   "On ne dort que dans les campings du festival : dormir dans sa voiture sur les parkings ou camper sauvage est interdit",
+   "Campings ouverts du mercredi midi au lundi midi ; courses autorisées, mais pas de contenants en verre",
+   "Paiement cashless sur bracelet, rechargeable en espèces ou par carte bancaire sur place",
+   "Entrée gratuite pour les enfants de moins de 8 ans ; les mineurs doivent de préférence être accompagnés d'un adulte"
   ],
   "official": "https://www.dourfestival.eu",
   "sources": [
@@ -2896,6 +2955,10 @@
    [
     "Visit Wallonia : Dour Festival",
     "https://visitwallonia.com/en-gb/119/blog/wallonia-art-everywhere/dour-festival-one-of-the-most-varied-festivals-in-belgium/3250"
+   ],
+   [
+    "Dour Festival : FAQ officielle",
+    "https://www.dourfestival.eu/faq/"
    ]
   ],
   "visiteurs": 220000,
@@ -2927,10 +2990,23 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates de la 44e édition annoncées sur le site officiel du festival (14, 15 et 16 mai 2027, Saint-Brieuc).",
-  "price_from": null,
-  "price_label": "Tarifs 2027 non publiés",
-  "prices": [],
-  "prices_note": "Aucun tarif 2027 relevé. La billetterie se fait en ligne et sur place selon l'agenda consulté.",
+  "price_from": 95.0,
+  "price_label": "dès 95 € le pass 3 jours (2027)",
+  "prices": [
+   [
+    "Pass 3 jours Grande Scène + scène B-Art Rock 2027",
+    "à partir de 95 €"
+   ],
+   [
+    "Superpass 3 jours 2027",
+    "à partir de 105 €"
+   ],
+   [
+    "Billets jour, Forum et Grand Théâtre",
+    "en vente sur la billetterie officielle"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027 relevés sur Fnac Spectacles, revendeur officiel. Le festival indique sur ses réseaux que le Superpass et le pass 3 jours de la vente de Noël sont épuisés : il reste les billets jour.",
   "last_label": "Édition 2026",
   "last_dates": "",
   "lineup": [
@@ -2948,7 +3024,8 @@
   ],
   "tips": [
    "Le week-end de Pentecôte, réserver l'hébergement tôt : la ville est très fréquentée",
-   "Les horaires des concerts sont publiés à l'approche de l'événement"
+   "Les horaires des concerts sont publiés à l'approche de l'événement",
+   "Le cashless se recharge en ligne avant le festival ; le solde non utilisé est remboursable, mais il n'est pas revendu avec le billet"
   ],
   "official": "https://artrock.org",
   "sources": [
@@ -2967,6 +3044,14 @@
    [
     "info.fr : bilan d'Art Rock",
     "https://info.fr/babyshambles-art-rock-saint-brieuc-concert-bilan/"
+   ],
+   [
+    "Fnac Spectacles : billets Art Rock 2027",
+    "https://www.fnacspectacles.com/artist/festival-art-rock/"
+   ],
+   [
+    "Art Rock : billetterie officielle",
+    "https://artrock.org/billetterie/"
    ]
   ],
   "visiteurs": 81000,
@@ -2994,10 +3079,35 @@
   "iso": null,
   "status": "Dates à confirmer",
   "status_note": "Aucune annonce d'édition 2027 trouvée. L'édition 2026 a eu lieu du 10 au 12 juillet au Domaine de Candé ; l'événement se tient en général en juillet.",
-  "price_from": null,
-  "price_label": "Tarifs non relevés",
-  "prices": [],
-  "prices_note": "Le communiqué de l'édition 2026 mentionne des pass 1, 2 et 3 jours à tarif normal ou réduit, sans donner les prix. Aucun tarif 2027 publié.",
+  "price_from": 49.0,
+  "price_label": "dès 49 € le pass 1 jour (2027)",
+  "prices": [
+   [
+    "Pass 1 jour 2027",
+    "49 € (45 € Access, 37 € Famille, 57 € sur place)"
+   ],
+   [
+    "Pass 2 jours 2027",
+    "85 € (79 € Access, 64 € Famille, 95 € sur place)"
+   ],
+   [
+    "Pass 3 jours 2027",
+    "110 € (95 € Access ou Copains, 83 € Famille, 125 € sur place)"
+   ],
+   [
+    "Pass 3 jours Early 2027",
+    "100 €, épuisé"
+   ],
+   [
+    "Enfants jusqu'à 9 ans inclus",
+    "gratuit, accompagnés d'un adulte"
+   ],
+   [
+    "Camping",
+    "inclus dans tous les pass"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027 publiés sur la billetterie officielle. Acheter en ligne revient moins cher que sur place.",
   "last_label": "Édition 2026",
   "last_dates": "10 – 12 juillet 2026",
   "lineup": [
@@ -3017,7 +3127,9 @@
   ],
   "tips": [
    "Les ventes de l'édition 2026 ont ouvert fin novembre 2025 : surveiller la même période pour 2027",
-   "Trois jours en extérieur en juillet : prévoir chapeau, eau et protections auditives"
+   "Trois jours en extérieur en juillet : prévoir chapeau, eau et protections auditives",
+   "Le camping est compris dans tous les pass",
+   "Billet revendu sur Reelax Ticket : le cashless préchargé est remboursé automatiquement après le festival"
   ],
   "official": "https://www.terresduson.com",
   "sources": [
@@ -3028,6 +3140,10 @@
    [
     "Sortiraparis : Terres du Son 2026, programme par jour",
     "https://www.sortiraparis.com/en/getaways-from-paris/northwest/articles/50648-terres-du-son-2026-in-monts-here-s-the-daily-lineup"
+   ],
+   [
+    "Terres du Son : billetterie officielle 2027",
+    "https://www.terresduson.com/billetterie/"
    ]
   ],
   "visiteurs": null,
@@ -3058,8 +3174,25 @@
   "status_note": "Aucune annonce d'édition 2027 trouvée. L'édition 2026 s'est tenue l'été, avec des concerts « IN » au Théâtre Jean-Deschamps et un festival « OFF » dans les rues de la Bastide en juillet. Les dates exactes de chaque soirée n'ont pas été relevées.",
   "price_from": null,
   "price_label": "Tarifs non relevés",
-  "prices": [],
-  "prices_note": "L'office de tourisme indique que certains concerts sont gratuits et d'autres payants, sans fournir de tarif. Aucun prix 2027 publié.",
+  "prices": [
+   [
+    "Exemple de concert 2026 au théâtre Jean-Deschamps : Carré Or",
+    "64 €"
+   ],
+   [
+    "Même concert, tarif unique",
+    "54 €"
+   ],
+   [
+    "Tarifs réduits (comités d'entreprise, associations, groupes de 10 et plus)",
+    "51 à 61 €"
+   ],
+   [
+    "Spectacles du Festival OFF (environ 80 sur 120)",
+    "gratuits"
+   ]
+  ],
+  "prices_note": "Les prix changent à chaque spectacle : exemple tiré d'une décision municipale fixant les tarifs d'un concert de l'édition 2026. Les spectacles du OFF sont gratuits.",
   "last_label": "Édition 2026",
   "last_dates": "",
   "lineup": [
@@ -3088,6 +3221,14 @@
    [
     "Sortiraparis : Carcassonne 2026, Booba rejoint l'affiche",
     "https://www.sortiraparis.com/en/getaways-from-paris/southwest/articles/50328-carcassonne-festival-2026-booba-joins-the-lineup"
+   ],
+   [
+    "Ville de Carcassonne : décision fixant des tarifs du festival 2026",
+    "https://www.carcassonne.org/sites/default/files/actes-administratifs-2025-12/D%C3%A9cision%20180.pdf"
+   ],
+   [
+    "Grand Carcassonne Tourisme : Festival de Carcassonne",
+    "https://www.grand-carcassonne-tourisme.fr/temps-fort/festival-de-carcassonne/"
    ]
   ],
   "visiteurs": null,
@@ -3190,10 +3331,35 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates annoncées par l'organisateur : du 17 au 20 juin 2027, pour la 30e édition. Billets en vente depuis le 14 novembre 2026.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs de l'édition 2027 non relevés : la billetterie a ouvert le 14 novembre 2026, voir les prix sur le site officiel (graspop.be/en/tickets). Les prix incluent les frais de service ; le billet de train n'est pas compris.",
+  "price_from": 139.0,
+  "price_label": "dès 139 € le billet jour (2027)",
+  "prices": [
+   [
+    "Combi 4 jours 2027 (17–20 juin)",
+    "320 €"
+   ],
+   [
+    "Billet jour 2027 (jeudi, vendredi, samedi ou dimanche)",
+    "139 €"
+   ],
+   [
+    "VIP combi 2027",
+    "549 €"
+   ],
+   [
+    "VIP jour 2027 (jeudi ou dimanche ; vendredi et samedi épuisés)",
+    "255 €"
+   ],
+   [
+    "Camping Boneyard ou The Crypt 2027",
+    "40 € par personne"
+   ],
+   [
+    "Parking",
+    "payant, bons à acheter à l'avance via Ticketmaster"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027 publiés sur la page billetterie officielle (mise en vente le 14 novembre 2026). Pas de tarif enfant.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
@@ -3205,7 +3371,9 @@
   ],
   "tips": [
    "Achète sur le site officiel ou via Ticketmaster, les revendeurs non officiels n'offrent aucune garantie.",
-   "Pour la 30e édition, 110 groupes sont déjà confirmés : compare le line-up complet avant de choisir un pass 4 jours ou un billet à la journée."
+   "Pour la 30e édition, 110 groupes sont déjà confirmés : compare le line-up complet avant de choisir un pass 4 jours ou un billet à la journée.",
+   "Pas d'entrée gratuite ni de réduction pour les enfants, et l'organisation déconseille de venir avec de jeunes enfants",
+   "Tous les campings sont payants en 2027 : prendre le billet camping en même temps que le pass"
   ],
   "official": "https://www.graspop.be/",
   "sources": [
@@ -3220,6 +3388,10 @@
    [
     "Annonce officielle de la billetterie 2027 (14 nov. 2026)",
     "https://www.graspop.be/en/news/tickets-for-gmm2027-now-on-sale"
+   ],
+   [
+    "Graspop : billetterie officielle 2027",
+    "https://www.graspop.be/en/tickets"
    ]
   ],
   "visiteurs": null,
@@ -3308,7 +3480,7 @@
    "2027-03-13"
   ],
   "status": "Dates annoncées",
-  "status_note": "Les dates 10–13 mars 2027 sont celles de l'édition d'hiver (Saint-Malo et Rennes), affichées par le site officiel. L'édition d'été 2027 n'est pas encore annoncée.",
+  "status_note": "Les dates 10–13 mars 2027 sont celles de la Collection Hiver (Saint-Malo et Rennes), affichées par le site officiel. La Collection Été 2027 est annoncée par le festival sur ses réseaux du 11 au 14 août 2027 à Saint-Malo.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -3318,13 +3490,29 @@
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de rock indépendant né à Saint-Malo, avec une édition d'été et une édition d'hiver.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Saint-Malo en train : 55 min depuis Rennes, 2 h 30 depuis Paris",
+   "Collection Été : navettes gratuites entre le Fort de Saint-Père, Saint-Jouan-des-Guérets et Saint-Malo (centre-ville et gare), chaque jour du festival",
+   "Parking gratuit fléché près du Fort, et parking gratuit dédié aux camping-cars, vans et camions à côté du camping ; le covoiturage est encouragé"
+  ],
+  "tips": [
+   "Collection Été : camping gratuit à l'entrée du Fort de Saint-Père, ouvert dès le mercredi après-midi pour les détenteurs d'un pass 3 jours ou d'un billet du jeudi",
+   "La Collection Hiver se passe en salle (La Nouvelle Vague à Saint-Malo, et Rennes) : pas de camping, prévoir un hébergement",
+   "Tarifs Early Bird proposés à l'ouverture de la billetterie : surveiller les réseaux du festival"
+  ],
   "official": "https://www.laroutedurock.com/",
   "sources": [
    [
     "Site officiel",
     "https://www.laroutedurock.com/"
+   ],
+   [
+    "Saint-Malo Tourisme : La Route du Rock Collection Été",
+    "https://www.saint-malo-tourisme.com/vivre-comme-chez-nous/grands-evenements/la-route-du-rock-collection-ete/"
+   ],
+   [
+    "La Route du Rock sur Threads (Collection Hiver 2027)",
+    "https://www.threads.com/@laroutedurock"
    ]
   ],
   "visiteurs": null,
@@ -3355,17 +3543,49 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Premiers artistes 2027 annoncés le vendredi 11 décembre 2026 à 11 h.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 43.0,
+  "price_label": "dès 43 € le billet jour (2026)",
+  "prices": [
+   [
+    "Pass 3 jours 2026",
+    "89 €"
+   ],
+   [
+    "Pass 2 jours 2026 (samedi + dimanche)",
+    "74 €"
+   ],
+   [
+    "Billet 1 jour 2026",
+    "43 €"
+   ],
+   [
+    "Pass 3 jours « prix d'amis » (2 200 places, première vente)",
+    "55 €"
+   ],
+   [
+    "Camping",
+    "gratuit avec le billet, sans réservation"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 relevés par l'agenda JDS ; la billetterie 2027 est ouverte sur le site officiel mais ses prix n'ont pas pu être lus.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival en plein air sur la presqu'île de Crozon, dans le Finistère. 27e édition en 2027.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Train jusqu'à Brest ou Quimper (offre festival TER BreizhGo : 19 € l'aller-retour depuis toute la Bretagne, en ligne), puis car ou bateau",
+   "Cars BreizhGo depuis Brest, Carhaix ou Quimper : 2 € le trajet, sans réservation, mais pas de car la nuit après les concerts",
+   "Bateau Brest – Le Fret en 30 min (9 €), puis navette gratuite jusqu'au festival",
+   "Navettes à 2 € entre les communes de la presqu'île (Camaret, Lanvéoc, Telgruc, Le Fret) et le site, pendant les concerts",
+   "Parkings à côté du site dès le vendredi 7 h ; camping-cars et vans acceptés sur des parkings réservés"
+  ],
+  "tips": [
+   "Le camping est gratuit et sans réservation, avec une zone plus calme pour les nuits",
+   "Paiement en « Gwenneg » sur bracelet ou carte, rechargeable en ligne : il n'y a pas de distributeur sur le site",
+   "Gourde acceptée vide à l'entrée ; verre et alcool extérieur interdits",
+   "Une crêpe offerte à chaque festivalier venu à vélo"
+  ],
   "official": "https://www.festivalduboutdumonde.com/",
   "sources": [
    [
@@ -3375,6 +3595,14 @@
    [
     "La Belle Bretagne",
     "https://labellebretagne.bzh/en/festivals/finistere/festival-bout-du-monde"
+   ],
+   [
+    "Festival du Bout du Monde : préparer ma venue",
+    "https://www.festivalduboutdumonde.com/preparer-ma-venue"
+   ],
+   [
+    "JDS : tarifs 2026",
+    "https://www.jds.fr/crozon/manifestations/festival/festival-du-bout-du-monde-267280_A"
    ]
   ],
   "visiteurs": null,
@@ -3447,17 +3675,54 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates 2027 données par le site officiel : du 19 au 22 août à Kiewit, Hasselt.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs 2027 non relevés : voir la billetterie du site officiel.",
+  "price_from": 134.0,
+  "price_label": "dès 134 € le billet jour (2026)",
+  "prices": [
+   [
+    "Billet jour 2026 (vendredi, samedi ou dimanche)",
+    "134 € (142 € après la hausse de TVA)"
+   ],
+   [
+    "Combi 4 jours 2026",
+    "287 € (303 € après la hausse de TVA), épuisé"
+   ],
+   [
+    "VIP jour 2026",
+    "225 € (238 €)"
+   ],
+   [
+    "VIP combi 2026",
+    "440 € (465 €)"
+   ],
+   [
+    "Camping Chill ou Relax 2026",
+    "43 € (45 €), quelle que soit la durée"
+   ],
+   [
+    "Consigne recyclage obligatoire au camping",
+    "15 €"
+   ],
+   [
+    "Parking 2026",
+    "17 € par jour, 30 € les 4 jours"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 publiés par le festival, avant et après la hausse de la TVA belge à 12 %. Les tarifs 2027 ne sont pas encore annoncés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Grand festival belge de musiques actuelles, à Hasselt.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Le billet inclut le train aller-retour SNCB depuis toute la Belgique, puis navettes gratuites entre la gare de Hasselt et le site de Kiewit",
+   "Trains de nuit supplémentaires (payants) et bus De Lijn de soirée annoncés à l'approche du festival",
+   "Parking vélo officiel sur la Kempische Steenweg ; parkings voiture payants à réserver, paiement par carte bancaire"
+  ],
+  "tips": [
+   "Le camping exige un billet à part, plus une consigne recyclage obligatoire de 15 €",
+   "Camping ouvert du jeudi 9 h au lundi midi ; camping-cars et caravanes interdits sur les campings du festival",
+   "Les jetons boissons et nourriture s'achètent à l'avance (3,60 € l'unité en 2026)"
+  ],
   "official": "https://www.pukkelpop.be/",
   "sources": [
    [
@@ -3467,6 +3732,14 @@
    [
     "Agrégateur : 19-22 août 2027 (non officiel)",
     "https://festiplannr.com/festival/pukkelpop-2027"
+   ],
+   [
+    "Pukkelpop : « Wa kost da grapke hier ? » (tarifs 2026)",
+    "https://www.pukkelpop.be/nl/nieuws/wa-kost-da-grapke-hier"
+   ],
+   [
+    "Pukkelpop : FAQ officielle",
+    "https://www.pukkelpop.be/nl/info/veelgestelde-vragen"
    ]
   ],
   "visiteurs": null,
@@ -3534,17 +3807,48 @@
   "iso": null,
   "status": "Dates à confirmer",
   "status_note": "Dates 2027 pas encore confirmées par l'organisateur : les sources relevées se contredisent (la page Facebook évoque un week-end fin juillet 2027, le site officiel affiche encore les dates 2026).",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 16.0,
+  "price_label": "dès 16 € le dimanche (2026)",
+  "prices": [
+   [
+    "Billet jour vendredi ou samedi 2026, en ligne",
+    "48,50 €"
+   ],
+   [
+    "Billet jour vendredi ou samedi 2026, sur place",
+    "53 €"
+   ],
+   [
+    "Pass 2 jours 2026",
+    "79,50 €"
+   ],
+   [
+    "Dimanche 2026",
+    "16 € (11 € pour les 12–17 ans)"
+   ],
+   [
+    "Moins de 12 ans",
+    "gratuit"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 relevés par Ouest-France ; ceux de 2027 ne sont pas publiés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de musiques du monde et de musiques actuelles dans le port et le centre de Saint-Nazaire, organisé depuis 1992.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Billet TER « Live » à 5 € le trajet depuis toutes les gares des Pays de la Loire, avec des TER de nuit vers Nantes après les concerts",
+   "Navettes gratuites depuis Pornic, Guérande et Pontchâteau, sur réservation en ligne",
+   "Bus urbains Hélyce « Soir de fête » au départ de l'arrêt Petit Maroc jusque tard dans la nuit",
+   "Pas de parking réservé au festival : parkings payants du centre-ville ; parking vélo sécurisé à 1 € le soir, quai du Commerce"
+  ],
+  "tips": [
+   "Toute sortie du site est définitive",
+   "Gratuit pour les moins de 12 ans ; les moins de 16 ans doivent être accompagnés d'un adulte",
+   "Interdits : nourriture, bouteilles et canettes, aérosols, casques et appareils photo",
+   "Pas de camping du festival : campings de la côte ou groupe Facebook d'hébergement solidaire « Prête-moi un toit »"
+  ],
   "official": "https://www.festival-les-escales.com/",
   "sources": [
    [
@@ -3554,6 +3858,14 @@
    [
     "Page Facebook du festival",
     "https://www.facebook.com/festivallesescales/"
+   ],
+   [
+    "Les Escales : infos pratiques",
+    "https://www.festival-les-escales.com/pratique/"
+   ],
+   [
+    "Ouest-France : accès, tarifs, mobilité (2026)",
+    "https://www.ouest-france.fr/pays-de-la-loire/saint-nazaire-44600/acces-tarif-mobilite-tout-ce-quil-faut-savoir-pour-le-festival-les-escales-en-loire-atlantique-e42af236-8419-11f1-8650-d79ccbde952a"
    ]
   ],
   "visiteurs": null,
@@ -3586,14 +3898,23 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non relevés. En 2026, le festival proposait des forfaits jour, des tarifs réduits pour étudiants et demandeurs d'emploi (aux bureaux du festival) et acceptait le Pass Culture dès 18 ans.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de chanson et de musiques actuelles à Albi. 31e édition en 2027.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Navettes liO à 4 € l'aller-retour : 9 lignes de car vers le site de Pratgraussals, à réserver en ligne",
+   "Parking de Pélissier (chemin de Gaillagues) avec navettes gratuites toutes les 10 minutes pendant les soirées",
+   "Gare d'Albi proche du centre-ville ; covoiturage conseillé, parking deux-roues avec consigne à casques gratuite"
+  ],
+  "tips": [
+   "Paiement par carte cashless rechargeable sur place ; le solde non utilisé se rembourse en ligne après le festival",
+   "Interdits : verre, canettes, glacières, alcool, petites chaises de camping, perches à selfie et parapluies",
+   "Gourde vide et crème solaire bienvenues ; revente officielle des billets sur Reelax Tickets",
+   "Entrée gratuite jusqu'à 3 ans"
+  ],
   "official": "https://www.pauseguitare.net/",
   "sources": [
    [
@@ -3603,6 +3924,14 @@
    [
     "Site officiel",
     "https://www.pauseguitare.net/"
+   ],
+   [
+    "Pause Guitare : tout ce qu'il faut savoir avant de venir (2026)",
+    "https://www.pauseguitare.net/pause-guitare-2026-tout-ce-quil-faut-savoir-avant-de-venir/"
+   ],
+   [
+    "liO Occitanie : navettes Pause Guitare",
+    "https://www.lio-occitanie.fr/navette-festival-pause-guitare/"
    ]
   ],
   "visiteurs": null,
@@ -3633,10 +3962,27 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Festival place du 1er Mai les 25, 26 et 27 juin 2027. Concert de Sting le mardi 13 juillet 2027 au stade Marcel-Michelin.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 54.0,
+  "price_label": "dès 54 € le billet jour (2027)",
+  "prices": [
+   [
+    "Billet 1 jour 2027",
+    "54 €"
+   ],
+   [
+    "Pass 2 jours 2027",
+    "94 €"
+   ],
+   [
+    "Pass 3 jours 2027",
+    "134 €"
+   ],
+   [
+    "Concert de Sting au stade Marcel-Michelin (13 juillet 2027)",
+    "billetterie à part"
+   ]
+  ],
+  "prices_note": "Tarifs 2027 relevés par l'agenda JDS ; billetterie officielle sur europavox.soticket.net. Billets aussi proposés via le Pass Culture et le Pass Région.",
   "last_label": "Programmation 2027 (partielle)",
   "last_dates": "",
   "lineup": [
@@ -3645,7 +3991,10 @@
   "lineup_note": "Seul nom annoncé relevé : Sting, le 13 juillet 2027 au stade Marcel-Michelin.",
   "about": "Festival de musiques actuelles à Clermont-Ferrand. En 2027, un concert exceptionnel de Sting est prévu au stade Marcel-Michelin.",
   "access": [],
-  "tips": [],
+  "tips": [
+   "Billets disponibles avec le Pass Culture et le Pass Région Auvergne-Rhône-Alpes",
+   "Le concert de Sting du 13 juillet 2027 se tient au stade Marcel-Michelin, hors pass du festival : FAQ dédiée sur le site officiel"
+  ],
   "official": "https://www.europavoxfestivals.com/",
   "sources": [
    [
@@ -3655,6 +4004,14 @@
    [
     "Billetterie (concert Sting)",
     "https://www.leclercbilletterie.com/en/manifestation/europavox-2027-sting-ticket/idmanif/675324"
+   ],
+   [
+    "JDS : Festival Europavox 2027",
+    "https://www.jds.fr/clermont-ferrand/manifestations/festival/festival-europavox-267339_A"
+   ],
+   [
+    "Europavox : billetterie officielle",
+    "https://europavox.soticket.net/"
    ]
   ],
   "visiteurs": null,
@@ -3682,22 +4039,49 @@
   ],
   "status": "Dates annoncées",
   "status_note": "",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 6.0,
+  "price_label": "de 6 à 37 € le concert (2026)",
+  "prices": [
+   [
+    "Plein tarif par concert (2026)",
+    "de 6 € à 37 €"
+   ],
+   [
+    "Tarif abonné (abonnement à 21 €)",
+    "6 € de moins par billet, soit de 6 € à 31 €"
+   ],
+   [
+    "Tarif réduit 50 % (moins de 20 ans, étudiants de moins de 26 ans…)",
+    "de 3,50 € à 18,50 €"
+   ],
+   [
+    "Spectacles gratuits (déambulations, Jazz in bars, « Un dimanche en fanfares »)",
+    "gratuit"
+   ]
+  ],
+  "prices_note": "Grille de l'édition 2026 publiée par le festival (mémo tarifs et billetterie). Les tarifs 2027 seront publiés au printemps.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de jazz à Coutances, dans la Manche. 46e édition en 2027.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Billetterie à l'accueil des Unelles, en ligne ou par téléphone au 02 33 76 78 68"
+  ],
+  "tips": [
+   "Prendre l'abonnement (21 €) si tu vas à plusieurs concerts : 6 € de moins par billet et achat prioritaire en mars",
+   "Une grande partie de la programmation est gratuite : concerts de rue, fanfares et bars",
+   "Les concerts en salle partent vite : réserver dès l'ouverture de la billetterie"
+  ],
   "official": "https://www.jazzsouslespommiers.com/",
   "sources": [
    [
     "Site officiel",
     "https://www.jazzsouslespommiers.com/"
+   ],
+   [
+    "Jazz sous les Pommiers : mémo tarifs et billetterie 2026",
+    "https://www.jazzsouslespommiers.com/wp-content/uploads/2026/03/memo-tarifs-et-billetterie-jslp-26.pdf"
    ]
   ],
   "visiteurs": null,
@@ -3726,22 +4110,43 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates 2027 annoncées par le site officiel après la fin de la 40e édition.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 0.0,
+  "price_label": "Gratuit",
+  "prices": [
+   [
+    "Concerts",
+    "gratuits (plus de 110 concerts en 2026)"
+   ]
+  ],
+  "prices_note": "Festival entièrement gratuit, présenté par Le Voyage à Nantes comme le seul grand festival de jazz gratuit en France.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival gratuit au bord de l'Erdre, à Nantes. 41e édition en 2027 (la 40e s'est terminée fin août 2026).",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Tram et bus : arrêts 50 Otages (ligne 2, C2), Motte Rouge (ligne 2), Bretagne (ligne 3) et Foch Cathédrale (ligne 4, C1, C6)",
+   "À vélo par la piste des berges de l'Erdre ; la circulation est fermée sur les quais pendant les concerts",
+   "Avant le week-end nantais, des concerts ont lieu le long de l'Erdre et dans le quartier Nantes-Erdre"
+  ],
+  "tips": [
+   "Le cœur du festival est le dernier week-end d'août : en 2026, de 18 h à 1 h le vendredi, de 16 h à 1 h le samedi et de 15 h à 23 h 30 le dimanche",
+   "L'Île de Versailles ferme plus tôt que les autres scènes (21 h 30, 20 h 30 le dimanche)",
+   "Venir sans voiture : les quais sont fermés à la circulation pendant le festival"
+  ],
   "official": "https://www.rendezvouserdre.com/",
   "sources": [
    [
     "Site officiel",
     "https://www.rendezvouserdre.com/"
+   ],
+   [
+    "Rendez-vous de l'Erdre : le festival à Nantes",
+    "https://www.rendezvouserdre.com/infos-pratiques/les-rendez-vous-de-lerdre-a-nantes/"
+   ],
+   [
+    "Le Voyage à Nantes : Rendez-vous de l'Erdre",
+    "https://www.levoyageanantes.fr/evenements/les-rendez-vous-de-lerdre/"
    ]
   ],
   "visiteurs": null,
