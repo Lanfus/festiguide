@@ -49,7 +49,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique dans les Pays de la Loire](https://lefestiguide.fr/festivals-musique-pays-de-la-loire.html): 7 festivals
 - [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lefestiguide.fr/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
 - [Festivals de musique en Wallonie](https://lefestiguide.fr/festivals-musique-wallonie.html): 6 festivals
-- [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 19 festivals
+- [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 23 festivals
 - [Festivals en mars en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-mars-auvergne-rhone-alpes.html): 5 festivals
 - [Festivals en juillet en Bretagne](https://lefestiguide.fr/festivals-juillet-bretagne.html): 6 festivals
 - [Festivals en juillet en Flandre](https://lefestiguide.fr/festivals-juillet-flandre.html): 9 festivals
@@ -140,6 +140,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festival de La Chaise-Dieu](https://lefestiguide.fr/festival-de-la-chaise-dieu.html): La Chaise-Dieu, 17 – 29 août 2027
 - [Le Cabaret Vert](https://lefestiguide.fr/cabaret-vert.html): Charleville-Mézières (Ardennes), 19 – 22 août 2027
 - [Pukkelpop](https://lefestiguide.fr/pukkelpop.html): Hasselt, 19 – 22 août 2027
+- [Motocultor Festival](https://lefestiguide.fr/motocultor.html): Saint-Nolff, 19 – 22 août 2027
 - [Les Rendez-vous de l'Erdre](https://lefestiguide.fr/rendez-vous-de-l-erdre.html): Nantes, 23 – 29 août 2027
 - [Nancy Jazz Pulsations](https://lefestiguide.fr/nancy-jazz-pulsations.html): Nancy, 2 – 16 octobre 2027
 - [Rock en Seine](https://lefestiguide.fr/rock-en-seine.html): Saint-Cloud (Hauts-de-Seine), 23 – 27 août 2028 (pas d'édition en 2027)
@@ -186,7 +187,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Paradise City](https://lefestiguide.fr/paradise-city.html): Perk, À confirmer
 - [Rampage Open Air](https://lefestiguide.fr/rampage-open-air.html): Lommel, À confirmer
 - [Ostend Beach Festival](https://lefestiguide.fr/ostend-beach-festival.html): Ostende, À confirmer
-- [Motocultor Festival](https://lefestiguide.fr/motocultor.html): Saint-Nolff, À confirmer
 - [Jazz à la Villette](https://lefestiguide.fr/jazz-a-la-villette.html): Paris, À confirmer
 - [Family Piknik](https://lefestiguide.fr/family-piknik.html): Montpellier, À confirmer
 - [Les Plages Électroniques](https://lefestiguide.fr/les-plages-electroniques.html): Cannes, À confirmer

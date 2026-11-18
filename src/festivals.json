@@ -4226,22 +4226,52 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates annoncées par le festival sur son compte Instagram officiel.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 41.0,
+  "price_label": "dès 41 € le billet jour (2026)",
+  "prices": [
+   [
+    "Pass 2 jours 2026",
+    "69 € (71 € avec camping)"
+   ],
+   [
+    "Billet vendredi ou samedi 2026",
+    "41 € (43 € avec camping)"
+   ],
+   [
+    "Prévente promo 2026 (pass 2 jours)",
+    "50 €, épuisée"
+   ],
+   [
+    "Moins de 12 ans",
+    "gratuit, sans billet"
+   ],
+   [
+    "Accompagnant d'une personne en situation de handicap",
+    "gratuit"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026, hors frais de location, publiés sur la billetterie officielle. Ceux de 2027 ne sont pas encore annoncés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival indépendant de rock et de musiques actuelles à Malestroit, dans le Morbihan.",
   "access": [],
-  "tips": [],
+  "tips": [
+   "Le camping s'ajoute pour 2 € au billet : le prendre en même temps",
+   "Toute sortie est définitive, sauf pour les pass 2 jours",
+   "Pass Culture accepté de 17 à 18 ans, camping inclus",
+   "Revente officielle des billets sur Reelax Tickets"
+  ],
   "official": "https://www.festival-aupontdurock.com/",
   "sources": [
    [
     "Instagram officiel",
     "https://www.instagram.com/aupontdurock/?hl=en"
+   ],
+   [
+    "Au Pont du Rock : billetterie officielle (2026)",
+    "https://aupontdurock.com/billetterie/"
    ]
   ],
   "visiteurs": null,
@@ -4268,20 +4298,42 @@
   "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 23 au 25 juillet ; le site officiel annonce « rendez-vous en 2027 » sans dates.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices": [
+   [
+    "Billets soirée, pass et tarifs jeunes",
+    "publiés sur la billetterie officielle"
+   ],
+   [
+    "Formule VIP 2026 (vendredi ou samedi)",
+    "276 € par personne"
+   ]
+  ],
+  "prices_note": "Le site officiel publiait en 2026 des billets à la soirée, des pass et des tarifs jeunes, sans grille lisible depuis notre recherche ; seule la formule VIP est chiffrée. Tarifs 2027 non annoncés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de jazz de Nice, organisé en juillet.",
   "access": [],
-  "tips": [],
+  "tips": [
+   "Toute sortie est définitive",
+   "Pique-niques, sièges pliables, appareils photo et caméras sont refusés à l'entrée",
+   "Paiement en espèces ou par carte sur les stands, mais pas de distributeur dans l'enceinte",
+   "Pas d'âge minimum, mais le festival déconseille de venir avec des enfants de moins de 3 ans ; poussettes acceptées"
+  ],
   "official": "https://www.nicejazzfest.fr/en/",
   "sources": [
    [
     "Site officiel",
     "https://www.nicejazzfest.fr/en/"
+   ],
+   [
+    "Nice Jazz Fest : FAQ officielle",
+    "https://www.nicejazzfest.fr/fr/faq"
+   ],
+   [
+    "Nice Jazz Fest : expérience VIP",
+    "https://nicejazzfest.fr/en/vip"
    ]
   ],
   "visiteurs": null,
@@ -4302,26 +4354,65 @@
   "mois": [
    "août"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : des sites agrégateurs annoncent du 19 au 22 août 2027, non vérifié sur le site officiel.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "dates": "19 – 22 août 2027",
+  "iso": [
+   "2027-08-19",
+   "2027-08-22"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 publiées sur le site officiel : du jeudi 19 au dimanche 22 août 2027, site de Kerampuilh à Carhaix.",
+  "price_from": 82.0,
+  "price_label": "dès 82 € le pass 1 jour (2027)",
+  "prices": [
+   [
+    "Pass 1 jour 2027 (journée au choix)",
+    "82 €"
+   ],
+   [
+    "Pass 4 jours 2027, palier Regular",
+    "239 €"
+   ],
+   [
+    "Pass 4 jours 2027, Early Bird 3",
+    "228 € (presque épuisé)"
+   ],
+   [
+    "Pass 4 jours 2027, Early Bird 1 et 2",
+    "198 € et 218 €, épuisés"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027, hors frais de location, publiés sur le site officiel : le prix du pass 4 jours monte par paliers, mieux vaut l'acheter tôt.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de metal en Bretagne, à Saint-Nolff, dans le Morbihan.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Gare de Carhaix à environ 10 minutes à pied du site",
+   "Navette gratuite entre le camping municipal et le festival",
+   "Cars Ontours avec ou sans pass, au départ de Paris, Rennes, Nantes, Le Mans, Laval, Vannes et Lanester"
+  ],
+  "tips": [
+   "Le pass 4 jours se vend par paliers de prix : les premiers partent dès l'automne",
+   "Le pass 4 jours a été proche de la rupture en 2026 : ne pas attendre l'été"
+  ],
   "official": "https://www.motocultor-festival.com/",
   "sources": [
    [
     "Agrégateur : 19-22 août 2027 (non officiel)",
     "https://www.musicfestivalwizard.com/festivals/motocultor-festival-2027/"
+   ],
+   [
+    "Motocultor : site officiel (dates et tarifs 2027)",
+    "https://www.motocultor-festival.com/"
+   ],
+   [
+    "Motocultor sur Instagram : comment venir",
+    "https://www.instagram.com/p/DbORxQZFkuY/"
+   ],
+   [
+    "Ontours : bus pour le Motocultor",
+    "https://www.ontours.fr/motocultor-festival-p4676.html"
    ]
   ],
   "visiteurs": null,
@@ -4443,17 +4534,29 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates 2027 annoncées par le festival sur sa page Facebook officielle.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 44.0,
+  "price_label": "dès 44 € le billet jour (2026)",
+  "prices": [
+   [
+    "Billet 1 jour 2026",
+    "à partir de 44 €"
+   ],
+   [
+    "Pass 4 jours 2026",
+    "160 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 publiés sur le site officiel ; ceux de 2027 ne sont pas encore annoncés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de blues et de musiques afro-américaines, à Cognac et à Jarnac, en Charente.",
   "access": [],
-  "tips": [],
+  "tips": [
+   "Le festival se répartit entre Cognac (Jardin public, place François-Ier, château) et Jarnac : vérifier le lieu de chaque soirée avant de partir",
+   "Le pass 4 jours revient moins cher que quatre billets jour"
+  ],
   "official": "https://www.bluespassions.com/",
   "sources": [
    [
@@ -4463,6 +4566,10 @@
    [
     "Office de tourisme",
     "https://www.destination-cognac.com/en/event/cognac-blues-passions/"
+   ],
+   [
+    "Cognac Blues Passions : programmation et tarifs 2026",
+    "https://bluespassions.com/programmation-2026/"
    ]
   ],
   "visiteurs": null,
@@ -4614,22 +4721,59 @@
   "iso": null,
   "status": "Dates à confirmer",
   "status_note": "Dates 2027 pas encore confirmées par l'organisateur : le calendrier 2027 n'a pas été relevé. Le festival se tient en été.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 5.0,
+  "price_label": "de 5 à 80 € le concert (2026)",
+  "prices": [
+   [
+    "Concerts du soir au parc de Florans, tarif A (catégories 1+ à 3)",
+    "80 €, 60 €, 45 € ou 35 €"
+   ],
+   [
+    "Tarif B",
+    "de 27 € à 70 €"
+   ],
+   [
+    "Tarif C",
+    "de 20 € à 60 €"
+   ],
+   [
+    "Tarifs uniques D, E, G, H",
+    "22 €, 33 €, 40 € ou 5 €"
+   ],
+   [
+    "Moins de 30 ans et tarif solidaire (RSA, AAH, ASS, ASPA)",
+    "–50 % sur tous les tarifs"
+   ],
+   [
+    "Tarif Famille : moins de 18 ans",
+    "gratuit pour toute place plein tarif achetée"
+   ],
+   [
+    "Navette",
+    "6 €"
+   ]
+  ],
+  "prices_note": "Grille de l'édition 2026 publiée sur la billetterie officielle. Les tarifs 2027 ne sont pas encore annoncés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival international de piano créé en 1981, en Provence.",
   "access": [],
-  "tips": [],
+  "tips": [
+   "Moins de 30 ans : moitié prix sur tout, soit un concert du soir au parc dès 10 €",
+   "Un enfant de moins de 18 ans entre gratuitement avec chaque place plein tarif (sur justificatif)",
+   "Plateau-repas réservable avec le billet (27 € en 2026)"
+  ],
   "official": "https://www.festival-piano.com/",
   "sources": [
    [
     "Site officiel",
     "https://www.festival-piano.com/"
+   ],
+   [
+    "Festival de La Roque-d'Anthéron : informations billetterie (2026)",
+    "https://www.festival-piano.com/fpr_editorial/informations-billetterie-2/"
    ]
   ],
   "visiteurs": null,
@@ -4659,22 +4803,55 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates 2027 annoncées par le site officiel.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 29.0,
+  "price_label": "dès 29 € le billet Village (2026)",
+  "prices": [
+   [
+    "Billet Village 2026 (Village Francofou), par jour",
+    "29 €"
+   ],
+   [
+    "Pass Village 3 jours 2026",
+    "69 € (49 € pour les Spadois)"
+   ],
+   [
+    "Billet Royal 2026 (scène Pierre-Rapsat + Village), par jour",
+    "dès 69 €"
+   ],
+   [
+    "Pass Royal 3 jours 2026",
+    "159 €, en quantité très limitée"
+   ],
+   [
+    "Concerts en salle au Casino de Spa",
+    "prix selon l'artiste"
+   ],
+   [
+    "Moins de 12 ans (billet Village)",
+    "gratuit"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 annoncés par le festival et relayés par la RTBF. Les tarifs 2027 ne sont pas encore publiés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de chanson francophone et de musiques actuelles, à Spa.",
   "access": [],
-  "tips": [],
+  "tips": [
+   "Trois billets différents : Royal (grande scène et Village), Village (Village Francofou seulement) et Casino (concerts en salle, 1 000 places par soir)",
+   "Des concerts gratuits sont aussi programmés dans le centre de Spa",
+   "Pass 3 jours moins cher pour les habitants de Spa"
+  ],
   "official": "https://francofolies.be/",
   "sources": [
    [
     "Site officiel",
     "https://francofolies.be/"
+   ],
+   [
+    "RTBF : changements et tarifs des Francofolies de Spa 2026",
+    "https://www.rtbf.be/article/francofolies-de-spa-plusieurs-changements-annonces-pour-l-edition-2026-11626064"
    ]
   ],
   "visiteurs": null,
