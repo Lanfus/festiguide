@@ -6928,10 +6928,13 @@
   "mois": [
    "mai"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 14 au 16 mai 2027. À vérifier sur le site de l'organisateur.",
+  "dates": "14 – 16 mai 2027",
+  "iso": [
+   "2027-05-14",
+   "2027-05-16"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 relevées sur la billetterie Shotgun du festival : du vendredi 14 mai 2027 (19 h) au lundi 17 mai (4 h), à la Friche la Belle de Mai, Marseille, soit les nuits du 14 au 16 mai.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -6945,6 +6948,10 @@
   "tips": [],
   "official": "https://www.musicfestivalwizard.com/festivals/festival-le-bon-air-2027/",
   "sources": [
+   [
+    "Shotgun : billetterie Festival Le Bon Air 2027",
+    "https://shotgun.live/en/festivals/festival-le-bon-air-2027"
+   ],
    [
     "Fiche Music Festival Wizard (non officiel)",
     "https://www.musicfestivalwizard.com/festivals/festival-le-bon-air-2027/"
@@ -7019,7 +7026,7 @@
   "dates": "À confirmer",
   "iso": null,
   "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 28 au 30 mai 2027. À vérifier sur le site de l'organisateur.",
+  "status_note": "Dates 2027 (28 au 30 mai, Toul et Dommartin-lès-Toul) relevées sur l'agrégateur Music Festival Wizard et sur un article de presse locale (info-lux, 18/11/2026) qui cite les communiqués du festival ; le site officiel n'a pas pu être consulté : non officiel tant que non vérifié sur jardin-du-michel.fr.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],

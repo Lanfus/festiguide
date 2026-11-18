@@ -31,6 +31,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Papillons de Nuit](https://lanfus.github.io/festiguide/papillons-de-nuit.html): Saint-Laurent-de-Cuves (Manche), 14 – 16 mai 2027
 - [Art Rock](https://lanfus.github.io/festiguide/art-rock.html): Saint-Brieuc (Côtes-d'Armor), 14 – 16 mai 2027
 - [Extrema Outdoor](https://lanfus.github.io/festiguide/extrema-outdoor.html): Houthalen-Helchteren, 14 – 16 mai 2027
+- [Festival Le Bon Air](https://lanfus.github.io/festiguide/festival-le-bon-air.html): Marseille, 14 – 16 mai 2027
 - [Les Nuits Botanique](https://lanfus.github.io/festiguide/les-nuits-botanique.html): Bruxelles, 15 – 30 mai 2027
 - [Jazz Middelheim](https://lanfus.github.io/festiguide/jazz-middelheim.html): Anvers, 15 – 17 mai 2027
 - [Marvellous Island Festival](https://lanfus.github.io/festiguide/marvellous-island.html): Paris, 15 – 16 mai 2027
@@ -86,7 +87,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Rampage](https://lanfus.github.io/festiguide/rampage.html): Anvers, À confirmer
 - [Jazz à Saint-Germain-des-Prés](https://lanfus.github.io/festiguide/jazz-a-saint-germain-des-pres.html): Paris, À confirmer
 - [Les 3 Éléphants](https://lanfus.github.io/festiguide/les-3-elephants.html): Laval, À confirmer
-- [Festival Le Bon Air](https://lanfus.github.io/festiguide/festival-le-bon-air.html): Marseille, À confirmer
 - [Le Jardin du Michel](https://lanfus.github.io/festiguide/le-jardin-du-michel.html): Nancy, À confirmer
 - [Horst Music Festival](https://lanfus.github.io/festiguide/horst-music-festival.html): Bruxelles, À confirmer
 - [Solidays](https://lanfus.github.io/festiguide/solidays.html): Paris (Hippodrome de Longchamp), Juin 2027 (dates à confirmer)

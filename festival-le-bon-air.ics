@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-le-bon-air-20270514@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270517
+SUMMARY:Festival Le Bon Air
+LOCATION:Marseille
+DESCRIPTION:Fiche FestiGuide : https://lanfus.github.io/festiguide/festival-le-bon-air.html
+URL:https://www.musicfestivalwizard.com/festivals/festival-le-bon-air-2027/
+END:VEVENT
+END:VCALENDAR
