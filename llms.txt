@@ -49,7 +49,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique dans les Pays de la Loire](https://lefestiguide.fr/festivals-musique-pays-de-la-loire.html): 7 festivals
 - [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lefestiguide.fr/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
 - [Festivals de musique en Wallonie](https://lefestiguide.fr/festivals-musique-wallonie.html): 6 festivals
-- [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 25 festivals
+- [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 27 festivals
 - [Festivals en mars en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-mars-auvergne-rhone-alpes.html): 5 festivals
 - [Festivals en juillet en Bretagne](https://lefestiguide.fr/festivals-juillet-bretagne.html): 6 festivals
 - [Festivals en juillet en Flandre](https://lefestiguide.fr/festivals-juillet-flandre.html): 9 festivals
@@ -126,6 +126,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Vieilles Charrues](https://lefestiguide.fr/vieilles-charrues.html): Carhaix-Plouguer (Finistère), 15 – 18 juillet 2027
 - [Les Francofolies de Spa](https://lefestiguide.fr/francofolies-de-spa.html): Spa, 16 – 18 juillet 2027
 - [Festival de Cornouaille](https://lefestiguide.fr/festival-de-cornouaille.html): Quimper (Finistère), 22 – 25 juillet 2027
+- [Les Nuits Secrètes](https://lefestiguide.fr/les-nuits-secretes.html): Aulnoye-Aymeries, 23 – 25 juillet 2027
 - [Festival Interceltique de Lorient](https://lefestiguide.fr/festival-interceltique-de-lorient.html): Lorient (Morbihan), 30 juillet – 8 août 2027
 - [Festival du Bout du Monde](https://lefestiguide.fr/festival-du-bout-du-monde.html): Crozon, 30 juillet – 1 août 2027
 - [Au Pont du Rock](https://lefestiguide.fr/au-pont-du-rock.html): Malestroit, 30 – 31 juillet 2027
@@ -171,7 +172,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Nice Jazz Festival](https://lefestiguide.fr/nice-jazz-festival.html): Nice, À confirmer
 - [Chorégies d'Orange](https://lefestiguide.fr/choregies-d-orange.html): Orange, À confirmer
 - [Festival de La Roque-d'Anthéron](https://lefestiguide.fr/la-roque-d-antheron.html): La Roque-d'Anthéron, À confirmer
-- [Les Nuits Secrètes](https://lefestiguide.fr/les-nuits-secretes.html): Aulnoye-Aymeries, À confirmer
 - [Festival Radio France Occitanie Montpellier](https://lefestiguide.fr/festival-radio-france-montpellier.html): Montpellier, À confirmer
 - [Cactus Festival](https://lefestiguide.fr/cactus-festival.html): Bruges, À confirmer
 - [Les Suds, à Arles](https://lefestiguide.fr/les-suds-a-arles.html): Arles, À confirmer

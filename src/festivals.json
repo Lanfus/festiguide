@@ -5038,26 +5038,59 @@
   "mois": [
    "juillet"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : des sites agrégateurs annoncent du 23 au 25 juillet 2027, non vérifié sur le site officiel.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "dates": "23 – 25 juillet 2027",
+  "iso": [
+   "2027-07-23",
+   "2027-07-25"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "25e édition. La billetterie officielle, ouverte le 19 novembre 2026, vend les journées du vendredi 23, samedi 24 et dimanche 25 (juillet 2027) ; Theodora est le premier nom annoncé.",
+  "price_from": 40.0,
+  "price_label": "dès 40 € le billet jour (2027)",
+  "prices": [
+   [
+    "Samedi 24 juillet 2027, tarif early bird",
+    "40 € (puis 50 €)"
+   ],
+   [
+    "Pass 2 jours samedi + dimanche, early bird",
+    "70 € (puis 90 €)"
+   ],
+   [
+    "Pass 3 jours, early bird",
+    "100 € (puis 110 €)"
+   ],
+   [
+    "Enfants jusqu'à 10 ans et accompagnant d'une personne handicapée",
+    "gratuit, billet exonéré à retirer"
+   ],
+   [
+    "Camping",
+    "pass camping à réserver à part"
+   ]
+  ],
+  "prices_note": "Tarifs early bird de l'édition 2027, hors frais de service, publiés sur la billetterie officielle : ils augmentent par paliers. Tarifs réduits pour les habitants d'Aulnoye-Aymeries et remise pour les groupes de 4 à 6.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de découvertes musicales à Aulnoye-Aymeries, dans le Nord.",
   "access": [],
-  "tips": [],
+  "tips": [
+   "Les prix montent par paliers : acheter dès l'ouverture de la billetterie",
+   "Paiement en 3 fois sans frais ; Pass Culture, chèques vacances ANCV et chèques culture acceptés",
+   "Billets nominatifs : n'acheter que via le Pass Culture, Francebillet, Ticketmaster, Shotgun ou les points de vente officiels",
+   "Cagnotte « Nuits suspendues » : tu peux offrir une place à quelqu'un qui n'en a pas les moyens"
+  ],
   "official": "https://www.lesnuitssecretes.com/",
   "sources": [
    [
     "Agrégateur : 23-25 juillet 2027 (non officiel)",
     "https://www.raveparty.fr/en/festival/les-nuits-secretes"
+   ],
+   [
+    "Les Nuits Secrètes : billetterie officielle 2027",
+    "https://lesnuitssecretes.com/billetterie/"
    ]
   ],
   "visiteurs": null,
@@ -5436,14 +5469,24 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non publiés. En 2026, la soirée du Manoir de Keroual avait un tarif réduit (étudiants de moins de 26 ans, demandeurs d'emploi, minima sociaux) et un tarif moins cher pour une entrée avant 20 h 30 ; toute l'offre était aussi sur le Pass Culture.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de musiques électroniques à Brest, avec une édition d'hiver et une édition d'été.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Offre TER BreizhGo Astropolis : 19 € l'aller-retour vers Brest depuis toute la Bretagne (édition d'été 2026), en ligne uniquement",
+   "TGV : Paris – Brest en 3 h 45 environ ; cars BreizhGo à 2,50 € (2 € pour les moins de 26 ans)",
+   "Navettes Bibus du centre de Brest (place Fautras) vers le Manoir de Keroual, toutes les 5 à 20 minutes en soirée",
+   "En voiture : parking du Parc des expositions de Penfeld, puis 30 minutes à pied ; vans et camping-cars autorisés"
+  ],
+  "tips": [
+   "Compter environ 1 h 15 entre le centre de Brest et le Manoir de Keroual en navette",
+   "Billet « entrée avant 20 h 30 » au Manoir : après cette heure, il faut payer un supplément de 15 €",
+   "Cashless : le solde non utilisé se rembourse en ligne pendant quelques semaines après le festival",
+   "Les événements du centre-ville se rejoignent à pied ou en tram"
+  ],
   "official": "https://astropolis.org/",
   "sources": [
    [
@@ -5453,6 +5496,14 @@
    [
     "Facebook officiel",
     "https://www.facebook.com/festival.astropolis/"
+   ],
+   [
+    "Astropolis : billetterie et FAQ",
+    "https://astropolis.org/billetterie/"
+   ],
+   [
+    "Astropolis : infos pratiques (été)",
+    "https://astropolis.org/infos-pratiques-ete/"
    ]
   ],
   "visiteurs": null,
@@ -5571,17 +5622,48 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates 2027 données par le site officiel.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
-  "last_label": "",
+  "price_from": 32.0,
+  "price_label": "dès 32 € la soirée (2027)",
+  "prices": [
+   [
+    "Pass 2 jours",
+    "61 € (tarif blind), puis 68 € (early)"
+   ],
+   [
+    "Vendredi",
+    "32 € (blind), puis 39 €"
+   ],
+   [
+    "Samedi",
+    "35 € (blind), puis 42 €"
+   ]
+  ],
+  "prices_note": "Tarifs hors frais affichés sur la billetterie officielle de l'édition 2027 ; les prix montent après le palier « blind ».",
+  "last_label": "Édition 2027",
   "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
+  "lineup": [
+   "Nina Kraviz",
+   "Cassius (DJ set)",
+   "Chloé (DJ set)",
+   "Acid Pach",
+   "Roland Cristal",
+   "Danse Musique Rhône-Alpes",
+   "Britney Speed"
+  ],
+  "lineup_note": "Premiers noms 2027 publiés sur le site officiel, liste partielle.",
   "about": "Festival de rap et d'électro à Morlaix, dans le quartier de la Manufacture.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Gare de Morlaix à 10 minutes à pied du festival",
+   "Navettes gratuites la nuit dans Morlaix et vers le camping partenaire de Kerroyal (Garlan)",
+   "Stationnement vélo sur les quais du Léon"
+  ],
+  "tips": [
+   "Les soirées du vendredi et du samedi sont interdites aux moins de 18 ans",
+   "Portes ouvertes de 19 h à 5 h (fin du son à 4 h 30) ; contrôle des sacs à l'entrée, arriver en avance",
+   "Paiement cashless, à recharger de préférence avant le festival",
+   "Gourde de 50 cl maximum, vide ; verre, canettes, aérosols et gros sacs interdits",
+   "Camping de Kerroyal à réserver par téléphone, paiement sans carte bancaire ; auberge de jeunesse à 100 m du site"
+  ],
   "official": "https://www.festivalpanoramas.com/",
   "sources": [
    [
@@ -5591,6 +5673,14 @@
    [
     "Tourisme Bretagne",
     "https://www.brittanytourism.com/matching-what-i-want/culture-and-heritage/brittanys-main-events/panoramas-festival/"
+   ],
+   [
+    "Panoramas : billetterie officielle",
+    "https://www.festivalpanoramas.com/billetterie/"
+   ],
+   [
+    "Panoramas : informations pratiques",
+    "https://www.festivalpanoramas.com/informations/"
    ]
   ],
   "visiteurs": null,
@@ -5749,19 +5839,32 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non publiés : billets, offres VIP et Pass Culture sur la billetterie officielle.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de musique électronique en plein air à Montpellier, fondé il y a 15 ans.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Parc des expositions de Montpellier (Pérols) : tram ligne 3 direction Pérols Étang de l'Or, arrêt Parc Expo, depuis le centre et la gare Saint-Roch",
+   "En voiture : A709 sortie 29 Montpellier-Est, puis D66 direction Carnon ; grands parkings gratuits (entrée A), parkings vélos et motos",
+   "Aéroport de Montpellier à 5 minutes du site"
+  ],
+  "tips": [
+   "En 2026, ouverture de 12 h à 2 h, avec fin du contrôle d'accès à 23 h",
+   "Glacière et pique-nique autorisés, mais pas de couverts en métal ni de boissons (sauf eau pour les parents venus avec des enfants)",
+   "Paiement par carte sans contact ou cashless : pas d'espèces aux bars, une banque cashless échange le liquide",
+   "Pas de camping du festival au Parc Expo : campings à Pérols, Mauguio ou Lattes"
+  ],
   "official": "https://www.familypiknikfestival.com/",
   "sources": [
    [
     "Site officiel",
     "https://www.familypiknikfestival.com/"
+   ],
+   [
+    "Family Piknik : infos pratiques",
+    "https://www.familypiknikfestival.com/infos-pratiques"
    ]
   ],
   "visiteurs": null,
@@ -6956,14 +7059,24 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non publiés. Le festival vend des billets 1 jour et des forfaits 3 jours, qui donnent accès à tous les concerts et animations des jours choisis.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de chants de marins à Paimpol. 17e édition en 2027, sur le thème « de la mer Noire à la Baltique ».",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Train : TGV jusqu'à Guingamp (depuis Paris ou Brest), puis TER Guingamp – Paimpol en 30 minutes",
+   "Car BreizhGo depuis Saint-Brieuc ou Lannion",
+   "Parkings en périphérie avec navettes vers le site, parkings camping-cars, parking PMR à la Corne de la Gare",
+   "Parkings vélo à chaque entrée, avec consigne pour casques et batteries quai Neuf"
+  ],
+  "tips": [
+   "Pas de camping du festival : camping municipal de Paimpol à réserver tôt, sinon s'éloigner de la ville",
+   "Chiens interdits sur le site (sauf chiens guides)",
+   "Revente des billets sur TicketSwap",
+   "Enfants de moins de 12 ans gratuits dans les TER BreizhGo avec un adulte payant"
+  ],
   "official": "https://www.paimpol-festival.bzh/",
   "sources": [
    [
@@ -6973,6 +7086,14 @@
    [
     "Facebook officiel",
     "https://www.facebook.com/paimpolfestival/"
+   ],
+   [
+    "Festival du Chant de Marin : FAQ",
+    "https://www.paimpol-festival.bzh/infos-pratiques/f-a-q/"
+   ],
+   [
+    "Festival du Chant de Marin : venir à Paimpol",
+    "https://www.paimpol-festival.bzh/infos-pratiques/venir-a-paimpol/"
    ]
   ],
   "visiteurs": null,
@@ -7001,19 +7122,32 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "La plupart des animations sont en accès libre ; la Grande Parade du dimanche est payante, avec des billets vendus uniquement sur place (offices de tourisme du secteur, Espace Culturel E.Leclerc de Concarneau, Chalet des Filets Bleus), jamais en ligne. Tarifs 2027 non publiés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Fête de la culture bretonne à Concarneau, avec parade et concerts.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Parking relais P1 rue René-Madec (à côté d'Intersport) avec navette gratuite vers le centre-ville, toutes les 20 minutes de 9 h 25 à 23 h 20 pendant le festival (édition 2026)",
+   "Le dimanche de la Grande Parade, navettes du festival depuis les parkings E.Leclerc, Bricocash et Sables-Blancs",
+   "Bac « Le Passage » ouvert tard pendant le festival : 1,50 € le ticket, 8 € le carnet de 10 (2026)",
+   "Parking du Lin réservé aux personnes à mobilité réduite"
+  ],
+  "tips": [
+   "Billets de la Grande Parade : pas de vente en ligne, à acheter dès leur mise en vente fin juillet",
+   "Centre-ville fermé aux voitures en soirée pendant le festival : laisser la voiture au parking relais",
+   "Le Chalet des Filets Bleus, quai d'Aiguillon, vend billets, badges de soutien et affiche, et prend les inscriptions pour défiler à la Grande Parade"
+  ],
   "official": "https://www.festivaldesfiletsbleus.bzh/",
   "sources": [
    [
     "Site officiel",
     "https://www.festivaldesfiletsbleus.bzh/"
+   ],
+   [
+    "Festival des Filets Bleus : infos pratiques",
+    "https://www.festivaldesfiletsbleus.bzh/infos.html"
    ]
   ],
   "visiteurs": null,
