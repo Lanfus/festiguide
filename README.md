@@ -80,6 +80,41 @@ Ce qui est mesuré : pages vues, provenance, appareil, pays, et les clics sur **
 
 Ensuite : une liste segmentée par festival (`FESTIVAL`) et par style (`STYLE`), et une campagne envoyée à un segment quand des dates passent à « confirmées » dans `festivals.json`.
 
+## Passer sur un vrai nom de domaine
+
+Tout est prêt dans le code : il suffit de remplir `DOMAINE` en haut de `src/build.py`. L'hébergement reste GitHub Pages, gratuit. Seul le domaine se paie (environ 7 à 15 € par an). Libres au 18/11/2026 : `lefestiguide.fr`, `monfestiguide.fr`, `festi-guide.fr`, `festiguide.info` (`festiguide.fr` et `.com` sont pris).
+
+**Ordre à respecter**, sinon le site est coupé le temps que les DNS se propagent :
+
+1. **Acheter le domaine** chez un registrar (OVH, Gandi, Infomaniak…).
+2. **Prouver à GitHub que le domaine est à toi** (évite qu'un autre compte le détourne) : GitHub › Settings (du compte) › Pages › *Add a domain*. GitHub donne un enregistrement `TXT` à créer chez le registrar, puis *Verify*.
+3. **Zone DNS chez le registrar** (supprimer d'abord les enregistrements `A`/`AAAA` par défaut qui pointent vers une page de parking) :
+
+   | Type | Nom | Valeur |
+   |---|---|---|
+   | A | `@` | `185.199.108.153` |
+   | A | `@` | `185.199.109.153` |
+   | A | `@` | `185.199.110.153` |
+   | A | `@` | `185.199.111.153` |
+   | AAAA | `@` | `2606:50c0:8000::153` |
+   | AAAA | `@` | `2606:50c0:8001::153` |
+   | AAAA | `@` | `2606:50c0:8002::153` |
+   | AAAA | `@` | `2606:50c0:8003::153` |
+   | CNAME | `www` | `lanfus.github.io.` |
+
+   Vérifier la propagation (de quelques minutes à quelques heures) : `nslookup lefestiguide.fr` doit renvoyer les quatre adresses `185.199.x.153`.
+4. **Basculer le site** : mettre `DOMAINE = "lefestiguide.fr"` dans `src/build.py`, régénérer, publier. `build.py` écrit le fichier `CNAME` ; toutes les adresses (canonical, Open Graph, sitemap, `llms.txt`, robots) passent sur le nouveau domaine. GitHub redirige alors automatiquement `lanfus.github.io/festiguide/…` vers `lefestiguide.fr/…` (redirection 301 : Google transfère le référencement).
+5. **HTTPS** : dépôt › Settings › Pages, attendre que le certificat soit émis, puis cocher *Enforce HTTPS*.
+6. **Search Console** : ajouter une propriété *Domaine* pour `lefestiguide.fr` (validation par un `TXT` chez le registrar), soumettre `https://lefestiguide.fr/sitemap.xml`. Garder l'ancienne propriété : elle montrera la redirection.
+7. **Brevo** :
+   - formulaire « FestiGuide - Alertes » › Paramètres : remplacer les deux URL de redirection par `https://lefestiguide.fr/inscription-envoyee.html` et `…/inscription-confirmee.html` ;
+   - automatisation « Message de bienvenue », e-mail #7 : remplacer `lanfus.github.io/festiguide` par `lefestiguide.fr` dans les liens ;
+   - conseillé : créer une adresse `contact@lefestiguide.fr` (souvent incluse avec le domaine), l'utiliser comme expéditeur et **authentifier le domaine** dans Brevo › Paramètres › Expéditeurs, domaines (enregistrements DKIM, SPF et DMARC fournis par Brevo à copier chez le registrar). Envoyer depuis une adresse Gmail via Brevo fait souvent atterrir les e-mails en indésirables.
+8. **GoatCounter** : rien à changer, il compte les pages quel que soit le domaine. Refaire `#toggle-goatcounter` sur la nouvelle adresse pour ne pas compter tes visites.
+9. Mettre à jour le lien en haut de ce README et la description du dépôt GitHub.
+
+Pour revenir en arrière : vider `DOMAINE`, régénérer et publier (le fichier `CNAME` est supprimé).
+
 ## Tableau de bord (à tenir chaque semaine)
 
 | Indicateur | Où le lire |

@@ -22,7 +22,11 @@ def ic(name):
     return f'<svg class="i" viewBox="0 0 24 24" aria-hidden="true">{ICONS[name]}</svg>'
 SITE = "FestiGuide"
 UPDATED = "17 novembre 2026"
-BASE_URL = "https://lanfus.github.io/festiguide"
+# Nom de domaine personnel (ex. "lefestiguide.fr"). Vide = le site reste sur lanfus.github.io/festiguide.
+# Ne le remplir qu'APRÈS avoir réglé les DNS chez le registrar (voir README › Passer sur un vrai nom de domaine) :
+# build.py écrit alors le fichier CNAME et GitHub redirige l'ancienne adresse vers la nouvelle.
+DOMAINE = ""
+BASE_URL = f"https://{DOMAINE}" if DOMAINE else "https://lanfus.github.io/festiguide"
 EDITEUR = "Florent H."
 CONTACT = "contact.festiguide@gmail.com"
 # ---------- à remplir par Florent (vide = fonctionnalité désactivée, rien n'est chargé ni affiché) ----------
@@ -606,6 +610,13 @@ def build(fests):
     build_guide(fests)
     if NEWSLETTER_ACTION:
         build_inscription()
+    build_404(fests)
+    # Fichiers propres à GitHub Pages : pas de traitement Jekyll, et le domaine personnel s'il est choisi.
+    (OUT / ".nojekyll").write_text("", encoding="utf-8")
+    if DOMAINE:
+        (OUT / "CNAME").write_text(DOMAINE + "\n", encoding="utf-8")
+    elif (OUT / "CNAME").exists():
+        (OUT / "CNAME").unlink()
     shutil.copy(Path(__file__).parent / "goatcounter.js", OUT / "goatcounter.js")
 
     # ---------- sitemap + robots ----------
@@ -778,6 +789,26 @@ def build_inscription():
 {foot()}</body></html>
 '''
         (OUT / slug).write_text(p, encoding="utf-8")
+
+
+def build_404(fests):
+    """Page affichée par GitHub Pages pour toute adresse inconnue (anciennes fiches retirées, faute de frappe).
+    <base> : la page peut être servie depuis n'importe quel chemin, les liens relatifs doivent partir de la racine du site."""
+    gros = sorted([f for f in fests if f.get("visiteurs")], key=lambda f: -f["visiteurs"])[:6]
+    liens = "".join(f'<li><a href="{f["slug"]}.html">{esc(f["name"])}</a></li>' for f in gros)
+    p = head(f"Page introuvable | {SITE}", "Cette page n'existe pas ou plus. Retrouve tous les festivals de musique sur FestiGuide.",
+             f"{BASE_URL}/404.html", '<meta name="robots" content="noindex">\n')
+    p = p.replace('<meta charset="utf-8">', f'<meta charset="utf-8">\n<base href="{BASE_URL}/">', 1)
+    p += f'''<main id="contenu" class="wrap legal">
+<h1>Page introuvable</h1>
+<p class="lead">Cette page n'existe pas ou plus. Le festival a peut-être été retiré de l'annuaire, ou l'adresse contient une faute de frappe.</p>
+<p><a class="btn" href="index.html">Voir tous les festivals</a> <a href="{GUIDE_SLUG}">Lire le guide sécurité</a></p>
+<h2>Les plus gros festivals</h2>
+<ul>{liens}</ul>
+</main>
+{foot()}</body></html>
+'''
+    (OUT / "404.html").write_text(p, encoding="utf-8")
 
 
 def legal_page(slug, title, desc, body):
