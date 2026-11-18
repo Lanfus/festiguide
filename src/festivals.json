@@ -4933,17 +4933,29 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Du 30 juin au 23 juillet 2027, portes à 18 h d'après la communauté de communes.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 35.0,
+  "price_label": "de 35 à 75 € la soirée (2026)",
+  "prices": [
+   [
+    "Soirées 2026, selon l'artiste",
+    "de 35 € à 75 €"
+   ],
+   [
+    "Concert hors site 2026 (clairière du Bois Chabot, 22 juillet)",
+    "54 €, sur réservation"
+   ]
+  ],
+  "prices_note": "Chaque soirée a son propre prix : fourchette de l'édition 2026 relevée par Vendée Tourisme. Programme et tarifs 2027 (40e édition) pas encore publiés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de concerts et de spectacles en Vendée. 40 ans d'existence en 2027.",
   "access": [],
-  "tips": [],
+  "tips": [
+   "Billets à la soirée, pas de pass : choisir ses dates selon la programmation",
+   "Certains concerts ont lieu hors du site de Poupet : vérifier le lieu indiqué sur le billet"
+  ],
   "official": "https://www.festival-poupet.com/",
   "sources": [
    [
@@ -4952,6 +4964,14 @@
    ],
    [
     "Vendée Bocage",
+    "https://www.vendeebocage.fr/temps-fort/festival-de-poupet/"
+   ],
+   [
+    "Vendée Tourisme : programmation 2026 du Festival de Poupet",
+    "https://www.vendee-tourisme.com/le-festival-de-poupet-devoile-sa-programmation-2026"
+   ],
+   [
+    "Vendée Bocage : Festival de Poupet",
     "https://www.vendeebocage.fr/temps-fort/festival-de-poupet/"
    ]
   ],
@@ -5161,7 +5181,7 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non publiés. Depuis 2026, un billet unique par jour donne accès à toutes les salles du jour.",
   "last_label": "Programmation 2027 (partielle)",
   "last_dates": "",
   "lineup": [
@@ -5171,7 +5191,10 @@
   "lineup_note": "Premiers noms annoncés par le festival pour 2027.",
   "about": "Festival du Botanique, au cœur de Bruxelles, depuis 1988. 34e édition en 2027.",
   "access": [],
-  "tips": [],
+  "tips": [
+   "Un seul billet par jour donne accès à toutes les salles et au chapiteau ce jour-là",
+   "Les billets se vendent jour par jour : les soirées des têtes d'affiche partent en premier"
+  ],
   "official": "https://www.lesnuits.be/",
   "sources": [
    [
@@ -5181,6 +5204,14 @@
    [
     "Botanique",
     "https://botanique.be/en/project/les-nuits-botanique"
+   ],
+   [
+    "Botanique : Les Nuits Botanique",
+    "https://botanique.be/fr/project/les-nuits-botanique"
+   ],
+   [
+    "Les Nuits Botanique : tickets",
+    "https://www.lesnuits.be/tickets"
    ]
   ],
   "visiteurs": null,
@@ -5209,17 +5240,31 @@
   ],
   "status": "Dates annoncées",
   "status_note": "Dates de la prochaine édition annoncées par la Ville de Toulouse (mise à jour du 14/11/2026). Programmation pas encore publiée.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_from": 12.0,
+  "price_label": "dès 12 € le pass 1 jour (2026)",
+  "prices": [
+   [
+    "Pass 1 jour 2026",
+    "12 €"
+   ],
+   [
+    "Pass 5 jours 2026",
+    "32 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2026 publiés dans les infos pratiques du site officiel ; ceux de 2027 ne sont pas encore annoncés.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de musiques actuelles et du monde sur la Prairie des Filtres, à Toulouse.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Prairie des Filtres, cours Dillon, en plein centre de Toulouse : accessible à pied depuis le centre-ville"
+  ],
+  "tips": [
+   "Le pass 5 jours revient presque au prix de trois jours : à prendre si tu viens plus de deux soirs",
+   "Des « blind pass » 5 jours sont vendus avant l'annonce de la programmation"
+  ],
   "official": "https://rio-loco.org/",
   "sources": [
    [
@@ -5229,6 +5274,10 @@
    [
     "Site officiel",
     "https://rio-loco.org/"
+   ],
+   [
+    "Rio Loco : infos pratiques (billetterie 2026)",
+    "https://rio-loco.org/infos-pratiques/"
    ]
   ],
   "visiteurs": null,
