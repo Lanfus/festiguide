@@ -3118,16 +3118,41 @@
   "status": "Dates annoncées",
   "status_note": "Dates 2027 données par le site officiel : du jeudi 1er au dimanche 4 juillet. Billetterie via Ticketmaster.",
   "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "price_label": "320 € le pass 4 jours ; 259 € le billet 2 jours (2027)",
+  "prices": [
+   [
+    "Pass 4 jours (1er au 4 juillet 2027)",
+    "320 €"
+   ],
+   [
+    "Billet 2 jours, deux jours au choix (quantité limitée)",
+    "259 €"
+   ],
+   [
+    "Backyard (zone confort derrière la scène principale), 1 jour",
+    "242 €"
+   ],
+   [
+    "Camping The Hive, emplacement avec sa propre tente",
+    "49 €"
+   ]
+  ],
+  "prices_note": "Édition 2027, tarifs relevés le 18/11/2026 sur la billetterie officielle. Prix TTC avec frais de service, contribution mobilité et éco-contribution. Les billets 1 jour et les parkings sont vendus séparément : voir la billetterie.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "L'un des plus gros festivals de rock et de pop d'Europe, organisé à Werchter, entre Louvain et Malines. Quatre jours de concerts avec camping sur place.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Chaque billet comprend l'aller-retour en train (2de classe) depuis n'importe quelle gare belge jusqu'à Louvain ou Aarschot, plus la navette du festival entre ces gares et Werchter.",
+   "Les billets de parking seront mis en vente plus tard (information du site officiel, novembre 2026)."
+  ],
+  "tips": [
+   "Achète uniquement via Ticketmaster, partenaire officiel : TicketSwap n'en est pas un, et un billet acheté hors circuit officiel peut être refusé à l'entrée.",
+   "Billets 100 % numériques : ouvre-les dans l'application Ticketmaster avant de partir, ils seront scannables sans connexion.",
+   "Festival sans espèces : bar et restauration se paient avec des « Coins », la monnaie numérique du festival.",
+   "Maximum 6 billets par commande. Revente sécurisée possible sur Ticketmaster à partir de fin novembre ; le camping The Hive ouvre le mercredi 30 juin à 14 h."
+  ],
   "official": "https://www.rockwerchter.be/en/",
   "sources": [
    [
@@ -3164,18 +3189,24 @@
    "2027-06-20"
   ],
   "status": "Dates annoncées",
-  "status_note": "Mise en vente des billets annoncée par l'organisateur le samedi 14 novembre 2026 à 10 h via Ticketmaster.",
+  "status_note": "Dates annoncées par l'organisateur : du 17 au 20 juin 2027, pour la 30e édition. Billets en vente depuis le 14 novembre 2026.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs de l'édition 2027 non relevés : la billetterie a ouvert le 14 novembre 2026, voir les prix sur le site officiel (graspop.be/en/tickets). Les prix incluent les frais de service ; le billet de train n'est pas compris.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
-  "lineup_note": "",
+  "lineup_note": "110 groupes confirmés pour 2027 d'après l'annonce du 14 novembre 2026 (dont 38 en première à Graspop). Liste complète sur le site officiel.",
   "about": "Grand rendez-vous européen du metal, à Dessel en province d'Anvers, sur quatre jours.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Quatre jours et cinq scènes à Dessel : le billet de train n'est pas inclus dans le prix d'entrée (billetterie Ticketmaster).",
+   "Le site officiel permet de réserver un hébergement en même temps que le billet."
+  ],
+  "tips": [
+   "Achète sur le site officiel ou via Ticketmaster, les revendeurs non officiels n'offrent aucune garantie.",
+   "Pour la 30e édition, 110 groupes sont déjà confirmés : compare le line-up complet avant de choisir un pass 4 jours ou un billet à la journée."
+  ],
   "official": "https://www.graspop.be/",
   "sources": [
    [
@@ -3185,6 +3216,10 @@
    [
     "Billetterie (Live Nation)",
     "https://www.livenation.be/event/graspop-metal-meeting-2027-dessel-tickets-edp1708307"
+   ],
+   [
+    "Annonce officielle de la billetterie 2027 (14 nov. 2026)",
+    "https://www.graspop.be/en/news/tickets-for-gmm2027-now-on-sale"
    ]
   ],
   "visiteurs": null,
@@ -3216,14 +3251,22 @@
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs de l'édition 2027 non publiés au 18/11/2026. Informations pratiques ci-dessous d'après la page billetterie officielle (édition 2026, 65e) : elles peuvent évoluer.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
   "about": "Festival de jazz en bord de mer, dans la pinède Gould de Juan-les-Pins. 66e édition en 2027.",
-  "access": [],
-  "tips": [],
+  "access": [
+   "Les portes de la Pinède Gould ouvrent à 18 h 30. Deux entrées : boulevard Baudoin côté Juan-les-Pins, et dans les jardins de la Pinède près du parc d'enfants.",
+   "Billets aux offices de tourisme d'Antibes (2 bis rue Fontvieille) et de Juan-les-Pins (60 chemin des Sables), et sur place à l'entrée de la Pinède côté ville les soirs de concert dès 18 h 30."
+  ],
+  "tips": [
+   "Le billet est personnel et nominatif : seuls ceux achetés sur le site officiel ou aux guichets des offices de tourisme sont valables.",
+   "Le tarif réduit (moins de 18 ans, étudiants, carte LOL1625) ne s'applique qu'aux places en tribune de catégorie 3, justificatif contrôlé à l'entrée.",
+   "Deux soirées sont offertes par la ville (le 14 juillet et la soirée gospel), sur invitation à demander à l'avance.",
+   "Places pour personnes à mobilité réduite : réservation auprès des offices de tourisme ou au +33 4 22 10 60 01."
+  ],
   "official": "https://jazzajuan.com/en/",
   "sources": [
    [
@@ -3233,6 +3276,10 @@
    [
     "Annonce des dates (Instagram officiel)",
     "https://www.instagram.com/jazzajuan/?hl=en"
+   ],
+   [
+    "Page billetterie officielle (édition 2026)",
+    "https://jazzajuan.com/informations-pratiques/informations-billetterie/"
    ]
   ],
   "visiteurs": null,
@@ -3393,14 +3440,17 @@
   "mois": [
    "août"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : des sites agrégateurs annoncent du 19 au 22 août 2027, mais je n'ai pas pu le vérifier sur le site officiel.",
+  "dates": "19 – 22 août 2027",
+  "iso": [
+   "2027-08-19",
+   "2027-08-22"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 données par le site officiel : du 19 au 22 août à Kiewit, Hasselt.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "prices_note": "Tarifs 2027 non relevés : voir la billetterie du site officiel.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
@@ -3410,6 +3460,10 @@
   "tips": [],
   "official": "https://www.pukkelpop.be/",
   "sources": [
+   [
+    "Site officiel (dates 2027)",
+    "https://www.pukkelpop.be/en/"
+   ],
    [
     "Agrégateur : 19-22 août 2027 (non officiel)",
     "https://festiplannr.com/festival/pukkelpop-2027"

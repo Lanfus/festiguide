@@ -116,6 +116,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Ronquières Festival](https://lanfus.github.io/festiguide/ronquieres-festival.html): Ronquières, 6 – 8 août 2027
 - [Festival de La Chaise-Dieu](https://lanfus.github.io/festiguide/festival-de-la-chaise-dieu.html): La Chaise-Dieu, 17 – 29 août 2027
 - [Le Cabaret Vert](https://lanfus.github.io/festiguide/cabaret-vert.html): Charleville-Mézières (Ardennes), 19 – 22 août 2027
+- [Pukkelpop](https://lanfus.github.io/festiguide/pukkelpop.html): Hasselt, 19 – 22 août 2027
 - [Les Rendez-vous de l'Erdre](https://lanfus.github.io/festiguide/rendez-vous-de-l-erdre.html): Nantes, 23 – 29 août 2027
 - [Nancy Jazz Pulsations](https://lanfus.github.io/festiguide/nancy-jazz-pulsations.html): Nancy, 2 – 16 octobre 2027
 - [Rock en Seine](https://lanfus.github.io/festiguide/rock-en-seine.html): Saint-Cloud (Hauts-de-Seine), 23 – 27 août 2028 (pas d'édition en 2027)
@@ -163,7 +164,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Paradise City](https://lanfus.github.io/festiguide/paradise-city.html): Perk, À confirmer
 - [Rampage Open Air](https://lanfus.github.io/festiguide/rampage-open-air.html): Lommel, À confirmer
 - [Ostend Beach Festival](https://lanfus.github.io/festiguide/ostend-beach-festival.html): Ostende, À confirmer
-- [Pukkelpop](https://lanfus.github.io/festiguide/pukkelpop.html): Hasselt, À confirmer
 - [Motocultor Festival](https://lanfus.github.io/festiguide/motocultor.html): Saint-Nolff, À confirmer
 - [Jazz à la Villette](https://lanfus.github.io/festiguide/jazz-a-la-villette.html): Paris, À confirmer
 - [Family Piknik](https://lanfus.github.io/festiguide/family-piknik.html): Montpellier, À confirmer
