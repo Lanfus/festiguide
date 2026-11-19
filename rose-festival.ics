@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:rose-festival-20270826@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270826
+DTEND;VALUE=DATE:20270829
+SUMMARY:Rose Festival
+LOCATION:MEETT\, parc des expositions de Toulouse\, Aussonne
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/rose-festival.html
+URL:https://rosefestival.fr
+END:VEVENT
+END:VCALENDAR
