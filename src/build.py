@@ -570,7 +570,21 @@ def build(fests):
                                              "addressRegion": f.get("region"),
                                              "addressCountry": "BE" if f.get("country") == "Belgique" else "FR"}},
                     "url": f.get("official")}
-            ld += '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + "</script>\n"
+            # Champs recommandés par Google (Search Console, « Événements ») : seulement avec des données sourcées.
+            annee = f["iso"][0][:4]
+            aff = AFFICHES.get(f["slug"]) and (AFFICHES_DIR / f'{f["slug"]}.webp').exists()
+            data["image"] = [f'{BASE_URL}/affiches/{f["slug"]}.webp' if aff else f"{BASE_URL}/og-image.png"]
+            if f.get("official"):
+                # Le site officiel est celui de l'organisateur : on le désigne par le nom du festival.
+                data["organizer"] = {"@type": "Organization", "name": f["name"], "url": f["official"]}
+            if f.get("lineup") and annee in (f.get("last_label") or ""):
+                # Line-up de l'édition datée uniquement (pas celui d'une édition passée)
+                data["performer"] = [{"@type": "PerformingGroup", "name": a} for a in f["lineup"]]
+            if is_free(f) or (f.get("price_from") is not None and annee in (f.get("price_label") or "")):
+                # Prix de l'édition datée uniquement : un tarif d'une édition passée n'est pas une offre
+                data["offers"] = {"@type": "Offer", "price": 0 if is_free(f) else f["price_from"], "priceCurrency": "EUR",
+                                  "url": f.get("official") or f'{BASE_URL}/{f["slug"]}.html'}
+            ld +='<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + "</script>\n"
         p = head(make_title(f), desc, f'{BASE_URL}/{f["slug"]}.html', ld)
         voisins = "".join(
             f'<li><a href="{g["slug"]}.html">{esc(g["name"])}</a><span class="small">{esc(g.get("city") or "")} · {esc(g.get("dates") or "Dates à confirmer")}</span></li>'
