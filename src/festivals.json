@@ -8943,5 +8943,98 @@
   "name": "WeCanDance",
   "city": "Zeebrugge",
   "country": "Belgique"
+ },
+ {
+  "short": "",
+  "region": "Occitanie",
+  "venue": "MEETT, parc des expositions de Toulouse, Aussonne",
+  "maps_q": "MEETT Parc des Expositions Aussonne",
+  "genres": [
+   "Rap",
+   "Pop",
+   "Électro"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "26 au 28 août 2027",
+  "iso": [
+   "2027-08-26",
+   "2027-08-28"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "6e édition, du jeudi 26 au samedi 28 août 2027 au MEETT d'Aussonne. Dates affichées sur le site et la billetterie officiels, annoncées par le festival sur ses réseaux le 5 octobre 2026. Aucun artiste n'est encore annoncé.",
+  "price_from": 169.0,
+  "price_label": "169 € le pass 3 jours Early (2027)",
+  "prices": [
+   [
+    "Pass 3 jours « Early Bird » 2027 (mis en vente le 6 octobre 2026, quantité très limitée)",
+    "150 €"
+   ],
+   [
+    "Pass 3 jours tarif Early 2027 (mis en vente le 10 novembre 2026)",
+    "169 €"
+   ],
+   [
+    "Pass 1 jour 2027",
+    "Pas encore annoncé"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027 : 150 € d'après La Dépêche, 169 € d'après le visuel publié sur le site officiel. La billetterie officielle indiquait « Pass early 3J sold out » à la mi-novembre 2026 : vérifier ce qui reste en vente avant d'acheter.",
+  "last_label": "Édition 2026",
+  "last_dates": "27 au 29 août 2026",
+  "lineup": [
+   "Aya Nakamura",
+   "DJ Snake",
+   "Macklemore",
+   "Kungs",
+   "Disiz",
+   "Zaho",
+   "Franglish",
+   "Bigflo & Oli"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026.",
+  "about": "Festival lancé en 2022 par le duo toulousain Bigflo & Oli, coproduit avec La Dépêche du Midi et Bleu Citron. Il réunit rap, pop et électro sur quatre scènes au parc des expositions de Toulouse, dont une réservée aux jeunes talents, et s'appuie sur une association qui mène des actions de médiation culturelle.",
+  "access": [],
+  "tips": [
+   "Les premiers pass 3 jours partent vite : surveille les ouvertures de billetterie annoncées sur le site et les réseaux officiels",
+   "Public très jeune : 84 % des festivaliers 2026 avaient moins de 30 ans selon le bilan publié",
+   "Entre deux éditions, le site officiel ne montre que sa page d'accueil : les infos pratiques 2027 seront publiées plus tard"
+  ],
+  "official": "https://rosefestival.fr",
+  "sources": [
+   [
+    "Rose Festival : site officiel",
+    "https://rosefestival.fr/"
+   ],
+   [
+    "Rose Festival : billetterie officielle 2027",
+    "https://tickets.rosefestival.fr/"
+   ],
+   [
+    "La Dépêche : dates 2027 et ouverture de la billetterie",
+    "https://www.ladepeche.fr/2026/10/05/rose-festival-2027-a-toulouse-les-dates-de-la-6e-edition-sont-enfin-connues-la-billetterie-ouvre-ce-mardi-avec-un-pass-3-jours-a-150-eur-13585010.php"
+   ],
+   [
+    "France 3 Occitanie : 120 000 festivaliers en 2026",
+    "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/c-est-vraiment-la-vie-en-rose-120-000-festivaliers-un-nouveau-record-de-frequentation-pour-le-rose-festival-3408587.html"
+   ],
+   [
+    "La Vie économique : bilan de la 5e édition",
+    "https://www.vie-economique.com/actualites/rose-festival-120-000-festivaliers-pour-la-cinquieme-edition/"
+   ]
+  ],
+  "visiteurs": 120000,
+  "visiteurs_note": "120 000 festivaliers sur trois jours pour l'édition 2026 (115 000 en 2025), chiffre du bilan relayé par France 3 Occitanie.",
+  "slug": "rose-festival",
+  "name": "Rose Festival",
+  "city": "Aussonne (Haute-Garonne)",
+  "country": "France",
+  "liens": [
+   [
+    "Application mobile officielle",
+    "https://app.fragolabs.com/7ca9fa12-7cda-4025-a5cf-7602800e8b20"
+   ]
+  ]
  }
 ]
