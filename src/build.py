@@ -584,6 +584,8 @@ def build(fests):
                 # Prix de l'édition datée uniquement : un tarif d'une édition passée n'est pas une offre
                 data["offers"] = {"@type": "Offer", "price": 0 if is_free(f) else f["price_from"], "priceCurrency": "EUR",
                                   "url": f.get("official") or f'{BASE_URL}/{f["slug"]}.html'}
+                if "épuis" in norm(f.get("price_label") or "") or "epuis" in norm(f.get("price_label") or ""):
+                    data["offers"]["availability"] = "https://schema.org/SoldOut"
             ld +='<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + "</script>\n"
         p = head(make_title(f), desc, f'{BASE_URL}/{f["slug"]}.html', ld)
         voisins = "".join(
