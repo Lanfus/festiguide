@@ -97,11 +97,18 @@ def norm(s):
 
 
 def tri_key(f):
+    """Ordre chronologique : date de début si elle est publiée, sinon mois habituel de la prochaine
+    occurrence (placé après les festivals datés du même mois), puis les festivals sans mois connu."""
     if f.get("iso"):
         return (0, f["iso"][0])
     mois = f.get("mois") or []
-    i = MOIS_ORDRE.index(mois[0]) if mois and mois[0] in MOIS_ORDRE else 99
-    return (1, f"{i:02d}")
+    if mois and mois[0] in MOIS_ORDRE:
+        import datetime
+        today = datetime.date.today()
+        m = MOIS_ORDRE.index(mois[0]) + 1
+        annee = today.year if m >= today.month else today.year + 1
+        return (0, f"{annee}-{m:02d}-99")
+    return (1, "")
 
 
 def is_free(f):
@@ -512,7 +519,8 @@ def build(fests):
     cards = ""
     date_pos = {f["slug"]: i for i, f in enumerate(fests)}
     by_size = sorted(fests, key=lambda f: (-(f.get("visiteurs") or 0), date_pos[f["slug"]]))
-    for f in by_size:
+    size_pos = {f["slug"]: i for i, f in enumerate(by_size)}
+    for f in fests:
         searchable = " ".join(filter(None, [f["name"], f.get("city"), f.get("region"), f.get("venue")]))
         prix = f.get("price_label") or "Tarifs non publiés"
         pn = prix_num(f)
@@ -523,7 +531,7 @@ def build(fests):
         if f.get("region") and f.get("region") not in (f.get("city") or ""):
             lieu += f' <span class="reg">· {esc(f["region"])}</span>'
         styles = " · ".join(esc(g) for g in (f.get("genres") or [])[:3])
-        cards += f'''<article class="card" data-i="{len(cards.split("</article>")) - 1}" data-d="{date_pos[f["slug"]]}" data-visit="{f.get("visiteurs") or ""}" data-price="{"" if pn is None else pn}" data-free="{1 if is_free(f) else 0}" data-name="{esc(norm(searchable))}" data-mois="{esc(" ".join(f.get("mois") or []))}" data-region="{esc(f.get("region") or "")}" data-genres="{esc("|".join(f.get("genres") or []))}">
+        cards += f'''<article class="card" data-i="{size_pos[f["slug"]]}" data-d="{date_pos[f["slug"]]}" data-visit="{f.get("visiteurs") or ""}" data-price="{"" if pn is None else pn}" data-free="{1 if is_free(f) else 0}" data-name="{esc(norm(searchable))}" data-mois="{esc(" ".join(f.get("mois") or []))}" data-region="{esc(f.get("region") or "")}" data-genres="{esc("|".join(f.get("genres") or []))}">
   {date_block(f)}
   <div class="what"><h3><a href="{f["slug"]}.html">{esc(f["name"])}</a></h3>
   <p class="meta">{lieu}</p>{('<p class="styles">' + styles + '</p>') if styles else ""}</div>
@@ -558,7 +566,7 @@ def build(fests):
 <select id="region" aria-label="Région"><option value="">Toutes les régions</option>{opt(regions)}</select>
 <select id="genre" aria-label="Genre"><option value="">Tous les genres</option>{opt(genres)}</select>
 <select id="budget" aria-label="Budget"><option value="">Tous les budgets</option><option value="free">Entrée libre</option><option value="30">Dès 30 € ou moins</option><option value="80">Dès 80 € ou moins</option></select>
-<select id="tri" aria-label="Trier"><option value="gros">Tri : les plus gros d'abord</option><option value="date">Tri : prochaine édition</option><option value="prix">Tri : prix croissant</option><option value="az">Tri : A → Z</option></select>
+<select id="tri" aria-label="Trier"><option value="date">Tri : date de début</option><option value="gros">Tri : les plus gros d'abord</option><option value="prix">Tri : prix croissant</option><option value="az">Tri : A → Z</option></select>
 </section>
 <section class="wrap quick" aria-label="Raccourcis">
 <div class="months" role="group" aria-label="Filtrer par mois">{months_html}</div>
@@ -573,7 +581,7 @@ def build(fests):
 <section class="wrap note explore"><h2>Explorer par mois, style ou lieu</h2>
 {nav_groups(defs)}</section>
 <section class="wrap note"><h2>Comment lire ces infos</h2>
-<p>Par défaut, les festivals sont classés du plus gros au moins gros d'après la <strong>fréquentation publiée</strong> de leur dernière édition (chaque fiche cite le chiffre, l'édition et la source). Ceux dont aucun chiffre fiable n'a été trouvé sont placés après, par date. Le tri « prochaine édition » les classe par date. Quand les dates ne sont pas encore officielles, la fiche affiche le mois habituel et la mention « Dates à confirmer ».</p>
+<p>Par défaut, les festivals sont classés par <strong>date de début</strong>, du plus proche au plus lointain. Ceux dont les dates ne sont pas encore annoncées sont placés à leur mois habituel. Le tri « les plus gros d'abord » les classe d'après la <strong>fréquentation publiée</strong> de leur dernière édition (chaque fiche cite le chiffre, l'édition et la source). Quand les dates ne sont pas encore officielles, la fiche affiche le mois habituel et la mention « Dates à confirmer ».</p>
 <p>Les prix et les affiches sont souvent ceux de la <strong>dernière édition connue</strong>, car peu de festivals publient leurs tarifs un an à l'avance. Chaque fiche précise l'édition de référence et cite ses sources.</p>
 </section>
 </main>
@@ -1071,7 +1079,7 @@ def build_legal(nb):
 </section>
 
 <section class="box"><h2>Classement et critères</h2>
-<p>Par défaut, la page d'accueil classe les festivals par fréquentation publiée de la dernière édition, du plus gros au plus petit, lorsqu'un chiffre sourcé existe ; les autres sont classés par date de prochaine édition. Vous pouvez aussi trier par date, par prix ou par ordre alphabétique. <strong>Aucun festival ne paie pour apparaître ou monter dans le classement</strong>, et les liens vers les sites officiels ne sont pas des liens d'affiliation. Si cela changeait, la mention serait ajoutée clairement sur les pages concernées.</p>
+<p>Par défaut, la page d'accueil classe les festivals par date de début de la prochaine édition, du plus proche au plus lointain (au mois habituel quand les dates ne sont pas encore annoncées). Vous pouvez aussi trier par fréquentation publiée, par prix ou par ordre alphabétique. <strong>Aucun festival ne paie pour apparaître ou monter dans le classement</strong>, et les liens vers les sites officiels ne sont pas des liens d'affiliation. Si cela changeait, la mention serait ajoutée clairement sur les pages concernées.</p>
 </section>
 
 <section class="box"><h2>Usage autorisé</h2>
