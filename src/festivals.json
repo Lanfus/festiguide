@@ -111,6 +111,10 @@
     "FAQ",
     "https://www.welovegreen.fr/faq/"
    ]
+  ],
+  "geo": [
+   48.8589,
+   2.347
   ]
  },
  {
@@ -208,6 +212,10 @@
     "Accessibilité",
     "https://www.solidays.org/festival/accessible-a-tous/"
    ]
+  ],
+  "geo": [
+   48.8589,
+   2.347
   ]
  },
  {
@@ -283,7 +291,11 @@
   "slug": "les-ardentes",
   "name": "Les Ardentes",
   "city": "Liège (Rocourt)",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.6754,
+   5.5518
+  ]
  },
  {
   "short": "",
@@ -385,6 +397,10 @@
     "Accessibilité",
     "https://www.festival-interceltique.bzh/accessibilite/"
    ]
+  ],
+  "geo": [
+   47.7494,
+   -3.3799
   ]
  },
  {
@@ -484,6 +500,10 @@
     "Accessibilité",
     "https://fete.humanite.fr/blog/accessibilite/"
    ]
+  ],
+  "geo": [
+   48.6054,
+   2.3404
   ]
  },
  {
@@ -576,6 +596,10 @@
     "Accessibilité",
     "https://hellfest.fr/accessibilite"
    ]
+  ],
+  "geo": [
+   47.0936,
+   -1.2654
   ]
  },
  {
@@ -680,6 +704,10 @@
     "Application mobile officielle",
     "https://app.fragolabs.com/3fd1b991-e5c9-4571-a62e-dea4a0c28081"
    ]
+  ],
+  "geo": [
+   48.2708,
+   -3.5654
   ]
  },
  {
@@ -771,6 +799,10 @@
     "Accessibilité",
     "https://www.eurockeennes.fr/accessibilite/"
    ]
+  ],
+  "geo": [
+   47.6458,
+   6.841
   ]
  },
  {
@@ -868,6 +900,10 @@
     "Accessibilité",
     "https://www.francofolies.fr/accessibilite-psh/"
    ]
+  ],
+  "geo": [
+   46.162,
+   -1.1765
   ]
  },
  {
@@ -956,7 +992,11 @@
   "slug": "rock-en-seine",
   "name": "Rock en Seine",
   "city": "Saint-Cloud (Hauts-de-Seine)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.844,
+   2.2032
+  ]
  },
  {
   "short": "",
@@ -1038,7 +1078,11 @@
   "slug": "lollapalooza-paris",
   "name": "Lollapalooza Paris",
   "city": "Paris (Hippodrome ParisLongchamp)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.8589,
+   2.347
+  ]
  },
  {
   "short": "",
@@ -1121,7 +1165,11 @@
   "slug": "garorock",
   "name": "Garorock",
   "city": "Marmande (Lot-et-Garonne)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   44.5014,
+   0.1689
+  ]
  },
  {
   "short": "",
@@ -1229,6 +1277,10 @@
     "Infos pratiques",
     "https://www.festivalbeauregard.com/infos-pratiques"
    ]
+  ],
+  "geo": [
+   49.2042,
+   -0.3324
   ]
  },
  {
@@ -1317,7 +1369,11 @@
   "slug": "papillons-de-nuit",
   "name": "Les Papillons de Nuit",
   "city": "Saint-Laurent-de-Cuves (Manche)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.7455,
+   -1.1094
+  ]
  },
  {
   "short": "",
@@ -1421,6 +1477,10 @@
     "Accessibilité",
     "https://www.musilac.com/accessibilite"
    ]
+  ],
+  "geo": [
+   45.6943,
+   5.9035
   ]
  },
  {
@@ -1535,6 +1595,10 @@
     "Accessibilité",
     "https://cabaretvert.com/accessibilite/"
    ]
+  ],
+  "geo": [
+   49.7802,
+   4.7304
   ]
  },
  {
@@ -1627,7 +1691,11 @@
   "slug": "main-square-festival",
   "name": "Main Square Festival",
   "city": "Arras (Pas-de-Calais)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   50.2893,
+   2.7679
+  ]
  },
  {
   "short": "",
@@ -1713,7 +1781,11 @@
   "slug": "nuits-de-fourviere",
   "name": "Les Nuits de Fourvière",
   "city": "Lyon (Rhône)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.758,
+   4.8351
+  ]
  },
  {
   "short": "",
@@ -1798,7 +1870,11 @@
   "slug": "jazz-a-vienne",
   "name": "Jazz à Vienne",
   "city": "Vienne (Isère)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.5221,
+   4.8803
+  ]
  },
  {
   "short": "",
@@ -1904,7 +1980,11 @@
   "slug": "jazz-in-marciac",
   "name": "Jazz in Marciac",
   "city": "Marciac (Gers)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.5209,
+   0.1544
+  ]
  },
  {
   "short": "",
@@ -1996,7 +2076,11 @@
   "slug": "printemps-de-bourges",
   "name": "Le Printemps de Bourges",
   "city": "Bourges (Cher)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   47.078,
+   2.3983
+  ]
  },
  {
   "short": "",
@@ -2096,7 +2180,11 @@
   "slug": "nuits-sonores",
   "name": "Nuits sonores",
   "city": "Lyon (Rhône)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.758,
+   4.8351
+  ]
  },
  {
   "short": "",
@@ -2184,7 +2272,11 @@
   "slug": "festival-de-cornouaille",
   "name": "Festival de Cornouaille",
   "city": "Quimper (Finistère)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   47.9982,
+   -4.0972
+  ]
  },
  {
   "short": "",
@@ -2270,7 +2362,11 @@
   "slug": "les-deferlantes",
   "name": "Les Déferlantes Sud de France",
   "city": "Le Barcarès (Pyrénées-Orientales)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   42.8118,
+   3.028
+  ]
  },
  {
   "short": "",
@@ -2360,7 +2456,11 @@
   "slug": "peacock-society",
   "name": "Peacock Society",
   "city": "Paris (Paris)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.8589,
+   2.347
+  ]
  },
  {
   "short": "",
@@ -2452,7 +2552,11 @@
   "slug": "dream-nation",
   "name": "Dream Nation",
   "city": "Villepinte (Seine-Saint-Denis)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.956,
+   2.5323
+  ]
  },
  {
   "short": "",
@@ -2540,7 +2644,11 @@
   "slug": "yardland-festival",
   "name": "Yardland Festival",
   "city": "Paris (Bois de Vincennes)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.8589,
+   2.347
+  ]
  },
  {
   "short": "",
@@ -2628,7 +2736,11 @@
   "slug": "marsatac",
   "name": "Marsatac",
   "city": "Marseille (Bouches-du-Rhône)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.2803,
+   5.3806
+  ]
  },
  {
   "short": "",
@@ -2704,7 +2816,11 @@
   "slug": "positive-education-festival",
   "name": "Positive Education Festival",
   "city": "Saint-Étienne (Loire)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.4241,
+   4.3665
+  ]
  },
  {
   "short": "",
@@ -2779,7 +2895,11 @@
   "slug": "les-siestes-electroniques",
   "name": "Les Siestes Électroniques",
   "city": "Toulouse (Haute-Garonne)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.6007,
+   1.4328
+  ]
  },
  {
   "short": "",
@@ -2862,7 +2982,11 @@
   "slug": "festival-d-aix-en-provence",
   "name": "Festival d'Aix-en-Provence",
   "city": "Aix-en-Provence (Bouches-du-Rhône)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.536,
+   5.3879
+  ]
  },
  {
   "short": "",
@@ -2952,7 +3076,11 @@
   "slug": "festival-de-nimes",
   "name": "Festival de Nîmes",
   "city": "Nîmes (Gard)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.8322,
+   4.3429
+  ]
  },
  {
   "short": "",
@@ -3026,7 +3154,11 @@
   "slug": "les-trans-musicales",
   "name": "Les Trans Musicales de Rennes",
   "city": "Rennes (Ille-et-Vilaine)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.1159,
+   -1.6884
+  ]
  },
  {
   "short": "",
@@ -3134,6 +3266,10 @@
     "FAQ",
     "https://www.dourfestival.eu/faq/"
    ]
+  ],
+  "geo": [
+   50.3964,
+   3.7787
   ]
  },
  {
@@ -3227,7 +3363,11 @@
   "slug": "art-rock",
   "name": "Art Rock",
   "city": "Saint-Brieuc (Côtes-d'Armor)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.5108,
+   -2.7657
+  ]
  },
  {
   "short": "",
@@ -3319,7 +3459,11 @@
   "slug": "terres-du-son",
   "name": "Terres du Son",
   "city": "Monts (Indre-et-Loire)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   47.2723,
+   0.6429
+  ]
  },
  {
   "short": "",
@@ -3404,7 +3548,11 @@
   "slug": "festival-de-carcassonne",
   "name": "Festival de Carcassonne",
   "city": "Carcassonne (Aude)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.2078,
+   2.3491
+  ]
  },
  {
   "short": "",
@@ -3488,6 +3636,10 @@
     "Camping",
     "https://www.rockwerchter.be/en/info/camping"
    ]
+  ],
+  "geo": [
+   50.9706,
+   4.6938
   ]
  },
  {
@@ -3587,6 +3739,10 @@
     "Personnes à mobilité réduite",
     "https://www.graspop.be/fr/info/inter"
    ]
+  ],
+  "geo": [
+   51.2391,
+   5.1128
   ]
  },
  {
@@ -3647,7 +3803,11 @@
   "slug": "jazz-a-juan",
   "name": "Jazz à Juan",
   "city": "Antibes (Juan-les-Pins)",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.5823,
+   7.1048
+  ]
  },
  {
   "short": "",
@@ -3708,7 +3868,11 @@
   "slug": "la-route-du-rock",
   "name": "La Route du Rock",
   "city": "Saint-Malo",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.6465,
+   -2.0066
+  ]
  },
  {
   "short": "",
@@ -3798,7 +3962,11 @@
   "slug": "festival-du-bout-du-monde",
   "name": "Festival du Bout du Monde",
   "city": "Crozon",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.2396,
+   -4.4679
+  ]
  },
  {
   "short": "",
@@ -3843,7 +4011,11 @@
   "slug": "tomorrowland-belgium",
   "name": "Tomorrowland Belgium",
   "city": "Boom",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.0874,
+   4.3667
+  ]
  },
  {
   "short": "",
@@ -3948,6 +4120,10 @@
     "Questions fréquentes",
     "https://www.pukkelpop.be/fr/info/questions-frequentes"
    ]
+  ],
+  "geo": [
+   50.9304,
+   5.3378
   ]
  },
  {
@@ -3989,7 +4165,11 @@
   "slug": "electrobeach",
   "name": "Electrobeach Music Festival",
   "city": "Le Barcarès",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   42.8118,
+   3.028
+  ]
  },
  {
   "short": "",
@@ -4074,7 +4254,11 @@
   "slug": "les-escales",
   "name": "Les Escales",
   "city": "Saint-Nazaire",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   47.2768,
+   -2.2392
+  ]
  },
  {
   "short": "",
@@ -4140,7 +4324,11 @@
   "slug": "pause-guitare",
   "name": "Pause Guitare Sud de France",
   "city": "Albi",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.929,
+   2.1323
+  ]
  },
  {
   "short": "",
@@ -4220,7 +4408,11 @@
   "slug": "europavox",
   "name": "Europavox",
   "city": "Clermont-Ferrand",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.787,
+   3.1127
+  ]
  },
  {
   "short": "",
@@ -4290,7 +4482,11 @@
   "slug": "jazz-sous-les-pommiers",
   "name": "Jazz sous les Pommiers",
   "city": "Coutances",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   49.0552,
+   -1.4451
+  ]
  },
  {
   "short": "",
@@ -4355,7 +4551,11 @@
   "slug": "rendez-vous-de-l-erdre",
   "name": "Les Rendez-vous de l'Erdre",
   "city": "Nantes",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   47.2382,
+   -1.5603
+  ]
  },
  {
   "short": "",
@@ -4404,7 +4604,11 @@
   "slug": "calvi-on-the-rocks",
   "name": "Calvi on the Rocks",
   "city": "Calvi",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   42.5498,
+   8.7611
+  ]
  },
  {
   "short": "",
@@ -4480,7 +4684,11 @@
   "slug": "au-pont-du-rock",
   "name": "Au Pont du Rock",
   "city": "Malestroit",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   47.8076,
+   -2.3867
+  ]
  },
  {
   "short": "",
@@ -4542,7 +4750,11 @@
   "slug": "nice-jazz-festival",
   "name": "Nice Jazz Festival",
   "city": "Nice",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.7032,
+   7.2528
+  ]
  },
  {
   "short": "",
@@ -4621,7 +4833,11 @@
   "slug": "motocultor",
   "name": "Motocultor Festival",
   "city": "Saint-Nolff",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   47.7066,
+   -2.6681
+  ]
  },
  {
   "short": "",
@@ -4712,7 +4928,11 @@
   "slug": "lokerse-feesten",
   "name": "Lokerse Feesten",
   "city": "Lokeren",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.1484,
+   3.9442
+  ]
  },
  {
   "short": "",
@@ -4778,7 +4998,11 @@
   "slug": "cognac-blues-passions",
   "name": "Cognac Blues Passions",
   "city": "Cognac et Jarnac",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.696,
+   -0.3376
+  ]
  },
  {
   "short": "Couleur Café",
@@ -4820,7 +5044,11 @@
   "slug": "couleur-cafe",
   "name": "Couleur Café",
   "city": "Bruxelles",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.8551,
+   4.3511
+  ]
  },
  {
   "short": "",
@@ -4862,7 +5090,11 @@
   "slug": "fiesta-des-suds",
   "name": "Fiesta des Suds",
   "city": "Marseille",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.2803,
+   5.3806
+  ]
  },
  {
   "short": "",
@@ -4903,7 +5135,11 @@
   "slug": "choregies-d-orange",
   "name": "Chorégies d'Orange",
   "city": "Orange",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   44.1264,
+   4.8031
+  ]
  },
  {
   "short": "",
@@ -4982,7 +5218,11 @@
   "slug": "la-roque-d-antheron",
   "name": "Festival de La Roque-d'Anthéron",
   "city": "La Roque-d'Anthéron",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.7166,
+   5.3165
+  ]
  },
  {
   "short": "Francofolies de Spa",
@@ -5060,7 +5300,11 @@
   "slug": "francofolies-de-spa",
   "name": "Les Francofolies de Spa",
   "city": "Spa",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.4921,
+   5.8628
+  ]
  },
  {
   "short": "",
@@ -5131,6 +5375,10 @@
     "Infos pratiques (en néerlandais)",
     "https://www.suikerrock.be/nl/info"
    ]
+  ],
+  "geo": [
+   50.8075,
+   4.9372
   ]
  },
  {
@@ -5201,7 +5449,11 @@
   "slug": "festival-de-poupet",
   "name": "Festival de Poupet",
   "city": "Saint-Malô-du-Bois",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   46.9266,
+   -0.9058
+  ]
  },
  {
   "short": "",
@@ -5244,7 +5496,11 @@
   "slug": "jazz-a-la-villette",
   "name": "Jazz à la Villette",
   "city": "Paris",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.8589,
+   2.347
+  ]
  },
  {
   "short": "",
@@ -5319,7 +5575,11 @@
   "slug": "les-nuits-secretes",
   "name": "Les Nuits Secrètes",
   "city": "Aulnoye-Aymeries",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   50.2036,
+   3.8312
+  ]
  },
  {
   "short": "",
@@ -5359,7 +5619,11 @@
   "slug": "festival-de-saint-denis",
   "name": "Festival de Saint-Denis",
   "city": "Saint-Denis",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.9378,
+   2.3657
+  ]
  },
  {
   "short": "",
@@ -5410,7 +5674,11 @@
   "slug": "gent-jazz",
   "name": "Gent Jazz",
   "city": "Gand",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.0538,
+   3.725
+  ]
  },
  {
   "short": "",
@@ -5473,7 +5741,11 @@
   "slug": "les-nuits-botanique",
   "name": "Les Nuits Botanique",
   "city": "Bruxelles",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.8551,
+   4.3511
+  ]
  },
  {
   "short": "",
@@ -5539,7 +5811,11 @@
   "slug": "rio-loco",
   "name": "Rio Loco",
   "city": "Toulouse",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.6007,
+   1.4328
+  ]
  },
  {
   "short": "Festival Radio France Montpellier",
@@ -5580,7 +5856,11 @@
   "slug": "festival-radio-france-montpellier",
   "name": "Festival Radio France Occitanie Montpellier",
   "city": "Montpellier",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.61,
+   3.8742
+  ]
  },
  {
   "short": "",
@@ -5629,7 +5909,11 @@
   "slug": "cactus-festival",
   "name": "Cactus Festival",
   "city": "Bruges",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.2086,
+   3.2268
+  ]
  },
  {
   "short": "La Folle Journée",
@@ -5725,6 +6009,10 @@
     "Venir avec des enfants",
     "https://www.follejournee.fr/fr/page/venir-avec-des-enfants"
    ]
+  ],
+  "geo": [
+   47.2382,
+   -1.5603
   ]
  },
  {
@@ -5792,7 +6080,11 @@
   "slug": "astropolis",
   "name": "Astropolis",
   "city": "Brest",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.4085,
+   -4.4996
+  ]
  },
  {
   "short": "",
@@ -5833,7 +6125,11 @@
   "slug": "aluna-festival",
   "name": "Aluna Festival",
   "city": "Ruoms",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   44.4506,
+   4.347
+  ]
  },
  {
   "short": "",
@@ -5882,7 +6178,11 @@
   "slug": "bobital",
   "name": "Bobital L'Armor à Sons",
   "city": "Bobital",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.4133,
+   -2.098
+  ]
  },
  {
   "short": "",
@@ -5969,7 +6269,11 @@
   "slug": "panoramas-festival",
   "name": "Panoramas Festival",
   "city": "Morlaix",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.5971,
+   -3.8215
+  ]
  },
  {
   "short": "",
@@ -6014,7 +6318,11 @@
   "slug": "fete-du-bruit",
   "name": "Fête du Bruit",
   "city": "Landerneau",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.4494,
+   -4.2661
+  ]
  },
  {
   "short": "",
@@ -6059,7 +6367,11 @@
   "slug": "au-foin-de-la-rue",
   "name": "Au Foin de la Rue",
   "city": "Saint-Denis-de-Gastines",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.3449,
+   -0.8738
+  ]
  },
  {
   "short": "Les Suds à Arles",
@@ -6155,6 +6467,10 @@
     "Accessibilité",
     "https://www.suds-arles.com/festival-2/accessibilite-2/"
    ]
+  ],
+  "geo": [
+   43.5441,
+   4.6513
   ]
  },
  {
@@ -6209,7 +6525,11 @@
   "slug": "family-piknik",
   "name": "Family Piknik",
   "city": "Montpellier",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.61,
+   3.8742
+  ]
  },
  {
   "short": "",
@@ -6253,7 +6573,11 @@
   "slug": "les-plages-electroniques",
   "name": "Les Plages Électroniques",
   "city": "Cannes",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.5454,
+   7.0152
+  ]
  },
  {
   "short": "",
@@ -6294,7 +6618,11 @@
   "slug": "festival-d-ambronay",
   "name": "Festival d'Ambronay",
   "city": "Ambronay",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   46.0099,
+   5.3627
+  ]
  },
  {
   "short": "",
@@ -6334,7 +6662,11 @@
   "slug": "festival-berlioz",
   "name": "Festival Berlioz",
   "city": "La Côte-Saint-André",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.3844,
+   5.2586
+  ]
  },
  {
   "short": "",
@@ -6380,7 +6712,11 @@
   "slug": "esperanzah",
   "name": "Esperanzah!",
   "city": "Floreffe",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.4367,
+   4.76
+  ]
  },
  {
   "short": "",
@@ -6468,6 +6804,10 @@
     "Billetterie et questions sur les tickets (en néerlandais)",
     "http://www.festivaldranouter.be/nl/praktisch/ticketvragen"
    ]
+  ],
+  "geo": [
+   50.766,
+   2.7832
   ]
  },
  {
@@ -6559,6 +6899,10 @@
     "Covoiturage",
     "https://www.marseillejazz.com/infos/covoiturage/"
    ]
+  ],
+  "geo": [
+   43.2803,
+   5.3806
   ]
  },
  {
@@ -6651,6 +6995,10 @@
     "FAQ",
     "https://faq.tomorrowlandwinter.com/hc/fr"
    ]
+  ],
+  "geo": [
+   45.0972,
+   6.0813
   ]
  },
  {
@@ -6692,7 +7040,11 @@
   "slug": "festival-pablo-casals",
   "name": "Festival Pablo Casals",
   "city": "Prades",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   42.6107,
+   2.4276
+  ]
  },
  {
   "short": "",
@@ -6733,7 +7085,11 @@
   "slug": "rock-zottegem",
   "name": "Rock Zottegem",
   "city": "Zottegem",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.8642,
+   3.8103
+  ]
  },
  {
   "short": "Nuits de la Guitare",
@@ -6807,6 +7163,10 @@
     "Infos pratiques, accès et hébergement",
     "https://www.festival-guitare-patrimonio.com/informations.php"
    ]
+  ],
+  "geo": [
+   42.7092,
+   9.3647
   ]
  },
  {
@@ -6852,7 +7212,11 @@
   "slug": "mama-festival",
   "name": "MaMA Music & Convention",
   "city": "Paris",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.8589,
+   2.347
+  ]
  },
  {
   "short": "",
@@ -6942,6 +7306,10 @@
     "Informations pratiques",
     "https://www.nuitsdelacitadelle.fr/informations-pratiques/"
    ]
+  ],
+  "geo": [
+   44.1993,
+   5.9276
   ]
  },
  {
@@ -6980,7 +7348,11 @@
   "slug": "jazzdor",
   "name": "Jazzdor Strasbourg-Berlin",
   "city": "Strasbourg",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.5691,
+   7.7621
+  ]
  },
  {
   "short": "",
@@ -7020,7 +7392,11 @@
   "slug": "musiques-metisses",
   "name": "Musiques Métisses",
   "city": "Angoulême",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.6458,
+   0.145
+  ]
  },
  {
   "short": "",
@@ -7097,6 +7473,10 @@
     "Fiche accueil PMR (2026)",
     "https://www.nuitsdusud.com/storage/2026/06/FICHE-PMR-ACCUEIL.pdf"
    ]
+  ],
+  "geo": [
+   43.7373,
+   7.0995
   ]
  },
  {
@@ -7141,7 +7521,11 @@
   "slug": "jazz-a-saint-germain-des-pres",
   "name": "Jazz à Saint-Germain-des-Prés",
   "city": "Paris",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.8589,
+   2.347
+  ]
  },
  {
   "short": "",
@@ -7183,7 +7567,11 @@
   "slug": "paris-jazz-festival",
   "name": "Paris Jazz Festival",
   "city": "Paris",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.8589,
+   2.347
+  ]
  },
  {
   "short": "",
@@ -7223,7 +7611,11 @@
   "slug": "positiv-festival",
   "name": "Positiv Festival",
   "city": "Orange",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   44.1264,
+   4.8031
+  ]
  },
  {
   "short": "",
@@ -7271,7 +7663,11 @@
   "slug": "festival-de-la-chaise-dieu",
   "name": "Festival de La Chaise-Dieu",
   "city": "La Chaise-Dieu",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.3213,
+   3.691
+  ]
  },
  {
   "short": "",
@@ -7337,6 +7733,10 @@
     "Billetterie et programme",
     "https://www.festival-colmar.com/fr/billetterie"
    ]
+  ],
+  "geo": [
+   48.1115,
+   7.3924
   ]
  },
  {
@@ -7375,7 +7775,11 @@
   "slug": "festival-d-auvers-sur-oise",
   "name": "Festival d'Auvers-sur-Oise",
   "city": "Auvers-sur-Oise",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   49.0847,
+   2.1569
+  ]
  },
  {
   "short": "",
@@ -7417,7 +7821,11 @@
   "slug": "festival-de-saint-cere",
   "name": "Festival de Saint-Céré",
   "city": "Saint-Céré",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   44.8492,
+   1.9027
+  ]
  },
  {
   "short": "Festival de Flandre Gand",
@@ -7458,7 +7866,11 @@
   "slug": "festival-van-vlaanderen-gent",
   "name": "Festival van Vlaanderen Gand",
   "city": "Gand",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.0538,
+   3.725
+  ]
  },
  {
   "short": "",
@@ -7546,7 +7958,11 @@
   "slug": "les-3-elephants",
   "name": "Les 3 Éléphants",
   "city": "Laval",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.0578,
+   -0.7692
+  ]
  },
  {
   "short": "",
@@ -7588,7 +8004,11 @@
   "slug": "la-magnifique-society",
   "name": "La Magnifique Society",
   "city": "Reims",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   49.2535,
+   4.0551
+  ]
  },
  {
   "short": "",
@@ -7686,6 +8106,10 @@
     "Guide d'accès PMR/PSH (2026)",
     "https://files.heeds.eu/130/2024-10-01-ELSA-ELEMENTS-COMM-guide-accessibilite-2026v3-20260716-121620.pdf"
    ]
+  ],
+  "geo": [
+   44.2382,
+   -0.5061
   ]
  },
  {
@@ -7752,7 +8176,11 @@
   "slug": "festival-du-chant-de-marin",
   "name": "Festival du Chant de Marin",
   "city": "Paimpol",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.7789,
+   -3.0472
+  ]
  },
  {
   "short": "",
@@ -7806,7 +8234,11 @@
   "slug": "festival-des-filets-bleus",
   "name": "Festival des Filets Bleus",
   "city": "Concarneau",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   47.8977,
+   -3.8993
+  ]
  },
  {
   "short": "",
@@ -7893,6 +8325,10 @@
     "Camping et hébergements",
     "https://www.alcatraz.be/en/camping"
    ]
+  ],
+  "geo": [
+   50.8276,
+   3.266
   ]
  },
  {
@@ -7937,7 +8373,11 @@
   "slug": "extrema-outdoor",
   "name": "Extrema Outdoor",
   "city": "Houthalen-Helchteren",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.0567,
+   5.3831
+  ]
  },
  {
   "short": "",
@@ -8003,6 +8443,10 @@
     "FAQ",
     "https://ronquieresfestival.be/infos/f-a-q/"
    ]
+  ],
+  "geo": [
+   50.6084,
+   4.2235
   ]
  },
  {
@@ -8066,6 +8510,10 @@
     "FAQ (en anglais)",
     "https://www.jazzmiddelheim.eu/en/faq"
    ]
+  ],
+  "geo": [
+   51.2211,
+   4.3997
   ]
  },
  {
@@ -8107,7 +8555,11 @@
   "slug": "marktrock",
   "name": "Marktrock",
   "city": "Louvain",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.8792,
+   4.7012
+  ]
  },
  {
   "short": "",
@@ -8147,7 +8599,11 @@
   "slug": "gaume-jazz-festival",
   "name": "Gaume Jazz Festival",
   "city": "Rossignol",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   49.7439,
+   5.4699
+  ]
  },
  {
   "short": "",
@@ -8188,7 +8644,11 @@
   "slug": "brosella",
   "name": "Brosella",
   "city": "Bruxelles",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.8551,
+   4.3511
+  ]
  },
  {
   "short": "",
@@ -8233,7 +8693,11 @@
   "slug": "nancy-jazz-pulsations",
   "name": "Nancy Jazz Pulsations",
   "city": "Nancy",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.6881,
+   6.1734
+  ]
  },
  {
   "short": "",
@@ -8281,7 +8745,11 @@
   "slug": "rise-festival",
   "name": "Rise Festival",
   "city": "Les 2 Alpes",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   44.9885,
+   6.1349
+  ]
  },
  {
   "short": "",
@@ -8329,7 +8797,11 @@
   "slug": "snowattack",
   "name": "Snowattack",
   "city": "Les Deux Alpes",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   44.9885,
+   6.1349
+  ]
  },
  {
   "short": "",
@@ -8404,6 +8876,10 @@
     "FAQ (en anglais)",
     "https://www.snowboxx.com/faq"
    ]
+  ],
+  "geo": [
+   46.172,
+   6.7432
   ]
  },
  {
@@ -8446,7 +8922,11 @@
   "slug": "rock-the-pistes",
   "name": "Rock the Pistes",
   "city": "Châtel",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   46.2479,
+   6.8188
+  ]
  },
  {
   "short": "Chamonix Unlimited",
@@ -8494,7 +8974,11 @@
   "slug": "chamonix-unlimited",
   "name": "Chamonix Unlimited Festival",
   "city": "Chamonix",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   45.9296,
+   6.9291
+  ]
  },
  {
   "short": "Le Bon Air",
@@ -8542,7 +9026,11 @@
   "slug": "festival-le-bon-air",
   "name": "Festival Le Bon Air",
   "city": "Marseille",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   43.2803,
+   5.3806
+  ]
  },
  {
   "short": "Marvellous Island",
@@ -8589,7 +9077,11 @@
   "slug": "marvellous-island",
   "name": "Marvellous Island Festival",
   "city": "Paris",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.8589,
+   2.347
+  ]
  },
  {
   "short": "",
@@ -8630,7 +9122,11 @@
   "slug": "le-jardin-du-michel",
   "name": "Le Jardin du Michel",
   "city": "Nancy",
-  "country": "France"
+  "country": "France",
+  "geo": [
+   48.6881,
+   6.1734
+  ]
  },
  {
   "short": "",
@@ -8671,7 +9167,11 @@
   "slug": "rampage",
   "name": "Rampage",
   "city": "Anvers",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.2211,
+   4.3997
+  ]
  },
  {
   "short": "",
@@ -8712,7 +9212,11 @@
   "slug": "horst-music-festival",
   "name": "Horst Music Festival",
   "city": "Bruxelles",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.8551,
+   4.3511
+  ]
  },
  {
   "short": "",
@@ -8753,7 +9257,11 @@
   "slug": "werchter-boutique",
   "name": "Werchter Boutique",
   "city": "Werchter",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.9706,
+   4.6938
+  ]
  },
  {
   "short": "",
@@ -8794,7 +9302,11 @@
   "slug": "paradise-city",
   "name": "Paradise City",
   "city": "Perk",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   50.9332,
+   4.4961
+  ]
  },
  {
   "short": "",
@@ -8835,7 +9347,11 @@
   "slug": "rampage-open-air",
   "name": "Rampage Open Air",
   "city": "Lommel",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.2306,
+   5.3077
+  ]
  },
  {
   "short": "",
@@ -8875,7 +9391,11 @@
   "slug": "ostend-beach-festival",
   "name": "Ostend Beach Festival",
   "city": "Ostende",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.2259,
+   2.9195
+  ]
  },
  {
   "short": "",
@@ -8916,7 +9436,11 @@
   "slug": "brakrock",
   "name": "BrakRock",
   "city": "Duffel",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.0957,
+   4.5062
+  ]
  },
  {
   "short": "",
@@ -8956,7 +9480,11 @@
   "slug": "wecandance",
   "name": "WeCanDance",
   "city": "Zeebrugge",
-  "country": "Belgique"
+  "country": "Belgique",
+  "geo": [
+   51.3312,
+   3.2076
+  ]
  },
  {
   "short": "",
@@ -9049,6 +9577,10 @@
     "Application mobile officielle",
     "https://app.fragolabs.com/7ca9fa12-7cda-4025-a5cf-7602800e8b20"
    ]
+  ],
+  "geo": [
+   43.6841,
+   1.3278
   ]
  },
  {
@@ -9136,6 +9668,10 @@
     "FAQ",
     "https://freemusic-festival.com/faq"
    ]
+  ],
+  "geo": [
+   45.2859,
+   -0.3862
   ]
  }
 ]

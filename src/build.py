@@ -531,11 +531,12 @@ def build(fests):
         if f.get("region") and f.get("region") not in (f.get("city") or ""):
             lieu += f' <span class="reg">· {esc(f["region"])}</span>'
         styles = " · ".join(esc(g) for g in (f.get("genres") or [])[:3])
-        cards += f'''<article class="card" data-i="{size_pos[f["slug"]]}" data-d="{date_pos[f["slug"]]}" data-visit="{f.get("visiteurs") or ""}" data-price="{"" if pn is None else pn}" data-free="{1 if is_free(f) else 0}" data-name="{esc(norm(searchable))}" data-mois="{esc(" ".join(f.get("mois") or []))}" data-region="{esc(f.get("region") or "")}" data-genres="{esc("|".join(f.get("genres") or []))}">
+        geo_attr = f' data-lat="{f["geo"][0]}" data-lon="{f["geo"][1]}"' if f.get("geo") else ""
+        cards += f'''<article class="card" data-i="{size_pos[f["slug"]]}" data-d="{date_pos[f["slug"]]}" data-visit="{f.get("visiteurs") or ""}" data-price="{"" if pn is None else pn}" data-free="{1 if is_free(f) else 0}" data-name="{esc(norm(searchable))}" data-mois="{esc(" ".join(f.get("mois") or []))}" data-region="{esc(f.get("region") or "")}" data-genres="{esc("|".join(f.get("genres") or []))}"{geo_attr}>
   {date_block(f)}
   <div class="what"><h3><a href="{f["slug"]}.html">{esc(f["name"])}</a></h3>
   <p class="meta">{lieu}</p>{('<p class="styles">' + styles + '</p>') if styles else ""}</div>
-  <div class="aside"><span class="price">{esc(prix)}</span>{free}{visit}{cd}</div>
+  <div class="aside"><span class="price">{esc(prix)}</span>{free}{visit}{cd}<span class="km" hidden></span></div>
 </article>
 '''
     mcount = {m: sum(1 for f in fests if m in (f.get("mois") or [])) for m in mois_dispo}
@@ -566,8 +567,10 @@ def build(fests):
 <select id="region" aria-label="Région"><option value="">Toutes les régions</option>{opt(regions)}</select>
 <select id="genre" aria-label="Genre"><option value="">Tous les genres</option>{opt(genres)}</select>
 <select id="budget" aria-label="Budget"><option value="">Tous les budgets</option><option value="free">Entrée libre</option><option value="30">Dès 30 € ou moins</option><option value="80">Dès 80 € ou moins</option></select>
-<select id="tri" aria-label="Trier"><option value="date">Tri : date de début</option><option value="gros">Tri : les plus gros d'abord</option><option value="prix">Tri : prix croissant</option><option value="az">Tri : A → Z</option></select>
+<select id="tri" aria-label="Trier"><option value="date">Tri : date de début</option><option value="gros">Tri : les plus gros d'abord</option><option value="prix">Tri : prix croissant</option><option value="az">Tri : A → Z</option><option value="proche">Tri : près de chez moi</option></select>
+<button type="button" id="geo" class="geo-btn" aria-pressed="false" data-goatcounter-click="pres-de-chez-moi">{ic("pin")}Près de chez moi</button>
 </section>
+<p id="geo-msg" class="wrap geo-msg" role="status" hidden></p>
 <section class="wrap quick" aria-label="Raccourcis">
 <div class="months" role="group" aria-label="Filtrer par mois">{months_html}</div>
 <div class="gchips" role="group" aria-label="Filtrer par style">{genres_html}</div>
@@ -1079,7 +1082,7 @@ def build_legal(nb):
 </section>
 
 <section class="box"><h2>Classement et critères</h2>
-<p>Par défaut, la page d'accueil classe les festivals par date de début de la prochaine édition, du plus proche au plus lointain (au mois habituel quand les dates ne sont pas encore annoncées). Vous pouvez aussi trier par fréquentation publiée, par prix ou par ordre alphabétique. <strong>Aucun festival ne paie pour apparaître ou monter dans le classement</strong>, et les liens vers les sites officiels ne sont pas des liens d'affiliation. Si cela changeait, la mention serait ajoutée clairement sur les pages concernées.</p>
+<p>Par défaut, la page d'accueil classe les festivals par date de début de la prochaine édition, du plus proche au plus lointain (au mois habituel quand les dates ne sont pas encore annoncées). Vous pouvez aussi trier par fréquentation publiée, par prix, par ordre alphabétique ou par distance depuis votre position (« Près de chez moi »). <strong>Aucun festival ne paie pour apparaître ou monter dans le classement</strong>, et les liens vers les sites officiels ne sont pas des liens d'affiliation. Si cela changeait, la mention serait ajoutée clairement sur les pages concernées.</p>
 </section>
 
 <section class="box"><h2>Usage autorisé</h2>
@@ -1123,6 +1126,9 @@ def build_legal(nb):
 
 <section class="box"><h2>Ce que le site collecte lui-même</h2>
 {collecte}
+</section>
+<section class="box"><h2>Bouton « Près de chez moi »</h2>
+<p>Sur la page d'accueil, le bouton « Près de chez moi » demande votre position à votre navigateur, qui vous demande d'abord votre accord. Si vous acceptez, la distance jusqu'à chaque festival est calculée <strong>dans la page, sur votre appareil</strong>. Votre position n'est envoyée à aucun serveur, ni à l'éditeur ni à un tiers, et n'est pas enregistrée : elle disparaît quand vous quittez la page. Vous pouvez refuser ou retirer cette autorisation à tout moment dans les réglages de votre navigateur ; le reste du site fonctionne sans.</p>
 </section>
 {newsletter}
 
@@ -1282,6 +1288,14 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.2em;t
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:-26px;position:relative}
 .filters input,.filters select{height:48px;padding:0 14px;border:1px solid var(--line-d);border-radius:6px;font-size:1rem;background:#fff;color:var(--ink);max-width:100%;font-family:inherit}
 .filters input{flex:1;min-width:240px}
+.geo-btn{display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 16px;border:1px solid var(--line-d);border-radius:6px;background:#fff;color:var(--ink);font:inherit;font-weight:600;cursor:pointer;touch-action:manipulation;transition:background-color .15s var(--ease),transform .12s var(--ease)}
+.geo-btn:active{transform:scale(.97)}
+.geo-btn[aria-pressed=true]{background:var(--plum);border-color:var(--plum);color:#fff}
+.geo-btn[aria-pressed=true] .i{stroke:currentColor}
+.geo-btn:disabled{opacity:.6;cursor:progress}
+.geo-btn:focus-visible{outline:3px solid rgba(74,29,66,.35);outline-offset:2px}
+.geo-msg{margin-top:12px;color:var(--muted);font-size:.92rem}
+.km{color:var(--ink);font-weight:600;font-size:.84rem}
 .filters input,.filters select,.nl-l input,.nl-l select{transition:border-color .15s var(--ease),box-shadow .15s var(--ease)}
 .filters input:focus,.filters select:focus,.nl-l input:focus,.nl-l select:focus{border-color:var(--plum);box-shadow:0 0 0 3px rgba(74,29,66,.12)}
 .quick{margin-top:20px}
@@ -1451,6 +1465,7 @@ a:hover{text-decoration-thickness:2px}
 .hero::before{width:340px;height:340px;right:-130px;top:-120px;opacity:.28}
 .filters input{flex:1 1 100%;min-width:0}
 .filters select{flex:1 1 calc(50% - 4px);min-width:0;height:44px;padding:0 10px;font-size:16px}
+.geo-btn{flex:1 1 100%;justify-content:center;height:44px}
 .card{grid-template-columns:76px minmax(0,1fr);gap:4px 16px;align-items:start;padding:16px 0}
 .when{padding-right:12px;grid-row:span 2}
 .when::before{top:-24px}
@@ -1522,6 +1537,7 @@ JS = r'''
     var k = tri.value;
     var list = cards.slice().sort(function (a, b) {
       if (k === 'date') return a.dataset.d - b.dataset.d;
+      if (k === 'proche' && here) return (a.dataset.km - b.dataset.km) || (a.dataset.d - b.dataset.d);
       if (k === 'az') return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent, 'fr');
       if (k === 'prix') {
         var pa = a.dataset.price === '' ? 1e9 : parseFloat(a.dataset.price), pb = b.dataset.price === '' ? 1e9 : parseFloat(b.dataset.price);
@@ -1531,7 +1547,45 @@ JS = r'''
     });
     list.forEach(function (c) { grid.appendChild(c); });
   }
-  tri.addEventListener('change', sortCards);
+  var geoBtn = document.getElementById('geo'), geoMsg = document.getElementById('geo-msg'), here = null;
+  function say(t) { geoMsg.textContent = t; geoMsg.hidden = !t; }
+  function dist(a, b, c, d) {
+    var r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2);
+    return 12742 * Math.asin(Math.sqrt(x * x + Math.cos(a * r) * Math.cos(c * r) * y * y));
+  }
+  function locate() {
+    if (here) { tri.value = 'proche'; geoBtn.setAttribute('aria-pressed', 'true'); sortCards(); return; }
+    if (!navigator.geolocation) { tri.value = 'date'; sortCards(); say('Ton navigateur ne permet pas la localisation. Tu peux filtrer par région à la place.'); return; }
+    geoBtn.disabled = true; say('Localisation en cours…');
+    navigator.geolocation.getCurrentPosition(function (p) {
+      here = [p.coords.latitude, p.coords.longitude];
+      cards.forEach(function (c) {
+        var s = c.querySelector('.km');
+        if (!c.dataset.lat) { c.dataset.km = 1e9; return; }
+        var d = dist(here[0], here[1], +c.dataset.lat, +c.dataset.lon);
+        c.dataset.km = d;
+        s.textContent = 'à ' + (d < 10 ? Math.max(1, Math.round(d)) : Math.round(d / 5) * 5) + ' km';
+        s.hidden = false;
+      });
+      geoBtn.disabled = false; geoBtn.setAttribute('aria-pressed', 'true');
+      tri.value = 'proche'; sortCards();
+      say('Classés du plus proche au plus loin de toi, à vol d\'oiseau. Ta position reste sur ton appareil : elle n\'est ni envoyée ni enregistrée.');
+    }, function () {
+      geoBtn.disabled = false;
+      if (tri.value === 'proche') tri.value = 'date';
+      sortCards();
+      say('Localisation refusée ou indisponible. Tu peux filtrer par région à la place.');
+    }, { timeout: 10000, maximumAge: 600000 });
+  }
+  geoBtn.addEventListener('click', function () {
+    if (geoBtn.getAttribute('aria-pressed') === 'true') { geoBtn.setAttribute('aria-pressed', 'false'); tri.value = 'date'; sortCards(); say(''); return; }
+    locate();
+  });
+  tri.addEventListener('change', function () {
+    if (tri.value === 'proche') { locate(); return; }
+    geoBtn.setAttribute('aria-pressed', 'false'); say('');
+    sortCards();
+  });
   mts.forEach(function (x) { x.addEventListener('click', function () { mois.value = mois.value === x.dataset.m ? '' : x.dataset.m; apply(); }); });
   gcs.forEach(function (x) { x.addEventListener('click', function () { genre.value = genre.value === x.dataset.g ? '' : x.dataset.g; apply(); }); });
   [q, mois, region, genre, budget].forEach(function (el) {

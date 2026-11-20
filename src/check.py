@@ -8,7 +8,7 @@ OPT = {"short": "", "region": None, "venue": None, "maps_q": None, "genres": [],
        "iso": None, "status": "Dates à confirmer", "status_note": "", "price_from": None,
        "price_label": "Tarifs non publiés", "prices": [], "prices_note": "", "last_label": "",
        "last_dates": "", "lineup": [], "lineup_note": "", "about": "", "access": [], "tips": [],
-       "official": "", "sources": [], "liens": [], "visiteurs": None, "visiteurs_note": ""}
+       "official": "", "sources": [], "liens": [], "visiteurs": None, "visiteurs_note": "", "geo": None}
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
         "septembre", "octobre", "novembre", "décembre"]
 MOIS_N = {unicodedata.normalize("NFD", m).encode("ascii", "ignore").decode(): m for m in MOIS}
@@ -54,6 +54,11 @@ def clean(f, problems):
     out["sources"] = [[t, u] for t, u in out["sources"] if u.startswith("http")]
     # liens utiles du festival (plan du site, FAQ, appli...) : [libellé, url officielle]
     out["liens"] = [[t, u] for t, u in out["liens"] if u.startswith("http")]
+    g = out.get("geo")
+    if g is not None and not (isinstance(g, list) and len(g) == 2 and all(isinstance(x, (int, float)) for x in g)
+                              and 41 < g[0] < 52 and -6 < g[1] < 10):
+        problems.append(f"{out['name']} : geo invalide (attendu [latitude, longitude] en France ou Belgique) -> {g!r}")
+        out["geo"] = None
     if not out["sources"]:
         problems.append(f"{out['name']} : aucune source valide")
     if out.get("official") and not str(out["official"]).startswith("http"):

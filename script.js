@@ -54,6 +54,7 @@
     var k = tri.value;
     var list = cards.slice().sort(function (a, b) {
       if (k === 'date') return a.dataset.d - b.dataset.d;
+      if (k === 'proche' && here) return (a.dataset.km - b.dataset.km) || (a.dataset.d - b.dataset.d);
       if (k === 'az') return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent, 'fr');
       if (k === 'prix') {
         var pa = a.dataset.price === '' ? 1e9 : parseFloat(a.dataset.price), pb = b.dataset.price === '' ? 1e9 : parseFloat(b.dataset.price);
@@ -63,7 +64,45 @@
     });
     list.forEach(function (c) { grid.appendChild(c); });
   }
-  tri.addEventListener('change', sortCards);
+  var geoBtn = document.getElementById('geo'), geoMsg = document.getElementById('geo-msg'), here = null;
+  function say(t) { geoMsg.textContent = t; geoMsg.hidden = !t; }
+  function dist(a, b, c, d) {
+    var r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2);
+    return 12742 * Math.asin(Math.sqrt(x * x + Math.cos(a * r) * Math.cos(c * r) * y * y));
+  }
+  function locate() {
+    if (here) { tri.value = 'proche'; geoBtn.setAttribute('aria-pressed', 'true'); sortCards(); return; }
+    if (!navigator.geolocation) { tri.value = 'date'; sortCards(); say('Ton navigateur ne permet pas la localisation. Tu peux filtrer par région à la place.'); return; }
+    geoBtn.disabled = true; say('Localisation en cours…');
+    navigator.geolocation.getCurrentPosition(function (p) {
+      here = [p.coords.latitude, p.coords.longitude];
+      cards.forEach(function (c) {
+        var s = c.querySelector('.km');
+        if (!c.dataset.lat) { c.dataset.km = 1e9; return; }
+        var d = dist(here[0], here[1], +c.dataset.lat, +c.dataset.lon);
+        c.dataset.km = d;
+        s.textContent = 'à ' + (d < 10 ? Math.max(1, Math.round(d)) : Math.round(d / 5) * 5) + ' km';
+        s.hidden = false;
+      });
+      geoBtn.disabled = false; geoBtn.setAttribute('aria-pressed', 'true');
+      tri.value = 'proche'; sortCards();
+      say('Classés du plus proche au plus loin de toi, à vol d\'oiseau. Ta position reste sur ton appareil : elle n\'est ni envoyée ni enregistrée.');
+    }, function () {
+      geoBtn.disabled = false;
+      if (tri.value === 'proche') tri.value = 'date';
+      sortCards();
+      say('Localisation refusée ou indisponible. Tu peux filtrer par région à la place.');
+    }, { timeout: 10000, maximumAge: 600000 });
+  }
+  geoBtn.addEventListener('click', function () {
+    if (geoBtn.getAttribute('aria-pressed') === 'true') { geoBtn.setAttribute('aria-pressed', 'false'); tri.value = 'date'; sortCards(); say(''); return; }
+    locate();
+  });
+  tri.addEventListener('change', function () {
+    if (tri.value === 'proche') { locate(); return; }
+    geoBtn.setAttribute('aria-pressed', 'false'); say('');
+    sortCards();
+  });
   mts.forEach(function (x) { x.addEventListener('click', function () { mois.value = mois.value === x.dataset.m ? '' : x.dataset.m; apply(); }); });
   gcs.forEach(function (x) { x.addEventListener('click', function () { genre.value = genre.value === x.dataset.g ? '' : x.dataset.g; apply(); }); });
   [q, mois, region, genre, budget].forEach(function (el) {

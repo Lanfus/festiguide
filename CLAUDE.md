@@ -43,6 +43,7 @@ Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une val
 - `prices` et `sources` : listes de paires `[libellé, valeur]`. Au moins une source en `http`, sinon le festival est signalé.
 - `prices_note` doit toujours dire de quelle édition viennent les tarifs.
 - `liens` (facultatif) : paires `[libellé, url officielle]` de pages utiles au festivalier (plan du site, plan d'accès, FAQ, infos pratiques, accessibilité, appli officielle). Un libellé qui commence par « Plan » s'affiche en bouton dans « Plan et localisation » (demandé par Florent le 19/11/2026) ; les autres vont sous « Y aller ». Le plan reste un **lien** vers le fichier du festival, jamais une copie, et le libellé dit l'édition (« Plan du site (édition 2026) »).
+- `geo` (facultatif) : `[latitude, longitude]` du centre de la commune du festival (geo.api.gouv.fr pour la France, OpenStreetMap Nominatim pour la Belgique, récupéré une fois le 20/11/2026). Sert uniquement au tri « Près de chez moi » de l'accueil : la position du visiteur est demandée par le navigateur au clic, la distance est calculée dans la page, rien n'est envoyé ni enregistré. Absent pour la Fête de la Musique et Sons d'Hiver (plusieurs villes).
 
 ## Ce qu'il ne faut pas faire
 

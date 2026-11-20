@@ -62,6 +62,14 @@ a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.2em;t
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:-26px;position:relative}
 .filters input,.filters select{height:48px;padding:0 14px;border:1px solid var(--line-d);border-radius:6px;font-size:1rem;background:#fff;color:var(--ink);max-width:100%;font-family:inherit}
 .filters input{flex:1;min-width:240px}
+.geo-btn{display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 16px;border:1px solid var(--line-d);border-radius:6px;background:#fff;color:var(--ink);font:inherit;font-weight:600;cursor:pointer;touch-action:manipulation;transition:background-color .15s var(--ease),transform .12s var(--ease)}
+.geo-btn:active{transform:scale(.97)}
+.geo-btn[aria-pressed=true]{background:var(--plum);border-color:var(--plum);color:#fff}
+.geo-btn[aria-pressed=true] .i{stroke:currentColor}
+.geo-btn:disabled{opacity:.6;cursor:progress}
+.geo-btn:focus-visible{outline:3px solid rgba(74,29,66,.35);outline-offset:2px}
+.geo-msg{margin-top:12px;color:var(--muted);font-size:.92rem}
+.km{color:var(--ink);font-weight:600;font-size:.84rem}
 .filters input,.filters select,.nl-l input,.nl-l select{transition:border-color .15s var(--ease),box-shadow .15s var(--ease)}
 .filters input:focus,.filters select:focus,.nl-l input:focus,.nl-l select:focus{border-color:var(--plum);box-shadow:0 0 0 3px rgba(74,29,66,.12)}
 .quick{margin-top:20px}
@@ -231,6 +239,7 @@ a:hover{text-decoration-thickness:2px}
 .hero::before{width:340px;height:340px;right:-130px;top:-120px;opacity:.28}
 .filters input{flex:1 1 100%;min-width:0}
 .filters select{flex:1 1 calc(50% - 4px);min-width:0;height:44px;padding:0 10px;font-size:16px}
+.geo-btn{flex:1 1 100%;justify-content:center;height:44px}
 .card{grid-template-columns:76px minmax(0,1fr);gap:4px 16px;align-items:start;padding:16px 0}
 .when{padding-right:12px;grid-row:span 2}
 .when::before{top:-24px}
