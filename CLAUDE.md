@@ -147,6 +147,7 @@ Constat : aucun cookie, aucun stockage local, aucune requête externe avant clic
 
 Rock Werchter (prix 2027, train inclus, Coins, revente), Graspop (billetterie ouverte le 14/11, 110 groupes), Jazz à Juan (accès, tarif réduit, soirées offertes d'après la page 2026) enrichis depuis les sites officiels. Tomorrowland Belgium laissé tel quel : les pages officielles trouvées mélangent 2026 et 2027, donc aucun prix relevé. Pukkelpop passé en dates confirmées (19–22 août 2027, site officiel). Fiches toujours vides côté prix, accès et conseils : voir `python3` ci-dessus (`prices == []`), à traiter par ordre de taille.
 
-## Ajouts du 20 novembre 2026 (136 → 140)
+## Ajouts du 20 novembre 2026 (136 → 144)
 
 Festival du Roi Arthur (Bréal-sous-Montfort, 27–29 août 2027), Décibulles (Neuve-Église, dates 2027 non publiées), No Logo Festival (déménagé en 2026 à Pont-sur-l'Ognon, 6–8 août 2027), Les Solidarités (Namur, 3–5 septembre 2027), tous depuis leurs sites officiels. Non ajoutés faute de dates lisibles ou d'accès au site : LaSemo (dates 2027 introuvables sur le site), Brussels Summer Festival, Pete the Monkey, Au Fil du Son, Les Nuits de l'Erdre (sites non consultables depuis le navigateur de la session).
+Second lot (140 → 144) : Rock'n Poche (Habère-Poche, 30–31 juillet 2027), Ecaussysteme (Gignac, Lot, 30 juillet – 1er août 2027 ; édition 2026 interdite par arrêté préfectoral pour canicule), Crammerock (Stekene, dates 2027 non publiées, 38 000 en 2026), Reggae Geel (dates 2027 non publiées). Écartés : Retro C Trop (édition 2027 incertaine, appel aux dons), Festival de Thau (pas de date ni de mois 2027 lisible), Inc'Rock (site inaccessible).

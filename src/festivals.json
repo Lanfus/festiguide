@@ -10036,5 +10036,278 @@
    50.4665,
    4.8662
   ]
+ },
+ {
+  "slug": "rock-n-poche",
+  "name": "Rock'n Poche",
+  "city": "Habère-Poche (Haute-Savoie)",
+  "country": "France",
+  "region": "Auvergne-Rhône-Alpes",
+  "venue": "Habère-Poche, vallée Verte",
+  "maps_q": "Habère-Poche",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Festival en montagne"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "30 – 31 juillet 2027",
+  "iso": [
+   "2027-07-30",
+   "2027-07-31"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates de la 35e édition publiées sur le site officiel. Programmation 2027 annoncée pour avril 2027.",
+  "price_from": null,
+  "price_label": "Tarifs 2027 non publiés",
+  "prices": [],
+  "prices_note": "Aucun tarif 2027 publié sur le site officiel (novembre 2026).",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "Programmation 2027 annoncée par le festival pour avril 2027.",
+  "about": "Festival associatif créé en 1992 au pied des alpages, à Habère-Poche, entre Genève et les stations du Chablais. Deux jours et seize concerts sur deux scènes, une programmation éclectique du local à l'international et plus de 200 bénévoles. Il accueille aussi une scène régionale ouverte aux groupes d'Auvergne-Rhône-Alpes et de Suisse romande.",
+  "access": [],
+  "tips": [],
+  "official": "https://www.rocknpoche.com/",
+  "sources": [
+   [
+    "Rock'n Poche : site officiel (dates 2027, chiffres)",
+    "https://www.rocknpoche.com/"
+   ],
+   [
+    "Rock'n Poche : programmation 2027",
+    "https://www.rocknpoche.com/le-festival/programmation-2/"
+   ]
+  ],
+  "visiteurs": 11000,
+  "visiteurs_note": "11 000 festivaliers sur deux jours, d'après le site officiel (remerciements publiés après l'édition 2026).",
+  "geo": [
+   46.2543,
+   6.4719
+  ]
+ },
+ {
+  "slug": "ecaussysteme",
+  "name": "Ecaussysteme",
+  "city": "Gignac (Lot)",
+  "country": "France",
+  "region": "Occitanie",
+  "venue": "Gignac, nord du Lot",
+  "maps_q": "Festival Ecaussysteme Gignac Lot",
+  "genres": [
+   "Rock",
+   "Rap",
+   "Électro",
+   "Chanson",
+   "Écoresponsable"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "30 juillet – 1er août 2027",
+  "iso": [
+   "2027-07-30",
+   "2027-08-01"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates de la 25e édition publiées sur le site officiel le 7 octobre 2026. L'édition 2026 avait été interdite par arrêté préfectoral à cause de la canicule.",
+  "price_from": null,
+  "price_label": "Tarifs 2027 non publiés",
+  "prices": [],
+  "prices_note": "Billetterie 2027 pas encore ouverte (novembre 2026) : aucun tarif publié.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [],
+  "lineup_note": "Aucun artiste 2027 annoncé.",
+  "about": "Festival du nord du Lot qui mêle ruralité, musique et développement durable, à Gignac près de Brive et Souillac. La 25e édition, en 2027, fêtera son anniversaire après l'annulation de 2026, interdite par la préfecture pendant un épisode de canicule.",
+  "access": [],
+  "tips": [
+   "Les questions sur l'édition 2026 annulée (remboursements) se règlent par e-mail auprès du festival, voir la page « Remboursement » du site officiel"
+  ],
+  "official": "https://www.ecaussysteme.com/",
+  "sources": [
+   [
+    "Ecaussysteme : annonce de la 25e édition (dates 2027)",
+    "https://www.ecaussysteme.com/25eme-edition-deja/"
+   ],
+   [
+    "Ecaussysteme : billetterie",
+    "https://www.ecaussysteme.com/billetterie/"
+   ],
+   [
+    "Ecaussysteme : annulation de l'édition 2026",
+    "https://www.ecaussysteme.com/annulation/"
+   ]
+  ],
+  "liens": [
+   [
+    "Accessibilité",
+    "https://www.ecaussysteme.com/accessibilite/"
+   ]
+  ],
+  "geo": [
+   44.9863,
+   1.4713
+  ]
+ },
+ {
+  "slug": "crammerock",
+  "name": "Crammerock",
+  "city": "Stekene",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Stekene, Flandre-Orientale",
+  "maps_q": "Crammerock Stekene",
+  "genres": [
+   "Rock",
+   "Pop",
+   "Indie",
+   "Électro"
+  ],
+  "mois": [
+   "septembre"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 pas encore publiées sur le site officiel. L'édition 2026 a eu lieu les 4 et 5 septembre, le premier week-end de septembre.",
+  "price_from": null,
+  "price_label": "Tarifs non publiés",
+  "prices": [],
+  "prices_note": "Aucun tarif 2027 publié ; les tarifs 2026 n'ont pas été relevés sur le site officiel.",
+  "last_label": "Édition 2026",
+  "last_dates": "4 – 5 septembre 2026",
+  "lineup": [
+   "Kasabian",
+   "Bazart",
+   "Rudimental",
+   "Celeste",
+   "CMAT",
+   "Pommelien Thijs",
+   "Goose",
+   "The Vaccines",
+   "The Haunted Youth",
+   "STONE"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Têtes d'affiche de l'édition 2026, d'après le line-up officiel.",
+  "about": "Festival flamand de fin d'été à Stekene, entre Gand et Anvers, sur deux jours début septembre. L'affiche mélange têtes d'affiche internationales et noms de la scène belge, rock, pop et électro.",
+  "access": [],
+  "tips": [
+   "Revente et rachat de billets via la page officielle « Tickets verkopen of overkopen »",
+   "Formules de camping « Easy Camping » et glamping proposées par le festival"
+  ],
+  "official": "https://www.crammerock.be/",
+  "sources": [
+   [
+    "Crammerock : line-up 2026",
+    "https://www.crammerock.be/line-up"
+   ],
+   [
+    "Crammerock : bilan 2026 (« 38.000x Bedankt »)",
+    "https://www.crammerock.be/nieuws/38000x-bedankt"
+   ]
+  ],
+  "liens": [
+   [
+    "Infos pratiques (en néerlandais)",
+    "https://www.crammerock.be/info"
+   ],
+   [
+    "Accessibilité (en néerlandais)",
+    "https://www.crammerock.be/toegankelijkheid"
+   ]
+  ],
+  "visiteurs": 38000,
+  "visiteurs_note": "38 000 festivaliers en 2026, d'après le bilan publié par le festival le 8 septembre 2026.",
+  "geo": [
+   51.2094,
+   4.0331
+  ]
+ },
+ {
+  "slug": "reggae-geel",
+  "name": "Reggae Geel",
+  "city": "Geel",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Geel, province d'Anvers",
+  "maps_q": "Reggae Geel Zandstraat Geel",
+  "genres": [
+   "Reggae",
+   "Musiques du monde",
+   "Dancehall"
+  ],
+  "mois": [
+   "juillet",
+   "août"
+  ],
+  "dates": "À confirmer",
+  "iso": null,
+  "status": "Dates à confirmer",
+  "status_note": "Dates 2027 pas encore publiées sur le site officiel. Le festival se tient fin juillet ou début août (du jeudi 31 juillet au dimanche 3 août en 2025, d'après la page mobilité).",
+  "price_from": null,
+  "price_label": "Tarifs non publiés",
+  "prices": [
+   [
+    "Ticket Comfort (édition 2026)",
+    "110 € le jeudi, 155 € le vendredi ou le samedi : billet d'un jour, accès rapide et espace lounge"
+   ]
+  ],
+  "prices_note": "Seul le tarif Comfort de l'édition 2026 a été relevé sur le site officiel ; le prix du billet simple n'y figurait pas. Tarifs 2027 non publiés.",
+  "last_label": "Édition 2026",
+  "last_dates": "",
+  "lineup": [
+   "Beenie Man",
+   "L'Entourloop",
+   "Christopher Martin",
+   "Patoranking",
+   "Shy FX & MC Rage",
+   "Queen Omega & The Royal Souls",
+   "Anthony B",
+   "Danakil"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de la grande scène 2026, d'après le site officiel.",
+  "about": "Né en 1978 à Geel, en Campine anversoise, Reggae Geel se présente comme le plus ancien festival reggae d'Europe. Plusieurs scènes, dont une dédiée au dub et une au dancehall, avec des artistes jamaïcains et européens.",
+  "access": [
+   "Train conseillé : réduction sur le billet de train événement avec le code promo du billet festival, puis navettes gratuites depuis la gare de Geel",
+   "À pied ou à vélo depuis le centre de Geel par la Zandstraat"
+  ],
+  "tips": [
+   "Billet de train à acheter en ligne avant de monter : pas de vente à bord (amende de 90 €)",
+   "Casiers à louer sur place et hébergement clé en main (FestiTent) proposés par le festival"
+  ],
+  "official": "https://www.reggaegeel.com/",
+  "sources": [
+   [
+    "Reggae Geel : site officiel (programmation 2026)",
+    "https://www.reggaegeel.com/"
+   ],
+   [
+    "Reggae Geel : mobilité",
+    "https://www.reggaegeel.com/practical/mobility"
+   ],
+   [
+    "Reggae Geel : histoire",
+    "https://www.reggaegeel.com/history"
+   ],
+   [
+    "Reggae Geel : tickets Comfort",
+    "https://www.reggaegeel.com/news/your-guide-to-reggae-geels-comfort-tickets"
+   ]
+  ],
+  "liens": [
+   [
+    "Infos pratiques (mobilité, camping, FAQ)",
+    "https://www.reggaegeel.com/practical"
+   ]
+  ],
+  "geo": [
+   51.1611,
+   4.9903
+  ]
  }
 ]

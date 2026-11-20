@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:rock-n-poche-20270730@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270801
+SUMMARY:Rock'n Poche
+LOCATION:Habère-Poche\, vallée Verte
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/rock-n-poche.html
+URL:https://www.rocknpoche.com/
+END:VEVENT
+END:VCALENDAR

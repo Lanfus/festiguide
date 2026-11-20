@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ecaussysteme-20270730@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270802
+SUMMARY:Ecaussysteme
+LOCATION:Gignac\, nord du Lot
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/ecaussysteme.html
+URL:https://www.ecaussysteme.com/
+END:VEVENT
+END:VCALENDAR
