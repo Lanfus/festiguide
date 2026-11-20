@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:freemusic-festival-20270618@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270620
+SUMMARY:Freemusic Festival
+LOCATION:Lac Baron-Desqueyroux\, Montendre
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/freemusic-festival.html
+URL:https://freemusic-festival.com/
+END:VEVENT
+END:VCALENDAR

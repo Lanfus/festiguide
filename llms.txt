@@ -1,6 +1,6 @@
 # FestiGuide
 
-> Annuaire gratuit de 135 festivals de musique en France et en Belgique : dates, lieu, prix, line-up, accès et site officiel. Chaque fiche cite ses sources. Aucun billet n'est vendu ici : les achats se font sur les billetteries officielles.
+> Annuaire gratuit de 136 festivals de musique en France et en Belgique : dates, lieu, prix, line-up, accès et site officiel. Chaque fiche cite ses sources. Aucun billet n'est vendu ici : les achats se font sur les billetteries officielles.
 
 Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncées ») que si une source officielle la confirme ; sinon la fiche indique « Dates à confirmer ». Données indicatives, à vérifier sur le site officiel du festival.
 
@@ -17,22 +17,22 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique en janvier](https://lefestiguide.fr/festivals-musique-janvier.html): 4 festivals
 - [Festivals de musique en mars](https://lefestiguide.fr/festivals-musique-mars.html): 7 festivals
 - [Festivals de musique en mai](https://lefestiguide.fr/festivals-musique-mai.html): 13 festivals
-- [Festivals de musique en juin](https://lefestiguide.fr/festivals-musique-juin.html): 23 festivals
+- [Festivals de musique en juin](https://lefestiguide.fr/festivals-musique-juin.html): 24 festivals
 - [Festivals de musique en juillet](https://lefestiguide.fr/festivals-musique-juillet.html): 59 festivals
 - [Festivals de musique en août](https://lefestiguide.fr/festivals-musique-aout.html): 33 festivals
 - [Festivals de musique en septembre](https://lefestiguide.fr/festivals-musique-septembre.html): 4 festivals
 - [Festivals de musique en octobre](https://lefestiguide.fr/festivals-musique-octobre.html): 3 festivals
-- [Festivals électro](https://lefestiguide.fr/festivals-electro.html): 53 festivals
+- [Festivals électro](https://lefestiguide.fr/festivals-electro.html): 54 festivals
 - [Festivals pop](https://lefestiguide.fr/festivals-pop.html): 47 festivals
-- [Festivals rock](https://lefestiguide.fr/festivals-rock.html): 44 festivals
-- [Festivals rap](https://lefestiguide.fr/festivals-rap.html): 22 festivals
+- [Festivals rock](https://lefestiguide.fr/festivals-rock.html): 45 festivals
+- [Festivals rap](https://lefestiguide.fr/festivals-rap.html): 23 festivals
 - [Festivals de jazz](https://lefestiguide.fr/festivals-jazz.html): 18 festivals
 - [Festivals de musique classique](https://lefestiguide.fr/festivals-musique-classique.html): 15 festivals
 - [Festivals de musiques du monde](https://lefestiguide.fr/festivals-musiques-du-monde.html): 14 festivals
 - [Festivals techno](https://lefestiguide.fr/festivals-techno.html): 11 festivals
 - [Festivals hip-hop](https://lefestiguide.fr/festivals-hip-hop.html): 10 festivals
 - [Festivals de musiques actuelles](https://lefestiguide.fr/festivals-musiques-actuelles.html): 10 festivals
-- [Festivals de chanson](https://lefestiguide.fr/festivals-chanson.html): 8 festivals
+- [Festivals de chanson](https://lefestiguide.fr/festivals-chanson.html): 9 festivals
 - [Festivals indie](https://lefestiguide.fr/festivals-indie.html): 6 festivals
 - [Festivals soul](https://lefestiguide.fr/festivals-soul.html): 6 festivals
 - [Festivals de musique en montagne](https://lefestiguide.fr/festivals-musique-en-montagne.html): 6 festivals
@@ -44,7 +44,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique en Flandre](https://lefestiguide.fr/festivals-musique-flandre.html): 22 festivals
 - [Festivals de musique dans le Grand Est](https://lefestiguide.fr/festivals-musique-grand-est.html): 6 festivals
 - [Festivals de musique en Île-de-France](https://lefestiguide.fr/festivals-musique-ile-de-france.html): 16 festivals
-- [Festivals de musique en Nouvelle-Aquitaine](https://lefestiguide.fr/festivals-musique-nouvelle-aquitaine.html): 5 festivals
+- [Festivals de musique en Nouvelle-Aquitaine](https://lefestiguide.fr/festivals-musique-nouvelle-aquitaine.html): 6 festivals
 - [Festivals de musique en Occitanie](https://lefestiguide.fr/festivals-musique-occitanie.html): 13 festivals
 - [Festivals de musique dans les Pays de la Loire](https://lefestiguide.fr/festivals-musique-pays-de-la-loire.html): 7 festivals
 - [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lefestiguide.fr/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
@@ -58,9 +58,9 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals en août en Bretagne](https://lefestiguide.fr/festivals-aout-bretagne.html): 6 festivals
 - [Festivals en août en Flandre](https://lefestiguide.fr/festivals-aout-flandre.html): 8 festivals
 - [Festivals en août en Occitanie](https://lefestiguide.fr/festivals-aout-occitanie.html): 5 festivals
-- [Festivals électro en juin](https://lefestiguide.fr/festivals-electro-juin.html): 8 festivals
+- [Festivals électro en juin](https://lefestiguide.fr/festivals-electro-juin.html): 9 festivals
 - [Festivals pop en juin](https://lefestiguide.fr/festivals-pop-juin.html): 10 festivals
-- [Festivals rock en juin](https://lefestiguide.fr/festivals-rock-juin.html): 9 festivals
+- [Festivals rock en juin](https://lefestiguide.fr/festivals-rock-juin.html): 10 festivals
 - [Festivals électro en juillet](https://lefestiguide.fr/festivals-electro-juillet.html): 20 festivals
 - [Festivals pop en juillet](https://lefestiguide.fr/festivals-pop-juillet.html): 25 festivals
 - [Festivals rock en juillet](https://lefestiguide.fr/festivals-rock-juillet.html): 24 festivals
@@ -101,6 +101,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festival de Nîmes](https://lefestiguide.fr/festival-de-nimes.html): Nîmes (Gard), 15 juin – 17 juillet 2027
 - [Hellfest](https://lefestiguide.fr/hellfest.html): Clisson (Loire-Atlantique), 17 – 20 juin 2027
 - [Graspop Metal Meeting](https://lefestiguide.fr/graspop.html): Dessel, 17 – 20 juin 2027
+- [Freemusic Festival](https://lefestiguide.fr/freemusic-festival.html): Montendre (Charente-Maritime), 18 et 19 juin 2027
 - [Fête de la Musique](https://lefestiguide.fr/fete-de-la-musique.html): Partout en France, 21 juin 2027
 - [Garorock](https://lefestiguide.fr/garorock.html): Marmande (Lot-et-Garonne), 25 – 27 juin 2027
 - [Jazz à Vienne](https://lefestiguide.fr/jazz-a-vienne.html): Vienne (Isère), 25 juin – 10 juillet 2027

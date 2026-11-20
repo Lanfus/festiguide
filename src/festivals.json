@@ -9050,5 +9050,92 @@
     "https://app.fragolabs.com/7ca9fa12-7cda-4025-a5cf-7602800e8b20"
    ]
   ]
+ },
+ {
+  "short": "",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Lac Baron-Desqueyroux, Montendre",
+  "maps_q": "Lac Baron-Desqueyroux Montendre",
+  "genres": [
+   "Reggae",
+   "Rap",
+   "Électro",
+   "Rock",
+   "Chanson"
+  ],
+  "mois": [
+   "juin"
+  ],
+  "dates": "18 et 19 juin 2027",
+  "iso": [
+   "2027-06-18",
+   "2027-06-19"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 publiées sur le site officiel du festival et reprises par l'office de tourisme de Jonzac Haute-Saintonge. Billetterie et premiers artistes pas encore annoncés.",
+  "price_from": null,
+  "price_label": "",
+  "prices": [],
+  "prices_note": "Aucun tarif 2027 publié : la billetterie ouvre prochainement selon le site officiel. Les montants de l'édition 2026 n'apparaissent pas sur la page billetterie officielle (vente via Weezevent), ils ne sont donc pas repris ici.",
+  "last_label": "Édition 2026",
+  "last_dates": "19 et 20 juin 2026",
+  "lineup": [
+   "Claudio Capéo",
+   "Biga*Ranx",
+   "Luiza",
+   "Jahneration",
+   "La Ruda",
+   "Soom T",
+   "Cachemire",
+   "THK",
+   "Flymeon"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de la grande scène de l'édition 2026, d'après l'affiche officielle.",
+  "about": "Festival de Charente-Maritime né en 2001, installé au bord du lac de Montendre, à environ une heure de Bordeaux. Deux jours de concerts sur deux scènes, avec une affiche qui mêle reggae, rap, électro, rock et chanson, et une plage ouverte l'après-midi.",
+  "access": [],
+  "tips": [
+   "Le camping « au cœur du festival » est réservé aux 16 ans et plus et interdit aux véhicules ; les campings du Domaine du Lac, à 5 minutes à pied, accueillent les familles et les vans (complets en 2026)",
+   "Paiement sur place en cashless : recharger son compte avant d'arriver",
+   "Revente uniquement via la bourse aux billets officielle (Reelax Tickets) : le festival ne rembourse pas les billets"
+  ],
+  "official": "https://freemusic-festival.com/",
+  "sources": [
+   [
+    "Freemusic Festival : site officiel (dates 2027)",
+    "https://freemusic-festival.com/"
+   ],
+   [
+    "Freemusic Festival : programmation 2026",
+    "https://freemusic-festival.com/programmation-2026/"
+   ],
+   [
+    "Freemusic Festival : billetterie et campings",
+    "https://freemusic-festival.com/billetterie/"
+   ],
+   [
+    "Office de tourisme Jonzac Haute-Saintonge : Freemusic 2027",
+    "https://en.jonzac-haute-saintonge.com/fiche-sit/festival-freemusic-2027-5811250/"
+   ],
+   [
+    "Sud Ouest : bilan de l'édition 2024",
+    "https://www.sudouest.fr/culture/festival/free-music/montendre-le-freemusic-revient-sur-le-devant-de-la-scene-20219068.php"
+   ]
+  ],
+  "visiteurs": 15000,
+  "visiteurs_note": "Près de 15 000 festivaliers sur l'édition 2024, d'après Sud Ouest (23 juin 2024).",
+  "slug": "freemusic-festival",
+  "name": "Freemusic Festival",
+  "city": "Montendre (Charente-Maritime)",
+  "country": "France",
+  "liens": [
+   [
+    "Campings du festival",
+    "https://freemusic-festival.com/camping/"
+   ],
+   [
+    "FAQ",
+    "https://freemusic-festival.com/faq"
+   ]
+  ]
  }
 ]
