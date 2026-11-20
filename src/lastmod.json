@@ -1,0 +1,562 @@
+{
+ "alcatraz-festival": {
+  "d": "2026-11-20",
+  "h": "60ad0537de28a814"
+ },
+ "aluna-festival": {
+  "d": "2026-11-20",
+  "h": "54bd1e62631c6150"
+ },
+ "art-rock": {
+  "d": "2026-11-20",
+  "h": "6c7db06ae04475b8"
+ },
+ "astropolis": {
+  "d": "2026-11-20",
+  "h": "60f5db46d081cc85"
+ },
+ "au-foin-de-la-rue": {
+  "d": "2026-11-20",
+  "h": "1ece9339867ea5e3"
+ },
+ "au-pont-du-rock": {
+  "d": "2026-11-20",
+  "h": "4864040de9240c6d"
+ },
+ "bobital": {
+  "d": "2026-11-20",
+  "h": "e38f4152bdfebb75"
+ },
+ "brakrock": {
+  "d": "2026-11-20",
+  "h": "b1c3466116304b71"
+ },
+ "brosella": {
+  "d": "2026-11-20",
+  "h": "37932e709f6a40b1"
+ },
+ "cabaret-vert": {
+  "d": "2026-11-20",
+  "h": "17b7ca01bd980e5c"
+ },
+ "cactus-festival": {
+  "d": "2026-11-20",
+  "h": "c312902997c82250"
+ },
+ "calvi-on-the-rocks": {
+  "d": "2026-11-20",
+  "h": "d7cd0181a7df0c7a"
+ },
+ "chamonix-unlimited": {
+  "d": "2026-11-20",
+  "h": "b2daae7e730695b3"
+ },
+ "choregies-d-orange": {
+  "d": "2026-11-20",
+  "h": "65fc4c2b93f1ba0f"
+ },
+ "cognac-blues-passions": {
+  "d": "2026-11-20",
+  "h": "f8b779c1363a4429"
+ },
+ "couleur-cafe": {
+  "d": "2026-11-20",
+  "h": "1ec8b680e6e3e82b"
+ },
+ "decibulles": {
+  "d": "2026-11-20",
+  "h": "a20bc74833916225"
+ },
+ "dour-festival": {
+  "d": "2026-11-20",
+  "h": "a7780916f7306653"
+ },
+ "dream-nation": {
+  "d": "2026-11-20",
+  "h": "fdda9d5404a2f3b5"
+ },
+ "electrobeach": {
+  "d": "2026-11-20",
+  "h": "39b4b9fab13403d8"
+ },
+ "esperanzah": {
+  "d": "2026-11-20",
+  "h": "2ea732239ab9c72e"
+ },
+ "eurockeennes-de-belfort": {
+  "d": "2026-11-20",
+  "h": "6edd7314bbad7cb5"
+ },
+ "europavox": {
+  "d": "2026-11-20",
+  "h": "ba958f42926e5207"
+ },
+ "extrema-outdoor": {
+  "d": "2026-11-20",
+  "h": "47c09934436a1e7f"
+ },
+ "family-piknik": {
+  "d": "2026-11-20",
+  "h": "5c7e7f8590006bf4"
+ },
+ "festival-beauregard": {
+  "d": "2026-11-20",
+  "h": "0e1bb5fefab2f0fe"
+ },
+ "festival-berlioz": {
+  "d": "2026-11-20",
+  "h": "aed4dbffd9b1d28d"
+ },
+ "festival-d-aix-en-provence": {
+  "d": "2026-11-20",
+  "h": "11a20c2b806243fe"
+ },
+ "festival-d-ambronay": {
+  "d": "2026-11-20",
+  "h": "75deab48b610a851"
+ },
+ "festival-d-auvers-sur-oise": {
+  "d": "2026-11-20",
+  "h": "a5d97938b06cc1f8"
+ },
+ "festival-de-carcassonne": {
+  "d": "2026-11-20",
+  "h": "39bc3104e23b4649"
+ },
+ "festival-de-cornouaille": {
+  "d": "2026-11-20",
+  "h": "8bb025a6d0edec67"
+ },
+ "festival-de-la-chaise-dieu": {
+  "d": "2026-11-20",
+  "h": "ec7a608e146378ef"
+ },
+ "festival-de-nimes": {
+  "d": "2026-11-20",
+  "h": "2a8dd17a8055cb0d"
+ },
+ "festival-de-poupet": {
+  "d": "2026-11-20",
+  "h": "71c26870909865a7"
+ },
+ "festival-de-saint-cere": {
+  "d": "2026-11-20",
+  "h": "e1f787b0ce3c9d06"
+ },
+ "festival-de-saint-denis": {
+  "d": "2026-11-20",
+  "h": "db3955c395860d55"
+ },
+ "festival-des-filets-bleus": {
+  "d": "2026-11-20",
+  "h": "9000c8075e800f57"
+ },
+ "festival-dranouter": {
+  "d": "2026-11-20",
+  "h": "f05441565d44f453"
+ },
+ "festival-du-bout-du-monde": {
+  "d": "2026-11-20",
+  "h": "5ce4d647a8a53abe"
+ },
+ "festival-du-chant-de-marin": {
+  "d": "2026-11-20",
+  "h": "383555d77dfdceda"
+ },
+ "festival-du-roi-arthur": {
+  "d": "2026-11-20",
+  "h": "1f6c594ad4b3d518"
+ },
+ "festival-interceltique-de-lorient": {
+  "d": "2026-11-20",
+  "h": "3c7ea227f76d880e"
+ },
+ "festival-international-de-colmar": {
+  "d": "2026-11-20",
+  "h": "fa8f3177b292a18c"
+ },
+ "festival-le-bon-air": {
+  "d": "2026-11-20",
+  "h": "175a004e7e27d4bb"
+ },
+ "festival-pablo-casals": {
+  "d": "2026-11-20",
+  "h": "b430d3e569128014"
+ },
+ "festival-radio-france-montpellier": {
+  "d": "2026-11-20",
+  "h": "ef3ddc8769c6ada8"
+ },
+ "festival-van-vlaanderen-gent": {
+  "d": "2026-11-20",
+  "h": "4d82cfa58e93d4aa"
+ },
+ "fete-de-l-humanite": {
+  "d": "2026-11-20",
+  "h": "5d92da33e208f329"
+ },
+ "fete-de-la-musique": {
+  "d": "2026-11-20",
+  "h": "76a50286d39784e1"
+ },
+ "fete-du-bruit": {
+  "d": "2026-11-20",
+  "h": "602cbb2bfac71dec"
+ },
+ "fiesta-des-suds": {
+  "d": "2026-11-20",
+  "h": "a9504cd11565dce1"
+ },
+ "francofolies-de-la-rochelle": {
+  "d": "2026-11-20",
+  "h": "c848b62146786412"
+ },
+ "francofolies-de-spa": {
+  "d": "2026-11-20",
+  "h": "6cac8dd19e1480d2"
+ },
+ "freemusic-festival": {
+  "d": "2026-11-20",
+  "h": "9378fa98d9fcc504"
+ },
+ "garorock": {
+  "d": "2026-11-20",
+  "h": "2b21df261ad7b8b3"
+ },
+ "gaume-jazz-festival": {
+  "d": "2026-11-20",
+  "h": "830035ab59f1dcdd"
+ },
+ "gent-jazz": {
+  "d": "2026-11-20",
+  "h": "5ae761c9e34834fd"
+ },
+ "graspop": {
+  "d": "2026-11-20",
+  "h": "0ea81351f2e8241e"
+ },
+ "hellfest": {
+  "d": "2026-11-20",
+  "h": "e15d557d0ecac5b8"
+ },
+ "horst-music-festival": {
+  "d": "2026-11-20",
+  "h": "8abf4e291b8bfe43"
+ },
+ "jazz-a-juan": {
+  "d": "2026-11-20",
+  "h": "ad15e21407c1a74e"
+ },
+ "jazz-a-la-villette": {
+  "d": "2026-11-20",
+  "h": "4e8ccd27ab996ce0"
+ },
+ "jazz-a-saint-germain-des-pres": {
+  "d": "2026-11-20",
+  "h": "bf4b9792409927e0"
+ },
+ "jazz-a-vienne": {
+  "d": "2026-11-20",
+  "h": "9d99cf86e0e5823a"
+ },
+ "jazz-in-marciac": {
+  "d": "2026-11-20",
+  "h": "68e872f2d185fbcf"
+ },
+ "jazz-middelheim": {
+  "d": "2026-11-20",
+  "h": "25e6945441dd266b"
+ },
+ "jazz-sous-les-pommiers": {
+  "d": "2026-11-20",
+  "h": "10dbc50e0bdbe868"
+ },
+ "jazzdor": {
+  "d": "2026-11-20",
+  "h": "8bed4e31cac22e1c"
+ },
+ "la-folle-journee-de-nantes": {
+  "d": "2026-11-20",
+  "h": "365159aa613b5f70"
+ },
+ "la-magnifique-society": {
+  "d": "2026-11-20",
+  "h": "bb1615f07c29443b"
+ },
+ "la-roque-d-antheron": {
+  "d": "2026-11-20",
+  "h": "4f46dbbe6d02e8b0"
+ },
+ "la-route-du-rock": {
+  "d": "2026-11-20",
+  "h": "27a78d62b8d58543"
+ },
+ "le-jardin-du-michel": {
+  "d": "2026-11-20",
+  "h": "8eaff9367cd519a8"
+ },
+ "les-3-elephants": {
+  "d": "2026-11-20",
+  "h": "416b09f83309ccf0"
+ },
+ "les-ardentes": {
+  "d": "2026-11-20",
+  "h": "5d702229c65ec44b"
+ },
+ "les-deferlantes": {
+  "d": "2026-11-20",
+  "h": "88cb509accf38ef8"
+ },
+ "les-escales": {
+  "d": "2026-11-20",
+  "h": "7e95f7988ae00b87"
+ },
+ "les-nuits-botanique": {
+  "d": "2026-11-20",
+  "h": "e2cb1dc8870a73ad"
+ },
+ "les-nuits-secretes": {
+  "d": "2026-11-20",
+  "h": "c52aeee0b38d2b04"
+ },
+ "les-plages-electroniques": {
+  "d": "2026-11-20",
+  "h": "fbe431a358b023ce"
+ },
+ "les-siestes-electroniques": {
+  "d": "2026-11-20",
+  "h": "69a195f62e78e1f1"
+ },
+ "les-solidarites": {
+  "d": "2026-11-20",
+  "h": "fb832c730233d120"
+ },
+ "les-suds-a-arles": {
+  "d": "2026-11-20",
+  "h": "0da80dd72ec432c6"
+ },
+ "les-trans-musicales": {
+  "d": "2026-11-20",
+  "h": "1a760fe12953b115"
+ },
+ "lokerse-feesten": {
+  "d": "2026-11-20",
+  "h": "37a464fa04fd8988"
+ },
+ "lollapalooza-paris": {
+  "d": "2026-11-20",
+  "h": "4958e79d6ae89b75"
+ },
+ "main-square-festival": {
+  "d": "2026-11-20",
+  "h": "bd2e5e2b0c319820"
+ },
+ "mama-festival": {
+  "d": "2026-11-20",
+  "h": "5b1faee8890ad60d"
+ },
+ "marktrock": {
+  "d": "2026-11-20",
+  "h": "fb317d2f1d2c6b5f"
+ },
+ "marsatac": {
+  "d": "2026-11-20",
+  "h": "54ceb7fd46129853"
+ },
+ "marseille-jazz-des-cinq-continents": {
+  "d": "2026-11-20",
+  "h": "669f6b33f265ca49"
+ },
+ "marvellous-island": {
+  "d": "2026-11-20",
+  "h": "99324f0d48dbdc07"
+ },
+ "motocultor": {
+  "d": "2026-11-20",
+  "h": "5df10c025b781343"
+ },
+ "musicalarue": {
+  "d": "2026-11-20",
+  "h": "4d0a292fb51a87de"
+ },
+ "musilac": {
+  "d": "2026-11-20",
+  "h": "5085c155cc7811f4"
+ },
+ "musiques-metisses": {
+  "d": "2026-11-20",
+  "h": "a568c3bdde654458"
+ },
+ "nancy-jazz-pulsations": {
+  "d": "2026-11-20",
+  "h": "4c6448f51f801f63"
+ },
+ "nice-jazz-festival": {
+  "d": "2026-11-20",
+  "h": "ab7c15f9d4085a2b"
+ },
+ "no-logo-festival": {
+  "d": "2026-11-20",
+  "h": "823315a3de950cf0"
+ },
+ "nuits-de-fourviere": {
+  "d": "2026-11-20",
+  "h": "d060396c6574b800"
+ },
+ "nuits-de-la-citadelle": {
+  "d": "2026-11-20",
+  "h": "d4a8bacd41ef9f7c"
+ },
+ "nuits-de-la-guitare-de-patrimonio": {
+  "d": "2026-11-20",
+  "h": "a4f4d1daf78ff837"
+ },
+ "nuits-du-sud": {
+  "d": "2026-11-20",
+  "h": "919e40aec9df083e"
+ },
+ "nuits-sonores": {
+  "d": "2026-11-20",
+  "h": "f0fe5c1a3ab805ec"
+ },
+ "ostend-beach-festival": {
+  "d": "2026-11-20",
+  "h": "bf569d975edeaf28"
+ },
+ "panoramas-festival": {
+  "d": "2026-11-20",
+  "h": "e3fc0ab78132ccf9"
+ },
+ "papillons-de-nuit": {
+  "d": "2026-11-20",
+  "h": "9b07b0acb5d9b75f"
+ },
+ "paradise-city": {
+  "d": "2026-11-20",
+  "h": "270275733db8a10b"
+ },
+ "paris-jazz-festival": {
+  "d": "2026-11-20",
+  "h": "e608a0ffb7c8981b"
+ },
+ "pause-guitare": {
+  "d": "2026-11-20",
+  "h": "6713c7ce20f57533"
+ },
+ "peacock-society": {
+  "d": "2026-11-20",
+  "h": "2546dbd54e8ddf2e"
+ },
+ "positiv-festival": {
+  "d": "2026-11-20",
+  "h": "bc7803ba57965005"
+ },
+ "positive-education-festival": {
+  "d": "2026-11-20",
+  "h": "83c07e1ff0f86745"
+ },
+ "printemps-de-bourges": {
+  "d": "2026-11-20",
+  "h": "5d02eba4de0496bf"
+ },
+ "pukkelpop": {
+  "d": "2026-11-20",
+  "h": "afc1082d3b2a8fc1"
+ },
+ "rampage": {
+  "d": "2026-11-20",
+  "h": "b1284d25229f2890"
+ },
+ "rampage-open-air": {
+  "d": "2026-11-20",
+  "h": "4655e0411b453c06"
+ },
+ "rendez-vous-de-l-erdre": {
+  "d": "2026-11-20",
+  "h": "9ca6e3e5f361a06c"
+ },
+ "rio-loco": {
+  "d": "2026-11-20",
+  "h": "050d5ae860409414"
+ },
+ "rise-festival": {
+  "d": "2026-11-20",
+  "h": "589e09152f5a79f7"
+ },
+ "rock-en-seine": {
+  "d": "2026-11-20",
+  "h": "072ad2d81c333384"
+ },
+ "rock-the-pistes": {
+  "d": "2026-11-20",
+  "h": "af92cfc80bce7974"
+ },
+ "rock-werchter": {
+  "d": "2026-11-20",
+  "h": "ed067241f0bfb715"
+ },
+ "rock-zottegem": {
+  "d": "2026-11-20",
+  "h": "acaa4f6de91f65bc"
+ },
+ "ronquieres-festival": {
+  "d": "2026-11-20",
+  "h": "426edabf4c2baef3"
+ },
+ "rose-festival": {
+  "d": "2026-11-20",
+  "h": "a01cfd895ff60e58"
+ },
+ "snowattack": {
+  "d": "2026-11-20",
+  "h": "a9f0f49cb3d45aa5"
+ },
+ "snowboxx": {
+  "d": "2026-11-20",
+  "h": "456a7641dd63e65f"
+ },
+ "solidays": {
+  "d": "2026-11-20",
+  "h": "feba0376ea162655"
+ },
+ "sons-d-hiver": {
+  "d": "2026-11-20",
+  "h": "6111fd3f5a66110b"
+ },
+ "suikerrock": {
+  "d": "2026-11-20",
+  "h": "3a0962a67ec84555"
+ },
+ "terres-du-son": {
+  "d": "2026-11-20",
+  "h": "da9cb38c5a7c4a32"
+ },
+ "tomorrowland-belgium": {
+  "d": "2026-11-20",
+  "h": "26de0a7c0e8c9465"
+ },
+ "tomorrowland-winter": {
+  "d": "2026-11-20",
+  "h": "f2cc2163acc13aff"
+ },
+ "vieilles-charrues": {
+  "d": "2026-11-20",
+  "h": "617a9fa452494e33"
+ },
+ "we-love-green": {
+  "d": "2026-11-20",
+  "h": "6238f5158250fa71"
+ },
+ "wecandance": {
+  "d": "2026-11-20",
+  "h": "9cd6bde06d3621ee"
+ },
+ "werchter-boutique": {
+  "d": "2026-11-20",
+  "h": "214ebe529bf613a3"
+ },
+ "yardland-festival": {
+  "d": "2026-11-20",
+  "h": "8dfa71c85a0c71f6"
+ }
+}

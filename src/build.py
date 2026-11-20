@@ -23,7 +23,31 @@ def ic(name):
     """Icône en trait fin (une seule taille et une seule épaisseur pour tout le site)."""
     return f'<svg class="i" viewBox="0 0 24 24" aria-hidden="true">{ICONS[name]}</svg>'
 SITE = "FestiGuide"
-UPDATED = "17 novembre 2026"
+UPDATED = "17 novembre 2026"  # remplacé dans build() par la date de la fiche la plus récemment modifiée
+LASTMOD_FILE = Path(__file__).resolve().parent / "lastmod.json"
+
+
+def date_fr(iso):
+    a, m, j = iso.split("-")
+    return f"{int(j)} {MOIS_ORDRE[int(m) - 1]} {a}"
+
+
+def fiche_dates(fests):
+    """Date de dernière modification de chaque fiche : change seulement quand ses données changent
+    (empreinte du JSON du festival, gardée dans src/lastmod.json). Sert au « Mis à jour le » et au <lastmod> du sitemap."""
+    import datetime
+    try:
+        old = json.loads(LASTMOD_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        old = {}
+    today = datetime.date.today().isoformat()
+    new = {}
+    for f in fests:
+        h = hashlib.sha1(json.dumps(f, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()[:16]
+        prev = old.get(f["slug"])
+        new[f["slug"]] = {"h": h, "d": prev["d"] if prev and prev.get("h") == h else today}
+    LASTMOD_FILE.write_text(json.dumps(new, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    return {k: v["d"] for k, v in new.items()}
 # Nom de domaine personnel (ex. "lefestiguide.fr"). Vide = le site reste sur lanfus.github.io/festiguide.
 # Ne le remplir qu'APRÈS avoir réglé les DNS chez le registrar (voir README › Passer sur un vrai nom de domaine) :
 # build.py écrit alors le fichier CNAME et GitHub redirige l'ancienne adresse vers la nouvelle.
@@ -507,7 +531,10 @@ def budget_fields(f):
 
 
 def build(fests):
+    global UPDATED
     OUT.mkdir(parents=True, exist_ok=True)
+    LASTMOD = fiche_dates(fests)
+    UPDATED = date_fr(max(LASTMOD.values()))
     fests = sorted(fests, key=tri_key)
     defs = group_defs(fests)
 
@@ -552,7 +579,7 @@ def build(fests):
     nb_annonces = sum(1 for f in fests if f.get("status") == "Dates annoncées")
     idx = head(
         f"Festivals de musique {annee_cible(fests)} : dates et prix | {SITE}" if annee_cible(fests) else f"{len(fests)} festivals de musique : dates, prix | {SITE}",
-        f"Les {len(fests)} plus gros festivals de musique de France et de Belgique : dates, lieu, prix, artistes, plan et site officiel. Rock, électro, rap, jazz, metal.",
+        f"{len(fests)} festivals de musique en France et en Belgique classés par date : dates 2027, lieu, prix, line-up, accès et site officiel. Rock, électro, rap, jazz.",
         f"{BASE_URL}/",
         extra='<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": BASE_URL + "/", "inLanguage": "fr-FR", "description": "Annuaire gratuit de festivals de musique en France et en Belgique."}, ensure_ascii=False) + "</script>\n")
     idx += f'''<main id="contenu">
@@ -606,10 +633,12 @@ def build(fests):
                     "eventStatus": "https://schema.org/EventScheduled",
                     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
                     "location": {"@type": "Place", "name": f.get("venue") or f.get("city"),
-                                 "address": {"@type": "PostalAddress", "addressLocality": f.get("city"),
+                                 "address": {"@type": "PostalAddress", "addressLocality": re.sub(r"\s*\(.*?\)", "", f.get("city") or ""),
                                              "addressRegion": f.get("region"),
                                              "addressCountry": "BE" if f.get("country") == "Belgique" else "FR"}},
                     "url": f.get("official")}
+            if f.get("geo"):
+                data["location"]["geo"] = {"@type": "GeoCoordinates", "latitude": f["geo"][0], "longitude": f["geo"][1]}
             # Champs recommandés par Google (Search Console, « Événements ») : seulement avec des données sourcées.
             annee = f["iso"][0][:4]
             aff = AFFICHES.get(f["slug"]) and (AFFICHES_DIR / f'{f["slug"]}.webp').exists()
@@ -670,7 +699,7 @@ def build(fests):
         p += f'''<main id="contenu" class="wrap fiche">
 <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(f["name"])}</span></nav>
 <div class="fiche-top">
-<h1>{esc(f["name"])}</h1>
+<h1>{esc(f["name"])}{(" " + f["iso"][0][:4]) if f.get("iso") and f["iso"][0][:4] not in f["name"] else ""}</h1>
 {affiche_html(f)}
 <div class="fiche-intro">
 <p class="lead">{esc(f.get("about") or "")}</p>
@@ -720,7 +749,7 @@ def build(fests):
 <p class="budget-total" aria-live="polite"></p></section>
 <section class="box"><h2>Autres festivals à découvrir</h2><ul class="rel">{voisins}</ul>
 {voir_aussi(f, defs)}</section>
-<section class="box"><h2>Sources</h2><ul class="src">{src}</ul><p class="small">Mis à jour le {UPDATED}.</p></section>
+<section class="box"><h2>Sources</h2><ul class="src">{src}</ul><p class="small">Mis à jour le {date_fr(LASTMOD[f["slug"]])}.</p></section>
 </main>
 {foot()}<script src="script.js?v={JS_V}"></script>
 </body></html>
@@ -754,8 +783,14 @@ def build(fests):
             shutil.copy(AFFICHES_DIR / n, dest / n)
 
     # ---------- sitemap + robots ----------
-    urls = "".join(f"  <url><loc>{BASE_URL}/{s}</loc></url>\n"
-                   for s in ["", GUIDE_SLUG] + [f'{d["slug"]}.html' for d in defs] + [f'{f["slug"]}.html' for f in fests] + LEGAL_PAGES)
+    def lm(d):
+        return f"<lastmod>{d}</lastmod>" if d else ""
+    plus_recent = max(LASTMOD.values())
+    pages = [("", plus_recent), (GUIDE_SLUG, None)]
+    pages += [(f'{d["slug"]}.html', max(LASTMOD[x["slug"]] for x in d["list"])) for d in defs]
+    pages += [(f'{f["slug"]}.html', LASTMOD[f["slug"]]) for f in fests]
+    pages += [(x, None) for x in LEGAL_PAGES]
+    urls = "".join(f"  <url><loc>{BASE_URL}/{s}</loc>{lm(d)}</url>\n" for s, d in pages)
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + urls + "</urlset>\n", encoding="utf-8")

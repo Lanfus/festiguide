@@ -89,7 +89,7 @@ Demandé par Florent pour prouver des compétences SEO / CRM chiffrées.
 
 ## SEO déjà en place
 
-Titres ≤ 60 caractères, descriptions 70–160, canonical, Open Graph + Twitter card avec `og-image.png`, favicon SVG, JSON-LD `BreadcrumbList` sur chaque fiche et `Festival` quand `iso` est renseigné, bloc « Autres festivals à découvrir » (4 liens par fiche, calculés par `related()` selon région, mois et genre), balise de vérification Google Search Console dans `head()` (ne pas la supprimer), sitemap soumis dans Search Console le 13 novembre 2026. Les liens vers `style.css` et `script.js` portent une empreinte (`?v=…`) calculée par `build.py` : sans elle, les navigateurs gardent l'ancien CSS en cache et les visiteurs ne voient pas les changements.
+Titres ≤ 60 caractères, descriptions 70–160, canonical, Open Graph + Twitter card avec `og-image.png`, favicon SVG, JSON-LD `BreadcrumbList` sur chaque fiche et `Festival` quand `iso` est renseigné, bloc « Autres festivals à découvrir » (4 liens par fiche, calculés par `related()` selon région, mois et genre), balise de vérification Google Search Console dans `head()` (ne pas la supprimer), sitemap soumis dans Search Console le 13 novembre 2026. Depuis le 20/11/2026 : `src/lastmod.json` (généré, à committer) garde une empreinte des données de chaque festival ; « Mis à jour le » des fiches et `<lastmod>` du sitemap ne changent que quand les données de la fiche changent (pages de liste : date la plus récente de leurs festivals ; guide et pages légales sans `lastmod`). H1 des fiches avec l'année quand `iso` existe (« Hellfest 2027 »), JSON-LD `Festival` avec ville sans département et `GeoCoordinates`. Les liens vers `style.css` et `script.js` portent une empreinte (`?v=…`) calculée par `build.py` : sans elle, les navigateurs gardent l'ancien CSS en cache et les visiteurs ne voient pas les changements.
 
 ## Fonctionnalités de l'accueil et des fiches (ajoutées le 13 nov. 2026 après étude de festt.io, festapp.io, festivalabroad.com et festivalenfrance.com)
 
@@ -146,3 +146,7 @@ Constat : aucun cookie, aucun stockage local, aucune requête externe avant clic
 ## Enrichissement du 18 novembre 2026
 
 Rock Werchter (prix 2027, train inclus, Coins, revente), Graspop (billetterie ouverte le 14/11, 110 groupes), Jazz à Juan (accès, tarif réduit, soirées offertes d'après la page 2026) enrichis depuis les sites officiels. Tomorrowland Belgium laissé tel quel : les pages officielles trouvées mélangent 2026 et 2027, donc aucun prix relevé. Pukkelpop passé en dates confirmées (19–22 août 2027, site officiel). Fiches toujours vides côté prix, accès et conseils : voir `python3` ci-dessus (`prices == []`), à traiter par ordre de taille.
+
+## Ajouts du 20 novembre 2026 (136 → 140)
+
+Festival du Roi Arthur (Bréal-sous-Montfort, 27–29 août 2027), Décibulles (Neuve-Église, dates 2027 non publiées), No Logo Festival (déménagé en 2026 à Pont-sur-l'Ognon, 6–8 août 2027), Les Solidarités (Namur, 3–5 septembre 2027), tous depuis leurs sites officiels. Non ajoutés faute de dates lisibles ou d'accès au site : LaSemo (dates 2027 introuvables sur le site), Brussels Summer Festival, Pete the Monkey, Au Fil du Son, Les Nuits de l'Erdre (sites non consultables depuis le navigateur de la session).

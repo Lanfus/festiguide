@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:les-solidarites-20270903@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270906
+SUMMARY:Les Solidarités
+LOCATION:Site d'Ecolys\, Namur (entrée avenue d'Ecolys)
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/les-solidarites.html
+URL:https://lessolidarites.be/
+END:VEVENT
+END:VCALENDAR

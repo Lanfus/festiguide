@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:no-logo-festival-20270806@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270809
+SUMMARY:No Logo Festival
+LOCATION:Domaine des 12 Ponts\, Pont-sur-l'Ognon
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/no-logo-festival.html
+URL:https://nologofestival.fr/
+END:VEVENT
+END:VCALENDAR

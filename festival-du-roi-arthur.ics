@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-du-roi-arthur-20270827@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270830
+SUMMARY:Festival du Roi Arthur
+LOCATION:Plaine du Mafeu\, Bréal-sous-Montfort
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/festival-du-roi-arthur.html
+URL:https://www.festivalduroiarthur.fr/
+END:VEVENT
+END:VCALENDAR
