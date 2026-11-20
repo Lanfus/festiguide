@@ -123,8 +123,10 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Musilac](https://lefestiguide.fr/musilac.html): Aix-les-Bains (Savoie), 8 – 11 juillet 2027
 - [Jazz à Juan](https://lefestiguide.fr/jazz-a-juan.html): Antibes (Juan-les-Pins), 8 – 18 juillet 2027
 - [Les Déferlantes Sud de France](https://lefestiguide.fr/les-deferlantes.html): Le Barcarès (Pyrénées-Orientales), 9 – 11 juillet 2027
+- [Cactus Festival](https://lefestiguide.fr/cactus-festival.html): Bruges, 9 – 11 juillet 2027
 - [Les Francofolies de La Rochelle](https://lefestiguide.fr/francofolies-de-la-rochelle.html): La Rochelle (Charente-Maritime), 10 – 14 juillet 2027
 - [Les Vieilles Charrues](https://lefestiguide.fr/vieilles-charrues.html): Carhaix-Plouguer (Finistère), 15 – 18 juillet 2027
+- [Tomorrowland Belgium](https://lefestiguide.fr/tomorrowland-belgium.html): Boom, 16 – 18 juillet et 23 – 25 juillet 2027
 - [Les Francofolies de Spa](https://lefestiguide.fr/francofolies-de-spa.html): Spa, 16 – 18 juillet 2027
 - [Festival de Cornouaille](https://lefestiguide.fr/festival-de-cornouaille.html): Quimper (Finistère), 22 – 25 juillet 2027
 - [Les Nuits Secrètes](https://lefestiguide.fr/les-nuits-secretes.html): Aulnoye-Aymeries, 23 – 25 juillet 2027
@@ -168,14 +170,12 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Yardland Festival](https://lefestiguide.fr/yardland-festival.html): Paris (Bois de Vincennes), Juillet 2027 (dates à confirmer)
 - [Terres du Son](https://lefestiguide.fr/terres-du-son.html): Monts (Indre-et-Loire), Dates 2027 à confirmer
 - [Festival de Carcassonne](https://lefestiguide.fr/festival-de-carcassonne.html): Carcassonne (Aude), Dates 2027 à confirmer
-- [Tomorrowland Belgium](https://lefestiguide.fr/tomorrowland-belgium.html): Boom, À confirmer
 - [Electrobeach Music Festival](https://lefestiguide.fr/electrobeach.html): Le Barcarès, À confirmer
 - [Les Escales](https://lefestiguide.fr/les-escales.html): Saint-Nazaire, À confirmer
 - [Nice Jazz Festival](https://lefestiguide.fr/nice-jazz-festival.html): Nice, À confirmer
 - [Chorégies d'Orange](https://lefestiguide.fr/choregies-d-orange.html): Orange, À confirmer
 - [Festival de La Roque-d'Anthéron](https://lefestiguide.fr/la-roque-d-antheron.html): La Roque-d'Anthéron, À confirmer
 - [Festival Radio France Occitanie Montpellier](https://lefestiguide.fr/festival-radio-france-montpellier.html): Montpellier, À confirmer
-- [Cactus Festival](https://lefestiguide.fr/cactus-festival.html): Bruges, À confirmer
 - [Les Suds, à Arles](https://lefestiguide.fr/les-suds-a-arles.html): Arles, À confirmer
 - [Esperanzah!](https://lefestiguide.fr/esperanzah.html): Floreffe, À confirmer
 - [Festival Pablo Casals](https://lefestiguide.fr/festival-pablo-casals.html): Prades, À confirmer

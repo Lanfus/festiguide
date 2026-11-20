@@ -3099,6 +3099,10 @@
   "official": "https://www.dourfestival.eu",
   "sources": [
    [
+    "Site officiel Dour Festival 2027 (du 7 au 11 juillet)",
+    "https://www.dourfestival.eu/"
+   ],
+   [
     "Techno Airlines : Dour Festival 2027",
     "https://www.technoairlines.com/festival/dour-festival-dour-belgium-2027"
    ],
@@ -3809,10 +3813,13 @@
   "mois": [
    "juillet"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'organisateur annonce davantage d'informations sur l'édition 2027 « à la fin de l'année ». Le festival a lieu habituellement en juillet.",
+  "dates": "16 – 18 juillet et 23 – 25 juillet 2027",
+  "iso": [
+   "2027-07-16",
+   "2027-07-25"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 confirmées par l'organisateur (FAQ officielle) : deux week-ends, du 16 au 18 juillet et du 23 au 25 juillet 2027, au domaine De Schorre à Boom.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -5588,10 +5595,13 @@
   "mois": [
    "juillet"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : des sites agrégateurs annoncent du 9 au 11 juillet 2027, non vérifié sur le site officiel.",
+  "dates": "9 – 11 juillet 2027",
+  "iso": [
+   "2027-07-09",
+   "2027-07-11"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 confirmées par le site officiel du festival : programme des 9, 10 et 11 juillet 2027 (alt-J en clôture le dimanche 11), combitickets en vente depuis novembre 2026.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -5606,7 +5616,11 @@
   "official": "https://www.cactusmusic.be/",
   "sources": [
    [
-    "Agrégateur : 9-11 juillet 2027 (non officiel)",
+    "Site officiel Cactusfestival 2027 (programme et billetterie)",
+    "https://cactusfestival.be/"
+   ],
+   [
+    "Agrégateur : 9-11 juillet 2027 (non officiel, pour mémoire)",
     "https://www.musicfestivalwizard.com/festivals/cactus-festival-2027/"
    ]
   ],

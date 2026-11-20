@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:tomorrowland-belgium-20270716@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270726
+SUMMARY:Tomorrowland Belgium
+LOCATION:De Schorre\, Boom
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/tomorrowland-belgium.html
+URL:https://www.tomorrowland.com/
+END:VEVENT
+END:VCALENDAR

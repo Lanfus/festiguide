@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cactus-festival-20270709@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:Cactus Festival
+LOCATION:Minnewaterpark\, Bruges
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/cactus-festival.html
+URL:https://www.cactusmusic.be/
+END:VEVENT
+END:VCALENDAR
