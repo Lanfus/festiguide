@@ -470,6 +470,23 @@ def newsletter_form(f=None, genres=()):
 '''
 
 
+def budget_fields(f):
+    """Champs du calculateur de budget : le visiteur saisit ses montants, le site n'estime rien.
+    Le billet n'est prérempli que si un tarif a été relevé (prix le plus bas, à ajuster)."""
+    pn = prix_num(f)
+    pre = f' value="{pn}"' if pn else ""
+    hint = (f'<span class="small">Prix le plus bas relevé : {esc(f.get("price_label") or pn)}. À ajuster.</span>' if pn
+            else '<span class="small">Tarifs détaillés dans la fiche, plus haut.</span>' if f.get("prices")
+            else '<span class="small">Tarif non relevé : consulte le site officiel.</span>')
+    rows = [("b-pers", "Personnes", ' value="1" min="1" max="20"', ""),
+            ("b-bil", "Billet (par personne, €)", pre + ' min="0"', hint),
+            ("b-trans", "Transport aller-retour (par personne, €)", ' min="0"', ""),
+            ("b-loge", "Camping ou hébergement (par personne, €)", ' min="0"', ""),
+            ("b-vie", "Repas, boissons, sur place (par personne, €)", ' min="0"', "")]
+    out = "".join(f'<label class="bf" for="{i}">{t}</label><input class="bi" id="{i}" type="number" inputmode="decimal" step="any"{a}>{h}' for i, t, a, h in rows)
+    return f'<div class="budget" data-budget>{out}</div>'
+
+
 def build(fests):
     OUT.mkdir(parents=True, exist_ok=True)
     fests = sorted(fests, key=tri_key)
@@ -674,6 +691,10 @@ def build(fests):
 <section class="box"><h2>À savoir</h2><ul>{tips}</ul>
 <p class="small">Billets, chaleur, bruit, fouilles : lire le <a href="guide-securite-festival.html">guide sécurité festival</a>.</p></section>
 </div>
+<section class="box" id="budget"><h2>Calculer mon budget</h2>
+<p class="small">Entre tes montants, le total se calcule ici dans ton navigateur. Rien n'est enregistré ni envoyé.</p>
+{budget_fields(f)}
+<p class="budget-total" aria-live="polite"></p></section>
 <section class="box"><h2>Autres festivals à découvrir</h2><ul class="rel">{voisins}</ul>
 {voir_aussi(f, defs)}</section>
 <section class="box"><h2>Sources</h2><ul class="src">{src}</ul><p class="small">Mis à jour le {UPDATED}.</p></section>
@@ -1395,6 +1416,10 @@ footer p{max-width:760px}
 .top nav a:hover{border-bottom-color:var(--pop)}
 a:hover{text-decoration-thickness:2px}
 }
+.budget{display:grid;grid-template-columns:1fr;gap:6px 0;max-width:420px}
+.bf{font-size:.92rem;margin-top:8px}
+.bi{padding:10px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff;color:var(--ink)}
+.budget-total{margin:16px 0 0;font-size:1.1rem;min-height:1.6em}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card,.btn,.mt,.gc,a{transition:none}.hero .wrap>*{animation:none}}
 @media (max-width:820px){
 .fiche-top{grid-template-columns:minmax(0,1fr);grid-template-areas:"titre" "affiche" "intro"}
@@ -1519,6 +1544,24 @@ JS = r'''
     if (navigator.clipboard) navigator.clipboard.writeText(url).then(function () { msg.textContent = 'Lien copié.'; }, function () { msg.textContent = url; });
     else msg.textContent = url;
   });
+})();
+
+// Calculateur de budget : calcul local, aucune donnée enregistrée ni envoyée.
+(function () {
+  var box = document.querySelector('[data-budget]');
+  if (!box) return;
+  var out = document.querySelector('.budget-total');
+  var ids = ['b-bil', 'b-trans', 'b-loge', 'b-vie'];
+  function val(id) { var v = parseFloat(document.getElementById(id).value.replace(',', '.')); return isNaN(v) || v < 0 ? 0 : v; }
+  function fmt(n) { return n.toLocaleString('fr-FR', { maximumFractionDigits: 0 }) + ' €'; }
+  function calc() {
+    var n = Math.max(1, Math.min(20, parseInt(document.getElementById('b-pers').value, 10) || 1));
+    var each = 0; ids.forEach(function (i) { each += val(i); });
+    if (!each) { out.textContent = ''; return; }
+    out.innerHTML = '<strong>Total : ' + fmt(each * n) + '</strong>' + (n > 1 ? ' (' + fmt(each) + ' par personne)' : '');
+  }
+  box.addEventListener('input', calc);
+  calc();
 })();
 '''
 

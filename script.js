@@ -97,3 +97,21 @@
     else msg.textContent = url;
   });
 })();
+
+// Calculateur de budget : calcul local, aucune donnée enregistrée ni envoyée.
+(function () {
+  var box = document.querySelector('[data-budget]');
+  if (!box) return;
+  var out = document.querySelector('.budget-total');
+  var ids = ['b-bil', 'b-trans', 'b-loge', 'b-vie'];
+  function val(id) { var v = parseFloat(document.getElementById(id).value.replace(',', '.')); return isNaN(v) || v < 0 ? 0 : v; }
+  function fmt(n) { return n.toLocaleString('fr-FR', { maximumFractionDigits: 0 }) + ' €'; }
+  function calc() {
+    var n = Math.max(1, Math.min(20, parseInt(document.getElementById('b-pers').value, 10) || 1));
+    var each = 0; ids.forEach(function (i) { each += val(i); });
+    if (!each) { out.textContent = ''; return; }
+    out.innerHTML = '<strong>Total : ' + fmt(each * n) + '</strong>' + (n > 1 ? ' (' + fmt(each) + ' par personne)' : '');
+  }
+  box.addEventListener('input', calc);
+  calc();
+})();
