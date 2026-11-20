@@ -65,7 +65,7 @@
     list.forEach(function (c) { grid.appendChild(c); });
   }
   var geoBtn = document.getElementById('geo'), geoMsg = document.getElementById('geo-msg'), here = null;
-  function say(t) { geoMsg.textContent = t; geoMsg.hidden = !t; }
+  function say(t) { geoMsg.textContent = t || geoMsg.dataset.def; }
   function dist(a, b, c, d) {
     var r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2);
     return 12742 * Math.asin(Math.sqrt(x * x + Math.cos(a * r) * Math.cos(c * r) * y * y));

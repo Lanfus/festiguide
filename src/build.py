@@ -570,7 +570,7 @@ def build(fests):
 <select id="tri" aria-label="Trier"><option value="date">Tri : date de début</option><option value="gros">Tri : les plus gros d'abord</option><option value="prix">Tri : prix croissant</option><option value="az">Tri : A → Z</option><option value="proche">Tri : près de chez moi</option></select>
 <button type="button" id="geo" class="geo-btn" aria-pressed="false" data-goatcounter-click="pres-de-chez-moi">{ic("pin")}Près de chez moi</button>
 </section>
-<p id="geo-msg" class="wrap geo-msg" role="status" hidden></p>
+<p id="geo-msg" class="wrap geo-msg" role="status" data-def="Tu nous autorises à utiliser ta position ? Appuie sur « Près de chez moi » et on te montre les festivals les plus proches de chez toi. Ta position reste sur ton appareil, elle n'est ni envoyée ni enregistrée.">Tu nous autorises à utiliser ta position ? Appuie sur « Près de chez moi » et on te montre les festivals les plus proches de chez toi. Ta position reste sur ton appareil, elle n'est ni envoyée ni enregistrée.</p>
 <section class="wrap quick" aria-label="Raccourcis">
 <div class="months" role="group" aria-label="Filtrer par mois">{months_html}</div>
 <div class="gchips" role="group" aria-label="Filtrer par style">{genres_html}</div>
@@ -1548,7 +1548,7 @@ JS = r'''
     list.forEach(function (c) { grid.appendChild(c); });
   }
   var geoBtn = document.getElementById('geo'), geoMsg = document.getElementById('geo-msg'), here = null;
-  function say(t) { geoMsg.textContent = t; geoMsg.hidden = !t; }
+  function say(t) { geoMsg.textContent = t || geoMsg.dataset.def; }
   function dist(a, b, c, d) {
     var r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2);
     return 12742 * Math.asin(Math.sqrt(x * x + Math.cos(a * r) * Math.cos(c * r) * y * y));
