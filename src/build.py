@@ -360,7 +360,19 @@ def group_page(d, defs, fests):
                  f'<span class="gl-meta">{esc(f.get("city") or "")}{(", " + esc(f["region"])) if f.get("region") else ""} · {esc(f.get("dates") or "À confirmer")}{visit}</span>'
                  f'<span class="gl-meta"><span class="badge {badge}">{esc(f.get("status") or "")}</span> {esc(f.get("price_label") or "Tarifs non publiés")}</span>'
                  f'<span class="tags">{tags}</span></li>\n')
-    desc = f"{n} festivals de musique {d['ou']} : dates, lieu, prix et line-up. {len(conf)} aux dates confirmées, classés des plus gros aux plus petits."
+    an = annee_cible(d["list"])
+    tete = f"{n} festivals de musique {d['ou']}" + (f" {an}" if an else "")
+    fin = f" Dates, prix et accès, dont {len(conf)} aux dates confirmées."
+    desc = f"{tete} :{fin}"
+    noms = []
+    for g in d["list"][:4]:
+        cand = noms + [g.get("short") or g["name"]]
+        essai = f"{tete} : {', '.join(cand)}…{fin}"
+        if len(essai) > 160:
+            break
+        noms = cand
+    if noms:
+        desc = f"{tete} : {', '.join(noms)}…{fin}"
     desc = desc if len(desc) <= 160 else desc[:157] + "…"
     url = f"{BASE_URL}/{d['slug']}.html"
     ld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
