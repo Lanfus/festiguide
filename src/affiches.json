@@ -258,5 +258,10 @@
   "w": 640,
   "h": 349,
   "source": "https://yardland.paris/images/YARDLAND_2027_PARTAGE.jpg"
+ },
+ "lovely-brive-festival": {
+  "w": 640,
+  "h": 640,
+  "source": "https://lovelybrivefestival.billetterie-event.fr/home"
  }
 }

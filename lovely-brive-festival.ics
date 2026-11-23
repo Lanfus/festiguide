@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:lovely-brive-festival-20270715@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270719
+SUMMARY:Lovely Brive Festival
+LOCATION:Parc des 3 Provinces\, Brive-la-Gaillarde
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/lovely-brive-festival.html
+URL:https://lovelybrivefestival.com/
+END:VEVENT
+END:VCALENDAR

@@ -10364,5 +10364,127 @@
    51.1611,
    4.9903
   ]
+ },
+ {
+  "short": "",
+  "region": "Nouvelle-Aquitaine",
+  "venue": "Parc des 3 Provinces, Brive-la-Gaillarde",
+  "maps_q": "Parc des 3 Provinces Brive-la-Gaillarde",
+  "genres": [
+   "Pop",
+   "Chanson",
+   "Rap"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "15 au 18 juillet 2027",
+  "iso": [
+   "2027-07-15",
+   "2027-07-18"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates publiées par l'organisateur sur le site officiel et la billetterie, et reprises par l'office de tourisme de Brive. Billetterie 2027 ouverte, programmation encore incomplète le dimanche.",
+  "price_from": 49.0,
+  "price_label": "Dès 49 € le billet 1 jour (2027)",
+  "prices": [
+   [
+    "Billet 1 jour 2027",
+    "à partir de 49 € ou 59 € selon le jour"
+   ],
+   [
+    "Billet jeune 2027",
+    "à partir de 49 €"
+   ],
+   [
+    "Billet jour enfant 2027",
+    "à partir de 29 €"
+   ],
+   [
+    "Pass 2 jours 2027",
+    "107 €"
+   ],
+   [
+    "Pass 3 jours 2027",
+    "150 €"
+   ],
+   [
+    "Pass 4 jours 2027 (offre fidélité)",
+    "209 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027 relevés sur le site officiel et la billetterie officielle en novembre 2026. Des offres famille, parent solo et « entre potes » existent aussi.",
+  "last_label": "Édition 2026",
+  "last_dates": "16 au 19 juillet 2026",
+  "lineup": [
+   "The Pussycat Dolls",
+   "Angèle",
+   "Orelsan",
+   "Vianney",
+   "Charlotte Cardin",
+   "Jain",
+   "Mosimann",
+   "Adèle Castillon",
+   "Eva",
+   "Naïka",
+   "Kemmler",
+   "Charlotte Boin"
+  ],
+  "lineup_note": "Artistes 2027 annoncés par le festival en novembre 2026. Un nom reste à venir le dimanche 18 juillet.",
+  "about": "Grand festival pop de Corrèze, connu jusqu'en 2025 sous le nom de Brive Festival. Quatre soirées en plein cœur de ville, au Parc des 3 Provinces au bord de la Corrèze, avec des têtes d'affiche françaises et internationales. Le festival met en avant les artistes féminines et soutient des associations d'aide aux victimes de violences conjugales.",
+  "access": [
+   "Train : ligne Paris – Toulouse, environ 4 h depuis Paris et 2 h depuis Bordeaux jusqu'à la gare de Brive-la-Gaillarde",
+   "Voiture : autoroutes A20 (Paris – Toulouse) et A89 (Bordeaux – Clermont-Ferrand), parkings gratuits en ville (EDF, Patinoire, 8 Mai, Jalinat)",
+   "Vélo : voie verte le long de la Corrèze et parking vélo gratuit et surveillé près de l'entrée"
+  ],
+  "tips": [
+   "Depuis le parking de la Guierle, la voie verte mène au site en une dizaine de minutes à pied",
+   "Certaines soirées affichent complet : réserver tôt sur la billetterie officielle"
+  ],
+  "official": "https://lovelybrivefestival.com/",
+  "sources": [
+   [
+    "Lovely Brive Festival : site officiel (dates, tarifs, line-up 2027)",
+    "https://lovelybrivefestival.com/"
+   ],
+   [
+    "Lovely Brive Festival : billetterie officielle 2027",
+    "https://lovelybrivefestival.billetterie-event.fr/home"
+   ],
+   [
+    "Lovely Brive Festival : comment venir",
+    "https://lovelybrivefestival.com/comment-venir-au-festival/"
+   ],
+   [
+    "Brive Tourisme : programmation 2027",
+    "https://www.brive-tourisme.com/en/agenda-2/major-events/music-festivals/brive-festival/programming/"
+   ]
+  ],
+  "slug": "lovely-brive-festival",
+  "name": "Lovely Brive Festival",
+  "city": "Brive-la-Gaillarde (Corrèze)",
+  "country": "France",
+  "liens": [
+   [
+    "Plan du site (édition 2026)",
+    "https://lovelybrivefestival.com/wp-content/uploads/2026/06/PLAN-V5.jpg"
+   ],
+   [
+    "Comment venir au festival",
+    "https://lovelybrivefestival.com/comment-venir-au-festival/"
+   ],
+   [
+    "FAQ",
+    "https://lovelybrivefestival.com/faq/"
+   ],
+   [
+    "Accessibilité",
+    "https://lovelybrivefestival.com/accessibilite/"
+   ]
+  ],
+  "geo": [
+   45.145,
+   1.5144
+  ]
  }
 ]
