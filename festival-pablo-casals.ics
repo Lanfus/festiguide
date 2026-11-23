@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-pablo-casals-20270726@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270807
+SUMMARY:Festival Pablo Casals
+LOCATION:Prades et Conflent
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/festival-pablo-casals.html
+URL:https://www.festivalpablocasals.fr/
+END:VEVENT
+END:VCALENDAR

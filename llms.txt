@@ -49,7 +49,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique dans les Pays de la Loire](https://lefestiguide.fr/festivals-musique-pays-de-la-loire.html): 7 festivals
 - [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lefestiguide.fr/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
 - [Festivals de musique en Wallonie](https://lefestiguide.fr/festivals-musique-wallonie.html): 7 festivals
-- [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 32 festivals
+- [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 33 festivals
 - [Festivals en mars en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-mars-auvergne-rhone-alpes.html): 5 festivals
 - [Festivals en juillet en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-juillet-auvergne-rhone-alpes.html): 5 festivals
 - [Festivals en juillet en Bretagne](https://lefestiguide.fr/festivals-juillet-bretagne.html): 6 festivals
@@ -100,9 +100,9 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Nuits Botanique](https://lefestiguide.fr/les-nuits-botanique.html): Bruxelles, 15 – 30 mai 2027
 - [Jazz Middelheim](https://lefestiguide.fr/jazz-middelheim.html): Anvers, 15 – 17 mai 2027
 - [Marvellous Island Festival](https://lefestiguide.fr/marvellous-island.html): Paris, 15 – 16 mai 2027
+- [Le Jardin du Michel](https://lefestiguide.fr/le-jardin-du-michel.html): Nancy, 28 – 30 mai 2027
 - [Jazz à Saint-Germain-des-Prés](https://lefestiguide.fr/jazz-a-saint-germain-des-pres.html): Paris, À confirmer
 - [Les 3 Éléphants](https://lefestiguide.fr/les-3-elephants.html): Laval, À confirmer
-- [Le Jardin du Michel](https://lefestiguide.fr/le-jardin-du-michel.html): Nancy, À confirmer
 - [Horst Music Festival](https://lefestiguide.fr/horst-music-festival.html): Bruxelles, À confirmer
 - [We Love Green](https://lefestiguide.fr/we-love-green.html): Paris (Bois de Vincennes), 4 – 6 juin 2027
 - [Rio Loco](https://lefestiguide.fr/rio-loco.html): Toulouse, 9 – 13 juin 2027
@@ -112,6 +112,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Graspop Metal Meeting](https://lefestiguide.fr/graspop.html): Dessel, 17 – 20 juin 2027
 - [Freemusic Festival](https://lefestiguide.fr/freemusic-festival.html): Montendre (Charente-Maritime), 18 et 19 juin 2027
 - [Fête de la Musique](https://lefestiguide.fr/fete-de-la-musique.html): Partout en France, 21 juin 2027
+- [Aluna Festival](https://lefestiguide.fr/aluna-festival.html): Ruoms, 24 – 26 juin 2027
 - [Garorock](https://lefestiguide.fr/garorock.html): Marmande (Lot-et-Garonne), 25 – 27 juin 2027
 - [Jazz à Vienne](https://lefestiguide.fr/jazz-a-vienne.html): Vienne (Isère), 25 juin – 10 juillet 2027
 - [Europavox](https://lefestiguide.fr/europavox.html): Clermont-Ferrand, 25 – 27 juin 2027
@@ -125,7 +126,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Siestes Électroniques](https://lefestiguide.fr/les-siestes-electroniques.html): Toulouse (Haute-Garonne), Fin juin 2027 (dates à confirmer)
 - [Couleur Café](https://lefestiguide.fr/couleur-cafe.html): Bruxelles, À confirmer
 - [Festival de Saint-Denis](https://lefestiguide.fr/festival-de-saint-denis.html): Saint-Denis, À confirmer
-- [Aluna Festival](https://lefestiguide.fr/aluna-festival.html): Ruoms, À confirmer
 - [Musiques Métisses](https://lefestiguide.fr/musiques-metisses.html): Angoulême, À confirmer
 - [Werchter Boutique](https://lefestiguide.fr/werchter-boutique.html): Werchter, À confirmer
 - [Les Ardentes](https://lefestiguide.fr/les-ardentes.html): Liège (Rocourt), 1 – 4 juillet 2027
@@ -148,6 +148,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Francofolies de Spa](https://lefestiguide.fr/francofolies-de-spa.html): Spa, 16 – 18 juillet 2027
 - [Festival de Cornouaille](https://lefestiguide.fr/festival-de-cornouaille.html): Quimper (Finistère), 22 – 25 juillet 2027
 - [Les Nuits Secrètes](https://lefestiguide.fr/les-nuits-secretes.html): Aulnoye-Aymeries, 23 – 25 juillet 2027
+- [Festival Pablo Casals](https://lefestiguide.fr/festival-pablo-casals.html): Prades, 26 juillet – 6 août 2027
 - [Festival Interceltique de Lorient](https://lefestiguide.fr/festival-interceltique-de-lorient.html): Lorient (Morbihan), 30 juillet – 8 août 2027
 - [Festival du Bout du Monde](https://lefestiguide.fr/festival-du-bout-du-monde.html): Crozon, 30 juillet – 1 août 2027
 - [Au Pont du Rock](https://lefestiguide.fr/au-pont-du-rock.html): Malestroit, 30 – 31 juillet 2027
@@ -169,7 +170,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festival Radio France Occitanie Montpellier](https://lefestiguide.fr/festival-radio-france-montpellier.html): Montpellier, À confirmer
 - [Les Suds, à Arles](https://lefestiguide.fr/les-suds-a-arles.html): Arles, À confirmer
 - [Esperanzah!](https://lefestiguide.fr/esperanzah.html): Floreffe, À confirmer
-- [Festival Pablo Casals](https://lefestiguide.fr/festival-pablo-casals.html): Prades, À confirmer
 - [Rock Zottegem](https://lefestiguide.fr/rock-zottegem.html): Zottegem, À confirmer
 - [Nuits de la Guitare de Patrimonio](https://lefestiguide.fr/nuits-de-la-guitare-de-patrimonio.html): Patrimonio, À confirmer
 - [Nuits de la Citadelle](https://lefestiguide.fr/nuits-de-la-citadelle.html): Sisteron, À confirmer

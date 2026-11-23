@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:aluna-festival-20270624@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270627
+SUMMARY:Aluna Festival
+LOCATION:Ruoms\, Ardèche
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/aluna-festival.html
+URL:https://aluna-festival.fr/
+END:VEVENT
+END:VCALENDAR

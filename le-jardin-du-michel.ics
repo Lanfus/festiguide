@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:le-jardin-du-michel-20270528@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270531
+SUMMARY:Le Jardin du Michel
+LOCATION:Toul et Dommartin-lès-Toul
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/le-jardin-du-michel.html
+URL:https://jardin-du-michel.fr/
+END:VEVENT
+END:VCALENDAR

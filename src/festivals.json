@@ -6098,14 +6098,34 @@
   "mois": [
    "juin"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : des sites de billetterie et d'agenda non officiels annoncent du 24 au 26 juin 2027.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "dates": "24 – 26 juin 2027",
+  "iso": [
+   "2027-06-24",
+   "2027-06-26"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 (20e édition) publiées sur la billetterie du site officiel du festival, les 24, 25 et 26 juin à Ruoms.",
+  "price_from": 59,
+  "price_label": "À partir de 59 € (billet 1 jour)",
+  "prices": [
+   [
+    "Pass 3 jours (édition 2027)",
+    "141 €"
+   ],
+   [
+    "Billet 1 jour (édition 2027)",
+    "59 €"
+   ],
+   [
+    "Billet 1 jour, moins de 12 ans",
+    "26 €"
+   ],
+   [
+    "Billet 1 jour, étudiants post-bac",
+    "56 €"
+   ]
+  ],
+  "prices_note": "Tarifs affichés sur la billetterie officielle pour l'édition 2027 (24–26 juin), dans la limite des places disponibles ; majoration de 2 € à la billetterie sur place. Gratuit pour les moins de 8 ans sur préinscription.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
@@ -6113,11 +6133,11 @@
   "about": "Festival en Ardèche, à Ruoms.",
   "access": [],
   "tips": [],
-  "official": "https://www.songkick.com/festivals/355438-aluna",
+  "official": "https://aluna-festival.fr/",
   "sources": [
    [
-    "Fiche Songkick (non officiel)",
-    "https://www.songkick.com/festivals/355438-aluna/id/43473981-aluna-festival-2027"
+    "Aluna Festival : billetterie officielle 2027 (dates et tarifs)",
+    "https://aluna-festival.fr/billetterie-festival-ardeche/"
    ]
   ],
   "visiteurs": null,
@@ -7013,10 +7033,13 @@
    "juillet",
    "août"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 28 juillet au 8 août.",
+  "dates": "26 juillet – 6 août 2027",
+  "iso": [
+   "2027-07-26",
+   "2027-08-06"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 publiées sur la page d'accueil du site officiel du festival (programmation à venir). Pour mémoire, l'édition 2026 s'est tenue du 28 juillet au 8 août.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -7028,8 +7051,12 @@
   "about": "Festival de musique classique à Prades, dans les Pyrénées-Orientales.",
   "access": [],
   "tips": [],
-  "official": "https://www.tourisme-canigo.com/en/esprit-festif/grands-evenements/festival-pablo-casals/",
+  "official": "https://www.festivalpablocasals.fr/",
   "sources": [
+   [
+    "Festival Pablo Casals : site officiel (dates 2027)",
+    "https://www.festivalpablocasals.fr/"
+   ],
    [
     "Tourisme Conflent Canigó",
     "https://www.tourisme-canigo.com/en/esprit-festif/grands-evenements/festival-pablo-casals/"
@@ -9086,7 +9113,7 @@
  {
   "short": "",
   "region": "Grand Est",
-  "venue": "Nancy",
+  "venue": "Toul et Dommartin-lès-Toul",
   "maps_q": "Nancy Nancy",
   "genres": [
    "Électro",
@@ -9095,14 +9122,38 @@
   "mois": [
    "mai"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 (28 au 30 mai, Toul et Dommartin-lès-Toul) relevées sur l'agrégateur Music Festival Wizard et sur un article de presse locale (info-lux, 18/11/2026) qui cite les communiqués du festival ; le site officiel n'a pas pu être consulté : non officiel tant que non vérifié sur jardin-du-michel.fr.",
-  "price_from": null,
-  "price_label": "Voir la billetterie officielle",
-  "prices": [],
-  "prices_note": "Tarifs non relevés pour cette édition : se reporter à la billetterie officielle.",
+  "dates": "28 – 30 mai 2027",
+  "iso": [
+   "2027-05-28",
+   "2027-05-30"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates 2027 (22e édition) publiées sur le site officiel du festival, à Toul et Dommartin-lès-Toul. Premiers artistes annoncés, d'autres noms attendus avant les fêtes.",
+  "price_from": 38,
+  "price_label": "À partir de 38 € (billet 1 jour)",
+  "prices": [
+   [
+    "Pass 3 jours, tarif Last Chance (édition 2027)",
+    "105 €"
+   ],
+   [
+    "Pass 3 jours VIP (édition 2027)",
+    "185 €"
+   ],
+   [
+    "Billet 1 jour, tarif Early samedi ou dimanche (édition 2027)",
+    "38 €"
+   ],
+   [
+    "Billet 1 jour, tarif Regular (édition 2027)",
+    "42 €"
+   ],
+   [
+    "Camping, 1 à 3 nuits (tentes)",
+    "8 €"
+   ]
+  ],
+  "prices_note": "Tarifs de la billetterie officielle pour l'édition 2027 relevés le 23/11/2026, hors frais de location et en quantité limitée : le pass 3 jours Regular (99 €) et le billet Early du vendredi sont épuisés. Gratuit jusqu'à 10 ans inclus sur demande.",
   "last_label": "",
   "last_dates": "",
   "lineup": [],
@@ -9110,11 +9161,15 @@
   "about": "Festival de musiques actuelles à Nancy.",
   "access": [],
   "tips": [],
-  "official": "https://www.musicfestivalwizard.com/festivals/le-jardin-du-michel-2027/",
+  "official": "https://jardin-du-michel.fr/",
   "sources": [
    [
-    "Fiche Music Festival Wizard (non officiel)",
-    "https://www.musicfestivalwizard.com/festivals/le-jardin-du-michel-2027/"
+    "Le Jardin du Michel : site officiel (dates et programmation 2027)",
+    "https://jardin-du-michel.fr/"
+   ],
+   [
+    "Le Jardin du Michel : billetterie 2027",
+    "https://jardin-du-michel.fr/billetterie-2027/"
    ]
   ],
   "visiteurs": null,
