@@ -1,6 +1,6 @@
 # FestiGuide
 
-> Annuaire gratuit de 145 festivals de musique en France et en Belgique : dates, lieu, prix, line-up, accès et site officiel. Chaque fiche cite ses sources. Aucun billet n'est vendu ici : les achats se font sur les billetteries officielles.
+> Annuaire gratuit de 146 festivals de musique en France et en Belgique : dates, lieu, prix, line-up, accès et site officiel. Chaque fiche cite ses sources. Aucun billet n'est vendu ici : les achats se font sur les billetteries officielles.
 
 Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncées ») que si une source officielle la confirme ; sinon la fiche indique « Dates à confirmer ». Données indicatives, à vérifier sur le site officiel du festival.
 
@@ -19,18 +19,18 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique en mai](https://lefestiguide.fr/festivals-musique-mai.html): 13 festivals
 - [Festivals de musique en juin](https://lefestiguide.fr/festivals-musique-juin.html): 24 festivals
 - [Festivals de musique en juillet](https://lefestiguide.fr/festivals-musique-juillet.html): 64 festivals
-- [Festivals de musique en août](https://lefestiguide.fr/festivals-musique-aout.html): 37 festivals
+- [Festivals de musique en août](https://lefestiguide.fr/festivals-musique-aout.html): 38 festivals
 - [Festivals de musique en septembre](https://lefestiguide.fr/festivals-musique-septembre.html): 6 festivals
 - [Festivals de musique en octobre](https://lefestiguide.fr/festivals-musique-octobre.html): 3 festivals
 - [Festivals électro](https://lefestiguide.fr/festivals-electro.html): 58 festivals
 - [Festivals pop](https://lefestiguide.fr/festivals-pop.html): 53 festivals
 - [Festivals rock](https://lefestiguide.fr/festivals-rock.html): 51 festivals
-- [Festivals rap](https://lefestiguide.fr/festivals-rap.html): 28 festivals
+- [Festivals rap](https://lefestiguide.fr/festivals-rap.html): 29 festivals
 - [Festivals de jazz](https://lefestiguide.fr/festivals-jazz.html): 18 festivals
 - [Festivals de musique classique](https://lefestiguide.fr/festivals-musique-classique.html): 15 festivals
 - [Festivals de musiques du monde](https://lefestiguide.fr/festivals-musiques-du-monde.html): 16 festivals
 - [Festivals techno](https://lefestiguide.fr/festivals-techno.html): 11 festivals
-- [Festivals hip-hop](https://lefestiguide.fr/festivals-hip-hop.html): 10 festivals
+- [Festivals hip-hop](https://lefestiguide.fr/festivals-hip-hop.html): 11 festivals
 - [Festivals de musiques actuelles](https://lefestiguide.fr/festivals-musiques-actuelles.html): 10 festivals
 - [Festivals de chanson](https://lefestiguide.fr/festivals-chanson.html): 13 festivals
 - [Festivals indie](https://lefestiguide.fr/festivals-indie.html): 7 festivals
@@ -197,6 +197,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Rendez-vous de l'Erdre](https://lefestiguide.fr/rendez-vous-de-l-erdre.html): Nantes, 23 – 29 août 2027
 - [Rose Festival](https://lefestiguide.fr/rose-festival.html): Aussonne (Haute-Garonne), 26 au 28 août 2027
 - [Festival du Roi Arthur](https://lefestiguide.fr/festival-du-roi-arthur.html): Bréal-sous-Montfort (Ille-et-Vilaine), 27 – 29 août 2027
+- [Golden Coast](https://lefestiguide.fr/golden-coast.html): Dijon (Côte-d'Or), 27 au 29 août 2027
 - [Jazz à la Villette](https://lefestiguide.fr/jazz-a-la-villette.html): Paris, À confirmer
 - [Family Piknik](https://lefestiguide.fr/family-piknik.html): Montpellier, À confirmer
 - [Les Plages Électroniques](https://lefestiguide.fr/les-plages-electroniques.html): Cannes, À confirmer

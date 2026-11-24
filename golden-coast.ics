@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:golden-coast-20270827@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270830
+SUMMARY:Golden Coast
+LOCATION:Parc de la Combe à la Serpent\, Corcelles-les-Monts
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/golden-coast.html
+URL:https://goldencoastfestival.com/
+END:VEVENT
+END:VCALENDAR

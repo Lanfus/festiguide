@@ -263,5 +263,10 @@
   "w": 640,
   "h": 640,
   "source": "https://lovelybrivefestival.billetterie-event.fr/home"
+ },
+ "golden-coast": {
+  "w": 640,
+  "h": 638,
+  "source": "https://goldencoastfestival.com/wp-content/uploads/2026/06/LINE-UP-GOCO26-V5-1.png"
  }
 }

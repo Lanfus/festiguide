@@ -10486,5 +10486,87 @@
    45.145,
    1.5144
   ]
+ },
+ {
+  "short": "",
+  "region": "Bourgogne-Franche-Comté",
+  "venue": "Parc de la Combe à la Serpent, Corcelles-les-Monts",
+  "maps_q": "Combe à la Serpent Corcelles-les-Monts",
+  "genres": [
+   "Rap",
+   "Hip-hop"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "27 au 29 août 2027",
+  "iso": [
+   "2027-08-27",
+   "2027-08-29"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates de la 4e édition affichées par l'organisateur sur le site officiel et annoncées dans le bilan de l'édition 2026. Programmation 2027 pas encore dévoilée.",
+  "price_from": null,
+  "price_label": "",
+  "prices": [],
+  "prices_note": "Aucun tarif 2027 lisible sur la billetterie officielle au 24 novembre 2026 (page annonçant un paiement en 4 fois sans frais). À vérifier sur le site officiel.",
+  "last_label": "Édition 2026",
+  "last_dates": "28 au 30 août 2026",
+  "lineup": [
+   "Damso",
+   "PLK",
+   "Busta Rhymes",
+   "Macklemore",
+   "Niska",
+   "Josman",
+   "Disiz",
+   "Rohff",
+   "Fianso",
+   "Kalash Criminel",
+   "Sniper",
+   "Médine"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'affiche 2026 ; Aya Nakamura, prévue le dimanche, a annulé.",
+  "about": "Festival entièrement consacré au rap et à la culture hip-hop, lancé en 2024 au sud-ouest de Dijon. Trois jours en pleine nature à la Combe à la Serpent, une cinquantaine d'artistes sur quatre scènes, des têtes d'affiche françaises et internationales et une place pour la nouvelle génération. Il est devenu en trois éditions l'un des plus gros rendez-vous rap de France.",
+  "access": [
+   "Navettes gratuites de Dijon métropole toutes les 5 minutes entre la Cité internationale de la gastronomie et du vin (près de la gare de Dijon) et le site, de 14 h à 4 h en 2026",
+   "Tram T2 jusqu'à l'arrêt Monge – Cité de la gastronomie, ligne ouverte 24 h/24 pendant le festival en 2026",
+   "Offre TRAIN Mobigo aller-retour à tarif réduit depuis la Bourgogne-Franche-Comté ; parkings gratuits sur réservation près du site"
+  ],
+  "tips": [
+   "Le plus simple : se garer ou arriver en train à Dijon, puis prendre la navette gratuite",
+   "Site en pleine nature : prévoir de quoi affronter chaleur ou pluie, les organisateurs rappellent que le lieu a ses contraintes"
+  ],
+  "official": "https://goldencoastfestival.com/",
+  "sources": [
+   [
+    "Golden Coast : site officiel (dates 2027)",
+    "https://goldencoastfestival.com/"
+   ],
+   [
+    "Ville de Dijon : Golden Coast 2026, accès et navettes",
+    "https://www.dijon.fr/actualites/golden-coast/"
+   ],
+   [
+    "DijonBeaune Mag : bilan 2026 (83 500 festivaliers) et dates 2027",
+    "https://www.dijonbeaunemag.fr/golden-coast-83-500-festivaliers-et-une-troisieme-edition-qui-installe-le-festival-dans-la-duree/"
+   ]
+  ],
+  "visiteurs": 83500,
+  "visiteurs_note": "83 500 festivaliers sur les trois jours de l'édition 2026, chiffre des organisateurs repris par DijonBeaune Mag et actu.fr.",
+  "slug": "golden-coast",
+  "name": "Golden Coast",
+  "city": "Dijon (Côte-d'Or)",
+  "country": "France",
+  "liens": [
+   [
+    "Accessibilité (PMR / PSH)",
+    "https://goldencoastfestival.com/pmr-psh"
+   ]
+  ],
+  "geo": [
+   47.3319,
+   5.0322
+  ]
  }
 ]
