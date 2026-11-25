@@ -3387,10 +3387,13 @@
   "mois": [
    "juillet"
   ],
-  "dates": "Dates 2027 à confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Aucune annonce d'édition 2027 trouvée. L'édition 2026 a eu lieu du 10 au 12 juillet au Domaine de Candé ; l'événement se tient en général en juillet.",
+  "dates": "9 – 11 juillet 2027",
+  "iso": [
+   "2027-07-09",
+   "2027-07-11"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Site officiel : édition les 9, 10 et 11 juillet 2027 au Domaine de Candé, à Monts.",
   "price_from": 49.0,
   "price_label": "dès 49 € le pass 1 jour (2027)",
   "prices": [
@@ -3445,6 +3448,10 @@
   ],
   "official": "https://www.terresduson.com",
   "sources": [
+   [
+    "Terres du Son : site officiel",
+    "https://www.terresduson.com"
+   ],
    [
     "Terres du Son : communiqué de presse n°2, édition 2026",
     "https://www.terresduson.com/wp-content/uploads/2025/11/CP2_TDS2026_27_11_2025.pdf"
@@ -5833,10 +5840,13 @@
   "mois": [
    "juillet"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'office de tourisme annonce une prochaine édition en juillet 2027, sans dates précises.",
+  "dates": "4 – 17 juillet 2027",
+  "iso": [
+   "2027-07-04",
+   "2027-07-17"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Site officiel : 42e édition du 4 au 17 juillet 2027.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -5850,6 +5860,10 @@
   "tips": [],
   "official": "https://www.montpellier-france.com/discover/festive/not-to-miss-events/festival-radio-france-occitanie-montpellier/",
   "sources": [
+   [
+    "Festival Radio France Montpellier : site officiel",
+    "https://lefestival.eu/"
+   ],
    [
     "Office de tourisme de Montpellier",
     "https://www.montpellier-france.com/discover/festive/not-to-miss-events/festival-radio-france-occitanie-montpellier/"
@@ -8926,10 +8940,13 @@
   "mois": [
    "mars"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 14 au 21 mars 2027. À vérifier sur le site de l'organisateur. Mise à jour 16/11 : les offices de tourisme donnent 14–21 mars 2027 (Châtel) et 14–20 mars 2027 (Morzine) : sources contradictoires, à vérifier sur le site de l'organisateur.",
+  "dates": "14 – 21 mars 2027",
+  "iso": [
+   "2027-03-14",
+   "2027-03-21"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Site officiel de Rock the Pistes (bandeau « 14 > 21 mars 2027 »), recoupé avec l'office de tourisme Morzine-Avoriaz. Les dates 14–20 mars vues ailleurs sont erronées.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -8944,8 +8961,12 @@
   "official": "https://www.musicfestivalwizard.com/festivals/rock-the-pistes-2027/",
   "sources": [
    [
-    "Fiche Music Festival Wizard (non officiel)",
-    "https://www.musicfestivalwizard.com/festivals/rock-the-pistes-2027/"
+    "Rock the Pistes : site officiel",
+    "https://www.rockthepistes.com/"
+   ],
+   [
+    "Office de tourisme Morzine-Avoriaz",
+    "https://en.morzine-avoriaz.com/events-visits/rock-the-pistes-festival/"
    ]
   ],
   "visiteurs": null,
@@ -9244,10 +9265,13 @@
   "mois": [
    "mai"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 6 au 8 mai 2027. À vérifier sur le site de l'organisateur.",
+  "dates": "6 – 8 mai 2027",
+  "iso": [
+   "2027-05-06",
+   "2027-05-08"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Site officiel de Horst (Asiat Park, Vilvoorde) : 6–8 mai 2027, billets annoncés complets.",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -9262,8 +9286,8 @@
   "official": "https://www.musicfestivalwizard.com/festivals/horst-music-festival-2027/",
   "sources": [
    [
-    "Fiche Music Festival Wizard (non officiel)",
-    "https://www.musicfestivalwizard.com/festivals/horst-music-festival-2027/"
+    "Horst Arts & Music : site officiel",
+    "https://www.horstartsandmusic.com/festival"
    ]
   ],
   "visiteurs": null,
@@ -9289,10 +9313,13 @@
   "mois": [
    "juin"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 27 juin 2027. À vérifier sur le site de l'organisateur.",
+  "dates": "26 juin 2027",
+  "iso": [
+   "2027-06-26",
+   "2027-06-26"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Site officiel et billetterie Ticketmaster : samedi 26 juin 2027 (un seul jour, Festivalpark Werchter).",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -9307,8 +9334,12 @@
   "official": "https://www.musicfestivalwizard.com/festivals/werchter-boutique-2027/",
   "sources": [
    [
-    "Fiche Music Festival Wizard (non officiel)",
-    "https://www.musicfestivalwizard.com/festivals/werchter-boutique-2027/"
+    "Werchter Boutique : site officiel",
+    "https://www.werchterboutique.be/en/"
+   ],
+   [
+    "Ticketmaster Belgique",
+    "https://www.ticketmaster.be/event/129853619"
    ]
   ],
   "visiteurs": null,
@@ -9334,10 +9365,13 @@
   "mois": [
    "juillet"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates relevées sur un agrégateur non officiel (Music Festival Wizard) : 2 au 4 juillet 2027. À vérifier sur le site de l'organisateur.",
+  "dates": "2 – 4 juillet 2027",
+  "iso": [
+   "2027-07-02",
+   "2027-07-04"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Site officiel (bandeau) et compte Instagram officiel : 2, 3 et 4 juillet 2027 (accès anticipé aux billets sur inscription).",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -9352,8 +9386,8 @@
   "official": "https://www.musicfestivalwizard.com/festivals/paradise-city-2027/",
   "sources": [
    [
-    "Fiche Music Festival Wizard (non officiel)",
-    "https://www.musicfestivalwizard.com/festivals/paradise-city-2027/"
+    "Paradise City : site officiel",
+    "https://www.paradisecity.be/en/"
    ]
   ],
   "visiteurs": null,

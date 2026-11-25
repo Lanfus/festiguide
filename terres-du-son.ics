@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:terres-du-son-20270709@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:Terres du Son
+LOCATION:Domaine de Candé\, Monts
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/terres-du-son.html
+URL:https://www.terresduson.com
+END:VEVENT
+END:VCALENDAR

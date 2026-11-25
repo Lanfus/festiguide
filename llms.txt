@@ -84,15 +84,16 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Astropolis](https://lefestiguide.fr/astropolis.html): Brest, 18 – 21 février 2027 (édition d'hiver) · 2 – 4 juillet 2027 (édition d'été)
 - [La Route du Rock](https://lefestiguide.fr/la-route-du-rock.html): Saint-Malo, 10 – 13 mars 2027
 - [Snowboxx](https://lefestiguide.fr/snowboxx.html): Avoriaz, 13 – 20 mars 2027
+- [Rock the Pistes](https://lefestiguide.fr/rock-the-pistes.html): Châtel, 14 – 21 mars 2027
 - [Tomorrowland Winter](https://lefestiguide.fr/tomorrowland-winter.html): L'Alpe d'Huez, 20 – 27 mars 2027
 - [Chamonix Unlimited Festival](https://lefestiguide.fr/chamonix-unlimited.html): Chamonix, 25 – 29 mars 2027
 - [Positive Education Festival](https://lefestiguide.fr/positive-education-festival.html): Saint-Étienne (Loire), 26 – 27 mars 2027
-- [Rock the Pistes](https://lefestiguide.fr/rock-the-pistes.html): Châtel, À confirmer
 - [Rampage](https://lefestiguide.fr/rampage.html): Anvers, À confirmer
 - [Panoramas Festival](https://lefestiguide.fr/panoramas-festival.html): Morlaix, 14 – 17 avril 2027
 - [Le Printemps de Bourges](https://lefestiguide.fr/printemps-de-bourges.html): Bourges (Cher), 20 – 25 avril 2027
 - [Jazz sous les Pommiers](https://lefestiguide.fr/jazz-sous-les-pommiers.html): Coutances, 1 – 8 mai 2027
 - [Nuits sonores](https://lefestiguide.fr/nuits-sonores.html): Lyon (Rhône), 5 – 9 mai 2027
+- [Horst Music Festival](https://lefestiguide.fr/horst-music-festival.html): Bruxelles, 6 – 8 mai 2027
 - [FIMU - Festival International de Musique de Belfort](https://lefestiguide.fr/fimu.html): Belfort (Territoire de Belfort), 13 au 16 mai 2027
 - [Les Papillons de Nuit](https://lefestiguide.fr/papillons-de-nuit.html): Saint-Laurent-de-Cuves (Manche), 14 – 16 mai 2027
 - [Art Rock](https://lefestiguide.fr/art-rock.html): Saint-Brieuc (Côtes-d'Armor), 14 – 16 mai 2027
@@ -104,7 +105,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Le Jardin du Michel](https://lefestiguide.fr/le-jardin-du-michel.html): Nancy, 28 – 30 mai 2027
 - [Jazz à Saint-Germain-des-Prés](https://lefestiguide.fr/jazz-a-saint-germain-des-pres.html): Paris, À confirmer
 - [Les 3 Éléphants](https://lefestiguide.fr/les-3-elephants.html): Laval, À confirmer
-- [Horst Music Festival](https://lefestiguide.fr/horst-music-festival.html): Bruxelles, À confirmer
 - [We Love Green](https://lefestiguide.fr/we-love-green.html): Paris (Bois de Vincennes), 4 – 6 juin 2027
 - [Rio Loco](https://lefestiguide.fr/rio-loco.html): Toulouse, 9 – 13 juin 2027
 - [Marsatac](https://lefestiguide.fr/marsatac.html): Marseille (Bouches-du-Rhône), 10 – 13 juin 2027
@@ -118,6 +118,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Jazz à Vienne](https://lefestiguide.fr/jazz-a-vienne.html): Vienne (Isère), 25 juin – 10 juillet 2027
 - [Europavox](https://lefestiguide.fr/europavox.html): Clermont-Ferrand, 25 – 27 juin 2027
 - [Bobital L'Armor à Sons](https://lefestiguide.fr/bobital.html): Bobital, 25 – 27 juin 2027
+- [Werchter Boutique](https://lefestiguide.fr/werchter-boutique.html): Werchter, 26 juin 2027
 - [Festival Beauregard](https://lefestiguide.fr/festival-beauregard.html): Hérouville-Saint-Clair (Calvados), 30 juin – 4 juillet 2027
 - [Cognac Blues Passions](https://lefestiguide.fr/cognac-blues-passions.html): Cognac et Jarnac, 30 juin – 3 juillet 2027
 - [Festival de Poupet](https://lefestiguide.fr/festival-de-poupet.html): Saint-Malô-du-Bois, 30 juin – 23 juillet 2027
@@ -128,7 +129,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Couleur Café](https://lefestiguide.fr/couleur-cafe.html): Bruxelles, À confirmer
 - [Festival de Saint-Denis](https://lefestiguide.fr/festival-de-saint-denis.html): Saint-Denis, À confirmer
 - [Musiques Métisses](https://lefestiguide.fr/musiques-metisses.html): Angoulême, À confirmer
-- [Werchter Boutique](https://lefestiguide.fr/werchter-boutique.html): Werchter, À confirmer
 - [Les Ardentes](https://lefestiguide.fr/les-ardentes.html): Liège (Rocourt), 1 – 4 juillet 2027
 - [Festival d'Aix-en-Provence](https://lefestiguide.fr/festival-d-aix-en-provence.html): Aix-en-Provence (Bouches-du-Rhône), 1 – 20 juillet 2027
 - [Rock Werchter](https://lefestiguide.fr/rock-werchter.html): Werchter, 1 – 4 juillet 2027
@@ -137,11 +137,14 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Eurockéennes de Belfort](https://lefestiguide.fr/eurockeennes-de-belfort.html): Belfort (Territoire de Belfort), 2 – 5 juillet 2027
 - [Main Square Festival](https://lefestiguide.fr/main-square-festival.html): Arras (Pas-de-Calais), 2 – 4 juillet 2027
 - [Au Foin de la Rue](https://lefestiguide.fr/au-foin-de-la-rue.html): Saint-Denis-de-Gastines, 2 – 4 juillet 2027
+- [Paradise City](https://lefestiguide.fr/paradise-city.html): Perk, 2 – 4 juillet 2027
+- [Festival Radio France Occitanie Montpellier](https://lefestiguide.fr/festival-radio-france-montpellier.html): Montpellier, 4 – 17 juillet 2027
 - [Dour Festival](https://lefestiguide.fr/dour-festival.html): Dour (Hainaut), 7 – 11 juillet 2027
 - [Pause Guitare Sud de France](https://lefestiguide.fr/pause-guitare.html): Albi, 7 – 11 juillet 2027
 - [Musilac](https://lefestiguide.fr/musilac.html): Aix-les-Bains (Savoie), 8 – 11 juillet 2027
 - [Jazz à Juan](https://lefestiguide.fr/jazz-a-juan.html): Antibes (Juan-les-Pins), 8 – 18 juillet 2027
 - [Les Déferlantes Sud de France](https://lefestiguide.fr/les-deferlantes.html): Le Barcarès (Pyrénées-Orientales), 9 – 11 juillet 2027
+- [Terres du Son](https://lefestiguide.fr/terres-du-son.html): Monts (Indre-et-Loire), 9 – 11 juillet 2027
 - [Cactus Festival](https://lefestiguide.fr/cactus-festival.html): Bruges, 9 – 11 juillet 2027
 - [Les Francofolies de La Rochelle](https://lefestiguide.fr/francofolies-de-la-rochelle.html): La Rochelle (Charente-Maritime), 10 – 14 juillet 2027
 - [Les Vieilles Charrues](https://lefestiguide.fr/vieilles-charrues.html): Carhaix-Plouguer (Finistère), 15 – 18 juillet 2027
@@ -162,14 +165,12 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Jazz in Marciac](https://lefestiguide.fr/jazz-in-marciac.html): Marciac (Gers), Juillet – août 2027 (dates à confirmer)
 - [Peacock Society](https://lefestiguide.fr/peacock-society.html): Paris (Paris), Juillet 2027 (jours exacts à confirmer)
 - [Yardland Festival](https://lefestiguide.fr/yardland-festival.html): Paris (Bois de Vincennes), Juillet 2027 (dates à confirmer)
-- [Terres du Son](https://lefestiguide.fr/terres-du-son.html): Monts (Indre-et-Loire), Dates 2027 à confirmer
 - [Festival de Carcassonne](https://lefestiguide.fr/festival-de-carcassonne.html): Carcassonne (Aude), Dates 2027 à confirmer
 - [Electrobeach Music Festival](https://lefestiguide.fr/electrobeach.html): Le Barcarès, À confirmer
 - [Les Escales](https://lefestiguide.fr/les-escales.html): Saint-Nazaire, À confirmer
 - [Nice Jazz Festival](https://lefestiguide.fr/nice-jazz-festival.html): Nice, À confirmer
 - [Chorégies d'Orange](https://lefestiguide.fr/choregies-d-orange.html): Orange, À confirmer
 - [Festival de La Roque-d'Anthéron](https://lefestiguide.fr/la-roque-d-antheron.html): La Roque-d'Anthéron, À confirmer
-- [Festival Radio France Occitanie Montpellier](https://lefestiguide.fr/festival-radio-france-montpellier.html): Montpellier, À confirmer
 - [Les Suds, à Arles](https://lefestiguide.fr/les-suds-a-arles.html): Arles, À confirmer
 - [Esperanzah!](https://lefestiguide.fr/esperanzah.html): Floreffe, À confirmer
 - [Rock Zottegem](https://lefestiguide.fr/rock-zottegem.html): Zottegem, À confirmer
@@ -179,7 +180,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festival international de Colmar](https://lefestiguide.fr/festival-international-de-colmar.html): Colmar, À confirmer
 - [Festival de Saint-Céré](https://lefestiguide.fr/festival-de-saint-cere.html): Saint-Céré, À confirmer
 - [Brosella](https://lefestiguide.fr/brosella.html): Bruxelles, À confirmer
-- [Paradise City](https://lefestiguide.fr/paradise-city.html): Perk, À confirmer
 - [Rampage Open Air](https://lefestiguide.fr/rampage-open-air.html): Lommel, À confirmer
 - [Ostend Beach Festival](https://lefestiguide.fr/ostend-beach-festival.html): Ostende, À confirmer
 - [Décibulles](https://lefestiguide.fr/decibulles.html): Neuve-Église (Bas-Rhin), À confirmer

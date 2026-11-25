@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:paradise-city-20270702@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270705
+SUMMARY:Paradise City
+LOCATION:Château de Perk\, Steenokkerzeel
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/paradise-city.html
+URL:https://www.musicfestivalwizard.com/festivals/paradise-city-2027/
+END:VEVENT
+END:VCALENDAR

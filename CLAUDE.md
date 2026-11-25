@@ -110,6 +110,8 @@ Les fiches ajoutées ont peu de prix, d'accès et de conseils (`prices`, `access
 
 ## État au 13 novembre 2026
 
+25/11/2026 (2e vérification) : 94 festivals sur 147 ont des dates confirmées (sites officiels : Rock the Pistes 14–21 mars 2027, Horst 6–8 mai, Werchter Boutique 26 juin, Terres du Son 9–11 juillet, Festival Radio France Montpellier 4–17 juillet, Paradise City 2–4 juillet). Laissés à confirmer car ambigus : Les Escales (21 ou 22 juillet, deux pages officielles), Rampage (fin 6 ou 7 mars), Brakrock (6–7 août sans année), Décibulles, Yardland (presse seulement).
+
 25/11/2026 : 87 festivals sur 146 ont des dates confirmées (vérification automatique : Festival de Nîmes 15 juin – 18 juillet 2027, fin corrigée du 17 au 18 juillet d'après le site officiel ; Golden Coast et Lovely Brive ajoutés entre-temps).
 
 23/11/2026 : 85 festivals sur 144 ont des dates confirmées (vérification automatique : Aluna 24–26 juin 2027, Festival Pablo Casals 26 juillet – 6 août 2027 et Le Jardin du Michel 28–30 mai 2027, tous trois sur leur site officiel). Rock the Pistes laissé à confirmer : les offices de tourisme donnent 14–20 mars (Morzine) et 14–21 mars (Châtel).

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:werchter-boutique-20270626@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Werchter Boutique
+LOCATION:Werchter
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/werchter-boutique.html
+URL:https://www.musicfestivalwizard.com/festivals/werchter-boutique-2027/
+END:VEVENT
+END:VCALENDAR

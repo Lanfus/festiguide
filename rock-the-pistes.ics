@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:rock-the-pistes-20270314@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270322
+SUMMARY:Rock the Pistes
+LOCATION:Châtel
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/rock-the-pistes.html
+URL:https://www.musicfestivalwizard.com/festivals/rock-the-pistes-2027/
+END:VEVENT
+END:VCALENDAR

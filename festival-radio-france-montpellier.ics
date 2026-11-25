@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:festival-radio-france-montpellier-20270704@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270718
+SUMMARY:Festival Radio France Occitanie Montpellier
+LOCATION:Plusieurs lieux à Montpellier
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/festival-radio-france-montpellier.html
+URL:https://www.montpellier-france.com/discover/festive/not-to-miss-events/festival-radio-france-occitanie-montpellier/
+END:VEVENT
+END:VCALENDAR
