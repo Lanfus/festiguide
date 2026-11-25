@@ -10572,5 +10572,93 @@
    47.3319,
    5.0322
   ]
+ },
+ {
+  "short": "FIMU Belfort",
+  "region": "Bourgogne-Franche-Comté",
+  "venue": "Centre-ville et Vieille Ville de Belfort",
+  "maps_q": "Vieille Ville Belfort",
+  "genres": [
+   "Musiques du monde",
+   "Jazz",
+   "Musique classique",
+   "Rock",
+   "Électro",
+   "Chanson"
+  ],
+  "mois": [
+   "mai"
+  ],
+  "dates": "13 au 16 mai 2027",
+  "iso": [
+   "2027-05-13",
+   "2027-05-16"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates de la 40e édition annoncées par l'organisateur (Ville de Belfort) sur le site officiel et sur les comptes officiels du festival, lors de l'appel à candidatures des musiciens. Programmation 2027 pas encore dévoilée.",
+  "price_from": 0,
+  "price_label": "Gratuit",
+  "prices": [
+   [
+    "Concerts (2026)",
+    "gratuits, plus de 220 concerts"
+   ]
+  ],
+  "prices_note": "Édition 2026 : festival entièrement gratuit d'après le site officiel. Rien n'indique un changement pour 2027, à vérifier à l'approche du festival.",
+  "last_label": "Édition 2026",
+  "last_dates": "21 au 24 mai 2026",
+  "lineup": [
+   "Colt"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. En 2026, le duo belge Colt était le parrain de l'édition ; le reste de l'affiche réunit des musiciens étudiants et amateurs du monde entier sélectionnés sur candidature.",
+  "about": "Créé par la Ville de Belfort avec les associations étudiantes, le Festival International de Musique (FIMU) transforme chaque week-end de Pentecôte le centre et la Vieille Ville en une vingtaine de scènes en plein air et en salle. Les groupes sont des formations d'étudiants et d'amateurs venues d'Europe, d'Afrique, d'Asie et des Amériques, et tous les styles s'y croisent : classique, jazz, musiques du monde, rock, électro, chanson. Chaque édition met un pays à l'honneur (la Belgique en 2026). Tout est gratuit.",
+  "access": [],
+  "tips": [
+   "Programme complet, horaires et plan sur l'application officielle du FIMU",
+   "Avec plus de 200 concerts répartis dans la ville, mieux vaut choisir ses créneaux à l'avance : certaines salles affichent complet"
+  ],
+  "official": "https://www.fimu.com/",
+  "sources": [
+   [
+    "FIMU : site officiel (édition 2026, dates 2027 sur la page hébergeurs)",
+    "https://www.fimu.com/hebergeurs"
+   ],
+   [
+    "FIMU : présentation de l'édition 2026 (dates, gratuité, 223 concerts)",
+    "https://www.fimu.com/informations-transversales/actualites/la-programmation-est-la"
+   ],
+   [
+    "FIMU : actualités (bilan 2026 : 103 796 festivaliers)",
+    "https://www.fimu.com/informations-transversales/actualites"
+   ],
+   [
+    "FIMU : compte Instagram officiel (13 au 16 mai 2027)",
+    "https://www.instagram.com/fimubelfort/"
+   ]
+  ],
+  "visiteurs": 103796,
+  "visiteurs_note": "103 796 festivaliers sur les quatre jours de l'édition 2026, chiffre publié par l'organisateur sur le site officiel.",
+  "slug": "fimu",
+  "name": "FIMU - Festival International de Musique de Belfort",
+  "city": "Belfort (Territoire de Belfort)",
+  "country": "France",
+  "liens": [
+   [
+    "Plan du site (édition 2026)",
+    "https://www.fimu.com/le-fimu-pratique/plan-du-fimu"
+   ],
+   [
+    "Venir au FIMU (accès)",
+    "https://www.fimu.com/le-fimu-pratique/venir-au-fimu"
+   ],
+   [
+    "FIMU pour tous (accessibilité)",
+    "https://www.fimu.com/le-fimu-pratique/le-fimu-pour-tous"
+   ]
+  ],
+  "geo": [
+   47.6458,
+   6.841
+  ]
  }
 ]

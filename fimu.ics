@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:fimu-20270513@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270517
+SUMMARY:FIMU - Festival International de Musique de Belfort
+LOCATION:Centre-ville et Vieille Ville de Belfort
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/fimu.html
+URL:https://www.fimu.com/
+END:VEVENT
+END:VCALENDAR
