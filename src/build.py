@@ -182,7 +182,7 @@ def annee_cible(fests):
 def make_title(f):
     """Titre de page de 60 caractères maximum (au-delà, Google le coupe).
     L'année n'apparaît que si les dates sont confirmées (« hellfest 2027 » est ce que les gens cherchent)."""
-    n = f.get("short") or f["name"]
+    n = f.get("nom_seo") or f.get("short") or f["name"]
     an = f["iso"][0][:4] if f.get("iso") else None
     noms = [f"{n} {an}", n] if an and an not in n else [n]
     for nom in noms:
@@ -193,17 +193,139 @@ def make_title(f):
     return f"{n} | {SITE}"
 
 
-def make_desc(f):
-    """Meta description de 160 caractères maximum, écrite uniquement avec les données de la fiche."""
-    if f.get("iso"):
-        desc = f'{f["name"]} : {f.get("dates")}, {f.get("city")}.'
+def edition_annee(f):
+    return f["iso"][0][:4] if f.get("iso") else None
+
+
+def segment_prix(f):
+    """Partie de price_label qui porte le prix minimum (« soirée dès 36 € (tarif 2026) » dans
+    « Pass Days 2027 dès 140 € ; soirée dès 36 € (tarif 2026) »)."""
+    lab = (f.get("price_label") or "").strip()
+    segs = [x.strip() for x in lab.split(";") if x.strip()] or [""]
+    if f.get("price_from") is not None:
+        x = float(f["price_from"])
+        cible = (f"{x:.2f}".replace(".", ",") if x % 1 else str(int(x)))
+        for sg in segs:
+            if re.search(rf"(?<![\d,]){re.escape(cible)}(?:,0+)?\s*€", sg):
+                return sg
+    return segs[0]
+
+
+def tarif_annee(f):
+    """Année des tarifs : celle écrite à côté du prix minimum dans price_label, sinon l'édition citée par
+    prices_note (« édition 2027 »). None si on ne sait pas : on ne la devine jamais."""
+    m = re.search(r"20\d\d", segment_prix(f))
+    if m:
+        return m.group(0)
+    m = re.search(r"(?:édition|^Tarifs) (20\d\d)", f.get("prices_note") or "")
+    return m.group(1) if m else None
+
+
+def fmt_prix(x):
+    x = float(x)
+    return (f"{x:.2f}".replace(".", ",") if x % 1 else f"{int(x)}") + " €"
+
+
+def prix_extrait(f):
+    """« Billets dès 59,89 €/jour (tarif 2026) » pour la meta description, construit seulement à partir de
+    price_from / price_label. L'année n'est ajoutée que si elle diffère de celle de l'édition."""
+    if is_free(f):
+        return "Entrée libre"
+    if f.get("price_from") is None:
+        return ""
+    sg = segment_prix(f)
+    m2 = re.search(r"(?i)\bde\s+([\d.,]+)\s*à\s*([\d.,]+)\s*€\s*(.*)$", sg)
+    m = re.search(r"[\d.,]+\s*€\s*(.*)$", sg)
+    if m2:
+        base, reste = f"Billets de {m2.group(1)} à {m2.group(2)} €", m2.group(3)
     else:
-        desc = f'{f["name"]}, {f.get("city")} : prochaines dates à confirmer.'
-    infos = [mot for champ, mot in (("prices", "prix"), ("lineup", "line-up"), ("access", "accès"), ("tips", "conseils")) if f.get(champ)]
-    infos = (", ".join(infos) + " et site officiel").capitalize() if infos else "Sources et site officiel"
+        base, reste = f"Billets dès {fmt_prix(f['price_from'])}", (m.group(1) if m else "")
+    paren = re.search(r"\(([^)]*)\)", reste)
+    note = paren.group(1).strip() if paren else ""
+    unite = re.sub(r"\([^)]*\)", "", reste).strip()
+    if not unite and re.search(r"(?i)billet 1 jour", note):
+        unite, note = "/ jour", ""
+    u = norm(unite)
+    if re.fullmatch(r"/ ?jour|le jour|la journee|le billet jour|le billet 1 jour|le pass 1 jour", u):
+        unite = "/jour"
+    elif re.fullmatch(r"/ ?soir(ee)?|la soiree", u):
+        unite = "/soirée"
+    elif u == "le concert":
+        unite = "/concert"
+    unite = re.sub(r"^le billet (du )?", "le ", unite)
+    txt = base + (unite if unite.startswith("/") else (" " + unite if unite else ""))
+    an, ed = tarif_annee(f), edition_annee(f)
+    extra = []
+    if an and an != ed:
+        extra.append(f"tarif {an}")
+    elif note and not re.search(r"20\d\d", note) and len(note) <= 20:
+        extra.append(note)
+    if "epuis" in norm(sg):
+        extra.append("complet")
+    return txt + (f" ({', '.join(extra)})" if extra else "")
+
+
+def sans_accent(t):
+    return unicodedata.normalize("NFD", t).encode("ascii", "ignore").decode()
+
+
+def lieu_extrait(f):
+    ville = re.sub(r"\s*\(.*?\)", "", f.get("city") or "").strip()
+    if not ville:
+        return ""
+    if ville.lower().startswith("partout"):
+        return ville[0].lower() + ville[1:]
+    if ville.startswith("Val-de-"):
+        return "dans le " + ville
+    for art, prep in (("Le ", "au "), ("Les ", "aux ")):
+        if ville.startswith(art):
+            return prep + ville[len(art):]
+    return "à " + ville
+
+
+def liste_fr(mots):
+    return mots[0] if len(mots) == 1 else ", ".join(mots[:-1]) + " et " + mots[-1]
+
+
+def make_desc(f):
+    """Meta description de 140 à 160 caractères, écrite uniquement avec les données de la fiche.
+    Priorité : dates, lieu, prix (jamais coupés), puis contenu de la fiche, accroche, style."""
+    nom = f.get("nom_seo") or f["name"]
+    ed = edition_annee(f)
+    lieu = lieu_extrait(f)
+    ville = re.sub(r"\s*\(.*?\)", "", f.get("city") or "").strip()
+    if ville and sans_accent(ville).lower() in sans_accent(nom).lower():
+        lieu = ""  # « Jazz à Vienne à Vienne » : la ville est déjà dans le nom
+    if f.get("iso"):
+        dates = (f.get("dates") or "").strip()
+        if ed and ed not in nom and dates.endswith(" " + ed):
+            dates = dates[: -len(ed) - 1]
+        tete = f'{nom}{" " + ed if ed and ed not in nom else ""} : {dates}{" " + lieu if lieu else ""}.'
+    else:
+        tete = f'{nom}{" " + lieu if lieu else ""} : prochaines dates à confirmer.'
+    prix = prix_extrait(f)
+    infos = [mot for champ, mot in (("lineup", "line-up"), ("access", "accès"), ("tips", "conseils")) if f.get(champ)]
+    if not prix and f.get("prices"):
+        infos.insert(0, "prix des billets")
+    while True:
+        if prix:
+            phrase = liste_fr([prix] + infos) + "."
+        elif infos:
+            phrase = "À lire : " + liste_fr(infos) + "."
+        else:
+            phrase = ""
+        if len(tete) + 1 + len(phrase) <= 160 or not infos:
+            break
+        infos.pop()
+    desc = tete + (" " + phrase if phrase else "")
     genres = ", ".join((f.get("genres") or [])[:2])
-    morceaux = [re.split(r"(?<=[.!?])\s", (f.get("about") or "").strip())[0], f"{infos}.", f"Style : {genres}." if genres else ""]
-    for m in morceaux:
+    accroche = re.split(r"(?<=[.!?])\s", (f.get("about") or "").strip())[0]
+    complements = [accroche, f"Style : {genres}." if genres else "",
+                   "Dates, lieu, style et lien vers la billetterie officielle.",
+                   "Sources citées sur la fiche.", "Site officiel en lien.", "Infos sourcées."]
+    for m in complements:
+        if len(desc) >= 140:
+            break
         if m and len(desc) + 1 + len(m) <= 160:
             desc += " " + m
     return desc
@@ -649,7 +771,7 @@ def build(fests):
             if f.get("lineup") and annee in (f.get("last_label") or ""):
                 # Line-up de l'édition datée uniquement (pas celui d'une édition passée)
                 data["performer"] = [{"@type": "PerformingGroup", "name": a} for a in f["lineup"]]
-            if is_free(f) or (f.get("price_from") is not None and annee in (f.get("price_label") or "")):
+            if is_free(f) or (f.get("price_from") is not None and tarif_annee(f) == annee):
                 # Prix de l'édition datée uniquement : un tarif d'une édition passée n'est pas une offre
                 data["offers"] = {"@type": "Offer", "price": 0 if is_free(f) else f["price_from"], "priceCurrency": "EUR",
                                   "url": f.get("official") or f'{BASE_URL}/{f["slug"]}.html'}
@@ -699,7 +821,7 @@ def build(fests):
         p += f'''<main id="contenu" class="wrap fiche">
 <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(f["name"])}</span></nav>
 <div class="fiche-top">
-<h1>{esc(f["name"])}{(" " + f["iso"][0][:4]) if f.get("iso") and f["iso"][0][:4] not in f["name"] else ""}</h1>
+<h1>{esc(f.get("nom_seo") or f["name"])}{(" " + f["iso"][0][:4]) if f.get("iso") and f["iso"][0][:4] not in (f.get("nom_seo") or f["name"]) else ""}</h1>
 {affiche_html(f)}
 <div class="fiche-intro">
 <p class="lead">{esc(f.get("about") or "")}</p>
@@ -1039,7 +1161,7 @@ def build_legal(nb):
 ''' if GOATCOUNTER else "")
     # ---------- mentions légales ----------
     legal_page("mentions-legales.html", "Mentions légales",
-               f"Mentions légales de {SITE} : éditeur, hébergeur, contact, propriété intellectuelle et droit applicable.", f'''
+               f"Mentions légales de {SITE}, annuaire des festivals de musique : éditeur du site, hébergeur, contact, propriété intellectuelle et droit applicable.", f'''
 <section class="box"><h2>Éditeur du site</h2>
 <ul class="facts">
 <li><strong>Éditeur :</strong> {EDITEUR}, particulier</li>
@@ -1220,7 +1342,7 @@ def build_legal(nb):
 
     # ---------- cookies ----------
     legal_page("cookies.html", "Politique de cookies",
-               f"{SITE} ne dépose aucun cookie. Les cartes Google Maps ne se chargent qu'après votre accord explicite.", f'''
+               f"Politique de cookies de {SITE} : le site ne dépose aucun cookie et les cartes Google Maps ne se chargent qu'après votre clic, avec votre accord explicite.", f'''
 <section class="box"><h2>Ce site ne dépose aucun cookie</h2>
 <p>En naviguant sur {SITE}, <strong>aucun cookie n'est déposé sur votre appareil</strong> : ni cookie de session, ni cookie de mesure d'audience, ni cookie publicitaire. Le site ne vous demande donc aucun consentement et n'affiche aucun bandeau, parce qu'il n'a rien à vous faire accepter.</p>
 <p class="small">Un bandeau cookies n'est obligatoire que lorsqu'un site dépose des traceurs non strictement nécessaires. Ce n'est pas le cas ici.</p>
