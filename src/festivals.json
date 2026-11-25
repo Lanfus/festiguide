@@ -3002,13 +3002,13 @@
    "juin",
    "juillet"
   ],
-  "dates": "15 juin – 17 juillet 2027",
+  "dates": "15 juin – 18 juillet 2027",
   "iso": [
    "2027-06-15",
-   "2027-07-17"
+   "2027-07-18"
   ],
   "status": "Dates annoncées",
-  "status_note": "Les concerts annoncés s'étalent du 15 juin au 17 juillet 2027, mais la programmation n'est pas complète : d'autres artistes sont attendus et la période peut s'élargir. Les concerts se réservent à la date, pas au pass.",
+  "status_note": "Le site officiel affiche 14 concerts dans les Arènes du 15 juin au 18 juillet 2027 (30e anniversaire du festival). D'autres noms peuvent s'ajouter. Les concerts se réservent à la date, pas au pass.",
   "price_from": 46.0,
   "price_label": "dès 46 € le concert (tarif plein 2027)",
   "prices": [
@@ -3058,6 +3058,10 @@
   ],
   "official": "https://www.festivaldenimes.com",
   "sources": [
+   [
+    "Site officiel : programmation 2027",
+    "https://festivaldenimes.com/"
+   ],
    [
     "Sortiraparis : premiers noms de l'édition 2027",
     "https://www.sortiraparis.com/en/getaways-from-paris/southwest/articles/50325-festival-de-nimes-tokio-hotel-and-kyo-among-the-new-acts-announced-for-the-2027-lineup"
