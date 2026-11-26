@@ -10695,5 +10695,111 @@
    47.6458,
    6.841
   ]
+ },
+ {
+  "slug": "antilliaanse-feesten",
+  "name": "Antilliaanse Feesten",
+  "short": "",
+  "city": "Hoogstraten",
+  "country": "Belgique",
+  "region": "Flandre",
+  "venue": "Blauwbossen, Hoogstraten (province d'Anvers)",
+  "maps_q": "Antilliaanse Feesten Blauwbossen Hoogstraten",
+  "genres": [
+   "Musiques du monde",
+   "Musiques caribéennes",
+   "Musiques latines"
+  ],
+  "mois": [
+   "août"
+  ],
+  "dates": "12 – 14 août 2027",
+  "iso": [
+   "2027-08-12",
+   "2027-08-14"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates du jeudi 12 au samedi 14 août 2027 affichées sur le site officiel, où les combi-tickets 2027 sont en vente depuis le 9 août 2026. Aucun artiste 2027 annoncé pour l'instant.",
+  "price_from": 150.0,
+  "price_label": "150 € le combi 3 jours (prévente 2027)",
+  "prices": [
+   [
+    "Combi-ticket jeudi + vendredi + samedi, sans camping (prévente 2027)",
+    "150 €"
+   ],
+   [
+    "Combi-ticket jeudi + vendredi + samedi avec camping (prévente 2027)",
+    "200 €"
+   ],
+   [
+    "Jeton boisson (bière ou soft = 1 jeton, vin = 2, cocktail = 3)",
+    "3,50 €"
+   ],
+   [
+    "Enfants de moins de 12 ans",
+    "Gratuit"
+   ]
+  ],
+  "prices_note": "Tarifs de prévente de l'édition 2027 relevés sur la page billetterie officielle. Les billets à la journée 2027 ne sont pas encore affichés.",
+  "last_label": "Édition 2026",
+  "last_dates": "6 – 8 août 2026",
+  "lineup": [
+   "Kassav'",
+   "Kai",
+   "Nailah Blackman",
+   "Orishas",
+   "Grupo Galé",
+   "Jeon",
+   "Jonna Fraser",
+   "Kenny Haiti",
+   "Las Karamba",
+   "Adolescentes de Venezuela"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026, d'après l'affiche et l'archive officielles.",
+  "about": "Grand rendez-vous des musiques caribéennes, latines et afro, organisé depuis 1983 dans les bois de Blauwbossen à Hoogstraten, près de la frontière néerlandaise. Le festival se vit surtout le soir et la nuit, avec un grand camping sur place.",
+  "access": [
+   "En voiture : autoroute E19 Anvers – Breda, sortie 2 Loenhout/Hoogstraten (sortie 1 Meer depuis les Pays-Bas) ; parking gratuit à côté du site",
+   "En bus : lignes 600, 602, 605 ou 620 depuis Anvers jusqu'à l'arrêt Kerk Hoogstraten",
+   "Navette gratuite depuis l'hôtel de ville de Hoogstraten le vendredi et le samedi soir jusqu'à la fin des concerts (pas le jeudi, d'après la page 2026)"
+  ],
+  "tips": [
+   "Festival de soirée et de nuit : les concerts finissent au petit matin",
+   "Pour camper, il faut un billet festival pour chaque jour de présence en plus du camping",
+   "Une fois sorti du site, on ne peut plus y rentrer avec un billet journée",
+   "Jetons boissons au même prix en ligne et sur place ; la restauration se paie en espèces ou par carte"
+  ],
+  "official": "https://antilliaansefeesten.be/",
+  "sources": [
+   [
+    "Antilliaanse Feesten : billetterie et tarifs 2027",
+    "https://antilliaansefeesten.be/tickets?locale=en"
+   ],
+   [
+    "Antilliaanse Feesten : « Combi-tickets 2027 online! » (9 août 2026)",
+    "https://antilliaansefeesten.be/en/news/combi-tickets-2027-online"
+   ],
+   [
+    "Antilliaanse Feesten : archive et line-up 2026",
+    "https://antilliaansefeesten.be/en/archive/antilliaanse-feesten-2026"
+   ],
+   [
+    "Antilliaanse Feesten : accès (en néerlandais)",
+    "https://antilliaansefeesten.be/nl/bereikbaarheid"
+   ]
+  ],
+  "liens": [
+   [
+    "FAQ",
+    "https://antilliaansefeesten.be/en/news/frequently-asked-questions"
+   ],
+   [
+    "Camping (en néerlandais)",
+    "https://antilliaansefeesten.be/nl/camping"
+   ]
+  ],
+  "geo": [
+   51.4013,
+   4.7617
+  ]
  }
 ]

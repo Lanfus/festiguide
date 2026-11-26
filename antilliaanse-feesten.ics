@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:antilliaanse-feesten-20270812@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270815
+SUMMARY:Antilliaanse Feesten
+LOCATION:Blauwbossen\, Hoogstraten (province d'Anvers)
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/antilliaanse-feesten.html
+URL:https://antilliaansefeesten.be/
+END:VEVENT
+END:VCALENDAR
