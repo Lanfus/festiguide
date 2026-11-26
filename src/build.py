@@ -518,11 +518,13 @@ def group_page(d, defs, fests):
     fin = f" Dates, prix et accès, dont {len(conf)} aux dates confirmées."
     desc = f"{tete} :{fin}"
     noms = []
-    for g in d["list"][:4]:
+    for g in d["list"]:
+        if len(noms) == 4:
+            break
         cand = noms + [g.get("short") or g["name"]]
         essai = f"{tete} : {', '.join(cand)}…{fin}"
         if len(essai) > 160:
-            break
+            continue  # nom trop long : on essaie le suivant au lieu de s'arrêter (descriptions < 140)
         noms = cand
     if noms:
         desc = f"{tete} : {', '.join(noms)}…{fin}"
