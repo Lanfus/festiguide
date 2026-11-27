@@ -1268,7 +1268,9 @@ def build_legal(nb):
 
     # ---------- confidentialité ----------
     legal_page("confidentialite.html", "Politique de confidentialité",
-               f"Comment {SITE} traite vos données personnelles : aucune collecte directe, pas de compte, pas de publicité, pas de revente.", f'''
+               (f"Données personnelles sur {SITE} : aucun compte, aucun cookie, ni publicité ni revente. Seule l'alerte e-mail, facultative, collecte votre adresse e-mail."
+                if NEWSLETTER_ACTION else
+                f"Comment {SITE} traite vos données personnelles : aucune collecte directe, pas de compte, pas de publicité, pas de revente."), f'''
 <section class="box"><h2>En résumé</h2>
 <ul class="facts">
 {resume_collecte}
