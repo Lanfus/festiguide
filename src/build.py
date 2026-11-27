@@ -179,17 +179,41 @@ def annee_cible(fests):
     return annees.most_common(1)[0][0] if annees else None
 
 
+def annee_prochaine(f):
+    """Année de la prochaine édition : celle des dates confirmées, sinon celle du mois habituel à venir
+    (les gens cherchent « rampage 2027 » même avant l'annonce). None si le mois est inconnu ou si cette
+    année est déjà celle de la dernière édition connue : on ne devine pas."""
+    if f.get("iso"):
+        return f["iso"][0][:4]
+    mois = f.get("mois") or []
+    if not mois or mois[0] not in MOIS_ORDRE:
+        return None
+    import datetime
+    today = datetime.date.today()
+    m = MOIS_ORDRE.index(mois[0]) + 1
+    an = str(today.year if m > today.month else today.year + 1)
+    if an in (f.get("last_label") or "") + (f.get("last_dates") or ""):
+        return None
+    return an
+
+
 def make_title(f):
-    """Titre de page de 60 caractères maximum (au-delà, Google le coupe).
-    L'année n'apparaît que si les dates sont confirmées (« hellfest 2027 » est ce que les gens cherchent)."""
+    """Titre de page de 60 caractères maximum (au-delà, Google le coupe), avec les mots des requêtes
+    Search Console : année, « prix des billets », « programmation ». Sans dates confirmées, le titre dit
+    « dates à confirmer » pour ne rien promettre."""
     n = f.get("nom_seo") or f.get("short") or f["name"]
-    an = f["iso"][0][:4] if f.get("iso") else None
+    an = annee_prochaine(f)
     noms = [f"{n} {an}", n] if an and an not in n else [n]
+    if f.get("iso"):
+        gabarits = (" : dates, prix des billets, programmation", " : dates, prix, programmation",
+                    " : dates, prix, line-up", " : dates et prix")
+    else:
+        gabarits = (" : dates à confirmer, prix, programmation", " : dates à confirmer, prix",
+                    " : dates, prix, programmation", " : dates et prix")
     for nom in noms:
-        for t in (f"{nom} : dates, prix, line-up et accès | {SITE}", f"{nom} : dates, prix et line-up | {SITE}",
-                  f"{nom} : dates, prix, line-up", f"{nom} : dates et prix"):
-            if len(t) <= 60:
-                return t
+        for g in gabarits:
+            if len(nom + g) <= 60:
+                return nom + g
     return f"{n} | {SITE}"
 
 
@@ -304,7 +328,7 @@ def make_desc(f):
     else:
         tete = f'{nom}{" " + lieu if lieu else ""} : prochaines dates à confirmer.'
     prix = prix_extrait(f)
-    infos = [mot for champ, mot in (("lineup", "line-up"), ("access", "accès"), ("tips", "conseils")) if f.get(champ)]
+    infos = [mot for champ, mot in (("lineup", "programmation"), ("access", "accès"), ("tips", "conseils")) if f.get(champ)]
     if not prix and f.get("prices"):
         infos.insert(0, "prix des billets")
     while True:
@@ -427,11 +451,11 @@ def group_defs(fests):
     return defs
 
 
-def group_title(h1, an=None):
-    """Titre d'une page de liste : avec l'année des dates confirmées quand elle tient en 60 caractères."""
+def group_title(h1, an=None, geo=""):
+    """Titre d'une page de liste : avec l'année des dates confirmées et la zone quand ça tient en 60 caractères."""
     noms = [f"{h1} {an}", h1] if an else [h1]
     for nom in noms:
-        for t in (f"{nom} : dates, prix | {SITE}", f"{nom} | {SITE}"):
+        for t in ((f"{nom}{geo} : dates, prix", f"{nom}{geo}") if geo else ()) + (f"{nom} : dates, prix | {SITE}", f"{nom} | {SITE}"):
             if len(t) <= 60:
                 return t
     return h1 if len(h1) <= 60 else h1[:60]
@@ -533,7 +557,7 @@ def group_page(d, defs, fests):
         {"@type": "ListItem", "position": 2, "name": d["h1"], "item": url}]}, ensure_ascii=False) + "</script>\n"
     ld += '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "ItemList", "name": d["h1"],
         "numberOfItems": n, "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": f["name"], "url": f'{BASE_URL}/{f["slug"]}.html'} for i, f in enumerate(lst)]}, ensure_ascii=False) + "</script>\n"
-    page = head(group_title(d["h1"], annee_cible(d["list"])), desc, url, ld)
+    page = head(group_title(d["h1"], annee_cible(d["list"]), " en France et Belgique" if d["kind"] in ("mois", "style") else ""), desc, url, ld)
     page += f'''<main id="contenu" class="wrap fiche groupe">
 <nav class="crumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> › <span>{esc(d["h1"])}</span></nav>
 <h1>{esc(d["h1"])}</h1>
@@ -830,7 +854,7 @@ def build(fests):
 </div>
 {newsletter_form(f)}
 <div class="two">
-<section class="box"><h2>Prochaine édition</h2>
+<section class="box"><h2>{("Dates " + f["iso"][0][:4] + " et lieu") if f.get("iso") else "Prochaine édition : dates à confirmer"}</h2>
 <ul class="facts">
 <li><strong>Dates :</strong> {esc(f.get("dates") or "À confirmer")} <span class="badge {badge}">{esc(f.get("status") or "")}</span></li>
 <li><strong>Lieu :</strong> {esc(f.get("venue") or f.get("city") or "")}</li>
@@ -840,16 +864,16 @@ def build(fests):
 <p class="small">{esc(f.get("status_note") or "")}</p>
 {lien_off}
 </section>
-<section class="box"><h2>Prix</h2>
+<section class="box"><h2>Prix des billets</h2>
 <table class="prices">{rows}</table>
 <p class="small">{esc(f.get("prices_note") or "")}</p>
 </section>
 </div>
-<section class="box"><h2>Programmation : {esc(f.get("last_label") or "dernière édition")}{(" (" + esc(f["last_dates"]) + ")") if f.get("last_dates") else ""}</h2>
+<section class="box"><h2>Programmation (line-up) : {esc(f.get("last_label") or "dernière édition")}{(" (" + esc(f["last_dates"]) + ")") if f.get("last_dates") else ""}</h2>
 {chips}
 <p class="small">{esc(f.get("lineup_note") or "")}</p>
 </section>
-<section class="box"><h2>Plan et localisation</h2>
+<section class="box"><h2>Où se passe {esc(f.get("short") or f["name"])} ? Adresse et plan</h2>
 <div class="map-wrap" data-map-src="https://www.google.com/maps?q={q}&amp;output=embed" data-map-title="Carte : {esc(f["name"])}">
   <div class="map-ph">
     <p class="map-ph-title">{ic("map")}Carte non chargée</p>
