@@ -161,6 +161,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festival du Bout du Monde](https://lefestiguide.fr/festival-du-bout-du-monde.html): Crozon, 30 juillet – 1 août 2027
 - [Au Pont du Rock](https://lefestiguide.fr/au-pont-du-rock.html): Malestroit, 30 – 31 juillet 2027
 - [Lokerse Feesten](https://lefestiguide.fr/lokerse-feesten.html): Lokeren, 30 juillet – 8 août 2027
+- [Esperanzah!](https://lefestiguide.fr/esperanzah.html): Charleroi, 30 juillet – 1er août 2027
 - [Musicalarue](https://lefestiguide.fr/musicalarue.html): Luxey, 30 juillet – 1er août 2027
 - [Rock'n Poche](https://lefestiguide.fr/rock-n-poche.html): Habère-Poche (Haute-Savoie), 30 – 31 juillet 2027
 - [Ecaussysteme](https://lefestiguide.fr/ecaussysteme.html): Gignac (Lot), 30 juillet – 1er août 2027
@@ -175,7 +176,6 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Chorégies d'Orange](https://lefestiguide.fr/choregies-d-orange.html): Orange, À confirmer
 - [Festival de La Roque-d'Anthéron](https://lefestiguide.fr/la-roque-d-antheron.html): La Roque-d'Anthéron, À confirmer
 - [Les Suds, à Arles](https://lefestiguide.fr/les-suds-a-arles.html): Arles, À confirmer
-- [Esperanzah!](https://lefestiguide.fr/esperanzah.html): Floreffe, À confirmer
 - [Rock Zottegem](https://lefestiguide.fr/rock-zottegem.html): Zottegem, À confirmer
 - [Nuits de la Guitare de Patrimonio](https://lefestiguide.fr/nuits-de-la-guitare-de-patrimonio.html): Patrimonio, À confirmer
 - [Nuits de la Citadelle](https://lefestiguide.fr/nuits-de-la-citadelle.html): Sisteron, À confirmer

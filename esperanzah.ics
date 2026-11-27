@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:esperanzah-20270730@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270802
+SUMMARY:Esperanzah!
+LOCATION:Parc Nelson Mandela\, Monceau-sur-Sambre\, Charleroi
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/esperanzah.html
+URL:https://www.esperanzah.be/
+END:VEVENT
+END:VCALENDAR

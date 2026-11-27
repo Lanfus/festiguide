@@ -6710,8 +6710,8 @@
  {
   "short": "",
   "region": "Wallonie",
-  "venue": "Abbaye de Floreffe, Namur",
-  "maps_q": "Abbaye de Floreffe, Namur Floreffe",
+  "venue": "Parc Nelson Mandela, Monceau-sur-Sambre, Charleroi",
+  "maps_q": "Parc Nelson Mandela, Monceau-sur-Sambre, Charleroi",
   "genres": [
    "Musiques du monde",
    "Festival engagé"
@@ -6720,10 +6720,13 @@
    "juillet",
    "août"
   ],
-  "dates": "À confirmer",
-  "iso": null,
-  "status": "Dates à confirmer",
-  "status_note": "Dates 2027 pas encore confirmées par l'organisateur : l'édition 2026 s'est tenue du 31 juillet au 2 août ; VISITWallonia annonce 2027 sur juillet-août, sous réserve de modifications.",
+  "dates": "30 juillet – 1er août 2027",
+  "iso": [
+   "2027-07-30",
+   "2027-08-01"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Dates et nouveau lieu annoncés par l'organisateur le 16/11/2026 : le festival quitte l'abbaye de Floreffe (édition 2026 du 31 juillet au 2 août) pour le parc Nelson Mandela à Charleroi (Monceau-sur-Sambre).",
   "price_from": null,
   "price_label": "Voir la billetterie officielle",
   "prices": [],
@@ -6732,7 +6735,7 @@
   "last_dates": "",
   "lineup": [],
   "lineup_note": "",
-  "about": "Festival engagé à l'abbaye de Floreffe, dans la province de Namur.",
+  "about": "Festival engagé de musiques du monde, qui s'installe en 2027 au parc Nelson Mandela à Charleroi.",
   "access": [],
   "tips": [],
   "official": "https://www.esperanzah.be/",
@@ -6740,6 +6743,10 @@
    [
     "Site officiel",
     "https://www.esperanzah.be/"
+   ],
+   [
+    "Annonce du déménagement (Belga, DH)",
+    "https://www.dhnet.be/dernieres-depeches/2026/11/16/le-festival-esperanzah-demenage-au-parc-nelson-mandela-a-charleroi-TQHC4EOSAJHDJPSFJW6KE7MWX4/"
    ],
    [
     "VISITWallonia",
@@ -6750,12 +6757,8 @@
   "visiteurs_note": "",
   "slug": "esperanzah",
   "name": "Esperanzah!",
-  "city": "Floreffe",
-  "country": "Belgique",
-  "geo": [
-   50.4367,
-   4.76
-  ]
+  "city": "Charleroi",
+  "country": "Belgique"
  },
  {
   "short": "",

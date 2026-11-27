@@ -117,6 +117,8 @@ Les fiches ajoutées ont peu de prix, d'accès et de conseils (`prices`, `access
 
 ## État au 13 novembre 2026
 
+27/11/2026 : 97 festivals sur 149 ont des dates confirmées (Esperanzah! 30 juillet – 1er août 2027, site officiel ; déménage de Floreffe au parc Nelson Mandela à Charleroi). Vérifiés sans changement : Brosella, Fête de l'Humanité (aucune date 2027 officielle), Nuits de Fourvière (seul Jean-Michel Jarre les 15–16 juillet 2027 annoncé, plage complète non publiée), Solidays (rien sur le site après l'annulation 2026).
+
 25/11/2026 (2e vérification) : 94 festivals sur 147 ont des dates confirmées (sites officiels : Rock the Pistes 14–21 mars 2027, Horst 6–8 mai, Werchter Boutique 26 juin, Terres du Son 9–11 juillet, Festival Radio France Montpellier 4–17 juillet, Paradise City 2–4 juillet). Laissés à confirmer car ambigus : Les Escales (21 ou 22 juillet, deux pages officielles), Rampage (fin 6 ou 7 mars), Brakrock (6–7 août sans année), Décibulles, Yardland (presse seulement).
 
 25/11/2026 : 87 festivals sur 146 ont des dates confirmées (vérification automatique : Festival de Nîmes 15 juin – 18 juillet 2027, fin corrigée du 17 au 18 juillet d'après le site officiel ; Golden Coast et Lovely Brive ajoutés entre-temps).
