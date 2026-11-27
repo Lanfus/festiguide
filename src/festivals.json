@@ -10801,5 +10801,141 @@
    51.4013,
    4.7617
   ]
+ },
+ {
+  "slug": "lasemo",
+  "name": "LaSemo",
+  "short": "",
+  "city": "Enghien",
+  "country": "Belgique",
+  "region": "Wallonie",
+  "venue": "Parc d'Enghien (Hainaut)",
+  "maps_q": "Parc d'Enghien LaSemo",
+  "genres": [
+   "Pop",
+   "Chanson",
+   "Musiques du monde",
+   "Écoresponsable"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "9 au 11 juillet 2027",
+  "iso": [
+   "2027-07-09",
+   "2027-07-11"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Billetterie officielle : les pass 2027 donnent accès au festival les 9, 10 et 11 juillet 2027 (édition anniversaire), la billetterie affichant du 8 au 12 juillet avec les jours de camping. Aucun artiste 2027 annoncé pour l'instant.",
+  "price_from": 76.5,
+  "price_label": "76,50 € la journée (early bird 2027)",
+  "prices": [
+   [
+    "Ticket journée adulte, vendredi ou samedi (early bird 2027)",
+    "76,50 €"
+   ],
+   [
+    "Ticket journée étudiant 16-25 ans (early bird 2027)",
+    "71,50 €"
+   ],
+   [
+    "Ticket journée enfant 3-15 ans (early bird 2027)",
+    "34,50 €"
+   ],
+   [
+    "Pass 3 jours adulte (early bird 2027)",
+    "175 €"
+   ],
+   [
+    "Pass 3 jours étudiant 16-25 ans (early bird 2027)",
+    "165 €"
+   ],
+   [
+    "Pass 3 jours enfant 3-15 ans (early bird 2027)",
+    "65 €"
+   ],
+   [
+    "Enfants de moins de 3 ans",
+    "Gratuit"
+   ]
+  ],
+  "prices_note": "Tarifs early bird de l'édition 2027 relevés sur la billetterie officielle le 27/11/2026, hors frais de service (à partir de 2,49 € par commande). Camping, parking et navette se paient à part. Prix du ticket dimanche non relevé.",
+  "last_label": "Édition 2026",
+  "last_dates": "10 au 12 juillet 2026",
+  "lineup": [
+   "Julien Doré",
+   "Nile Rodgers & Chic",
+   "Vanessa Paradis",
+   "Xavier Rudd",
+   "Gaël Faye",
+   "Keny Arkana",
+   "Polo & Pan (DJ set)",
+   "Magic System",
+   "Solann",
+   "Mentissa",
+   "2manydjs (DJ set)",
+   "Youssoupha",
+   "Puggy",
+   "Alice on the Roof",
+   "Orchestra Baobab"
+  ],
+  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026, d'après l'affiche du dossier de presse et le site officiel.",
+  "about": "Festival familial et écoresponsable installé dans le parc du château d'Enghien, à mi-chemin entre Bruxelles et Mons. Les concerts de chanson, pop et musiques du monde y côtoient une vingtaine d'univers à explorer (spectacles, animations pour enfants, Jardins Divers) et plusieurs campings, dont un réservé aux familles.",
+  "access": [
+   "En train : gare d'Enghien, avec une navette gratuite vers les campings",
+   "À vélo : départs groupés et parkings vélos organisés par le festival",
+   "En voiture : parking payant à réserver à part sur la billetterie ; covoiturage encouragé"
+  ],
+  "tips": [
+   "Le billet festival ne comprend ni le camping, ni le parking, ni la navette",
+   "Paiement sur place uniquement en cashless : le solde restant se fait rembourser après le festival",
+   "Cinq campings au choix (festif, calme, cocon, famille, van) selon le rythme de nuit souhaité",
+   "Une équipe accessibilité en chasubles bleues accompagne les personnes à besoins spécifiques ; les bus et navettes ne sont pas accessibles en fauteuil"
+  ],
+  "official": "https://www.lasemo.be/",
+  "sources": [
+   [
+    "LaSemo : billetterie officielle 2027 (dates et tarifs)",
+    "https://shop.lasemo.be/a51a3d0db0514d03832dcb013dcaa939/tickets-festival"
+   ],
+   [
+    "LaSemo : site officiel, line-up 2026",
+    "https://www.lasemo.be/line-up-2026/"
+   ],
+   [
+    "LaSemo : campings et navette depuis la gare",
+    "https://www.lasemo.be/camping/"
+   ],
+   [
+    "LaSemo : engagements durables (mobilité)",
+    "https://www.lasemo.be/durable/"
+   ],
+   [
+    "LaSemo : accessibilité",
+    "https://www.lasemo.be/accessibilite/"
+   ]
+  ],
+  "liens": [
+   [
+    "Plan du site (édition 2026)",
+    "https://www.lasemo.be/wp-content/uploads/2026/07/LS26_PLAN_SITEWEB_RVB-1-scaled.png"
+   ],
+   [
+    "Accessibilité",
+    "https://www.lasemo.be/accessibilite/"
+   ],
+   [
+    "Campings",
+    "https://www.lasemo.be/camping/"
+   ],
+   [
+    "FAQ",
+    "https://www.lasemo.be/faq/"
+   ]
+  ],
+  "geo": [
+   50.6957,
+   4.0412
+  ]
  }
 ]

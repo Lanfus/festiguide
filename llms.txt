@@ -1,6 +1,6 @@
 # FestiGuide
 
-> Annuaire gratuit de 148 festivals de musique en France et en Belgique : dates, lieu, prix, line-up, accès et site officiel. Chaque fiche cite ses sources. Aucun billet n'est vendu ici : les achats se font sur les billetteries officielles.
+> Annuaire gratuit de 149 festivals de musique en France et en Belgique : dates, lieu, prix, line-up, accès et site officiel. Chaque fiche cite ses sources. Aucun billet n'est vendu ici : les achats se font sur les billetteries officielles.
 
 Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncées ») que si une source officielle la confirme ; sinon la fiche indique « Dates à confirmer ». Données indicatives, à vérifier sur le site officiel du festival.
 
@@ -18,27 +18,27 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique en mars](https://lefestiguide.fr/festivals-musique-mars.html): 7 festivals
 - [Festivals de musique en mai](https://lefestiguide.fr/festivals-musique-mai.html): 14 festivals
 - [Festivals de musique en juin](https://lefestiguide.fr/festivals-musique-juin.html): 24 festivals
-- [Festivals de musique en juillet](https://lefestiguide.fr/festivals-musique-juillet.html): 64 festivals
+- [Festivals de musique en juillet](https://lefestiguide.fr/festivals-musique-juillet.html): 65 festivals
 - [Festivals de musique en août](https://lefestiguide.fr/festivals-musique-aout.html): 39 festivals
 - [Festivals de musique en septembre](https://lefestiguide.fr/festivals-musique-septembre.html): 6 festivals
 - [Festivals de musique en octobre](https://lefestiguide.fr/festivals-musique-octobre.html): 3 festivals
 - [Festivals électro](https://lefestiguide.fr/festivals-electro.html): 59 festivals
-- [Festivals pop](https://lefestiguide.fr/festivals-pop.html): 53 festivals
+- [Festivals pop](https://lefestiguide.fr/festivals-pop.html): 54 festivals
 - [Festivals rock](https://lefestiguide.fr/festivals-rock.html): 52 festivals
 - [Festivals rap](https://lefestiguide.fr/festivals-rap.html): 29 festivals
 - [Festivals de jazz](https://lefestiguide.fr/festivals-jazz.html): 19 festivals
 - [Festivals de musique classique](https://lefestiguide.fr/festivals-musique-classique.html): 16 festivals
-- [Festivals de musiques du monde](https://lefestiguide.fr/festivals-musiques-du-monde.html): 18 festivals
+- [Festivals de musiques du monde](https://lefestiguide.fr/festivals-musiques-du-monde.html): 19 festivals
 - [Festivals techno](https://lefestiguide.fr/festivals-techno.html): 11 festivals
 - [Festivals hip-hop](https://lefestiguide.fr/festivals-hip-hop.html): 11 festivals
 - [Festivals de musiques actuelles](https://lefestiguide.fr/festivals-musiques-actuelles.html): 10 festivals
-- [Festivals de chanson](https://lefestiguide.fr/festivals-chanson.html): 14 festivals
+- [Festivals de chanson](https://lefestiguide.fr/festivals-chanson.html): 15 festivals
 - [Festivals indie](https://lefestiguide.fr/festivals-indie.html): 7 festivals
 - [Festivals soul](https://lefestiguide.fr/festivals-soul.html): 6 festivals
 - [Festivals de musique en montagne](https://lefestiguide.fr/festivals-musique-en-montagne.html): 7 festivals
 - [Festivals metal](https://lefestiguide.fr/festivals-metal.html): 5 festivals
 - [Festivals house](https://lefestiguide.fr/festivals-house.html): 5 festivals
-- [Festivals de musique en Belgique](https://lefestiguide.fr/festivals-musique-belgique.html): 36 festivals
+- [Festivals de musique en Belgique](https://lefestiguide.fr/festivals-musique-belgique.html): 37 festivals
 - [Festivals de musique en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-musique-auvergne-rhone-alpes.html): 17 festivals
 - [Festivals de musique en Bretagne](https://lefestiguide.fr/festivals-musique-bretagne.html): 16 festivals
 - [Festivals de musique en Flandre](https://lefestiguide.fr/festivals-musique-flandre.html): 25 festivals
@@ -48,7 +48,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals de musique en Occitanie](https://lefestiguide.fr/festivals-musique-occitanie.html): 14 festivals
 - [Festivals de musique dans les Pays de la Loire](https://lefestiguide.fr/festivals-musique-pays-de-la-loire.html): 7 festivals
 - [Festivals de musique en Provence-Alpes-Côte d'Azur](https://lefestiguide.fr/festivals-musique-provence-alpes-cote-d-azur.html): 14 festivals
-- [Festivals de musique en Wallonie](https://lefestiguide.fr/festivals-musique-wallonie.html): 7 festivals
+- [Festivals de musique en Wallonie](https://lefestiguide.fr/festivals-musique-wallonie.html): 8 festivals
 - [Festivals pas chers : billet à 50 € ou moins](https://lefestiguide.fr/festivals-pas-chers.html): 35 festivals
 - [Festivals en mars en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-mars-auvergne-rhone-alpes.html): 5 festivals
 - [Festivals en juillet en Auvergne-Rhône-Alpes](https://lefestiguide.fr/festivals-juillet-auvergne-rhone-alpes.html): 5 festivals
@@ -56,6 +56,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals en juillet en Flandre](https://lefestiguide.fr/festivals-juillet-flandre.html): 10 festivals
 - [Festivals en juillet en Occitanie](https://lefestiguide.fr/festivals-juillet-occitanie.html): 10 festivals
 - [Festivals en juillet en Provence-Alpes-Côte d'Azur](https://lefestiguide.fr/festivals-juillet-provence-alpes-cote-d-azur.html): 9 festivals
+- [Festivals en juillet en Wallonie](https://lefestiguide.fr/festivals-juillet-wallonie.html): 5 festivals
 - [Festivals en août en Bretagne](https://lefestiguide.fr/festivals-aout-bretagne.html): 7 festivals
 - [Festivals en août en Flandre](https://lefestiguide.fr/festivals-aout-flandre.html): 10 festivals
 - [Festivals en août en Occitanie](https://lefestiguide.fr/festivals-aout-occitanie.html): 6 festivals
@@ -63,13 +64,13 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Festivals pop en juin](https://lefestiguide.fr/festivals-pop-juin.html): 10 festivals
 - [Festivals rock en juin](https://lefestiguide.fr/festivals-rock-juin.html): 10 festivals
 - [Festivals électro en juillet](https://lefestiguide.fr/festivals-electro-juillet.html): 22 festivals
-- [Festivals pop en juillet](https://lefestiguide.fr/festivals-pop-juillet.html): 28 festivals
+- [Festivals pop en juillet](https://lefestiguide.fr/festivals-pop-juillet.html): 29 festivals
 - [Festivals rock en juillet](https://lefestiguide.fr/festivals-rock-juillet.html): 27 festivals
 - [Festivals rap en juillet](https://lefestiguide.fr/festivals-rap-juillet.html): 13 festivals
 - [Festivals de jazz en juillet](https://lefestiguide.fr/festivals-jazz-juillet.html): 8 festivals
 - [Festivals de musique classique en juillet](https://lefestiguide.fr/festivals-musique-classique-juillet.html): 8 festivals
-- [Festivals de musiques du monde en juillet](https://lefestiguide.fr/festivals-musiques-du-monde-juillet.html): 9 festivals
-- [Festivals de chanson en juillet](https://lefestiguide.fr/festivals-chanson-juillet.html): 9 festivals
+- [Festivals de musiques du monde en juillet](https://lefestiguide.fr/festivals-musiques-du-monde-juillet.html): 10 festivals
+- [Festivals de chanson en juillet](https://lefestiguide.fr/festivals-chanson-juillet.html): 10 festivals
 - [Festivals électro en août](https://lefestiguide.fr/festivals-electro-aout.html): 12 festivals
 - [Festivals pop en août](https://lefestiguide.fr/festivals-pop-aout.html): 10 festivals
 - [Festivals rock en août](https://lefestiguide.fr/festivals-rock-aout.html): 11 festivals
@@ -147,6 +148,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Déferlantes Sud de France](https://lefestiguide.fr/les-deferlantes.html): Le Barcarès (Pyrénées-Orientales), 9 – 11 juillet 2027
 - [Terres du Son](https://lefestiguide.fr/terres-du-son.html): Monts (Indre-et-Loire), 9 – 11 juillet 2027
 - [Cactus Festival](https://lefestiguide.fr/cactus-festival.html): Bruges, 9 – 11 juillet 2027
+- [LaSemo](https://lefestiguide.fr/lasemo.html): Enghien, 9 au 11 juillet 2027
 - [Les Francofolies de La Rochelle](https://lefestiguide.fr/francofolies-de-la-rochelle.html): La Rochelle (Charente-Maritime), 10 – 14 juillet 2027
 - [Les Vieilles Charrues](https://lefestiguide.fr/vieilles-charrues.html): Carhaix-Plouguer (Finistère), 15 – 18 juillet 2027
 - [Lovely Brive Festival](https://lefestiguide.fr/lovely-brive-festival.html): Brive-la-Gaillarde (Corrèze), 15 au 18 juillet 2027
