@@ -525,7 +525,7 @@
    "2027-06-20"
   ],
   "status": "Dates annoncées",
-  "status_note": "20e édition, annoncée avec plus de 300 groupes et 10 scènes. Le pass 4 jours est épuisé et le pass 1 jour n'est pas encore en vente. Une revente officielle est ouverte sur tickets.hellfest.fr.",
+  "status_note": "20e édition : environ 300 groupes et 10 scènes, programmation dévoilée le 26 novembre 2026. Tous les pass 4 jours sont épuisés ; les pass 1 jour seront mis en vente au premier trimestre 2027. Nouveau pass 4 jours « Extreme Zone » (scènes Altar, Forge, Temple et Crypt) attribué par tirage au sort : inscription avant le lundi 30 novembre 2026 à 19h59 sur tickets.hellfest.fr, revente officielle à partir du 3 décembre 2026 à 13h.",
   "price_from": 389.0,
   "price_label": "389 € le pass 4 jours (2027, épuisé)",
   "prices": [
@@ -538,23 +538,31 @@
     "environ 10 €"
    ],
    [
+    "Pass 4 jours Extreme Zone 2027 (tirage au sort jusqu'au 30 novembre 2026, prix relevé par JDS, non affiché sur la billetterie)",
+    "239 € + 7 € de frais"
+   ],
+   [
     "Pass 1 jour 2027",
-    "Pas encore annoncé"
+    "En vente au premier trimestre 2027, prix non publié"
    ]
   ],
-  "prices_note": "Seul le pass 4 jours a un tarif publié pour 2027. Pour une place, il faut passer par la revente officielle.",
+  "prices_note": "Tarifs de l'édition 2027. Le pass 4 jours classique est épuisé : pour une place, passer par la revente officielle ou le tirage au sort Extreme Zone (jusqu'au 30 novembre 2026).",
   "last_label": "Édition 2026",
   "last_dates": "18 – 21 juin 2026",
   "lineup": [
-   "Iron Maiden",
-   "Bring Me The Horizon",
-   "Limp Bizkit",
-   "Deep Purple",
-   "Alice Cooper",
+   "Gojira",
+   "Blink-182",
+   "Faith No More",
+   "Parkway Drive",
+   "Mötley Crüe",
+   "Judas Priest",
+   "Evanescence",
+   "Marilyn Manson",
    "Megadeth",
-   "Sepultura"
+   "The Prodigy",
+   "Bruce Dickinson"
   ],
-  "lineup_note": "Aucun artiste 2027 annoncé. Noms de l'édition 2026.",
+  "lineup_note": "Programmation 2027 dévoilée le 26 novembre 2026 : environ 300 groupes sur 10 scènes. Ici, les têtes d'affiche citées par Ouest-France et JDS ; liste complète sur le site officiel.",
   "about": "Le grand festival français de metal et de musiques extrêmes, installé à Clisson près de Nantes. L'édition 2027 est la 20e, annoncée comme une édition anniversaire avec davantage de scènes.",
   "access": [
    "TER Nantes – Clisson, puis navettes entre la gare et le festival (3,50 € en 2026)",
@@ -562,7 +570,7 @@
    "Billet TER « Live » à 5 € depuis les gares des Pays de la Loire en 2026"
   ],
   "tips": [
-   "Les pass 4 jours sont épuisés : n'achète qu'en revente officielle, jamais au marché noir",
+   "Les pass 4 jours sont épuisés : tente le tirage au sort Extreme Zone avant le 30 novembre 2026 à 19h59, ou passe par la revente officielle, jamais au marché noir",
    "Camping-car et van autorisés sur les parkings officiels, mais tentes, tonnelles et feux de camp y sont interdits",
    "Les infos transport 2027 ne sont pas publiées : vérifier le site officiel au printemps"
   ],
@@ -579,6 +587,18 @@
    [
     "Forum Hellfest : parkings et transports",
     "https://forum.hellfest.fr/t/parkings-transports/13319"
+   ],
+   [
+    "Hellfest : billetterie 2027 (FAQ officielle)",
+    "https://hellfest.fr/en/faq/tickets-hellfest-2027"
+   ],
+   [
+    "Ouest-France : la programmation 2027 dévoilée (26/11/2026)",
+    "https://www.ouest-france.fr/festivals/hellfest/direct-hellfest-2027-a-clisson-la-programmation-complete-du-festival-officiellement-devoilee-ce-jeudi-soir-654817c2-156c-4167-8720-6c03500dfcbd"
+   ],
+   [
+    "JDS : programmation 2027 et pass Extreme Zone (26/11/2026)",
+    "https://www.jds.fr/actu/hellfest-2027-gojira-blink-182-evanescence-une-programmation-xxl-devoilee-et-de-nouvelles-places-annoncees-1864932_A"
    ]
   ],
   "visiteurs": 200000,
