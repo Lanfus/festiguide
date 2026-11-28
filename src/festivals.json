@@ -730,7 +730,8 @@
    48.2708,
    -3.5654
   ],
-  "nom_seo": "Festival des Vieilles Charrues"
+  "nom_seo": "Festival des Vieilles Charrues",
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -825,7 +826,8 @@
   "geo": [
    47.6458,
    6.841
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -1191,7 +1193,8 @@
   "geo": [
    44.5014,
    0.1689
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -1303,7 +1306,8 @@
   "geo": [
    49.2042,
    -0.3324
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -1503,7 +1507,8 @@
   "geo": [
    45.6943,
    5.9035
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -1621,7 +1626,8 @@
   "geo": [
    49.7802,
    4.7304
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -1717,7 +1723,8 @@
   "geo": [
    50.2893,
    2.7679
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -1739,7 +1746,7 @@
   "dates": "Juin – juillet 2027 (dates à confirmer)",
   "iso": null,
   "status": "Dates à confirmer",
-  "status_note": "Les dates complètes de l'édition 2027 ne sont pas publiées. Seul Jean-Michel Jarre est annoncé, les 15 et 16 juillet 2027 au Grand théâtre, pour les 50 ans d'Oxygène. Une vente de Noël avec les premiers billets est annoncée le 18 novembre 2026 à midi. L'édition 2026 allait du 28 mai au 25 juillet.",
+  "status_note": "Les dates complètes de l'édition 2027 ne sont pas publiées. Premiers rendez-vous annoncés le 18 novembre 2026 : du 1er juin (spectacles) au 23 juillet 2027 (Suzane), dont Jean-Michel Jarre les 15 et 16 juillet pour les 50 ans d'Oxygène. Première billetterie ouverte du 25 novembre 2026 à midi au 20 décembre 2026 sur le site officiel. L'édition 2026 allait du 28 mai au 25 juillet.",
   "price_from": 6.0,
   "price_label": "de 6 à 75 € selon le spectacle",
   "prices": [
@@ -1762,15 +1769,22 @@
    [
     "Tarif solidarité et tarif handicap",
     "30 à 50 % de réduction"
+   ],
+   [
+    "Premiers concerts 2027 (prix relevés par Radio Scoop et Sortiraparis, non vérifiés sur la billetterie)",
+    "Angine de Poitrine 45 €, Suzane 49 €, Jain 51 € (Radio Scoop seulement), Jean-Michel Jarre 75 €"
    ]
   ],
-  "prices_note": "Grille tarifaire publiée sur le site officiel (édition 2026) ; la programmation et les prix 2027 ne sont pas encore annoncés.",
+  "prices_note": "Grille tarifaire publiée sur le site officiel (édition 2026). Pour 2027, seuls les prix des premiers concerts annoncés le 18 novembre 2026 sont connus, d'après la presse.",
   "last_label": "Édition 2026 (80e anniversaire)",
   "last_dates": "28 mai – 25 juillet 2026",
   "lineup": [
-   "Jean-Michel Jarre (15 et 16 juillet 2027)"
+   "Jain (vendredi 18 juin 2027)",
+   "Angine de Poitrine (lundi 21 juin 2027)",
+   "Jean-Michel Jarre (15 et 16 juillet 2027)",
+   "Suzane (vendredi 23 juillet 2027)"
   ],
-  "lineup_note": "Seul artiste annoncé pour 2027. D'autres noms sont dévoilés le 18 novembre 2026. Pour mémoire, l'édition 2026 affichait Massive Attack, Pulp, Jack White, Lorde, Little Simz, Vanessa Paradis et Wet Leg.",
+  "lineup_note": "Premiers concerts de l'édition 2027 annoncés le 18 novembre 2026 (Radio Scoop, Sortiraparis), tous au Grand théâtre ; cinq spectacles de théâtre et de cirque ont été annoncés en même temps. La suite de la programmation n'est pas publiée. Pour mémoire, l'édition 2026 affichait Massive Attack, Pulp, Jack White, Lorde, Little Simz, Vanessa Paradis et Wet Leg.",
   "about": "Festival pluridisciplinaire (musique, danse, théâtre, cirque) installé dans le cadre antique des théâtres romains de Lyon. Il s'étend sur environ deux mois chaque été.",
   "access": [
    "Théâtre antique sur la colline de Fourvière, à Lyon",
@@ -1796,6 +1810,14 @@
    [
     "Nuits de Fourvière : réservation et tarifs",
     "https://www.nuitsdefourviere.com/infos-pratiques/reservation-et-tarifs"
+   ],
+   [
+    "Radio Scoop : premiers concerts 2027 et billetterie (18/11/2026)",
+    "https://www.radioscoop.com/infos/nuits-de-fourviere-2027-des-premiers-concerts-annonces-la-date-de-la-billetterie-devoilee_368022"
+   ],
+   [
+    "Sortiraparis : premiers noms 2027 (18/11/2026)",
+    "https://www.sortiraparis.com/en/getaways-from-paris/southeast/articles/51302-les-nuits-de-fourviere-2027-angine-de-poitrine-and-jain-among-the-first-acts-announced"
    ]
   ],
   "visiteurs": null,
@@ -1807,7 +1829,8 @@
   "geo": [
    45.758,
    4.8351
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -2102,7 +2125,8 @@
   "geo": [
    47.078,
    2.3983
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -2388,7 +2412,8 @@
   "geo": [
    42.8118,
    3.028
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -2762,7 +2787,8 @@
   "geo": [
    43.2803,
    5.3806
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -3106,7 +3132,8 @@
   "geo": [
    43.8322,
    4.3429
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -3129,32 +3156,44 @@
    "2026-12-06"
   ],
   "status": "Dates annoncées",
-  "status_note": "Dates relevées sur la fiche du comité régional du tourisme de Bretagne. Le lieu exact des grands concerts n'y est pas précisé : l'édition 2025 se tenait entre le centre de Rennes et le Parc Expo à Bruz, à une dizaine de kilomètres.",
-  "price_from": null,
-  "price_label": "Tarifs publics 2026 non relevés",
+  "status_note": "Dates confirmées par le site officiel : 48es Rencontres Trans Musicales du 2 au 6 décembre 2026, avec la soirée d'ouverture à la Salle de la Cité le 2 décembre, les soirées au Parc Expo (Bruz) du 3 au 5 décembre et l'accueil du festival au Liberté, au centre de Rennes, du 3 au 5 décembre.",
+  "price_from": 18.0,
+  "price_label": "dès 18 € plein tarif (édition 2026)",
   "prices": [
    [
-    "Accréditation pro, 1 jour (édition 2025)",
-    "41 à 53 €"
+    "Pass 3 jours, Parc Expo, 3 – 5 décembre (2026)",
+    "95 € plein, 83 € réduit, 80 € Carte Curieuse"
    ],
    [
-    "Accréditation pro, 3 jours (édition 2025)",
-    "124 €"
+    "Pass week-end, Parc Expo, 4 – 5 décembre (2026)",
+    "71 € plein, 62 € réduit"
    ],
    [
-    "Soirée d'ouverture, Salle de la Cité (édition 2025)",
-    "14 €"
+    "Billet jeudi 3 décembre, Parc Expo (2026)",
+    "32 € plein, 24 € réduit"
    ],
    [
-    "Concerts à L'Aire Libre (édition 2025)",
-    "12 €"
+    "Billet vendredi 4 décembre, Parc Expo (2026)",
+    "44 € plein, 33 € réduit"
+   ],
+   [
+    "Soirée d'ouverture, Salle de la Cité, 2 décembre (2026)",
+    "22 € plein, 18 € réduit"
+   ],
+   [
+    "Création des Trans, Aire Libre, 2 – 6 décembre (2026)",
+    "18 € plein, 12 € réduit, 8 € étudiants et moins de 26 ans"
+   ],
+   [
+    "Sur place au Parc Expo (jeudi, vendredi, samedi)",
+    "billets majorés de 4 €"
    ]
   ],
-  "prices_note": "Aucun tarif public 2026 n'a été trouvé. Les prix ci-dessus viennent du livret pro de l'édition 2025 : ce sont des accréditations professionnelles et des salles annexes, pas le prix des grandes soirées au Parc Expo. Les concerts du Liberté étaient en entrée libre en 2025. Consulter la billetterie officielle.",
+  "prices_note": "Tarifs de l'édition 2026 relevés sur la billetterie officielle le 28/11/2026 (billetterie ouverte). Tarifs « Sortir! » de 6 à 40 € réservés aux bénéficiaires, aux bureaux des Trans ou à l'office de tourisme de Rennes.",
   "last_label": "Édition 2025",
   "last_dates": "3 – 7 décembre 2025",
   "lineup": [],
-  "lineup_note": "Programmation 2026 non relevée. Le festival se présente comme un défricheur de talents depuis 1979 : les artistes y passent souvent avant d'être connus.",
+  "lineup_note": "Programmation 2026 publiée sur le site officiel et l'appli du festival, non reprise sur cette fiche. Le festival se présente comme un défricheur de talents depuis 1979 : les artistes y passent souvent avant d'être connus.",
   "about": "Rendez-vous de décembre à Rennes consacré à la découverte : le festival programme des artistes émergents des musiques actuelles, avec des concerts publics et un volet professionnel (rencontres, conférences-concerts).",
   "access": [
    "Parc Expo à Bruz, à une dizaine de kilomètres du centre de Rennes (édition 2025)",
@@ -3173,6 +3212,14 @@
    [
     "Les Trans : livret pro et médias, édition 2025",
     "https://www.lestrans.com/wp-content/uploads/2025/11/trans2025-livret-pro-et-medias.pdf"
+   ],
+   [
+    "Les Trans : billetterie 2026",
+    "https://www.lestrans.com/le-festival/billetterie_trans/"
+   ],
+   [
+    "Les Trans : le Liberté pendant le festival (27/11/2026)",
+    "https://www.lestrans.com/article/trans2026-quest-ce-quil-se-passe-au-liberte/"
    ]
   ],
   "visiteurs": null,
@@ -4485,11 +4532,21 @@
     "gratuit"
    ]
   ],
-  "prices_note": "Grille de l'édition 2026 publiée par le festival (mémo tarifs et billetterie). Les tarifs 2027 seront publiés au printemps.",
+  "prices_note": "Grille de l'édition 2026 publiée par le festival (mémo tarifs et billetterie). Pour 2027 : prévente hivernale des premiers concerts du 1er décembre 2026 (9 h) au 31 janvier 2027, abonnements le 20 février 2027, billetterie hors abonnement le 27 février 2027 (site officiel). Les tarifs 2027 ne sont pas encore relevés.",
   "last_label": "",
   "last_dates": "",
-  "lineup": [],
-  "lineup_note": "",
+  "lineup": [
+   "Chucho Valdès Royal 4tet (1er mai)",
+   "Lizz Wright duo (1er mai)",
+   "DK Harrell + Little Big 6ster (4 mai)",
+   "Vincent Peirani Living Being IV Time Reflections (5 mai)",
+   "Rita Payés & Lucía Fumero (6 mai)",
+   "Guillaume Latil & Matheus Donato + invités (7 mai)",
+   "corto.alto (7 mai)",
+   "Thomas Dutronc Jazz Nights (8 mai)",
+   "Paul Lay & Lemanic Modern Ensemble (8 mai)"
+  ],
+  "lineup_note": "Premiers noms de la 46e édition, publiés sur le site officiel le 27 novembre 2026 ; la suite de la programmation viendra plus tard.",
   "about": "Festival de jazz à Coutances, dans la Manche. 46e édition en 2027.",
   "access": [
    "Billetterie à l'accueil des Unelles, en ligne ou par téléphone au 02 33 76 78 68"
@@ -4508,6 +4565,10 @@
    [
     "Jazz sous les Pommiers : mémo tarifs et billetterie 2026",
     "https://www.jazzsouslespommiers.com/wp-content/uploads/2026/03/memo-tarifs-et-billetterie-jslp-26.pdf"
+   ],
+   [
+    "Jazz sous les pommiers : premiers noms 2027 (27/11/2026)",
+    "https://www.jazzsouslespommiers.com/actualites_2027/festival-2027-les-premiers-noms/"
    ]
   ],
   "visiteurs": null,
@@ -4519,7 +4580,8 @@
   "geo": [
    49.0552,
    -1.4451
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -10236,11 +10298,13 @@
   "price_from": null,
   "price_label": "Tarifs 2027 non publiés",
   "prices": [],
-  "prices_note": "Billetterie 2027 pas encore ouverte (novembre 2026) : aucun tarif publié.",
+  "prices_note": "Billetterie 2027 pas encore ouverte : ouverture annoncée par le site officiel le 2 décembre 2026 à 20 h. Aucun tarif publié.",
   "last_label": "",
   "last_dates": "",
-  "lineup": [],
-  "lineup_note": "Aucun artiste 2027 annoncé.",
+  "lineup": [
+   "Jean-Louis Aubert (samedi 31 juillet)"
+  ],
+  "lineup_note": "Premier nom de l'édition 2027, annoncé sur le site officiel le 25 novembre 2026. Programmation complète et billetterie annoncées pour le 2 décembre 2026 à 20 h.",
   "about": "Festival du nord du Lot qui mêle ruralité, musique et développement durable, à Gignac près de Brive et Souillac. La 25e édition, en 2027, fêtera son anniversaire après l'annulation de 2026, interdite par la préfecture pendant un épisode de canicule.",
   "access": [],
   "tips": [
@@ -10259,6 +10323,10 @@
    [
     "Ecaussysteme : annulation de l'édition 2026",
     "https://www.ecaussysteme.com/annulation/"
+   ],
+   [
+    "Ecaussysteme : Jean-Louis Aubert en 2027 (25/11/2026)",
+    "https://www.ecaussysteme.com/jean-louis-aubert/"
    ]
   ],
   "liens": [
@@ -10270,7 +10338,8 @@
   "geo": [
    44.9863,
    1.4713
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "slug": "crammerock",
@@ -10548,7 +10617,8 @@
   "geo": [
    45.145,
    1.5144
-  ]
+  ],
+  "lineup_edition": "2027"
  },
  {
   "short": "",
@@ -11095,6 +11165,7 @@
   "geo": [
    47.4454,
    -1.5239
-  ]
+  ],
+  "lineup_edition": "2027"
  }
 ]
