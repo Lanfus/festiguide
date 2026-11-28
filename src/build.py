@@ -816,7 +816,8 @@ def build(fests):
                 data["organizer"] = {"@type": "Organization", "name": f["name"], "url": f["official"]}
             if f.get("lineup") and annee in (f.get("lineup_edition") or f.get("last_label") or ""):
                 # Line-up de l'édition datée uniquement (pas celui d'une édition passée)
-                data["performer"] = [{"@type": "PerformingGroup", "name": a} for a in f["lineup"]]
+                # Sans la précision entre parenthèses (« Muse (jeudi 15 juillet) » → « Muse »)
+                data["performer"] = [{"@type": "PerformingGroup", "name": re.sub(r"\s*\([^()]*\)$", "", a)} for a in f["lineup"]]
             if is_free(f) or (f.get("price_from") is not None and tarif_annee(f) == annee):
                 # Prix de l'édition datée uniquement : un tarif d'une édition passée n'est pas une offre
                 data["offers"] = {"@type": "Offer", "price": 0 if is_free(f) else f["price_from"], "priceCurrency": "EUR",
