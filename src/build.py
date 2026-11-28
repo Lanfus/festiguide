@@ -814,7 +814,7 @@ def build(fests):
             if f.get("official"):
                 # Le site officiel est celui de l'organisateur : on le désigne par le nom du festival.
                 data["organizer"] = {"@type": "Organization", "name": f["name"], "url": f["official"]}
-            if f.get("lineup") and annee in (f.get("last_label") or ""):
+            if f.get("lineup") and annee in (f.get("lineup_edition") or f.get("last_label") or ""):
                 # Line-up de l'édition datée uniquement (pas celui d'une édition passée)
                 data["performer"] = [{"@type": "PerformingGroup", "name": a} for a in f["lineup"]]
             if is_free(f) or (f.get("price_from") is not None and tarif_annee(f) == annee):
@@ -892,7 +892,7 @@ def build(fests):
 <p class="small">{esc(f.get("prices_note") or "")}</p>
 </section>
 </div>
-<section class="box"><h2>Programmation : {esc(f.get("last_label") or "dernière édition")}{(" (" + esc(f["last_dates"]) + ")") if f.get("last_dates") else ""}</h2>
+<section class="box"><h2>{("Programmation " + esc(f["lineup_edition"])) if f.get("lineup_edition") else ("Programmation : " + esc(f.get("last_label") or "dernière édition") + ((" (" + esc(f["last_dates"]) + ")") if f.get("last_dates") else ""))}</h2>
 {chips}
 <p class="small">{esc(f.get("lineup_note") or "")}</p>
 </section>
