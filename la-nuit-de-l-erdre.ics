@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FestiGuide//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:la-nuit-de-l-erdre-20270701@lanfus.github.io
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270705
+SUMMARY:La Nuit de l'Erdre
+LOCATION:Parc du Port Mulon\, Nort-sur-Erdre (Loire-Atlantique)
+DESCRIPTION:Fiche FestiGuide : https://lefestiguide.fr/la-nuit-de-l-erdre.html
+URL:https://lanuitdelerdre.fr/
+END:VEVENT
+END:VCALENDAR

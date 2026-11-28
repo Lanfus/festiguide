@@ -10940,5 +10940,140 @@
    50.6957,
    4.0412
   ]
+ },
+ {
+  "slug": "la-nuit-de-l-erdre",
+  "name": "La Nuit de l'Erdre",
+  "short": "",
+  "city": "Nort-sur-Erdre",
+  "country": "France",
+  "region": "Pays de la Loire",
+  "venue": "Parc du Port Mulon, Nort-sur-Erdre (Loire-Atlantique)",
+  "maps_q": "Parc du Port Mulon Nort-sur-Erdre",
+  "genres": [
+   "Pop",
+   "Rock",
+   "Électro",
+   "Chanson"
+  ],
+  "mois": [
+   "juillet"
+  ],
+  "dates": "1er au 4 juillet 2027",
+  "iso": [
+   "2027-07-01",
+   "2027-07-04"
+  ],
+  "status": "Dates annoncées",
+  "status_note": "Site officiel et visuel de l'édition : « 1.2.3.4 juillet 2027 », 27e édition. Premiers artistes 2027 annoncés sur la page programmation.",
+  "price_from": 58,
+  "price_label": "58 € la journée (édition 2027)",
+  "prices": [
+   [
+    "Pass 1 jour (édition 2027)",
+    "58 €"
+   ],
+   [
+    "Pass 2 jours consécutifs (édition 2027)",
+    "106 €"
+   ],
+   [
+    "Pass 3 jours (édition 2027)",
+    "149 €"
+   ],
+   [
+    "Pass 4 jours (édition 2027)",
+    "191 €"
+   ],
+   [
+    "Tarif réduit 11-17 ans, par jour, sur inscription (édition 2027)",
+    "53 €"
+   ],
+   [
+    "Enfant de moins de 11 ans, sur réservation",
+    "Gratuit"
+   ],
+   [
+    "Camping standard, les 4 jours (édition 2027)",
+    "15 €"
+   ]
+  ],
+  "prices_note": "Tarifs de l'édition 2027 relevés sur la billetterie officielle le 28/11/2026, hors frais de location. La page billetterie signale déjà des billets épuisés pour certaines catégories : vérifier la disponibilité avant de prévoir le déplacement. Camping « Le Tout Confort » (tentes montées) en supplément.",
+  "last_label": "",
+  "last_dates": "",
+  "lineup": [
+   "Major Lazer",
+   "Jean-Louis Aubert",
+   "Vianney",
+   "Gaëtan Roussel",
+   "Vitalic",
+   "Timmy Trumpet",
+   "Hoshi",
+   "Adèle Castillon",
+   "TeddyBear",
+   "Trinix",
+   "La Rvfleuze",
+   "Sam Sauvage",
+   "Coline Rio"
+  ],
+  "lineup_note": "Premiers noms de l'édition 2027 annoncés sur le site officiel (relevé du 28/11/2026), d'autres artistes peuvent suivre.",
+  "about": "Grand rendez-vous estival de Loire-Atlantique, installé au bord de l'Erdre dans le parc du Port Mulon, à environ 25 km au nord de Nantes. Quatre soirées début juillet mêlent têtes d'affiche de la chanson et de la pop françaises, rock et grosses scènes électro, avec un camping à quelques minutes à pied du site.",
+  "access": [
+   "En tram-train depuis Nantes ou Châteaubriant : environ 35 minutes, billet dédié au festival à 5 € le trajet ; la gare est à une vingtaine de minutes à pied du site",
+   "En navette : trois lignes aller-retour mises en place chaque jour du festival",
+   "En voiture : grand parking pour les festivaliers, et un parking surveillé près du camping pour les campeurs",
+   "À vélo : parking vélo sécurisé rue des Brosses, face à l'entrée"
+  ],
+  "tips": [
+   "Camping standard à 15 € pour les quatre jours, surveillé jour et nuit, avec douches chaudes, à environ 15 minutes à pied du festival",
+   "Vans et camping-cars : espace gratuit près du camping, sans eau ni électricité",
+   "Les billets à tarif réduit (11-17 ans) et les entrées gratuites des moins de 11 ans se font sur inscription, en quantité limitée",
+   "Personnes à mobilité réduite : plateforme dédiée, parking et navette adaptée jusqu'à l'entrée"
+  ],
+  "official": "https://lanuitdelerdre.fr/",
+  "sources": [
+   [
+    "La Nuit de l'Erdre : site officiel (dates 2027)",
+    "https://lanuitdelerdre.fr/"
+   ],
+   [
+    "La Nuit de l'Erdre : billetterie officielle (tarifs 2027)",
+    "https://lanuitdelerdre.fr/billetterie/"
+   ],
+   [
+    "La Nuit de l'Erdre : programmation 2027",
+    "https://lanuitdelerdre.fr/programmation/"
+   ],
+   [
+    "La Nuit de l'Erdre : venir au festival",
+    "https://lanuitdelerdre.fr/infos-pratiques/venir/"
+   ],
+   [
+    "La Nuit de l'Erdre : camping",
+    "https://lanuitdelerdre.fr/camping/"
+   ]
+  ],
+  "liens": [
+   [
+    "Venir au festival",
+    "https://lanuitdelerdre.fr/infos-pratiques/venir/"
+   ],
+   [
+    "Camping",
+    "https://lanuitdelerdre.fr/camping/"
+   ],
+   [
+    "FAQ",
+    "https://lanuitdelerdre.fr/infos-pratiques/faq/"
+   ],
+   [
+    "Accessibilité",
+    "https://lanuitdelerdre.fr/accessibilite/"
+   ]
+  ],
+  "geo": [
+   47.4454,
+   -1.5239
+  ]
  }
 ]
