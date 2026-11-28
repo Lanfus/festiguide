@@ -8,7 +8,7 @@ OPT = {"short": "", "region": None, "venue": None, "maps_q": None, "genres": [],
        "iso": None, "status": "Dates à confirmer", "status_note": "", "price_from": None,
        "price_label": "Tarifs non publiés", "prices": [], "prices_note": "", "last_label": "",
        "last_dates": "", "lineup": [], "lineup_note": "", "about": "", "access": [], "tips": [],
-       "official": "", "sources": [], "liens": [], "visiteurs": None, "visiteurs_note": "", "geo": None, "nom_seo": ""}
+       "official": "", "sources": [], "liens": [], "visiteurs": None, "visiteurs_note": "", "geo": None, "nom_seo": "", "lineup_edition": ""}
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
         "septembre", "octobre", "novembre", "décembre"]
 MOIS_N = {unicodedata.normalize("NFD", m).encode("ascii", "ignore").decode(): m for m in MOIS}
