@@ -46,6 +46,16 @@ Champs obligatoires : `slug`, `name`, `city`, `country`. Tout le reste a une val
 - `lineup_edition` (facultatif, ex. `"2027"`) : édition à laquelle appartient `lineup`, quand ce n'est pas `last_label`. Le titre de la section devient « Programmation 2027 » et le JSON-LD `performer` est rempli si elle égale l'année de `iso`. Sans ce champ, la section s'intitule « Programmation : <last_label> » : à remplir dès qu'un line-up de la prochaine édition remplace celui de la précédente (ajouté le 28/11/2026 pour le Hellfest).
 - `geo` (facultatif) : `[latitude, longitude]` du centre de la commune du festival (geo.api.gouv.fr pour la France, OpenStreetMap Nominatim pour la Belgique, récupéré une fois le 20/11/2026). Sert uniquement au tri « Près de chez moi » de l'accueil : la position du visiteur est demandée par le navigateur au clic, la distance est calculée dans la page, rien n'est envoyé ni enregistré. Absent pour la Fête de la Musique et Sons d'Hiver (plusieurs villes).
 
+## Brief quotidien : mise à jour des fiches en retard (décidé par Florent le 28/11/2026)
+
+Cette règle prime sur la consigne « ne modifie pas les dates, tarifs ni line-up » de la tâche planifiée « Brief et SEO quotidien FestiGuide ». Quand le brief trouve une annonce récente (line-up, billetterie ouverte ou épuisée, tirage au sort, dates, annulation) sur un festival de l'annuaire dont la fiche est en retard, il met la fiche à jour dans `src/festivals.json`, **dans sa pull request du jour** (jamais directement sur `main`). Conditions :
+- l'information vient du site officiel, de la billetterie officielle, d'un office de tourisme ou de la ville, ou de deux médias reconnus qui concordent (Ouest-France, Le Parisien, JDS, Sortiraparis…) ; jamais d'un agrégateur seul ;
+- un prix qui ne vient pas de la source officielle le dit dans son libellé (« prix relevé par JDS, non affiché sur la billetterie ») ;
+- chaque source est ajoutée dans `sources` ; `lineup_note`, `status_note` ou `prices_note` disent l'édition et la date de l'annonce ;
+- un line-up de la prochaine édition qui remplace l'ancien a `lineup_edition` ; une liste qui mélange deux éditions n'est pas touchée sans tri, elle est signalée ;
+- `iso` et les dates suivent les règles ci-dessous (source officielle uniquement) ; en cas de doute ou de sources contradictoires, rien ne change et le brief le signale ;
+- la PR contient un tableau avant/après par fiche modifiée, avec les sources. Aucun nouveau festival n'est ajouté par le brief : les pistes d'ajout restent signalées.
+
 ## Ce qu'il ne faut pas faire
 
 - **Ne jamais inventer** une date, un tarif ou un artiste. Si l'information n'est pas dans une source consultée, mettre `null` et l'expliquer dans `status_note` ou `prices_note`. C'est un site d'information : une fausse date fait rater un festival à quelqu'un.
