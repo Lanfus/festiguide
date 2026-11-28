@@ -93,7 +93,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Rampage](https://lefestiguide.fr/rampage.html): Anvers, À confirmer
 - [Panoramas Festival](https://lefestiguide.fr/panoramas-festival.html): Morlaix, 14 – 17 avril 2027
 - [Le Printemps de Bourges](https://lefestiguide.fr/printemps-de-bourges.html): Bourges (Cher), 20 – 25 avril 2027
-- [Jazz sous les Pommiers](https://lefestiguide.fr/jazz-sous-les-pommiers.html): Coutances, 1 – 8 mai 2027
+- [Jazz sous les Pommiers](https://lefestiguide.fr/jazz-sous-les-pommiers.html): Coutances, 1er – 8 mai 2027
 - [Nuits sonores](https://lefestiguide.fr/nuits-sonores.html): Lyon (Rhône), 5 – 9 mai 2027
 - [Horst Music Festival](https://lefestiguide.fr/horst-music-festival.html): Bruxelles, 6 – 8 mai 2027
 - [FIMU - Festival International de Musique de Belfort](https://lefestiguide.fr/fimu.html): Belfort (Territoire de Belfort), 13 au 16 mai 2027
@@ -131,11 +131,11 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Couleur Café](https://lefestiguide.fr/couleur-cafe.html): Bruxelles, À confirmer
 - [Festival de Saint-Denis](https://lefestiguide.fr/festival-de-saint-denis.html): Saint-Denis, À confirmer
 - [Musiques Métisses](https://lefestiguide.fr/musiques-metisses.html): Angoulême, À confirmer
-- [Les Ardentes](https://lefestiguide.fr/les-ardentes.html): Liège (Rocourt), 1 – 4 juillet 2027
-- [Festival d'Aix-en-Provence](https://lefestiguide.fr/festival-d-aix-en-provence.html): Aix-en-Provence (Bouches-du-Rhône), 1 – 20 juillet 2027
-- [Rock Werchter](https://lefestiguide.fr/rock-werchter.html): Werchter, 1 – 4 juillet 2027
-- [Calvi on the Rocks](https://lefestiguide.fr/calvi-on-the-rocks.html): Calvi, 1 – 4 juillet 2027
-- [Gent Jazz](https://lefestiguide.fr/gent-jazz.html): Gand, 1 – 17 juillet 2027
+- [Les Ardentes](https://lefestiguide.fr/les-ardentes.html): Liège (Rocourt), 1er – 4 juillet 2027
+- [Festival d'Aix-en-Provence](https://lefestiguide.fr/festival-d-aix-en-provence.html): Aix-en-Provence (Bouches-du-Rhône), 1er – 20 juillet 2027
+- [Rock Werchter](https://lefestiguide.fr/rock-werchter.html): Werchter, 1er – 4 juillet 2027
+- [Calvi on the Rocks](https://lefestiguide.fr/calvi-on-the-rocks.html): Calvi, 1er – 4 juillet 2027
+- [Gent Jazz](https://lefestiguide.fr/gent-jazz.html): Gand, 1er – 17 juillet 2027
 - [La Nuit de l'Erdre](https://lefestiguide.fr/la-nuit-de-l-erdre.html): Nort-sur-Erdre, 1er au 4 juillet 2027
 - [Les Eurockéennes de Belfort](https://lefestiguide.fr/eurockeennes-de-belfort.html): Belfort (Territoire de Belfort), 2 – 5 juillet 2027
 - [Main Square Festival](https://lefestiguide.fr/main-square-festival.html): Arras (Pas-de-Calais), 2 – 4 juillet 2027
@@ -159,7 +159,7 @@ Règles de lecture : une date n'est donnée comme confirmée (« Dates annoncée
 - [Les Nuits Secrètes](https://lefestiguide.fr/les-nuits-secretes.html): Aulnoye-Aymeries, 23 – 25 juillet 2027
 - [Festival Pablo Casals](https://lefestiguide.fr/festival-pablo-casals.html): Prades, 26 juillet – 6 août 2027
 - [Festival Interceltique de Lorient](https://lefestiguide.fr/festival-interceltique-de-lorient.html): Lorient (Morbihan), 30 juillet – 8 août 2027
-- [Festival du Bout du Monde](https://lefestiguide.fr/festival-du-bout-du-monde.html): Crozon, 30 juillet – 1 août 2027
+- [Festival du Bout du Monde](https://lefestiguide.fr/festival-du-bout-du-monde.html): Crozon, 30 juillet – 1er août 2027
 - [Au Pont du Rock](https://lefestiguide.fr/au-pont-du-rock.html): Malestroit, 30 – 31 juillet 2027
 - [Lokerse Feesten](https://lefestiguide.fr/lokerse-feesten.html): Lokeren, 30 juillet – 8 août 2027
 - [Esperanzah!](https://lefestiguide.fr/esperanzah.html): Charleroi, 30 juillet – 1er août 2027

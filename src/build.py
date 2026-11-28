@@ -29,7 +29,14 @@ LASTMOD_FILE = Path(__file__).resolve().parent / "lastmod.json"
 
 def date_fr(iso):
     a, m, j = iso.split("-")
-    return f"{int(j)} {MOIS_ORDRE[int(m) - 1]} {a}"
+    return f"{'1er' if int(j) == 1 else int(j)} {MOIS_ORDRE[int(m) - 1]} {a}"
+
+
+def premier(s):
+    """Typographie : « 1 – 4 juillet » → « 1er – 4 juillet », « 30 juillet – 1 août » → « 30 juillet – 1er août ».
+    Appliqué seulement à l'affichage (build) : festivals.json garde le texte tel que la mise à jour l'écrit."""
+    mois = "|".join(MOIS_ORDRE)
+    return re.sub(rf"(?<![\d,.])1(?= (?:–|-|au \d|(?:{mois})\b))", "1er", s or "")
 
 
 def fiche_dates(fests):
@@ -179,15 +186,25 @@ def annee_cible(fests):
     return annees.most_common(1)[0][0] if annees else None
 
 
+GENRES_PROGRAMME = {"Musique classique", "Opéra", "Musique baroque", "Musique sacrée", "Musique contemporaine"}
+
+
+def mot_lineup(f):
+    """« programme » pour le classique et l'opéra (requêtes Search Console du 28/11/2026 :
+    « festival aix en provence 2027 programme », « programme opéra aix en provence 2027 »), « line-up » sinon."""
+    return "programme" if set(f.get("genres") or []) & GENRES_PROGRAMME else "line-up"
+
+
 def make_title(f):
     """Titre de page de 60 caractères maximum (au-delà, Google le coupe).
     L'année n'apparaît que si les dates sont confirmées (« hellfest 2027 » est ce que les gens cherchent)."""
     n = f.get("nom_seo") or f.get("short") or f["name"]
     an = f["iso"][0][:4] if f.get("iso") else None
+    lu = mot_lineup(f)
     noms = [f"{n} {an}", n] if an and an not in n else [n]
     for nom in noms:
-        for t in (f"{nom} : dates, prix, line-up et accès | {SITE}", f"{nom} : dates, prix et line-up | {SITE}",
-                  f"{nom} : dates, prix, line-up", f"{nom} : dates et prix"):
+        for t in (f"{nom} : dates, prix, {lu} et accès | {SITE}", f"{nom} : dates, prix et {lu} | {SITE}",
+                  f"{nom} : dates, prix, {lu}", f"{nom} : dates et prix"):
             if len(t) <= 60:
                 return t
     return f"{n} | {SITE}"
@@ -265,6 +282,32 @@ def prix_extrait(f):
     return txt + (f" ({', '.join(extra)})" if extra else "")
 
 
+def disponibilite(f):
+    """« availability » de l'offre JSON-LD (demandé par Search Console, données structurées Événements),
+    déduit uniquement des notes sourcées de la fiche, jamais deviné :
+    - SoldOut : le tarif affiché (price_label) est marqué épuisé / sold out / complet ;
+    - InStock : entrée libre, ou les notes disent que la billetterie est ouverte ou que les tarifs ont été
+      relevés sur la billetterie officielle, sans aucune mention d'épuisement ni d'ouverture encore à venir ;
+    - None (champ absent) dans tous les autres cas, par exemple quand une partie des billets est épuisée."""
+    import datetime
+    if is_free(f):
+        return "InStock"
+    if re.search(r"\bepuis|\bsold ?out|\bcomplet", norm(f.get("price_label") or "")):
+        return "SoldOut"
+    notes = norm(" ".join([f.get("prices_note") or "", f.get("status_note") or ""]))
+    if re.search(r"\bepuis|\bsold ?out|\bcomplet|pas encore en vente|pas encore ouverte", notes):
+        return None
+    mois = "|".join(norm(m) for m in MOIS_ORDRE)
+    today = datetime.date.today()
+    for j, m, a in re.findall(rf"(?:\bouv\w*|mise? en vente|en vente)\D{{0,25}}?(\d{{1,2}})(?:er)? ({mois}) (20\d\d)", notes):
+        if datetime.date(int(a), [norm(x) for x in MOIS_ORDRE].index(m) + 1, int(j)) > today:
+            return None  # billetterie qui n'ouvre que plus tard
+    if re.search(r"billetterie (officielle )?(est )?ouverte|billets? (sont )?en vente|en vente depuis|ouverte depuis"
+                 r"|(releves?|publies?|affiches?) sur (la page )?(la )?billetterie", notes):
+        return "InStock"
+    return None
+
+
 def sans_accent(t):
     return unicodedata.normalize("NFD", t).encode("ascii", "ignore").decode()
 
@@ -304,7 +347,7 @@ def make_desc(f):
     else:
         tete = f'{nom}{" " + lieu if lieu else ""} : prochaines dates à confirmer.'
     prix = prix_extrait(f)
-    infos = [mot for champ, mot in (("lineup", "line-up"), ("access", "accès"), ("tips", "conseils")) if f.get(champ)]
+    infos = [mot for champ, mot in (("lineup", mot_lineup(f)), ("access", "accès"), ("tips", "conseils")) if f.get(champ)]
     if not prix and f.get("prices"):
         infos.insert(0, "prix des billets")
     while True:
@@ -518,11 +561,13 @@ def group_page(d, defs, fests):
     fin = f" Dates, prix et accès, dont {len(conf)} aux dates confirmées."
     desc = f"{tete} :{fin}"
     noms = []
-    for g in d["list"][:4]:
+    for g in d["list"]:
+        if len(noms) == 4:
+            break
         cand = noms + [g.get("short") or g["name"]]
         essai = f"{tete} : {', '.join(cand)}…{fin}"
         if len(essai) > 160:
-            break
+            continue  # nom trop long : on essaie le suivant au lieu de s'arrêter (descriptions < 140)
         noms = cand
     if noms:
         desc = f"{tete} : {', '.join(noms)}…{fin}"
@@ -655,7 +700,8 @@ def budget_fields(f):
 def build(fests):
     global UPDATED
     OUT.mkdir(parents=True, exist_ok=True)
-    LASTMOD = fiche_dates(fests)
+    LASTMOD = fiche_dates(fests)  # empreinte des données brutes : la typographie ci-dessous ne change pas « Mis à jour le »
+    fests = [dict(f, **{k: premier(f[k]) for k in ("dates", "last_dates") if f.get(k)}) for f in fests]
     UPDATED = date_fr(max(LASTMOD.values()))
     fests = sorted(fests, key=tri_key)
     defs = group_defs(fests)
@@ -775,8 +821,9 @@ def build(fests):
                 # Prix de l'édition datée uniquement : un tarif d'une édition passée n'est pas une offre
                 data["offers"] = {"@type": "Offer", "price": 0 if is_free(f) else f["price_from"], "priceCurrency": "EUR",
                                   "url": f.get("official") or f'{BASE_URL}/{f["slug"]}.html'}
-                if "épuis" in norm(f.get("price_label") or "") or "epuis" in norm(f.get("price_label") or ""):
-                    data["offers"]["availability"] = "https://schema.org/SoldOut"
+                dispo = disponibilite(f)
+                if dispo:
+                    data["offers"]["availability"] = f"https://schema.org/{dispo}"
             ld +='<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + "</script>\n"
         p = head(make_title(f), desc, f'{BASE_URL}/{f["slug"]}.html', ld)
         voisins = "".join(
@@ -1266,7 +1313,9 @@ def build_legal(nb):
 
     # ---------- confidentialité ----------
     legal_page("confidentialite.html", "Politique de confidentialité",
-               f"Comment {SITE} traite vos données personnelles : aucune collecte directe, pas de compte, pas de publicité, pas de revente.", f'''
+               (f"Données personnelles sur {SITE} : aucun compte, aucun cookie, ni publicité ni revente. Seule l'alerte e-mail, facultative, collecte votre adresse e-mail."
+                if NEWSLETTER_ACTION else
+                f"Comment {SITE} traite vos données personnelles : aucune collecte directe, pas de compte, pas de publicité, pas de revente."), f'''
 <section class="box"><h2>En résumé</h2>
 <ul class="facts">
 {resume_collecte}
