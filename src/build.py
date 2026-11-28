@@ -272,6 +272,32 @@ def prix_extrait(f):
     return txt + (f" ({', '.join(extra)})" if extra else "")
 
 
+def disponibilite(f):
+    """« availability » de l'offre JSON-LD (demandé par Search Console, données structurées Événements),
+    déduit uniquement des notes sourcées de la fiche, jamais deviné :
+    - SoldOut : le tarif affiché (price_label) est marqué épuisé / sold out / complet ;
+    - InStock : entrée libre, ou les notes disent que la billetterie est ouverte ou que les tarifs ont été
+      relevés sur la billetterie officielle, sans aucune mention d'épuisement ni d'ouverture encore à venir ;
+    - None (champ absent) dans tous les autres cas, par exemple quand une partie des billets est épuisée."""
+    import datetime
+    if is_free(f):
+        return "InStock"
+    if re.search(r"\bepuis|\bsold ?out|\bcomplet", norm(f.get("price_label") or "")):
+        return "SoldOut"
+    notes = norm(" ".join([f.get("prices_note") or "", f.get("status_note") or ""]))
+    if re.search(r"\bepuis|\bsold ?out|\bcomplet|pas encore en vente|pas encore ouverte", notes):
+        return None
+    mois = "|".join(norm(m) for m in MOIS_ORDRE)
+    today = datetime.date.today()
+    for j, m, a in re.findall(rf"(?:\bouv\w*|mise? en vente|en vente)\D{{0,25}}?(\d{{1,2}})(?:er)? ({mois}) (20\d\d)", notes):
+        if datetime.date(int(a), [norm(x) for x in MOIS_ORDRE].index(m) + 1, int(j)) > today:
+            return None  # billetterie qui n'ouvre que plus tard
+    if re.search(r"billetterie (officielle )?(est )?ouverte|billets? (sont )?en vente|en vente depuis|ouverte depuis"
+                 r"|(releves?|publies?|affiches?) sur (la page )?(la )?billetterie", notes):
+        return "InStock"
+    return None
+
+
 def sans_accent(t):
     return unicodedata.normalize("NFD", t).encode("ascii", "ignore").decode()
 
@@ -785,8 +811,9 @@ def build(fests):
                 # Prix de l'édition datée uniquement : un tarif d'une édition passée n'est pas une offre
                 data["offers"] = {"@type": "Offer", "price": 0 if is_free(f) else f["price_from"], "priceCurrency": "EUR",
                                   "url": f.get("official") or f'{BASE_URL}/{f["slug"]}.html'}
-                if "épuis" in norm(f.get("price_label") or "") or "epuis" in norm(f.get("price_label") or ""):
-                    data["offers"]["availability"] = "https://schema.org/SoldOut"
+                dispo = disponibilite(f)
+                if dispo:
+                    data["offers"]["availability"] = f"https://schema.org/{dispo}"
             ld +='<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + "</script>\n"
         p = head(make_title(f), desc, f'{BASE_URL}/{f["slug"]}.html', ld)
         voisins = "".join(
