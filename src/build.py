@@ -29,7 +29,14 @@ LASTMOD_FILE = Path(__file__).resolve().parent / "lastmod.json"
 
 def date_fr(iso):
     a, m, j = iso.split("-")
-    return f"{int(j)} {MOIS_ORDRE[int(m) - 1]} {a}"
+    return f"{'1er' if int(j) == 1 else int(j)} {MOIS_ORDRE[int(m) - 1]} {a}"
+
+
+def premier(s):
+    """Typographie : « 1 – 4 juillet » → « 1er – 4 juillet », « 30 juillet – 1 août » → « 30 juillet – 1er août ».
+    Appliqué seulement à l'affichage (build) : festivals.json garde le texte tel que la mise à jour l'écrit."""
+    mois = "|".join(MOIS_ORDRE)
+    return re.sub(rf"(?<![\d,.])1(?= (?:–|-|au \d|(?:{mois})\b))", "1er", s or "")
 
 
 def fiche_dates(fests):
@@ -657,7 +664,8 @@ def budget_fields(f):
 def build(fests):
     global UPDATED
     OUT.mkdir(parents=True, exist_ok=True)
-    LASTMOD = fiche_dates(fests)
+    LASTMOD = fiche_dates(fests)  # empreinte des données brutes : la typographie ci-dessous ne change pas « Mis à jour le »
+    fests = [dict(f, **{k: premier(f[k]) for k in ("dates", "last_dates") if f.get(k)}) for f in fests]
     UPDATED = date_fr(max(LASTMOD.values()))
     fests = sorted(fests, key=tri_key)
     defs = group_defs(fests)
