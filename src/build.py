@@ -186,15 +186,25 @@ def annee_cible(fests):
     return annees.most_common(1)[0][0] if annees else None
 
 
+GENRES_PROGRAMME = {"Musique classique", "Opéra", "Musique baroque", "Musique sacrée", "Musique contemporaine"}
+
+
+def mot_lineup(f):
+    """« programme » pour le classique et l'opéra (requêtes Search Console du 28/11/2026 :
+    « festival aix en provence 2027 programme », « programme opéra aix en provence 2027 »), « line-up » sinon."""
+    return "programme" if set(f.get("genres") or []) & GENRES_PROGRAMME else "line-up"
+
+
 def make_title(f):
     """Titre de page de 60 caractères maximum (au-delà, Google le coupe).
     L'année n'apparaît que si les dates sont confirmées (« hellfest 2027 » est ce que les gens cherchent)."""
     n = f.get("nom_seo") or f.get("short") or f["name"]
     an = f["iso"][0][:4] if f.get("iso") else None
+    lu = mot_lineup(f)
     noms = [f"{n} {an}", n] if an and an not in n else [n]
     for nom in noms:
-        for t in (f"{nom} : dates, prix, line-up et accès | {SITE}", f"{nom} : dates, prix et line-up | {SITE}",
-                  f"{nom} : dates, prix, line-up", f"{nom} : dates et prix"):
+        for t in (f"{nom} : dates, prix, {lu} et accès | {SITE}", f"{nom} : dates, prix et {lu} | {SITE}",
+                  f"{nom} : dates, prix, {lu}", f"{nom} : dates et prix"):
             if len(t) <= 60:
                 return t
     return f"{n} | {SITE}"
@@ -337,7 +347,7 @@ def make_desc(f):
     else:
         tete = f'{nom}{" " + lieu if lieu else ""} : prochaines dates à confirmer.'
     prix = prix_extrait(f)
-    infos = [mot for champ, mot in (("lineup", "line-up"), ("access", "accès"), ("tips", "conseils")) if f.get(champ)]
+    infos = [mot for champ, mot in (("lineup", mot_lineup(f)), ("access", "accès"), ("tips", "conseils")) if f.get(champ)]
     if not prix and f.get("prices"):
         infos.insert(0, "prix des billets")
     while True:
